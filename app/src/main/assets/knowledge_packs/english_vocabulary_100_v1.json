@@ -1,0 +1,1419 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "sample_english_vocabulary_100",
+    "title": "英语词汇测试示例包",
+    "version": 1,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1784505600,
+    "minimum_app_version_code": 17,
+    "question_count": 100,
+    "content_types": [
+      "english_vocabulary"
+    ],
+    "signing_key_id": "bundled_sample_test_v1"
+  },
+  "facts": [
+    {
+      "id": "en_vocab_001_abandon",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“abandon”最接近以下哪个中文意思？",
+      "answer": "放弃",
+      "accepted_aliases": [],
+      "distractors": [
+        "避免",
+        "努力",
+        "语言"
+      ],
+      "explanation": "“abandon”是常用英文词汇，在本题语境中的意思是“放弃”。"
+    },
+    {
+      "id": "en_vocab_002_ability",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“ability”最接近以下哪个中文意思？",
+      "answer": "能力",
+      "accepted_aliases": [],
+      "distractors": [
+        "平衡",
+        "鼓励",
+        "管理"
+      ],
+      "explanation": "“ability”是常用英文词汇，在本题语境中的意思是“能力”。"
+    },
+    {
+      "id": "en_vocab_003_absorb",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“absorb”最接近以下哪个中文意思？",
+      "answer": "吸收",
+      "accepted_aliases": [],
+      "distractors": [
+        "益处",
+        "能量",
+        "记忆"
+      ],
+      "explanation": "“absorb”是常用英文词汇，在本题语境中的意思是“吸收”。"
+    },
+    {
+      "id": "en_vocab_004_accurate",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“accurate”最接近以下哪个中文意思？",
+      "answer": "准确的",
+      "accepted_aliases": [],
+      "distractors": [
+        "借入",
+        "环境",
+        "方法"
+      ],
+      "explanation": "“accurate”是常用英文词汇，在本题语境中的意思是“准确的”。"
+    },
+    {
+      "id": "en_vocab_005_achieve",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“achieve”最接近以下哪个中文意思？",
+      "answer": "实现",
+      "accepted_aliases": [],
+      "distractors": [
+        "勇敢的",
+        "相等的",
+        "必需的"
+      ],
+      "explanation": "“achieve”是常用英文词汇，在本题语境中的意思是“实现”。"
+    },
+    {
+      "id": "en_vocab_006_adapt",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“adapt”最接近以下哪个中文意思？",
+      "answer": "适应",
+      "accepted_aliases": [],
+      "distractors": [
+        "呼吸",
+        "逃脱",
+        "注意到"
+      ],
+      "explanation": "“adapt”是常用英文词汇，在本题语境中的意思是“适应”。"
+    },
+    {
+      "id": "en_vocab_007_admire",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“admire”最接近以下哪个中文意思？",
+      "answer": "钦佩",
+      "accepted_aliases": [],
+      "distractors": [
+        "简短的",
+        "必要的",
+        "提供"
+      ],
+      "explanation": "“admire”是常用英文词汇，在本题语境中的意思是“钦佩”。"
+    },
+    {
+      "id": "en_vocab_008_advice",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“advice”最接近以下哪个中文意思？",
+      "answer": "建议",
+      "accepted_aliases": [],
+      "distractors": [
+        "平静的",
+        "检查",
+        "观点"
+      ],
+      "explanation": "“advice”是常用英文词汇，在本题语境中的意思是“建议”。"
+    },
+    {
+      "id": "en_vocab_009_afford",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“afford”最接近以下哪个中文意思？",
+      "answer": "负担得起",
+      "accepted_aliases": [],
+      "distractors": [
+        "职业",
+        "例子",
+        "有耐心的"
+      ],
+      "explanation": "“afford”是常用英文词汇，在本题语境中的意思是“负担得起”。"
+    },
+    {
+      "id": "en_vocab_010_ancient",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“ancient”最接近以下哪个中文意思？",
+      "answer": "古老的",
+      "accepted_aliases": [],
+      "distractors": [
+        "原因",
+        "经历",
+        "表演"
+      ],
+      "explanation": "“ancient”是常用英文词汇，在本题语境中的意思是“古老的”。"
+    },
+    {
+      "id": "en_vocab_011_announce",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“announce”最接近以下哪个中文意思？",
+      "answer": "宣布",
+      "accepted_aliases": [],
+      "distractors": [
+        "庆祝",
+        "解释",
+        "可能的"
+      ],
+      "explanation": "“announce”是常用英文词汇，在本题语境中的意思是“宣布”。"
+    },
+    {
+      "id": "en_vocab_012_anxious",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“anxious”最接近以下哪个中文意思？",
+      "answer": "焦虑的",
+      "accepted_aliases": [],
+      "distractors": [
+        "挑战",
+        "熟悉的",
+        "练习"
+      ],
+      "explanation": "“anxious”是常用英文词汇，在本题语境中的意思是“焦虑的”。"
+    },
+    {
+      "id": "en_vocab_013_appear",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“appear”最接近以下哪个中文意思？",
+      "answer": "出现",
+      "accepted_aliases": [],
+      "distractors": [
+        "选择",
+        "著名的",
+        "准备"
+      ],
+      "explanation": "“appear”是常用英文词汇，在本题语境中的意思是“出现”。"
+    },
+    {
+      "id": "en_vocab_014_approach",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“approach”最接近以下哪个中文意思？",
+      "answer": "接近",
+      "accepted_aliases": [],
+      "distractors": [
+        "常见的",
+        "特征",
+        "防止"
+      ],
+      "explanation": "“approach”是常用英文词汇，在本题语境中的意思是“接近”。"
+    },
+    {
+      "id": "en_vocab_015_argue",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“argue”最接近以下哪个中文意思？",
+      "answer": "争论",
+      "accepted_aliases": [],
+      "distractors": [
+        "比较",
+        "专注",
+        "进步"
+      ],
+      "explanation": "“argue”是常用英文词汇，在本题语境中的意思是“争论”。"
+    },
+    {
+      "id": "en_vocab_016_arrange",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“arrange”最接近以下哪个中文意思？",
+      "answer": "安排",
+      "accepted_aliases": [],
+      "distractors": [
+        "完成",
+        "频繁的",
+        "保护"
+      ],
+      "explanation": "“arrange”是常用英文词汇，在本题语境中的意思是“安排”。"
+    },
+    {
+      "id": "en_vocab_017_attempt",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“attempt”最接近以下哪个中文意思？",
+      "answer": "尝试",
+      "accepted_aliases": [],
+      "distractors": [
+        "自信的",
+        "未来",
+        "目的"
+      ],
+      "explanation": "“attempt”是常用英文词汇，在本题语境中的意思是“尝试”。"
+    },
+    {
+      "id": "en_vocab_018_avoid",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“avoid”最接近以下哪个中文意思？",
+      "answer": "避免",
+      "accepted_aliases": [],
+      "distractors": [
+        "连接",
+        "慷慨的",
+        "意识到"
+      ],
+      "explanation": "“avoid”是常用英文词汇，在本题语境中的意思是“避免”。"
+    },
+    {
+      "id": "en_vocab_019_balance",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“balance”最接近以下哪个中文意思？",
+      "answer": "平衡",
+      "accepted_aliases": [],
+      "distractors": [
+        "考虑",
+        "温和的",
+        "收到"
+      ],
+      "explanation": "“balance”是常用英文词汇，在本题语境中的意思是“平衡”。"
+    },
+    {
+      "id": "en_vocab_020_benefit",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“benefit”最接近以下哪个中文意思？",
+      "answer": "益处",
+      "accepted_aliases": [],
+      "distractors": [
+        "继续",
+        "习惯",
+        "减少"
+      ],
+      "explanation": "“benefit”是常用英文词汇，在本题语境中的意思是“益处”。"
+    },
+    {
+      "id": "en_vocab_021_borrow",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“borrow”最接近以下哪个中文意思？",
+      "answer": "借入",
+      "accepted_aliases": [],
+      "distractors": [
+        "创造",
+        "改进",
+        "规律的"
+      ],
+      "explanation": "“borrow”是常用英文词汇，在本题语境中的意思是“借入”。"
+    },
+    {
+      "id": "en_vocab_022_brave",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“brave”最接近以下哪个中文意思？",
+      "answer": "勇敢的",
+      "accepted_aliases": [],
+      "distractors": [
+        "好奇的",
+        "包含",
+        "尊重"
+      ],
+      "explanation": "“brave”是常用英文词汇，在本题语境中的意思是“勇敢的”。"
+    },
+    {
+      "id": "en_vocab_023_breathe",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“breathe”最接近以下哪个中文意思？",
+      "answer": "呼吸",
+      "accepted_aliases": [],
+      "distractors": [
+        "决定",
+        "增加",
+        "负责的"
+      ],
+      "explanation": "“breathe”是常用英文词汇，在本题语境中的意思是“呼吸”。"
+    },
+    {
+      "id": "en_vocab_024_brief",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“brief”最接近以下哪个中文意思？",
+      "answer": "简短的",
+      "accepted_aliases": [],
+      "distractors": [
+        "描述",
+        "独立的",
+        "结果"
+      ],
+      "explanation": "“brief”是常用英文词汇，在本题语境中的意思是“简短的”。"
+    },
+    {
+      "id": "en_vocab_025_calm",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“calm”最接近以下哪个中文意思？",
+      "answer": "平静的",
+      "accepted_aliases": [],
+      "distractors": [
+        "发展",
+        "影响",
+        "相似的"
+      ],
+      "explanation": "“calm”是常用英文词汇，在本题语境中的意思是“平静的”。"
+    },
+    {
+      "id": "en_vocab_026_career",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“career”最接近以下哪个中文意思？",
+      "answer": "职业",
+      "accepted_aliases": [],
+      "distractors": [
+        "发现",
+        "聪明的",
+        "解决办法"
+      ],
+      "explanation": "“career”是常用英文词汇，在本题语境中的意思是“职业”。"
+    },
+    {
+      "id": "en_vocab_027_cause",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“cause”最接近以下哪个中文意思？",
+      "answer": "原因",
+      "accepted_aliases": [],
+      "distractors": [
+        "努力",
+        "旅程",
+        "支持"
+      ],
+      "explanation": "“cause”是常用英文词汇，在本题语境中的意思是“原因”。"
+    },
+    {
+      "id": "en_vocab_028_celebrate",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“celebrate”最接近以下哪个中文意思？",
+      "answer": "庆祝",
+      "accepted_aliases": [],
+      "distractors": [
+        "鼓励",
+        "知识",
+        "有价值的"
+      ],
+      "explanation": "“celebrate”是常用英文词汇，在本题语境中的意思是“庆祝”。"
+    },
+    {
+      "id": "en_vocab_029_challenge",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“challenge”最接近以下哪个中文意思？",
+      "answer": "挑战",
+      "accepted_aliases": [],
+      "distractors": [
+        "能量",
+        "语言",
+        "想知道"
+      ],
+      "explanation": "“challenge”是常用英文词汇，在本题语境中的意思是“挑战”。"
+    },
+    {
+      "id": "en_vocab_030_choose",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“choose”最接近以下哪个中文意思？",
+      "answer": "选择",
+      "accepted_aliases": [],
+      "distractors": [
+        "环境",
+        "管理",
+        "放弃"
+      ],
+      "explanation": "“choose”是常用英文词汇，在本题语境中的意思是“选择”。"
+    },
+    {
+      "id": "en_vocab_031_common",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“common”最接近以下哪个中文意思？",
+      "answer": "常见的",
+      "accepted_aliases": [],
+      "distractors": [
+        "相等的",
+        "记忆",
+        "能力"
+      ],
+      "explanation": "“common”是常用英文词汇，在本题语境中的意思是“常见的”。"
+    },
+    {
+      "id": "en_vocab_032_compare",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“compare”最接近以下哪个中文意思？",
+      "answer": "比较",
+      "accepted_aliases": [],
+      "distractors": [
+        "逃脱",
+        "方法",
+        "吸收"
+      ],
+      "explanation": "“compare”是常用英文词汇，在本题语境中的意思是“比较”。"
+    },
+    {
+      "id": "en_vocab_033_complete",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“complete”最接近以下哪个中文意思？",
+      "answer": "完成",
+      "accepted_aliases": [],
+      "distractors": [
+        "必要的",
+        "必需的",
+        "准确的"
+      ],
+      "explanation": "“complete”是常用英文词汇，在本题语境中的意思是“完成”。"
+    },
+    {
+      "id": "en_vocab_034_confident",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“confident”最接近以下哪个中文意思？",
+      "answer": "自信的",
+      "accepted_aliases": [],
+      "distractors": [
+        "检查",
+        "注意到",
+        "实现"
+      ],
+      "explanation": "“confident”是常用英文词汇，在本题语境中的意思是“自信的”。"
+    },
+    {
+      "id": "en_vocab_035_connect",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“connect”最接近以下哪个中文意思？",
+      "answer": "连接",
+      "accepted_aliases": [],
+      "distractors": [
+        "例子",
+        "提供",
+        "适应"
+      ],
+      "explanation": "“connect”是常用英文词汇，在本题语境中的意思是“连接”。"
+    },
+    {
+      "id": "en_vocab_036_consider",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“consider”最接近以下哪个中文意思？",
+      "answer": "考虑",
+      "accepted_aliases": [],
+      "distractors": [
+        "经历",
+        "观点",
+        "钦佩"
+      ],
+      "explanation": "“consider”是常用英文词汇，在本题语境中的意思是“考虑”。"
+    },
+    {
+      "id": "en_vocab_037_continue",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“continue”最接近以下哪个中文意思？",
+      "answer": "继续",
+      "accepted_aliases": [],
+      "distractors": [
+        "解释",
+        "有耐心的",
+        "建议"
+      ],
+      "explanation": "“continue”是常用英文词汇，在本题语境中的意思是“继续”。"
+    },
+    {
+      "id": "en_vocab_038_create",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“create”最接近以下哪个中文意思？",
+      "answer": "创造",
+      "accepted_aliases": [],
+      "distractors": [
+        "熟悉的",
+        "表演",
+        "负担得起"
+      ],
+      "explanation": "“create”是常用英文词汇，在本题语境中的意思是“创造”。"
+    },
+    {
+      "id": "en_vocab_039_curious",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“curious”最接近以下哪个中文意思？",
+      "answer": "好奇的",
+      "accepted_aliases": [],
+      "distractors": [
+        "著名的",
+        "可能的",
+        "古老的"
+      ],
+      "explanation": "“curious”是常用英文词汇，在本题语境中的意思是“好奇的”。"
+    },
+    {
+      "id": "en_vocab_040_decide",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“decide”最接近以下哪个中文意思？",
+      "answer": "决定",
+      "accepted_aliases": [],
+      "distractors": [
+        "特征",
+        "练习",
+        "宣布"
+      ],
+      "explanation": "“decide”是常用英文词汇，在本题语境中的意思是“决定”。"
+    },
+    {
+      "id": "en_vocab_041_describe",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“describe”最接近以下哪个中文意思？",
+      "answer": "描述",
+      "accepted_aliases": [],
+      "distractors": [
+        "专注",
+        "准备",
+        "焦虑的"
+      ],
+      "explanation": "“describe”是常用英文词汇，在本题语境中的意思是“描述”。"
+    },
+    {
+      "id": "en_vocab_042_develop",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“develop”最接近以下哪个中文意思？",
+      "answer": "发展",
+      "accepted_aliases": [],
+      "distractors": [
+        "频繁的",
+        "防止",
+        "出现"
+      ],
+      "explanation": "“develop”是常用英文词汇，在本题语境中的意思是“发展”。"
+    },
+    {
+      "id": "en_vocab_043_discover",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“discover”最接近以下哪个中文意思？",
+      "answer": "发现",
+      "accepted_aliases": [],
+      "distractors": [
+        "未来",
+        "进步",
+        "接近"
+      ],
+      "explanation": "“discover”是常用英文词汇，在本题语境中的意思是“发现”。"
+    },
+    {
+      "id": "en_vocab_044_effort",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“effort”最接近以下哪个中文意思？",
+      "answer": "努力",
+      "accepted_aliases": [],
+      "distractors": [
+        "慷慨的",
+        "保护",
+        "争论"
+      ],
+      "explanation": "“effort”是常用英文词汇，在本题语境中的意思是“努力”。"
+    },
+    {
+      "id": "en_vocab_045_encourage",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“encourage”最接近以下哪个中文意思？",
+      "answer": "鼓励",
+      "accepted_aliases": [],
+      "distractors": [
+        "温和的",
+        "目的",
+        "安排"
+      ],
+      "explanation": "“encourage”是常用英文词汇，在本题语境中的意思是“鼓励”。"
+    },
+    {
+      "id": "en_vocab_046_energy",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“energy”最接近以下哪个中文意思？",
+      "answer": "能量",
+      "accepted_aliases": [],
+      "distractors": [
+        "习惯",
+        "意识到",
+        "尝试"
+      ],
+      "explanation": "“energy”是常用英文词汇，在本题语境中的意思是“能量”。"
+    },
+    {
+      "id": "en_vocab_047_environment",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“environment”最接近以下哪个中文意思？",
+      "answer": "环境",
+      "accepted_aliases": [],
+      "distractors": [
+        "改进",
+        "收到",
+        "避免"
+      ],
+      "explanation": "“environment”是常用英文词汇，在本题语境中的意思是“环境”。"
+    },
+    {
+      "id": "en_vocab_048_equal",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“equal”最接近以下哪个中文意思？",
+      "answer": "相等的",
+      "accepted_aliases": [],
+      "distractors": [
+        "包含",
+        "减少",
+        "平衡"
+      ],
+      "explanation": "“equal”是常用英文词汇，在本题语境中的意思是“相等的”。"
+    },
+    {
+      "id": "en_vocab_049_escape",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“escape”最接近以下哪个中文意思？",
+      "answer": "逃脱",
+      "accepted_aliases": [],
+      "distractors": [
+        "增加",
+        "规律的",
+        "益处"
+      ],
+      "explanation": "“escape”是常用英文词汇，在本题语境中的意思是“逃脱”。"
+    },
+    {
+      "id": "en_vocab_050_essential",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“essential”最接近以下哪个中文意思？",
+      "answer": "必要的",
+      "accepted_aliases": [],
+      "distractors": [
+        "独立的",
+        "尊重",
+        "借入"
+      ],
+      "explanation": "“essential”是常用英文词汇，在本题语境中的意思是“必要的”。"
+    },
+    {
+      "id": "en_vocab_051_examine",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“examine”最接近以下哪个中文意思？",
+      "answer": "检查",
+      "accepted_aliases": [],
+      "distractors": [
+        "影响",
+        "负责的",
+        "勇敢的"
+      ],
+      "explanation": "“examine”是常用英文词汇，在本题语境中的意思是“检查”。"
+    },
+    {
+      "id": "en_vocab_052_example",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“example”最接近以下哪个中文意思？",
+      "answer": "例子",
+      "accepted_aliases": [],
+      "distractors": [
+        "聪明的",
+        "结果",
+        "呼吸"
+      ],
+      "explanation": "“example”是常用英文词汇，在本题语境中的意思是“例子”。"
+    },
+    {
+      "id": "en_vocab_053_experience",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“experience”最接近以下哪个中文意思？",
+      "answer": "经历",
+      "accepted_aliases": [],
+      "distractors": [
+        "旅程",
+        "相似的",
+        "简短的"
+      ],
+      "explanation": "“experience”是常用英文词汇，在本题语境中的意思是“经历”。"
+    },
+    {
+      "id": "en_vocab_054_explain",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“explain”最接近以下哪个中文意思？",
+      "answer": "解释",
+      "accepted_aliases": [],
+      "distractors": [
+        "知识",
+        "解决办法",
+        "平静的"
+      ],
+      "explanation": "“explain”是常用英文词汇，在本题语境中的意思是“解释”。"
+    },
+    {
+      "id": "en_vocab_055_familiar",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“familiar”最接近以下哪个中文意思？",
+      "answer": "熟悉的",
+      "accepted_aliases": [],
+      "distractors": [
+        "语言",
+        "支持",
+        "职业"
+      ],
+      "explanation": "“familiar”是常用英文词汇，在本题语境中的意思是“熟悉的”。"
+    },
+    {
+      "id": "en_vocab_056_famous",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“famous”最接近以下哪个中文意思？",
+      "answer": "著名的",
+      "accepted_aliases": [],
+      "distractors": [
+        "管理",
+        "有价值的",
+        "原因"
+      ],
+      "explanation": "“famous”是常用英文词汇，在本题语境中的意思是“著名的”。"
+    },
+    {
+      "id": "en_vocab_057_feature",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“feature”最接近以下哪个中文意思？",
+      "answer": "特征",
+      "accepted_aliases": [],
+      "distractors": [
+        "记忆",
+        "想知道",
+        "庆祝"
+      ],
+      "explanation": "“feature”是常用英文词汇，在本题语境中的意思是“特征”。"
+    },
+    {
+      "id": "en_vocab_058_focus",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“focus”最接近以下哪个中文意思？",
+      "answer": "专注",
+      "accepted_aliases": [],
+      "distractors": [
+        "方法",
+        "放弃",
+        "挑战"
+      ],
+      "explanation": "“focus”是常用英文词汇，在本题语境中的意思是“专注”。"
+    },
+    {
+      "id": "en_vocab_059_frequent",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“frequent”最接近以下哪个中文意思？",
+      "answer": "频繁的",
+      "accepted_aliases": [],
+      "distractors": [
+        "必需的",
+        "能力",
+        "选择"
+      ],
+      "explanation": "“frequent”是常用英文词汇，在本题语境中的意思是“频繁的”。"
+    },
+    {
+      "id": "en_vocab_060_future",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“future”最接近以下哪个中文意思？",
+      "answer": "未来",
+      "accepted_aliases": [],
+      "distractors": [
+        "注意到",
+        "吸收",
+        "常见的"
+      ],
+      "explanation": "“future”是常用英文词汇，在本题语境中的意思是“未来”。"
+    },
+    {
+      "id": "en_vocab_061_generous",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“generous”最接近以下哪个中文意思？",
+      "answer": "慷慨的",
+      "accepted_aliases": [],
+      "distractors": [
+        "提供",
+        "准确的",
+        "比较"
+      ],
+      "explanation": "“generous”是常用英文词汇，在本题语境中的意思是“慷慨的”。"
+    },
+    {
+      "id": "en_vocab_062_gentle",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“gentle”最接近以下哪个中文意思？",
+      "answer": "温和的",
+      "accepted_aliases": [],
+      "distractors": [
+        "观点",
+        "实现",
+        "完成"
+      ],
+      "explanation": "“gentle”是常用英文词汇，在本题语境中的意思是“温和的”。"
+    },
+    {
+      "id": "en_vocab_063_habit",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“habit”最接近以下哪个中文意思？",
+      "answer": "习惯",
+      "accepted_aliases": [],
+      "distractors": [
+        "有耐心的",
+        "适应",
+        "自信的"
+      ],
+      "explanation": "“habit”是常用英文词汇，在本题语境中的意思是“习惯”。"
+    },
+    {
+      "id": "en_vocab_064_improve",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“improve”最接近以下哪个中文意思？",
+      "answer": "改进",
+      "accepted_aliases": [],
+      "distractors": [
+        "表演",
+        "钦佩",
+        "连接"
+      ],
+      "explanation": "“improve”是常用英文词汇，在本题语境中的意思是“改进”。"
+    },
+    {
+      "id": "en_vocab_065_include",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“include”最接近以下哪个中文意思？",
+      "answer": "包含",
+      "accepted_aliases": [],
+      "distractors": [
+        "可能的",
+        "建议",
+        "考虑"
+      ],
+      "explanation": "“include”是常用英文词汇，在本题语境中的意思是“包含”。"
+    },
+    {
+      "id": "en_vocab_066_increase",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“increase”最接近以下哪个中文意思？",
+      "answer": "增加",
+      "accepted_aliases": [],
+      "distractors": [
+        "练习",
+        "负担得起",
+        "继续"
+      ],
+      "explanation": "“increase”是常用英文词汇，在本题语境中的意思是“增加”。"
+    },
+    {
+      "id": "en_vocab_067_independent",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“independent”最接近以下哪个中文意思？",
+      "answer": "独立的",
+      "accepted_aliases": [],
+      "distractors": [
+        "准备",
+        "古老的",
+        "创造"
+      ],
+      "explanation": "“independent”是常用英文词汇，在本题语境中的意思是“独立的”。"
+    },
+    {
+      "id": "en_vocab_068_influence",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“influence”最接近以下哪个中文意思？",
+      "answer": "影响",
+      "accepted_aliases": [],
+      "distractors": [
+        "防止",
+        "宣布",
+        "好奇的"
+      ],
+      "explanation": "“influence”是常用英文词汇，在本题语境中的意思是“影响”。"
+    },
+    {
+      "id": "en_vocab_069_intelligent",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“intelligent”最接近以下哪个中文意思？",
+      "answer": "聪明的",
+      "accepted_aliases": [],
+      "distractors": [
+        "进步",
+        "焦虑的",
+        "决定"
+      ],
+      "explanation": "“intelligent”是常用英文词汇，在本题语境中的意思是“聪明的”。"
+    },
+    {
+      "id": "en_vocab_070_journey",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“journey”最接近以下哪个中文意思？",
+      "answer": "旅程",
+      "accepted_aliases": [],
+      "distractors": [
+        "保护",
+        "出现",
+        "描述"
+      ],
+      "explanation": "“journey”是常用英文词汇，在本题语境中的意思是“旅程”。"
+    },
+    {
+      "id": "en_vocab_071_knowledge",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“knowledge”最接近以下哪个中文意思？",
+      "answer": "知识",
+      "accepted_aliases": [],
+      "distractors": [
+        "目的",
+        "接近",
+        "发展"
+      ],
+      "explanation": "“knowledge”是常用英文词汇，在本题语境中的意思是“知识”。"
+    },
+    {
+      "id": "en_vocab_072_language",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“language”最接近以下哪个中文意思？",
+      "answer": "语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "意识到",
+        "争论",
+        "发现"
+      ],
+      "explanation": "“language”是常用英文词汇，在本题语境中的意思是“语言”。"
+    },
+    {
+      "id": "en_vocab_073_manage",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“manage”最接近以下哪个中文意思？",
+      "answer": "管理",
+      "accepted_aliases": [],
+      "distractors": [
+        "收到",
+        "安排",
+        "努力"
+      ],
+      "explanation": "“manage”是常用英文词汇，在本题语境中的意思是“管理”。"
+    },
+    {
+      "id": "en_vocab_074_memory",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“memory”最接近以下哪个中文意思？",
+      "answer": "记忆",
+      "accepted_aliases": [],
+      "distractors": [
+        "减少",
+        "尝试",
+        "鼓励"
+      ],
+      "explanation": "“memory”是常用英文词汇，在本题语境中的意思是“记忆”。"
+    },
+    {
+      "id": "en_vocab_075_method",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“method”最接近以下哪个中文意思？",
+      "answer": "方法",
+      "accepted_aliases": [],
+      "distractors": [
+        "规律的",
+        "避免",
+        "能量"
+      ],
+      "explanation": "“method”是常用英文词汇，在本题语境中的意思是“方法”。"
+    },
+    {
+      "id": "en_vocab_076_necessary",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“necessary”最接近以下哪个中文意思？",
+      "answer": "必需的",
+      "accepted_aliases": [],
+      "distractors": [
+        "尊重",
+        "平衡",
+        "环境"
+      ],
+      "explanation": "“necessary”是常用英文词汇，在本题语境中的意思是“必需的”。"
+    },
+    {
+      "id": "en_vocab_077_notice",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“notice”最接近以下哪个中文意思？",
+      "answer": "注意到",
+      "accepted_aliases": [],
+      "distractors": [
+        "负责的",
+        "益处",
+        "相等的"
+      ],
+      "explanation": "“notice”是常用英文词汇，在本题语境中的意思是“注意到”。"
+    },
+    {
+      "id": "en_vocab_078_offer",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“offer”最接近以下哪个中文意思？",
+      "answer": "提供",
+      "accepted_aliases": [],
+      "distractors": [
+        "结果",
+        "借入",
+        "逃脱"
+      ],
+      "explanation": "“offer”是常用英文词汇，在本题语境中的意思是“提供”。"
+    },
+    {
+      "id": "en_vocab_079_opinion",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“opinion”最接近以下哪个中文意思？",
+      "answer": "观点",
+      "accepted_aliases": [],
+      "distractors": [
+        "相似的",
+        "勇敢的",
+        "必要的"
+      ],
+      "explanation": "“opinion”是常用英文词汇，在本题语境中的意思是“观点”。"
+    },
+    {
+      "id": "en_vocab_080_patient",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“patient”最接近以下哪个中文意思？",
+      "answer": "有耐心的",
+      "accepted_aliases": [],
+      "distractors": [
+        "解决办法",
+        "呼吸",
+        "检查"
+      ],
+      "explanation": "“patient”是常用英文词汇，在本题语境中的意思是“有耐心的”。"
+    },
+    {
+      "id": "en_vocab_081_perform",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“perform”最接近以下哪个中文意思？",
+      "answer": "表演",
+      "accepted_aliases": [],
+      "distractors": [
+        "支持",
+        "简短的",
+        "例子"
+      ],
+      "explanation": "“perform”是常用英文词汇，在本题语境中的意思是“表演”。"
+    },
+    {
+      "id": "en_vocab_082_possible",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“possible”最接近以下哪个中文意思？",
+      "answer": "可能的",
+      "accepted_aliases": [],
+      "distractors": [
+        "有价值的",
+        "平静的",
+        "经历"
+      ],
+      "explanation": "“possible”是常用英文词汇，在本题语境中的意思是“可能的”。"
+    },
+    {
+      "id": "en_vocab_083_practice",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“practice”最接近以下哪个中文意思？",
+      "answer": "练习",
+      "accepted_aliases": [],
+      "distractors": [
+        "想知道",
+        "职业",
+        "解释"
+      ],
+      "explanation": "“practice”是常用英文词汇，在本题语境中的意思是“练习”。"
+    },
+    {
+      "id": "en_vocab_084_prepare",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“prepare”最接近以下哪个中文意思？",
+      "answer": "准备",
+      "accepted_aliases": [],
+      "distractors": [
+        "放弃",
+        "原因",
+        "熟悉的"
+      ],
+      "explanation": "“prepare”是常用英文词汇，在本题语境中的意思是“准备”。"
+    },
+    {
+      "id": "en_vocab_085_prevent",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“prevent”最接近以下哪个中文意思？",
+      "answer": "防止",
+      "accepted_aliases": [],
+      "distractors": [
+        "能力",
+        "庆祝",
+        "著名的"
+      ],
+      "explanation": "“prevent”是常用英文词汇，在本题语境中的意思是“防止”。"
+    },
+    {
+      "id": "en_vocab_086_progress",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“progress”最接近以下哪个中文意思？",
+      "answer": "进步",
+      "accepted_aliases": [],
+      "distractors": [
+        "吸收",
+        "挑战",
+        "特征"
+      ],
+      "explanation": "“progress”是常用英文词汇，在本题语境中的意思是“进步”。"
+    },
+    {
+      "id": "en_vocab_087_protect",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“protect”最接近以下哪个中文意思？",
+      "answer": "保护",
+      "accepted_aliases": [],
+      "distractors": [
+        "准确的",
+        "选择",
+        "专注"
+      ],
+      "explanation": "“protect”是常用英文词汇，在本题语境中的意思是“保护”。"
+    },
+    {
+      "id": "en_vocab_088_purpose",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“purpose”最接近以下哪个中文意思？",
+      "answer": "目的",
+      "accepted_aliases": [],
+      "distractors": [
+        "实现",
+        "常见的",
+        "频繁的"
+      ],
+      "explanation": "“purpose”是常用英文词汇，在本题语境中的意思是“目的”。"
+    },
+    {
+      "id": "en_vocab_089_realize",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“realize”最接近以下哪个中文意思？",
+      "answer": "意识到",
+      "accepted_aliases": [],
+      "distractors": [
+        "适应",
+        "比较",
+        "未来"
+      ],
+      "explanation": "“realize”是常用英文词汇，在本题语境中的意思是“意识到”。"
+    },
+    {
+      "id": "en_vocab_090_receive",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“receive”最接近以下哪个中文意思？",
+      "answer": "收到",
+      "accepted_aliases": [],
+      "distractors": [
+        "钦佩",
+        "完成",
+        "慷慨的"
+      ],
+      "explanation": "“receive”是常用英文词汇，在本题语境中的意思是“收到”。"
+    },
+    {
+      "id": "en_vocab_091_reduce",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“reduce”最接近以下哪个中文意思？",
+      "answer": "减少",
+      "accepted_aliases": [],
+      "distractors": [
+        "建议",
+        "自信的",
+        "温和的"
+      ],
+      "explanation": "“reduce”是常用英文词汇，在本题语境中的意思是“减少”。"
+    },
+    {
+      "id": "en_vocab_092_regular",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“regular”最接近以下哪个中文意思？",
+      "answer": "规律的",
+      "accepted_aliases": [],
+      "distractors": [
+        "负担得起",
+        "连接",
+        "习惯"
+      ],
+      "explanation": "“regular”是常用英文词汇，在本题语境中的意思是“规律的”。"
+    },
+    {
+      "id": "en_vocab_093_respect",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“respect”最接近以下哪个中文意思？",
+      "answer": "尊重",
+      "accepted_aliases": [],
+      "distractors": [
+        "古老的",
+        "考虑",
+        "改进"
+      ],
+      "explanation": "“respect”是常用英文词汇，在本题语境中的意思是“尊重”。"
+    },
+    {
+      "id": "en_vocab_094_responsible",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“responsible”最接近以下哪个中文意思？",
+      "answer": "负责的",
+      "accepted_aliases": [],
+      "distractors": [
+        "宣布",
+        "继续",
+        "包含"
+      ],
+      "explanation": "“responsible”是常用英文词汇，在本题语境中的意思是“负责的”。"
+    },
+    {
+      "id": "en_vocab_095_result",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“result”最接近以下哪个中文意思？",
+      "answer": "结果",
+      "accepted_aliases": [],
+      "distractors": [
+        "焦虑的",
+        "创造",
+        "增加"
+      ],
+      "explanation": "“result”是常用英文词汇，在本题语境中的意思是“结果”。"
+    },
+    {
+      "id": "en_vocab_096_similar",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“similar”最接近以下哪个中文意思？",
+      "answer": "相似的",
+      "accepted_aliases": [],
+      "distractors": [
+        "出现",
+        "好奇的",
+        "独立的"
+      ],
+      "explanation": "“similar”是常用英文词汇，在本题语境中的意思是“相似的”。"
+    },
+    {
+      "id": "en_vocab_097_solution",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“solution”最接近以下哪个中文意思？",
+      "answer": "解决办法",
+      "accepted_aliases": [],
+      "distractors": [
+        "接近",
+        "决定",
+        "影响"
+      ],
+      "explanation": "“solution”是常用英文词汇，在本题语境中的意思是“解决办法”。"
+    },
+    {
+      "id": "en_vocab_098_support",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "英文单词“support”最接近以下哪个中文意思？",
+      "answer": "支持",
+      "accepted_aliases": [],
+      "distractors": [
+        "争论",
+        "描述",
+        "聪明的"
+      ],
+      "explanation": "“support”是常用英文词汇，在本题语境中的意思是“支持”。"
+    },
+    {
+      "id": "en_vocab_099_valuable",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "英文单词“valuable”最接近以下哪个中文意思？",
+      "answer": "有价值的",
+      "accepted_aliases": [],
+      "distractors": [
+        "安排",
+        "发展",
+        "旅程"
+      ],
+      "explanation": "“valuable”是常用英文词汇，在本题语境中的意思是“有价值的”。"
+    },
+    {
+      "id": "en_vocab_100_wonder",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "英文单词“wonder”最接近以下哪个中文意思？",
+      "answer": "想知道",
+      "accepted_aliases": [],
+      "distractors": [
+        "尝试",
+        "发现",
+        "知识"
+      ],
+      "explanation": "“wonder”是常用英文词汇，在本题语境中的意思是“想知道”。"
+    }
+  ],
+  "signature": "BUNDLED_SAMPLE_ONLY_DO_NOT_DISTRIBUTE"
+}

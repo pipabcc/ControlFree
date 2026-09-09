@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="quick_focus"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_focus"
+        android:shortcutShortLabel="@string/shortcut_quick_focus_short"
+        android:shortcutLongLabel="@string/shortcut_quick_focus_long">
+        <intent
+            android:action="com.example.controlfree.shortcut.FOCUS"
+            android:targetPackage="com.example.controlfree"
+            android:targetClass="com.example.controlfree.ShortcutRouterActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="monitor_plans"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_monitor"
+        android:shortcutShortLabel="@string/shortcut_monitor_short"
+        android:shortcutLongLabel="@string/shortcut_monitor_long">
+        <intent
+            android:action="com.example.controlfree.shortcut.MONITOR"
+            android:targetPackage="com.example.controlfree"
+            android:targetClass="com.example.controlfree.ShortcutRouterActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="usage_statistics"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_statistics"
+        android:shortcutShortLabel="@string/shortcut_statistics_short"
+        android:shortcutLongLabel="@string/shortcut_statistics_long">
+        <intent
+            android:action="com.example.controlfree.shortcut.STATISTICS"
+            android:targetPackage="com.example.controlfree"
+            android:targetClass="com.example.controlfree.ShortcutRouterActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="app_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/shortcut_settings_short"
+        android:shortcutLongLabel="@string/shortcut_settings_long">
+        <intent
+            android:action="com.example.controlfree.shortcut.SETTINGS"
+            android:targetPackage="com.example.controlfree"
+            android:targetClass="com.example.controlfree.ShortcutRouterActivity" />
+    </shortcut>
+</shortcuts>

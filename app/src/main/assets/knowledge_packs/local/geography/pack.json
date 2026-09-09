@@ -1,0 +1,7020 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "local_geography_v1",
+    "title": "地理百科 500 题",
+    "version": 2,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1785024000,
+    "minimum_app_version_code": 17,
+    "question_count": 500,
+    "content_types": [
+      "knowledge_quiz",
+      "category_geography"
+    ],
+    "signing_key_id": "bundled_local_v1"
+  },
+  "facts": [
+    {
+      "id": "zh_geo_0001",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“北京”的行政中心是哪里？",
+      "answer": "北京",
+      "accepted_aliases": [],
+      "distractors": [
+        "上海",
+        "南京",
+        "杭州"
+      ],
+      "explanation": "北京的行政中心是北京。"
+    },
+    {
+      "id": "zh_geo_0002",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "北京是哪一个中国省级行政区的行政中心？",
+      "answer": "北京",
+      "accepted_aliases": [],
+      "distractors": [
+        "青海",
+        "宁夏",
+        "新疆"
+      ],
+      "explanation": "北京是北京的行政中心。"
+    },
+    {
+      "id": "zh_geo_0003",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“北京”常用简称是什么？",
+      "answer": "京",
+      "accepted_aliases": [],
+      "distractors": [
+        "港",
+        "澳",
+        "台"
+      ],
+      "explanation": "北京常用的规范简称是“京”。"
+    },
+    {
+      "id": "zh_geo_0004",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“京”通常指哪里？",
+      "answer": "北京",
+      "accepted_aliases": [],
+      "distractors": [
+        "天津",
+        "河北",
+        "山西"
+      ],
+      "explanation": "简称“京”通常对应北京。"
+    },
+    {
+      "id": "zh_geo_0005",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“天津”的行政中心是哪里？",
+      "answer": "天津",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉萨",
+        "西安",
+        "兰州"
+      ],
+      "explanation": "天津的行政中心是天津。"
+    },
+    {
+      "id": "zh_geo_0006",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "天津是哪一个中国省级行政区的行政中心？",
+      "answer": "天津",
+      "accepted_aliases": [],
+      "distractors": [
+        "福建",
+        "江西",
+        "山东"
+      ],
+      "explanation": "天津是天津的行政中心。"
+    },
+    {
+      "id": "zh_geo_0007",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“天津”常用简称是什么？",
+      "answer": "津",
+      "accepted_aliases": [],
+      "distractors": [
+        "豫",
+        "鄂",
+        "湘"
+      ],
+      "explanation": "天津常用的规范简称是“津”。"
+    },
+    {
+      "id": "zh_geo_0008",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“津”通常指哪里？",
+      "answer": "天津",
+      "accepted_aliases": [],
+      "distractors": [
+        "广东",
+        "广西",
+        "海南"
+      ],
+      "explanation": "简称“津”通常对应天津。"
+    },
+    {
+      "id": "zh_geo_0009",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“河北”的行政中心是哪里？",
+      "answer": "石家庄",
+      "accepted_aliases": [],
+      "distractors": [
+        "南京",
+        "杭州",
+        "合肥"
+      ],
+      "explanation": "河北的行政中心是石家庄。"
+    },
+    {
+      "id": "zh_geo_0010",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "石家庄是哪一个中国省级行政区的行政中心？",
+      "answer": "河北",
+      "accepted_aliases": [],
+      "distractors": [
+        "宁夏",
+        "新疆",
+        "香港"
+      ],
+      "explanation": "石家庄是河北的行政中心。"
+    },
+    {
+      "id": "zh_geo_0011",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“河北”常用简称是什么？",
+      "answer": "冀",
+      "accepted_aliases": [],
+      "distractors": [
+        "澳",
+        "台",
+        "京"
+      ],
+      "explanation": "河北常用的规范简称是“冀”。"
+    },
+    {
+      "id": "zh_geo_0012",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“冀”通常指哪里？",
+      "answer": "河北",
+      "accepted_aliases": [],
+      "distractors": [
+        "天津",
+        "山西",
+        "内蒙古"
+      ],
+      "explanation": "简称“冀”通常对应河北。"
+    },
+    {
+      "id": "zh_geo_0013",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“山西”的行政中心是哪里？",
+      "answer": "太原",
+      "accepted_aliases": [],
+      "distractors": [
+        "西安",
+        "兰州",
+        "西宁"
+      ],
+      "explanation": "山西的行政中心是太原。"
+    },
+    {
+      "id": "zh_geo_0014",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "太原是哪一个中国省级行政区的行政中心？",
+      "answer": "山西",
+      "accepted_aliases": [],
+      "distractors": [
+        "江西",
+        "山东",
+        "河南"
+      ],
+      "explanation": "太原是山西的行政中心。"
+    },
+    {
+      "id": "zh_geo_0015",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“山西”常用简称是什么？",
+      "answer": "晋",
+      "accepted_aliases": [],
+      "distractors": [
+        "鄂",
+        "湘",
+        "粤"
+      ],
+      "explanation": "山西常用的规范简称是“晋”。"
+    },
+    {
+      "id": "zh_geo_0016",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“晋”通常指哪里？",
+      "answer": "山西",
+      "accepted_aliases": [],
+      "distractors": [
+        "广西",
+        "海南",
+        "重庆"
+      ],
+      "explanation": "简称“晋”通常对应山西。"
+    },
+    {
+      "id": "zh_geo_0017",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“内蒙古”的行政中心是哪里？",
+      "answer": "呼和浩特",
+      "accepted_aliases": [],
+      "distractors": [
+        "杭州",
+        "合肥",
+        "福州"
+      ],
+      "explanation": "内蒙古的行政中心是呼和浩特。"
+    },
+    {
+      "id": "zh_geo_0018",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "呼和浩特是哪一个中国省级行政区的行政中心？",
+      "answer": "内蒙古",
+      "accepted_aliases": [],
+      "distractors": [
+        "新疆",
+        "香港",
+        "澳门"
+      ],
+      "explanation": "呼和浩特是内蒙古的行政中心。"
+    },
+    {
+      "id": "zh_geo_0019",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“内蒙古”常用简称是什么？",
+      "answer": "内蒙古",
+      "accepted_aliases": [],
+      "distractors": [
+        "台",
+        "京",
+        "津"
+      ],
+      "explanation": "内蒙古常用的规范简称是“内蒙古”。"
+    },
+    {
+      "id": "zh_geo_0020",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“内蒙古”通常指哪里？",
+      "answer": "内蒙古",
+      "accepted_aliases": [],
+      "distractors": [
+        "河北",
+        "山西",
+        "辽宁"
+      ],
+      "explanation": "简称“内蒙古”通常对应内蒙古。"
+    },
+    {
+      "id": "zh_geo_0021",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“辽宁”的行政中心是哪里？",
+      "answer": "沈阳",
+      "accepted_aliases": [],
+      "distractors": [
+        "兰州",
+        "西宁",
+        "银川"
+      ],
+      "explanation": "辽宁的行政中心是沈阳。"
+    },
+    {
+      "id": "zh_geo_0022",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "沈阳是哪一个中国省级行政区的行政中心？",
+      "answer": "辽宁",
+      "accepted_aliases": [],
+      "distractors": [
+        "山东",
+        "河南",
+        "湖北"
+      ],
+      "explanation": "沈阳是辽宁的行政中心。"
+    },
+    {
+      "id": "zh_geo_0023",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“辽宁”常用简称是什么？",
+      "answer": "辽",
+      "accepted_aliases": [],
+      "distractors": [
+        "湘",
+        "粤",
+        "桂"
+      ],
+      "explanation": "辽宁常用的规范简称是“辽”。"
+    },
+    {
+      "id": "zh_geo_0024",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“辽”通常指哪里？",
+      "answer": "辽宁",
+      "accepted_aliases": [],
+      "distractors": [
+        "海南",
+        "重庆",
+        "四川"
+      ],
+      "explanation": "简称“辽”通常对应辽宁。"
+    },
+    {
+      "id": "zh_geo_0025",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“吉林”的行政中心是哪里？",
+      "answer": "长春",
+      "accepted_aliases": [],
+      "distractors": [
+        "合肥",
+        "福州",
+        "南昌"
+      ],
+      "explanation": "吉林的行政中心是长春。"
+    },
+    {
+      "id": "zh_geo_0026",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "长春是哪一个中国省级行政区的行政中心？",
+      "answer": "吉林",
+      "accepted_aliases": [],
+      "distractors": [
+        "香港",
+        "澳门",
+        "台湾"
+      ],
+      "explanation": "长春是吉林的行政中心。"
+    },
+    {
+      "id": "zh_geo_0027",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“吉林”常用简称是什么？",
+      "answer": "吉",
+      "accepted_aliases": [],
+      "distractors": [
+        "京",
+        "津",
+        "冀"
+      ],
+      "explanation": "吉林常用的规范简称是“吉”。"
+    },
+    {
+      "id": "zh_geo_0028",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“吉”通常指哪里？",
+      "answer": "吉林",
+      "accepted_aliases": [],
+      "distractors": [
+        "山西",
+        "内蒙古",
+        "辽宁"
+      ],
+      "explanation": "简称“吉”通常对应吉林。"
+    },
+    {
+      "id": "zh_geo_0029",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“黑龙江”的行政中心是哪里？",
+      "answer": "哈尔滨",
+      "accepted_aliases": [],
+      "distractors": [
+        "西宁",
+        "银川",
+        "乌鲁木齐"
+      ],
+      "explanation": "黑龙江的行政中心是哈尔滨。"
+    },
+    {
+      "id": "zh_geo_0030",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "哈尔滨是哪一个中国省级行政区的行政中心？",
+      "answer": "黑龙江",
+      "accepted_aliases": [],
+      "distractors": [
+        "河南",
+        "湖北",
+        "湖南"
+      ],
+      "explanation": "哈尔滨是黑龙江的行政中心。"
+    },
+    {
+      "id": "zh_geo_0031",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“黑龙江”常用简称是什么？",
+      "answer": "黑",
+      "accepted_aliases": [],
+      "distractors": [
+        "粤",
+        "桂",
+        "琼"
+      ],
+      "explanation": "黑龙江常用的规范简称是“黑”。"
+    },
+    {
+      "id": "zh_geo_0032",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“黑”通常指哪里？",
+      "answer": "黑龙江",
+      "accepted_aliases": [],
+      "distractors": [
+        "重庆",
+        "四川",
+        "贵州"
+      ],
+      "explanation": "简称“黑”通常对应黑龙江。"
+    },
+    {
+      "id": "zh_geo_0033",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“上海”的行政中心是哪里？",
+      "answer": "上海",
+      "accepted_aliases": [],
+      "distractors": [
+        "福州",
+        "南昌",
+        "济南"
+      ],
+      "explanation": "上海的行政中心是上海。"
+    },
+    {
+      "id": "zh_geo_0034",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "上海是哪一个中国省级行政区的行政中心？",
+      "answer": "上海",
+      "accepted_aliases": [],
+      "distractors": [
+        "澳门",
+        "台湾",
+        "北京"
+      ],
+      "explanation": "上海是上海的行政中心。"
+    },
+    {
+      "id": "zh_geo_0035",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“上海”常用简称是什么？",
+      "answer": "沪",
+      "accepted_aliases": [],
+      "distractors": [
+        "津",
+        "冀",
+        "晋"
+      ],
+      "explanation": "上海常用的规范简称是“沪”。"
+    },
+    {
+      "id": "zh_geo_0036",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“沪”通常指哪里？",
+      "answer": "上海",
+      "accepted_aliases": [],
+      "distractors": [
+        "内蒙古",
+        "辽宁",
+        "吉林"
+      ],
+      "explanation": "简称“沪”通常对应上海。"
+    },
+    {
+      "id": "zh_geo_0037",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“江苏”的行政中心是哪里？",
+      "answer": "南京",
+      "accepted_aliases": [],
+      "distractors": [
+        "银川",
+        "乌鲁木齐",
+        "香港"
+      ],
+      "explanation": "江苏的行政中心是南京。"
+    },
+    {
+      "id": "zh_geo_0038",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "南京是哪一个中国省级行政区的行政中心？",
+      "answer": "江苏",
+      "accepted_aliases": [],
+      "distractors": [
+        "湖北",
+        "湖南",
+        "广东"
+      ],
+      "explanation": "南京是江苏的行政中心。"
+    },
+    {
+      "id": "zh_geo_0039",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“江苏”常用简称是什么？",
+      "answer": "苏",
+      "accepted_aliases": [],
+      "distractors": [
+        "桂",
+        "琼",
+        "渝"
+      ],
+      "explanation": "江苏常用的规范简称是“苏”。"
+    },
+    {
+      "id": "zh_geo_0040",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“苏”通常指哪里？",
+      "answer": "江苏",
+      "accepted_aliases": [],
+      "distractors": [
+        "四川",
+        "贵州",
+        "云南"
+      ],
+      "explanation": "简称“苏”通常对应江苏。"
+    },
+    {
+      "id": "zh_geo_0041",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“浙江”的行政中心是哪里？",
+      "answer": "杭州",
+      "accepted_aliases": [],
+      "distractors": [
+        "南昌",
+        "济南",
+        "郑州"
+      ],
+      "explanation": "浙江的行政中心是杭州。"
+    },
+    {
+      "id": "zh_geo_0042",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "杭州是哪一个中国省级行政区的行政中心？",
+      "answer": "浙江",
+      "accepted_aliases": [],
+      "distractors": [
+        "台湾",
+        "北京",
+        "天津"
+      ],
+      "explanation": "杭州是浙江的行政中心。"
+    },
+    {
+      "id": "zh_geo_0043",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“浙江”常用简称是什么？",
+      "answer": "浙",
+      "accepted_aliases": [],
+      "distractors": [
+        "冀",
+        "晋",
+        "内蒙古"
+      ],
+      "explanation": "浙江常用的规范简称是“浙”。"
+    },
+    {
+      "id": "zh_geo_0044",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“浙”通常指哪里？",
+      "answer": "浙江",
+      "accepted_aliases": [],
+      "distractors": [
+        "辽宁",
+        "吉林",
+        "黑龙江"
+      ],
+      "explanation": "简称“浙”通常对应浙江。"
+    },
+    {
+      "id": "zh_geo_0045",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“安徽”的行政中心是哪里？",
+      "answer": "合肥",
+      "accepted_aliases": [],
+      "distractors": [
+        "乌鲁木齐",
+        "香港",
+        "澳门"
+      ],
+      "explanation": "安徽的行政中心是合肥。"
+    },
+    {
+      "id": "zh_geo_0046",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "合肥是哪一个中国省级行政区的行政中心？",
+      "answer": "安徽",
+      "accepted_aliases": [],
+      "distractors": [
+        "湖南",
+        "广东",
+        "广西"
+      ],
+      "explanation": "合肥是安徽的行政中心。"
+    },
+    {
+      "id": "zh_geo_0047",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“安徽”常用简称是什么？",
+      "answer": "皖",
+      "accepted_aliases": [],
+      "distractors": [
+        "琼",
+        "渝",
+        "川"
+      ],
+      "explanation": "安徽常用的规范简称是“皖”。"
+    },
+    {
+      "id": "zh_geo_0048",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“皖”通常指哪里？",
+      "answer": "安徽",
+      "accepted_aliases": [],
+      "distractors": [
+        "贵州",
+        "云南",
+        "西藏"
+      ],
+      "explanation": "简称“皖”通常对应安徽。"
+    },
+    {
+      "id": "zh_geo_0049",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“福建”的行政中心是哪里？",
+      "answer": "福州",
+      "accepted_aliases": [],
+      "distractors": [
+        "济南",
+        "郑州",
+        "武汉"
+      ],
+      "explanation": "福建的行政中心是福州。"
+    },
+    {
+      "id": "zh_geo_0050",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "福州是哪一个中国省级行政区的行政中心？",
+      "answer": "福建",
+      "accepted_aliases": [],
+      "distractors": [
+        "北京",
+        "天津",
+        "河北"
+      ],
+      "explanation": "福州是福建的行政中心。"
+    },
+    {
+      "id": "zh_geo_0051",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“福建”常用简称是什么？",
+      "answer": "闽",
+      "accepted_aliases": [],
+      "distractors": [
+        "晋",
+        "内蒙古",
+        "辽"
+      ],
+      "explanation": "福建常用的规范简称是“闽”。"
+    },
+    {
+      "id": "zh_geo_0052",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“闽”通常指哪里？",
+      "answer": "福建",
+      "accepted_aliases": [],
+      "distractors": [
+        "吉林",
+        "黑龙江",
+        "上海"
+      ],
+      "explanation": "简称“闽”通常对应福建。"
+    },
+    {
+      "id": "zh_geo_0053",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“江西”的行政中心是哪里？",
+      "answer": "南昌",
+      "accepted_aliases": [],
+      "distractors": [
+        "香港",
+        "澳门",
+        "台北"
+      ],
+      "explanation": "江西的行政中心是南昌。"
+    },
+    {
+      "id": "zh_geo_0054",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "南昌是哪一个中国省级行政区的行政中心？",
+      "answer": "江西",
+      "accepted_aliases": [],
+      "distractors": [
+        "广东",
+        "广西",
+        "海南"
+      ],
+      "explanation": "南昌是江西的行政中心。"
+    },
+    {
+      "id": "zh_geo_0055",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“江西”常用简称是什么？",
+      "answer": "赣",
+      "accepted_aliases": [],
+      "distractors": [
+        "渝",
+        "川",
+        "贵"
+      ],
+      "explanation": "江西常用的规范简称是“赣”。"
+    },
+    {
+      "id": "zh_geo_0056",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“赣”通常指哪里？",
+      "answer": "江西",
+      "accepted_aliases": [],
+      "distractors": [
+        "云南",
+        "西藏",
+        "陕西"
+      ],
+      "explanation": "简称“赣”通常对应江西。"
+    },
+    {
+      "id": "zh_geo_0057",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“山东”的行政中心是哪里？",
+      "answer": "济南",
+      "accepted_aliases": [],
+      "distractors": [
+        "郑州",
+        "武汉",
+        "长沙"
+      ],
+      "explanation": "山东的行政中心是济南。"
+    },
+    {
+      "id": "zh_geo_0058",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "济南是哪一个中国省级行政区的行政中心？",
+      "answer": "山东",
+      "accepted_aliases": [],
+      "distractors": [
+        "天津",
+        "河北",
+        "山西"
+      ],
+      "explanation": "济南是山东的行政中心。"
+    },
+    {
+      "id": "zh_geo_0059",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“山东”常用简称是什么？",
+      "answer": "鲁",
+      "accepted_aliases": [],
+      "distractors": [
+        "内蒙古",
+        "辽",
+        "吉"
+      ],
+      "explanation": "山东常用的规范简称是“鲁”。"
+    },
+    {
+      "id": "zh_geo_0060",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“鲁”通常指哪里？",
+      "answer": "山东",
+      "accepted_aliases": [],
+      "distractors": [
+        "黑龙江",
+        "上海",
+        "江苏"
+      ],
+      "explanation": "简称“鲁”通常对应山东。"
+    },
+    {
+      "id": "zh_geo_0061",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“河南”的行政中心是哪里？",
+      "answer": "郑州",
+      "accepted_aliases": [],
+      "distractors": [
+        "澳门",
+        "台北",
+        "北京"
+      ],
+      "explanation": "河南的行政中心是郑州。"
+    },
+    {
+      "id": "zh_geo_0062",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "郑州是哪一个中国省级行政区的行政中心？",
+      "answer": "河南",
+      "accepted_aliases": [],
+      "distractors": [
+        "广西",
+        "海南",
+        "重庆"
+      ],
+      "explanation": "郑州是河南的行政中心。"
+    },
+    {
+      "id": "zh_geo_0063",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“河南”常用简称是什么？",
+      "answer": "豫",
+      "accepted_aliases": [],
+      "distractors": [
+        "川",
+        "贵",
+        "云"
+      ],
+      "explanation": "河南常用的规范简称是“豫”。"
+    },
+    {
+      "id": "zh_geo_0064",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“豫”通常指哪里？",
+      "answer": "河南",
+      "accepted_aliases": [],
+      "distractors": [
+        "西藏",
+        "陕西",
+        "甘肃"
+      ],
+      "explanation": "简称“豫”通常对应河南。"
+    },
+    {
+      "id": "zh_geo_0065",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“湖北”的行政中心是哪里？",
+      "answer": "武汉",
+      "accepted_aliases": [],
+      "distractors": [
+        "郑州",
+        "长沙",
+        "广州"
+      ],
+      "explanation": "湖北的行政中心是武汉。"
+    },
+    {
+      "id": "zh_geo_0066",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "武汉是哪一个中国省级行政区的行政中心？",
+      "answer": "湖北",
+      "accepted_aliases": [],
+      "distractors": [
+        "河北",
+        "山西",
+        "内蒙古"
+      ],
+      "explanation": "武汉是湖北的行政中心。"
+    },
+    {
+      "id": "zh_geo_0067",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“湖北”常用简称是什么？",
+      "answer": "鄂",
+      "accepted_aliases": [],
+      "distractors": [
+        "辽",
+        "吉",
+        "黑"
+      ],
+      "explanation": "湖北常用的规范简称是“鄂”。"
+    },
+    {
+      "id": "zh_geo_0068",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“鄂”通常指哪里？",
+      "answer": "湖北",
+      "accepted_aliases": [],
+      "distractors": [
+        "上海",
+        "江苏",
+        "浙江"
+      ],
+      "explanation": "简称“鄂”通常对应湖北。"
+    },
+    {
+      "id": "zh_geo_0069",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“湖南”的行政中心是哪里？",
+      "answer": "长沙",
+      "accepted_aliases": [],
+      "distractors": [
+        "台北",
+        "北京",
+        "天津"
+      ],
+      "explanation": "湖南的行政中心是长沙。"
+    },
+    {
+      "id": "zh_geo_0070",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "长沙是哪一个中国省级行政区的行政中心？",
+      "answer": "湖南",
+      "accepted_aliases": [],
+      "distractors": [
+        "海南",
+        "重庆",
+        "四川"
+      ],
+      "explanation": "长沙是湖南的行政中心。"
+    },
+    {
+      "id": "zh_geo_0071",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“湖南”常用简称是什么？",
+      "answer": "湘",
+      "accepted_aliases": [],
+      "distractors": [
+        "贵",
+        "云",
+        "藏"
+      ],
+      "explanation": "湖南常用的规范简称是“湘”。"
+    },
+    {
+      "id": "zh_geo_0072",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“湘”通常指哪里？",
+      "answer": "湖南",
+      "accepted_aliases": [],
+      "distractors": [
+        "陕西",
+        "甘肃",
+        "青海"
+      ],
+      "explanation": "简称“湘”通常对应湖南。"
+    },
+    {
+      "id": "zh_geo_0073",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“广东”的行政中心是哪里？",
+      "answer": "广州",
+      "accepted_aliases": [],
+      "distractors": [
+        "武汉",
+        "长沙",
+        "南宁"
+      ],
+      "explanation": "广东的行政中心是广州。"
+    },
+    {
+      "id": "zh_geo_0074",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "广州是哪一个中国省级行政区的行政中心？",
+      "answer": "广东",
+      "accepted_aliases": [],
+      "distractors": [
+        "山西",
+        "内蒙古",
+        "辽宁"
+      ],
+      "explanation": "广州是广东的行政中心。"
+    },
+    {
+      "id": "zh_geo_0075",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“广东”常用简称是什么？",
+      "answer": "粤",
+      "accepted_aliases": [],
+      "distractors": [
+        "吉",
+        "黑",
+        "沪"
+      ],
+      "explanation": "广东常用的规范简称是“粤”。"
+    },
+    {
+      "id": "zh_geo_0076",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“粤”通常指哪里？",
+      "answer": "广东",
+      "accepted_aliases": [],
+      "distractors": [
+        "江苏",
+        "浙江",
+        "安徽"
+      ],
+      "explanation": "简称“粤”通常对应广东。"
+    },
+    {
+      "id": "zh_geo_0077",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“广西”的行政中心是哪里？",
+      "answer": "南宁",
+      "accepted_aliases": [],
+      "distractors": [
+        "北京",
+        "天津",
+        "石家庄"
+      ],
+      "explanation": "广西的行政中心是南宁。"
+    },
+    {
+      "id": "zh_geo_0078",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "南宁是哪一个中国省级行政区的行政中心？",
+      "answer": "广西",
+      "accepted_aliases": [],
+      "distractors": [
+        "重庆",
+        "四川",
+        "贵州"
+      ],
+      "explanation": "南宁是广西的行政中心。"
+    },
+    {
+      "id": "zh_geo_0079",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“广西”常用简称是什么？",
+      "answer": "桂",
+      "accepted_aliases": [],
+      "distractors": [
+        "云",
+        "藏",
+        "陕"
+      ],
+      "explanation": "广西常用的规范简称是“桂”。"
+    },
+    {
+      "id": "zh_geo_0080",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“桂”通常指哪里？",
+      "answer": "广西",
+      "accepted_aliases": [],
+      "distractors": [
+        "甘肃",
+        "青海",
+        "宁夏"
+      ],
+      "explanation": "简称“桂”通常对应广西。"
+    },
+    {
+      "id": "zh_geo_0081",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“海南”的行政中心是哪里？",
+      "answer": "海口",
+      "accepted_aliases": [],
+      "distractors": [
+        "长沙",
+        "广州",
+        "南宁"
+      ],
+      "explanation": "海南的行政中心是海口。"
+    },
+    {
+      "id": "zh_geo_0082",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "海口是哪一个中国省级行政区的行政中心？",
+      "answer": "海南",
+      "accepted_aliases": [],
+      "distractors": [
+        "内蒙古",
+        "辽宁",
+        "吉林"
+      ],
+      "explanation": "海口是海南的行政中心。"
+    },
+    {
+      "id": "zh_geo_0083",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“海南”常用简称是什么？",
+      "answer": "琼",
+      "accepted_aliases": [],
+      "distractors": [
+        "黑",
+        "沪",
+        "苏"
+      ],
+      "explanation": "海南常用的规范简称是“琼”。"
+    },
+    {
+      "id": "zh_geo_0084",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“琼”通常指哪里？",
+      "answer": "海南",
+      "accepted_aliases": [],
+      "distractors": [
+        "浙江",
+        "安徽",
+        "福建"
+      ],
+      "explanation": "简称“琼”通常对应海南。"
+    },
+    {
+      "id": "zh_geo_0085",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“重庆”的行政中心是哪里？",
+      "answer": "重庆",
+      "accepted_aliases": [],
+      "distractors": [
+        "天津",
+        "石家庄",
+        "太原"
+      ],
+      "explanation": "重庆的行政中心是重庆。"
+    },
+    {
+      "id": "zh_geo_0086",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "重庆是哪一个中国省级行政区的行政中心？",
+      "answer": "重庆",
+      "accepted_aliases": [],
+      "distractors": [
+        "四川",
+        "贵州",
+        "云南"
+      ],
+      "explanation": "重庆是重庆的行政中心。"
+    },
+    {
+      "id": "zh_geo_0087",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“重庆”常用简称是什么？",
+      "answer": "渝",
+      "accepted_aliases": [],
+      "distractors": [
+        "藏",
+        "陕",
+        "甘"
+      ],
+      "explanation": "重庆常用的规范简称是“渝”。"
+    },
+    {
+      "id": "zh_geo_0088",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“渝”通常指哪里？",
+      "answer": "重庆",
+      "accepted_aliases": [],
+      "distractors": [
+        "青海",
+        "宁夏",
+        "新疆"
+      ],
+      "explanation": "简称“渝”通常对应重庆。"
+    },
+    {
+      "id": "zh_geo_0089",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“四川”的行政中心是哪里？",
+      "answer": "成都",
+      "accepted_aliases": [],
+      "distractors": [
+        "广州",
+        "南宁",
+        "海口"
+      ],
+      "explanation": "四川的行政中心是成都。"
+    },
+    {
+      "id": "zh_geo_0090",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "成都是哪一个中国省级行政区的行政中心？",
+      "answer": "四川",
+      "accepted_aliases": [],
+      "distractors": [
+        "辽宁",
+        "吉林",
+        "黑龙江"
+      ],
+      "explanation": "成都是四川的行政中心。"
+    },
+    {
+      "id": "zh_geo_0091",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“四川”常用简称是什么？",
+      "answer": "川",
+      "accepted_aliases": [],
+      "distractors": [
+        "沪",
+        "苏",
+        "浙"
+      ],
+      "explanation": "四川常用的规范简称是“川”。"
+    },
+    {
+      "id": "zh_geo_0092",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“川”通常指哪里？",
+      "answer": "四川",
+      "accepted_aliases": [],
+      "distractors": [
+        "安徽",
+        "福建",
+        "江西"
+      ],
+      "explanation": "简称“川”通常对应四川。"
+    },
+    {
+      "id": "zh_geo_0093",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“贵州”的行政中心是哪里？",
+      "answer": "贵阳",
+      "accepted_aliases": [],
+      "distractors": [
+        "石家庄",
+        "太原",
+        "呼和浩特"
+      ],
+      "explanation": "贵州的行政中心是贵阳。"
+    },
+    {
+      "id": "zh_geo_0094",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "贵阳是哪一个中国省级行政区的行政中心？",
+      "answer": "贵州",
+      "accepted_aliases": [],
+      "distractors": [
+        "四川",
+        "云南",
+        "西藏"
+      ],
+      "explanation": "贵阳是贵州的行政中心。"
+    },
+    {
+      "id": "zh_geo_0095",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“贵州”常用简称是什么？",
+      "answer": "贵",
+      "accepted_aliases": [],
+      "distractors": [
+        "陕",
+        "甘",
+        "青"
+      ],
+      "explanation": "贵州常用的规范简称是“贵”。"
+    },
+    {
+      "id": "zh_geo_0096",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“贵”通常指哪里？",
+      "answer": "贵州",
+      "accepted_aliases": [],
+      "distractors": [
+        "宁夏",
+        "新疆",
+        "香港"
+      ],
+      "explanation": "简称“贵”通常对应贵州。"
+    },
+    {
+      "id": "zh_geo_0097",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“云南”的行政中心是哪里？",
+      "answer": "昆明",
+      "accepted_aliases": [],
+      "distractors": [
+        "南宁",
+        "海口",
+        "重庆"
+      ],
+      "explanation": "云南的行政中心是昆明。"
+    },
+    {
+      "id": "zh_geo_0098",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "昆明是哪一个中国省级行政区的行政中心？",
+      "answer": "云南",
+      "accepted_aliases": [],
+      "distractors": [
+        "吉林",
+        "黑龙江",
+        "上海"
+      ],
+      "explanation": "昆明是云南的行政中心。"
+    },
+    {
+      "id": "zh_geo_0099",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“云南”常用简称是什么？",
+      "answer": "云",
+      "accepted_aliases": [],
+      "distractors": [
+        "苏",
+        "浙",
+        "皖"
+      ],
+      "explanation": "云南常用的规范简称是“云”。"
+    },
+    {
+      "id": "zh_geo_0100",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“云”通常指哪里？",
+      "answer": "云南",
+      "accepted_aliases": [],
+      "distractors": [
+        "福建",
+        "江西",
+        "山东"
+      ],
+      "explanation": "简称“云”通常对应云南。"
+    },
+    {
+      "id": "zh_geo_0101",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“西藏”的行政中心是哪里？",
+      "answer": "拉萨",
+      "accepted_aliases": [],
+      "distractors": [
+        "太原",
+        "呼和浩特",
+        "沈阳"
+      ],
+      "explanation": "西藏的行政中心是拉萨。"
+    },
+    {
+      "id": "zh_geo_0102",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "拉萨是哪一个中国省级行政区的行政中心？",
+      "answer": "西藏",
+      "accepted_aliases": [],
+      "distractors": [
+        "贵州",
+        "云南",
+        "陕西"
+      ],
+      "explanation": "拉萨是西藏的行政中心。"
+    },
+    {
+      "id": "zh_geo_0103",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“西藏”常用简称是什么？",
+      "answer": "藏",
+      "accepted_aliases": [],
+      "distractors": [
+        "甘",
+        "青",
+        "宁"
+      ],
+      "explanation": "西藏常用的规范简称是“藏”。"
+    },
+    {
+      "id": "zh_geo_0104",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“藏”通常指哪里？",
+      "answer": "西藏",
+      "accepted_aliases": [],
+      "distractors": [
+        "新疆",
+        "香港",
+        "澳门"
+      ],
+      "explanation": "简称“藏”通常对应西藏。"
+    },
+    {
+      "id": "zh_geo_0105",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“陕西”的行政中心是哪里？",
+      "answer": "西安",
+      "accepted_aliases": [],
+      "distractors": [
+        "海口",
+        "重庆",
+        "成都"
+      ],
+      "explanation": "陕西的行政中心是西安。"
+    },
+    {
+      "id": "zh_geo_0106",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "西安是哪一个中国省级行政区的行政中心？",
+      "answer": "陕西",
+      "accepted_aliases": [],
+      "distractors": [
+        "黑龙江",
+        "上海",
+        "江苏"
+      ],
+      "explanation": "西安是陕西的行政中心。"
+    },
+    {
+      "id": "zh_geo_0107",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“陕西”常用简称是什么？",
+      "answer": "陕",
+      "accepted_aliases": [],
+      "distractors": [
+        "浙",
+        "皖",
+        "闽"
+      ],
+      "explanation": "陕西常用的规范简称是“陕”。"
+    },
+    {
+      "id": "zh_geo_0108",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“陕”通常指哪里？",
+      "answer": "陕西",
+      "accepted_aliases": [],
+      "distractors": [
+        "江西",
+        "山东",
+        "河南"
+      ],
+      "explanation": "简称“陕”通常对应陕西。"
+    },
+    {
+      "id": "zh_geo_0109",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“甘肃”的行政中心是哪里？",
+      "answer": "兰州",
+      "accepted_aliases": [],
+      "distractors": [
+        "呼和浩特",
+        "沈阳",
+        "长春"
+      ],
+      "explanation": "甘肃的行政中心是兰州。"
+    },
+    {
+      "id": "zh_geo_0110",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "兰州是哪一个中国省级行政区的行政中心？",
+      "answer": "甘肃",
+      "accepted_aliases": [],
+      "distractors": [
+        "云南",
+        "西藏",
+        "陕西"
+      ],
+      "explanation": "兰州是甘肃的行政中心。"
+    },
+    {
+      "id": "zh_geo_0111",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“甘肃”常用简称是什么？",
+      "answer": "甘",
+      "accepted_aliases": [],
+      "distractors": [
+        "青",
+        "宁",
+        "新"
+      ],
+      "explanation": "甘肃常用的规范简称是“甘”。"
+    },
+    {
+      "id": "zh_geo_0112",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“甘”通常指哪里？",
+      "answer": "甘肃",
+      "accepted_aliases": [],
+      "distractors": [
+        "香港",
+        "澳门",
+        "台湾"
+      ],
+      "explanation": "简称“甘”通常对应甘肃。"
+    },
+    {
+      "id": "zh_geo_0113",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“青海”的行政中心是哪里？",
+      "answer": "西宁",
+      "accepted_aliases": [],
+      "distractors": [
+        "重庆",
+        "成都",
+        "贵阳"
+      ],
+      "explanation": "青海的行政中心是西宁。"
+    },
+    {
+      "id": "zh_geo_0114",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "西宁是哪一个中国省级行政区的行政中心？",
+      "answer": "青海",
+      "accepted_aliases": [],
+      "distractors": [
+        "上海",
+        "江苏",
+        "浙江"
+      ],
+      "explanation": "西宁是青海的行政中心。"
+    },
+    {
+      "id": "zh_geo_0115",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“青海”常用简称是什么？",
+      "answer": "青",
+      "accepted_aliases": [],
+      "distractors": [
+        "皖",
+        "闽",
+        "赣"
+      ],
+      "explanation": "青海常用的规范简称是“青”。"
+    },
+    {
+      "id": "zh_geo_0116",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“青”通常指哪里？",
+      "answer": "青海",
+      "accepted_aliases": [],
+      "distractors": [
+        "山东",
+        "河南",
+        "湖北"
+      ],
+      "explanation": "简称“青”通常对应青海。"
+    },
+    {
+      "id": "zh_geo_0117",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“宁夏”的行政中心是哪里？",
+      "answer": "银川",
+      "accepted_aliases": [],
+      "distractors": [
+        "沈阳",
+        "长春",
+        "哈尔滨"
+      ],
+      "explanation": "宁夏的行政中心是银川。"
+    },
+    {
+      "id": "zh_geo_0118",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "银川是哪一个中国省级行政区的行政中心？",
+      "answer": "宁夏",
+      "accepted_aliases": [],
+      "distractors": [
+        "西藏",
+        "陕西",
+        "甘肃"
+      ],
+      "explanation": "银川是宁夏的行政中心。"
+    },
+    {
+      "id": "zh_geo_0119",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“宁夏”常用简称是什么？",
+      "answer": "宁",
+      "accepted_aliases": [],
+      "distractors": [
+        "青",
+        "新",
+        "港"
+      ],
+      "explanation": "宁夏常用的规范简称是“宁”。"
+    },
+    {
+      "id": "zh_geo_0120",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“宁”通常指哪里？",
+      "answer": "宁夏",
+      "accepted_aliases": [],
+      "distractors": [
+        "澳门",
+        "台湾",
+        "北京"
+      ],
+      "explanation": "简称“宁”通常对应宁夏。"
+    },
+    {
+      "id": "zh_geo_0121",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“新疆”的行政中心是哪里？",
+      "answer": "乌鲁木齐",
+      "accepted_aliases": [],
+      "distractors": [
+        "成都",
+        "贵阳",
+        "昆明"
+      ],
+      "explanation": "新疆的行政中心是乌鲁木齐。"
+    },
+    {
+      "id": "zh_geo_0122",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "乌鲁木齐是哪一个中国省级行政区的行政中心？",
+      "answer": "新疆",
+      "accepted_aliases": [],
+      "distractors": [
+        "江苏",
+        "浙江",
+        "安徽"
+      ],
+      "explanation": "乌鲁木齐是新疆的行政中心。"
+    },
+    {
+      "id": "zh_geo_0123",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“新疆”常用简称是什么？",
+      "answer": "新",
+      "accepted_aliases": [],
+      "distractors": [
+        "闽",
+        "赣",
+        "鲁"
+      ],
+      "explanation": "新疆常用的规范简称是“新”。"
+    },
+    {
+      "id": "zh_geo_0124",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“新”通常指哪里？",
+      "answer": "新疆",
+      "accepted_aliases": [],
+      "distractors": [
+        "河南",
+        "湖北",
+        "湖南"
+      ],
+      "explanation": "简称“新”通常对应新疆。"
+    },
+    {
+      "id": "zh_geo_0125",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“香港”的行政中心是哪里？",
+      "answer": "香港",
+      "accepted_aliases": [],
+      "distractors": [
+        "长春",
+        "哈尔滨",
+        "上海"
+      ],
+      "explanation": "香港的行政中心是香港。"
+    },
+    {
+      "id": "zh_geo_0126",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "香港是哪一个中国省级行政区的行政中心？",
+      "answer": "香港",
+      "accepted_aliases": [],
+      "distractors": [
+        "陕西",
+        "甘肃",
+        "青海"
+      ],
+      "explanation": "香港是香港的行政中心。"
+    },
+    {
+      "id": "zh_geo_0127",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“香港”常用简称是什么？",
+      "answer": "港",
+      "accepted_aliases": [],
+      "distractors": [
+        "宁",
+        "新",
+        "澳"
+      ],
+      "explanation": "香港常用的规范简称是“港”。"
+    },
+    {
+      "id": "zh_geo_0128",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "省级行政区简称“港”通常指哪里？",
+      "answer": "香港",
+      "accepted_aliases": [],
+      "distractors": [
+        "台湾",
+        "北京",
+        "天津"
+      ],
+      "explanation": "简称“港”通常对应香港。"
+    },
+    {
+      "id": "zh_geo_0129",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“澳门”的行政中心是哪里？",
+      "answer": "澳门",
+      "accepted_aliases": [],
+      "distractors": [
+        "贵阳",
+        "昆明",
+        "拉萨"
+      ],
+      "explanation": "澳门的行政中心是澳门。"
+    },
+    {
+      "id": "zh_geo_0130",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "澳门是哪一个中国省级行政区的行政中心？",
+      "answer": "澳门",
+      "accepted_aliases": [],
+      "distractors": [
+        "浙江",
+        "安徽",
+        "福建"
+      ],
+      "explanation": "澳门是澳门的行政中心。"
+    },
+    {
+      "id": "zh_geo_0131",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "中国省级行政区“澳门”常用简称是什么？",
+      "answer": "澳",
+      "accepted_aliases": [],
+      "distractors": [
+        "赣",
+        "鲁",
+        "豫"
+      ],
+      "explanation": "澳门常用的规范简称是“澳”。"
+    },
+    {
+      "id": "zh_geo_0132",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "省级行政区简称“澳”通常指哪里？",
+      "answer": "澳门",
+      "accepted_aliases": [],
+      "distractors": [
+        "湖北",
+        "湖南",
+        "广东"
+      ],
+      "explanation": "简称“澳”通常对应澳门。"
+    },
+    {
+      "id": "zh_geo_0133",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "中国省级行政区“台湾”的行政中心是哪里？",
+      "answer": "台北",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈尔滨",
+        "上海",
+        "南京"
+      ],
+      "explanation": "台湾的行政中心是台北。"
+    },
+    {
+      "id": "zh_geo_0134",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "台北是哪一个中国省级行政区的行政中心？",
+      "answer": "台湾",
+      "accepted_aliases": [],
+      "distractors": [
+        "甘肃",
+        "青海",
+        "宁夏"
+      ],
+      "explanation": "台北是台湾的行政中心。"
+    },
+    {
+      "id": "zh_geo_0135",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "中国省级行政区“台湾”常用简称是什么？",
+      "answer": "台",
+      "accepted_aliases": [],
+      "distractors": [
+        "新",
+        "港",
+        "澳"
+      ],
+      "explanation": "台湾常用的规范简称是“台”。"
+    },
+    {
+      "id": "zh_geo_0136",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "省级行政区简称“台”通常指哪里？",
+      "answer": "台湾",
+      "accepted_aliases": [],
+      "distractors": [
+        "北京",
+        "天津",
+        "河北"
+      ],
+      "explanation": "简称“台”通常对应台湾。"
+    },
+    {
+      "id": "zh_geo_0137",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“中国”的首都是哪座城市？",
+      "answer": "北京",
+      "accepted_aliases": [],
+      "distractors": [
+        "加德满都",
+        "廷布",
+        "内比都"
+      ],
+      "explanation": "中国的首都是北京。"
+    },
+    {
+      "id": "zh_geo_0138",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "北京是哪一个国家的首都？",
+      "answer": "中国",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "北京是中国的首都。"
+    },
+    {
+      "id": "zh_geo_0139",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“中国”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，中国主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0140",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“日本”的首都是哪座城市？",
+      "answer": "东京",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴格达",
+        "利雅得",
+        "阿布扎比"
+      ],
+      "explanation": "日本的首都是东京。"
+    },
+    {
+      "id": "zh_geo_0141",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "东京是哪一个国家的首都？",
+      "answer": "日本",
+      "accepted_aliases": [],
+      "distractors": [
+        "尼泊尔",
+        "不丹",
+        "缅甸"
+      ],
+      "explanation": "东京是日本的首都。"
+    },
+    {
+      "id": "zh_geo_0142",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“日本”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，日本主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0143",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“韩国”的首都是哪座城市？",
+      "answer": "首尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "韩国的首都是首尔。"
+    },
+    {
+      "id": "zh_geo_0144",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "首尔是哪一个国家的首都？",
+      "answer": "韩国",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊拉克",
+        "沙特阿拉伯",
+        "阿联酋"
+      ],
+      "explanation": "首尔是韩国的首都。"
+    },
+    {
+      "id": "zh_geo_0145",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“韩国”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，韩国主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0146",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“朝鲜”的首都是哪座城市？",
+      "answer": "平壤",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "朝鲜的首都是平壤。"
+    },
+    {
+      "id": "zh_geo_0147",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "平壤是哪一个国家的首都？",
+      "answer": "朝鲜",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "平壤是朝鲜的首都。"
+    },
+    {
+      "id": "zh_geo_0148",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“朝鲜”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，朝鲜主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0149",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“蒙古”的首都是哪座城市？",
+      "answer": "乌兰巴托",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "蒙古的首都是乌兰巴托。"
+    },
+    {
+      "id": "zh_geo_0150",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "乌兰巴托是哪一个国家的首都？",
+      "answer": "蒙古",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "乌兰巴托是蒙古的首都。"
+    },
+    {
+      "id": "zh_geo_0151",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“蒙古”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，蒙古主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0152",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“印度”的首都是哪座城市？",
+      "answer": "新德里",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "印度的首都是新德里。"
+    },
+    {
+      "id": "zh_geo_0153",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "新德里是哪一个国家的首都？",
+      "answer": "印度",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "新德里是印度的首都。"
+    },
+    {
+      "id": "zh_geo_0154",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“印度”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，印度主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0155",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“巴基斯坦”的首都是哪座城市？",
+      "answer": "伊斯兰堡",
+      "accepted_aliases": [],
+      "distractors": [
+        "加德满都",
+        "廷布",
+        "内比都"
+      ],
+      "explanation": "巴基斯坦的首都是伊斯兰堡。"
+    },
+    {
+      "id": "zh_geo_0156",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "伊斯兰堡是哪一个国家的首都？",
+      "answer": "巴基斯坦",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "伊斯兰堡是巴基斯坦的首都。"
+    },
+    {
+      "id": "zh_geo_0157",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“巴基斯坦”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，巴基斯坦主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0158",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“孟加拉国”的首都是哪座城市？",
+      "answer": "达卡",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴格达",
+        "利雅得",
+        "阿布扎比"
+      ],
+      "explanation": "孟加拉国的首都是达卡。"
+    },
+    {
+      "id": "zh_geo_0159",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "达卡是哪一个国家的首都？",
+      "answer": "孟加拉国",
+      "accepted_aliases": [],
+      "distractors": [
+        "尼泊尔",
+        "不丹",
+        "缅甸"
+      ],
+      "explanation": "达卡是孟加拉国的首都。"
+    },
+    {
+      "id": "zh_geo_0160",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“孟加拉国”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，孟加拉国主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0161",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“尼泊尔”的首都是哪座城市？",
+      "answer": "加德满都",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "尼泊尔的首都是加德满都。"
+    },
+    {
+      "id": "zh_geo_0162",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "加德满都是哪一个国家的首都？",
+      "answer": "尼泊尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊拉克",
+        "沙特阿拉伯",
+        "阿联酋"
+      ],
+      "explanation": "加德满都是尼泊尔的首都。"
+    },
+    {
+      "id": "zh_geo_0163",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“尼泊尔”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，尼泊尔主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0164",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“不丹”的首都是哪座城市？",
+      "answer": "廷布",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "不丹的首都是廷布。"
+    },
+    {
+      "id": "zh_geo_0165",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "廷布是哪一个国家的首都？",
+      "answer": "不丹",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "廷布是不丹的首都。"
+    },
+    {
+      "id": "zh_geo_0166",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“不丹”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，不丹主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0167",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“缅甸”的首都是哪座城市？",
+      "answer": "内比都",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "缅甸的首都是内比都。"
+    },
+    {
+      "id": "zh_geo_0168",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "内比都是哪一个国家的首都？",
+      "answer": "缅甸",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "内比都是缅甸的首都。"
+    },
+    {
+      "id": "zh_geo_0169",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“缅甸”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，缅甸主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0170",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“泰国”的首都是哪座城市？",
+      "answer": "曼谷",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "泰国的首都是曼谷。"
+    },
+    {
+      "id": "zh_geo_0171",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "曼谷是哪一个国家的首都？",
+      "answer": "泰国",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "曼谷是泰国的首都。"
+    },
+    {
+      "id": "zh_geo_0172",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“泰国”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，泰国主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0173",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“越南”的首都是哪座城市？",
+      "answer": "河内",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "越南的首都是河内。"
+    },
+    {
+      "id": "zh_geo_0174",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "河内是哪一个国家的首都？",
+      "answer": "越南",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "河内是越南的首都。"
+    },
+    {
+      "id": "zh_geo_0175",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“越南”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，越南主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0176",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“老挝”的首都是哪座城市？",
+      "answer": "万象",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴格达",
+        "利雅得",
+        "阿布扎比"
+      ],
+      "explanation": "老挝的首都是万象。"
+    },
+    {
+      "id": "zh_geo_0177",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "万象是哪一个国家的首都？",
+      "answer": "老挝",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "万象是老挝的首都。"
+    },
+    {
+      "id": "zh_geo_0178",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“老挝”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，老挝主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0179",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“柬埔寨”的首都是哪座城市？",
+      "answer": "金边",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "柬埔寨的首都是金边。"
+    },
+    {
+      "id": "zh_geo_0180",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "金边是哪一个国家的首都？",
+      "answer": "柬埔寨",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊拉克",
+        "沙特阿拉伯",
+        "阿联酋"
+      ],
+      "explanation": "金边是柬埔寨的首都。"
+    },
+    {
+      "id": "zh_geo_0181",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“柬埔寨”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，柬埔寨主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0182",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“马来西亚”的首都是哪座城市？",
+      "answer": "吉隆坡",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "马来西亚的首都是吉隆坡。"
+    },
+    {
+      "id": "zh_geo_0183",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "吉隆坡是哪一个国家的首都？",
+      "answer": "马来西亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "吉隆坡是马来西亚的首都。"
+    },
+    {
+      "id": "zh_geo_0184",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“马来西亚”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，马来西亚主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0185",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“新加坡”的首都是哪座城市？",
+      "answer": "新加坡",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "新加坡的首都是新加坡。"
+    },
+    {
+      "id": "zh_geo_0186",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "新加坡是哪一个国家的首都？",
+      "answer": "新加坡",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "新加坡是新加坡的首都。"
+    },
+    {
+      "id": "zh_geo_0187",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“新加坡”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，新加坡主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0188",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“菲律宾”的首都是哪座城市？",
+      "answer": "马尼拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "菲律宾的首都是马尼拉。"
+    },
+    {
+      "id": "zh_geo_0189",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "马尼拉是哪一个国家的首都？",
+      "answer": "菲律宾",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "马尼拉是菲律宾的首都。"
+    },
+    {
+      "id": "zh_geo_0190",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“菲律宾”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，菲律宾主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0191",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“文莱”的首都是哪座城市？",
+      "answer": "斯里巴加湾市",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "文莱的首都是斯里巴加湾市。"
+    },
+    {
+      "id": "zh_geo_0192",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "斯里巴加湾市是哪一个国家的首都？",
+      "answer": "文莱",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "斯里巴加湾市是文莱的首都。"
+    },
+    {
+      "id": "zh_geo_0193",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“文莱”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，文莱主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0194",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“东帝汶”的首都是哪座城市？",
+      "answer": "帝力",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴格达",
+        "利雅得",
+        "阿布扎比"
+      ],
+      "explanation": "东帝汶的首都是帝力。"
+    },
+    {
+      "id": "zh_geo_0195",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "帝力是哪一个国家的首都？",
+      "answer": "东帝汶",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "帝力是东帝汶的首都。"
+    },
+    {
+      "id": "zh_geo_0196",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“东帝汶”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，东帝汶主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0197",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“哈萨克斯坦”的首都是哪座城市？",
+      "answer": "阿斯塔纳",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "哈萨克斯坦的首都是阿斯塔纳。"
+    },
+    {
+      "id": "zh_geo_0198",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿斯塔纳是哪一个国家的首都？",
+      "answer": "哈萨克斯坦",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊拉克",
+        "沙特阿拉伯",
+        "阿联酋"
+      ],
+      "explanation": "阿斯塔纳是哈萨克斯坦的首都。"
+    },
+    {
+      "id": "zh_geo_0199",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“哈萨克斯坦”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，哈萨克斯坦主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0200",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“乌兹别克斯坦”的首都是哪座城市？",
+      "answer": "塔什干",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "乌兹别克斯坦的首都是塔什干。"
+    },
+    {
+      "id": "zh_geo_0201",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "塔什干是哪一个国家的首都？",
+      "answer": "乌兹别克斯坦",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "塔什干是乌兹别克斯坦的首都。"
+    },
+    {
+      "id": "zh_geo_0202",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“乌兹别克斯坦”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，乌兹别克斯坦主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0203",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“吉尔吉斯斯坦”的首都是哪座城市？",
+      "answer": "比什凯克",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "吉尔吉斯斯坦的首都是比什凯克。"
+    },
+    {
+      "id": "zh_geo_0204",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "比什凯克是哪一个国家的首都？",
+      "answer": "吉尔吉斯斯坦",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "比什凯克是吉尔吉斯斯坦的首都。"
+    },
+    {
+      "id": "zh_geo_0205",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“吉尔吉斯斯坦”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，吉尔吉斯斯坦主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0206",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“塔吉克斯坦”的首都是哪座城市？",
+      "answer": "杜尚别",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "塔吉克斯坦的首都是杜尚别。"
+    },
+    {
+      "id": "zh_geo_0207",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "杜尚别是哪一个国家的首都？",
+      "answer": "塔吉克斯坦",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "杜尚别是塔吉克斯坦的首都。"
+    },
+    {
+      "id": "zh_geo_0208",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“塔吉克斯坦”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，塔吉克斯坦主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0209",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“伊朗”的首都是哪座城市？",
+      "answer": "德黑兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "伊朗的首都是德黑兰。"
+    },
+    {
+      "id": "zh_geo_0210",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "德黑兰是哪一个国家的首都？",
+      "answer": "伊朗",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "德黑兰是伊朗的首都。"
+    },
+    {
+      "id": "zh_geo_0211",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“伊朗”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，伊朗主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0212",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“伊拉克”的首都是哪座城市？",
+      "answer": "巴格达",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "利雅得",
+        "阿布扎比"
+      ],
+      "explanation": "伊拉克的首都是巴格达。"
+    },
+    {
+      "id": "zh_geo_0213",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "巴格达是哪一个国家的首都？",
+      "answer": "伊拉克",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "巴格达是伊拉克的首都。"
+    },
+    {
+      "id": "zh_geo_0214",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“伊拉克”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，伊拉克主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0215",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“沙特阿拉伯”的首都是哪座城市？",
+      "answer": "利雅得",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "沙特阿拉伯的首都是利雅得。"
+    },
+    {
+      "id": "zh_geo_0216",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "利雅得是哪一个国家的首都？",
+      "answer": "沙特阿拉伯",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "阿联酋"
+      ],
+      "explanation": "利雅得是沙特阿拉伯的首都。"
+    },
+    {
+      "id": "zh_geo_0217",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“沙特阿拉伯”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，沙特阿拉伯主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0218",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“阿联酋”的首都是哪座城市？",
+      "answer": "阿布扎比",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "阿联酋的首都是阿布扎比。"
+    },
+    {
+      "id": "zh_geo_0219",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿布扎比是哪一个国家的首都？",
+      "answer": "阿联酋",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "阿布扎比是阿联酋的首都。"
+    },
+    {
+      "id": "zh_geo_0220",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“阿联酋”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，阿联酋主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0221",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“卡塔尔”的首都是哪座城市？",
+      "answer": "多哈",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "卡塔尔的首都是多哈。"
+    },
+    {
+      "id": "zh_geo_0222",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "多哈是哪一个国家的首都？",
+      "answer": "卡塔尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "多哈是卡塔尔的首都。"
+    },
+    {
+      "id": "zh_geo_0223",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“卡塔尔”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，卡塔尔主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0224",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“科威特”的首都是哪座城市？",
+      "answer": "科威特城",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "科威特的首都是科威特城。"
+    },
+    {
+      "id": "zh_geo_0225",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "科威特城是哪一个国家的首都？",
+      "answer": "科威特",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "科威特城是科威特的首都。"
+    },
+    {
+      "id": "zh_geo_0226",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“科威特”主要位于哪个大洲？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，科威特主要位于亚洲。"
+    },
+    {
+      "id": "zh_geo_0227",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“英国”的首都是哪座城市？",
+      "answer": "伦敦",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "英国的首都是伦敦。"
+    },
+    {
+      "id": "zh_geo_0228",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "伦敦是哪一个国家的首都？",
+      "answer": "英国",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "伦敦是英国的首都。"
+    },
+    {
+      "id": "zh_geo_0229",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“英国”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，英国主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0230",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“法国”的首都是哪座城市？",
+      "answer": "巴黎",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "法国的首都是巴黎。"
+    },
+    {
+      "id": "zh_geo_0231",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "巴黎是哪一个国家的首都？",
+      "answer": "法国",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "巴黎是法国的首都。"
+    },
+    {
+      "id": "zh_geo_0232",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“法国”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，法国主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0233",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“德国”的首都是哪座城市？",
+      "answer": "柏林",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "德国的首都是柏林。"
+    },
+    {
+      "id": "zh_geo_0234",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "柏林是哪一个国家的首都？",
+      "answer": "德国",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "柏林是德国的首都。"
+    },
+    {
+      "id": "zh_geo_0235",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“德国”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，德国主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0236",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“意大利”的首都是哪座城市？",
+      "answer": "罗马",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "意大利的首都是罗马。"
+    },
+    {
+      "id": "zh_geo_0237",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "罗马是哪一个国家的首都？",
+      "answer": "意大利",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "罗马是意大利的首都。"
+    },
+    {
+      "id": "zh_geo_0238",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“意大利”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，意大利主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0239",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“西班牙”的首都是哪座城市？",
+      "answer": "马德里",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "西班牙的首都是马德里。"
+    },
+    {
+      "id": "zh_geo_0240",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "马德里是哪一个国家的首都？",
+      "answer": "西班牙",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "马德里是西班牙的首都。"
+    },
+    {
+      "id": "zh_geo_0241",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“西班牙”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，西班牙主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0242",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“葡萄牙”的首都是哪座城市？",
+      "answer": "里斯本",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "葡萄牙的首都是里斯本。"
+    },
+    {
+      "id": "zh_geo_0243",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "里斯本是哪一个国家的首都？",
+      "answer": "葡萄牙",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "里斯本是葡萄牙的首都。"
+    },
+    {
+      "id": "zh_geo_0244",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“葡萄牙”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，葡萄牙主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0245",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“荷兰”的首都是哪座城市？",
+      "answer": "阿姆斯特丹",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "荷兰的首都是阿姆斯特丹。"
+    },
+    {
+      "id": "zh_geo_0246",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿姆斯特丹是哪一个国家的首都？",
+      "answer": "荷兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "阿姆斯特丹是荷兰的首都。"
+    },
+    {
+      "id": "zh_geo_0247",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“荷兰”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，荷兰主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0248",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“比利时”的首都是哪座城市？",
+      "answer": "布鲁塞尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "比利时的首都是布鲁塞尔。"
+    },
+    {
+      "id": "zh_geo_0249",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "布鲁塞尔是哪一个国家的首都？",
+      "answer": "比利时",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "布鲁塞尔是比利时的首都。"
+    },
+    {
+      "id": "zh_geo_0250",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“比利时”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，比利时主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0251",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“瑞士”的首都是哪座城市？",
+      "answer": "伯尔尼",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉迪斯拉发",
+        "布达佩斯",
+        "布加勒斯特"
+      ],
+      "explanation": "瑞士的首都是伯尔尼。"
+    },
+    {
+      "id": "zh_geo_0252",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "伯尔尼是哪一个国家的首都？",
+      "answer": "瑞士",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "伯尔尼是瑞士的首都。"
+    },
+    {
+      "id": "zh_geo_0253",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“瑞士”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，瑞士主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0254",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“奥地利”的首都是哪座城市？",
+      "answer": "维也纳",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "奥地利的首都是维也纳。"
+    },
+    {
+      "id": "zh_geo_0255",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "维也纳是哪一个国家的首都？",
+      "answer": "奥地利",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯洛伐克",
+        "匈牙利",
+        "罗马尼亚"
+      ],
+      "explanation": "维也纳是奥地利的首都。"
+    },
+    {
+      "id": "zh_geo_0256",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“奥地利”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，奥地利主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0257",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“波兰”的首都是哪座城市？",
+      "answer": "华沙",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "波兰的首都是华沙。"
+    },
+    {
+      "id": "zh_geo_0258",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "华沙是哪一个国家的首都？",
+      "answer": "波兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "华沙是波兰的首都。"
+    },
+    {
+      "id": "zh_geo_0259",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“波兰”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，波兰主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0260",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“捷克”的首都是哪座城市？",
+      "answer": "布拉格",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "捷克的首都是布拉格。"
+    },
+    {
+      "id": "zh_geo_0261",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "布拉格是哪一个国家的首都？",
+      "answer": "捷克",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "布拉格是捷克的首都。"
+    },
+    {
+      "id": "zh_geo_0262",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“捷克”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，捷克主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0263",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“斯洛伐克”的首都是哪座城市？",
+      "answer": "布拉迪斯拉发",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "斯洛伐克的首都是布拉迪斯拉发。"
+    },
+    {
+      "id": "zh_geo_0264",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "布拉迪斯拉发是哪一个国家的首都？",
+      "answer": "斯洛伐克",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "布拉迪斯拉发是斯洛伐克的首都。"
+    },
+    {
+      "id": "zh_geo_0265",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“斯洛伐克”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，斯洛伐克主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0266",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“匈牙利”的首都是哪座城市？",
+      "answer": "布达佩斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "匈牙利的首都是布达佩斯。"
+    },
+    {
+      "id": "zh_geo_0267",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "布达佩斯是哪一个国家的首都？",
+      "answer": "匈牙利",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "布达佩斯是匈牙利的首都。"
+    },
+    {
+      "id": "zh_geo_0268",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“匈牙利”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，匈牙利主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0269",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“罗马尼亚”的首都是哪座城市？",
+      "answer": "布加勒斯特",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "罗马尼亚的首都是布加勒斯特。"
+    },
+    {
+      "id": "zh_geo_0270",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "布加勒斯特是哪一个国家的首都？",
+      "answer": "罗马尼亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "布加勒斯特是罗马尼亚的首都。"
+    },
+    {
+      "id": "zh_geo_0271",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“罗马尼亚”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，罗马尼亚主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0272",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“保加利亚”的首都是哪座城市？",
+      "answer": "索非亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "保加利亚的首都是索非亚。"
+    },
+    {
+      "id": "zh_geo_0273",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "索非亚是哪一个国家的首都？",
+      "answer": "保加利亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "索非亚是保加利亚的首都。"
+    },
+    {
+      "id": "zh_geo_0274",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“保加利亚”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，保加利亚主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0275",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“希腊”的首都是哪座城市？",
+      "answer": "雅典",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "希腊的首都是雅典。"
+    },
+    {
+      "id": "zh_geo_0276",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "雅典是哪一个国家的首都？",
+      "answer": "希腊",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "雅典是希腊的首都。"
+    },
+    {
+      "id": "zh_geo_0277",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“希腊”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，希腊主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0278",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“瑞典”的首都是哪座城市？",
+      "answer": "斯德哥尔摩",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "瑞典的首都是斯德哥尔摩。"
+    },
+    {
+      "id": "zh_geo_0279",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "斯德哥尔摩是哪一个国家的首都？",
+      "answer": "瑞典",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "斯德哥尔摩是瑞典的首都。"
+    },
+    {
+      "id": "zh_geo_0280",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“瑞典”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，瑞典主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0281",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“挪威”的首都是哪座城市？",
+      "answer": "奥斯陆",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "挪威的首都是奥斯陆。"
+    },
+    {
+      "id": "zh_geo_0282",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "奥斯陆是哪一个国家的首都？",
+      "answer": "挪威",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "奥斯陆是挪威的首都。"
+    },
+    {
+      "id": "zh_geo_0283",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“挪威”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，挪威主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0284",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“芬兰”的首都是哪座城市？",
+      "answer": "赫尔辛基",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "芬兰的首都是赫尔辛基。"
+    },
+    {
+      "id": "zh_geo_0285",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "赫尔辛基是哪一个国家的首都？",
+      "answer": "芬兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "赫尔辛基是芬兰的首都。"
+    },
+    {
+      "id": "zh_geo_0286",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“芬兰”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，芬兰主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0287",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“丹麦”的首都是哪座城市？",
+      "answer": "哥本哈根",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "丹麦的首都是哥本哈根。"
+    },
+    {
+      "id": "zh_geo_0288",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "哥本哈根是哪一个国家的首都？",
+      "answer": "丹麦",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "哥本哈根是丹麦的首都。"
+    },
+    {
+      "id": "zh_geo_0289",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“丹麦”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，丹麦主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0290",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“冰岛”的首都是哪座城市？",
+      "answer": "雷克雅未克",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "冰岛的首都是雷克雅未克。"
+    },
+    {
+      "id": "zh_geo_0291",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "雷克雅未克是哪一个国家的首都？",
+      "answer": "冰岛",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "雷克雅未克是冰岛的首都。"
+    },
+    {
+      "id": "zh_geo_0292",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“冰岛”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，冰岛主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0293",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“爱尔兰”的首都是哪座城市？",
+      "answer": "都柏林",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "爱尔兰的首都是都柏林。"
+    },
+    {
+      "id": "zh_geo_0294",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "都柏林是哪一个国家的首都？",
+      "answer": "爱尔兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "都柏林是爱尔兰的首都。"
+    },
+    {
+      "id": "zh_geo_0295",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“爱尔兰”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，爱尔兰主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0296",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“乌克兰”的首都是哪座城市？",
+      "answer": "基辅",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "乌克兰的首都是基辅。"
+    },
+    {
+      "id": "zh_geo_0297",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "基辅是哪一个国家的首都？",
+      "answer": "乌克兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "基辅是乌克兰的首都。"
+    },
+    {
+      "id": "zh_geo_0298",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“乌克兰”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，乌克兰主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0299",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“白俄罗斯”的首都是哪座城市？",
+      "answer": "明斯克",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "白俄罗斯的首都是明斯克。"
+    },
+    {
+      "id": "zh_geo_0300",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "明斯克是哪一个国家的首都？",
+      "answer": "白俄罗斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "明斯克是白俄罗斯的首都。"
+    },
+    {
+      "id": "zh_geo_0301",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“白俄罗斯”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，白俄罗斯主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0302",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“立陶宛”的首都是哪座城市？",
+      "answer": "维尔纽斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "立陶宛的首都是维尔纽斯。"
+    },
+    {
+      "id": "zh_geo_0303",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "维尔纽斯是哪一个国家的首都？",
+      "answer": "立陶宛",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "维尔纽斯是立陶宛的首都。"
+    },
+    {
+      "id": "zh_geo_0304",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“立陶宛”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，立陶宛主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0305",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“拉脱维亚”的首都是哪座城市？",
+      "answer": "里加",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "拉脱维亚的首都是里加。"
+    },
+    {
+      "id": "zh_geo_0306",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "里加是哪一个国家的首都？",
+      "answer": "拉脱维亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "里加是拉脱维亚的首都。"
+    },
+    {
+      "id": "zh_geo_0307",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“拉脱维亚”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，拉脱维亚主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0308",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“爱沙尼亚”的首都是哪座城市？",
+      "answer": "塔林",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝尔格莱德",
+        "开罗",
+        "阿尔及尔"
+      ],
+      "explanation": "爱沙尼亚的首都是塔林。"
+    },
+    {
+      "id": "zh_geo_0309",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "塔林是哪一个国家的首都？",
+      "answer": "爱沙尼亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "塔林是爱沙尼亚的首都。"
+    },
+    {
+      "id": "zh_geo_0310",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“爱沙尼亚”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，爱沙尼亚主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0311",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“克罗地亚”的首都是哪座城市？",
+      "answer": "萨格勒布",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "克罗地亚的首都是萨格勒布。"
+    },
+    {
+      "id": "zh_geo_0312",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "萨格勒布是哪一个国家的首都？",
+      "answer": "克罗地亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞尔维亚",
+        "埃及",
+        "阿尔及利亚"
+      ],
+      "explanation": "萨格勒布是克罗地亚的首都。"
+    },
+    {
+      "id": "zh_geo_0313",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“克罗地亚”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，克罗地亚主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0314",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“塞尔维亚”的首都是哪座城市？",
+      "answer": "贝尔格莱德",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "塞尔维亚的首都是贝尔格莱德。"
+    },
+    {
+      "id": "zh_geo_0315",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "贝尔格莱德是哪一个国家的首都？",
+      "answer": "塞尔维亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "贝尔格莱德是塞尔维亚的首都。"
+    },
+    {
+      "id": "zh_geo_0316",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“塞尔维亚”主要位于哪个大洲？",
+      "answer": "欧洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，塞尔维亚主要位于欧洲。"
+    },
+    {
+      "id": "zh_geo_0317",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“埃及”的首都是哪座城市？",
+      "answer": "开罗",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "埃及的首都是开罗。"
+    },
+    {
+      "id": "zh_geo_0318",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "开罗是哪一个国家的首都？",
+      "answer": "埃及",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "开罗是埃及的首都。"
+    },
+    {
+      "id": "zh_geo_0319",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“埃及”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，埃及主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0320",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“阿尔及利亚”的首都是哪座城市？",
+      "answer": "阿尔及尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "阿尔及利亚的首都是阿尔及尔。"
+    },
+    {
+      "id": "zh_geo_0321",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿尔及尔是哪一个国家的首都？",
+      "answer": "阿尔及利亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "阿尔及尔是阿尔及利亚的首都。"
+    },
+    {
+      "id": "zh_geo_0322",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“阿尔及利亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，阿尔及利亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0323",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“摩洛哥”的首都是哪座城市？",
+      "answer": "拉巴特",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "摩洛哥的首都是拉巴特。"
+    },
+    {
+      "id": "zh_geo_0324",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "拉巴特是哪一个国家的首都？",
+      "answer": "摩洛哥",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "拉巴特是摩洛哥的首都。"
+    },
+    {
+      "id": "zh_geo_0325",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“摩洛哥”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，摩洛哥主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0326",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“突尼斯”的首都是哪座城市？",
+      "answer": "突尼斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "突尼斯的首都是突尼斯。"
+    },
+    {
+      "id": "zh_geo_0327",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "突尼斯是哪一个国家的首都？",
+      "answer": "突尼斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "突尼斯是突尼斯的首都。"
+    },
+    {
+      "id": "zh_geo_0328",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“突尼斯”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，突尼斯主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0329",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“利比亚”的首都是哪座城市？",
+      "answer": "的黎波里",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "利比亚的首都是的黎波里。"
+    },
+    {
+      "id": "zh_geo_0330",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "的黎波里是哪一个国家的首都？",
+      "answer": "利比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "的黎波里是利比亚的首都。"
+    },
+    {
+      "id": "zh_geo_0331",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“利比亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，利比亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0332",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“埃塞俄比亚”的首都是哪座城市？",
+      "answer": "亚的斯亚贝巴",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "埃塞俄比亚的首都是亚的斯亚贝巴。"
+    },
+    {
+      "id": "zh_geo_0333",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "亚的斯亚贝巴是哪一个国家的首都？",
+      "answer": "埃塞俄比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "亚的斯亚贝巴是埃塞俄比亚的首都。"
+    },
+    {
+      "id": "zh_geo_0334",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“埃塞俄比亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，埃塞俄比亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0335",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“肯尼亚”的首都是哪座城市？",
+      "answer": "内罗毕",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "肯尼亚的首都是内罗毕。"
+    },
+    {
+      "id": "zh_geo_0336",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "内罗毕是哪一个国家的首都？",
+      "answer": "肯尼亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "内罗毕是肯尼亚的首都。"
+    },
+    {
+      "id": "zh_geo_0337",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“肯尼亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，肯尼亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0338",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“坦桑尼亚”的首都是哪座城市？",
+      "answer": "多多马",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "坦桑尼亚的首都是多多马。"
+    },
+    {
+      "id": "zh_geo_0339",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "多多马是哪一个国家的首都？",
+      "answer": "坦桑尼亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "多多马是坦桑尼亚的首都。"
+    },
+    {
+      "id": "zh_geo_0340",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“坦桑尼亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，坦桑尼亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0341",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“乌干达”的首都是哪座城市？",
+      "answer": "坎帕拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "乌干达的首都是坎帕拉。"
+    },
+    {
+      "id": "zh_geo_0342",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "坎帕拉是哪一个国家的首都？",
+      "answer": "乌干达",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "坎帕拉是乌干达的首都。"
+    },
+    {
+      "id": "zh_geo_0343",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“乌干达”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，乌干达主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0344",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“卢旺达”的首都是哪座城市？",
+      "answer": "基加利",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "卢旺达的首都是基加利。"
+    },
+    {
+      "id": "zh_geo_0345",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "基加利是哪一个国家的首都？",
+      "answer": "卢旺达",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "基加利是卢旺达的首都。"
+    },
+    {
+      "id": "zh_geo_0346",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“卢旺达”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，卢旺达主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0347",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“加纳”的首都是哪座城市？",
+      "answer": "阿克拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈拉雷",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "加纳的首都是阿克拉。"
+    },
+    {
+      "id": "zh_geo_0348",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿克拉是哪一个国家的首都？",
+      "answer": "加纳",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "阿克拉是加纳的首都。"
+    },
+    {
+      "id": "zh_geo_0349",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“加纳”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，加纳主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0350",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“尼日利亚”的首都是哪座城市？",
+      "answer": "阿布贾",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "尼日利亚的首都是阿布贾。"
+    },
+    {
+      "id": "zh_geo_0351",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿布贾是哪一个国家的首都？",
+      "answer": "尼日利亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "津巴布韦",
+        "赞比亚",
+        "莫桑比克"
+      ],
+      "explanation": "阿布贾是尼日利亚的首都。"
+    },
+    {
+      "id": "zh_geo_0352",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“尼日利亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，尼日利亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0353",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“塞内加尔”的首都是哪座城市？",
+      "answer": "达喀尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "塞内加尔的首都是达喀尔。"
+    },
+    {
+      "id": "zh_geo_0354",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "达喀尔是哪一个国家的首都？",
+      "answer": "塞内加尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "达喀尔是塞内加尔的首都。"
+    },
+    {
+      "id": "zh_geo_0355",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“塞内加尔”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，塞内加尔主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0356",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“安哥拉”的首都是哪座城市？",
+      "answer": "罗安达",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "安哥拉的首都是罗安达。"
+    },
+    {
+      "id": "zh_geo_0357",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "罗安达是哪一个国家的首都？",
+      "answer": "安哥拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "罗安达是安哥拉的首都。"
+    },
+    {
+      "id": "zh_geo_0358",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“安哥拉”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，安哥拉主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0359",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“纳米比亚”的首都是哪座城市？",
+      "answer": "温得和克",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "纳米比亚的首都是温得和克。"
+    },
+    {
+      "id": "zh_geo_0360",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "温得和克是哪一个国家的首都？",
+      "answer": "纳米比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "温得和克是纳米比亚的首都。"
+    },
+    {
+      "id": "zh_geo_0361",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“纳米比亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，纳米比亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0362",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“博茨瓦纳”的首都是哪座城市？",
+      "answer": "哈博罗内",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "博茨瓦纳的首都是哈博罗内。"
+    },
+    {
+      "id": "zh_geo_0363",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "哈博罗内是哪一个国家的首都？",
+      "answer": "博茨瓦纳",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "哈博罗内是博茨瓦纳的首都。"
+    },
+    {
+      "id": "zh_geo_0364",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“博茨瓦纳”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，博茨瓦纳主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0365",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“津巴布韦”的首都是哪座城市？",
+      "answer": "哈拉雷",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈博罗内",
+        "卢萨卡",
+        "马普托"
+      ],
+      "explanation": "津巴布韦的首都是哈拉雷。"
+    },
+    {
+      "id": "zh_geo_0366",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "哈拉雷是哪一个国家的首都？",
+      "answer": "津巴布韦",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "哈拉雷是津巴布韦的首都。"
+    },
+    {
+      "id": "zh_geo_0367",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“津巴布韦”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，津巴布韦主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0368",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“赞比亚”的首都是哪座城市？",
+      "answer": "卢萨卡",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "赞比亚的首都是卢萨卡。"
+    },
+    {
+      "id": "zh_geo_0369",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "卢萨卡是哪一个国家的首都？",
+      "answer": "赞比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "博茨瓦纳",
+        "津巴布韦",
+        "莫桑比克"
+      ],
+      "explanation": "卢萨卡是赞比亚的首都。"
+    },
+    {
+      "id": "zh_geo_0370",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“赞比亚”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，赞比亚主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0371",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“莫桑比克”的首都是哪座城市？",
+      "answer": "马普托",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "莫桑比克的首都是马普托。"
+    },
+    {
+      "id": "zh_geo_0372",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "马普托是哪一个国家的首都？",
+      "answer": "莫桑比克",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "马普托是莫桑比克的首都。"
+    },
+    {
+      "id": "zh_geo_0373",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“莫桑比克”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，莫桑比克主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0374",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“马达加斯加”的首都是哪座城市？",
+      "answer": "塔那那利佛",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "马达加斯加的首都是塔那那利佛。"
+    },
+    {
+      "id": "zh_geo_0375",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "塔那那利佛是哪一个国家的首都？",
+      "answer": "马达加斯加",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "塔那那利佛是马达加斯加的首都。"
+    },
+    {
+      "id": "zh_geo_0376",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“马达加斯加”主要位于哪个大洲？",
+      "answer": "非洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，马达加斯加主要位于非洲。"
+    },
+    {
+      "id": "zh_geo_0377",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“加拿大”的首都是哪座城市？",
+      "answer": "渥太华",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "加拿大的首都是渥太华。"
+    },
+    {
+      "id": "zh_geo_0378",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "渥太华是哪一个国家的首都？",
+      "answer": "加拿大",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "渥太华是加拿大的首都。"
+    },
+    {
+      "id": "zh_geo_0379",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“加拿大”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，加拿大主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0380",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“美国”的首都是哪座城市？",
+      "answer": "华盛顿",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "美国的首都是华盛顿。"
+    },
+    {
+      "id": "zh_geo_0381",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "华盛顿是哪一个国家的首都？",
+      "answer": "美国",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "华盛顿是美国的首都。"
+    },
+    {
+      "id": "zh_geo_0382",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“美国”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，美国主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0383",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“墨西哥”的首都是哪座城市？",
+      "answer": "墨西哥城",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈博罗内",
+        "哈拉雷",
+        "卢萨卡"
+      ],
+      "explanation": "墨西哥的首都是墨西哥城。"
+    },
+    {
+      "id": "zh_geo_0384",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "墨西哥城是哪一个国家的首都？",
+      "answer": "墨西哥",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "墨西哥城是墨西哥的首都。"
+    },
+    {
+      "id": "zh_geo_0385",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“墨西哥”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，墨西哥主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0386",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“古巴”的首都是哪座城市？",
+      "answer": "哈瓦那",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "古巴的首都是哈瓦那。"
+    },
+    {
+      "id": "zh_geo_0387",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "哈瓦那是哪一个国家的首都？",
+      "answer": "古巴",
+      "accepted_aliases": [],
+      "distractors": [
+        "博茨瓦纳",
+        "津巴布韦",
+        "赞比亚"
+      ],
+      "explanation": "哈瓦那是古巴的首都。"
+    },
+    {
+      "id": "zh_geo_0388",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“古巴”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "南美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，古巴主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0389",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“牙买加”的首都是哪座城市？",
+      "answer": "金斯敦",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "牙买加的首都是金斯敦。"
+    },
+    {
+      "id": "zh_geo_0390",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "金斯敦是哪一个国家的首都？",
+      "answer": "牙买加",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "金斯敦是牙买加的首都。"
+    },
+    {
+      "id": "zh_geo_0391",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“牙买加”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，牙买加主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0392",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“巴拿马”的首都是哪座城市？",
+      "answer": "巴拿马城",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "巴拿马的首都是巴拿马城。"
+    },
+    {
+      "id": "zh_geo_0393",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "巴拿马城是哪一个国家的首都？",
+      "answer": "巴拿马",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "巴拿马城是巴拿马的首都。"
+    },
+    {
+      "id": "zh_geo_0394",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“巴拿马”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，巴拿马主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0395",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“哥斯达黎加”的首都是哪座城市？",
+      "answer": "圣何塞",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "哥斯达黎加的首都是圣何塞。"
+    },
+    {
+      "id": "zh_geo_0396",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "圣何塞是哪一个国家的首都？",
+      "answer": "哥斯达黎加",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "圣何塞是哥斯达黎加的首都。"
+    },
+    {
+      "id": "zh_geo_0397",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“哥斯达黎加”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，哥斯达黎加主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0398",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“危地马拉”的首都是哪座城市？",
+      "answer": "危地马拉城",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "危地马拉的首都是危地马拉城。"
+    },
+    {
+      "id": "zh_geo_0399",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "危地马拉城是哪一个国家的首都？",
+      "answer": "危地马拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "危地马拉城是危地马拉的首都。"
+    },
+    {
+      "id": "zh_geo_0400",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“危地马拉”主要位于哪个大洲？",
+      "answer": "北美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，危地马拉主要位于北美洲。"
+    },
+    {
+      "id": "zh_geo_0401",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“巴西”的首都是哪座城市？",
+      "answer": "巴西利亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈博罗内",
+        "哈拉雷",
+        "卢萨卡"
+      ],
+      "explanation": "巴西的首都是巴西利亚。"
+    },
+    {
+      "id": "zh_geo_0402",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "巴西利亚是哪一个国家的首都？",
+      "answer": "巴西",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "巴西利亚是巴西的首都。"
+    },
+    {
+      "id": "zh_geo_0403",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“巴西”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，巴西主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0404",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“阿根廷”的首都是哪座城市？",
+      "answer": "布宜诺斯艾利斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "基多",
+        "蒙得维的亚",
+        "亚松森"
+      ],
+      "explanation": "阿根廷的首都是布宜诺斯艾利斯。"
+    },
+    {
+      "id": "zh_geo_0405",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "布宜诺斯艾利斯是哪一个国家的首都？",
+      "answer": "阿根廷",
+      "accepted_aliases": [],
+      "distractors": [
+        "博茨瓦纳",
+        "津巴布韦",
+        "赞比亚"
+      ],
+      "explanation": "布宜诺斯艾利斯是阿根廷的首都。"
+    },
+    {
+      "id": "zh_geo_0406",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“阿根廷”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，阿根廷主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0407",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“智利”的首都是哪座城市？",
+      "answer": "圣地亚哥",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "智利的首都是圣地亚哥。"
+    },
+    {
+      "id": "zh_geo_0408",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "圣地亚哥是哪一个国家的首都？",
+      "answer": "智利",
+      "accepted_aliases": [],
+      "distractors": [
+        "厄瓜多尔",
+        "乌拉圭",
+        "巴拉圭"
+      ],
+      "explanation": "圣地亚哥是智利的首都。"
+    },
+    {
+      "id": "zh_geo_0409",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“智利”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，智利主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0410",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“秘鲁”的首都是哪座城市？",
+      "answer": "利马",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "秘鲁的首都是利马。"
+    },
+    {
+      "id": "zh_geo_0411",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "利马是哪一个国家的首都？",
+      "answer": "秘鲁",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "利马是秘鲁的首都。"
+    },
+    {
+      "id": "zh_geo_0412",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“秘鲁”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，秘鲁主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0413",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“哥伦比亚”的首都是哪座城市？",
+      "answer": "波哥大",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "哥伦比亚的首都是波哥大。"
+    },
+    {
+      "id": "zh_geo_0414",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "波哥大是哪一个国家的首都？",
+      "answer": "哥伦比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "波哥大是哥伦比亚的首都。"
+    },
+    {
+      "id": "zh_geo_0415",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“哥伦比亚”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，哥伦比亚主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0416",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“厄瓜多尔”的首都是哪座城市？",
+      "answer": "基多",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "厄瓜多尔的首都是基多。"
+    },
+    {
+      "id": "zh_geo_0417",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "基多是哪一个国家的首都？",
+      "answer": "厄瓜多尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "基多是厄瓜多尔的首都。"
+    },
+    {
+      "id": "zh_geo_0418",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“厄瓜多尔”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "大洋洲"
+      ],
+      "explanation": "按通常的洲际划分，厄瓜多尔主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0419",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“乌拉圭”的首都是哪座城市？",
+      "answer": "蒙得维的亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈博罗内",
+        "哈拉雷",
+        "卢萨卡"
+      ],
+      "explanation": "乌拉圭的首都是蒙得维的亚。"
+    },
+    {
+      "id": "zh_geo_0420",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "蒙得维的亚是哪一个国家的首都？",
+      "answer": "乌拉圭",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "蒙得维的亚是乌拉圭的首都。"
+    },
+    {
+      "id": "zh_geo_0421",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“乌拉圭”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，乌拉圭主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0422",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“巴拉圭”的首都是哪座城市？",
+      "answer": "亚松森",
+      "accepted_aliases": [],
+      "distractors": [
+        "波哥大",
+        "基多",
+        "蒙得维的亚"
+      ],
+      "explanation": "巴拉圭的首都是亚松森。"
+    },
+    {
+      "id": "zh_geo_0423",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "亚松森是哪一个国家的首都？",
+      "answer": "巴拉圭",
+      "accepted_aliases": [],
+      "distractors": [
+        "博茨瓦纳",
+        "津巴布韦",
+        "赞比亚"
+      ],
+      "explanation": "亚松森是巴拉圭的首都。"
+    },
+    {
+      "id": "zh_geo_0424",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“巴拉圭”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，巴拉圭主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0425",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“委内瑞拉”的首都是哪座城市？",
+      "answer": "加拉加斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "委内瑞拉的首都是加拉加斯。"
+    },
+    {
+      "id": "zh_geo_0426",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "加拉加斯是哪一个国家的首都？",
+      "answer": "委内瑞拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "哥伦比亚",
+        "厄瓜多尔",
+        "乌拉圭"
+      ],
+      "explanation": "加拉加斯是委内瑞拉的首都。"
+    },
+    {
+      "id": "zh_geo_0427",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“委内瑞拉”主要位于哪个大洲？",
+      "answer": "南美洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "大洋洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，委内瑞拉主要位于南美洲。"
+    },
+    {
+      "id": "zh_geo_0428",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“澳大利亚”的首都是哪座城市？",
+      "answer": "堪培拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "德黑兰",
+        "巴格达",
+        "利雅得"
+      ],
+      "explanation": "澳大利亚的首都是堪培拉。"
+    },
+    {
+      "id": "zh_geo_0429",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "堪培拉是哪一个国家的首都？",
+      "answer": "澳大利亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟加拉国",
+        "尼泊尔",
+        "不丹"
+      ],
+      "explanation": "堪培拉是澳大利亚的首都。"
+    },
+    {
+      "id": "zh_geo_0430",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“澳大利亚”主要位于哪个大洲？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，澳大利亚主要位于大洋洲。"
+    },
+    {
+      "id": "zh_geo_0431",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“新西兰”的首都是哪座城市？",
+      "answer": "惠灵顿",
+      "accepted_aliases": [],
+      "distractors": [
+        "布拉格",
+        "布拉迪斯拉发",
+        "布达佩斯"
+      ],
+      "explanation": "新西兰的首都是惠灵顿。"
+    },
+    {
+      "id": "zh_geo_0432",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "惠灵顿是哪一个国家的首都？",
+      "answer": "新西兰",
+      "accepted_aliases": [],
+      "distractors": [
+        "伊朗",
+        "伊拉克",
+        "沙特阿拉伯"
+      ],
+      "explanation": "惠灵顿是新西兰的首都。"
+    },
+    {
+      "id": "zh_geo_0433",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“新西兰”主要位于哪个大洲？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "非洲",
+        "北美洲",
+        "南美洲"
+      ],
+      "explanation": "按通常的洲际划分，新西兰主要位于大洋洲。"
+    },
+    {
+      "id": "zh_geo_0434",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“斐济”的首都是哪座城市？",
+      "answer": "苏瓦",
+      "accepted_aliases": [],
+      "distractors": [
+        "萨格勒布",
+        "贝尔格莱德",
+        "开罗"
+      ],
+      "explanation": "斐济的首都是苏瓦。"
+    },
+    {
+      "id": "zh_geo_0435",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "苏瓦是哪一个国家的首都？",
+      "answer": "斐济",
+      "accepted_aliases": [],
+      "distractors": [
+        "捷克",
+        "斯洛伐克",
+        "匈牙利"
+      ],
+      "explanation": "苏瓦是斐济的首都。"
+    },
+    {
+      "id": "zh_geo_0436",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“斐济”主要位于哪个大洲？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南美洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "explanation": "按通常的洲际划分，斐济主要位于大洋洲。"
+    },
+    {
+      "id": "zh_geo_0437",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“巴布亚新几内亚”的首都是哪座城市？",
+      "answer": "莫尔兹比港",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈博罗内",
+        "哈拉雷",
+        "卢萨卡"
+      ],
+      "explanation": "巴布亚新几内亚的首都是莫尔兹比港。"
+    },
+    {
+      "id": "zh_geo_0438",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "莫尔兹比港是哪一个国家的首都？",
+      "answer": "巴布亚新几内亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "克罗地亚",
+        "塞尔维亚",
+        "埃及"
+      ],
+      "explanation": "莫尔兹比港是巴布亚新几内亚的首都。"
+    },
+    {
+      "id": "zh_geo_0439",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“巴布亚新几内亚”主要位于哪个大洲？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "欧洲",
+        "非洲",
+        "北美洲"
+      ],
+      "explanation": "按通常的洲际划分，巴布亚新几内亚主要位于大洋洲。"
+    },
+    {
+      "id": "zh_geo_0440",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“萨摩亚”的首都是哪座城市？",
+      "answer": "阿皮亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "波哥大",
+        "基多",
+        "蒙得维的亚"
+      ],
+      "explanation": "萨摩亚的首都是阿皮亚。"
+    },
+    {
+      "id": "zh_geo_0441",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "阿皮亚是哪一个国家的首都？",
+      "answer": "萨摩亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "博茨瓦纳",
+        "津巴布韦",
+        "赞比亚"
+      ],
+      "explanation": "阿皮亚是萨摩亚的首都。"
+    },
+    {
+      "id": "zh_geo_0442",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“萨摩亚”主要位于哪个大洲？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "北美洲",
+        "南美洲",
+        "亚洲"
+      ],
+      "explanation": "按通常的洲际划分，萨摩亚主要位于大洋洲。"
+    },
+    {
+      "id": "zh_geo_0443",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "国家“汤加”的首都是哪座城市？",
+      "answer": "努库阿洛法",
+      "accepted_aliases": [],
+      "distractors": [
+        "达卡",
+        "加德满都",
+        "廷布"
+      ],
+      "explanation": "汤加的首都是努库阿洛法。"
+    },
+    {
+      "id": "zh_geo_0444",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "努库阿洛法是哪一个国家的首都？",
+      "answer": "汤加",
+      "accepted_aliases": [],
+      "distractors": [
+        "哥伦比亚",
+        "厄瓜多尔",
+        "乌拉圭"
+      ],
+      "explanation": "努库阿洛法是汤加的首都。"
+    },
+    {
+      "id": "zh_geo_0445",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "国家“汤加”主要位于哪个大洲？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "欧洲",
+        "非洲"
+      ],
+      "explanation": "按通常的洲际划分，汤加主要位于大洋洲。"
+    },
+    {
+      "id": "zh_geo_0446",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "地理概念“世界面积最大的海洋”对应的对应答案是什么？",
+      "answer": "太平洋",
+      "accepted_aliases": [],
+      "distractors": [
+        "长江",
+        "鄱阳湖",
+        "青海湖"
+      ],
+      "explanation": "世界面积最大的海洋与太平洋是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0447",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“太平洋”？",
+      "answer": "世界面积最大的海洋",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国面积最大的咸水湖",
+        "本初子午线经过的英国地点",
+        "赤道纬度"
+      ],
+      "explanation": "在给出的选项中，世界面积最大的海洋与太平洋正确对应。"
+    },
+    {
+      "id": "zh_geo_0448",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "地理概念“世界面积最小的海洋”对应的对应答案是什么？",
+      "answer": "北冰洋",
+      "accepted_aliases": [],
+      "distractors": [
+        "青海湖",
+        "格林尼治",
+        "0度"
+      ],
+      "explanation": "世界面积最小的海洋与北冰洋是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0449",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“北冰洋”？",
+      "answer": "世界面积最小的海洋",
+      "accepted_aliases": [],
+      "distractors": [
+        "赤道纬度",
+        "北极点纬度",
+        "南极点纬度"
+      ],
+      "explanation": "在给出的选项中，世界面积最小的海洋与北冰洋正确对应。"
+    },
+    {
+      "id": "zh_geo_0450",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "地理概念“世界面积最大的大洲”对应的对应答案是什么？",
+      "answer": "亚洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "0度",
+        "北纬90度",
+        "南纬90度"
+      ],
+      "explanation": "世界面积最大的大洲与亚洲是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0451",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“亚洲”？",
+      "answer": "世界面积最大的大洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南极点纬度",
+        "地球自转方向",
+        "世界面积最大的海洋"
+      ],
+      "explanation": "在给出的选项中，世界面积最大的大洲与亚洲正确对应。"
+    },
+    {
+      "id": "zh_geo_0452",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "地理概念“世界面积最小的大洲”对应的对应答案是什么？",
+      "answer": "大洋洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "南纬90度",
+        "自西向东",
+        "太平洋"
+      ],
+      "explanation": "世界面积最小的大洲与大洋洲是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0453",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“大洋洲”？",
+      "answer": "世界面积最小的大洲",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界面积最大的海洋",
+        "世界面积最小的海洋",
+        "世界面积最大的大洲"
+      ],
+      "explanation": "在给出的选项中，世界面积最小的大洲与大洋洲正确对应。"
+    },
+    {
+      "id": "zh_geo_0454",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "地理概念“世界最高峰”对应的对应答案是什么？",
+      "answer": "珠穆朗玛峰",
+      "accepted_aliases": [],
+      "distractors": [
+        "太平洋",
+        "北冰洋",
+        "亚洲"
+      ],
+      "explanation": "世界最高峰与珠穆朗玛峰是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0455",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“珠穆朗玛峰”？",
+      "answer": "世界最高峰",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界面积最大的大洲",
+        "世界面积最小的大洲",
+        "世界最深的海沟"
+      ],
+      "explanation": "在给出的选项中，世界最高峰与珠穆朗玛峰正确对应。"
+    },
+    {
+      "id": "zh_geo_0456",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "地理概念“世界最深的海沟”对应的对应答案是什么？",
+      "answer": "马里亚纳海沟",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚洲",
+        "大洋洲",
+        "珠穆朗玛峰"
+      ],
+      "explanation": "世界最深的海沟与马里亚纳海沟是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0457",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“马里亚纳海沟”？",
+      "answer": "世界最深的海沟",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界最高峰",
+        "世界面积最大的热沙漠",
+        "世界水量最大的河流"
+      ],
+      "explanation": "在给出的选项中，世界最深的海沟与马里亚纳海沟正确对应。"
+    },
+    {
+      "id": "zh_geo_0458",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "地理概念“世界面积最大的热沙漠”对应的对应答案是什么？",
+      "answer": "撒哈拉沙漠",
+      "accepted_aliases": [],
+      "distractors": [
+        "珠穆朗玛峰",
+        "马里亚纳海沟",
+        "亚马孙河"
+      ],
+      "explanation": "世界面积最大的热沙漠与撒哈拉沙漠是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0459",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“撒哈拉沙漠”？",
+      "answer": "世界面积最大的热沙漠",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界水量最大的河流",
+        "中国最长的河流",
+        "中国面积最大的淡水湖"
+      ],
+      "explanation": "在给出的选项中，世界面积最大的热沙漠与撒哈拉沙漠正确对应。"
+    },
+    {
+      "id": "zh_geo_0460",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "地理概念“世界水量最大的河流”对应的对应答案是什么？",
+      "answer": "亚马孙河",
+      "accepted_aliases": [],
+      "distractors": [
+        "撒哈拉沙漠",
+        "长江",
+        "鄱阳湖"
+      ],
+      "explanation": "世界水量最大的河流与亚马孙河是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0461",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“亚马孙河”？",
+      "answer": "世界水量最大的河流",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国面积最大的淡水湖",
+        "中国面积最大的咸水湖",
+        "本初子午线经过的英国地点"
+      ],
+      "explanation": "在给出的选项中，世界水量最大的河流与亚马孙河正确对应。"
+    },
+    {
+      "id": "zh_geo_0462",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "地理概念“中国最长的河流”对应的对应答案是什么？",
+      "answer": "长江",
+      "accepted_aliases": [],
+      "distractors": [
+        "鄱阳湖",
+        "青海湖",
+        "格林尼治"
+      ],
+      "explanation": "中国最长的河流与长江是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0463",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“长江”？",
+      "answer": "中国最长的河流",
+      "accepted_aliases": [],
+      "distractors": [
+        "本初子午线经过的英国地点",
+        "赤道纬度",
+        "北极点纬度"
+      ],
+      "explanation": "在给出的选项中，中国最长的河流与长江正确对应。"
+    },
+    {
+      "id": "zh_geo_0464",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "地理概念“中国面积最大的淡水湖”对应的对应答案是什么？",
+      "answer": "鄱阳湖",
+      "accepted_aliases": [],
+      "distractors": [
+        "格林尼治",
+        "0度",
+        "北纬90度"
+      ],
+      "explanation": "中国面积最大的淡水湖与鄱阳湖是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0465",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“鄱阳湖”？",
+      "answer": "中国面积最大的淡水湖",
+      "accepted_aliases": [],
+      "distractors": [
+        "北极点纬度",
+        "南极点纬度",
+        "地球自转方向"
+      ],
+      "explanation": "在给出的选项中，中国面积最大的淡水湖与鄱阳湖正确对应。"
+    },
+    {
+      "id": "zh_geo_0466",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "地理概念“中国面积最大的咸水湖”对应的对应答案是什么？",
+      "answer": "青海湖",
+      "accepted_aliases": [],
+      "distractors": [
+        "北纬90度",
+        "南纬90度",
+        "自西向东"
+      ],
+      "explanation": "中国面积最大的咸水湖与青海湖是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0467",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“青海湖”？",
+      "answer": "中国面积最大的咸水湖",
+      "accepted_aliases": [],
+      "distractors": [
+        "地球自转方向",
+        "世界面积最大的海洋",
+        "世界面积最小的海洋"
+      ],
+      "explanation": "在给出的选项中，中国面积最大的咸水湖与青海湖正确对应。"
+    },
+    {
+      "id": "zh_geo_0468",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "地理概念“本初子午线经过的英国地点”对应的对应答案是什么？",
+      "answer": "格林尼治",
+      "accepted_aliases": [],
+      "distractors": [
+        "自西向东",
+        "太平洋",
+        "北冰洋"
+      ],
+      "explanation": "本初子午线经过的英国地点与格林尼治是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0469",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“格林尼治”？",
+      "answer": "本初子午线经过的英国地点",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界面积最小的海洋",
+        "世界面积最大的大洲",
+        "世界面积最小的大洲"
+      ],
+      "explanation": "在给出的选项中，本初子午线经过的英国地点与格林尼治正确对应。"
+    },
+    {
+      "id": "zh_geo_0470",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "地理概念“赤道纬度”对应的对应答案是什么？",
+      "answer": "0度",
+      "accepted_aliases": [],
+      "distractors": [
+        "北冰洋",
+        "亚洲",
+        "大洋洲"
+      ],
+      "explanation": "赤道纬度与0度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0471",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“0度”？",
+      "answer": "赤道纬度",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界面积最小的大洲",
+        "世界最高峰",
+        "世界最深的海沟"
+      ],
+      "explanation": "在给出的选项中，赤道纬度与0度正确对应。"
+    },
+    {
+      "id": "zh_geo_0472",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "地理概念“北极点纬度”对应的对应答案是什么？",
+      "answer": "北纬90度",
+      "accepted_aliases": [],
+      "distractors": [
+        "大洋洲",
+        "珠穆朗玛峰",
+        "马里亚纳海沟"
+      ],
+      "explanation": "北极点纬度与北纬90度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0473",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“北纬90度”？",
+      "answer": "北极点纬度",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界最深的海沟",
+        "世界面积最大的热沙漠",
+        "世界水量最大的河流"
+      ],
+      "explanation": "在给出的选项中，北极点纬度与北纬90度正确对应。"
+    },
+    {
+      "id": "zh_geo_0474",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "地理概念“南极点纬度”对应的对应答案是什么？",
+      "answer": "南纬90度",
+      "accepted_aliases": [],
+      "distractors": [
+        "马里亚纳海沟",
+        "撒哈拉沙漠",
+        "亚马孙河"
+      ],
+      "explanation": "南极点纬度与南纬90度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0475",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“南纬90度”？",
+      "answer": "南极点纬度",
+      "accepted_aliases": [],
+      "distractors": [
+        "世界水量最大的河流",
+        "中国最长的河流",
+        "中国面积最大的淡水湖"
+      ],
+      "explanation": "在给出的选项中，南极点纬度与南纬90度正确对应。"
+    },
+    {
+      "id": "zh_geo_0476",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "地理概念“地球自转方向”对应的对应答案是什么？",
+      "answer": "自西向东",
+      "accepted_aliases": [],
+      "distractors": [
+        "亚马孙河",
+        "长江",
+        "鄱阳湖"
+      ],
+      "explanation": "地球自转方向与自西向东是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_geo_0477",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“自西向东”？",
+      "answer": "地球自转方向",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国面积最大的淡水湖",
+        "中国面积最大的咸水湖",
+        "本初子午线经过的英国地点"
+      ],
+      "explanation": "在给出的选项中，地球自转方向与自西向东正确对应。"
+    },
+    {
+      "id": "zh_geo_0478",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "纬度标注为北纬1度的地点位于哪个纬度半球？",
+      "answer": "北半球",
+      "accepted_aliases": [],
+      "distractors": [
+        "东半球",
+        "西半球",
+        "南半球"
+      ],
+      "explanation": "北纬表示位于赤道以北的纬度范围，因此该地点位于北半球。"
+    },
+    {
+      "id": "zh_geo_0479",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "纬度标注为南纬1度的地点位于哪个纬度半球？",
+      "answer": "南半球",
+      "accepted_aliases": [],
+      "distractors": [
+        "东半球",
+        "西半球",
+        "北半球"
+      ],
+      "explanation": "南纬表示位于赤道以南的纬度范围，因此该地点位于南半球。"
+    },
+    {
+      "id": "zh_geo_0480",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "东经1度表示该经线位于本初子午线的哪一侧？",
+      "answer": "以东",
+      "accepted_aliases": [],
+      "distractors": [
+        "以西",
+        "以北",
+        "以南"
+      ],
+      "explanation": "东经用于标记本初子午线以东的经度。"
+    },
+    {
+      "id": "zh_geo_0481",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "西经1度表示该经线位于本初子午线的哪一侧？",
+      "answer": "以西",
+      "accepted_aliases": [],
+      "distractors": [
+        "以东",
+        "以北",
+        "以南"
+      ],
+      "explanation": "西经用于标记本初子午线以西的经度。"
+    },
+    {
+      "id": "zh_geo_0482",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "北纬1度与赤道相差多少个纬度？",
+      "answer": "1度",
+      "accepted_aliases": [],
+      "distractors": [
+        "2度",
+        "0度",
+        "3度"
+      ],
+      "explanation": "赤道纬度是0度，因此北纬1度与赤道相差1度。"
+    },
+    {
+      "id": "zh_geo_0483",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "南纬1度与赤道相差多少个纬度？",
+      "answer": "1度",
+      "accepted_aliases": [],
+      "distractors": [
+        "2度",
+        "0度",
+        "3度"
+      ],
+      "explanation": "赤道纬度是0度，因此南纬1度与赤道相差1度。"
+    },
+    {
+      "id": "zh_geo_0484",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "北纬1度与南纬1度相差多少个纬度？",
+      "answer": "2度",
+      "accepted_aliases": [],
+      "distractors": [
+        "3度",
+        "1度",
+        "4度"
+      ],
+      "explanation": "两地分处赤道两侧，纬度差为1加1，即2度。"
+    },
+    {
+      "id": "zh_geo_0485",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "东经1度与西经1度的经度差是多少？",
+      "answer": "2度",
+      "accepted_aliases": [],
+      "distractors": [
+        "3度",
+        "1度",
+        "4度"
+      ],
+      "explanation": "两条经线分处本初子午线两侧，经度差为1加1，即2度。"
+    },
+    {
+      "id": "zh_geo_0486",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "纬度标注为北纬2度的地点位于哪个纬度半球？",
+      "answer": "北半球",
+      "accepted_aliases": [],
+      "distractors": [
+        "南半球",
+        "东半球",
+        "西半球"
+      ],
+      "explanation": "北纬表示位于赤道以北的纬度范围，因此该地点位于北半球。"
+    },
+    {
+      "id": "zh_geo_0487",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "纬度标注为南纬2度的地点位于哪个纬度半球？",
+      "answer": "南半球",
+      "accepted_aliases": [],
+      "distractors": [
+        "北半球",
+        "东半球",
+        "西半球"
+      ],
+      "explanation": "南纬表示位于赤道以南的纬度范围，因此该地点位于南半球。"
+    },
+    {
+      "id": "zh_geo_0488",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "东经2度表示该经线位于本初子午线的哪一侧？",
+      "answer": "以东",
+      "accepted_aliases": [],
+      "distractors": [
+        "以西",
+        "以北",
+        "以南"
+      ],
+      "explanation": "东经用于标记本初子午线以东的经度。"
+    },
+    {
+      "id": "zh_geo_0489",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "西经2度表示该经线位于本初子午线的哪一侧？",
+      "answer": "以西",
+      "accepted_aliases": [],
+      "distractors": [
+        "以东",
+        "以北",
+        "以南"
+      ],
+      "explanation": "西经用于标记本初子午线以西的经度。"
+    },
+    {
+      "id": "zh_geo_0490",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "北纬2度与赤道相差多少个纬度？",
+      "answer": "2度",
+      "accepted_aliases": [],
+      "distractors": [
+        "3度",
+        "1度",
+        "4度"
+      ],
+      "explanation": "赤道纬度是0度，因此北纬2度与赤道相差2度。"
+    },
+    {
+      "id": "zh_geo_0491",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "南纬2度与赤道相差多少个纬度？",
+      "answer": "2度",
+      "accepted_aliases": [],
+      "distractors": [
+        "3度",
+        "1度",
+        "4度"
+      ],
+      "explanation": "赤道纬度是0度，因此南纬2度与赤道相差2度。"
+    },
+    {
+      "id": "zh_geo_0492",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "北纬2度与南纬2度相差多少个纬度？",
+      "answer": "4度",
+      "accepted_aliases": [],
+      "distractors": [
+        "5度",
+        "3度",
+        "6度"
+      ],
+      "explanation": "两地分处赤道两侧，纬度差为2加2，即4度。"
+    },
+    {
+      "id": "zh_geo_0493",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "东经2度与西经2度的经度差是多少？",
+      "answer": "4度",
+      "accepted_aliases": [],
+      "distractors": [
+        "5度",
+        "3度",
+        "6度"
+      ],
+      "explanation": "两条经线分处本初子午线两侧，经度差为2加2，即4度。"
+    },
+    {
+      "id": "zh_geo_0494",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "纬度标注为北纬3度的地点位于哪个纬度半球？",
+      "answer": "北半球",
+      "accepted_aliases": [],
+      "distractors": [
+        "西半球",
+        "南半球",
+        "东半球"
+      ],
+      "explanation": "北纬表示位于赤道以北的纬度范围，因此该地点位于北半球。"
+    },
+    {
+      "id": "zh_geo_0495",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "纬度标注为南纬3度的地点位于哪个纬度半球？",
+      "answer": "南半球",
+      "accepted_aliases": [],
+      "distractors": [
+        "西半球",
+        "北半球",
+        "东半球"
+      ],
+      "explanation": "南纬表示位于赤道以南的纬度范围，因此该地点位于南半球。"
+    },
+    {
+      "id": "zh_geo_0496",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "东经3度表示该经线位于本初子午线的哪一侧？",
+      "answer": "以东",
+      "accepted_aliases": [],
+      "distractors": [
+        "以西",
+        "以北",
+        "以南"
+      ],
+      "explanation": "东经用于标记本初子午线以东的经度。"
+    },
+    {
+      "id": "zh_geo_0497",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "西经3度表示该经线位于本初子午线的哪一侧？",
+      "answer": "以西",
+      "accepted_aliases": [],
+      "distractors": [
+        "以东",
+        "以北",
+        "以南"
+      ],
+      "explanation": "西经用于标记本初子午线以西的经度。"
+    },
+    {
+      "id": "zh_geo_0498",
+      "category": "geography",
+      "difficulty": 3,
+      "stem": "北纬3度与赤道相差多少个纬度？",
+      "answer": "3度",
+      "accepted_aliases": [],
+      "distractors": [
+        "4度",
+        "2度",
+        "5度"
+      ],
+      "explanation": "赤道纬度是0度，因此北纬3度与赤道相差3度。"
+    },
+    {
+      "id": "zh_geo_0499",
+      "category": "geography",
+      "difficulty": 1,
+      "stem": "南纬3度与赤道相差多少个纬度？",
+      "answer": "3度",
+      "accepted_aliases": [],
+      "distractors": [
+        "4度",
+        "2度",
+        "5度"
+      ],
+      "explanation": "赤道纬度是0度，因此南纬3度与赤道相差3度。"
+    },
+    {
+      "id": "zh_geo_0500",
+      "category": "geography",
+      "difficulty": 2,
+      "stem": "北纬3度与南纬3度相差多少个纬度？",
+      "answer": "6度",
+      "accepted_aliases": [],
+      "distractors": [
+        "7度",
+        "5度",
+        "8度"
+      ],
+      "explanation": "两地分处赤道两侧，纬度差为3加3，即6度。"
+    }
+  ],
+  "signature": "CONTROLFREE_BUNDLED_LOCAL_V1"
+}

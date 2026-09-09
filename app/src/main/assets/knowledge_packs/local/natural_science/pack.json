@@ -1,0 +1,7020 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "local_natural_science_v1",
+    "title": "自然科学百科 500 题",
+    "version": 2,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1785024000,
+    "minimum_app_version_code": 17,
+    "question_count": 500,
+    "content_types": [
+      "knowledge_quiz",
+      "category_natural_science"
+    ],
+    "signing_key_id": "bundled_local_v1"
+  },
+  "facts": [
+    {
+      "id": "zh_sci_0001",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“氢”的化学符号是什么？",
+      "answer": "H",
+      "accepted_aliases": [],
+      "distractors": [
+        "F",
+        "Ne",
+        "Na"
+      ],
+      "explanation": "氢的国际通用化学符号是 H。"
+    },
+    {
+      "id": "zh_sci_0002",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“H”代表哪种元素？",
+      "answer": "氢",
+      "accepted_aliases": [],
+      "distractors": [
+        "铷",
+        "锶",
+        "钇"
+      ],
+      "explanation": "元素符号 H 对应的中文名称是氢。"
+    },
+    {
+      "id": "zh_sci_0003",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "氢元素的原子序数是多少？",
+      "answer": "1",
+      "accepted_aliases": [],
+      "distractors": [
+        "14",
+        "15",
+        "16"
+      ],
+      "explanation": "元素周期表中氢的原子序数是1。"
+    },
+    {
+      "id": "zh_sci_0004",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为1的元素是哪一种？",
+      "answer": "氢",
+      "accepted_aliases": [],
+      "distractors": [
+        "铜",
+        "锌",
+        "镓"
+      ],
+      "explanation": "原子序数1在元素周期表中对应氢。"
+    },
+    {
+      "id": "zh_sci_0005",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“氦”的化学符号是什么？",
+      "answer": "He",
+      "accepted_aliases": [],
+      "distractors": [
+        "Fe",
+        "Co",
+        "Ni"
+      ],
+      "explanation": "氦的国际通用化学符号是 He。"
+    },
+    {
+      "id": "zh_sci_0006",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“He”代表哪种元素？",
+      "answer": "氦",
+      "accepted_aliases": [],
+      "distractors": [
+        "氙",
+        "氢",
+        "锂"
+      ],
+      "explanation": "元素符号 He 对应的中文名称是氦。"
+    },
+    {
+      "id": "zh_sci_0007",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "氦元素的原子序数是多少？",
+      "answer": "2",
+      "accepted_aliases": [],
+      "distractors": [
+        "31",
+        "32",
+        "33"
+      ],
+      "explanation": "元素周期表中氦的原子序数是2。"
+    },
+    {
+      "id": "zh_sci_0008",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为2的元素是哪一种？",
+      "answer": "氦",
+      "accepted_aliases": [],
+      "distractors": [
+        "钯",
+        "银",
+        "镉"
+      ],
+      "explanation": "原子序数2在元素周期表中对应氦。"
+    },
+    {
+      "id": "zh_sci_0009",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“锂”的化学符号是什么？",
+      "answer": "Li",
+      "accepted_aliases": [],
+      "distractors": [
+        "Tc",
+        "Ru",
+        "Rh"
+      ],
+      "explanation": "锂的国际通用化学符号是 Li。"
+    },
+    {
+      "id": "zh_sci_0010",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Li”代表哪种元素？",
+      "answer": "锂",
+      "accepted_aliases": [],
+      "distractors": [
+        "氩",
+        "钾",
+        "钙"
+      ],
+      "explanation": "元素符号 Li 对应的中文名称是锂。"
+    },
+    {
+      "id": "zh_sci_0011",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "锂元素的原子序数是多少？",
+      "answer": "3",
+      "accepted_aliases": [],
+      "distractors": [
+        "48",
+        "49",
+        "50"
+      ],
+      "explanation": "元素周期表中锂的原子序数是3。"
+    },
+    {
+      "id": "zh_sci_0012",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为3的元素是哪一种？",
+      "answer": "锂",
+      "accepted_aliases": [],
+      "distractors": [
+        "氖",
+        "钠",
+        "镁"
+      ],
+      "explanation": "原子序数3在元素周期表中对应锂。"
+    },
+    {
+      "id": "zh_sci_0013",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“铍”的化学符号是什么？",
+      "answer": "Be",
+      "accepted_aliases": [],
+      "distractors": [
+        "N",
+        "O",
+        "F"
+      ],
+      "explanation": "铍的国际通用化学符号是 Be。"
+    },
+    {
+      "id": "zh_sci_0014",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Be”代表哪种元素？",
+      "answer": "铍",
+      "accepted_aliases": [],
+      "distractors": [
+        "溴",
+        "氪",
+        "铷"
+      ],
+      "explanation": "元素符号 Be 对应的中文名称是铍。"
+    },
+    {
+      "id": "zh_sci_0015",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "铍元素的原子序数是多少？",
+      "answer": "4",
+      "accepted_aliases": [],
+      "distractors": [
+        "12",
+        "13",
+        "14"
+      ],
+      "explanation": "元素周期表中铍的原子序数是4。"
+    },
+    {
+      "id": "zh_sci_0016",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为4的元素是哪一种？",
+      "answer": "铍",
+      "accepted_aliases": [],
+      "distractors": [
+        "钴",
+        "镍",
+        "铜"
+      ],
+      "explanation": "原子序数4在元素周期表中对应铍。"
+    },
+    {
+      "id": "zh_sci_0017",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“硼”的化学符号是什么？",
+      "answer": "B",
+      "accepted_aliases": [],
+      "distractors": [
+        "Cr",
+        "Mn",
+        "Fe"
+      ],
+      "explanation": "硼的国际通用化学符号是 B。"
+    },
+    {
+      "id": "zh_sci_0018",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“B”代表哪种元素？",
+      "answer": "硼",
+      "accepted_aliases": [],
+      "distractors": [
+        "碲",
+        "碘",
+        "氙"
+      ],
+      "explanation": "元素符号 B 对应的中文名称是硼。"
+    },
+    {
+      "id": "zh_sci_0019",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "硼元素的原子序数是多少？",
+      "answer": "5",
+      "accepted_aliases": [],
+      "distractors": [
+        "29",
+        "30",
+        "31"
+      ],
+      "explanation": "元素周期表中硼的原子序数是5。"
+    },
+    {
+      "id": "zh_sci_0020",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为5的元素是哪一种？",
+      "answer": "硼",
+      "accepted_aliases": [],
+      "distractors": [
+        "钌",
+        "铑",
+        "钯"
+      ],
+      "explanation": "原子序数5在元素周期表中对应硼。"
+    },
+    {
+      "id": "zh_sci_0021",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“碳”的化学符号是什么？",
+      "answer": "C",
+      "accepted_aliases": [],
+      "distractors": [
+        "Nb",
+        "Mo",
+        "Tc"
+      ],
+      "explanation": "碳的国际通用化学符号是 C。"
+    },
+    {
+      "id": "zh_sci_0022",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“C”代表哪种元素？",
+      "answer": "碳",
+      "accepted_aliases": [],
+      "distractors": [
+        "硫",
+        "氯",
+        "氩"
+      ],
+      "explanation": "元素符号 C 对应的中文名称是碳。"
+    },
+    {
+      "id": "zh_sci_0023",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "碳元素的原子序数是多少？",
+      "answer": "6",
+      "accepted_aliases": [],
+      "distractors": [
+        "46",
+        "47",
+        "48"
+      ],
+      "explanation": "元素周期表中碳的原子序数是6。"
+    },
+    {
+      "id": "zh_sci_0024",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为6的元素是哪一种？",
+      "answer": "碳",
+      "accepted_aliases": [],
+      "distractors": [
+        "氧",
+        "氟",
+        "氖"
+      ],
+      "explanation": "原子序数6在元素周期表中对应碳。"
+    },
+    {
+      "id": "zh_sci_0025",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“氮”的化学符号是什么？",
+      "answer": "N",
+      "accepted_aliases": [],
+      "distractors": [
+        "Be",
+        "B",
+        "C"
+      ],
+      "explanation": "氮的国际通用化学符号是 N。"
+    },
+    {
+      "id": "zh_sci_0026",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“N”代表哪种元素？",
+      "answer": "氮",
+      "accepted_aliases": [],
+      "distractors": [
+        "砷",
+        "硒",
+        "溴"
+      ],
+      "explanation": "元素符号 N 对应的中文名称是氮。"
+    },
+    {
+      "id": "zh_sci_0027",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "氮元素的原子序数是多少？",
+      "answer": "7",
+      "accepted_aliases": [],
+      "distractors": [
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "元素周期表中氮的原子序数是7。"
+    },
+    {
+      "id": "zh_sci_0028",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为7的元素是哪一种？",
+      "answer": "氮",
+      "accepted_aliases": [],
+      "distractors": [
+        "锰",
+        "铁",
+        "钴"
+      ],
+      "explanation": "原子序数7在元素周期表中对应氮。"
+    },
+    {
+      "id": "zh_sci_0029",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“氧”的化学符号是什么？",
+      "answer": "O",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ti",
+        "V",
+        "Cr"
+      ],
+      "explanation": "氧的国际通用化学符号是 O。"
+    },
+    {
+      "id": "zh_sci_0030",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“O”代表哪种元素？",
+      "answer": "氧",
+      "accepted_aliases": [],
+      "distractors": [
+        "锡",
+        "锑",
+        "碲"
+      ],
+      "explanation": "元素符号 O 对应的中文名称是氧。"
+    },
+    {
+      "id": "zh_sci_0031",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "氧元素的原子序数是多少？",
+      "answer": "8",
+      "accepted_aliases": [],
+      "distractors": [
+        "27",
+        "28",
+        "29"
+      ],
+      "explanation": "元素周期表中氧的原子序数是8。"
+    },
+    {
+      "id": "zh_sci_0032",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为8的元素是哪一种？",
+      "answer": "氧",
+      "accepted_aliases": [],
+      "distractors": [
+        "钼",
+        "锝",
+        "钌"
+      ],
+      "explanation": "原子序数8在元素周期表中对应氧。"
+    },
+    {
+      "id": "zh_sci_0033",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“氟”的化学符号是什么？",
+      "answer": "F",
+      "accepted_aliases": [],
+      "distractors": [
+        "Y",
+        "Zr",
+        "Nb"
+      ],
+      "explanation": "氟的国际通用化学符号是 F。"
+    },
+    {
+      "id": "zh_sci_0034",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“F”代表哪种元素？",
+      "answer": "氟",
+      "accepted_aliases": [],
+      "distractors": [
+        "硅",
+        "磷",
+        "硫"
+      ],
+      "explanation": "元素符号 F 对应的中文名称是氟。"
+    },
+    {
+      "id": "zh_sci_0035",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "氟元素的原子序数是多少？",
+      "answer": "9",
+      "accepted_aliases": [],
+      "distractors": [
+        "44",
+        "45",
+        "46"
+      ],
+      "explanation": "元素周期表中氟的原子序数是9。"
+    },
+    {
+      "id": "zh_sci_0036",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为9的元素是哪一种？",
+      "answer": "氟",
+      "accepted_aliases": [],
+      "distractors": [
+        "硼",
+        "碳",
+        "氮"
+      ],
+      "explanation": "原子序数9在元素周期表中对应氟。"
+    },
+    {
+      "id": "zh_sci_0037",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“氖”的化学符号是什么？",
+      "answer": "Ne",
+      "accepted_aliases": [],
+      "distractors": [
+        "He",
+        "Li",
+        "Be"
+      ],
+      "explanation": "氖的国际通用化学符号是 Ne。"
+    },
+    {
+      "id": "zh_sci_0038",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Ne”代表哪种元素？",
+      "answer": "氖",
+      "accepted_aliases": [],
+      "distractors": [
+        "镓",
+        "锗",
+        "砷"
+      ],
+      "explanation": "元素符号 Ne 对应的中文名称是氖。"
+    },
+    {
+      "id": "zh_sci_0039",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "氖元素的原子序数是多少？",
+      "answer": "10",
+      "accepted_aliases": [],
+      "distractors": [
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "元素周期表中氖的原子序数是10。"
+    },
+    {
+      "id": "zh_sci_0040",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为10的元素是哪一种？",
+      "answer": "氖",
+      "accepted_aliases": [],
+      "distractors": [
+        "钒",
+        "铬",
+        "锰"
+      ],
+      "explanation": "原子序数10在元素周期表中对应氖。"
+    },
+    {
+      "id": "zh_sci_0041",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“钠”的化学符号是什么？",
+      "answer": "Na",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ca",
+        "Sc",
+        "Ti"
+      ],
+      "explanation": "钠的国际通用化学符号是 Na。"
+    },
+    {
+      "id": "zh_sci_0042",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Na”代表哪种元素？",
+      "answer": "钠",
+      "accepted_aliases": [],
+      "distractors": [
+        "镉",
+        "铟",
+        "锡"
+      ],
+      "explanation": "元素符号 Na 对应的中文名称是钠。"
+    },
+    {
+      "id": "zh_sci_0043",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "钠元素的原子序数是多少？",
+      "answer": "11",
+      "accepted_aliases": [],
+      "distractors": [
+        "25",
+        "26",
+        "27"
+      ],
+      "explanation": "元素周期表中钠的原子序数是11。"
+    },
+    {
+      "id": "zh_sci_0044",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为11的元素是哪一种？",
+      "answer": "钠",
+      "accepted_aliases": [],
+      "distractors": [
+        "锆",
+        "铌",
+        "钼"
+      ],
+      "explanation": "原子序数11在元素周期表中对应钠。"
+    },
+    {
+      "id": "zh_sci_0045",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“镁”的化学符号是什么？",
+      "answer": "Mg",
+      "accepted_aliases": [],
+      "distractors": [
+        "Rb",
+        "Sr",
+        "Y"
+      ],
+      "explanation": "镁的国际通用化学符号是 Mg。"
+    },
+    {
+      "id": "zh_sci_0046",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Mg”代表哪种元素？",
+      "answer": "镁",
+      "accepted_aliases": [],
+      "distractors": [
+        "钠",
+        "铝",
+        "硅"
+      ],
+      "explanation": "元素符号 Mg 对应的中文名称是镁。"
+    },
+    {
+      "id": "zh_sci_0047",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "镁元素的原子序数是多少？",
+      "answer": "12",
+      "accepted_aliases": [],
+      "distractors": [
+        "42",
+        "43",
+        "44"
+      ],
+      "explanation": "元素周期表中镁的原子序数是12。"
+    },
+    {
+      "id": "zh_sci_0048",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为12的元素是哪一种？",
+      "answer": "镁",
+      "accepted_aliases": [],
+      "distractors": [
+        "锂",
+        "铍",
+        "硼"
+      ],
+      "explanation": "原子序数12在元素周期表中对应镁。"
+    },
+    {
+      "id": "zh_sci_0049",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“铝”的化学符号是什么？",
+      "answer": "Al",
+      "accepted_aliases": [],
+      "distractors": [
+        "Xe",
+        "H",
+        "He"
+      ],
+      "explanation": "铝的国际通用化学符号是 Al。"
+    },
+    {
+      "id": "zh_sci_0050",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Al”代表哪种元素？",
+      "answer": "铝",
+      "accepted_aliases": [],
+      "distractors": [
+        "铜",
+        "锌",
+        "镓"
+      ],
+      "explanation": "元素符号 Al 对应的中文名称是铝。"
+    },
+    {
+      "id": "zh_sci_0051",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "铝元素的原子序数是多少？",
+      "answer": "13",
+      "accepted_aliases": [],
+      "distractors": [
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "元素周期表中铝的原子序数是13。"
+    },
+    {
+      "id": "zh_sci_0052",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为13的元素是哪一种？",
+      "answer": "铝",
+      "accepted_aliases": [],
+      "distractors": [
+        "钪",
+        "钛",
+        "钒"
+      ],
+      "explanation": "原子序数13在元素周期表中对应铝。"
+    },
+    {
+      "id": "zh_sci_0053",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“硅”的化学符号是什么？",
+      "answer": "Si",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ar",
+        "K",
+        "Ca"
+      ],
+      "explanation": "硅的国际通用化学符号是 Si。"
+    },
+    {
+      "id": "zh_sci_0054",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Si”代表哪种元素？",
+      "answer": "硅",
+      "accepted_aliases": [],
+      "distractors": [
+        "钯",
+        "银",
+        "镉"
+      ],
+      "explanation": "元素符号 Si 对应的中文名称是硅。"
+    },
+    {
+      "id": "zh_sci_0055",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "硅元素的原子序数是多少？",
+      "answer": "14",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "24",
+        "25"
+      ],
+      "explanation": "元素周期表中硅的原子序数是14。"
+    },
+    {
+      "id": "zh_sci_0056",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为14的元素是哪一种？",
+      "answer": "硅",
+      "accepted_aliases": [],
+      "distractors": [
+        "锶",
+        "钇",
+        "锆"
+      ],
+      "explanation": "原子序数14在元素周期表中对应硅。"
+    },
+    {
+      "id": "zh_sci_0057",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“磷”的化学符号是什么？",
+      "answer": "P",
+      "accepted_aliases": [],
+      "distractors": [
+        "Br",
+        "Kr",
+        "Rb"
+      ],
+      "explanation": "磷的国际通用化学符号是 P。"
+    },
+    {
+      "id": "zh_sci_0058",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“P”代表哪种元素？",
+      "answer": "磷",
+      "accepted_aliases": [],
+      "distractors": [
+        "氟",
+        "氖",
+        "钠"
+      ],
+      "explanation": "元素符号 P 对应的中文名称是磷。"
+    },
+    {
+      "id": "zh_sci_0059",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "磷元素的原子序数是多少？",
+      "answer": "15",
+      "accepted_aliases": [],
+      "distractors": [
+        "40",
+        "41",
+        "42"
+      ],
+      "explanation": "元素周期表中磷的原子序数是15。"
+    },
+    {
+      "id": "zh_sci_0060",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为15的元素是哪一种？",
+      "answer": "磷",
+      "accepted_aliases": [],
+      "distractors": [
+        "氢",
+        "氦",
+        "锂"
+      ],
+      "explanation": "原子序数15在元素周期表中对应磷。"
+    },
+    {
+      "id": "zh_sci_0061",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“硫”的化学符号是什么？",
+      "answer": "S",
+      "accepted_aliases": [],
+      "distractors": [
+        "Te",
+        "I",
+        "Xe"
+      ],
+      "explanation": "硫的国际通用化学符号是 S。"
+    },
+    {
+      "id": "zh_sci_0062",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“S”代表哪种元素？",
+      "answer": "硫",
+      "accepted_aliases": [],
+      "distractors": [
+        "钴",
+        "镍",
+        "铜"
+      ],
+      "explanation": "元素符号 S 对应的中文名称是硫。"
+    },
+    {
+      "id": "zh_sci_0063",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "硫元素的原子序数是多少？",
+      "answer": "16",
+      "accepted_aliases": [],
+      "distractors": [
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "元素周期表中硫的原子序数是16。"
+    },
+    {
+      "id": "zh_sci_0064",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为16的元素是哪一种？",
+      "answer": "硫",
+      "accepted_aliases": [],
+      "distractors": [
+        "钾",
+        "钙",
+        "钪"
+      ],
+      "explanation": "原子序数16在元素周期表中对应硫。"
+    },
+    {
+      "id": "zh_sci_0065",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“氯”的化学符号是什么？",
+      "answer": "Cl",
+      "accepted_aliases": [],
+      "distractors": [
+        "P",
+        "S",
+        "Ar"
+      ],
+      "explanation": "氯的国际通用化学符号是 Cl。"
+    },
+    {
+      "id": "zh_sci_0066",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Cl”代表哪种元素？",
+      "answer": "氯",
+      "accepted_aliases": [],
+      "distractors": [
+        "钌",
+        "铑",
+        "钯"
+      ],
+      "explanation": "元素符号 Cl 对应的中文名称是氯。"
+    },
+    {
+      "id": "zh_sci_0067",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "氯元素的原子序数是多少？",
+      "answer": "17",
+      "accepted_aliases": [],
+      "distractors": [
+        "21",
+        "22",
+        "23"
+      ],
+      "explanation": "元素周期表中氯的原子序数是17。"
+    },
+    {
+      "id": "zh_sci_0068",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为17的元素是哪一种？",
+      "answer": "氯",
+      "accepted_aliases": [],
+      "distractors": [
+        "氪",
+        "铷",
+        "锶"
+      ],
+      "explanation": "原子序数17在元素周期表中对应氯。"
+    },
+    {
+      "id": "zh_sci_0069",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“氩”的化学符号是什么？",
+      "answer": "Ar",
+      "accepted_aliases": [],
+      "distractors": [
+        "As",
+        "Se",
+        "Br"
+      ],
+      "explanation": "氩的国际通用化学符号是 Ar。"
+    },
+    {
+      "id": "zh_sci_0070",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Ar”代表哪种元素？",
+      "answer": "氩",
+      "accepted_aliases": [],
+      "distractors": [
+        "氮",
+        "氧",
+        "氟"
+      ],
+      "explanation": "元素符号 Ar 对应的中文名称是氩。"
+    },
+    {
+      "id": "zh_sci_0071",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "氩元素的原子序数是多少？",
+      "answer": "18",
+      "accepted_aliases": [],
+      "distractors": [
+        "38",
+        "39",
+        "40"
+      ],
+      "explanation": "元素周期表中氩的原子序数是18。"
+    },
+    {
+      "id": "zh_sci_0072",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为18的元素是哪一种？",
+      "answer": "氩",
+      "accepted_aliases": [],
+      "distractors": [
+        "碘",
+        "氙",
+        "氢"
+      ],
+      "explanation": "原子序数18在元素周期表中对应氩。"
+    },
+    {
+      "id": "zh_sci_0073",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“钾”的化学符号是什么？",
+      "answer": "K",
+      "accepted_aliases": [],
+      "distractors": [
+        "Sn",
+        "Sb",
+        "Te"
+      ],
+      "explanation": "钾的国际通用化学符号是 K。"
+    },
+    {
+      "id": "zh_sci_0074",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“K”代表哪种元素？",
+      "answer": "钾",
+      "accepted_aliases": [],
+      "distractors": [
+        "锰",
+        "铁",
+        "钴"
+      ],
+      "explanation": "元素符号 K 对应的中文名称是钾。"
+    },
+    {
+      "id": "zh_sci_0075",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "钾元素的原子序数是多少？",
+      "answer": "19",
+      "accepted_aliases": [],
+      "distractors": [
+        "1",
+        "2",
+        "3"
+      ],
+      "explanation": "元素周期表中钾的原子序数是19。"
+    },
+    {
+      "id": "zh_sci_0076",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为19的元素是哪一种？",
+      "answer": "钾",
+      "accepted_aliases": [],
+      "distractors": [
+        "硫",
+        "氯",
+        "氩"
+      ],
+      "explanation": "原子序数19在元素周期表中对应钾。"
+    },
+    {
+      "id": "zh_sci_0077",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“钙”的化学符号是什么？",
+      "answer": "Ca",
+      "accepted_aliases": [],
+      "distractors": [
+        "Al",
+        "Si",
+        "P"
+      ],
+      "explanation": "钙的国际通用化学符号是 Ca。"
+    },
+    {
+      "id": "zh_sci_0078",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Ca”代表哪种元素？",
+      "answer": "钙",
+      "accepted_aliases": [],
+      "distractors": [
+        "钼",
+        "锝",
+        "钌"
+      ],
+      "explanation": "元素符号 Ca 对应的中文名称是钙。"
+    },
+    {
+      "id": "zh_sci_0079",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "钙元素的原子序数是多少？",
+      "answer": "20",
+      "accepted_aliases": [],
+      "distractors": [
+        "18",
+        "19",
+        "21"
+      ],
+      "explanation": "元素周期表中钙的原子序数是20。"
+    },
+    {
+      "id": "zh_sci_0080",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为20的元素是哪一种？",
+      "answer": "钙",
+      "accepted_aliases": [],
+      "distractors": [
+        "硒",
+        "溴",
+        "氪"
+      ],
+      "explanation": "原子序数20在元素周期表中对应钙。"
+    },
+    {
+      "id": "zh_sci_0081",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“钪”的化学符号是什么？",
+      "answer": "Sc",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ga",
+        "Ge",
+        "As"
+      ],
+      "explanation": "钪的国际通用化学符号是 Sc。"
+    },
+    {
+      "id": "zh_sci_0082",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Sc”代表哪种元素？",
+      "answer": "钪",
+      "accepted_aliases": [],
+      "distractors": [
+        "硼",
+        "碳",
+        "氮"
+      ],
+      "explanation": "元素符号 Sc 对应的中文名称是钪。"
+    },
+    {
+      "id": "zh_sci_0083",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "钪元素的原子序数是多少？",
+      "answer": "21",
+      "accepted_aliases": [],
+      "distractors": [
+        "36",
+        "37",
+        "38"
+      ],
+      "explanation": "元素周期表中钪的原子序数是21。"
+    },
+    {
+      "id": "zh_sci_0084",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为21的元素是哪一种？",
+      "answer": "钪",
+      "accepted_aliases": [],
+      "distractors": [
+        "锑",
+        "碲",
+        "碘"
+      ],
+      "explanation": "原子序数21在元素周期表中对应钪。"
+    },
+    {
+      "id": "zh_sci_0085",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“钛”的化学符号是什么？",
+      "answer": "Ti",
+      "accepted_aliases": [],
+      "distractors": [
+        "Cd",
+        "In",
+        "Sn"
+      ],
+      "explanation": "钛的国际通用化学符号是 Ti。"
+    },
+    {
+      "id": "zh_sci_0086",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Ti”代表哪种元素？",
+      "answer": "钛",
+      "accepted_aliases": [],
+      "distractors": [
+        "钒",
+        "铬",
+        "锰"
+      ],
+      "explanation": "元素符号 Ti 对应的中文名称是钛。"
+    },
+    {
+      "id": "zh_sci_0087",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "钛元素的原子序数是多少？",
+      "answer": "22",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "54",
+        "1"
+      ],
+      "explanation": "元素周期表中钛的原子序数是22。"
+    },
+    {
+      "id": "zh_sci_0088",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为22的元素是哪一种？",
+      "answer": "钛",
+      "accepted_aliases": [],
+      "distractors": [
+        "硅",
+        "磷",
+        "硫"
+      ],
+      "explanation": "原子序数22在元素周期表中对应钛。"
+    },
+    {
+      "id": "zh_sci_0089",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“钒”的化学符号是什么？",
+      "answer": "V",
+      "accepted_aliases": [],
+      "distractors": [
+        "Na",
+        "Mg",
+        "Al"
+      ],
+      "explanation": "钒的国际通用化学符号是 V。"
+    },
+    {
+      "id": "zh_sci_0090",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“V”代表哪种元素？",
+      "answer": "钒",
+      "accepted_aliases": [],
+      "distractors": [
+        "锆",
+        "铌",
+        "钼"
+      ],
+      "explanation": "元素符号 V 对应的中文名称是钒。"
+    },
+    {
+      "id": "zh_sci_0091",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "钒元素的原子序数是多少？",
+      "answer": "23",
+      "accepted_aliases": [],
+      "distractors": [
+        "16",
+        "17",
+        "18"
+      ],
+      "explanation": "元素周期表中钒的原子序数是23。"
+    },
+    {
+      "id": "zh_sci_0092",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为23的元素是哪一种？",
+      "answer": "钒",
+      "accepted_aliases": [],
+      "distractors": [
+        "锗",
+        "砷",
+        "硒"
+      ],
+      "explanation": "原子序数23在元素周期表中对应钒。"
+    },
+    {
+      "id": "zh_sci_0093",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“铬”的化学符号是什么？",
+      "answer": "Cr",
+      "accepted_aliases": [],
+      "distractors": [
+        "Cu",
+        "Zn",
+        "Ga"
+      ],
+      "explanation": "铬的国际通用化学符号是 Cr。"
+    },
+    {
+      "id": "zh_sci_0094",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Cr”代表哪种元素？",
+      "answer": "铬",
+      "accepted_aliases": [],
+      "distractors": [
+        "锂",
+        "铍",
+        "硼"
+      ],
+      "explanation": "元素符号 Cr 对应的中文名称是铬。"
+    },
+    {
+      "id": "zh_sci_0095",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "铬元素的原子序数是多少？",
+      "answer": "24",
+      "accepted_aliases": [],
+      "distractors": [
+        "34",
+        "35",
+        "36"
+      ],
+      "explanation": "元素周期表中铬的原子序数是24。"
+    },
+    {
+      "id": "zh_sci_0096",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为24的元素是哪一种？",
+      "answer": "铬",
+      "accepted_aliases": [],
+      "distractors": [
+        "铟",
+        "锡",
+        "锑"
+      ],
+      "explanation": "原子序数24在元素周期表中对应铬。"
+    },
+    {
+      "id": "zh_sci_0097",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“锰”的化学符号是什么？",
+      "answer": "Mn",
+      "accepted_aliases": [],
+      "distractors": [
+        "Pd",
+        "Ag",
+        "Cd"
+      ],
+      "explanation": "锰的国际通用化学符号是 Mn。"
+    },
+    {
+      "id": "zh_sci_0098",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Mn”代表哪种元素？",
+      "answer": "锰",
+      "accepted_aliases": [],
+      "distractors": [
+        "钙",
+        "钪",
+        "钛"
+      ],
+      "explanation": "元素符号 Mn 对应的中文名称是锰。"
+    },
+    {
+      "id": "zh_sci_0099",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "锰元素的原子序数是多少？",
+      "answer": "25",
+      "accepted_aliases": [],
+      "distractors": [
+        "51",
+        "52",
+        "53"
+      ],
+      "explanation": "元素周期表中锰的原子序数是25。"
+    },
+    {
+      "id": "zh_sci_0100",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为25的元素是哪一种？",
+      "answer": "锰",
+      "accepted_aliases": [],
+      "distractors": [
+        "镁",
+        "铝",
+        "硅"
+      ],
+      "explanation": "原子序数25在元素周期表中对应锰。"
+    },
+    {
+      "id": "zh_sci_0101",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“铁”的化学符号是什么？",
+      "answer": "Fe",
+      "accepted_aliases": [],
+      "distractors": [
+        "F",
+        "Ne",
+        "Na"
+      ],
+      "explanation": "铁的国际通用化学符号是 Fe。"
+    },
+    {
+      "id": "zh_sci_0102",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Fe”代表哪种元素？",
+      "answer": "铁",
+      "accepted_aliases": [],
+      "distractors": [
+        "锶",
+        "钇",
+        "锆"
+      ],
+      "explanation": "元素符号 Fe 对应的中文名称是铁。"
+    },
+    {
+      "id": "zh_sci_0103",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "铁元素的原子序数是多少？",
+      "answer": "26",
+      "accepted_aliases": [],
+      "distractors": [
+        "14",
+        "15",
+        "16"
+      ],
+      "explanation": "元素周期表中铁的原子序数是26。"
+    },
+    {
+      "id": "zh_sci_0104",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为26的元素是哪一种？",
+      "answer": "铁",
+      "accepted_aliases": [],
+      "distractors": [
+        "锌",
+        "镓",
+        "锗"
+      ],
+      "explanation": "原子序数26在元素周期表中对应铁。"
+    },
+    {
+      "id": "zh_sci_0105",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“钴”的化学符号是什么？",
+      "answer": "Co",
+      "accepted_aliases": [],
+      "distractors": [
+        "Fe",
+        "Ni",
+        "Cu"
+      ],
+      "explanation": "钴的国际通用化学符号是 Co。"
+    },
+    {
+      "id": "zh_sci_0106",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Co”代表哪种元素？",
+      "answer": "钴",
+      "accepted_aliases": [],
+      "distractors": [
+        "氢",
+        "氦",
+        "锂"
+      ],
+      "explanation": "元素符号 Co 对应的中文名称是钴。"
+    },
+    {
+      "id": "zh_sci_0107",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "钴元素的原子序数是多少？",
+      "answer": "27",
+      "accepted_aliases": [],
+      "distractors": [
+        "32",
+        "33",
+        "34"
+      ],
+      "explanation": "元素周期表中钴的原子序数是27。"
+    },
+    {
+      "id": "zh_sci_0108",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为27的元素是哪一种？",
+      "answer": "钴",
+      "accepted_aliases": [],
+      "distractors": [
+        "银",
+        "镉",
+        "铟"
+      ],
+      "explanation": "原子序数27在元素周期表中对应钴。"
+    },
+    {
+      "id": "zh_sci_0109",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“镍”的化学符号是什么？",
+      "answer": "Ni",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ru",
+        "Rh",
+        "Pd"
+      ],
+      "explanation": "镍的国际通用化学符号是 Ni。"
+    },
+    {
+      "id": "zh_sci_0110",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Ni”代表哪种元素？",
+      "answer": "镍",
+      "accepted_aliases": [],
+      "distractors": [
+        "氩",
+        "钾",
+        "钙"
+      ],
+      "explanation": "元素符号 Ni 对应的中文名称是镍。"
+    },
+    {
+      "id": "zh_sci_0111",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "镍元素的原子序数是多少？",
+      "answer": "28",
+      "accepted_aliases": [],
+      "distractors": [
+        "49",
+        "50",
+        "51"
+      ],
+      "explanation": "元素周期表中镍的原子序数是28。"
+    },
+    {
+      "id": "zh_sci_0112",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为28的元素是哪一种？",
+      "answer": "镍",
+      "accepted_aliases": [],
+      "distractors": [
+        "氖",
+        "钠",
+        "镁"
+      ],
+      "explanation": "原子序数28在元素周期表中对应镍。"
+    },
+    {
+      "id": "zh_sci_0113",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“铜”的化学符号是什么？",
+      "answer": "Cu",
+      "accepted_aliases": [],
+      "distractors": [
+        "N",
+        "O",
+        "F"
+      ],
+      "explanation": "铜的国际通用化学符号是 Cu。"
+    },
+    {
+      "id": "zh_sci_0114",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Cu”代表哪种元素？",
+      "answer": "铜",
+      "accepted_aliases": [],
+      "distractors": [
+        "氪",
+        "铷",
+        "锶"
+      ],
+      "explanation": "元素符号 Cu 对应的中文名称是铜。"
+    },
+    {
+      "id": "zh_sci_0115",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "铜元素的原子序数是多少？",
+      "answer": "29",
+      "accepted_aliases": [],
+      "distractors": [
+        "12",
+        "13",
+        "14"
+      ],
+      "explanation": "元素周期表中铜的原子序数是29。"
+    },
+    {
+      "id": "zh_sci_0116",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为29的元素是哪一种？",
+      "answer": "铜",
+      "accepted_aliases": [],
+      "distractors": [
+        "钴",
+        "镍",
+        "锌"
+      ],
+      "explanation": "原子序数29在元素周期表中对应铜。"
+    },
+    {
+      "id": "zh_sci_0117",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“锌”的化学符号是什么？",
+      "answer": "Zn",
+      "accepted_aliases": [],
+      "distractors": [
+        "Cr",
+        "Mn",
+        "Fe"
+      ],
+      "explanation": "锌的国际通用化学符号是 Zn。"
+    },
+    {
+      "id": "zh_sci_0118",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Zn”代表哪种元素？",
+      "answer": "锌",
+      "accepted_aliases": [],
+      "distractors": [
+        "碘",
+        "氙",
+        "氢"
+      ],
+      "explanation": "元素符号 Zn 对应的中文名称是锌。"
+    },
+    {
+      "id": "zh_sci_0119",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "锌元素的原子序数是多少？",
+      "answer": "30",
+      "accepted_aliases": [],
+      "distractors": [
+        "29",
+        "31",
+        "32"
+      ],
+      "explanation": "元素周期表中锌的原子序数是30。"
+    },
+    {
+      "id": "zh_sci_0120",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为30的元素是哪一种？",
+      "answer": "锌",
+      "accepted_aliases": [],
+      "distractors": [
+        "铑",
+        "钯",
+        "银"
+      ],
+      "explanation": "原子序数30在元素周期表中对应锌。"
+    },
+    {
+      "id": "zh_sci_0121",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“镓”的化学符号是什么？",
+      "answer": "Ga",
+      "accepted_aliases": [],
+      "distractors": [
+        "Mo",
+        "Tc",
+        "Ru"
+      ],
+      "explanation": "镓的国际通用化学符号是 Ga。"
+    },
+    {
+      "id": "zh_sci_0122",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Ga”代表哪种元素？",
+      "answer": "镓",
+      "accepted_aliases": [],
+      "distractors": [
+        "硫",
+        "氯",
+        "氩"
+      ],
+      "explanation": "元素符号 Ga 对应的中文名称是镓。"
+    },
+    {
+      "id": "zh_sci_0123",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "镓元素的原子序数是多少？",
+      "answer": "31",
+      "accepted_aliases": [],
+      "distractors": [
+        "47",
+        "48",
+        "49"
+      ],
+      "explanation": "元素周期表中镓的原子序数是31。"
+    },
+    {
+      "id": "zh_sci_0124",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为31的元素是哪一种？",
+      "answer": "镓",
+      "accepted_aliases": [],
+      "distractors": [
+        "氧",
+        "氟",
+        "氖"
+      ],
+      "explanation": "原子序数31在元素周期表中对应镓。"
+    },
+    {
+      "id": "zh_sci_0125",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“锗”的化学符号是什么？",
+      "answer": "Ge",
+      "accepted_aliases": [],
+      "distractors": [
+        "B",
+        "C",
+        "N"
+      ],
+      "explanation": "锗的国际通用化学符号是 Ge。"
+    },
+    {
+      "id": "zh_sci_0126",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Ge”代表哪种元素？",
+      "answer": "锗",
+      "accepted_aliases": [],
+      "distractors": [
+        "硒",
+        "溴",
+        "氪"
+      ],
+      "explanation": "元素符号 Ge 对应的中文名称是锗。"
+    },
+    {
+      "id": "zh_sci_0127",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "锗元素的原子序数是多少？",
+      "answer": "32",
+      "accepted_aliases": [],
+      "distractors": [
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "元素周期表中锗的原子序数是32。"
+    },
+    {
+      "id": "zh_sci_0128",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为32的元素是哪一种？",
+      "answer": "锗",
+      "accepted_aliases": [],
+      "distractors": [
+        "锰",
+        "铁",
+        "钴"
+      ],
+      "explanation": "原子序数32在元素周期表中对应锗。"
+    },
+    {
+      "id": "zh_sci_0129",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“砷”的化学符号是什么？",
+      "answer": "As",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ti",
+        "V",
+        "Cr"
+      ],
+      "explanation": "砷的国际通用化学符号是 As。"
+    },
+    {
+      "id": "zh_sci_0130",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“As”代表哪种元素？",
+      "answer": "砷",
+      "accepted_aliases": [],
+      "distractors": [
+        "锑",
+        "碲",
+        "碘"
+      ],
+      "explanation": "元素符号 As 对应的中文名称是砷。"
+    },
+    {
+      "id": "zh_sci_0131",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "砷元素的原子序数是多少？",
+      "answer": "33",
+      "accepted_aliases": [],
+      "distractors": [
+        "27",
+        "28",
+        "29"
+      ],
+      "explanation": "元素周期表中砷的原子序数是33。"
+    },
+    {
+      "id": "zh_sci_0132",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为33的元素是哪一种？",
+      "answer": "砷",
+      "accepted_aliases": [],
+      "distractors": [
+        "锝",
+        "钌",
+        "铑"
+      ],
+      "explanation": "原子序数33在元素周期表中对应砷。"
+    },
+    {
+      "id": "zh_sci_0133",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“硒”的化学符号是什么？",
+      "answer": "Se",
+      "accepted_aliases": [],
+      "distractors": [
+        "Zr",
+        "Nb",
+        "Mo"
+      ],
+      "explanation": "硒的国际通用化学符号是 Se。"
+    },
+    {
+      "id": "zh_sci_0134",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Se”代表哪种元素？",
+      "answer": "硒",
+      "accepted_aliases": [],
+      "distractors": [
+        "硅",
+        "磷",
+        "硫"
+      ],
+      "explanation": "元素符号 Se 对应的中文名称是硒。"
+    },
+    {
+      "id": "zh_sci_0135",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "硒元素的原子序数是多少？",
+      "answer": "34",
+      "accepted_aliases": [],
+      "distractors": [
+        "45",
+        "46",
+        "47"
+      ],
+      "explanation": "元素周期表中硒的原子序数是34。"
+    },
+    {
+      "id": "zh_sci_0136",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为34的元素是哪一种？",
+      "answer": "硒",
+      "accepted_aliases": [],
+      "distractors": [
+        "碳",
+        "氮",
+        "氧"
+      ],
+      "explanation": "原子序数34在元素周期表中对应硒。"
+    },
+    {
+      "id": "zh_sci_0137",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“溴”的化学符号是什么？",
+      "answer": "Br",
+      "accepted_aliases": [],
+      "distractors": [
+        "Li",
+        "Be",
+        "B"
+      ],
+      "explanation": "溴的国际通用化学符号是 Br。"
+    },
+    {
+      "id": "zh_sci_0138",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Br”代表哪种元素？",
+      "answer": "溴",
+      "accepted_aliases": [],
+      "distractors": [
+        "镓",
+        "锗",
+        "砷"
+      ],
+      "explanation": "元素符号 Br 对应的中文名称是溴。"
+    },
+    {
+      "id": "zh_sci_0139",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "溴元素的原子序数是多少？",
+      "answer": "35",
+      "accepted_aliases": [],
+      "distractors": [
+        "8",
+        "9",
+        "10"
+      ],
+      "explanation": "元素周期表中溴的原子序数是35。"
+    },
+    {
+      "id": "zh_sci_0140",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为35的元素是哪一种？",
+      "answer": "溴",
+      "accepted_aliases": [],
+      "distractors": [
+        "钒",
+        "铬",
+        "锰"
+      ],
+      "explanation": "原子序数35在元素周期表中对应溴。"
+    },
+    {
+      "id": "zh_sci_0141",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“氪”的化学符号是什么？",
+      "answer": "Kr",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ca",
+        "Sc",
+        "Ti"
+      ],
+      "explanation": "氪的国际通用化学符号是 Kr。"
+    },
+    {
+      "id": "zh_sci_0142",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Kr”代表哪种元素？",
+      "answer": "氪",
+      "accepted_aliases": [],
+      "distractors": [
+        "铟",
+        "锡",
+        "锑"
+      ],
+      "explanation": "元素符号 Kr 对应的中文名称是氪。"
+    },
+    {
+      "id": "zh_sci_0143",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "氪元素的原子序数是多少？",
+      "answer": "36",
+      "accepted_aliases": [],
+      "distractors": [
+        "25",
+        "26",
+        "27"
+      ],
+      "explanation": "元素周期表中氪的原子序数是36。"
+    },
+    {
+      "id": "zh_sci_0144",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为36的元素是哪一种？",
+      "answer": "氪",
+      "accepted_aliases": [],
+      "distractors": [
+        "铌",
+        "钼",
+        "锝"
+      ],
+      "explanation": "原子序数36在元素周期表中对应氪。"
+    },
+    {
+      "id": "zh_sci_0145",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“铷”的化学符号是什么？",
+      "answer": "Rb",
+      "accepted_aliases": [],
+      "distractors": [
+        "Sr",
+        "Y",
+        "Zr"
+      ],
+      "explanation": "铷的国际通用化学符号是 Rb。"
+    },
+    {
+      "id": "zh_sci_0146",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Rb”代表哪种元素？",
+      "answer": "铷",
+      "accepted_aliases": [],
+      "distractors": [
+        "镁",
+        "铝",
+        "硅"
+      ],
+      "explanation": "元素符号 Rb 对应的中文名称是铷。"
+    },
+    {
+      "id": "zh_sci_0147",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "铷元素的原子序数是多少？",
+      "answer": "37",
+      "accepted_aliases": [],
+      "distractors": [
+        "43",
+        "44",
+        "45"
+      ],
+      "explanation": "元素周期表中铷的原子序数是37。"
+    },
+    {
+      "id": "zh_sci_0148",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为37的元素是哪一种？",
+      "answer": "铷",
+      "accepted_aliases": [],
+      "distractors": [
+        "铍",
+        "硼",
+        "碳"
+      ],
+      "explanation": "原子序数37在元素周期表中对应铷。"
+    },
+    {
+      "id": "zh_sci_0149",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“锶”的化学符号是什么？",
+      "answer": "Sr",
+      "accepted_aliases": [],
+      "distractors": [
+        "H",
+        "He",
+        "Li"
+      ],
+      "explanation": "锶的国际通用化学符号是 Sr。"
+    },
+    {
+      "id": "zh_sci_0150",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Sr”代表哪种元素？",
+      "answer": "锶",
+      "accepted_aliases": [],
+      "distractors": [
+        "铜",
+        "锌",
+        "镓"
+      ],
+      "explanation": "元素符号 Sr 对应的中文名称是锶。"
+    },
+    {
+      "id": "zh_sci_0151",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "锶元素的原子序数是多少？",
+      "answer": "38",
+      "accepted_aliases": [],
+      "distractors": [
+        "6",
+        "7",
+        "8"
+      ],
+      "explanation": "元素周期表中锶的原子序数是38。"
+    },
+    {
+      "id": "zh_sci_0152",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为38的元素是哪一种？",
+      "answer": "锶",
+      "accepted_aliases": [],
+      "distractors": [
+        "钪",
+        "钛",
+        "钒"
+      ],
+      "explanation": "原子序数38在元素周期表中对应锶。"
+    },
+    {
+      "id": "zh_sci_0153",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“钇”的化学符号是什么？",
+      "answer": "Y",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ar",
+        "K",
+        "Ca"
+      ],
+      "explanation": "钇的国际通用化学符号是 Y。"
+    },
+    {
+      "id": "zh_sci_0154",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Y”代表哪种元素？",
+      "answer": "钇",
+      "accepted_aliases": [],
+      "distractors": [
+        "银",
+        "镉",
+        "铟"
+      ],
+      "explanation": "元素符号 Y 对应的中文名称是钇。"
+    },
+    {
+      "id": "zh_sci_0155",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "钇元素的原子序数是多少？",
+      "answer": "39",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "24",
+        "25"
+      ],
+      "explanation": "元素周期表中钇的原子序数是39。"
+    },
+    {
+      "id": "zh_sci_0156",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为39的元素是哪一种？",
+      "answer": "钇",
+      "accepted_aliases": [],
+      "distractors": [
+        "锶",
+        "锆",
+        "铌"
+      ],
+      "explanation": "原子序数39在元素周期表中对应钇。"
+    },
+    {
+      "id": "zh_sci_0157",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“锆”的化学符号是什么？",
+      "answer": "Zr",
+      "accepted_aliases": [],
+      "distractors": [
+        "Br",
+        "Kr",
+        "Rb"
+      ],
+      "explanation": "锆的国际通用化学符号是 Zr。"
+    },
+    {
+      "id": "zh_sci_0158",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Zr”代表哪种元素？",
+      "answer": "锆",
+      "accepted_aliases": [],
+      "distractors": [
+        "氖",
+        "钠",
+        "镁"
+      ],
+      "explanation": "元素符号 Zr 对应的中文名称是锆。"
+    },
+    {
+      "id": "zh_sci_0159",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "锆元素的原子序数是多少？",
+      "answer": "40",
+      "accepted_aliases": [],
+      "distractors": [
+        "41",
+        "42",
+        "43"
+      ],
+      "explanation": "元素周期表中锆的原子序数是40。"
+    },
+    {
+      "id": "zh_sci_0160",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为40的元素是哪一种？",
+      "answer": "锆",
+      "accepted_aliases": [],
+      "distractors": [
+        "氦",
+        "锂",
+        "铍"
+      ],
+      "explanation": "原子序数40在元素周期表中对应锆。"
+    },
+    {
+      "id": "zh_sci_0161",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“铌”的化学符号是什么？",
+      "answer": "Nb",
+      "accepted_aliases": [],
+      "distractors": [
+        "I",
+        "Xe",
+        "H"
+      ],
+      "explanation": "铌的国际通用化学符号是 Nb。"
+    },
+    {
+      "id": "zh_sci_0162",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Nb”代表哪种元素？",
+      "answer": "铌",
+      "accepted_aliases": [],
+      "distractors": [
+        "钴",
+        "镍",
+        "铜"
+      ],
+      "explanation": "元素符号 Nb 对应的中文名称是铌。"
+    },
+    {
+      "id": "zh_sci_0163",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "铌元素的原子序数是多少？",
+      "answer": "41",
+      "accepted_aliases": [],
+      "distractors": [
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "元素周期表中铌的原子序数是41。"
+    },
+    {
+      "id": "zh_sci_0164",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为41的元素是哪一种？",
+      "answer": "铌",
+      "accepted_aliases": [],
+      "distractors": [
+        "钾",
+        "钙",
+        "钪"
+      ],
+      "explanation": "原子序数41在元素周期表中对应铌。"
+    },
+    {
+      "id": "zh_sci_0165",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“钼”的化学符号是什么？",
+      "answer": "Mo",
+      "accepted_aliases": [],
+      "distractors": [
+        "S",
+        "Cl",
+        "Ar"
+      ],
+      "explanation": "钼的国际通用化学符号是 Mo。"
+    },
+    {
+      "id": "zh_sci_0166",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Mo”代表哪种元素？",
+      "answer": "钼",
+      "accepted_aliases": [],
+      "distractors": [
+        "铑",
+        "钯",
+        "银"
+      ],
+      "explanation": "元素符号 Mo 对应的中文名称是钼。"
+    },
+    {
+      "id": "zh_sci_0167",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "钼元素的原子序数是多少？",
+      "answer": "42",
+      "accepted_aliases": [],
+      "distractors": [
+        "21",
+        "22",
+        "23"
+      ],
+      "explanation": "元素周期表中钼的原子序数是42。"
+    },
+    {
+      "id": "zh_sci_0168",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为42的元素是哪一种？",
+      "answer": "钼",
+      "accepted_aliases": [],
+      "distractors": [
+        "氪",
+        "铷",
+        "锶"
+      ],
+      "explanation": "原子序数42在元素周期表中对应钼。"
+    },
+    {
+      "id": "zh_sci_0169",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“锝”的化学符号是什么？",
+      "answer": "Tc",
+      "accepted_aliases": [],
+      "distractors": [
+        "As",
+        "Se",
+        "Br"
+      ],
+      "explanation": "锝的国际通用化学符号是 Tc。"
+    },
+    {
+      "id": "zh_sci_0170",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Tc”代表哪种元素？",
+      "answer": "锝",
+      "accepted_aliases": [],
+      "distractors": [
+        "氧",
+        "氟",
+        "氖"
+      ],
+      "explanation": "元素符号 Tc 对应的中文名称是锝。"
+    },
+    {
+      "id": "zh_sci_0171",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "锝元素的原子序数是多少？",
+      "answer": "43",
+      "accepted_aliases": [],
+      "distractors": [
+        "38",
+        "39",
+        "40"
+      ],
+      "explanation": "元素周期表中锝的原子序数是43。"
+    },
+    {
+      "id": "zh_sci_0172",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为43的元素是哪一种？",
+      "answer": "锝",
+      "accepted_aliases": [],
+      "distractors": [
+        "氙",
+        "氢",
+        "氦"
+      ],
+      "explanation": "原子序数43在元素周期表中对应锝。"
+    },
+    {
+      "id": "zh_sci_0173",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“钌”的化学符号是什么？",
+      "answer": "Ru",
+      "accepted_aliases": [],
+      "distractors": [
+        "Sb",
+        "Te",
+        "I"
+      ],
+      "explanation": "钌的国际通用化学符号是 Ru。"
+    },
+    {
+      "id": "zh_sci_0174",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Ru”代表哪种元素？",
+      "answer": "钌",
+      "accepted_aliases": [],
+      "distractors": [
+        "锰",
+        "铁",
+        "钴"
+      ],
+      "explanation": "元素符号 Ru 对应的中文名称是钌。"
+    },
+    {
+      "id": "zh_sci_0175",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "钌元素的原子序数是多少？",
+      "answer": "44",
+      "accepted_aliases": [],
+      "distractors": [
+        "2",
+        "3",
+        "4"
+      ],
+      "explanation": "元素周期表中钌的原子序数是44。"
+    },
+    {
+      "id": "zh_sci_0176",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为44的元素是哪一种？",
+      "answer": "钌",
+      "accepted_aliases": [],
+      "distractors": [
+        "氯",
+        "氩",
+        "钾"
+      ],
+      "explanation": "原子序数44在元素周期表中对应钌。"
+    },
+    {
+      "id": "zh_sci_0177",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“铑”的化学符号是什么？",
+      "answer": "Rh",
+      "accepted_aliases": [],
+      "distractors": [
+        "Si",
+        "P",
+        "S"
+      ],
+      "explanation": "铑的国际通用化学符号是 Rh。"
+    },
+    {
+      "id": "zh_sci_0178",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Rh”代表哪种元素？",
+      "answer": "铑",
+      "accepted_aliases": [],
+      "distractors": [
+        "钼",
+        "锝",
+        "钌"
+      ],
+      "explanation": "元素符号 Rh 对应的中文名称是铑。"
+    },
+    {
+      "id": "zh_sci_0179",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "铑元素的原子序数是多少？",
+      "answer": "45",
+      "accepted_aliases": [],
+      "distractors": [
+        "19",
+        "20",
+        "21"
+      ],
+      "explanation": "元素周期表中铑的原子序数是45。"
+    },
+    {
+      "id": "zh_sci_0180",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为45的元素是哪一种？",
+      "answer": "铑",
+      "accepted_aliases": [],
+      "distractors": [
+        "硒",
+        "溴",
+        "氪"
+      ],
+      "explanation": "原子序数45在元素周期表中对应铑。"
+    },
+    {
+      "id": "zh_sci_0181",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“钯”的化学符号是什么？",
+      "answer": "Pd",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ga",
+        "Ge",
+        "As"
+      ],
+      "explanation": "钯的国际通用化学符号是 Pd。"
+    },
+    {
+      "id": "zh_sci_0182",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Pd”代表哪种元素？",
+      "answer": "钯",
+      "accepted_aliases": [],
+      "distractors": [
+        "碳",
+        "氮",
+        "氧"
+      ],
+      "explanation": "元素符号 Pd 对应的中文名称是钯。"
+    },
+    {
+      "id": "zh_sci_0183",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "钯元素的原子序数是多少？",
+      "answer": "46",
+      "accepted_aliases": [],
+      "distractors": [
+        "36",
+        "37",
+        "38"
+      ],
+      "explanation": "元素周期表中钯的原子序数是46。"
+    },
+    {
+      "id": "zh_sci_0184",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为46的元素是哪一种？",
+      "answer": "钯",
+      "accepted_aliases": [],
+      "distractors": [
+        "碲",
+        "碘",
+        "氙"
+      ],
+      "explanation": "原子序数46在元素周期表中对应钯。"
+    },
+    {
+      "id": "zh_sci_0185",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“银”的化学符号是什么？",
+      "answer": "Ag",
+      "accepted_aliases": [],
+      "distractors": [
+        "In",
+        "Sn",
+        "Sb"
+      ],
+      "explanation": "银的国际通用化学符号是 Ag。"
+    },
+    {
+      "id": "zh_sci_0186",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Ag”代表哪种元素？",
+      "answer": "银",
+      "accepted_aliases": [],
+      "distractors": [
+        "钒",
+        "铬",
+        "锰"
+      ],
+      "explanation": "元素符号 Ag 对应的中文名称是银。"
+    },
+    {
+      "id": "zh_sci_0187",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "银元素的原子序数是多少？",
+      "answer": "47",
+      "accepted_aliases": [],
+      "distractors": [
+        "54",
+        "1",
+        "2"
+      ],
+      "explanation": "元素周期表中银的原子序数是47。"
+    },
+    {
+      "id": "zh_sci_0188",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为47的元素是哪一种？",
+      "answer": "银",
+      "accepted_aliases": [],
+      "distractors": [
+        "磷",
+        "硫",
+        "氯"
+      ],
+      "explanation": "原子序数47在元素周期表中对应银。"
+    },
+    {
+      "id": "zh_sci_0189",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“镉”的化学符号是什么？",
+      "answer": "Cd",
+      "accepted_aliases": [],
+      "distractors": [
+        "Mg",
+        "Al",
+        "Si"
+      ],
+      "explanation": "镉的国际通用化学符号是 Cd。"
+    },
+    {
+      "id": "zh_sci_0190",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Cd”代表哪种元素？",
+      "answer": "镉",
+      "accepted_aliases": [],
+      "distractors": [
+        "锆",
+        "铌",
+        "钼"
+      ],
+      "explanation": "元素符号 Cd 对应的中文名称是镉。"
+    },
+    {
+      "id": "zh_sci_0191",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "镉元素的原子序数是多少？",
+      "answer": "48",
+      "accepted_aliases": [],
+      "distractors": [
+        "17",
+        "18",
+        "19"
+      ],
+      "explanation": "元素周期表中镉的原子序数是48。"
+    },
+    {
+      "id": "zh_sci_0192",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为48的元素是哪一种？",
+      "answer": "镉",
+      "accepted_aliases": [],
+      "distractors": [
+        "锗",
+        "砷",
+        "硒"
+      ],
+      "explanation": "原子序数48在元素周期表中对应镉。"
+    },
+    {
+      "id": "zh_sci_0193",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“铟”的化学符号是什么？",
+      "answer": "In",
+      "accepted_aliases": [],
+      "distractors": [
+        "Cu",
+        "Zn",
+        "Ga"
+      ],
+      "explanation": "铟的国际通用化学符号是 In。"
+    },
+    {
+      "id": "zh_sci_0194",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“In”代表哪种元素？",
+      "answer": "铟",
+      "accepted_aliases": [],
+      "distractors": [
+        "铍",
+        "硼",
+        "碳"
+      ],
+      "explanation": "元素符号 In 对应的中文名称是铟。"
+    },
+    {
+      "id": "zh_sci_0195",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "铟元素的原子序数是多少？",
+      "answer": "49",
+      "accepted_aliases": [],
+      "distractors": [
+        "34",
+        "35",
+        "36"
+      ],
+      "explanation": "元素周期表中铟的原子序数是49。"
+    },
+    {
+      "id": "zh_sci_0196",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为49的元素是哪一种？",
+      "answer": "铟",
+      "accepted_aliases": [],
+      "distractors": [
+        "锡",
+        "锑",
+        "碲"
+      ],
+      "explanation": "原子序数49在元素周期表中对应铟。"
+    },
+    {
+      "id": "zh_sci_0197",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“锡”的化学符号是什么？",
+      "answer": "Sn",
+      "accepted_aliases": [],
+      "distractors": [
+        "Pd",
+        "Ag",
+        "Cd"
+      ],
+      "explanation": "锡的国际通用化学符号是 Sn。"
+    },
+    {
+      "id": "zh_sci_0198",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“Sn”代表哪种元素？",
+      "answer": "锡",
+      "accepted_aliases": [],
+      "distractors": [
+        "钪",
+        "钛",
+        "钒"
+      ],
+      "explanation": "元素符号 Sn 对应的中文名称是锡。"
+    },
+    {
+      "id": "zh_sci_0199",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "锡元素的原子序数是多少？",
+      "answer": "50",
+      "accepted_aliases": [],
+      "distractors": [
+        "52",
+        "53",
+        "54"
+      ],
+      "explanation": "元素周期表中锡的原子序数是50。"
+    },
+    {
+      "id": "zh_sci_0200",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为50的元素是哪一种？",
+      "answer": "锡",
+      "accepted_aliases": [],
+      "distractors": [
+        "铝",
+        "硅",
+        "磷"
+      ],
+      "explanation": "原子序数50在元素周期表中对应锡。"
+    },
+    {
+      "id": "zh_sci_0201",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“锑”的化学符号是什么？",
+      "answer": "Sb",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ne",
+        "Na",
+        "Mg"
+      ],
+      "explanation": "锑的国际通用化学符号是 Sb。"
+    },
+    {
+      "id": "zh_sci_0202",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Sb”代表哪种元素？",
+      "answer": "锑",
+      "accepted_aliases": [],
+      "distractors": [
+        "锶",
+        "钇",
+        "锆"
+      ],
+      "explanation": "元素符号 Sb 对应的中文名称是锑。"
+    },
+    {
+      "id": "zh_sci_0203",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "锑元素的原子序数是多少？",
+      "answer": "51",
+      "accepted_aliases": [],
+      "distractors": [
+        "15",
+        "16",
+        "17"
+      ],
+      "explanation": "元素周期表中锑的原子序数是51。"
+    },
+    {
+      "id": "zh_sci_0204",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为51的元素是哪一种？",
+      "answer": "锑",
+      "accepted_aliases": [],
+      "distractors": [
+        "锌",
+        "镓",
+        "锗"
+      ],
+      "explanation": "原子序数51在元素周期表中对应锑。"
+    },
+    {
+      "id": "zh_sci_0205",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "元素“碲”的化学符号是什么？",
+      "answer": "Te",
+      "accepted_aliases": [],
+      "distractors": [
+        "Co",
+        "Ni",
+        "Cu"
+      ],
+      "explanation": "碲的国际通用化学符号是 Te。"
+    },
+    {
+      "id": "zh_sci_0206",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "化学符号“Te”代表哪种元素？",
+      "answer": "碲",
+      "accepted_aliases": [],
+      "distractors": [
+        "氦",
+        "锂",
+        "铍"
+      ],
+      "explanation": "元素符号 Te 对应的中文名称是碲。"
+    },
+    {
+      "id": "zh_sci_0207",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "碲元素的原子序数是多少？",
+      "answer": "52",
+      "accepted_aliases": [],
+      "distractors": [
+        "32",
+        "33",
+        "34"
+      ],
+      "explanation": "元素周期表中碲的原子序数是52。"
+    },
+    {
+      "id": "zh_sci_0208",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "原子序数为52的元素是哪一种？",
+      "answer": "碲",
+      "accepted_aliases": [],
+      "distractors": [
+        "银",
+        "镉",
+        "铟"
+      ],
+      "explanation": "原子序数52在元素周期表中对应碲。"
+    },
+    {
+      "id": "zh_sci_0209",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "元素“碘”的化学符号是什么？",
+      "answer": "I",
+      "accepted_aliases": [],
+      "distractors": [
+        "Ru",
+        "Rh",
+        "Pd"
+      ],
+      "explanation": "碘的国际通用化学符号是 I。"
+    },
+    {
+      "id": "zh_sci_0210",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "化学符号“I”代表哪种元素？",
+      "answer": "碘",
+      "accepted_aliases": [],
+      "distractors": [
+        "钾",
+        "钙",
+        "钪"
+      ],
+      "explanation": "元素符号 I 对应的中文名称是碘。"
+    },
+    {
+      "id": "zh_sci_0211",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "碘元素的原子序数是多少？",
+      "answer": "53",
+      "accepted_aliases": [],
+      "distractors": [
+        "49",
+        "50",
+        "51"
+      ],
+      "explanation": "元素周期表中碘的原子序数是53。"
+    },
+    {
+      "id": "zh_sci_0212",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "原子序数为53的元素是哪一种？",
+      "answer": "碘",
+      "accepted_aliases": [],
+      "distractors": [
+        "钠",
+        "镁",
+        "铝"
+      ],
+      "explanation": "原子序数53在元素周期表中对应碘。"
+    },
+    {
+      "id": "zh_sci_0213",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "元素“氙”的化学符号是什么？",
+      "answer": "Xe",
+      "accepted_aliases": [],
+      "distractors": [
+        "O",
+        "F",
+        "Ne"
+      ],
+      "explanation": "氙的国际通用化学符号是 Xe。"
+    },
+    {
+      "id": "zh_sci_0214",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "化学符号“Xe”代表哪种元素？",
+      "answer": "氙",
+      "accepted_aliases": [],
+      "distractors": [
+        "氪",
+        "铷",
+        "锶"
+      ],
+      "explanation": "元素符号 Xe 对应的中文名称是氙。"
+    },
+    {
+      "id": "zh_sci_0215",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "氙元素的原子序数是多少？",
+      "answer": "54",
+      "accepted_aliases": [],
+      "distractors": [
+        "13",
+        "14",
+        "15"
+      ],
+      "explanation": "元素周期表中氙的原子序数是54。"
+    },
+    {
+      "id": "zh_sci_0216",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "原子序数为54的元素是哪一种？",
+      "answer": "氙",
+      "accepted_aliases": [],
+      "distractors": [
+        "镍",
+        "铜",
+        "锌"
+      ],
+      "explanation": "原子序数54在元素周期表中对应氙。"
+    },
+    {
+      "id": "zh_sci_0217",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "从太阳向外数，水星是第几颗行星？",
+      "answer": "1",
+      "accepted_aliases": [],
+      "distractors": [
+        "2",
+        "3",
+        "4"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，水星位列第1。"
+    },
+    {
+      "id": "zh_sci_0218",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "太阳系第1颗行星是哪一颗？",
+      "answer": "水星",
+      "accepted_aliases": [],
+      "distractors": [
+        "火星",
+        "木星",
+        "土星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第1颗行星是水星。"
+    },
+    {
+      "id": "zh_sci_0219",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "从太阳向外数，金星是第几颗行星？",
+      "answer": "2",
+      "accepted_aliases": [],
+      "distractors": [
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，金星位列第2。"
+    },
+    {
+      "id": "zh_sci_0220",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "太阳系第2颗行星是哪一颗？",
+      "answer": "金星",
+      "accepted_aliases": [],
+      "distractors": [
+        "天王星",
+        "海王星",
+        "水星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第2颗行星是金星。"
+    },
+    {
+      "id": "zh_sci_0221",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "从太阳向外数，地球是第几颗行星？",
+      "answer": "3",
+      "accepted_aliases": [],
+      "distractors": [
+        "8",
+        "1",
+        "2"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，地球位列第3。"
+    },
+    {
+      "id": "zh_sci_0222",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "太阳系第3颗行星是哪一颗？",
+      "answer": "地球",
+      "accepted_aliases": [],
+      "distractors": [
+        "金星",
+        "火星",
+        "木星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第3颗行星是地球。"
+    },
+    {
+      "id": "zh_sci_0223",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "从太阳向外数，火星是第几颗行星？",
+      "answer": "4",
+      "accepted_aliases": [],
+      "distractors": [
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，火星位列第4。"
+    },
+    {
+      "id": "zh_sci_0224",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "太阳系第4颗行星是哪一颗？",
+      "answer": "火星",
+      "accepted_aliases": [],
+      "distractors": [
+        "土星",
+        "天王星",
+        "海王星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第4颗行星是火星。"
+    },
+    {
+      "id": "zh_sci_0225",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "从太阳向外数，木星是第几颗行星？",
+      "answer": "5",
+      "accepted_aliases": [],
+      "distractors": [
+        "7",
+        "8",
+        "1"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，木星位列第5。"
+    },
+    {
+      "id": "zh_sci_0226",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "太阳系第5颗行星是哪一颗？",
+      "answer": "木星",
+      "accepted_aliases": [],
+      "distractors": [
+        "水星",
+        "金星",
+        "地球"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第5颗行星是木星。"
+    },
+    {
+      "id": "zh_sci_0227",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "从太阳向外数，土星是第几颗行星？",
+      "answer": "6",
+      "accepted_aliases": [],
+      "distractors": [
+        "2",
+        "3",
+        "4"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，土星位列第6。"
+    },
+    {
+      "id": "zh_sci_0228",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "太阳系第6颗行星是哪一颗？",
+      "answer": "土星",
+      "accepted_aliases": [],
+      "distractors": [
+        "火星",
+        "木星",
+        "天王星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第6颗行星是土星。"
+    },
+    {
+      "id": "zh_sci_0229",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "从太阳向外数，天王星是第几颗行星？",
+      "answer": "7",
+      "accepted_aliases": [],
+      "distractors": [
+        "5",
+        "6",
+        "8"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，天王星位列第7。"
+    },
+    {
+      "id": "zh_sci_0230",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "太阳系第7颗行星是哪一颗？",
+      "answer": "天王星",
+      "accepted_aliases": [],
+      "distractors": [
+        "海王星",
+        "水星",
+        "金星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第7颗行星是天王星。"
+    },
+    {
+      "id": "zh_sci_0231",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "从太阳向外数，海王星是第几颗行星？",
+      "answer": "8",
+      "accepted_aliases": [],
+      "distractors": [
+        "1",
+        "2",
+        "3"
+      ],
+      "explanation": "太阳系八大行星按距离太阳由近到远排列时，海王星位列第8。"
+    },
+    {
+      "id": "zh_sci_0232",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "太阳系第8颗行星是哪一颗？",
+      "answer": "海王星",
+      "accepted_aliases": [],
+      "distractors": [
+        "地球",
+        "火星",
+        "木星"
+      ],
+      "explanation": "按距离太阳由近到远的顺序，第8颗行星是海王星。"
+    },
+    {
+      "id": "zh_sci_0233",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“水的化学式”对应的对应答案是什么？",
+      "answer": "H₂O",
+      "accepted_aliases": [],
+      "distractors": [
+        "月球",
+        "火星",
+        "皮肤"
+      ],
+      "explanation": "水的化学式与H₂O是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0234",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“H₂O”？",
+      "answer": "水的化学式",
+      "accepted_aliases": [],
+      "distractors": [
+        "氮气的化学式",
+        "食盐主要成分的化学式",
+        "甲烷的化学式"
+      ],
+      "explanation": "在给出的选项中，水的化学式与H₂O正确对应。"
+    },
+    {
+      "id": "zh_sci_0235",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“二氧化碳的化学式”对应的对应答案是什么？",
+      "answer": "CO₂",
+      "accepted_aliases": [],
+      "distractors": [
+        "木星",
+        "水星",
+        "月球"
+      ],
+      "explanation": "二氧化碳的化学式与CO₂是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0236",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“CO₂”？",
+      "answer": "二氧化碳的化学式",
+      "accepted_aliases": [],
+      "distractors": [
+        "水的化学式",
+        "氧气的化学式",
+        "氮气的化学式"
+      ],
+      "explanation": "在给出的选项中，二氧化碳的化学式与CO₂正确对应。"
+    },
+    {
+      "id": "zh_sci_0237",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "科学概念“氧气的化学式”对应的对应答案是什么？",
+      "answer": "O₂",
+      "accepted_aliases": [],
+      "distractors": [
+        "NaCl",
+        "CH₄",
+        "木星"
+      ],
+      "explanation": "氧气的化学式与O₂是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0238",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“O₂”？",
+      "answer": "氧气的化学式",
+      "accepted_aliases": [],
+      "distractors": [
+        "电流的国际单位",
+        "温度的国际单位",
+        "水的化学式"
+      ],
+      "explanation": "在给出的选项中，氧气的化学式与O₂正确对应。"
+    },
+    {
+      "id": "zh_sci_0239",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“氮气的化学式”对应的对应答案是什么？",
+      "answer": "N₂",
+      "accepted_aliases": [],
+      "distractors": [
+        "CO₂",
+        "O₂",
+        "NaCl"
+      ],
+      "explanation": "氮气的化学式与N₂是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0240",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“N₂”？",
+      "answer": "氮气的化学式",
+      "accepted_aliases": [],
+      "distractors": [
+        "力的国际单位",
+        "功率的国际单位",
+        "电流的国际单位"
+      ],
+      "explanation": "在给出的选项中，氮气的化学式与N₂正确对应。"
+    },
+    {
+      "id": "zh_sci_0241",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“食盐主要成分的化学式”对应的对应答案是什么？",
+      "answer": "NaCl",
+      "accepted_aliases": [],
+      "distractors": [
+        "开尔文",
+        "H₂O",
+        "CO₂"
+      ],
+      "explanation": "食盐主要成分的化学式与NaCl是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0242",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“NaCl”？",
+      "answer": "食盐主要成分的化学式",
+      "accepted_aliases": [],
+      "distractors": [
+        "细胞控制中心",
+        "植物细胞进行光合作用的结构",
+        "力的国际单位"
+      ],
+      "explanation": "在给出的选项中，食盐主要成分的化学式与NaCl正确对应。"
+    },
+    {
+      "id": "zh_sci_0243",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "科学概念“甲烷的化学式”对应的对应答案是什么？",
+      "answer": "CH₄",
+      "accepted_aliases": [],
+      "distractors": [
+        "瓦特",
+        "安培",
+        "开尔文"
+      ],
+      "explanation": "甲烷的化学式与CH₄是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0244",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“CH₄”？",
+      "answer": "甲烷的化学式",
+      "accepted_aliases": [],
+      "distractors": [
+        "遗传信息的主要载体",
+        "血液中运输氧的细胞",
+        "细胞控制中心"
+      ],
+      "explanation": "在给出的选项中，甲烷的化学式与CH₄正确对应。"
+    },
+    {
+      "id": "zh_sci_0245",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“太阳系最大行星”对应的对应答案是什么？",
+      "answer": "木星",
+      "accepted_aliases": [],
+      "distractors": [
+        "叶绿体",
+        "牛顿",
+        "瓦特"
+      ],
+      "explanation": "太阳系最大行星与木星是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0246",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“木星”？",
+      "answer": "太阳系最大行星",
+      "accepted_aliases": [],
+      "distractors": [
+        "人体最大的器官",
+        "植物光合作用主要吸收的气体",
+        "遗传信息的主要载体"
+      ],
+      "explanation": "在给出的选项中，太阳系最大行星与木星正确对应。"
+    },
+    {
+      "id": "zh_sci_0247",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“太阳系最小行星”对应的对应答案是什么？",
+      "answer": "水星",
+      "accepted_aliases": [],
+      "distractors": [
+        "红细胞",
+        "细胞核",
+        "叶绿体"
+      ],
+      "explanation": "太阳系最小行星与水星是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0248",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“水星”？",
+      "answer": "太阳系最小行星",
+      "accepted_aliases": [],
+      "distractors": [
+        "地球唯一的天然卫星",
+        "红色星球",
+        "人体最大的器官"
+      ],
+      "explanation": "在给出的选项中，太阳系最小行星与水星正确对应。"
+    },
+    {
+      "id": "zh_sci_0249",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "科学概念“地球唯一的天然卫星”对应的对应答案是什么？",
+      "answer": "月球",
+      "accepted_aliases": [],
+      "distractors": [
+        "二氧化碳",
+        "DNA",
+        "红细胞"
+      ],
+      "explanation": "地球唯一的天然卫星与月球是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0250",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“月球”？",
+      "answer": "地球唯一的天然卫星",
+      "accepted_aliases": [],
+      "distractors": [
+        "甲烷的化学式",
+        "太阳系最大行星",
+        "太阳系最小行星"
+      ],
+      "explanation": "在给出的选项中，地球唯一的天然卫星与月球正确对应。"
+    },
+    {
+      "id": "zh_sci_0251",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“红色星球”对应的对应答案是什么？",
+      "answer": "火星",
+      "accepted_aliases": [],
+      "distractors": [
+        "月球",
+        "皮肤",
+        "二氧化碳"
+      ],
+      "explanation": "红色星球与火星是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0252",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“火星”？",
+      "answer": "红色星球",
+      "accepted_aliases": [],
+      "distractors": [
+        "氮气的化学式",
+        "食盐主要成分的化学式",
+        "甲烷的化学式"
+      ],
+      "explanation": "在给出的选项中，红色星球与火星正确对应。"
+    },
+    {
+      "id": "zh_sci_0253",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“人体最大的器官”对应的对应答案是什么？",
+      "answer": "皮肤",
+      "accepted_aliases": [],
+      "distractors": [
+        "木星",
+        "水星",
+        "月球"
+      ],
+      "explanation": "人体最大的器官与皮肤是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0254",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“皮肤”？",
+      "answer": "人体最大的器官",
+      "accepted_aliases": [],
+      "distractors": [
+        "二氧化碳的化学式",
+        "氧气的化学式",
+        "氮气的化学式"
+      ],
+      "explanation": "在给出的选项中，人体最大的器官与皮肤正确对应。"
+    },
+    {
+      "id": "zh_sci_0255",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "科学概念“植物光合作用主要吸收的气体”对应的对应答案是什么？",
+      "answer": "二氧化碳",
+      "accepted_aliases": [],
+      "distractors": [
+        "NaCl",
+        "CH₄",
+        "木星"
+      ],
+      "explanation": "植物光合作用主要吸收的气体与二氧化碳是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0256",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“二氧化碳”？",
+      "answer": "植物光合作用主要吸收的气体",
+      "accepted_aliases": [],
+      "distractors": [
+        "温度的国际单位",
+        "水的化学式",
+        "二氧化碳的化学式"
+      ],
+      "explanation": "在给出的选项中，植物光合作用主要吸收的气体与二氧化碳正确对应。"
+    },
+    {
+      "id": "zh_sci_0257",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“遗传信息的主要载体”对应的对应答案是什么？",
+      "answer": "DNA",
+      "accepted_aliases": [],
+      "distractors": [
+        "O₂",
+        "N₂",
+        "NaCl"
+      ],
+      "explanation": "遗传信息的主要载体与DNA是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0258",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“DNA”？",
+      "answer": "遗传信息的主要载体",
+      "accepted_aliases": [],
+      "distractors": [
+        "功率的国际单位",
+        "电流的国际单位",
+        "温度的国际单位"
+      ],
+      "explanation": "在给出的选项中，遗传信息的主要载体与DNA正确对应。"
+    },
+    {
+      "id": "zh_sci_0259",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“血液中运输氧的细胞”对应的对应答案是什么？",
+      "answer": "红细胞",
+      "accepted_aliases": [],
+      "distractors": [
+        "H₂O",
+        "CO₂",
+        "O₂"
+      ],
+      "explanation": "血液中运输氧的细胞与红细胞是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0260",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“红细胞”？",
+      "answer": "血液中运输氧的细胞",
+      "accepted_aliases": [],
+      "distractors": [
+        "植物细胞进行光合作用的结构",
+        "力的国际单位",
+        "功率的国际单位"
+      ],
+      "explanation": "在给出的选项中，血液中运输氧的细胞与红细胞正确对应。"
+    },
+    {
+      "id": "zh_sci_0261",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "科学概念“细胞控制中心”对应的对应答案是什么？",
+      "answer": "细胞核",
+      "accepted_aliases": [],
+      "distractors": [
+        "安培",
+        "开尔文",
+        "H₂O"
+      ],
+      "explanation": "细胞控制中心与细胞核是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0262",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“细胞核”？",
+      "answer": "细胞控制中心",
+      "accepted_aliases": [],
+      "distractors": [
+        "遗传信息的主要载体",
+        "血液中运输氧的细胞",
+        "植物细胞进行光合作用的结构"
+      ],
+      "explanation": "在给出的选项中，细胞控制中心与细胞核正确对应。"
+    },
+    {
+      "id": "zh_sci_0263",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“植物细胞进行光合作用的结构”对应的对应答案是什么？",
+      "answer": "叶绿体",
+      "accepted_aliases": [],
+      "distractors": [
+        "牛顿",
+        "瓦特",
+        "安培"
+      ],
+      "explanation": "植物细胞进行光合作用的结构与叶绿体是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0264",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“叶绿体”？",
+      "answer": "植物细胞进行光合作用的结构",
+      "accepted_aliases": [],
+      "distractors": [
+        "人体最大的器官",
+        "植物光合作用主要吸收的气体",
+        "遗传信息的主要载体"
+      ],
+      "explanation": "在给出的选项中，植物细胞进行光合作用的结构与叶绿体正确对应。"
+    },
+    {
+      "id": "zh_sci_0265",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“力的国际单位”对应的对应答案是什么？",
+      "answer": "牛顿",
+      "accepted_aliases": [],
+      "distractors": [
+        "红细胞",
+        "细胞核",
+        "叶绿体"
+      ],
+      "explanation": "力的国际单位与牛顿是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0266",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“牛顿”？",
+      "answer": "力的国际单位",
+      "accepted_aliases": [],
+      "distractors": [
+        "地球唯一的天然卫星",
+        "红色星球",
+        "人体最大的器官"
+      ],
+      "explanation": "在给出的选项中，力的国际单位与牛顿正确对应。"
+    },
+    {
+      "id": "zh_sci_0267",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "科学概念“功率的国际单位”对应的对应答案是什么？",
+      "answer": "瓦特",
+      "accepted_aliases": [],
+      "distractors": [
+        "二氧化碳",
+        "DNA",
+        "红细胞"
+      ],
+      "explanation": "功率的国际单位与瓦特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0268",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“瓦特”？",
+      "answer": "功率的国际单位",
+      "accepted_aliases": [],
+      "distractors": [
+        "太阳系最大行星",
+        "太阳系最小行星",
+        "地球唯一的天然卫星"
+      ],
+      "explanation": "在给出的选项中，功率的国际单位与瓦特正确对应。"
+    },
+    {
+      "id": "zh_sci_0269",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "科学概念“电流的国际单位”对应的对应答案是什么？",
+      "answer": "安培",
+      "accepted_aliases": [],
+      "distractors": [
+        "火星",
+        "皮肤",
+        "二氧化碳"
+      ],
+      "explanation": "电流的国际单位与安培是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0270",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“安培”？",
+      "answer": "电流的国际单位",
+      "accepted_aliases": [],
+      "distractors": [
+        "食盐主要成分的化学式",
+        "甲烷的化学式",
+        "太阳系最大行星"
+      ],
+      "explanation": "在给出的选项中，电流的国际单位与安培正确对应。"
+    },
+    {
+      "id": "zh_sci_0271",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "科学概念“温度的国际单位”对应的对应答案是什么？",
+      "answer": "开尔文",
+      "accepted_aliases": [],
+      "distractors": [
+        "水星",
+        "月球",
+        "火星"
+      ],
+      "explanation": "温度的国际单位与开尔文是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_sci_0272",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“开尔文”？",
+      "answer": "温度的国际单位",
+      "accepted_aliases": [],
+      "distractors": [
+        "氧气的化学式",
+        "氮气的化学式",
+        "食盐主要成分的化学式"
+      ],
+      "explanation": "在给出的选项中，温度的国际单位与开尔文正确对应。"
+    },
+    {
+      "id": "zh_sci_0273",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "1千米等于多少米？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "1千米等于1000米，所以1千米等于1000米。"
+    },
+    {
+      "id": "zh_sci_0274",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "1米等于多少厘米？",
+      "answer": "100",
+      "accepted_aliases": [],
+      "distractors": [
+        "110",
+        "90",
+        "120"
+      ],
+      "explanation": "1米等于100厘米，所以1米等于100厘米。"
+    },
+    {
+      "id": "zh_sci_0275",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "1千克等于多少克？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "1千克等于1000克，所以1千克等于1000克。"
+    },
+    {
+      "id": "zh_sci_0276",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "1升等于多少毫升？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "1升等于1000毫升，所以1升等于1000毫升。"
+    },
+    {
+      "id": "zh_sci_0277",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "2千米等于多少米？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "1千米等于1000米，所以2千米等于2000米。"
+    },
+    {
+      "id": "zh_sci_0278",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "2米等于多少厘米？",
+      "answer": "200",
+      "accepted_aliases": [],
+      "distractors": [
+        "220",
+        "180",
+        "240"
+      ],
+      "explanation": "1米等于100厘米，所以2米等于200厘米。"
+    },
+    {
+      "id": "zh_sci_0279",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "2千克等于多少克？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "1千克等于1000克，所以2千克等于2000克。"
+    },
+    {
+      "id": "zh_sci_0280",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "2升等于多少毫升？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "1升等于1000毫升，所以2升等于2000毫升。"
+    },
+    {
+      "id": "zh_sci_0281",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "3千米等于多少米？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "1千米等于1000米，所以3千米等于3000米。"
+    },
+    {
+      "id": "zh_sci_0282",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "3米等于多少厘米？",
+      "answer": "300",
+      "accepted_aliases": [],
+      "distractors": [
+        "330",
+        "270",
+        "360"
+      ],
+      "explanation": "1米等于100厘米，所以3米等于300厘米。"
+    },
+    {
+      "id": "zh_sci_0283",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "3千克等于多少克？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "1千克等于1000克，所以3千克等于3000克。"
+    },
+    {
+      "id": "zh_sci_0284",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "3升等于多少毫升？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "1升等于1000毫升，所以3升等于3000毫升。"
+    },
+    {
+      "id": "zh_sci_0285",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "4千米等于多少米？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "1千米等于1000米，所以4千米等于4000米。"
+    },
+    {
+      "id": "zh_sci_0286",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "4米等于多少厘米？",
+      "answer": "400",
+      "accepted_aliases": [],
+      "distractors": [
+        "440",
+        "360",
+        "480"
+      ],
+      "explanation": "1米等于100厘米，所以4米等于400厘米。"
+    },
+    {
+      "id": "zh_sci_0287",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "4千克等于多少克？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "1千克等于1000克，所以4千克等于4000克。"
+    },
+    {
+      "id": "zh_sci_0288",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "4升等于多少毫升？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "1升等于1000毫升，所以4升等于4000毫升。"
+    },
+    {
+      "id": "zh_sci_0289",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "5千米等于多少米？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "1千米等于1000米，所以5千米等于5000米。"
+    },
+    {
+      "id": "zh_sci_0290",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "5米等于多少厘米？",
+      "answer": "500",
+      "accepted_aliases": [],
+      "distractors": [
+        "550",
+        "450",
+        "600"
+      ],
+      "explanation": "1米等于100厘米，所以5米等于500厘米。"
+    },
+    {
+      "id": "zh_sci_0291",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "5千克等于多少克？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "1千克等于1000克，所以5千克等于5000克。"
+    },
+    {
+      "id": "zh_sci_0292",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "5升等于多少毫升？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "1升等于1000毫升，所以5升等于5000毫升。"
+    },
+    {
+      "id": "zh_sci_0293",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "6千米等于多少米？",
+      "answer": "6000",
+      "accepted_aliases": [],
+      "distractors": [
+        "6600",
+        "5400",
+        "7200"
+      ],
+      "explanation": "1千米等于1000米，所以6千米等于6000米。"
+    },
+    {
+      "id": "zh_sci_0294",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "6米等于多少厘米？",
+      "answer": "600",
+      "accepted_aliases": [],
+      "distractors": [
+        "660",
+        "540",
+        "720"
+      ],
+      "explanation": "1米等于100厘米，所以6米等于600厘米。"
+    },
+    {
+      "id": "zh_sci_0295",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "6千克等于多少克？",
+      "answer": "6000",
+      "accepted_aliases": [],
+      "distractors": [
+        "6600",
+        "5400",
+        "7200"
+      ],
+      "explanation": "1千克等于1000克，所以6千克等于6000克。"
+    },
+    {
+      "id": "zh_sci_0296",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "6升等于多少毫升？",
+      "answer": "6000",
+      "accepted_aliases": [],
+      "distractors": [
+        "6600",
+        "5400",
+        "7200"
+      ],
+      "explanation": "1升等于1000毫升，所以6升等于6000毫升。"
+    },
+    {
+      "id": "zh_sci_0297",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "7千米等于多少米？",
+      "answer": "7000",
+      "accepted_aliases": [],
+      "distractors": [
+        "7700",
+        "6300",
+        "8400"
+      ],
+      "explanation": "1千米等于1000米，所以7千米等于7000米。"
+    },
+    {
+      "id": "zh_sci_0298",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "7米等于多少厘米？",
+      "answer": "700",
+      "accepted_aliases": [],
+      "distractors": [
+        "770",
+        "630",
+        "840"
+      ],
+      "explanation": "1米等于100厘米，所以7米等于700厘米。"
+    },
+    {
+      "id": "zh_sci_0299",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "7千克等于多少克？",
+      "answer": "7000",
+      "accepted_aliases": [],
+      "distractors": [
+        "7700",
+        "6300",
+        "8400"
+      ],
+      "explanation": "1千克等于1000克，所以7千克等于7000克。"
+    },
+    {
+      "id": "zh_sci_0300",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "7升等于多少毫升？",
+      "answer": "7000",
+      "accepted_aliases": [],
+      "distractors": [
+        "7700",
+        "6300",
+        "8400"
+      ],
+      "explanation": "1升等于1000毫升，所以7升等于7000毫升。"
+    },
+    {
+      "id": "zh_sci_0301",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "8千米等于多少米？",
+      "answer": "8000",
+      "accepted_aliases": [],
+      "distractors": [
+        "8800",
+        "7200",
+        "9600"
+      ],
+      "explanation": "1千米等于1000米，所以8千米等于8000米。"
+    },
+    {
+      "id": "zh_sci_0302",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "8米等于多少厘米？",
+      "answer": "800",
+      "accepted_aliases": [],
+      "distractors": [
+        "880",
+        "720",
+        "960"
+      ],
+      "explanation": "1米等于100厘米，所以8米等于800厘米。"
+    },
+    {
+      "id": "zh_sci_0303",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "8千克等于多少克？",
+      "answer": "8000",
+      "accepted_aliases": [],
+      "distractors": [
+        "8800",
+        "7200",
+        "9600"
+      ],
+      "explanation": "1千克等于1000克，所以8千克等于8000克。"
+    },
+    {
+      "id": "zh_sci_0304",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "8升等于多少毫升？",
+      "answer": "8000",
+      "accepted_aliases": [],
+      "distractors": [
+        "8800",
+        "7200",
+        "9600"
+      ],
+      "explanation": "1升等于1000毫升，所以8升等于8000毫升。"
+    },
+    {
+      "id": "zh_sci_0305",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "9千米等于多少米？",
+      "answer": "9000",
+      "accepted_aliases": [],
+      "distractors": [
+        "9900",
+        "8100",
+        "10800"
+      ],
+      "explanation": "1千米等于1000米，所以9千米等于9000米。"
+    },
+    {
+      "id": "zh_sci_0306",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "9米等于多少厘米？",
+      "answer": "900",
+      "accepted_aliases": [],
+      "distractors": [
+        "990",
+        "810",
+        "1080"
+      ],
+      "explanation": "1米等于100厘米，所以9米等于900厘米。"
+    },
+    {
+      "id": "zh_sci_0307",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "9千克等于多少克？",
+      "answer": "9000",
+      "accepted_aliases": [],
+      "distractors": [
+        "9900",
+        "8100",
+        "10800"
+      ],
+      "explanation": "1千克等于1000克，所以9千克等于9000克。"
+    },
+    {
+      "id": "zh_sci_0308",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "9升等于多少毫升？",
+      "answer": "9000",
+      "accepted_aliases": [],
+      "distractors": [
+        "9900",
+        "8100",
+        "10800"
+      ],
+      "explanation": "1升等于1000毫升，所以9升等于9000毫升。"
+    },
+    {
+      "id": "zh_sci_0309",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "10千米等于多少米？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "explanation": "1千米等于1000米，所以10千米等于10000米。"
+    },
+    {
+      "id": "zh_sci_0310",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "10米等于多少厘米？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "1米等于100厘米，所以10米等于1000厘米。"
+    },
+    {
+      "id": "zh_sci_0311",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "10千克等于多少克？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "explanation": "1千克等于1000克，所以10千克等于10000克。"
+    },
+    {
+      "id": "zh_sci_0312",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "10升等于多少毫升？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "explanation": "1升等于1000毫升，所以10升等于10000毫升。"
+    },
+    {
+      "id": "zh_sci_0313",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "11千米等于多少米？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "12100",
+        "9900",
+        "13200"
+      ],
+      "explanation": "1千米等于1000米，所以11千米等于11000米。"
+    },
+    {
+      "id": "zh_sci_0314",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "11米等于多少厘米？",
+      "answer": "1100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1210",
+        "990",
+        "1320"
+      ],
+      "explanation": "1米等于100厘米，所以11米等于1100厘米。"
+    },
+    {
+      "id": "zh_sci_0315",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "11千克等于多少克？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "12100",
+        "9900",
+        "13200"
+      ],
+      "explanation": "1千克等于1000克，所以11千克等于11000克。"
+    },
+    {
+      "id": "zh_sci_0316",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "11升等于多少毫升？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "12100",
+        "9900",
+        "13200"
+      ],
+      "explanation": "1升等于1000毫升，所以11升等于11000毫升。"
+    },
+    {
+      "id": "zh_sci_0317",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "12千米等于多少米？",
+      "answer": "12000",
+      "accepted_aliases": [],
+      "distractors": [
+        "13200",
+        "10800",
+        "14400"
+      ],
+      "explanation": "1千米等于1000米，所以12千米等于12000米。"
+    },
+    {
+      "id": "zh_sci_0318",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "12米等于多少厘米？",
+      "answer": "1200",
+      "accepted_aliases": [],
+      "distractors": [
+        "1320",
+        "1080",
+        "1440"
+      ],
+      "explanation": "1米等于100厘米，所以12米等于1200厘米。"
+    },
+    {
+      "id": "zh_sci_0319",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "12千克等于多少克？",
+      "answer": "12000",
+      "accepted_aliases": [],
+      "distractors": [
+        "13200",
+        "10800",
+        "14400"
+      ],
+      "explanation": "1千克等于1000克，所以12千克等于12000克。"
+    },
+    {
+      "id": "zh_sci_0320",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "12升等于多少毫升？",
+      "answer": "12000",
+      "accepted_aliases": [],
+      "distractors": [
+        "13200",
+        "10800",
+        "14400"
+      ],
+      "explanation": "1升等于1000毫升，所以12升等于12000毫升。"
+    },
+    {
+      "id": "zh_sci_0321",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "13千米等于多少米？",
+      "answer": "13000",
+      "accepted_aliases": [],
+      "distractors": [
+        "14300",
+        "11700",
+        "15600"
+      ],
+      "explanation": "1千米等于1000米，所以13千米等于13000米。"
+    },
+    {
+      "id": "zh_sci_0322",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "13米等于多少厘米？",
+      "answer": "1300",
+      "accepted_aliases": [],
+      "distractors": [
+        "1430",
+        "1170",
+        "1560"
+      ],
+      "explanation": "1米等于100厘米，所以13米等于1300厘米。"
+    },
+    {
+      "id": "zh_sci_0323",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "13千克等于多少克？",
+      "answer": "13000",
+      "accepted_aliases": [],
+      "distractors": [
+        "14300",
+        "11700",
+        "15600"
+      ],
+      "explanation": "1千克等于1000克，所以13千克等于13000克。"
+    },
+    {
+      "id": "zh_sci_0324",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "13升等于多少毫升？",
+      "answer": "13000",
+      "accepted_aliases": [],
+      "distractors": [
+        "14300",
+        "11700",
+        "15600"
+      ],
+      "explanation": "1升等于1000毫升，所以13升等于13000毫升。"
+    },
+    {
+      "id": "zh_sci_0325",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "14千米等于多少米？",
+      "answer": "14000",
+      "accepted_aliases": [],
+      "distractors": [
+        "15400",
+        "12600",
+        "16800"
+      ],
+      "explanation": "1千米等于1000米，所以14千米等于14000米。"
+    },
+    {
+      "id": "zh_sci_0326",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "14米等于多少厘米？",
+      "answer": "1400",
+      "accepted_aliases": [],
+      "distractors": [
+        "1540",
+        "1260",
+        "1680"
+      ],
+      "explanation": "1米等于100厘米，所以14米等于1400厘米。"
+    },
+    {
+      "id": "zh_sci_0327",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "14千克等于多少克？",
+      "answer": "14000",
+      "accepted_aliases": [],
+      "distractors": [
+        "15400",
+        "12600",
+        "16800"
+      ],
+      "explanation": "1千克等于1000克，所以14千克等于14000克。"
+    },
+    {
+      "id": "zh_sci_0328",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "14升等于多少毫升？",
+      "answer": "14000",
+      "accepted_aliases": [],
+      "distractors": [
+        "15400",
+        "12600",
+        "16800"
+      ],
+      "explanation": "1升等于1000毫升，所以14升等于14000毫升。"
+    },
+    {
+      "id": "zh_sci_0329",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "15千米等于多少米？",
+      "answer": "15000",
+      "accepted_aliases": [],
+      "distractors": [
+        "16500",
+        "13500",
+        "18000"
+      ],
+      "explanation": "1千米等于1000米，所以15千米等于15000米。"
+    },
+    {
+      "id": "zh_sci_0330",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "15米等于多少厘米？",
+      "answer": "1500",
+      "accepted_aliases": [],
+      "distractors": [
+        "1650",
+        "1350",
+        "1800"
+      ],
+      "explanation": "1米等于100厘米，所以15米等于1500厘米。"
+    },
+    {
+      "id": "zh_sci_0331",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "15千克等于多少克？",
+      "answer": "15000",
+      "accepted_aliases": [],
+      "distractors": [
+        "16500",
+        "13500",
+        "18000"
+      ],
+      "explanation": "1千克等于1000克，所以15千克等于15000克。"
+    },
+    {
+      "id": "zh_sci_0332",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "15升等于多少毫升？",
+      "answer": "15000",
+      "accepted_aliases": [],
+      "distractors": [
+        "16500",
+        "13500",
+        "18000"
+      ],
+      "explanation": "1升等于1000毫升，所以15升等于15000毫升。"
+    },
+    {
+      "id": "zh_sci_0333",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "16千米等于多少米？",
+      "answer": "16000",
+      "accepted_aliases": [],
+      "distractors": [
+        "17600",
+        "14400",
+        "19200"
+      ],
+      "explanation": "1千米等于1000米，所以16千米等于16000米。"
+    },
+    {
+      "id": "zh_sci_0334",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "16米等于多少厘米？",
+      "answer": "1600",
+      "accepted_aliases": [],
+      "distractors": [
+        "1760",
+        "1440",
+        "1920"
+      ],
+      "explanation": "1米等于100厘米，所以16米等于1600厘米。"
+    },
+    {
+      "id": "zh_sci_0335",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "16千克等于多少克？",
+      "answer": "16000",
+      "accepted_aliases": [],
+      "distractors": [
+        "17600",
+        "14400",
+        "19200"
+      ],
+      "explanation": "1千克等于1000克，所以16千克等于16000克。"
+    },
+    {
+      "id": "zh_sci_0336",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "16升等于多少毫升？",
+      "answer": "16000",
+      "accepted_aliases": [],
+      "distractors": [
+        "17600",
+        "14400",
+        "19200"
+      ],
+      "explanation": "1升等于1000毫升，所以16升等于16000毫升。"
+    },
+    {
+      "id": "zh_sci_0337",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "17千米等于多少米？",
+      "answer": "17000",
+      "accepted_aliases": [],
+      "distractors": [
+        "18700",
+        "15300",
+        "20400"
+      ],
+      "explanation": "1千米等于1000米，所以17千米等于17000米。"
+    },
+    {
+      "id": "zh_sci_0338",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "17米等于多少厘米？",
+      "answer": "1700",
+      "accepted_aliases": [],
+      "distractors": [
+        "1870",
+        "1530",
+        "2040"
+      ],
+      "explanation": "1米等于100厘米，所以17米等于1700厘米。"
+    },
+    {
+      "id": "zh_sci_0339",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "17千克等于多少克？",
+      "answer": "17000",
+      "accepted_aliases": [],
+      "distractors": [
+        "18700",
+        "15300",
+        "20400"
+      ],
+      "explanation": "1千克等于1000克，所以17千克等于17000克。"
+    },
+    {
+      "id": "zh_sci_0340",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "17升等于多少毫升？",
+      "answer": "17000",
+      "accepted_aliases": [],
+      "distractors": [
+        "18700",
+        "15300",
+        "20400"
+      ],
+      "explanation": "1升等于1000毫升，所以17升等于17000毫升。"
+    },
+    {
+      "id": "zh_sci_0341",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "18千米等于多少米？",
+      "answer": "18000",
+      "accepted_aliases": [],
+      "distractors": [
+        "19800",
+        "16200",
+        "21600"
+      ],
+      "explanation": "1千米等于1000米，所以18千米等于18000米。"
+    },
+    {
+      "id": "zh_sci_0342",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "18米等于多少厘米？",
+      "answer": "1800",
+      "accepted_aliases": [],
+      "distractors": [
+        "1980",
+        "1620",
+        "2160"
+      ],
+      "explanation": "1米等于100厘米，所以18米等于1800厘米。"
+    },
+    {
+      "id": "zh_sci_0343",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "18千克等于多少克？",
+      "answer": "18000",
+      "accepted_aliases": [],
+      "distractors": [
+        "19800",
+        "16200",
+        "21600"
+      ],
+      "explanation": "1千克等于1000克，所以18千克等于18000克。"
+    },
+    {
+      "id": "zh_sci_0344",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "18升等于多少毫升？",
+      "answer": "18000",
+      "accepted_aliases": [],
+      "distractors": [
+        "19800",
+        "16200",
+        "21600"
+      ],
+      "explanation": "1升等于1000毫升，所以18升等于18000毫升。"
+    },
+    {
+      "id": "zh_sci_0345",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "19千米等于多少米？",
+      "answer": "19000",
+      "accepted_aliases": [],
+      "distractors": [
+        "20900",
+        "17100",
+        "22800"
+      ],
+      "explanation": "1千米等于1000米，所以19千米等于19000米。"
+    },
+    {
+      "id": "zh_sci_0346",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "19米等于多少厘米？",
+      "answer": "1900",
+      "accepted_aliases": [],
+      "distractors": [
+        "2090",
+        "1710",
+        "2280"
+      ],
+      "explanation": "1米等于100厘米，所以19米等于1900厘米。"
+    },
+    {
+      "id": "zh_sci_0347",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "19千克等于多少克？",
+      "answer": "19000",
+      "accepted_aliases": [],
+      "distractors": [
+        "20900",
+        "17100",
+        "22800"
+      ],
+      "explanation": "1千克等于1000克，所以19千克等于19000克。"
+    },
+    {
+      "id": "zh_sci_0348",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "19升等于多少毫升？",
+      "answer": "19000",
+      "accepted_aliases": [],
+      "distractors": [
+        "20900",
+        "17100",
+        "22800"
+      ],
+      "explanation": "1升等于1000毫升，所以19升等于19000毫升。"
+    },
+    {
+      "id": "zh_sci_0349",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "20千米等于多少米？",
+      "answer": "20000",
+      "accepted_aliases": [],
+      "distractors": [
+        "22000",
+        "18000",
+        "24000"
+      ],
+      "explanation": "1千米等于1000米，所以20千米等于20000米。"
+    },
+    {
+      "id": "zh_sci_0350",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "20米等于多少厘米？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "1米等于100厘米，所以20米等于2000厘米。"
+    },
+    {
+      "id": "zh_sci_0351",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "20千克等于多少克？",
+      "answer": "20000",
+      "accepted_aliases": [],
+      "distractors": [
+        "22000",
+        "18000",
+        "24000"
+      ],
+      "explanation": "1千克等于1000克，所以20千克等于20000克。"
+    },
+    {
+      "id": "zh_sci_0352",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "20升等于多少毫升？",
+      "answer": "20000",
+      "accepted_aliases": [],
+      "distractors": [
+        "22000",
+        "18000",
+        "24000"
+      ],
+      "explanation": "1升等于1000毫升，所以20升等于20000毫升。"
+    },
+    {
+      "id": "zh_sci_0353",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "21千米等于多少米？",
+      "answer": "21000",
+      "accepted_aliases": [],
+      "distractors": [
+        "23100",
+        "18900",
+        "25200"
+      ],
+      "explanation": "1千米等于1000米，所以21千米等于21000米。"
+    },
+    {
+      "id": "zh_sci_0354",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "21米等于多少厘米？",
+      "answer": "2100",
+      "accepted_aliases": [],
+      "distractors": [
+        "2310",
+        "1890",
+        "2520"
+      ],
+      "explanation": "1米等于100厘米，所以21米等于2100厘米。"
+    },
+    {
+      "id": "zh_sci_0355",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "21千克等于多少克？",
+      "answer": "21000",
+      "accepted_aliases": [],
+      "distractors": [
+        "23100",
+        "18900",
+        "25200"
+      ],
+      "explanation": "1千克等于1000克，所以21千克等于21000克。"
+    },
+    {
+      "id": "zh_sci_0356",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "21升等于多少毫升？",
+      "answer": "21000",
+      "accepted_aliases": [],
+      "distractors": [
+        "23100",
+        "18900",
+        "25200"
+      ],
+      "explanation": "1升等于1000毫升，所以21升等于21000毫升。"
+    },
+    {
+      "id": "zh_sci_0357",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "22千米等于多少米？",
+      "answer": "22000",
+      "accepted_aliases": [],
+      "distractors": [
+        "24200",
+        "19800",
+        "26400"
+      ],
+      "explanation": "1千米等于1000米，所以22千米等于22000米。"
+    },
+    {
+      "id": "zh_sci_0358",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "22米等于多少厘米？",
+      "answer": "2200",
+      "accepted_aliases": [],
+      "distractors": [
+        "2420",
+        "1980",
+        "2640"
+      ],
+      "explanation": "1米等于100厘米，所以22米等于2200厘米。"
+    },
+    {
+      "id": "zh_sci_0359",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "22千克等于多少克？",
+      "answer": "22000",
+      "accepted_aliases": [],
+      "distractors": [
+        "24200",
+        "19800",
+        "26400"
+      ],
+      "explanation": "1千克等于1000克，所以22千克等于22000克。"
+    },
+    {
+      "id": "zh_sci_0360",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "22升等于多少毫升？",
+      "answer": "22000",
+      "accepted_aliases": [],
+      "distractors": [
+        "24200",
+        "19800",
+        "26400"
+      ],
+      "explanation": "1升等于1000毫升，所以22升等于22000毫升。"
+    },
+    {
+      "id": "zh_sci_0361",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "23千米等于多少米？",
+      "answer": "23000",
+      "accepted_aliases": [],
+      "distractors": [
+        "25300",
+        "20700",
+        "27600"
+      ],
+      "explanation": "1千米等于1000米，所以23千米等于23000米。"
+    },
+    {
+      "id": "zh_sci_0362",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "23米等于多少厘米？",
+      "answer": "2300",
+      "accepted_aliases": [],
+      "distractors": [
+        "2530",
+        "2070",
+        "2760"
+      ],
+      "explanation": "1米等于100厘米，所以23米等于2300厘米。"
+    },
+    {
+      "id": "zh_sci_0363",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "23千克等于多少克？",
+      "answer": "23000",
+      "accepted_aliases": [],
+      "distractors": [
+        "25300",
+        "20700",
+        "27600"
+      ],
+      "explanation": "1千克等于1000克，所以23千克等于23000克。"
+    },
+    {
+      "id": "zh_sci_0364",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "23升等于多少毫升？",
+      "answer": "23000",
+      "accepted_aliases": [],
+      "distractors": [
+        "25300",
+        "20700",
+        "27600"
+      ],
+      "explanation": "1升等于1000毫升，所以23升等于23000毫升。"
+    },
+    {
+      "id": "zh_sci_0365",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "24千米等于多少米？",
+      "answer": "24000",
+      "accepted_aliases": [],
+      "distractors": [
+        "26400",
+        "21600",
+        "28800"
+      ],
+      "explanation": "1千米等于1000米，所以24千米等于24000米。"
+    },
+    {
+      "id": "zh_sci_0366",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "24米等于多少厘米？",
+      "answer": "2400",
+      "accepted_aliases": [],
+      "distractors": [
+        "2640",
+        "2160",
+        "2880"
+      ],
+      "explanation": "1米等于100厘米，所以24米等于2400厘米。"
+    },
+    {
+      "id": "zh_sci_0367",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "24千克等于多少克？",
+      "answer": "24000",
+      "accepted_aliases": [],
+      "distractors": [
+        "26400",
+        "21600",
+        "28800"
+      ],
+      "explanation": "1千克等于1000克，所以24千克等于24000克。"
+    },
+    {
+      "id": "zh_sci_0368",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "24升等于多少毫升？",
+      "answer": "24000",
+      "accepted_aliases": [],
+      "distractors": [
+        "26400",
+        "21600",
+        "28800"
+      ],
+      "explanation": "1升等于1000毫升，所以24升等于24000毫升。"
+    },
+    {
+      "id": "zh_sci_0369",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "25千米等于多少米？",
+      "answer": "25000",
+      "accepted_aliases": [],
+      "distractors": [
+        "27500",
+        "22500",
+        "30000"
+      ],
+      "explanation": "1千米等于1000米，所以25千米等于25000米。"
+    },
+    {
+      "id": "zh_sci_0370",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "25米等于多少厘米？",
+      "answer": "2500",
+      "accepted_aliases": [],
+      "distractors": [
+        "2750",
+        "2250",
+        "3000"
+      ],
+      "explanation": "1米等于100厘米，所以25米等于2500厘米。"
+    },
+    {
+      "id": "zh_sci_0371",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "25千克等于多少克？",
+      "answer": "25000",
+      "accepted_aliases": [],
+      "distractors": [
+        "27500",
+        "22500",
+        "30000"
+      ],
+      "explanation": "1千克等于1000克，所以25千克等于25000克。"
+    },
+    {
+      "id": "zh_sci_0372",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "25升等于多少毫升？",
+      "answer": "25000",
+      "accepted_aliases": [],
+      "distractors": [
+        "27500",
+        "22500",
+        "30000"
+      ],
+      "explanation": "1升等于1000毫升，所以25升等于25000毫升。"
+    },
+    {
+      "id": "zh_sci_0373",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "26千米等于多少米？",
+      "answer": "26000",
+      "accepted_aliases": [],
+      "distractors": [
+        "28600",
+        "23400",
+        "31200"
+      ],
+      "explanation": "1千米等于1000米，所以26千米等于26000米。"
+    },
+    {
+      "id": "zh_sci_0374",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "26米等于多少厘米？",
+      "answer": "2600",
+      "accepted_aliases": [],
+      "distractors": [
+        "2860",
+        "2340",
+        "3120"
+      ],
+      "explanation": "1米等于100厘米，所以26米等于2600厘米。"
+    },
+    {
+      "id": "zh_sci_0375",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "26千克等于多少克？",
+      "answer": "26000",
+      "accepted_aliases": [],
+      "distractors": [
+        "28600",
+        "23400",
+        "31200"
+      ],
+      "explanation": "1千克等于1000克，所以26千克等于26000克。"
+    },
+    {
+      "id": "zh_sci_0376",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "26升等于多少毫升？",
+      "answer": "26000",
+      "accepted_aliases": [],
+      "distractors": [
+        "28600",
+        "23400",
+        "31200"
+      ],
+      "explanation": "1升等于1000毫升，所以26升等于26000毫升。"
+    },
+    {
+      "id": "zh_sci_0377",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "27千米等于多少米？",
+      "answer": "27000",
+      "accepted_aliases": [],
+      "distractors": [
+        "29700",
+        "24300",
+        "32400"
+      ],
+      "explanation": "1千米等于1000米，所以27千米等于27000米。"
+    },
+    {
+      "id": "zh_sci_0378",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "27米等于多少厘米？",
+      "answer": "2700",
+      "accepted_aliases": [],
+      "distractors": [
+        "2970",
+        "2430",
+        "3240"
+      ],
+      "explanation": "1米等于100厘米，所以27米等于2700厘米。"
+    },
+    {
+      "id": "zh_sci_0379",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "27千克等于多少克？",
+      "answer": "27000",
+      "accepted_aliases": [],
+      "distractors": [
+        "29700",
+        "24300",
+        "32400"
+      ],
+      "explanation": "1千克等于1000克，所以27千克等于27000克。"
+    },
+    {
+      "id": "zh_sci_0380",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "27升等于多少毫升？",
+      "answer": "27000",
+      "accepted_aliases": [],
+      "distractors": [
+        "29700",
+        "24300",
+        "32400"
+      ],
+      "explanation": "1升等于1000毫升，所以27升等于27000毫升。"
+    },
+    {
+      "id": "zh_sci_0381",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "28千米等于多少米？",
+      "answer": "28000",
+      "accepted_aliases": [],
+      "distractors": [
+        "30800",
+        "25200",
+        "33600"
+      ],
+      "explanation": "1千米等于1000米，所以28千米等于28000米。"
+    },
+    {
+      "id": "zh_sci_0382",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "28米等于多少厘米？",
+      "answer": "2800",
+      "accepted_aliases": [],
+      "distractors": [
+        "3080",
+        "2520",
+        "3360"
+      ],
+      "explanation": "1米等于100厘米，所以28米等于2800厘米。"
+    },
+    {
+      "id": "zh_sci_0383",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "28千克等于多少克？",
+      "answer": "28000",
+      "accepted_aliases": [],
+      "distractors": [
+        "30800",
+        "25200",
+        "33600"
+      ],
+      "explanation": "1千克等于1000克，所以28千克等于28000克。"
+    },
+    {
+      "id": "zh_sci_0384",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "28升等于多少毫升？",
+      "answer": "28000",
+      "accepted_aliases": [],
+      "distractors": [
+        "30800",
+        "25200",
+        "33600"
+      ],
+      "explanation": "1升等于1000毫升，所以28升等于28000毫升。"
+    },
+    {
+      "id": "zh_sci_0385",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "29千米等于多少米？",
+      "answer": "29000",
+      "accepted_aliases": [],
+      "distractors": [
+        "31900",
+        "26100",
+        "34800"
+      ],
+      "explanation": "1千米等于1000米，所以29千米等于29000米。"
+    },
+    {
+      "id": "zh_sci_0386",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "29米等于多少厘米？",
+      "answer": "2900",
+      "accepted_aliases": [],
+      "distractors": [
+        "3190",
+        "2610",
+        "3480"
+      ],
+      "explanation": "1米等于100厘米，所以29米等于2900厘米。"
+    },
+    {
+      "id": "zh_sci_0387",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "29千克等于多少克？",
+      "answer": "29000",
+      "accepted_aliases": [],
+      "distractors": [
+        "31900",
+        "26100",
+        "34800"
+      ],
+      "explanation": "1千克等于1000克，所以29千克等于29000克。"
+    },
+    {
+      "id": "zh_sci_0388",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "29升等于多少毫升？",
+      "answer": "29000",
+      "accepted_aliases": [],
+      "distractors": [
+        "31900",
+        "26100",
+        "34800"
+      ],
+      "explanation": "1升等于1000毫升，所以29升等于29000毫升。"
+    },
+    {
+      "id": "zh_sci_0389",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "30千米等于多少米？",
+      "answer": "30000",
+      "accepted_aliases": [],
+      "distractors": [
+        "33000",
+        "27000",
+        "36000"
+      ],
+      "explanation": "1千米等于1000米，所以30千米等于30000米。"
+    },
+    {
+      "id": "zh_sci_0390",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "30米等于多少厘米？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "1米等于100厘米，所以30米等于3000厘米。"
+    },
+    {
+      "id": "zh_sci_0391",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "30千克等于多少克？",
+      "answer": "30000",
+      "accepted_aliases": [],
+      "distractors": [
+        "33000",
+        "27000",
+        "36000"
+      ],
+      "explanation": "1千克等于1000克，所以30千克等于30000克。"
+    },
+    {
+      "id": "zh_sci_0392",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "30升等于多少毫升？",
+      "answer": "30000",
+      "accepted_aliases": [],
+      "distractors": [
+        "33000",
+        "27000",
+        "36000"
+      ],
+      "explanation": "1升等于1000毫升，所以30升等于30000毫升。"
+    },
+    {
+      "id": "zh_sci_0393",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "31千米等于多少米？",
+      "answer": "31000",
+      "accepted_aliases": [],
+      "distractors": [
+        "34100",
+        "27900",
+        "37200"
+      ],
+      "explanation": "1千米等于1000米，所以31千米等于31000米。"
+    },
+    {
+      "id": "zh_sci_0394",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "31米等于多少厘米？",
+      "answer": "3100",
+      "accepted_aliases": [],
+      "distractors": [
+        "3410",
+        "2790",
+        "3720"
+      ],
+      "explanation": "1米等于100厘米，所以31米等于3100厘米。"
+    },
+    {
+      "id": "zh_sci_0395",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "31千克等于多少克？",
+      "answer": "31000",
+      "accepted_aliases": [],
+      "distractors": [
+        "34100",
+        "27900",
+        "37200"
+      ],
+      "explanation": "1千克等于1000克，所以31千克等于31000克。"
+    },
+    {
+      "id": "zh_sci_0396",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "31升等于多少毫升？",
+      "answer": "31000",
+      "accepted_aliases": [],
+      "distractors": [
+        "34100",
+        "27900",
+        "37200"
+      ],
+      "explanation": "1升等于1000毫升，所以31升等于31000毫升。"
+    },
+    {
+      "id": "zh_sci_0397",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "32千米等于多少米？",
+      "answer": "32000",
+      "accepted_aliases": [],
+      "distractors": [
+        "35200",
+        "28800",
+        "38400"
+      ],
+      "explanation": "1千米等于1000米，所以32千米等于32000米。"
+    },
+    {
+      "id": "zh_sci_0398",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "32米等于多少厘米？",
+      "answer": "3200",
+      "accepted_aliases": [],
+      "distractors": [
+        "3520",
+        "2880",
+        "3840"
+      ],
+      "explanation": "1米等于100厘米，所以32米等于3200厘米。"
+    },
+    {
+      "id": "zh_sci_0399",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "32千克等于多少克？",
+      "answer": "32000",
+      "accepted_aliases": [],
+      "distractors": [
+        "35200",
+        "28800",
+        "38400"
+      ],
+      "explanation": "1千克等于1000克，所以32千克等于32000克。"
+    },
+    {
+      "id": "zh_sci_0400",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "32升等于多少毫升？",
+      "answer": "32000",
+      "accepted_aliases": [],
+      "distractors": [
+        "35200",
+        "28800",
+        "38400"
+      ],
+      "explanation": "1升等于1000毫升，所以32升等于32000毫升。"
+    },
+    {
+      "id": "zh_sci_0401",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "33千米等于多少米？",
+      "answer": "33000",
+      "accepted_aliases": [],
+      "distractors": [
+        "36300",
+        "29700",
+        "39600"
+      ],
+      "explanation": "1千米等于1000米，所以33千米等于33000米。"
+    },
+    {
+      "id": "zh_sci_0402",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "33米等于多少厘米？",
+      "answer": "3300",
+      "accepted_aliases": [],
+      "distractors": [
+        "3630",
+        "2970",
+        "3960"
+      ],
+      "explanation": "1米等于100厘米，所以33米等于3300厘米。"
+    },
+    {
+      "id": "zh_sci_0403",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "33千克等于多少克？",
+      "answer": "33000",
+      "accepted_aliases": [],
+      "distractors": [
+        "36300",
+        "29700",
+        "39600"
+      ],
+      "explanation": "1千克等于1000克，所以33千克等于33000克。"
+    },
+    {
+      "id": "zh_sci_0404",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "33升等于多少毫升？",
+      "answer": "33000",
+      "accepted_aliases": [],
+      "distractors": [
+        "36300",
+        "29700",
+        "39600"
+      ],
+      "explanation": "1升等于1000毫升，所以33升等于33000毫升。"
+    },
+    {
+      "id": "zh_sci_0405",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "34千米等于多少米？",
+      "answer": "34000",
+      "accepted_aliases": [],
+      "distractors": [
+        "37400",
+        "30600",
+        "40800"
+      ],
+      "explanation": "1千米等于1000米，所以34千米等于34000米。"
+    },
+    {
+      "id": "zh_sci_0406",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "34米等于多少厘米？",
+      "answer": "3400",
+      "accepted_aliases": [],
+      "distractors": [
+        "3740",
+        "3060",
+        "4080"
+      ],
+      "explanation": "1米等于100厘米，所以34米等于3400厘米。"
+    },
+    {
+      "id": "zh_sci_0407",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "34千克等于多少克？",
+      "answer": "34000",
+      "accepted_aliases": [],
+      "distractors": [
+        "37400",
+        "30600",
+        "40800"
+      ],
+      "explanation": "1千克等于1000克，所以34千克等于34000克。"
+    },
+    {
+      "id": "zh_sci_0408",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "34升等于多少毫升？",
+      "answer": "34000",
+      "accepted_aliases": [],
+      "distractors": [
+        "37400",
+        "30600",
+        "40800"
+      ],
+      "explanation": "1升等于1000毫升，所以34升等于34000毫升。"
+    },
+    {
+      "id": "zh_sci_0409",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "35千米等于多少米？",
+      "answer": "35000",
+      "accepted_aliases": [],
+      "distractors": [
+        "38500",
+        "31500",
+        "42000"
+      ],
+      "explanation": "1千米等于1000米，所以35千米等于35000米。"
+    },
+    {
+      "id": "zh_sci_0410",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "35米等于多少厘米？",
+      "answer": "3500",
+      "accepted_aliases": [],
+      "distractors": [
+        "3850",
+        "3150",
+        "4200"
+      ],
+      "explanation": "1米等于100厘米，所以35米等于3500厘米。"
+    },
+    {
+      "id": "zh_sci_0411",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "35千克等于多少克？",
+      "answer": "35000",
+      "accepted_aliases": [],
+      "distractors": [
+        "38500",
+        "31500",
+        "42000"
+      ],
+      "explanation": "1千克等于1000克，所以35千克等于35000克。"
+    },
+    {
+      "id": "zh_sci_0412",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "35升等于多少毫升？",
+      "answer": "35000",
+      "accepted_aliases": [],
+      "distractors": [
+        "38500",
+        "31500",
+        "42000"
+      ],
+      "explanation": "1升等于1000毫升，所以35升等于35000毫升。"
+    },
+    {
+      "id": "zh_sci_0413",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "36千米等于多少米？",
+      "answer": "36000",
+      "accepted_aliases": [],
+      "distractors": [
+        "39600",
+        "32400",
+        "43200"
+      ],
+      "explanation": "1千米等于1000米，所以36千米等于36000米。"
+    },
+    {
+      "id": "zh_sci_0414",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "36米等于多少厘米？",
+      "answer": "3600",
+      "accepted_aliases": [],
+      "distractors": [
+        "3960",
+        "3240",
+        "4320"
+      ],
+      "explanation": "1米等于100厘米，所以36米等于3600厘米。"
+    },
+    {
+      "id": "zh_sci_0415",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "36千克等于多少克？",
+      "answer": "36000",
+      "accepted_aliases": [],
+      "distractors": [
+        "39600",
+        "32400",
+        "43200"
+      ],
+      "explanation": "1千克等于1000克，所以36千克等于36000克。"
+    },
+    {
+      "id": "zh_sci_0416",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "36升等于多少毫升？",
+      "answer": "36000",
+      "accepted_aliases": [],
+      "distractors": [
+        "39600",
+        "32400",
+        "43200"
+      ],
+      "explanation": "1升等于1000毫升，所以36升等于36000毫升。"
+    },
+    {
+      "id": "zh_sci_0417",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "37千米等于多少米？",
+      "answer": "37000",
+      "accepted_aliases": [],
+      "distractors": [
+        "40700",
+        "33300",
+        "44400"
+      ],
+      "explanation": "1千米等于1000米，所以37千米等于37000米。"
+    },
+    {
+      "id": "zh_sci_0418",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "37米等于多少厘米？",
+      "answer": "3700",
+      "accepted_aliases": [],
+      "distractors": [
+        "4070",
+        "3330",
+        "4440"
+      ],
+      "explanation": "1米等于100厘米，所以37米等于3700厘米。"
+    },
+    {
+      "id": "zh_sci_0419",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "37千克等于多少克？",
+      "answer": "37000",
+      "accepted_aliases": [],
+      "distractors": [
+        "40700",
+        "33300",
+        "44400"
+      ],
+      "explanation": "1千克等于1000克，所以37千克等于37000克。"
+    },
+    {
+      "id": "zh_sci_0420",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "37升等于多少毫升？",
+      "answer": "37000",
+      "accepted_aliases": [],
+      "distractors": [
+        "40700",
+        "33300",
+        "44400"
+      ],
+      "explanation": "1升等于1000毫升，所以37升等于37000毫升。"
+    },
+    {
+      "id": "zh_sci_0421",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "38千米等于多少米？",
+      "answer": "38000",
+      "accepted_aliases": [],
+      "distractors": [
+        "41800",
+        "34200",
+        "45600"
+      ],
+      "explanation": "1千米等于1000米，所以38千米等于38000米。"
+    },
+    {
+      "id": "zh_sci_0422",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "38米等于多少厘米？",
+      "answer": "3800",
+      "accepted_aliases": [],
+      "distractors": [
+        "4180",
+        "3420",
+        "4560"
+      ],
+      "explanation": "1米等于100厘米，所以38米等于3800厘米。"
+    },
+    {
+      "id": "zh_sci_0423",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "38千克等于多少克？",
+      "answer": "38000",
+      "accepted_aliases": [],
+      "distractors": [
+        "41800",
+        "34200",
+        "45600"
+      ],
+      "explanation": "1千克等于1000克，所以38千克等于38000克。"
+    },
+    {
+      "id": "zh_sci_0424",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "38升等于多少毫升？",
+      "answer": "38000",
+      "accepted_aliases": [],
+      "distractors": [
+        "41800",
+        "34200",
+        "45600"
+      ],
+      "explanation": "1升等于1000毫升，所以38升等于38000毫升。"
+    },
+    {
+      "id": "zh_sci_0425",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "39千米等于多少米？",
+      "answer": "39000",
+      "accepted_aliases": [],
+      "distractors": [
+        "42900",
+        "35100",
+        "46800"
+      ],
+      "explanation": "1千米等于1000米，所以39千米等于39000米。"
+    },
+    {
+      "id": "zh_sci_0426",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "39米等于多少厘米？",
+      "answer": "3900",
+      "accepted_aliases": [],
+      "distractors": [
+        "4290",
+        "3510",
+        "4680"
+      ],
+      "explanation": "1米等于100厘米，所以39米等于3900厘米。"
+    },
+    {
+      "id": "zh_sci_0427",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "39千克等于多少克？",
+      "answer": "39000",
+      "accepted_aliases": [],
+      "distractors": [
+        "42900",
+        "35100",
+        "46800"
+      ],
+      "explanation": "1千克等于1000克，所以39千克等于39000克。"
+    },
+    {
+      "id": "zh_sci_0428",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "39升等于多少毫升？",
+      "answer": "39000",
+      "accepted_aliases": [],
+      "distractors": [
+        "42900",
+        "35100",
+        "46800"
+      ],
+      "explanation": "1升等于1000毫升，所以39升等于39000毫升。"
+    },
+    {
+      "id": "zh_sci_0429",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "40千米等于多少米？",
+      "answer": "40000",
+      "accepted_aliases": [],
+      "distractors": [
+        "44000",
+        "36000",
+        "48000"
+      ],
+      "explanation": "1千米等于1000米，所以40千米等于40000米。"
+    },
+    {
+      "id": "zh_sci_0430",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "40米等于多少厘米？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "1米等于100厘米，所以40米等于4000厘米。"
+    },
+    {
+      "id": "zh_sci_0431",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "40千克等于多少克？",
+      "answer": "40000",
+      "accepted_aliases": [],
+      "distractors": [
+        "44000",
+        "36000",
+        "48000"
+      ],
+      "explanation": "1千克等于1000克，所以40千克等于40000克。"
+    },
+    {
+      "id": "zh_sci_0432",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "40升等于多少毫升？",
+      "answer": "40000",
+      "accepted_aliases": [],
+      "distractors": [
+        "44000",
+        "36000",
+        "48000"
+      ],
+      "explanation": "1升等于1000毫升，所以40升等于40000毫升。"
+    },
+    {
+      "id": "zh_sci_0433",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "41千米等于多少米？",
+      "answer": "41000",
+      "accepted_aliases": [],
+      "distractors": [
+        "45100",
+        "36900",
+        "49200"
+      ],
+      "explanation": "1千米等于1000米，所以41千米等于41000米。"
+    },
+    {
+      "id": "zh_sci_0434",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "41米等于多少厘米？",
+      "answer": "4100",
+      "accepted_aliases": [],
+      "distractors": [
+        "4510",
+        "3690",
+        "4920"
+      ],
+      "explanation": "1米等于100厘米，所以41米等于4100厘米。"
+    },
+    {
+      "id": "zh_sci_0435",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "41千克等于多少克？",
+      "answer": "41000",
+      "accepted_aliases": [],
+      "distractors": [
+        "45100",
+        "36900",
+        "49200"
+      ],
+      "explanation": "1千克等于1000克，所以41千克等于41000克。"
+    },
+    {
+      "id": "zh_sci_0436",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "41升等于多少毫升？",
+      "answer": "41000",
+      "accepted_aliases": [],
+      "distractors": [
+        "45100",
+        "36900",
+        "49200"
+      ],
+      "explanation": "1升等于1000毫升，所以41升等于41000毫升。"
+    },
+    {
+      "id": "zh_sci_0437",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "42千米等于多少米？",
+      "answer": "42000",
+      "accepted_aliases": [],
+      "distractors": [
+        "46200",
+        "37800",
+        "50400"
+      ],
+      "explanation": "1千米等于1000米，所以42千米等于42000米。"
+    },
+    {
+      "id": "zh_sci_0438",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "42米等于多少厘米？",
+      "answer": "4200",
+      "accepted_aliases": [],
+      "distractors": [
+        "4620",
+        "3780",
+        "5040"
+      ],
+      "explanation": "1米等于100厘米，所以42米等于4200厘米。"
+    },
+    {
+      "id": "zh_sci_0439",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "42千克等于多少克？",
+      "answer": "42000",
+      "accepted_aliases": [],
+      "distractors": [
+        "46200",
+        "37800",
+        "50400"
+      ],
+      "explanation": "1千克等于1000克，所以42千克等于42000克。"
+    },
+    {
+      "id": "zh_sci_0440",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "42升等于多少毫升？",
+      "answer": "42000",
+      "accepted_aliases": [],
+      "distractors": [
+        "46200",
+        "37800",
+        "50400"
+      ],
+      "explanation": "1升等于1000毫升，所以42升等于42000毫升。"
+    },
+    {
+      "id": "zh_sci_0441",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "43千米等于多少米？",
+      "answer": "43000",
+      "accepted_aliases": [],
+      "distractors": [
+        "47300",
+        "38700",
+        "51600"
+      ],
+      "explanation": "1千米等于1000米，所以43千米等于43000米。"
+    },
+    {
+      "id": "zh_sci_0442",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "43米等于多少厘米？",
+      "answer": "4300",
+      "accepted_aliases": [],
+      "distractors": [
+        "4730",
+        "3870",
+        "5160"
+      ],
+      "explanation": "1米等于100厘米，所以43米等于4300厘米。"
+    },
+    {
+      "id": "zh_sci_0443",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "43千克等于多少克？",
+      "answer": "43000",
+      "accepted_aliases": [],
+      "distractors": [
+        "47300",
+        "38700",
+        "51600"
+      ],
+      "explanation": "1千克等于1000克，所以43千克等于43000克。"
+    },
+    {
+      "id": "zh_sci_0444",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "43升等于多少毫升？",
+      "answer": "43000",
+      "accepted_aliases": [],
+      "distractors": [
+        "47300",
+        "38700",
+        "51600"
+      ],
+      "explanation": "1升等于1000毫升，所以43升等于43000毫升。"
+    },
+    {
+      "id": "zh_sci_0445",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "44千米等于多少米？",
+      "answer": "44000",
+      "accepted_aliases": [],
+      "distractors": [
+        "48400",
+        "39600",
+        "52800"
+      ],
+      "explanation": "1千米等于1000米，所以44千米等于44000米。"
+    },
+    {
+      "id": "zh_sci_0446",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "44米等于多少厘米？",
+      "answer": "4400",
+      "accepted_aliases": [],
+      "distractors": [
+        "4840",
+        "3960",
+        "5280"
+      ],
+      "explanation": "1米等于100厘米，所以44米等于4400厘米。"
+    },
+    {
+      "id": "zh_sci_0447",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "44千克等于多少克？",
+      "answer": "44000",
+      "accepted_aliases": [],
+      "distractors": [
+        "48400",
+        "39600",
+        "52800"
+      ],
+      "explanation": "1千克等于1000克，所以44千克等于44000克。"
+    },
+    {
+      "id": "zh_sci_0448",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "44升等于多少毫升？",
+      "answer": "44000",
+      "accepted_aliases": [],
+      "distractors": [
+        "48400",
+        "39600",
+        "52800"
+      ],
+      "explanation": "1升等于1000毫升，所以44升等于44000毫升。"
+    },
+    {
+      "id": "zh_sci_0449",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "45千米等于多少米？",
+      "answer": "45000",
+      "accepted_aliases": [],
+      "distractors": [
+        "49500",
+        "40500",
+        "54000"
+      ],
+      "explanation": "1千米等于1000米，所以45千米等于45000米。"
+    },
+    {
+      "id": "zh_sci_0450",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "45米等于多少厘米？",
+      "answer": "4500",
+      "accepted_aliases": [],
+      "distractors": [
+        "4950",
+        "4050",
+        "5400"
+      ],
+      "explanation": "1米等于100厘米，所以45米等于4500厘米。"
+    },
+    {
+      "id": "zh_sci_0451",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "45千克等于多少克？",
+      "answer": "45000",
+      "accepted_aliases": [],
+      "distractors": [
+        "49500",
+        "40500",
+        "54000"
+      ],
+      "explanation": "1千克等于1000克，所以45千克等于45000克。"
+    },
+    {
+      "id": "zh_sci_0452",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "45升等于多少毫升？",
+      "answer": "45000",
+      "accepted_aliases": [],
+      "distractors": [
+        "49500",
+        "40500",
+        "54000"
+      ],
+      "explanation": "1升等于1000毫升，所以45升等于45000毫升。"
+    },
+    {
+      "id": "zh_sci_0453",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "46千米等于多少米？",
+      "answer": "46000",
+      "accepted_aliases": [],
+      "distractors": [
+        "50600",
+        "41400",
+        "55200"
+      ],
+      "explanation": "1千米等于1000米，所以46千米等于46000米。"
+    },
+    {
+      "id": "zh_sci_0454",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "46米等于多少厘米？",
+      "answer": "4600",
+      "accepted_aliases": [],
+      "distractors": [
+        "5060",
+        "4140",
+        "5520"
+      ],
+      "explanation": "1米等于100厘米，所以46米等于4600厘米。"
+    },
+    {
+      "id": "zh_sci_0455",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "46千克等于多少克？",
+      "answer": "46000",
+      "accepted_aliases": [],
+      "distractors": [
+        "50600",
+        "41400",
+        "55200"
+      ],
+      "explanation": "1千克等于1000克，所以46千克等于46000克。"
+    },
+    {
+      "id": "zh_sci_0456",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "46升等于多少毫升？",
+      "answer": "46000",
+      "accepted_aliases": [],
+      "distractors": [
+        "50600",
+        "41400",
+        "55200"
+      ],
+      "explanation": "1升等于1000毫升，所以46升等于46000毫升。"
+    },
+    {
+      "id": "zh_sci_0457",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "47千米等于多少米？",
+      "answer": "47000",
+      "accepted_aliases": [],
+      "distractors": [
+        "51700",
+        "42300",
+        "56400"
+      ],
+      "explanation": "1千米等于1000米，所以47千米等于47000米。"
+    },
+    {
+      "id": "zh_sci_0458",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "47米等于多少厘米？",
+      "answer": "4700",
+      "accepted_aliases": [],
+      "distractors": [
+        "5170",
+        "4230",
+        "5640"
+      ],
+      "explanation": "1米等于100厘米，所以47米等于4700厘米。"
+    },
+    {
+      "id": "zh_sci_0459",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "47千克等于多少克？",
+      "answer": "47000",
+      "accepted_aliases": [],
+      "distractors": [
+        "51700",
+        "42300",
+        "56400"
+      ],
+      "explanation": "1千克等于1000克，所以47千克等于47000克。"
+    },
+    {
+      "id": "zh_sci_0460",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "47升等于多少毫升？",
+      "answer": "47000",
+      "accepted_aliases": [],
+      "distractors": [
+        "51700",
+        "42300",
+        "56400"
+      ],
+      "explanation": "1升等于1000毫升，所以47升等于47000毫升。"
+    },
+    {
+      "id": "zh_sci_0461",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "48千米等于多少米？",
+      "answer": "48000",
+      "accepted_aliases": [],
+      "distractors": [
+        "52800",
+        "43200",
+        "57600"
+      ],
+      "explanation": "1千米等于1000米，所以48千米等于48000米。"
+    },
+    {
+      "id": "zh_sci_0462",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "48米等于多少厘米？",
+      "answer": "4800",
+      "accepted_aliases": [],
+      "distractors": [
+        "5280",
+        "4320",
+        "5760"
+      ],
+      "explanation": "1米等于100厘米，所以48米等于4800厘米。"
+    },
+    {
+      "id": "zh_sci_0463",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "48千克等于多少克？",
+      "answer": "48000",
+      "accepted_aliases": [],
+      "distractors": [
+        "52800",
+        "43200",
+        "57600"
+      ],
+      "explanation": "1千克等于1000克，所以48千克等于48000克。"
+    },
+    {
+      "id": "zh_sci_0464",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "48升等于多少毫升？",
+      "answer": "48000",
+      "accepted_aliases": [],
+      "distractors": [
+        "52800",
+        "43200",
+        "57600"
+      ],
+      "explanation": "1升等于1000毫升，所以48升等于48000毫升。"
+    },
+    {
+      "id": "zh_sci_0465",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "49千米等于多少米？",
+      "answer": "49000",
+      "accepted_aliases": [],
+      "distractors": [
+        "53900",
+        "44100",
+        "58800"
+      ],
+      "explanation": "1千米等于1000米，所以49千米等于49000米。"
+    },
+    {
+      "id": "zh_sci_0466",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "49米等于多少厘米？",
+      "answer": "4900",
+      "accepted_aliases": [],
+      "distractors": [
+        "5390",
+        "4410",
+        "5880"
+      ],
+      "explanation": "1米等于100厘米，所以49米等于4900厘米。"
+    },
+    {
+      "id": "zh_sci_0467",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "49千克等于多少克？",
+      "answer": "49000",
+      "accepted_aliases": [],
+      "distractors": [
+        "53900",
+        "44100",
+        "58800"
+      ],
+      "explanation": "1千克等于1000克，所以49千克等于49000克。"
+    },
+    {
+      "id": "zh_sci_0468",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "49升等于多少毫升？",
+      "answer": "49000",
+      "accepted_aliases": [],
+      "distractors": [
+        "53900",
+        "44100",
+        "58800"
+      ],
+      "explanation": "1升等于1000毫升，所以49升等于49000毫升。"
+    },
+    {
+      "id": "zh_sci_0469",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "50千米等于多少米？",
+      "answer": "50000",
+      "accepted_aliases": [],
+      "distractors": [
+        "55000",
+        "45000",
+        "60000"
+      ],
+      "explanation": "1千米等于1000米，所以50千米等于50000米。"
+    },
+    {
+      "id": "zh_sci_0470",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "50米等于多少厘米？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "1米等于100厘米，所以50米等于5000厘米。"
+    },
+    {
+      "id": "zh_sci_0471",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "50千克等于多少克？",
+      "answer": "50000",
+      "accepted_aliases": [],
+      "distractors": [
+        "55000",
+        "45000",
+        "60000"
+      ],
+      "explanation": "1千克等于1000克，所以50千克等于50000克。"
+    },
+    {
+      "id": "zh_sci_0472",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "50升等于多少毫升？",
+      "answer": "50000",
+      "accepted_aliases": [],
+      "distractors": [
+        "55000",
+        "45000",
+        "60000"
+      ],
+      "explanation": "1升等于1000毫升，所以50升等于50000毫升。"
+    },
+    {
+      "id": "zh_sci_0473",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "51千米等于多少米？",
+      "answer": "51000",
+      "accepted_aliases": [],
+      "distractors": [
+        "56100",
+        "45900",
+        "61200"
+      ],
+      "explanation": "1千米等于1000米，所以51千米等于51000米。"
+    },
+    {
+      "id": "zh_sci_0474",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "51米等于多少厘米？",
+      "answer": "5100",
+      "accepted_aliases": [],
+      "distractors": [
+        "5610",
+        "4590",
+        "6120"
+      ],
+      "explanation": "1米等于100厘米，所以51米等于5100厘米。"
+    },
+    {
+      "id": "zh_sci_0475",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "51千克等于多少克？",
+      "answer": "51000",
+      "accepted_aliases": [],
+      "distractors": [
+        "56100",
+        "45900",
+        "61200"
+      ],
+      "explanation": "1千克等于1000克，所以51千克等于51000克。"
+    },
+    {
+      "id": "zh_sci_0476",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "51升等于多少毫升？",
+      "answer": "51000",
+      "accepted_aliases": [],
+      "distractors": [
+        "56100",
+        "45900",
+        "61200"
+      ],
+      "explanation": "1升等于1000毫升，所以51升等于51000毫升。"
+    },
+    {
+      "id": "zh_sci_0477",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "52千米等于多少米？",
+      "answer": "52000",
+      "accepted_aliases": [],
+      "distractors": [
+        "57200",
+        "46800",
+        "62400"
+      ],
+      "explanation": "1千米等于1000米，所以52千米等于52000米。"
+    },
+    {
+      "id": "zh_sci_0478",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "52米等于多少厘米？",
+      "answer": "5200",
+      "accepted_aliases": [],
+      "distractors": [
+        "5720",
+        "4680",
+        "6240"
+      ],
+      "explanation": "1米等于100厘米，所以52米等于5200厘米。"
+    },
+    {
+      "id": "zh_sci_0479",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "52千克等于多少克？",
+      "answer": "52000",
+      "accepted_aliases": [],
+      "distractors": [
+        "57200",
+        "46800",
+        "62400"
+      ],
+      "explanation": "1千克等于1000克，所以52千克等于52000克。"
+    },
+    {
+      "id": "zh_sci_0480",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "52升等于多少毫升？",
+      "answer": "52000",
+      "accepted_aliases": [],
+      "distractors": [
+        "57200",
+        "46800",
+        "62400"
+      ],
+      "explanation": "1升等于1000毫升，所以52升等于52000毫升。"
+    },
+    {
+      "id": "zh_sci_0481",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "53千米等于多少米？",
+      "answer": "53000",
+      "accepted_aliases": [],
+      "distractors": [
+        "58300",
+        "47700",
+        "63600"
+      ],
+      "explanation": "1千米等于1000米，所以53千米等于53000米。"
+    },
+    {
+      "id": "zh_sci_0482",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "53米等于多少厘米？",
+      "answer": "5300",
+      "accepted_aliases": [],
+      "distractors": [
+        "5830",
+        "4770",
+        "6360"
+      ],
+      "explanation": "1米等于100厘米，所以53米等于5300厘米。"
+    },
+    {
+      "id": "zh_sci_0483",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "53千克等于多少克？",
+      "answer": "53000",
+      "accepted_aliases": [],
+      "distractors": [
+        "58300",
+        "47700",
+        "63600"
+      ],
+      "explanation": "1千克等于1000克，所以53千克等于53000克。"
+    },
+    {
+      "id": "zh_sci_0484",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "53升等于多少毫升？",
+      "answer": "53000",
+      "accepted_aliases": [],
+      "distractors": [
+        "58300",
+        "47700",
+        "63600"
+      ],
+      "explanation": "1升等于1000毫升，所以53升等于53000毫升。"
+    },
+    {
+      "id": "zh_sci_0485",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "54千米等于多少米？",
+      "answer": "54000",
+      "accepted_aliases": [],
+      "distractors": [
+        "59400",
+        "48600",
+        "64800"
+      ],
+      "explanation": "1千米等于1000米，所以54千米等于54000米。"
+    },
+    {
+      "id": "zh_sci_0486",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "54米等于多少厘米？",
+      "answer": "5400",
+      "accepted_aliases": [],
+      "distractors": [
+        "5940",
+        "4860",
+        "6480"
+      ],
+      "explanation": "1米等于100厘米，所以54米等于5400厘米。"
+    },
+    {
+      "id": "zh_sci_0487",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "54千克等于多少克？",
+      "answer": "54000",
+      "accepted_aliases": [],
+      "distractors": [
+        "59400",
+        "48600",
+        "64800"
+      ],
+      "explanation": "1千克等于1000克，所以54千克等于54000克。"
+    },
+    {
+      "id": "zh_sci_0488",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "54升等于多少毫升？",
+      "answer": "54000",
+      "accepted_aliases": [],
+      "distractors": [
+        "59400",
+        "48600",
+        "64800"
+      ],
+      "explanation": "1升等于1000毫升，所以54升等于54000毫升。"
+    },
+    {
+      "id": "zh_sci_0489",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "55千米等于多少米？",
+      "answer": "55000",
+      "accepted_aliases": [],
+      "distractors": [
+        "60500",
+        "49500",
+        "66000"
+      ],
+      "explanation": "1千米等于1000米，所以55千米等于55000米。"
+    },
+    {
+      "id": "zh_sci_0490",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "55米等于多少厘米？",
+      "answer": "5500",
+      "accepted_aliases": [],
+      "distractors": [
+        "6050",
+        "4950",
+        "6600"
+      ],
+      "explanation": "1米等于100厘米，所以55米等于5500厘米。"
+    },
+    {
+      "id": "zh_sci_0491",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "55千克等于多少克？",
+      "answer": "55000",
+      "accepted_aliases": [],
+      "distractors": [
+        "60500",
+        "49500",
+        "66000"
+      ],
+      "explanation": "1千克等于1000克，所以55千克等于55000克。"
+    },
+    {
+      "id": "zh_sci_0492",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "55升等于多少毫升？",
+      "answer": "55000",
+      "accepted_aliases": [],
+      "distractors": [
+        "60500",
+        "49500",
+        "66000"
+      ],
+      "explanation": "1升等于1000毫升，所以55升等于55000毫升。"
+    },
+    {
+      "id": "zh_sci_0493",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "56千米等于多少米？",
+      "answer": "56000",
+      "accepted_aliases": [],
+      "distractors": [
+        "61600",
+        "50400",
+        "67200"
+      ],
+      "explanation": "1千米等于1000米，所以56千米等于56000米。"
+    },
+    {
+      "id": "zh_sci_0494",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "56米等于多少厘米？",
+      "answer": "5600",
+      "accepted_aliases": [],
+      "distractors": [
+        "6160",
+        "5040",
+        "6720"
+      ],
+      "explanation": "1米等于100厘米，所以56米等于5600厘米。"
+    },
+    {
+      "id": "zh_sci_0495",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "56千克等于多少克？",
+      "answer": "56000",
+      "accepted_aliases": [],
+      "distractors": [
+        "61600",
+        "50400",
+        "67200"
+      ],
+      "explanation": "1千克等于1000克，所以56千克等于56000克。"
+    },
+    {
+      "id": "zh_sci_0496",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "56升等于多少毫升？",
+      "answer": "56000",
+      "accepted_aliases": [],
+      "distractors": [
+        "61600",
+        "50400",
+        "67200"
+      ],
+      "explanation": "1升等于1000毫升，所以56升等于56000毫升。"
+    },
+    {
+      "id": "zh_sci_0497",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "57千米等于多少米？",
+      "answer": "57000",
+      "accepted_aliases": [],
+      "distractors": [
+        "62700",
+        "51300",
+        "68400"
+      ],
+      "explanation": "1千米等于1000米，所以57千米等于57000米。"
+    },
+    {
+      "id": "zh_sci_0498",
+      "category": "natural_science",
+      "difficulty": 3,
+      "stem": "57米等于多少厘米？",
+      "answer": "5700",
+      "accepted_aliases": [],
+      "distractors": [
+        "6270",
+        "5130",
+        "6840"
+      ],
+      "explanation": "1米等于100厘米，所以57米等于5700厘米。"
+    },
+    {
+      "id": "zh_sci_0499",
+      "category": "natural_science",
+      "difficulty": 1,
+      "stem": "57千克等于多少克？",
+      "answer": "57000",
+      "accepted_aliases": [],
+      "distractors": [
+        "62700",
+        "51300",
+        "68400"
+      ],
+      "explanation": "1千克等于1000克，所以57千克等于57000克。"
+    },
+    {
+      "id": "zh_sci_0500",
+      "category": "natural_science",
+      "difficulty": 2,
+      "stem": "57升等于多少毫升？",
+      "answer": "57000",
+      "accepted_aliases": [],
+      "distractors": [
+        "62700",
+        "51300",
+        "68400"
+      ],
+      "explanation": "1升等于1000毫升，所以57升等于57000毫升。"
+    }
+  ],
+  "signature": "CONTROLFREE_BUNDLED_LOCAL_V1"
+}

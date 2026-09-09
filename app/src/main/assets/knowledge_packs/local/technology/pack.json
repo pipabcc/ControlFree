@@ -1,0 +1,7020 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "local_technology_v1",
+    "title": "科技百科 500 题",
+    "version": 2,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1785024000,
+    "minimum_app_version_code": 17,
+    "question_count": 500,
+    "content_types": [
+      "knowledge_quiz",
+      "category_technology"
+    ],
+    "signing_key_id": "bundled_local_v1"
+  },
+  "facts": [
+    {
+      "id": "zh_tech_0001",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“CPU”对应的中文名称是什么？",
+      "answer": "中央处理器",
+      "accepted_aliases": [],
+      "distractors": [
+        "便携式文档格式",
+        "超文本标记语言",
+        "层叠样式表"
+      ],
+      "explanation": "CPU与中央处理器是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0002",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“中央处理器”？",
+      "answer": "CPU",
+      "accepted_aliases": [],
+      "distractors": [
+        "UEFI",
+        "OS",
+        "VM"
+      ],
+      "explanation": "在给出的选项中，CPU与中央处理器正确对应。"
+    },
+    {
+      "id": "zh_tech_0003",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“GPU”对应的中文名称是什么？",
+      "answer": "图形处理器",
+      "accepted_aliases": [],
+      "distractors": [
+        "图形用户界面",
+        "命令行界面",
+        "结构化查询语言"
+      ],
+      "explanation": "GPU与图形处理器是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0004",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“图形处理器”？",
+      "answer": "GPU",
+      "accepted_aliases": [],
+      "distractors": [
+        "URL",
+        "URI",
+        "DNS"
+      ],
+      "explanation": "在给出的选项中，GPU与图形处理器正确对应。"
+    },
+    {
+      "id": "zh_tech_0005",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“RAM”对应的中文名称是什么？",
+      "answer": "随机存取存储器",
+      "accepted_aliases": [],
+      "distractors": [
+        "物联网",
+        "内容分发网络",
+        "基本输入输出系统"
+      ],
+      "explanation": "RAM与随机存取存储器是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0006",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“随机存取存储器”？",
+      "answer": "RAM",
+      "accepted_aliases": [],
+      "distractors": [
+        "XML",
+        "CSV",
+        "ASCII"
+      ],
+      "explanation": "在给出的选项中，RAM与随机存取存储器正确对应。"
+    },
+    {
+      "id": "zh_tech_0007",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“ROM”对应的中文名称是什么？",
+      "answer": "只读存储器",
+      "accepted_aliases": [],
+      "distractors": [
+        "层叠样式表",
+        "超文本传输协议",
+        "安全超文本传输协议"
+      ],
+      "explanation": "ROM与只读存储器是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0008",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“只读存储器”？",
+      "answer": "ROM",
+      "accepted_aliases": [],
+      "distractors": [
+        "VM",
+        "JVM",
+        "TLS"
+      ],
+      "explanation": "在给出的选项中，ROM与只读存储器正确对应。"
+    },
+    {
+      "id": "zh_tech_0009",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“SSD”对应的中文名称是什么？",
+      "answer": "固态硬盘",
+      "accepted_aliases": [],
+      "distractors": [
+        "结构化查询语言",
+        "数据库管理系统",
+        "JavaScript对象表示法"
+      ],
+      "explanation": "SSD与固态硬盘是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0010",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“固态硬盘”？",
+      "answer": "SSD",
+      "accepted_aliases": [],
+      "distractors": [
+        "DNS",
+        "IP",
+        "TCP"
+      ],
+      "explanation": "在给出的选项中，SSD与固态硬盘正确对应。"
+    },
+    {
+      "id": "zh_tech_0011",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“HDD”对应的中文名称是什么？",
+      "answer": "机械硬盘",
+      "accepted_aliases": [],
+      "distractors": [
+        "基本输入输出系统",
+        "统一可扩展固件接口",
+        "操作系统"
+      ],
+      "explanation": "HDD与机械硬盘是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0012",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“机械硬盘”？",
+      "answer": "HDD",
+      "accepted_aliases": [],
+      "distractors": [
+        "ASCII",
+        "Unicode",
+        "AI"
+      ],
+      "explanation": "在给出的选项中，HDD与机械硬盘正确对应。"
+    },
+    {
+      "id": "zh_tech_0013",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“USB”对应的中文名称是什么？",
+      "answer": "通用串行总线",
+      "accepted_aliases": [],
+      "distractors": [
+        "安全超文本传输协议",
+        "统一资源定位符",
+        "统一资源标识符"
+      ],
+      "explanation": "USB与通用串行总线是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0014",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“通用串行总线”？",
+      "answer": "USB",
+      "accepted_aliases": [],
+      "distractors": [
+        "TLS",
+        "CPU",
+        "GPU"
+      ],
+      "explanation": "在给出的选项中，USB与通用串行总线正确对应。"
+    },
+    {
+      "id": "zh_tech_0015",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“HDMI”对应的中文名称是什么？",
+      "answer": "高清多媒体接口",
+      "accepted_aliases": [],
+      "distractors": [
+        "JavaScript对象表示法",
+        "可扩展标记语言",
+        "逗号分隔值"
+      ],
+      "explanation": "HDMI与高清多媒体接口是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0016",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“高清多媒体接口”？",
+      "answer": "HDMI",
+      "accepted_aliases": [],
+      "distractors": [
+        "TCP",
+        "UDP",
+        "LAN"
+      ],
+      "explanation": "在给出的选项中，HDMI与高清多媒体接口正确对应。"
+    },
+    {
+      "id": "zh_tech_0017",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“PDF”对应的中文名称是什么？",
+      "answer": "便携式文档格式",
+      "accepted_aliases": [],
+      "distractors": [
+        "操作系统",
+        "虚拟机",
+        "Java虚拟机"
+      ],
+      "explanation": "PDF与便携式文档格式是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0018",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“便携式文档格式”？",
+      "answer": "PDF",
+      "accepted_aliases": [],
+      "distractors": [
+        "AI",
+        "ML",
+        "NLP"
+      ],
+      "explanation": "在给出的选项中，PDF与便携式文档格式正确对应。"
+    },
+    {
+      "id": "zh_tech_0019",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“HTML”对应的中文名称是什么？",
+      "answer": "超文本标记语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "统一资源标识符",
+        "域名系统",
+        "网际协议"
+      ],
+      "explanation": "HTML与超文本标记语言是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0020",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“超文本标记语言”？",
+      "answer": "HTML",
+      "accepted_aliases": [],
+      "distractors": [
+        "GPU",
+        "RAM",
+        "ROM"
+      ],
+      "explanation": "在给出的选项中，HTML与超文本标记语言正确对应。"
+    },
+    {
+      "id": "zh_tech_0021",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“CSS”对应的中文名称是什么？",
+      "answer": "层叠样式表",
+      "accepted_aliases": [],
+      "distractors": [
+        "逗号分隔值",
+        "美国信息交换标准代码",
+        "统一码"
+      ],
+      "explanation": "CSS与层叠样式表是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0022",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“层叠样式表”？",
+      "answer": "CSS",
+      "accepted_aliases": [],
+      "distractors": [
+        "LAN",
+        "WAN",
+        "VPN"
+      ],
+      "explanation": "在给出的选项中，CSS与层叠样式表正确对应。"
+    },
+    {
+      "id": "zh_tech_0023",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“HTTP”对应的中文名称是什么？",
+      "answer": "超文本传输协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "Java虚拟机",
+        "传输层安全协议",
+        "中央处理器"
+      ],
+      "explanation": "HTTP与超文本传输协议是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0024",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“超文本传输协议”？",
+      "answer": "HTTP",
+      "accepted_aliases": [],
+      "distractors": [
+        "NLP",
+        "OCR",
+        "GPS"
+      ],
+      "explanation": "在给出的选项中，HTTP与超文本传输协议正确对应。"
+    },
+    {
+      "id": "zh_tech_0025",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“HTTPS”对应的中文名称是什么？",
+      "answer": "安全超文本传输协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "网际协议",
+        "传输控制协议",
+        "用户数据报协议"
+      ],
+      "explanation": "HTTPS与安全超文本传输协议是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0026",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“安全超文本传输协议”？",
+      "answer": "HTTPS",
+      "accepted_aliases": [],
+      "distractors": [
+        "ROM",
+        "SSD",
+        "HDD"
+      ],
+      "explanation": "在给出的选项中，HTTPS与安全超文本传输协议正确对应。"
+    },
+    {
+      "id": "zh_tech_0027",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“URL”对应的中文名称是什么？",
+      "answer": "统一资源定位符",
+      "accepted_aliases": [],
+      "distractors": [
+        "统一码",
+        "人工智能",
+        "机器学习"
+      ],
+      "explanation": "URL与统一资源定位符是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0028",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“统一资源定位符”？",
+      "answer": "URL",
+      "accepted_aliases": [],
+      "distractors": [
+        "VPN",
+        "API",
+        "SDK"
+      ],
+      "explanation": "在给出的选项中，URL与统一资源定位符正确对应。"
+    },
+    {
+      "id": "zh_tech_0029",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“URI”对应的中文名称是什么？",
+      "answer": "统一资源标识符",
+      "accepted_aliases": [],
+      "distractors": [
+        "中央处理器",
+        "图形处理器",
+        "随机存取存储器"
+      ],
+      "explanation": "URI与统一资源标识符是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0030",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“统一资源标识符”？",
+      "answer": "URI",
+      "accepted_aliases": [],
+      "distractors": [
+        "GPS",
+        "QR",
+        "RFID"
+      ],
+      "explanation": "在给出的选项中，URI与统一资源标识符正确对应。"
+    },
+    {
+      "id": "zh_tech_0031",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“DNS”对应的中文名称是什么？",
+      "answer": "域名系统",
+      "accepted_aliases": [],
+      "distractors": [
+        "用户数据报协议",
+        "局域网",
+        "广域网"
+      ],
+      "explanation": "DNS与域名系统是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0032",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“域名系统”？",
+      "answer": "DNS",
+      "accepted_aliases": [],
+      "distractors": [
+        "HDD",
+        "USB",
+        "HDMI"
+      ],
+      "explanation": "在给出的选项中，DNS与域名系统正确对应。"
+    },
+    {
+      "id": "zh_tech_0033",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“IP”对应的中文名称是什么？",
+      "answer": "网际协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "机器学习",
+        "自然语言处理",
+        "光学字符识别"
+      ],
+      "explanation": "IP与网际协议是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0034",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“网际协议”？",
+      "answer": "IP",
+      "accepted_aliases": [],
+      "distractors": [
+        "SDK",
+        "IDE",
+        "GUI"
+      ],
+      "explanation": "在给出的选项中，IP与网际协议正确对应。"
+    },
+    {
+      "id": "zh_tech_0035",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“TCP”对应的中文名称是什么？",
+      "answer": "传输控制协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "随机存取存储器",
+        "只读存储器",
+        "固态硬盘"
+      ],
+      "explanation": "TCP与传输控制协议是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0036",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“传输控制协议”？",
+      "answer": "TCP",
+      "accepted_aliases": [],
+      "distractors": [
+        "RFID",
+        "NFC",
+        "IoT"
+      ],
+      "explanation": "在给出的选项中，TCP与传输控制协议正确对应。"
+    },
+    {
+      "id": "zh_tech_0037",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“UDP”对应的中文名称是什么？",
+      "answer": "用户数据报协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "广域网",
+        "虚拟专用网络",
+        "应用程序编程接口"
+      ],
+      "explanation": "UDP与用户数据报协议是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0038",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“用户数据报协议”？",
+      "answer": "UDP",
+      "accepted_aliases": [],
+      "distractors": [
+        "HDMI",
+        "PDF",
+        "HTML"
+      ],
+      "explanation": "在给出的选项中，UDP与用户数据报协议正确对应。"
+    },
+    {
+      "id": "zh_tech_0039",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“LAN”对应的中文名称是什么？",
+      "answer": "局域网",
+      "accepted_aliases": [],
+      "distractors": [
+        "光学字符识别",
+        "全球定位系统",
+        "二维码"
+      ],
+      "explanation": "LAN与局域网是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0040",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“局域网”？",
+      "answer": "LAN",
+      "accepted_aliases": [],
+      "distractors": [
+        "GUI",
+        "CLI",
+        "SQL"
+      ],
+      "explanation": "在给出的选项中，LAN与局域网正确对应。"
+    },
+    {
+      "id": "zh_tech_0041",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“WAN”对应的中文名称是什么？",
+      "answer": "广域网",
+      "accepted_aliases": [],
+      "distractors": [
+        "固态硬盘",
+        "机械硬盘",
+        "通用串行总线"
+      ],
+      "explanation": "WAN与广域网是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0042",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“广域网”？",
+      "answer": "WAN",
+      "accepted_aliases": [],
+      "distractors": [
+        "IoT",
+        "CDN",
+        "BIOS"
+      ],
+      "explanation": "在给出的选项中，WAN与广域网正确对应。"
+    },
+    {
+      "id": "zh_tech_0043",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“VPN”对应的中文名称是什么？",
+      "answer": "虚拟专用网络",
+      "accepted_aliases": [],
+      "distractors": [
+        "应用程序编程接口",
+        "软件开发工具包",
+        "集成开发环境"
+      ],
+      "explanation": "VPN与虚拟专用网络是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0044",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“虚拟专用网络”？",
+      "answer": "VPN",
+      "accepted_aliases": [],
+      "distractors": [
+        "HTML",
+        "CSS",
+        "HTTP"
+      ],
+      "explanation": "在给出的选项中，VPN与虚拟专用网络正确对应。"
+    },
+    {
+      "id": "zh_tech_0045",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“API”对应的中文名称是什么？",
+      "answer": "应用程序编程接口",
+      "accepted_aliases": [],
+      "distractors": [
+        "二维码",
+        "射频识别",
+        "近场通信"
+      ],
+      "explanation": "API与应用程序编程接口是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0046",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“应用程序编程接口”？",
+      "answer": "API",
+      "accepted_aliases": [],
+      "distractors": [
+        "SQL",
+        "DBMS",
+        "JSON"
+      ],
+      "explanation": "在给出的选项中，API与应用程序编程接口正确对应。"
+    },
+    {
+      "id": "zh_tech_0047",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“SDK”对应的中文名称是什么？",
+      "answer": "软件开发工具包",
+      "accepted_aliases": [],
+      "distractors": [
+        "通用串行总线",
+        "高清多媒体接口",
+        "便携式文档格式"
+      ],
+      "explanation": "SDK与软件开发工具包是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0048",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“软件开发工具包”？",
+      "answer": "SDK",
+      "accepted_aliases": [],
+      "distractors": [
+        "BIOS",
+        "UEFI",
+        "OS"
+      ],
+      "explanation": "在给出的选项中，SDK与软件开发工具包正确对应。"
+    },
+    {
+      "id": "zh_tech_0049",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“IDE”对应的中文名称是什么？",
+      "answer": "集成开发环境",
+      "accepted_aliases": [],
+      "distractors": [
+        "软件开发工具包",
+        "图形用户界面",
+        "命令行界面"
+      ],
+      "explanation": "IDE与集成开发环境是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0050",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“集成开发环境”？",
+      "answer": "IDE",
+      "accepted_aliases": [],
+      "distractors": [
+        "HTTP",
+        "HTTPS",
+        "URL"
+      ],
+      "explanation": "在给出的选项中，IDE与集成开发环境正确对应。"
+    },
+    {
+      "id": "zh_tech_0051",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“GUI”对应的中文名称是什么？",
+      "answer": "图形用户界面",
+      "accepted_aliases": [],
+      "distractors": [
+        "近场通信",
+        "物联网",
+        "内容分发网络"
+      ],
+      "explanation": "GUI与图形用户界面是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0052",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“图形用户界面”？",
+      "answer": "GUI",
+      "accepted_aliases": [],
+      "distractors": [
+        "JSON",
+        "XML",
+        "CSV"
+      ],
+      "explanation": "在给出的选项中，GUI与图形用户界面正确对应。"
+    },
+    {
+      "id": "zh_tech_0053",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“CLI”对应的中文名称是什么？",
+      "answer": "命令行界面",
+      "accepted_aliases": [],
+      "distractors": [
+        "便携式文档格式",
+        "超文本标记语言",
+        "层叠样式表"
+      ],
+      "explanation": "CLI与命令行界面是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0054",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“命令行界面”？",
+      "answer": "CLI",
+      "accepted_aliases": [],
+      "distractors": [
+        "OS",
+        "VM",
+        "JVM"
+      ],
+      "explanation": "在给出的选项中，CLI与命令行界面正确对应。"
+    },
+    {
+      "id": "zh_tech_0055",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“SQL”对应的中文名称是什么？",
+      "answer": "结构化查询语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "图形用户界面",
+        "命令行界面",
+        "数据库管理系统"
+      ],
+      "explanation": "SQL与结构化查询语言是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0056",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“结构化查询语言”？",
+      "answer": "SQL",
+      "accepted_aliases": [],
+      "distractors": [
+        "URL",
+        "URI",
+        "DNS"
+      ],
+      "explanation": "在给出的选项中，SQL与结构化查询语言正确对应。"
+    },
+    {
+      "id": "zh_tech_0057",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“DBMS”对应的中文名称是什么？",
+      "answer": "数据库管理系统",
+      "accepted_aliases": [],
+      "distractors": [
+        "内容分发网络",
+        "基本输入输出系统",
+        "统一可扩展固件接口"
+      ],
+      "explanation": "DBMS与数据库管理系统是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0058",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“数据库管理系统”？",
+      "answer": "DBMS",
+      "accepted_aliases": [],
+      "distractors": [
+        "CSV",
+        "ASCII",
+        "Unicode"
+      ],
+      "explanation": "在给出的选项中，DBMS与数据库管理系统正确对应。"
+    },
+    {
+      "id": "zh_tech_0059",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“JSON”对应的中文名称是什么？",
+      "answer": "JavaScript对象表示法",
+      "accepted_aliases": [],
+      "distractors": [
+        "层叠样式表",
+        "超文本传输协议",
+        "安全超文本传输协议"
+      ],
+      "explanation": "JSON与JavaScript对象表示法是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0060",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“JavaScript对象表示法”？",
+      "answer": "JSON",
+      "accepted_aliases": [],
+      "distractors": [
+        "JVM",
+        "TLS",
+        "CPU"
+      ],
+      "explanation": "在给出的选项中，JSON与JavaScript对象表示法正确对应。"
+    },
+    {
+      "id": "zh_tech_0061",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“XML”对应的中文名称是什么？",
+      "answer": "可扩展标记语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "结构化查询语言",
+        "数据库管理系统",
+        "JavaScript对象表示法"
+      ],
+      "explanation": "XML与可扩展标记语言是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0062",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“可扩展标记语言”？",
+      "answer": "XML",
+      "accepted_aliases": [],
+      "distractors": [
+        "DNS",
+        "IP",
+        "TCP"
+      ],
+      "explanation": "在给出的选项中，XML与可扩展标记语言正确对应。"
+    },
+    {
+      "id": "zh_tech_0063",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“CSV”对应的中文名称是什么？",
+      "answer": "逗号分隔值",
+      "accepted_aliases": [],
+      "distractors": [
+        "统一可扩展固件接口",
+        "操作系统",
+        "虚拟机"
+      ],
+      "explanation": "CSV与逗号分隔值是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0064",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“逗号分隔值”？",
+      "answer": "CSV",
+      "accepted_aliases": [],
+      "distractors": [
+        "Unicode",
+        "AI",
+        "ML"
+      ],
+      "explanation": "在给出的选项中，CSV与逗号分隔值正确对应。"
+    },
+    {
+      "id": "zh_tech_0065",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“ASCII”对应的中文名称是什么？",
+      "answer": "美国信息交换标准代码",
+      "accepted_aliases": [],
+      "distractors": [
+        "安全超文本传输协议",
+        "统一资源定位符",
+        "统一资源标识符"
+      ],
+      "explanation": "ASCII与美国信息交换标准代码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0066",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“美国信息交换标准代码”？",
+      "answer": "ASCII",
+      "accepted_aliases": [],
+      "distractors": [
+        "CPU",
+        "GPU",
+        "RAM"
+      ],
+      "explanation": "在给出的选项中，ASCII与美国信息交换标准代码正确对应。"
+    },
+    {
+      "id": "zh_tech_0067",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“Unicode”对应的中文名称是什么？",
+      "answer": "统一码",
+      "accepted_aliases": [],
+      "distractors": [
+        "JavaScript对象表示法",
+        "可扩展标记语言",
+        "逗号分隔值"
+      ],
+      "explanation": "Unicode与统一码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0068",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“统一码”？",
+      "answer": "Unicode",
+      "accepted_aliases": [],
+      "distractors": [
+        "TCP",
+        "UDP",
+        "LAN"
+      ],
+      "explanation": "在给出的选项中，Unicode与统一码正确对应。"
+    },
+    {
+      "id": "zh_tech_0069",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“AI”对应的中文名称是什么？",
+      "answer": "人工智能",
+      "accepted_aliases": [],
+      "distractors": [
+        "虚拟机",
+        "Java虚拟机",
+        "传输层安全协议"
+      ],
+      "explanation": "AI与人工智能是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0070",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“人工智能”？",
+      "answer": "AI",
+      "accepted_aliases": [],
+      "distractors": [
+        "ML",
+        "NLP",
+        "OCR"
+      ],
+      "explanation": "在给出的选项中，AI与人工智能正确对应。"
+    },
+    {
+      "id": "zh_tech_0071",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“ML”对应的中文名称是什么？",
+      "answer": "机器学习",
+      "accepted_aliases": [],
+      "distractors": [
+        "统一资源标识符",
+        "域名系统",
+        "网际协议"
+      ],
+      "explanation": "ML与机器学习是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0072",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“机器学习”？",
+      "answer": "ML",
+      "accepted_aliases": [],
+      "distractors": [
+        "RAM",
+        "ROM",
+        "SSD"
+      ],
+      "explanation": "在给出的选项中，ML与机器学习正确对应。"
+    },
+    {
+      "id": "zh_tech_0073",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“NLP”对应的中文名称是什么？",
+      "answer": "自然语言处理",
+      "accepted_aliases": [],
+      "distractors": [
+        "逗号分隔值",
+        "美国信息交换标准代码",
+        "统一码"
+      ],
+      "explanation": "NLP与自然语言处理是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0074",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“自然语言处理”？",
+      "answer": "NLP",
+      "accepted_aliases": [],
+      "distractors": [
+        "LAN",
+        "WAN",
+        "VPN"
+      ],
+      "explanation": "在给出的选项中，NLP与自然语言处理正确对应。"
+    },
+    {
+      "id": "zh_tech_0075",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“OCR”对应的中文名称是什么？",
+      "answer": "光学字符识别",
+      "accepted_aliases": [],
+      "distractors": [
+        "传输层安全协议",
+        "中央处理器",
+        "图形处理器"
+      ],
+      "explanation": "OCR与光学字符识别是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0076",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“光学字符识别”？",
+      "answer": "OCR",
+      "accepted_aliases": [],
+      "distractors": [
+        "NLP",
+        "GPS",
+        "QR"
+      ],
+      "explanation": "在给出的选项中，OCR与光学字符识别正确对应。"
+    },
+    {
+      "id": "zh_tech_0077",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“GPS”对应的中文名称是什么？",
+      "answer": "全球定位系统",
+      "accepted_aliases": [],
+      "distractors": [
+        "网际协议",
+        "传输控制协议",
+        "用户数据报协议"
+      ],
+      "explanation": "GPS与全球定位系统是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0078",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“全球定位系统”？",
+      "answer": "GPS",
+      "accepted_aliases": [],
+      "distractors": [
+        "SSD",
+        "HDD",
+        "USB"
+      ],
+      "explanation": "在给出的选项中，GPS与全球定位系统正确对应。"
+    },
+    {
+      "id": "zh_tech_0079",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“QR”对应的中文名称是什么？",
+      "answer": "二维码",
+      "accepted_aliases": [],
+      "distractors": [
+        "统一码",
+        "人工智能",
+        "机器学习"
+      ],
+      "explanation": "QR与二维码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0080",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“二维码”？",
+      "answer": "QR",
+      "accepted_aliases": [],
+      "distractors": [
+        "VPN",
+        "API",
+        "SDK"
+      ],
+      "explanation": "在给出的选项中，QR与二维码正确对应。"
+    },
+    {
+      "id": "zh_tech_0081",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“RFID”对应的中文名称是什么？",
+      "answer": "射频识别",
+      "accepted_aliases": [],
+      "distractors": [
+        "图形处理器",
+        "随机存取存储器",
+        "只读存储器"
+      ],
+      "explanation": "RFID与射频识别是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0082",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“射频识别”？",
+      "answer": "RFID",
+      "accepted_aliases": [],
+      "distractors": [
+        "GPS",
+        "QR",
+        "NFC"
+      ],
+      "explanation": "在给出的选项中，RFID与射频识别正确对应。"
+    },
+    {
+      "id": "zh_tech_0083",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“NFC”对应的中文名称是什么？",
+      "answer": "近场通信",
+      "accepted_aliases": [],
+      "distractors": [
+        "用户数据报协议",
+        "局域网",
+        "广域网"
+      ],
+      "explanation": "NFC与近场通信是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0084",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“近场通信”？",
+      "answer": "NFC",
+      "accepted_aliases": [],
+      "distractors": [
+        "USB",
+        "HDMI",
+        "PDF"
+      ],
+      "explanation": "在给出的选项中，NFC与近场通信正确对应。"
+    },
+    {
+      "id": "zh_tech_0085",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“IoT”对应的中文名称是什么？",
+      "answer": "物联网",
+      "accepted_aliases": [],
+      "distractors": [
+        "机器学习",
+        "自然语言处理",
+        "光学字符识别"
+      ],
+      "explanation": "IoT与物联网是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0086",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“物联网”？",
+      "answer": "IoT",
+      "accepted_aliases": [],
+      "distractors": [
+        "SDK",
+        "IDE",
+        "GUI"
+      ],
+      "explanation": "在给出的选项中，IoT与物联网正确对应。"
+    },
+    {
+      "id": "zh_tech_0087",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“CDN”对应的中文名称是什么？",
+      "answer": "内容分发网络",
+      "accepted_aliases": [],
+      "distractors": [
+        "只读存储器",
+        "固态硬盘",
+        "机械硬盘"
+      ],
+      "explanation": "CDN与内容分发网络是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0088",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“内容分发网络”？",
+      "answer": "CDN",
+      "accepted_aliases": [],
+      "distractors": [
+        "RFID",
+        "NFC",
+        "IoT"
+      ],
+      "explanation": "在给出的选项中，CDN与内容分发网络正确对应。"
+    },
+    {
+      "id": "zh_tech_0089",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“BIOS”对应的中文名称是什么？",
+      "answer": "基本输入输出系统",
+      "accepted_aliases": [],
+      "distractors": [
+        "广域网",
+        "虚拟专用网络",
+        "应用程序编程接口"
+      ],
+      "explanation": "BIOS与基本输入输出系统是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0090",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“基本输入输出系统”？",
+      "answer": "BIOS",
+      "accepted_aliases": [],
+      "distractors": [
+        "PDF",
+        "HTML",
+        "CSS"
+      ],
+      "explanation": "在给出的选项中，BIOS与基本输入输出系统正确对应。"
+    },
+    {
+      "id": "zh_tech_0091",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“UEFI”对应的中文名称是什么？",
+      "answer": "统一可扩展固件接口",
+      "accepted_aliases": [],
+      "distractors": [
+        "光学字符识别",
+        "全球定位系统",
+        "二维码"
+      ],
+      "explanation": "UEFI与统一可扩展固件接口是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0092",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“统一可扩展固件接口”？",
+      "answer": "UEFI",
+      "accepted_aliases": [],
+      "distractors": [
+        "GUI",
+        "CLI",
+        "SQL"
+      ],
+      "explanation": "在给出的选项中，UEFI与统一可扩展固件接口正确对应。"
+    },
+    {
+      "id": "zh_tech_0093",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“OS”对应的中文名称是什么？",
+      "answer": "操作系统",
+      "accepted_aliases": [],
+      "distractors": [
+        "机械硬盘",
+        "通用串行总线",
+        "高清多媒体接口"
+      ],
+      "explanation": "OS与操作系统是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0094",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“操作系统”？",
+      "answer": "OS",
+      "accepted_aliases": [],
+      "distractors": [
+        "IoT",
+        "CDN",
+        "BIOS"
+      ],
+      "explanation": "在给出的选项中，OS与操作系统正确对应。"
+    },
+    {
+      "id": "zh_tech_0095",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "技术缩写“VM”对应的中文名称是什么？",
+      "answer": "虚拟机",
+      "accepted_aliases": [],
+      "distractors": [
+        "应用程序编程接口",
+        "软件开发工具包",
+        "集成开发环境"
+      ],
+      "explanation": "VM与虚拟机是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0096",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的中文名称是“虚拟机”？",
+      "answer": "VM",
+      "accepted_aliases": [],
+      "distractors": [
+        "CSS",
+        "HTTP",
+        "HTTPS"
+      ],
+      "explanation": "在给出的选项中，VM与虚拟机正确对应。"
+    },
+    {
+      "id": "zh_tech_0097",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "技术缩写“JVM”对应的中文名称是什么？",
+      "answer": "Java虚拟机",
+      "accepted_aliases": [],
+      "distractors": [
+        "二维码",
+        "射频识别",
+        "近场通信"
+      ],
+      "explanation": "JVM与Java虚拟机是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0098",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的中文名称是“Java虚拟机”？",
+      "answer": "JVM",
+      "accepted_aliases": [],
+      "distractors": [
+        "SQL",
+        "DBMS",
+        "JSON"
+      ],
+      "explanation": "在给出的选项中，JVM与Java虚拟机正确对应。"
+    },
+    {
+      "id": "zh_tech_0099",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "技术缩写“TLS”对应的中文名称是什么？",
+      "answer": "传输层安全协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "高清多媒体接口",
+        "便携式文档格式",
+        "超文本标记语言"
+      ],
+      "explanation": "TLS与传输层安全协议是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0100",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的中文名称是“传输层安全协议”？",
+      "answer": "TLS",
+      "accepted_aliases": [],
+      "distractors": [
+        "BIOS",
+        "UEFI",
+        "OS"
+      ],
+      "explanation": "在给出的选项中，TLS与传输层安全协议正确对应。"
+    },
+    {
+      "id": "zh_tech_0101",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“HTTP”对应的默认端口是什么？",
+      "answer": "80",
+      "accepted_aliases": [],
+      "distractors": [
+        "69",
+        "110",
+        "123"
+      ],
+      "explanation": "HTTP与80是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0102",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“80”？",
+      "answer": "HTTP",
+      "accepted_aliases": [],
+      "distractors": [
+        "SSH",
+        "Telnet",
+        "SMTP"
+      ],
+      "explanation": "在给出的选项中，HTTP与80正确对应。"
+    },
+    {
+      "id": "zh_tech_0103",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“HTTPS”对应的默认端口是什么？",
+      "answer": "443",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "67",
+        "69"
+      ],
+      "explanation": "HTTPS与443是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0104",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“443”？",
+      "answer": "HTTPS",
+      "accepted_aliases": [],
+      "distractors": [
+        "HTTP",
+        "FTP",
+        "SSH"
+      ],
+      "explanation": "在给出的选项中，HTTPS与443正确对应。"
+    },
+    {
+      "id": "zh_tech_0105",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "常见网络协议“FTP”对应的默认端口是什么？",
+      "answer": "21",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "25",
+        "53"
+      ],
+      "explanation": "FTP与21是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0106",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的默认端口是“21”？",
+      "answer": "FTP",
+      "accepted_aliases": [],
+      "distractors": [
+        "IMAPS",
+        "POP3S",
+        "HTTP"
+      ],
+      "explanation": "在给出的选项中，FTP与21正确对应。"
+    },
+    {
+      "id": "zh_tech_0107",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“SSH”对应的默认端口是什么？",
+      "answer": "22",
+      "accepted_aliases": [],
+      "distractors": [
+        "443",
+        "21",
+        "23"
+      ],
+      "explanation": "SSH与22是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0108",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“22”？",
+      "answer": "SSH",
+      "accepted_aliases": [],
+      "distractors": [
+        "Syslog",
+        "LDAPS",
+        "IMAPS"
+      ],
+      "explanation": "在给出的选项中，SSH与22正确对应。"
+    },
+    {
+      "id": "zh_tech_0109",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“Telnet”对应的默认端口是什么？",
+      "answer": "23",
+      "accepted_aliases": [],
+      "distractors": [
+        "995",
+        "80",
+        "443"
+      ],
+      "explanation": "Telnet与23是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0110",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“23”？",
+      "answer": "Telnet",
+      "accepted_aliases": [],
+      "distractors": [
+        "SMB",
+        "SMTPS",
+        "Syslog"
+      ],
+      "explanation": "在给出的选项中，Telnet与23正确对应。"
+    },
+    {
+      "id": "zh_tech_0111",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "常见网络协议“SMTP”对应的默认端口是什么？",
+      "answer": "25",
+      "accepted_aliases": [],
+      "distractors": [
+        "636",
+        "993",
+        "995"
+      ],
+      "explanation": "SMTP与25是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0112",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的默认端口是“25”？",
+      "answer": "SMTP",
+      "accepted_aliases": [],
+      "distractors": [
+        "SNMP",
+        "LDAP",
+        "SMB"
+      ],
+      "explanation": "在给出的选项中，SMTP与25正确对应。"
+    },
+    {
+      "id": "zh_tech_0113",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“DNS”对应的默认端口是什么？",
+      "answer": "53",
+      "accepted_aliases": [],
+      "distractors": [
+        "465",
+        "514",
+        "636"
+      ],
+      "explanation": "DNS与53是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0114",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“53”？",
+      "answer": "DNS",
+      "accepted_aliases": [],
+      "distractors": [
+        "NTP",
+        "IMAP",
+        "SNMP"
+      ],
+      "explanation": "在给出的选项中，DNS与53正确对应。"
+    },
+    {
+      "id": "zh_tech_0115",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“DHCP”对应的默认端口是什么？",
+      "answer": "67",
+      "accepted_aliases": [],
+      "distractors": [
+        "389",
+        "445",
+        "465"
+      ],
+      "explanation": "DHCP与67是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0116",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“67”？",
+      "answer": "DHCP",
+      "accepted_aliases": [],
+      "distractors": [
+        "TFTP",
+        "POP3",
+        "NTP"
+      ],
+      "explanation": "在给出的选项中，DHCP与67正确对应。"
+    },
+    {
+      "id": "zh_tech_0117",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "常见网络协议“TFTP”对应的默认端口是什么？",
+      "answer": "69",
+      "accepted_aliases": [],
+      "distractors": [
+        "143",
+        "161",
+        "389"
+      ],
+      "explanation": "TFTP与69是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0118",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的默认端口是“69”？",
+      "answer": "TFTP",
+      "accepted_aliases": [],
+      "distractors": [
+        "SMTP",
+        "DNS",
+        "DHCP"
+      ],
+      "explanation": "在给出的选项中，TFTP与69正确对应。"
+    },
+    {
+      "id": "zh_tech_0119",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“POP3”对应的默认端口是什么？",
+      "answer": "110",
+      "accepted_aliases": [],
+      "distractors": [
+        "69",
+        "123",
+        "143"
+      ],
+      "explanation": "POP3与110是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0120",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“110”？",
+      "answer": "POP3",
+      "accepted_aliases": [],
+      "distractors": [
+        "SSH",
+        "Telnet",
+        "SMTP"
+      ],
+      "explanation": "在给出的选项中，POP3与110正确对应。"
+    },
+    {
+      "id": "zh_tech_0121",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“NTP”对应的默认端口是什么？",
+      "answer": "123",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "67",
+        "69"
+      ],
+      "explanation": "NTP与123是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0122",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“123”？",
+      "answer": "NTP",
+      "accepted_aliases": [],
+      "distractors": [
+        "HTTPS",
+        "FTP",
+        "SSH"
+      ],
+      "explanation": "在给出的选项中，NTP与123正确对应。"
+    },
+    {
+      "id": "zh_tech_0123",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "常见网络协议“IMAP”对应的默认端口是什么？",
+      "answer": "143",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "25",
+        "53"
+      ],
+      "explanation": "IMAP与143是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0124",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的默认端口是“143”？",
+      "answer": "IMAP",
+      "accepted_aliases": [],
+      "distractors": [
+        "POP3S",
+        "HTTP",
+        "HTTPS"
+      ],
+      "explanation": "在给出的选项中，IMAP与143正确对应。"
+    },
+    {
+      "id": "zh_tech_0125",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“SNMP”对应的默认端口是什么？",
+      "answer": "161",
+      "accepted_aliases": [],
+      "distractors": [
+        "21",
+        "22",
+        "23"
+      ],
+      "explanation": "SNMP与161是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0126",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“161”？",
+      "answer": "SNMP",
+      "accepted_aliases": [],
+      "distractors": [
+        "LDAPS",
+        "IMAPS",
+        "POP3S"
+      ],
+      "explanation": "在给出的选项中，SNMP与161正确对应。"
+    },
+    {
+      "id": "zh_tech_0127",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“LDAP”对应的默认端口是什么？",
+      "answer": "389",
+      "accepted_aliases": [],
+      "distractors": [
+        "80",
+        "443",
+        "21"
+      ],
+      "explanation": "LDAP与389是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0128",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“389”？",
+      "answer": "LDAP",
+      "accepted_aliases": [],
+      "distractors": [
+        "SMTPS",
+        "Syslog",
+        "LDAPS"
+      ],
+      "explanation": "在给出的选项中，LDAP与389正确对应。"
+    },
+    {
+      "id": "zh_tech_0129",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "常见网络协议“SMB”对应的默认端口是什么？",
+      "answer": "445",
+      "accepted_aliases": [],
+      "distractors": [
+        "993",
+        "995",
+        "80"
+      ],
+      "explanation": "SMB与445是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0130",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的默认端口是“445”？",
+      "answer": "SMB",
+      "accepted_aliases": [],
+      "distractors": [
+        "SNMP",
+        "LDAP",
+        "SMTPS"
+      ],
+      "explanation": "在给出的选项中，SMB与445正确对应。"
+    },
+    {
+      "id": "zh_tech_0131",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“SMTPS”对应的默认端口是什么？",
+      "answer": "465",
+      "accepted_aliases": [],
+      "distractors": [
+        "514",
+        "636",
+        "993"
+      ],
+      "explanation": "SMTPS与465是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0132",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“465”？",
+      "answer": "SMTPS",
+      "accepted_aliases": [],
+      "distractors": [
+        "NTP",
+        "IMAP",
+        "SNMP"
+      ],
+      "explanation": "在给出的选项中，SMTPS与465正确对应。"
+    },
+    {
+      "id": "zh_tech_0133",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“Syslog”对应的默认端口是什么？",
+      "answer": "514",
+      "accepted_aliases": [],
+      "distractors": [
+        "389",
+        "445",
+        "465"
+      ],
+      "explanation": "Syslog与514是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0134",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“514”？",
+      "answer": "Syslog",
+      "accepted_aliases": [],
+      "distractors": [
+        "TFTP",
+        "POP3",
+        "NTP"
+      ],
+      "explanation": "在给出的选项中，Syslog与514正确对应。"
+    },
+    {
+      "id": "zh_tech_0135",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "常见网络协议“LDAPS”对应的默认端口是什么？",
+      "answer": "636",
+      "accepted_aliases": [],
+      "distractors": [
+        "143",
+        "161",
+        "389"
+      ],
+      "explanation": "LDAPS与636是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0136",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的默认端口是“636”？",
+      "answer": "LDAPS",
+      "accepted_aliases": [],
+      "distractors": [
+        "DNS",
+        "DHCP",
+        "TFTP"
+      ],
+      "explanation": "在给出的选项中，LDAPS与636正确对应。"
+    },
+    {
+      "id": "zh_tech_0137",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "常见网络协议“IMAPS”对应的默认端口是什么？",
+      "answer": "993",
+      "accepted_aliases": [],
+      "distractors": [
+        "110",
+        "123",
+        "143"
+      ],
+      "explanation": "IMAPS与993是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0138",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的默认端口是“993”？",
+      "answer": "IMAPS",
+      "accepted_aliases": [],
+      "distractors": [
+        "Telnet",
+        "SMTP",
+        "DNS"
+      ],
+      "explanation": "在给出的选项中，IMAPS与993正确对应。"
+    },
+    {
+      "id": "zh_tech_0139",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "常见网络协议“POP3S”对应的默认端口是什么？",
+      "answer": "995",
+      "accepted_aliases": [],
+      "distractors": [
+        "67",
+        "69",
+        "110"
+      ],
+      "explanation": "POP3S与995是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0140",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的默认端口是“995”？",
+      "answer": "POP3S",
+      "accepted_aliases": [],
+      "distractors": [
+        "FTP",
+        "SSH",
+        "Telnet"
+      ],
+      "explanation": "在给出的选项中，POP3S与995正确对应。"
+    },
+    {
+      "id": "zh_tech_0141",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“二进制使用的基本数字”对应的对应答案是什么？",
+      "answer": "0和1",
+      "accepted_aliases": [],
+      "distractors": [
+        "SQL",
+        "跟踪代码变更",
+        "硬件与软件资源"
+      ],
+      "explanation": "二进制使用的基本数字与0和1是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0142",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“0和1”？",
+      "answer": "二进制使用的基本数字",
+      "accepted_aliases": [],
+      "distractors": [
+        "交换机的常见局域网功能",
+        "防火墙的主要作用",
+        "备份的主要目的"
+      ],
+      "explanation": "在给出的选项中，二进制使用的基本数字与0和1正确对应。"
+    },
+    {
+      "id": "zh_tech_0143",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“十六进制使用的数字和字母范围”对应的对应答案是什么？",
+      "answer": "0到9及A到F",
+      "accepted_aliases": [],
+      "distractors": [
+        "光信号",
+        "多颗导航卫星",
+        "计算存储与网络资源"
+      ],
+      "explanation": "十六进制使用的数字和字母范围与0到9及A到F是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0144",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“0到9及A到F”？",
+      "answer": "十六进制使用的数字和字母范围",
+      "accepted_aliases": [],
+      "distractors": [
+        "二进制使用的基本数字",
+        "一个字节通常包含的位数",
+        "IPv4地址的长度"
+      ],
+      "explanation": "在给出的选项中，十六进制使用的数字和字母范围与0到9及A到F正确对应。"
+    },
+    {
+      "id": "zh_tech_0145",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“一个字节通常包含的位数”对应的对应答案是什么？",
+      "answer": "8位",
+      "accepted_aliases": [],
+      "distractors": [
+        "转发以太网帧",
+        "控制网络访问流量",
+        "降低数据丢失风险"
+      ],
+      "explanation": "一个字节通常包含的位数与8位是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0146",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“8位”？",
+      "answer": "一个字节通常包含的位数",
+      "accepted_aliases": [],
+      "distractors": [
+        "公钥加密使用的密钥数量",
+        "数据库主键的主要作用",
+        "缓存的主要作用"
+      ],
+      "explanation": "在给出的选项中，一个字节通常包含的位数与8位正确对应。"
+    },
+    {
+      "id": "zh_tech_0147",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“IPv4地址的长度”对应的对应答案是什么？",
+      "answer": "32位",
+      "accepted_aliases": [],
+      "distractors": [
+        "0和1",
+        "0到9及A到F",
+        "8位"
+      ],
+      "explanation": "IPv4地址的长度与32位是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0148",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“32位”？",
+      "answer": "IPv4地址的长度",
+      "accepted_aliases": [],
+      "distractors": [
+        "网页结构主要使用的语言",
+        "网页样式主要使用的语言",
+        "关系数据库常用查询语言"
+      ],
+      "explanation": "在给出的选项中，IPv4地址的长度与32位正确对应。"
+    },
+    {
+      "id": "zh_tech_0149",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“IPv6地址的长度”对应的对应答案是什么？",
+      "answer": "128位",
+      "accepted_aliases": [],
+      "distractors": [
+        "一对密钥",
+        "唯一标识记录",
+        "减少重复读取延迟"
+      ],
+      "explanation": "IPv6地址的长度与128位是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0150",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“128位”？",
+      "answer": "IPv6地址的长度",
+      "accepted_aliases": [],
+      "distractors": [
+        "二维码属于的条码类型",
+        "触摸屏常见的输入方式",
+        "光纤传输信息使用的载体"
+      ],
+      "explanation": "在给出的选项中，IPv6地址的长度与128位正确对应。"
+    },
+    {
+      "id": "zh_tech_0151",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“HTTPS保护传输常用的协议”对应的对应答案是什么？",
+      "answer": "TLS",
+      "accepted_aliases": [],
+      "distractors": [
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "explanation": "HTTPS保护传输常用的协议与TLS是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0152",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“TLS”？",
+      "answer": "HTTPS保护传输常用的协议",
+      "accepted_aliases": [],
+      "distractors": [
+        "编译器的主要作用",
+        "路由器的主要网络功能",
+        "交换机的常见局域网功能"
+      ],
+      "explanation": "在给出的选项中，HTTPS保护传输常用的协议与TLS正确对应。"
+    },
+    {
+      "id": "zh_tech_0153",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“网页结构主要使用的语言”对应的对应答案是什么？",
+      "answer": "HTML",
+      "accepted_aliases": [],
+      "distractors": [
+        "二维条码",
+        "手指或触控笔",
+        "光信号"
+      ],
+      "explanation": "网页结构主要使用的语言与HTML是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0154",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“HTML”？",
+      "answer": "网页结构主要使用的语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "机器学习模型训练所使用的样本集合",
+        "软件补丁的主要用途",
+        "二进制使用的基本数字"
+      ],
+      "explanation": "在给出的选项中，网页结构主要使用的语言与HTML正确对应。"
+    },
+    {
+      "id": "zh_tech_0155",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“网页样式主要使用的语言”对应的对应答案是什么？",
+      "answer": "CSS",
+      "accepted_aliases": [],
+      "distractors": [
+        "翻译程序源代码",
+        "转发不同网络的数据包",
+        "转发以太网帧"
+      ],
+      "explanation": "网页样式主要使用的语言与CSS是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0156",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“CSS”？",
+      "answer": "网页样式主要使用的语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈希函数的典型输出",
+        "对称加密的密钥特点",
+        "公钥加密使用的密钥数量"
+      ],
+      "explanation": "在给出的选项中，网页样式主要使用的语言与CSS正确对应。"
+    },
+    {
+      "id": "zh_tech_0157",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“关系数据库常用查询语言”对应的对应答案是什么？",
+      "answer": "SQL",
+      "accepted_aliases": [],
+      "distractors": [
+        "训练数据",
+        "修复缺陷或安全问题",
+        "0和1"
+      ],
+      "explanation": "关系数据库常用查询语言与SQL是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0158",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“SQL”？",
+      "answer": "关系数据库常用查询语言",
+      "accepted_aliases": [],
+      "distractors": [
+        "IPv4地址的长度",
+        "IPv6地址的长度",
+        "HTTPS保护传输常用的协议"
+      ],
+      "explanation": "在给出的选项中，关系数据库常用查询语言与SQL正确对应。"
+    },
+    {
+      "id": "zh_tech_0159",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“版本控制系统Git的主要用途”对应的对应答案是什么？",
+      "answer": "跟踪代码变更",
+      "accepted_aliases": [],
+      "distractors": [
+        "固定长度摘要",
+        "加解密使用同一密钥",
+        "一对密钥"
+      ],
+      "explanation": "版本控制系统Git的主要用途与跟踪代码变更是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0160",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“跟踪代码变更”？",
+      "answer": "版本控制系统Git的主要用途",
+      "accepted_aliases": [],
+      "distractors": [
+        "虚拟机运行依赖的抽象层",
+        "开源软件公开的核心内容",
+        "二维码属于的条码类型"
+      ],
+      "explanation": "在给出的选项中，版本控制系统Git的主要用途与跟踪代码变更正确对应。"
+    },
+    {
+      "id": "zh_tech_0161",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“操作系统管理的核心资源”对应的对应答案是什么？",
+      "answer": "硬件与软件资源",
+      "accepted_aliases": [],
+      "distractors": [
+        "32位",
+        "128位",
+        "TLS"
+      ],
+      "explanation": "操作系统管理的核心资源与硬件与软件资源是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0162",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“硬件与软件资源”？",
+      "answer": "操作系统管理的核心资源",
+      "accepted_aliases": [],
+      "distractors": [
+        "关系数据库常用查询语言",
+        "版本控制系统Git的主要用途",
+        "编译器的主要作用"
+      ],
+      "explanation": "在给出的选项中，操作系统管理的核心资源与硬件与软件资源正确对应。"
+    },
+    {
+      "id": "zh_tech_0163",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“编译器的主要作用”对应的对应答案是什么？",
+      "answer": "翻译程序源代码",
+      "accepted_aliases": [],
+      "distractors": [
+        "虚拟化平台",
+        "许可证约束下的源代码",
+        "二维条码"
+      ],
+      "explanation": "编译器的主要作用与翻译程序源代码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0164",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“翻译程序源代码”？",
+      "answer": "编译器的主要作用",
+      "accepted_aliases": [],
+      "distractors": [
+        "卫星导航定位需要的信号来源",
+        "云计算按需提供的核心资源",
+        "机器学习模型训练所使用的样本集合"
+      ],
+      "explanation": "在给出的选项中，编译器的主要作用与翻译程序源代码正确对应。"
+    },
+    {
+      "id": "zh_tech_0165",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“路由器的主要网络功能”对应的对应答案是什么？",
+      "answer": "转发不同网络的数据包",
+      "accepted_aliases": [],
+      "distractors": [
+        "SQL",
+        "跟踪代码变更",
+        "硬件与软件资源"
+      ],
+      "explanation": "路由器的主要网络功能与转发不同网络的数据包是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0166",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“转发不同网络的数据包”？",
+      "answer": "路由器的主要网络功能",
+      "accepted_aliases": [],
+      "distractors": [
+        "防火墙的主要作用",
+        "备份的主要目的",
+        "哈希函数的典型输出"
+      ],
+      "explanation": "在给出的选项中，路由器的主要网络功能与转发不同网络的数据包正确对应。"
+    },
+    {
+      "id": "zh_tech_0167",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“交换机的常见局域网功能”对应的对应答案是什么？",
+      "answer": "转发以太网帧",
+      "accepted_aliases": [],
+      "distractors": [
+        "多颗导航卫星",
+        "计算存储与网络资源",
+        "训练数据"
+      ],
+      "explanation": "交换机的常见局域网功能与转发以太网帧是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0168",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“转发以太网帧”？",
+      "answer": "交换机的常见局域网功能",
+      "accepted_aliases": [],
+      "distractors": [
+        "十六进制使用的数字和字母范围",
+        "一个字节通常包含的位数",
+        "IPv4地址的长度"
+      ],
+      "explanation": "在给出的选项中，交换机的常见局域网功能与转发以太网帧正确对应。"
+    },
+    {
+      "id": "zh_tech_0169",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“防火墙的主要作用”对应的对应答案是什么？",
+      "answer": "控制网络访问流量",
+      "accepted_aliases": [],
+      "distractors": [
+        "转发以太网帧",
+        "降低数据丢失风险",
+        "固定长度摘要"
+      ],
+      "explanation": "防火墙的主要作用与控制网络访问流量是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0170",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“控制网络访问流量”？",
+      "answer": "防火墙的主要作用",
+      "accepted_aliases": [],
+      "distractors": [
+        "数据库主键的主要作用",
+        "缓存的主要作用",
+        "虚拟机运行依赖的抽象层"
+      ],
+      "explanation": "在给出的选项中，防火墙的主要作用与控制网络访问流量正确对应。"
+    },
+    {
+      "id": "zh_tech_0171",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“备份的主要目的”对应的对应答案是什么？",
+      "answer": "降低数据丢失风险",
+      "accepted_aliases": [],
+      "distractors": [
+        "0到9及A到F",
+        "8位",
+        "32位"
+      ],
+      "explanation": "备份的主要目的与降低数据丢失风险是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0172",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“降低数据丢失风险”？",
+      "answer": "备份的主要目的",
+      "accepted_aliases": [],
+      "distractors": [
+        "网页结构主要使用的语言",
+        "网页样式主要使用的语言",
+        "关系数据库常用查询语言"
+      ],
+      "explanation": "在给出的选项中，备份的主要目的与降低数据丢失风险正确对应。"
+    },
+    {
+      "id": "zh_tech_0173",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“哈希函数的典型输出”对应的对应答案是什么？",
+      "answer": "固定长度摘要",
+      "accepted_aliases": [],
+      "distractors": [
+        "唯一标识记录",
+        "减少重复读取延迟",
+        "虚拟化平台"
+      ],
+      "explanation": "哈希函数的典型输出与固定长度摘要是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0174",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“固定长度摘要”？",
+      "answer": "哈希函数的典型输出",
+      "accepted_aliases": [],
+      "distractors": [
+        "触摸屏常见的输入方式",
+        "光纤传输信息使用的载体",
+        "卫星导航定位需要的信号来源"
+      ],
+      "explanation": "在给出的选项中，哈希函数的典型输出与固定长度摘要正确对应。"
+    },
+    {
+      "id": "zh_tech_0175",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“对称加密的密钥特点”对应的对应答案是什么？",
+      "answer": "加解密使用同一密钥",
+      "accepted_aliases": [],
+      "distractors": [
+        "HTML",
+        "CSS",
+        "SQL"
+      ],
+      "explanation": "对称加密的密钥特点与加解密使用同一密钥是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0176",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“加解密使用同一密钥”？",
+      "answer": "对称加密的密钥特点",
+      "accepted_aliases": [],
+      "distractors": [
+        "编译器的主要作用",
+        "路由器的主要网络功能",
+        "交换机的常见局域网功能"
+      ],
+      "explanation": "在给出的选项中，对称加密的密钥特点与加解密使用同一密钥正确对应。"
+    },
+    {
+      "id": "zh_tech_0177",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“公钥加密使用的密钥数量”对应的对应答案是什么？",
+      "answer": "一对密钥",
+      "accepted_aliases": [],
+      "distractors": [
+        "手指或触控笔",
+        "光信号",
+        "多颗导航卫星"
+      ],
+      "explanation": "公钥加密使用的密钥数量与一对密钥是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0178",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“一对密钥”？",
+      "answer": "公钥加密使用的密钥数量",
+      "accepted_aliases": [],
+      "distractors": [
+        "软件补丁的主要用途",
+        "二进制使用的基本数字",
+        "十六进制使用的数字和字母范围"
+      ],
+      "explanation": "在给出的选项中，公钥加密使用的密钥数量与一对密钥正确对应。"
+    },
+    {
+      "id": "zh_tech_0179",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“数据库主键的主要作用”对应的对应答案是什么？",
+      "answer": "唯一标识记录",
+      "accepted_aliases": [],
+      "distractors": [
+        "翻译程序源代码",
+        "转发不同网络的数据包",
+        "转发以太网帧"
+      ],
+      "explanation": "数据库主键的主要作用与唯一标识记录是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0180",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“唯一标识记录”？",
+      "answer": "数据库主键的主要作用",
+      "accepted_aliases": [],
+      "distractors": [
+        "哈希函数的典型输出",
+        "对称加密的密钥特点",
+        "公钥加密使用的密钥数量"
+      ],
+      "explanation": "在给出的选项中，数据库主键的主要作用与唯一标识记录正确对应。"
+    },
+    {
+      "id": "zh_tech_0181",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“缓存的主要作用”对应的对应答案是什么？",
+      "answer": "减少重复读取延迟",
+      "accepted_aliases": [],
+      "distractors": [
+        "修复缺陷或安全问题",
+        "0和1",
+        "0到9及A到F"
+      ],
+      "explanation": "缓存的主要作用与减少重复读取延迟是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0182",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“减少重复读取延迟”？",
+      "answer": "缓存的主要作用",
+      "accepted_aliases": [],
+      "distractors": [
+        "IPv6地址的长度",
+        "HTTPS保护传输常用的协议",
+        "网页结构主要使用的语言"
+      ],
+      "explanation": "在给出的选项中，缓存的主要作用与减少重复读取延迟正确对应。"
+    },
+    {
+      "id": "zh_tech_0183",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“虚拟机运行依赖的抽象层”对应的对应答案是什么？",
+      "answer": "虚拟化平台",
+      "accepted_aliases": [],
+      "distractors": [
+        "固定长度摘要",
+        "加解密使用同一密钥",
+        "一对密钥"
+      ],
+      "explanation": "虚拟机运行依赖的抽象层与虚拟化平台是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0184",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“虚拟化平台”？",
+      "answer": "虚拟机运行依赖的抽象层",
+      "accepted_aliases": [],
+      "distractors": [
+        "开源软件公开的核心内容",
+        "二维码属于的条码类型",
+        "触摸屏常见的输入方式"
+      ],
+      "explanation": "在给出的选项中，虚拟机运行依赖的抽象层与虚拟化平台正确对应。"
+    },
+    {
+      "id": "zh_tech_0185",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“开源软件公开的核心内容”对应的对应答案是什么？",
+      "answer": "许可证约束下的源代码",
+      "accepted_aliases": [],
+      "distractors": [
+        "128位",
+        "TLS",
+        "HTML"
+      ],
+      "explanation": "开源软件公开的核心内容与许可证约束下的源代码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0186",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“许可证约束下的源代码”？",
+      "answer": "开源软件公开的核心内容",
+      "accepted_aliases": [],
+      "distractors": [
+        "版本控制系统Git的主要用途",
+        "操作系统管理的核心资源",
+        "编译器的主要作用"
+      ],
+      "explanation": "在给出的选项中，开源软件公开的核心内容与许可证约束下的源代码正确对应。"
+    },
+    {
+      "id": "zh_tech_0187",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“二维码属于的条码类型”对应的对应答案是什么？",
+      "answer": "二维条码",
+      "accepted_aliases": [],
+      "distractors": [
+        "虚拟化平台",
+        "许可证约束下的源代码",
+        "手指或触控笔"
+      ],
+      "explanation": "二维码属于的条码类型与二维条码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0188",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“二维条码”？",
+      "answer": "二维码属于的条码类型",
+      "accepted_aliases": [],
+      "distractors": [
+        "云计算按需提供的核心资源",
+        "机器学习模型训练所使用的样本集合",
+        "软件补丁的主要用途"
+      ],
+      "explanation": "在给出的选项中，二维码属于的条码类型与二维条码正确对应。"
+    },
+    {
+      "id": "zh_tech_0189",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“触摸屏常见的输入方式”对应的对应答案是什么？",
+      "answer": "手指或触控笔",
+      "accepted_aliases": [],
+      "distractors": [
+        "跟踪代码变更",
+        "硬件与软件资源",
+        "翻译程序源代码"
+      ],
+      "explanation": "触摸屏常见的输入方式与手指或触控笔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0190",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“手指或触控笔”？",
+      "answer": "触摸屏常见的输入方式",
+      "accepted_aliases": [],
+      "distractors": [
+        "防火墙的主要作用",
+        "备份的主要目的",
+        "哈希函数的典型输出"
+      ],
+      "explanation": "在给出的选项中，触摸屏常见的输入方式与手指或触控笔正确对应。"
+    },
+    {
+      "id": "zh_tech_0191",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“光纤传输信息使用的载体”对应的对应答案是什么？",
+      "answer": "光信号",
+      "accepted_aliases": [],
+      "distractors": [
+        "计算存储与网络资源",
+        "训练数据",
+        "修复缺陷或安全问题"
+      ],
+      "explanation": "光纤传输信息使用的载体与光信号是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0192",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“光信号”？",
+      "answer": "光纤传输信息使用的载体",
+      "accepted_aliases": [],
+      "distractors": [
+        "一个字节通常包含的位数",
+        "IPv4地址的长度",
+        "IPv6地址的长度"
+      ],
+      "explanation": "在给出的选项中，光纤传输信息使用的载体与光信号正确对应。"
+    },
+    {
+      "id": "zh_tech_0193",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“卫星导航定位需要的信号来源”对应的对应答案是什么？",
+      "answer": "多颗导航卫星",
+      "accepted_aliases": [],
+      "distractors": [
+        "控制网络访问流量",
+        "降低数据丢失风险",
+        "固定长度摘要"
+      ],
+      "explanation": "卫星导航定位需要的信号来源与多颗导航卫星是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0194",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“多颗导航卫星”？",
+      "answer": "卫星导航定位需要的信号来源",
+      "accepted_aliases": [],
+      "distractors": [
+        "数据库主键的主要作用",
+        "缓存的主要作用",
+        "虚拟机运行依赖的抽象层"
+      ],
+      "explanation": "在给出的选项中，卫星导航定位需要的信号来源与多颗导航卫星正确对应。"
+    },
+    {
+      "id": "zh_tech_0195",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "科技概念“云计算按需提供的核心资源”对应的对应答案是什么？",
+      "answer": "计算存储与网络资源",
+      "accepted_aliases": [],
+      "distractors": [
+        "8位",
+        "32位",
+        "128位"
+      ],
+      "explanation": "云计算按需提供的核心资源与计算存储与网络资源是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0196",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“计算存储与网络资源”？",
+      "answer": "云计算按需提供的核心资源",
+      "accepted_aliases": [],
+      "distractors": [
+        "网页样式主要使用的语言",
+        "关系数据库常用查询语言",
+        "版本控制系统Git的主要用途"
+      ],
+      "explanation": "在给出的选项中，云计算按需提供的核心资源与计算存储与网络资源正确对应。"
+    },
+    {
+      "id": "zh_tech_0197",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "科技概念“机器学习模型训练所使用的样本集合”对应的对应答案是什么？",
+      "answer": "训练数据",
+      "accepted_aliases": [],
+      "distractors": [
+        "唯一标识记录",
+        "减少重复读取延迟",
+        "虚拟化平台"
+      ],
+      "explanation": "机器学习模型训练所使用的样本集合与训练数据是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0198",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“训练数据”？",
+      "answer": "机器学习模型训练所使用的样本集合",
+      "accepted_aliases": [],
+      "distractors": [
+        "触摸屏常见的输入方式",
+        "光纤传输信息使用的载体",
+        "卫星导航定位需要的信号来源"
+      ],
+      "explanation": "在给出的选项中，机器学习模型训练所使用的样本集合与训练数据正确对应。"
+    },
+    {
+      "id": "zh_tech_0199",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "科技概念“软件补丁的主要用途”对应的对应答案是什么？",
+      "answer": "修复缺陷或安全问题",
+      "accepted_aliases": [],
+      "distractors": [
+        "CSS",
+        "SQL",
+        "跟踪代码变更"
+      ],
+      "explanation": "软件补丁的主要用途与修复缺陷或安全问题是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_tech_0200",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“修复缺陷或安全问题”？",
+      "answer": "软件补丁的主要用途",
+      "accepted_aliases": [],
+      "distractors": [
+        "路由器的主要网络功能",
+        "交换机的常见局域网功能",
+        "防火墙的主要作用"
+      ],
+      "explanation": "在给出的选项中，软件补丁的主要用途与修复缺陷或安全问题正确对应。"
+    },
+    {
+      "id": "zh_tech_0201",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数1转换为二进制是多少？",
+      "answer": "1",
+      "accepted_aliases": [],
+      "distractors": [
+        "100",
+        "101",
+        "110"
+      ],
+      "explanation": "按二进制位权展开，十进制1写作二进制1。"
+    },
+    {
+      "id": "zh_tech_0202",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数1转换为十六进制是多少？",
+      "answer": "1",
+      "accepted_aliases": [],
+      "distractors": [
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "按十六进制位权换算，十进制1写作十六进制1。"
+    },
+    {
+      "id": "zh_tech_0203",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数2转换为二进制是多少？",
+      "answer": "10",
+      "accepted_aliases": [],
+      "distractors": [
+        "1",
+        "11",
+        "100"
+      ],
+      "explanation": "按二进制位权展开，十进制2写作二进制10。"
+    },
+    {
+      "id": "zh_tech_0204",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数2转换为十六进制是多少？",
+      "answer": "2",
+      "accepted_aliases": [],
+      "distractors": [
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "按十六进制位权换算，十进制2写作十六进制2。"
+    },
+    {
+      "id": "zh_tech_0205",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数3转换为二进制是多少？",
+      "answer": "11",
+      "accepted_aliases": [],
+      "distractors": [
+        "101",
+        "110",
+        "111"
+      ],
+      "explanation": "按二进制位权展开，十进制3写作二进制11。"
+    },
+    {
+      "id": "zh_tech_0206",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数3转换为十六进制是多少？",
+      "answer": "3",
+      "accepted_aliases": [],
+      "distractors": [
+        "5",
+        "6",
+        "7"
+      ],
+      "explanation": "按十六进制位权换算，十进制3写作十六进制3。"
+    },
+    {
+      "id": "zh_tech_0207",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数4转换为二进制是多少？",
+      "answer": "100",
+      "accepted_aliases": [],
+      "distractors": [
+        "110",
+        "111",
+        "1000"
+      ],
+      "explanation": "按二进制位权展开，十进制4写作二进制100。"
+    },
+    {
+      "id": "zh_tech_0208",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数4转换为十六进制是多少？",
+      "answer": "4",
+      "accepted_aliases": [],
+      "distractors": [
+        "9",
+        "A",
+        "0"
+      ],
+      "explanation": "按十六进制位权换算，十进制4写作十六进制4。"
+    },
+    {
+      "id": "zh_tech_0209",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数5转换为二进制是多少？",
+      "answer": "101",
+      "accepted_aliases": [],
+      "distractors": [
+        "100",
+        "110",
+        "111"
+      ],
+      "explanation": "按二进制位权展开，十进制5写作二进制101。"
+    },
+    {
+      "id": "zh_tech_0210",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数5转换为十六进制是多少？",
+      "answer": "5",
+      "accepted_aliases": [],
+      "distractors": [
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "按十六进制位权换算，十进制5写作十六进制5。"
+    },
+    {
+      "id": "zh_tech_0211",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数6转换为二进制是多少？",
+      "answer": "110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1",
+        "10",
+        "11"
+      ],
+      "explanation": "按二进制位权展开，十进制6写作二进制110。"
+    },
+    {
+      "id": "zh_tech_0212",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数6转换为十六进制是多少？",
+      "answer": "6",
+      "accepted_aliases": [],
+      "distractors": [
+        "B",
+        "C",
+        "0"
+      ],
+      "explanation": "按十六进制位权换算，十进制6写作十六进制6。"
+    },
+    {
+      "id": "zh_tech_0213",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数7转换为二进制是多少？",
+      "answer": "111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000",
+        "1001",
+        "1010"
+      ],
+      "explanation": "按二进制位权展开，十进制7写作二进制111。"
+    },
+    {
+      "id": "zh_tech_0214",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数7转换为十六进制是多少？",
+      "answer": "7",
+      "accepted_aliases": [],
+      "distractors": [
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "按十六进制位权换算，十进制7写作十六进制7。"
+    },
+    {
+      "id": "zh_tech_0215",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数8转换为二进制是多少？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110",
+        "10",
+        "11"
+      ],
+      "explanation": "按二进制位权展开，十进制8写作二进制1000。"
+    },
+    {
+      "id": "zh_tech_0216",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数8转换为十六进制是多少？",
+      "answer": "8",
+      "accepted_aliases": [],
+      "distractors": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "按十六进制位权换算，十进制8写作十六进制8。"
+    },
+    {
+      "id": "zh_tech_0217",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数9转换为二进制是多少？",
+      "answer": "1001",
+      "accepted_aliases": [],
+      "distractors": [
+        "111",
+        "1000",
+        "1010"
+      ],
+      "explanation": "按二进制位权展开，十进制9写作二进制1001。"
+    },
+    {
+      "id": "zh_tech_0218",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数9转换为十六进制是多少？",
+      "answer": "9",
+      "accepted_aliases": [],
+      "distractors": [
+        "4",
+        "5",
+        "6"
+      ],
+      "explanation": "按十六进制位权换算，十进制9写作十六进制9。"
+    },
+    {
+      "id": "zh_tech_0219",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数10转换为二进制是多少？",
+      "answer": "1010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110",
+        "1111",
+        "10000"
+      ],
+      "explanation": "按二进制位权展开，十进制10写作二进制1010。"
+    },
+    {
+      "id": "zh_tech_0220",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数10转换为十六进制是多少？",
+      "answer": "A",
+      "accepted_aliases": [],
+      "distractors": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "按十六进制位权换算，十进制10写作十六进制A。"
+    },
+    {
+      "id": "zh_tech_0221",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数11转换为二进制是多少？",
+      "answer": "1011",
+      "accepted_aliases": [],
+      "distractors": [
+        "111",
+        "1000",
+        "1001"
+      ],
+      "explanation": "按二进制位权展开，十进制11写作二进制1011。"
+    },
+    {
+      "id": "zh_tech_0222",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数11转换为十六进制是多少？",
+      "answer": "B",
+      "accepted_aliases": [],
+      "distractors": [
+        "11",
+        "5",
+        "6"
+      ],
+      "explanation": "按十六进制位权换算，十进制11写作十六进制B。"
+    },
+    {
+      "id": "zh_tech_0223",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数12转换为二进制是多少？",
+      "answer": "1100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110",
+        "1111",
+        "10000"
+      ],
+      "explanation": "按二进制位权展开，十进制12写作二进制1100。"
+    },
+    {
+      "id": "zh_tech_0224",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数12转换为十六进制是多少？",
+      "answer": "C",
+      "accepted_aliases": [],
+      "distractors": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "按十六进制位权换算，十进制12写作十六进制C。"
+    },
+    {
+      "id": "zh_tech_0225",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数13转换为二进制是多少？",
+      "answer": "1101",
+      "accepted_aliases": [],
+      "distractors": [
+        "111",
+        "1000",
+        "1001"
+      ],
+      "explanation": "按二进制位权展开，十进制13写作二进制1101。"
+    },
+    {
+      "id": "zh_tech_0226",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数13转换为十六进制是多少？",
+      "answer": "D",
+      "accepted_aliases": [],
+      "distractors": [
+        "11",
+        "12",
+        "13"
+      ],
+      "explanation": "按十六进制位权换算，十进制13写作十六进制D。"
+    },
+    {
+      "id": "zh_tech_0227",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数14转换为二进制是多少？",
+      "answer": "1110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101",
+        "1111",
+        "10000"
+      ],
+      "explanation": "按二进制位权展开，十进制14写作二进制1110。"
+    },
+    {
+      "id": "zh_tech_0228",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数14转换为十六进制是多少？",
+      "answer": "E",
+      "accepted_aliases": [],
+      "distractors": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "按十六进制位权换算，十进制14写作十六进制E。"
+    },
+    {
+      "id": "zh_tech_0229",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数15转换为二进制是多少？",
+      "answer": "1111",
+      "accepted_aliases": [],
+      "distractors": [
+        "10100",
+        "10101",
+        "1001"
+      ],
+      "explanation": "按二进制位权展开，十进制15写作二进制1111。"
+    },
+    {
+      "id": "zh_tech_0230",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数15转换为十六进制是多少？",
+      "answer": "F",
+      "accepted_aliases": [],
+      "distractors": [
+        "11",
+        "12",
+        "13"
+      ],
+      "explanation": "按十六进制位权换算，十进制15写作十六进制F。"
+    },
+    {
+      "id": "zh_tech_0231",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数16转换为二进制是多少？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101",
+        "1110",
+        "1111"
+      ],
+      "explanation": "按二进制位权展开，十进制16写作二进制10000。"
+    },
+    {
+      "id": "zh_tech_0232",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数16转换为十六进制是多少？",
+      "answer": "10",
+      "accepted_aliases": [],
+      "distractors": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "按十六进制位权换算，十进制16写作十六进制10。"
+    },
+    {
+      "id": "zh_tech_0233",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数17转换为二进制是多少？",
+      "answer": "10001",
+      "accepted_aliases": [],
+      "distractors": [
+        "10100",
+        "10101",
+        "10110"
+      ],
+      "explanation": "按二进制位权展开，十进制17写作二进制10001。"
+    },
+    {
+      "id": "zh_tech_0234",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数17转换为十六进制是多少？",
+      "answer": "11",
+      "accepted_aliases": [],
+      "distractors": [
+        "10",
+        "12",
+        "13"
+      ],
+      "explanation": "按十六进制位权换算，十进制17写作十六进制11。"
+    },
+    {
+      "id": "zh_tech_0235",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数18转换为二进制是多少？",
+      "answer": "10010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101",
+        "1110",
+        "1111"
+      ],
+      "explanation": "按二进制位权展开，十进制18写作二进制10010。"
+    },
+    {
+      "id": "zh_tech_0236",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数18转换为十六进制是多少？",
+      "answer": "12",
+      "accepted_aliases": [],
+      "distractors": [
+        "17",
+        "18",
+        "C"
+      ],
+      "explanation": "按十六进制位权换算，十进制18写作十六进制12。"
+    },
+    {
+      "id": "zh_tech_0237",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数19转换为二进制是多少？",
+      "answer": "10011",
+      "accepted_aliases": [],
+      "distractors": [
+        "10100",
+        "10101",
+        "10110"
+      ],
+      "explanation": "按二进制位权展开，十进制19写作二进制10011。"
+    },
+    {
+      "id": "zh_tech_0238",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数19转换为十六进制是多少？",
+      "answer": "13",
+      "accepted_aliases": [],
+      "distractors": [
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "按十六进制位权换算，十进制19写作十六进制13。"
+    },
+    {
+      "id": "zh_tech_0239",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数20转换为二进制是多少？",
+      "answer": "10100",
+      "accepted_aliases": [],
+      "distractors": [
+        "11010",
+        "1110",
+        "1111"
+      ],
+      "explanation": "按二进制位权展开，十进制20写作二进制10100。"
+    },
+    {
+      "id": "zh_tech_0240",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数20转换为十六进制是多少？",
+      "answer": "14",
+      "accepted_aliases": [],
+      "distractors": [
+        "17",
+        "18",
+        "19"
+      ],
+      "explanation": "按十六进制位权换算，十进制20写作十六进制14。"
+    },
+    {
+      "id": "zh_tech_0241",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数21转换为二进制是多少？",
+      "answer": "10101",
+      "accepted_aliases": [],
+      "distractors": [
+        "10011",
+        "10100",
+        "10110"
+      ],
+      "explanation": "按二进制位权展开，十进制21写作二进制10101。"
+    },
+    {
+      "id": "zh_tech_0242",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数21转换为十六进制是多少？",
+      "answer": "15",
+      "accepted_aliases": [],
+      "distractors": [
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "按十六进制位权换算，十进制21写作十六进制15。"
+    },
+    {
+      "id": "zh_tech_0243",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数22转换为二进制是多少？",
+      "answer": "10110",
+      "accepted_aliases": [],
+      "distractors": [
+        "11010",
+        "11011",
+        "11100"
+      ],
+      "explanation": "按二进制位权展开，十进制22写作二进制10110。"
+    },
+    {
+      "id": "zh_tech_0244",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数22转换为十六进制是多少？",
+      "answer": "16",
+      "accepted_aliases": [],
+      "distractors": [
+        "17",
+        "18",
+        "19"
+      ],
+      "explanation": "按十六进制位权换算，十进制22写作十六进制16。"
+    },
+    {
+      "id": "zh_tech_0245",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数23转换为二进制是多少？",
+      "answer": "10111",
+      "accepted_aliases": [],
+      "distractors": [
+        "10011",
+        "10100",
+        "10101"
+      ],
+      "explanation": "按二进制位权展开，十进制23写作二进制10111。"
+    },
+    {
+      "id": "zh_tech_0246",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数23转换为十六进制是多少？",
+      "answer": "17",
+      "accepted_aliases": [],
+      "distractors": [
+        "1D",
+        "11",
+        "12"
+      ],
+      "explanation": "按十六进制位权换算，十进制23写作十六进制17。"
+    },
+    {
+      "id": "zh_tech_0247",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数24转换为二进制是多少？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11010",
+        "11011",
+        "11100"
+      ],
+      "explanation": "按二进制位权展开，十进制24写作二进制11000。"
+    },
+    {
+      "id": "zh_tech_0248",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数24转换为十六进制是多少？",
+      "answer": "18",
+      "accepted_aliases": [],
+      "distractors": [
+        "16",
+        "17",
+        "19"
+      ],
+      "explanation": "按十六进制位权换算，十进制24写作十六进制18。"
+    },
+    {
+      "id": "zh_tech_0249",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数25转换为二进制是多少？",
+      "answer": "11001",
+      "accepted_aliases": [],
+      "distractors": [
+        "10011",
+        "10100",
+        "10101"
+      ],
+      "explanation": "按二进制位权展开，十进制25写作二进制11001。"
+    },
+    {
+      "id": "zh_tech_0250",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数25转换为十六进制是多少？",
+      "answer": "19",
+      "accepted_aliases": [],
+      "distractors": [
+        "1D",
+        "1E",
+        "1F"
+      ],
+      "explanation": "按十六进制位权换算，十进制25写作十六进制19。"
+    },
+    {
+      "id": "zh_tech_0251",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数26转换为二进制是多少？",
+      "answer": "11010",
+      "accepted_aliases": [],
+      "distractors": [
+        "11001",
+        "11011",
+        "11100"
+      ],
+      "explanation": "按二进制位权展开，十进制26写作二进制11010。"
+    },
+    {
+      "id": "zh_tech_0252",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数26转换为十六进制是多少？",
+      "answer": "1A",
+      "accepted_aliases": [],
+      "distractors": [
+        "16",
+        "17",
+        "18"
+      ],
+      "explanation": "按十六进制位权换算，十进制26写作十六进制1A。"
+    },
+    {
+      "id": "zh_tech_0253",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数27转换为二进制是多少？",
+      "answer": "11011",
+      "accepted_aliases": [],
+      "distractors": [
+        "100000",
+        "100001",
+        "10101"
+      ],
+      "explanation": "按二进制位权展开，十进制27写作二进制11011。"
+    },
+    {
+      "id": "zh_tech_0254",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数27转换为十六进制是多少？",
+      "answer": "1B",
+      "accepted_aliases": [],
+      "distractors": [
+        "1D",
+        "1E",
+        "1F"
+      ],
+      "explanation": "按十六进制位权换算，十进制27写作十六进制1B。"
+    },
+    {
+      "id": "zh_tech_0255",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数28转换为二进制是多少？",
+      "answer": "11100",
+      "accepted_aliases": [],
+      "distractors": [
+        "11001",
+        "11010",
+        "11011"
+      ],
+      "explanation": "按二进制位权展开，十进制28写作二进制11100。"
+    },
+    {
+      "id": "zh_tech_0256",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数28转换为十六进制是多少？",
+      "answer": "1C",
+      "accepted_aliases": [],
+      "distractors": [
+        "16",
+        "17",
+        "18"
+      ],
+      "explanation": "按十六进制位权换算，十进制28写作十六进制1C。"
+    },
+    {
+      "id": "zh_tech_0257",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数29转换为二进制是多少？",
+      "answer": "11101",
+      "accepted_aliases": [],
+      "distractors": [
+        "100000",
+        "100001",
+        "100010"
+      ],
+      "explanation": "按二进制位权展开，十进制29写作二进制11101。"
+    },
+    {
+      "id": "zh_tech_0258",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数29转换为十六进制是多少？",
+      "answer": "1D",
+      "accepted_aliases": [],
+      "distractors": [
+        "1C",
+        "1E",
+        "1F"
+      ],
+      "explanation": "按十六进制位权换算，十进制29写作十六进制1D。"
+    },
+    {
+      "id": "zh_tech_0259",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数30转换为二进制是多少？",
+      "answer": "11110",
+      "accepted_aliases": [],
+      "distractors": [
+        "11001",
+        "11010",
+        "11011"
+      ],
+      "explanation": "按二进制位权展开，十进制30写作二进制11110。"
+    },
+    {
+      "id": "zh_tech_0260",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数30转换为十六进制是多少？",
+      "answer": "1E",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "24",
+        "18"
+      ],
+      "explanation": "按十六进制位权换算，十进制30写作十六进制1E。"
+    },
+    {
+      "id": "zh_tech_0261",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数31转换为二进制是多少？",
+      "answer": "11111",
+      "accepted_aliases": [],
+      "distractors": [
+        "100000",
+        "100001",
+        "100010"
+      ],
+      "explanation": "按二进制位权展开，十进制31写作二进制11111。"
+    },
+    {
+      "id": "zh_tech_0262",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数31转换为十六进制是多少？",
+      "answer": "1F",
+      "accepted_aliases": [],
+      "distractors": [
+        "1C",
+        "1D",
+        "1E"
+      ],
+      "explanation": "按十六进制位权换算，十进制31写作十六进制1F。"
+    },
+    {
+      "id": "zh_tech_0263",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数32转换为二进制是多少？",
+      "answer": "100000",
+      "accepted_aliases": [],
+      "distractors": [
+        "100110",
+        "11010",
+        "11011"
+      ],
+      "explanation": "按二进制位权展开，十进制32写作二进制100000。"
+    },
+    {
+      "id": "zh_tech_0264",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数32转换为十六进制是多少？",
+      "answer": "20",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "24",
+        "25"
+      ],
+      "explanation": "按十六进制位权换算，十进制32写作十六进制20。"
+    },
+    {
+      "id": "zh_tech_0265",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数33转换为二进制是多少？",
+      "answer": "100001",
+      "accepted_aliases": [],
+      "distractors": [
+        "11111",
+        "100000",
+        "100010"
+      ],
+      "explanation": "按二进制位权展开，十进制33写作二进制100001。"
+    },
+    {
+      "id": "zh_tech_0266",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数33转换为十六进制是多少？",
+      "answer": "21",
+      "accepted_aliases": [],
+      "distractors": [
+        "1C",
+        "1D",
+        "1E"
+      ],
+      "explanation": "按十六进制位权换算，十进制33写作十六进制21。"
+    },
+    {
+      "id": "zh_tech_0267",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数34转换为二进制是多少？",
+      "answer": "100010",
+      "accepted_aliases": [],
+      "distractors": [
+        "100110",
+        "100111",
+        "101000"
+      ],
+      "explanation": "按二进制位权展开，十进制34写作二进制100010。"
+    },
+    {
+      "id": "zh_tech_0268",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数34转换为十六进制是多少？",
+      "answer": "22",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "24",
+        "25"
+      ],
+      "explanation": "按十六进制位权换算，十进制34写作十六进制22。"
+    },
+    {
+      "id": "zh_tech_0269",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数35转换为二进制是多少？",
+      "answer": "100011",
+      "accepted_aliases": [],
+      "distractors": [
+        "11111",
+        "100000",
+        "100001"
+      ],
+      "explanation": "按二进制位权展开，十进制35写作二进制100011。"
+    },
+    {
+      "id": "zh_tech_0270",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数35转换为十六进制是多少？",
+      "answer": "23",
+      "accepted_aliases": [],
+      "distractors": [
+        "29",
+        "1D",
+        "1E"
+      ],
+      "explanation": "按十六进制位权换算，十进制35写作十六进制23。"
+    },
+    {
+      "id": "zh_tech_0271",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数36转换为二进制是多少？",
+      "answer": "100100",
+      "accepted_aliases": [],
+      "distractors": [
+        "100110",
+        "100111",
+        "101000"
+      ],
+      "explanation": "按二进制位权展开，十进制36写作二进制100100。"
+    },
+    {
+      "id": "zh_tech_0272",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数36转换为十六进制是多少？",
+      "answer": "24",
+      "accepted_aliases": [],
+      "distractors": [
+        "22",
+        "23",
+        "25"
+      ],
+      "explanation": "按十六进制位权换算，十进制36写作十六进制24。"
+    },
+    {
+      "id": "zh_tech_0273",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数37转换为二进制是多少？",
+      "answer": "100101",
+      "accepted_aliases": [],
+      "distractors": [
+        "11111",
+        "100000",
+        "100001"
+      ],
+      "explanation": "按二进制位权展开，十进制37写作二进制100101。"
+    },
+    {
+      "id": "zh_tech_0274",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数37转换为十六进制是多少？",
+      "answer": "25",
+      "accepted_aliases": [],
+      "distractors": [
+        "29",
+        "2A",
+        "2B"
+      ],
+      "explanation": "按十六进制位权换算，十进制37写作十六进制25。"
+    },
+    {
+      "id": "zh_tech_0275",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数38转换为二进制是多少？",
+      "answer": "100110",
+      "accepted_aliases": [],
+      "distractors": [
+        "100101",
+        "100111",
+        "101000"
+      ],
+      "explanation": "按二进制位权展开，十进制38写作二进制100110。"
+    },
+    {
+      "id": "zh_tech_0276",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数38转换为十六进制是多少？",
+      "answer": "26",
+      "accepted_aliases": [],
+      "distractors": [
+        "22",
+        "23",
+        "24"
+      ],
+      "explanation": "按十六进制位权换算，十进制38写作十六进制26。"
+    },
+    {
+      "id": "zh_tech_0277",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数39转换为二进制是多少？",
+      "answer": "100111",
+      "accepted_aliases": [],
+      "distractors": [
+        "101100",
+        "101101",
+        "100001"
+      ],
+      "explanation": "按二进制位权展开，十进制39写作二进制100111。"
+    },
+    {
+      "id": "zh_tech_0278",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数39转换为十六进制是多少？",
+      "answer": "27",
+      "accepted_aliases": [],
+      "distractors": [
+        "29",
+        "2A",
+        "2B"
+      ],
+      "explanation": "按十六进制位权换算，十进制39写作十六进制27。"
+    },
+    {
+      "id": "zh_tech_0279",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数40转换为二进制是多少？",
+      "answer": "101000",
+      "accepted_aliases": [],
+      "distractors": [
+        "100101",
+        "100110",
+        "100111"
+      ],
+      "explanation": "按二进制位权展开，十进制40写作二进制101000。"
+    },
+    {
+      "id": "zh_tech_0280",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数40转换为十六进制是多少？",
+      "answer": "28",
+      "accepted_aliases": [],
+      "distractors": [
+        "22",
+        "23",
+        "24"
+      ],
+      "explanation": "按十六进制位权换算，十进制40写作十六进制28。"
+    },
+    {
+      "id": "zh_tech_0281",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数41转换为二进制是多少？",
+      "answer": "101001",
+      "accepted_aliases": [],
+      "distractors": [
+        "101100",
+        "101101",
+        "101110"
+      ],
+      "explanation": "按二进制位权展开，十进制41写作二进制101001。"
+    },
+    {
+      "id": "zh_tech_0282",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数41转换为十六进制是多少？",
+      "answer": "29",
+      "accepted_aliases": [],
+      "distractors": [
+        "28",
+        "2A",
+        "2B"
+      ],
+      "explanation": "按十六进制位权换算，十进制41写作十六进制29。"
+    },
+    {
+      "id": "zh_tech_0283",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数42转换为二进制是多少？",
+      "answer": "101010",
+      "accepted_aliases": [],
+      "distractors": [
+        "100101",
+        "100110",
+        "100111"
+      ],
+      "explanation": "按二进制位权展开，十进制42写作二进制101010。"
+    },
+    {
+      "id": "zh_tech_0284",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数42转换为十六进制是多少？",
+      "answer": "2A",
+      "accepted_aliases": [],
+      "distractors": [
+        "2F",
+        "30",
+        "24"
+      ],
+      "explanation": "按十六进制位权换算，十进制42写作十六进制2A。"
+    },
+    {
+      "id": "zh_tech_0285",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数43转换为二进制是多少？",
+      "answer": "101011",
+      "accepted_aliases": [],
+      "distractors": [
+        "101100",
+        "101101",
+        "101110"
+      ],
+      "explanation": "按二进制位权展开，十进制43写作二进制101011。"
+    },
+    {
+      "id": "zh_tech_0286",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数43转换为十六进制是多少？",
+      "answer": "2B",
+      "accepted_aliases": [],
+      "distractors": [
+        "28",
+        "29",
+        "2A"
+      ],
+      "explanation": "按十六进制位权换算，十进制43写作十六进制2B。"
+    },
+    {
+      "id": "zh_tech_0287",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数44转换为二进制是多少？",
+      "answer": "101100",
+      "accepted_aliases": [],
+      "distractors": [
+        "110010",
+        "100110",
+        "100111"
+      ],
+      "explanation": "按二进制位权展开，十进制44写作二进制101100。"
+    },
+    {
+      "id": "zh_tech_0288",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数44转换为十六进制是多少？",
+      "answer": "2C",
+      "accepted_aliases": [],
+      "distractors": [
+        "2F",
+        "30",
+        "31"
+      ],
+      "explanation": "按十六进制位权换算，十进制44写作十六进制2C。"
+    },
+    {
+      "id": "zh_tech_0289",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数45转换为二进制是多少？",
+      "answer": "101101",
+      "accepted_aliases": [],
+      "distractors": [
+        "101011",
+        "101100",
+        "101110"
+      ],
+      "explanation": "按二进制位权展开，十进制45写作二进制101101。"
+    },
+    {
+      "id": "zh_tech_0290",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数45转换为十六进制是多少？",
+      "answer": "2D",
+      "accepted_aliases": [],
+      "distractors": [
+        "28",
+        "29",
+        "2A"
+      ],
+      "explanation": "按十六进制位权换算，十进制45写作十六进制2D。"
+    },
+    {
+      "id": "zh_tech_0291",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数46转换为二进制是多少？",
+      "answer": "101110",
+      "accepted_aliases": [],
+      "distractors": [
+        "110010",
+        "110011",
+        "110100"
+      ],
+      "explanation": "按二进制位权展开，十进制46写作二进制101110。"
+    },
+    {
+      "id": "zh_tech_0292",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数46转换为十六进制是多少？",
+      "answer": "2E",
+      "accepted_aliases": [],
+      "distractors": [
+        "2F",
+        "30",
+        "31"
+      ],
+      "explanation": "按十六进制位权换算，十进制46写作十六进制2E。"
+    },
+    {
+      "id": "zh_tech_0293",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数47转换为二进制是多少？",
+      "answer": "101111",
+      "accepted_aliases": [],
+      "distractors": [
+        "101011",
+        "101100",
+        "101101"
+      ],
+      "explanation": "按二进制位权展开，十进制47写作二进制101111。"
+    },
+    {
+      "id": "zh_tech_0294",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数47转换为十六进制是多少？",
+      "answer": "2F",
+      "accepted_aliases": [],
+      "distractors": [
+        "35",
+        "29",
+        "2A"
+      ],
+      "explanation": "按十六进制位权换算，十进制47写作十六进制2F。"
+    },
+    {
+      "id": "zh_tech_0295",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数48转换为二进制是多少？",
+      "answer": "110000",
+      "accepted_aliases": [],
+      "distractors": [
+        "110010",
+        "110011",
+        "110100"
+      ],
+      "explanation": "按二进制位权展开，十进制48写作二进制110000。"
+    },
+    {
+      "id": "zh_tech_0296",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数48转换为十六进制是多少？",
+      "answer": "30",
+      "accepted_aliases": [],
+      "distractors": [
+        "2E",
+        "2F",
+        "31"
+      ],
+      "explanation": "按十六进制位权换算，十进制48写作十六进制30。"
+    },
+    {
+      "id": "zh_tech_0297",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数49转换为二进制是多少？",
+      "answer": "110001",
+      "accepted_aliases": [],
+      "distractors": [
+        "101011",
+        "101100",
+        "101101"
+      ],
+      "explanation": "按二进制位权展开，十进制49写作二进制110001。"
+    },
+    {
+      "id": "zh_tech_0298",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数49转换为十六进制是多少？",
+      "answer": "31",
+      "accepted_aliases": [],
+      "distractors": [
+        "35",
+        "36",
+        "37"
+      ],
+      "explanation": "按十六进制位权换算，十进制49写作十六进制31。"
+    },
+    {
+      "id": "zh_tech_0299",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数50转换为二进制是多少？",
+      "answer": "110010",
+      "accepted_aliases": [],
+      "distractors": [
+        "110001",
+        "110011",
+        "110100"
+      ],
+      "explanation": "按二进制位权展开，十进制50写作二进制110010。"
+    },
+    {
+      "id": "zh_tech_0300",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数50转换为十六进制是多少？",
+      "answer": "32",
+      "accepted_aliases": [],
+      "distractors": [
+        "2E",
+        "2F",
+        "30"
+      ],
+      "explanation": "按十六进制位权换算，十进制50写作十六进制32。"
+    },
+    {
+      "id": "zh_tech_0301",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数51转换为二进制是多少？",
+      "answer": "110011",
+      "accepted_aliases": [],
+      "distractors": [
+        "111000",
+        "111001",
+        "101101"
+      ],
+      "explanation": "按二进制位权展开，十进制51写作二进制110011。"
+    },
+    {
+      "id": "zh_tech_0302",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数51转换为十六进制是多少？",
+      "answer": "33",
+      "accepted_aliases": [],
+      "distractors": [
+        "35",
+        "36",
+        "37"
+      ],
+      "explanation": "按十六进制位权换算，十进制51写作十六进制33。"
+    },
+    {
+      "id": "zh_tech_0303",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数52转换为二进制是多少？",
+      "answer": "110100",
+      "accepted_aliases": [],
+      "distractors": [
+        "110001",
+        "110010",
+        "110011"
+      ],
+      "explanation": "按二进制位权展开，十进制52写作二进制110100。"
+    },
+    {
+      "id": "zh_tech_0304",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数52转换为十六进制是多少？",
+      "answer": "34",
+      "accepted_aliases": [],
+      "distractors": [
+        "2E",
+        "2F",
+        "30"
+      ],
+      "explanation": "按十六进制位权换算，十进制52写作十六进制34。"
+    },
+    {
+      "id": "zh_tech_0305",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数53转换为二进制是多少？",
+      "answer": "110101",
+      "accepted_aliases": [],
+      "distractors": [
+        "111000",
+        "111001",
+        "111010"
+      ],
+      "explanation": "按二进制位权展开，十进制53写作二进制110101。"
+    },
+    {
+      "id": "zh_tech_0306",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数53转换为十六进制是多少？",
+      "answer": "35",
+      "accepted_aliases": [],
+      "distractors": [
+        "34",
+        "36",
+        "37"
+      ],
+      "explanation": "按十六进制位权换算，十进制53写作十六进制35。"
+    },
+    {
+      "id": "zh_tech_0307",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数54转换为二进制是多少？",
+      "answer": "110110",
+      "accepted_aliases": [],
+      "distractors": [
+        "110001",
+        "110010",
+        "110011"
+      ],
+      "explanation": "按二进制位权展开，十进制54写作二进制110110。"
+    },
+    {
+      "id": "zh_tech_0308",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数54转换为十六进制是多少？",
+      "answer": "36",
+      "accepted_aliases": [],
+      "distractors": [
+        "3B",
+        "3C",
+        "30"
+      ],
+      "explanation": "按十六进制位权换算，十进制54写作十六进制36。"
+    },
+    {
+      "id": "zh_tech_0309",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数55转换为二进制是多少？",
+      "answer": "110111",
+      "accepted_aliases": [],
+      "distractors": [
+        "111000",
+        "111001",
+        "111010"
+      ],
+      "explanation": "按二进制位权展开，十进制55写作二进制110111。"
+    },
+    {
+      "id": "zh_tech_0310",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数55转换为十六进制是多少？",
+      "answer": "37",
+      "accepted_aliases": [],
+      "distractors": [
+        "34",
+        "35",
+        "36"
+      ],
+      "explanation": "按十六进制位权换算，十进制55写作十六进制37。"
+    },
+    {
+      "id": "zh_tech_0311",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数56转换为二进制是多少？",
+      "answer": "111000",
+      "accepted_aliases": [],
+      "distractors": [
+        "111110",
+        "110010",
+        "110011"
+      ],
+      "explanation": "按二进制位权展开，十进制56写作二进制111000。"
+    },
+    {
+      "id": "zh_tech_0312",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数56转换为十六进制是多少？",
+      "answer": "38",
+      "accepted_aliases": [],
+      "distractors": [
+        "3B",
+        "3C",
+        "3D"
+      ],
+      "explanation": "按十六进制位权换算，十进制56写作十六进制38。"
+    },
+    {
+      "id": "zh_tech_0313",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数57转换为二进制是多少？",
+      "answer": "111001",
+      "accepted_aliases": [],
+      "distractors": [
+        "110111",
+        "111000",
+        "111010"
+      ],
+      "explanation": "按二进制位权展开，十进制57写作二进制111001。"
+    },
+    {
+      "id": "zh_tech_0314",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数57转换为十六进制是多少？",
+      "answer": "39",
+      "accepted_aliases": [],
+      "distractors": [
+        "34",
+        "35",
+        "36"
+      ],
+      "explanation": "按十六进制位权换算，十进制57写作十六进制39。"
+    },
+    {
+      "id": "zh_tech_0315",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数58转换为二进制是多少？",
+      "answer": "111010",
+      "accepted_aliases": [],
+      "distractors": [
+        "111110",
+        "111111",
+        "1000000"
+      ],
+      "explanation": "按二进制位权展开，十进制58写作二进制111010。"
+    },
+    {
+      "id": "zh_tech_0316",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数58转换为十六进制是多少？",
+      "answer": "3A",
+      "accepted_aliases": [],
+      "distractors": [
+        "3B",
+        "3C",
+        "3D"
+      ],
+      "explanation": "按十六进制位权换算，十进制58写作十六进制3A。"
+    },
+    {
+      "id": "zh_tech_0317",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数59转换为二进制是多少？",
+      "answer": "111011",
+      "accepted_aliases": [],
+      "distractors": [
+        "110111",
+        "111000",
+        "111001"
+      ],
+      "explanation": "按二进制位权展开，十进制59写作二进制111011。"
+    },
+    {
+      "id": "zh_tech_0318",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数59转换为十六进制是多少？",
+      "answer": "3B",
+      "accepted_aliases": [],
+      "distractors": [
+        "41",
+        "35",
+        "36"
+      ],
+      "explanation": "按十六进制位权换算，十进制59写作十六进制3B。"
+    },
+    {
+      "id": "zh_tech_0319",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数60转换为二进制是多少？",
+      "answer": "111100",
+      "accepted_aliases": [],
+      "distractors": [
+        "111110",
+        "111111",
+        "1000000"
+      ],
+      "explanation": "按二进制位权展开，十进制60写作二进制111100。"
+    },
+    {
+      "id": "zh_tech_0320",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数60转换为十六进制是多少？",
+      "answer": "3C",
+      "accepted_aliases": [],
+      "distractors": [
+        "3A",
+        "3B",
+        "3D"
+      ],
+      "explanation": "按十六进制位权换算，十进制60写作十六进制3C。"
+    },
+    {
+      "id": "zh_tech_0321",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数61转换为二进制是多少？",
+      "answer": "111101",
+      "accepted_aliases": [],
+      "distractors": [
+        "110111",
+        "111000",
+        "111001"
+      ],
+      "explanation": "按二进制位权展开，十进制61写作二进制111101。"
+    },
+    {
+      "id": "zh_tech_0322",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数61转换为十六进制是多少？",
+      "answer": "3D",
+      "accepted_aliases": [],
+      "distractors": [
+        "41",
+        "42",
+        "43"
+      ],
+      "explanation": "按十六进制位权换算，十进制61写作十六进制3D。"
+    },
+    {
+      "id": "zh_tech_0323",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数62转换为二进制是多少？",
+      "answer": "111110",
+      "accepted_aliases": [],
+      "distractors": [
+        "111101",
+        "111111",
+        "1000000"
+      ],
+      "explanation": "按二进制位权展开，十进制62写作二进制111110。"
+    },
+    {
+      "id": "zh_tech_0324",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数62转换为十六进制是多少？",
+      "answer": "3E",
+      "accepted_aliases": [],
+      "distractors": [
+        "3A",
+        "3B",
+        "3C"
+      ],
+      "explanation": "按十六进制位权换算，十进制62写作十六进制3E。"
+    },
+    {
+      "id": "zh_tech_0325",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数63转换为二进制是多少？",
+      "answer": "111111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000100",
+        "1000101",
+        "111001"
+      ],
+      "explanation": "按二进制位权展开，十进制63写作二进制111111。"
+    },
+    {
+      "id": "zh_tech_0326",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数63转换为十六进制是多少？",
+      "answer": "3F",
+      "accepted_aliases": [],
+      "distractors": [
+        "41",
+        "42",
+        "43"
+      ],
+      "explanation": "按十六进制位权换算，十进制63写作十六进制3F。"
+    },
+    {
+      "id": "zh_tech_0327",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数64转换为二进制是多少？",
+      "answer": "1000000",
+      "accepted_aliases": [],
+      "distractors": [
+        "111101",
+        "111110",
+        "111111"
+      ],
+      "explanation": "按二进制位权展开，十进制64写作二进制1000000。"
+    },
+    {
+      "id": "zh_tech_0328",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数64转换为十六进制是多少？",
+      "answer": "40",
+      "accepted_aliases": [],
+      "distractors": [
+        "3A",
+        "3B",
+        "3C"
+      ],
+      "explanation": "按十六进制位权换算，十进制64写作十六进制40。"
+    },
+    {
+      "id": "zh_tech_0329",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数65转换为二进制是多少？",
+      "answer": "1000001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000100",
+        "1000101",
+        "1000110"
+      ],
+      "explanation": "按二进制位权展开，十进制65写作二进制1000001。"
+    },
+    {
+      "id": "zh_tech_0330",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数65转换为十六进制是多少？",
+      "answer": "41",
+      "accepted_aliases": [],
+      "distractors": [
+        "40",
+        "42",
+        "43"
+      ],
+      "explanation": "按十六进制位权换算，十进制65写作十六进制41。"
+    },
+    {
+      "id": "zh_tech_0331",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数66转换为二进制是多少？",
+      "answer": "1000010",
+      "accepted_aliases": [],
+      "distractors": [
+        "111101",
+        "111110",
+        "111111"
+      ],
+      "explanation": "按二进制位权展开，十进制66写作二进制1000010。"
+    },
+    {
+      "id": "zh_tech_0332",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数66转换为十六进制是多少？",
+      "answer": "42",
+      "accepted_aliases": [],
+      "distractors": [
+        "47",
+        "48",
+        "3C"
+      ],
+      "explanation": "按十六进制位权换算，十进制66写作十六进制42。"
+    },
+    {
+      "id": "zh_tech_0333",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数67转换为二进制是多少？",
+      "answer": "1000011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000100",
+        "1000101",
+        "1000110"
+      ],
+      "explanation": "按二进制位权展开，十进制67写作二进制1000011。"
+    },
+    {
+      "id": "zh_tech_0334",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数67转换为十六进制是多少？",
+      "answer": "43",
+      "accepted_aliases": [],
+      "distractors": [
+        "40",
+        "41",
+        "42"
+      ],
+      "explanation": "按十六进制位权换算，十进制67写作十六进制43。"
+    },
+    {
+      "id": "zh_tech_0335",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数68转换为二进制是多少？",
+      "answer": "1000100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001010",
+        "111110",
+        "111111"
+      ],
+      "explanation": "按二进制位权展开，十进制68写作二进制1000100。"
+    },
+    {
+      "id": "zh_tech_0336",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数68转换为十六进制是多少？",
+      "answer": "44",
+      "accepted_aliases": [],
+      "distractors": [
+        "47",
+        "48",
+        "49"
+      ],
+      "explanation": "按十六进制位权换算，十进制68写作十六进制44。"
+    },
+    {
+      "id": "zh_tech_0337",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数69转换为二进制是多少？",
+      "answer": "1000101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000011",
+        "1000100",
+        "1000110"
+      ],
+      "explanation": "按二进制位权展开，十进制69写作二进制1000101。"
+    },
+    {
+      "id": "zh_tech_0338",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数69转换为十六进制是多少？",
+      "answer": "45",
+      "accepted_aliases": [],
+      "distractors": [
+        "40",
+        "41",
+        "42"
+      ],
+      "explanation": "按十六进制位权换算，十进制69写作十六进制45。"
+    },
+    {
+      "id": "zh_tech_0339",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数70转换为二进制是多少？",
+      "answer": "1000110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001010",
+        "1001011",
+        "1001100"
+      ],
+      "explanation": "按二进制位权展开，十进制70写作二进制1000110。"
+    },
+    {
+      "id": "zh_tech_0340",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数70转换为十六进制是多少？",
+      "answer": "46",
+      "accepted_aliases": [],
+      "distractors": [
+        "47",
+        "48",
+        "49"
+      ],
+      "explanation": "按十六进制位权换算，十进制70写作十六进制46。"
+    },
+    {
+      "id": "zh_tech_0341",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数71转换为二进制是多少？",
+      "answer": "1000111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000011",
+        "1000100",
+        "1000101"
+      ],
+      "explanation": "按二进制位权展开，十进制71写作二进制1000111。"
+    },
+    {
+      "id": "zh_tech_0342",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数71转换为十六进制是多少？",
+      "answer": "47",
+      "accepted_aliases": [],
+      "distractors": [
+        "4D",
+        "41",
+        "42"
+      ],
+      "explanation": "按十六进制位权换算，十进制71写作十六进制47。"
+    },
+    {
+      "id": "zh_tech_0343",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数72转换为二进制是多少？",
+      "answer": "1001000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001010",
+        "1001011",
+        "1001100"
+      ],
+      "explanation": "按二进制位权展开，十进制72写作二进制1001000。"
+    },
+    {
+      "id": "zh_tech_0344",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数72转换为十六进制是多少？",
+      "answer": "48",
+      "accepted_aliases": [],
+      "distractors": [
+        "46",
+        "47",
+        "49"
+      ],
+      "explanation": "按十六进制位权换算，十进制72写作十六进制48。"
+    },
+    {
+      "id": "zh_tech_0345",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数73转换为二进制是多少？",
+      "answer": "1001001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000011",
+        "1000100",
+        "1000101"
+      ],
+      "explanation": "按二进制位权展开，十进制73写作二进制1001001。"
+    },
+    {
+      "id": "zh_tech_0346",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数73转换为十六进制是多少？",
+      "answer": "49",
+      "accepted_aliases": [],
+      "distractors": [
+        "4D",
+        "4E",
+        "4F"
+      ],
+      "explanation": "按十六进制位权换算，十进制73写作十六进制49。"
+    },
+    {
+      "id": "zh_tech_0347",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数74转换为二进制是多少？",
+      "answer": "1001010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001001",
+        "1001011",
+        "1001100"
+      ],
+      "explanation": "按二进制位权展开，十进制74写作二进制1001010。"
+    },
+    {
+      "id": "zh_tech_0348",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数74转换为十六进制是多少？",
+      "answer": "4A",
+      "accepted_aliases": [],
+      "distractors": [
+        "46",
+        "47",
+        "48"
+      ],
+      "explanation": "按十六进制位权换算，十进制74写作十六进制4A。"
+    },
+    {
+      "id": "zh_tech_0349",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数75转换为二进制是多少？",
+      "answer": "1001011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010000",
+        "1010001",
+        "1000101"
+      ],
+      "explanation": "按二进制位权展开，十进制75写作二进制1001011。"
+    },
+    {
+      "id": "zh_tech_0350",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数75转换为十六进制是多少？",
+      "answer": "4B",
+      "accepted_aliases": [],
+      "distractors": [
+        "4D",
+        "4E",
+        "4F"
+      ],
+      "explanation": "按十六进制位权换算，十进制75写作十六进制4B。"
+    },
+    {
+      "id": "zh_tech_0351",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数76转换为二进制是多少？",
+      "answer": "1001100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001001",
+        "1001010",
+        "1001011"
+      ],
+      "explanation": "按二进制位权展开，十进制76写作二进制1001100。"
+    },
+    {
+      "id": "zh_tech_0352",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数76转换为十六进制是多少？",
+      "answer": "4C",
+      "accepted_aliases": [],
+      "distractors": [
+        "46",
+        "47",
+        "48"
+      ],
+      "explanation": "按十六进制位权换算，十进制76写作十六进制4C。"
+    },
+    {
+      "id": "zh_tech_0353",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数77转换为二进制是多少？",
+      "answer": "1001101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010000",
+        "1010001",
+        "1010010"
+      ],
+      "explanation": "按二进制位权展开，十进制77写作二进制1001101。"
+    },
+    {
+      "id": "zh_tech_0354",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数77转换为十六进制是多少？",
+      "answer": "4D",
+      "accepted_aliases": [],
+      "distractors": [
+        "4C",
+        "4E",
+        "4F"
+      ],
+      "explanation": "按十六进制位权换算，十进制77写作十六进制4D。"
+    },
+    {
+      "id": "zh_tech_0355",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数78转换为二进制是多少？",
+      "answer": "1001110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001001",
+        "1001010",
+        "1001011"
+      ],
+      "explanation": "按二进制位权展开，十进制78写作二进制1001110。"
+    },
+    {
+      "id": "zh_tech_0356",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数78转换为十六进制是多少？",
+      "answer": "4E",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "54",
+        "48"
+      ],
+      "explanation": "按十六进制位权换算，十进制78写作十六进制4E。"
+    },
+    {
+      "id": "zh_tech_0357",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数79转换为二进制是多少？",
+      "answer": "1001111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010000",
+        "1010001",
+        "1010010"
+      ],
+      "explanation": "按二进制位权展开，十进制79写作二进制1001111。"
+    },
+    {
+      "id": "zh_tech_0358",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数79转换为十六进制是多少？",
+      "answer": "4F",
+      "accepted_aliases": [],
+      "distractors": [
+        "4C",
+        "4D",
+        "4E"
+      ],
+      "explanation": "按十六进制位权换算，十进制79写作十六进制4F。"
+    },
+    {
+      "id": "zh_tech_0359",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数80转换为二进制是多少？",
+      "answer": "1010000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010110",
+        "1001010",
+        "1001011"
+      ],
+      "explanation": "按二进制位权展开，十进制80写作二进制1010000。"
+    },
+    {
+      "id": "zh_tech_0360",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数80转换为十六进制是多少？",
+      "answer": "50",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "54",
+        "55"
+      ],
+      "explanation": "按十六进制位权换算，十进制80写作十六进制50。"
+    },
+    {
+      "id": "zh_tech_0361",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数81转换为二进制是多少？",
+      "answer": "1010001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001111",
+        "1010000",
+        "1010010"
+      ],
+      "explanation": "按二进制位权展开，十进制81写作二进制1010001。"
+    },
+    {
+      "id": "zh_tech_0362",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数81转换为十六进制是多少？",
+      "answer": "51",
+      "accepted_aliases": [],
+      "distractors": [
+        "4C",
+        "4D",
+        "4E"
+      ],
+      "explanation": "按十六进制位权换算，十进制81写作十六进制51。"
+    },
+    {
+      "id": "zh_tech_0363",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数82转换为二进制是多少？",
+      "answer": "1010010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010110",
+        "1010111",
+        "1011000"
+      ],
+      "explanation": "按二进制位权展开，十进制82写作二进制1010010。"
+    },
+    {
+      "id": "zh_tech_0364",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数82转换为十六进制是多少？",
+      "answer": "52",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "54",
+        "55"
+      ],
+      "explanation": "按十六进制位权换算，十进制82写作十六进制52。"
+    },
+    {
+      "id": "zh_tech_0365",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数83转换为二进制是多少？",
+      "answer": "1010011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001111",
+        "1010000",
+        "1010001"
+      ],
+      "explanation": "按二进制位权展开，十进制83写作二进制1010011。"
+    },
+    {
+      "id": "zh_tech_0366",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数83转换为十六进制是多少？",
+      "answer": "53",
+      "accepted_aliases": [],
+      "distractors": [
+        "59",
+        "4D",
+        "4E"
+      ],
+      "explanation": "按十六进制位权换算，十进制83写作十六进制53。"
+    },
+    {
+      "id": "zh_tech_0367",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数84转换为二进制是多少？",
+      "answer": "1010100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010110",
+        "1010111",
+        "1011000"
+      ],
+      "explanation": "按二进制位权展开，十进制84写作二进制1010100。"
+    },
+    {
+      "id": "zh_tech_0368",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数84转换为十六进制是多少？",
+      "answer": "54",
+      "accepted_aliases": [],
+      "distractors": [
+        "52",
+        "53",
+        "55"
+      ],
+      "explanation": "按十六进制位权换算，十进制84写作十六进制54。"
+    },
+    {
+      "id": "zh_tech_0369",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数85转换为二进制是多少？",
+      "answer": "1010101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1001111",
+        "1010000",
+        "1010001"
+      ],
+      "explanation": "按二进制位权展开，十进制85写作二进制1010101。"
+    },
+    {
+      "id": "zh_tech_0370",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数85转换为十六进制是多少？",
+      "answer": "55",
+      "accepted_aliases": [],
+      "distractors": [
+        "59",
+        "5A",
+        "5B"
+      ],
+      "explanation": "按十六进制位权换算，十进制85写作十六进制55。"
+    },
+    {
+      "id": "zh_tech_0371",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数86转换为二进制是多少？",
+      "answer": "1010110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010101",
+        "1010111",
+        "1011000"
+      ],
+      "explanation": "按二进制位权展开，十进制86写作二进制1010110。"
+    },
+    {
+      "id": "zh_tech_0372",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数86转换为十六进制是多少？",
+      "answer": "56",
+      "accepted_aliases": [],
+      "distractors": [
+        "52",
+        "53",
+        "54"
+      ],
+      "explanation": "按十六进制位权换算，十进制86写作十六进制56。"
+    },
+    {
+      "id": "zh_tech_0373",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数87转换为二进制是多少？",
+      "answer": "1010111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1011100",
+        "1011101",
+        "1010001"
+      ],
+      "explanation": "按二进制位权展开，十进制87写作二进制1010111。"
+    },
+    {
+      "id": "zh_tech_0374",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数87转换为十六进制是多少？",
+      "answer": "57",
+      "accepted_aliases": [],
+      "distractors": [
+        "59",
+        "5A",
+        "5B"
+      ],
+      "explanation": "按十六进制位权换算，十进制87写作十六进制57。"
+    },
+    {
+      "id": "zh_tech_0375",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数88转换为二进制是多少？",
+      "answer": "1011000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010101",
+        "1010110",
+        "1010111"
+      ],
+      "explanation": "按二进制位权展开，十进制88写作二进制1011000。"
+    },
+    {
+      "id": "zh_tech_0376",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数88转换为十六进制是多少？",
+      "answer": "58",
+      "accepted_aliases": [],
+      "distractors": [
+        "52",
+        "53",
+        "54"
+      ],
+      "explanation": "按十六进制位权换算，十进制88写作十六进制58。"
+    },
+    {
+      "id": "zh_tech_0377",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数89转换为二进制是多少？",
+      "answer": "1011001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1011100",
+        "1011101",
+        "1011110"
+      ],
+      "explanation": "按二进制位权展开，十进制89写作二进制1011001。"
+    },
+    {
+      "id": "zh_tech_0378",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数89转换为十六进制是多少？",
+      "answer": "59",
+      "accepted_aliases": [],
+      "distractors": [
+        "58",
+        "5A",
+        "5B"
+      ],
+      "explanation": "按十六进制位权换算，十进制89写作十六进制59。"
+    },
+    {
+      "id": "zh_tech_0379",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数90转换为二进制是多少？",
+      "answer": "1011010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1010101",
+        "1010110",
+        "1010111"
+      ],
+      "explanation": "按二进制位权展开，十进制90写作二进制1011010。"
+    },
+    {
+      "id": "zh_tech_0380",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数90转换为十六进制是多少？",
+      "answer": "5A",
+      "accepted_aliases": [],
+      "distractors": [
+        "5F",
+        "60",
+        "54"
+      ],
+      "explanation": "按十六进制位权换算，十进制90写作十六进制5A。"
+    },
+    {
+      "id": "zh_tech_0381",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数91转换为二进制是多少？",
+      "answer": "1011011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1011100",
+        "1011101",
+        "1011110"
+      ],
+      "explanation": "按二进制位权展开，十进制91写作二进制1011011。"
+    },
+    {
+      "id": "zh_tech_0382",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数91转换为十六进制是多少？",
+      "answer": "5B",
+      "accepted_aliases": [],
+      "distractors": [
+        "58",
+        "59",
+        "5A"
+      ],
+      "explanation": "按十六进制位权换算，十进制91写作十六进制5B。"
+    },
+    {
+      "id": "zh_tech_0383",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数92转换为二进制是多少？",
+      "answer": "1011100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100010",
+        "1010110",
+        "1010111"
+      ],
+      "explanation": "按二进制位权展开，十进制92写作二进制1011100。"
+    },
+    {
+      "id": "zh_tech_0384",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数92转换为十六进制是多少？",
+      "answer": "5C",
+      "accepted_aliases": [],
+      "distractors": [
+        "5F",
+        "60",
+        "61"
+      ],
+      "explanation": "按十六进制位权换算，十进制92写作十六进制5C。"
+    },
+    {
+      "id": "zh_tech_0385",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数93转换为二进制是多少？",
+      "answer": "1011101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1011011",
+        "1011100",
+        "1011110"
+      ],
+      "explanation": "按二进制位权展开，十进制93写作二进制1011101。"
+    },
+    {
+      "id": "zh_tech_0386",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数93转换为十六进制是多少？",
+      "answer": "5D",
+      "accepted_aliases": [],
+      "distractors": [
+        "58",
+        "59",
+        "5A"
+      ],
+      "explanation": "按十六进制位权换算，十进制93写作十六进制5D。"
+    },
+    {
+      "id": "zh_tech_0387",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数94转换为二进制是多少？",
+      "answer": "1011110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100010",
+        "1100011",
+        "1100100"
+      ],
+      "explanation": "按二进制位权展开，十进制94写作二进制1011110。"
+    },
+    {
+      "id": "zh_tech_0388",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数94转换为十六进制是多少？",
+      "answer": "5E",
+      "accepted_aliases": [],
+      "distractors": [
+        "5F",
+        "60",
+        "61"
+      ],
+      "explanation": "按十六进制位权换算，十进制94写作十六进制5E。"
+    },
+    {
+      "id": "zh_tech_0389",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数95转换为二进制是多少？",
+      "answer": "1011111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1011011",
+        "1011100",
+        "1011101"
+      ],
+      "explanation": "按二进制位权展开，十进制95写作二进制1011111。"
+    },
+    {
+      "id": "zh_tech_0390",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数95转换为十六进制是多少？",
+      "answer": "5F",
+      "accepted_aliases": [],
+      "distractors": [
+        "65",
+        "59",
+        "5A"
+      ],
+      "explanation": "按十六进制位权换算，十进制95写作十六进制5F。"
+    },
+    {
+      "id": "zh_tech_0391",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数96转换为二进制是多少？",
+      "answer": "1100000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100010",
+        "1100011",
+        "1100100"
+      ],
+      "explanation": "按二进制位权展开，十进制96写作二进制1100000。"
+    },
+    {
+      "id": "zh_tech_0392",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数96转换为十六进制是多少？",
+      "answer": "60",
+      "accepted_aliases": [],
+      "distractors": [
+        "5E",
+        "5F",
+        "61"
+      ],
+      "explanation": "按十六进制位权换算，十进制96写作十六进制60。"
+    },
+    {
+      "id": "zh_tech_0393",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数97转换为二进制是多少？",
+      "answer": "1100001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1011011",
+        "1011100",
+        "1011101"
+      ],
+      "explanation": "按二进制位权展开，十进制97写作二进制1100001。"
+    },
+    {
+      "id": "zh_tech_0394",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数97转换为十六进制是多少？",
+      "answer": "61",
+      "accepted_aliases": [],
+      "distractors": [
+        "65",
+        "66",
+        "67"
+      ],
+      "explanation": "按十六进制位权换算，十进制97写作十六进制61。"
+    },
+    {
+      "id": "zh_tech_0395",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数98转换为二进制是多少？",
+      "answer": "1100010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100001",
+        "1100011",
+        "1100100"
+      ],
+      "explanation": "按二进制位权展开，十进制98写作二进制1100010。"
+    },
+    {
+      "id": "zh_tech_0396",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数98转换为十六进制是多少？",
+      "answer": "62",
+      "accepted_aliases": [],
+      "distractors": [
+        "5E",
+        "5F",
+        "60"
+      ],
+      "explanation": "按十六进制位权换算，十进制98写作十六进制62。"
+    },
+    {
+      "id": "zh_tech_0397",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数99转换为二进制是多少？",
+      "answer": "1100011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101000",
+        "1101001",
+        "1011101"
+      ],
+      "explanation": "按二进制位权展开，十进制99写作二进制1100011。"
+    },
+    {
+      "id": "zh_tech_0398",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数99转换为十六进制是多少？",
+      "answer": "63",
+      "accepted_aliases": [],
+      "distractors": [
+        "65",
+        "66",
+        "67"
+      ],
+      "explanation": "按十六进制位权换算，十进制99写作十六进制63。"
+    },
+    {
+      "id": "zh_tech_0399",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数100转换为二进制是多少？",
+      "answer": "1100100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100001",
+        "1100010",
+        "1100011"
+      ],
+      "explanation": "按二进制位权展开，十进制100写作二进制1100100。"
+    },
+    {
+      "id": "zh_tech_0400",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数100转换为十六进制是多少？",
+      "answer": "64",
+      "accepted_aliases": [],
+      "distractors": [
+        "5E",
+        "5F",
+        "60"
+      ],
+      "explanation": "按十六进制位权换算，十进制100写作十六进制64。"
+    },
+    {
+      "id": "zh_tech_0401",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数101转换为二进制是多少？",
+      "answer": "1100101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101000",
+        "1101001",
+        "1101010"
+      ],
+      "explanation": "按二进制位权展开，十进制101写作二进制1100101。"
+    },
+    {
+      "id": "zh_tech_0402",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数101转换为十六进制是多少？",
+      "answer": "65",
+      "accepted_aliases": [],
+      "distractors": [
+        "64",
+        "66",
+        "67"
+      ],
+      "explanation": "按十六进制位权换算，十进制101写作十六进制65。"
+    },
+    {
+      "id": "zh_tech_0403",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数102转换为二进制是多少？",
+      "answer": "1100110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100001",
+        "1100010",
+        "1100011"
+      ],
+      "explanation": "按二进制位权展开，十进制102写作二进制1100110。"
+    },
+    {
+      "id": "zh_tech_0404",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数102转换为十六进制是多少？",
+      "answer": "66",
+      "accepted_aliases": [],
+      "distractors": [
+        "6B",
+        "6C",
+        "60"
+      ],
+      "explanation": "按十六进制位权换算，十进制102写作十六进制66。"
+    },
+    {
+      "id": "zh_tech_0405",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数103转换为二进制是多少？",
+      "answer": "1100111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101000",
+        "1101001",
+        "1101010"
+      ],
+      "explanation": "按二进制位权展开，十进制103写作二进制1100111。"
+    },
+    {
+      "id": "zh_tech_0406",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数103转换为十六进制是多少？",
+      "answer": "67",
+      "accepted_aliases": [],
+      "distractors": [
+        "64",
+        "65",
+        "66"
+      ],
+      "explanation": "按十六进制位权换算，十进制103写作十六进制67。"
+    },
+    {
+      "id": "zh_tech_0407",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数104转换为二进制是多少？",
+      "answer": "1101000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101110",
+        "1100010",
+        "1100011"
+      ],
+      "explanation": "按二进制位权展开，十进制104写作二进制1101000。"
+    },
+    {
+      "id": "zh_tech_0408",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数104转换为十六进制是多少？",
+      "answer": "68",
+      "accepted_aliases": [],
+      "distractors": [
+        "6B",
+        "6C",
+        "6D"
+      ],
+      "explanation": "按十六进制位权换算，十进制104写作十六进制68。"
+    },
+    {
+      "id": "zh_tech_0409",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数105转换为二进制是多少？",
+      "answer": "1101001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100111",
+        "1101000",
+        "1101010"
+      ],
+      "explanation": "按二进制位权展开，十进制105写作二进制1101001。"
+    },
+    {
+      "id": "zh_tech_0410",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数105转换为十六进制是多少？",
+      "answer": "69",
+      "accepted_aliases": [],
+      "distractors": [
+        "64",
+        "65",
+        "66"
+      ],
+      "explanation": "按十六进制位权换算，十进制105写作十六进制69。"
+    },
+    {
+      "id": "zh_tech_0411",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数106转换为二进制是多少？",
+      "answer": "1101010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101110",
+        "1101111",
+        "1110000"
+      ],
+      "explanation": "按二进制位权展开，十进制106写作二进制1101010。"
+    },
+    {
+      "id": "zh_tech_0412",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数106转换为十六进制是多少？",
+      "answer": "6A",
+      "accepted_aliases": [],
+      "distractors": [
+        "6B",
+        "6C",
+        "6D"
+      ],
+      "explanation": "按十六进制位权换算，十进制106写作十六进制6A。"
+    },
+    {
+      "id": "zh_tech_0413",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数107转换为二进制是多少？",
+      "answer": "1101011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100111",
+        "1101000",
+        "1101001"
+      ],
+      "explanation": "按二进制位权展开，十进制107写作二进制1101011。"
+    },
+    {
+      "id": "zh_tech_0414",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数107转换为十六进制是多少？",
+      "answer": "6B",
+      "accepted_aliases": [],
+      "distractors": [
+        "71",
+        "65",
+        "66"
+      ],
+      "explanation": "按十六进制位权换算，十进制107写作十六进制6B。"
+    },
+    {
+      "id": "zh_tech_0415",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数108转换为二进制是多少？",
+      "answer": "1101100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101110",
+        "1101111",
+        "1110000"
+      ],
+      "explanation": "按二进制位权展开，十进制108写作二进制1101100。"
+    },
+    {
+      "id": "zh_tech_0416",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数108转换为十六进制是多少？",
+      "answer": "6C",
+      "accepted_aliases": [],
+      "distractors": [
+        "6A",
+        "6B",
+        "6D"
+      ],
+      "explanation": "按十六进制位权换算，十进制108写作十六进制6C。"
+    },
+    {
+      "id": "zh_tech_0417",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数109转换为二进制是多少？",
+      "answer": "1101101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100111",
+        "1101000",
+        "1101001"
+      ],
+      "explanation": "按二进制位权展开，十进制109写作二进制1101101。"
+    },
+    {
+      "id": "zh_tech_0418",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数109转换为十六进制是多少？",
+      "answer": "6D",
+      "accepted_aliases": [],
+      "distractors": [
+        "71",
+        "72",
+        "73"
+      ],
+      "explanation": "按十六进制位权换算，十进制109写作十六进制6D。"
+    },
+    {
+      "id": "zh_tech_0419",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数110转换为二进制是多少？",
+      "answer": "1101110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101101",
+        "1101111",
+        "1110000"
+      ],
+      "explanation": "按二进制位权展开，十进制110写作二进制1101110。"
+    },
+    {
+      "id": "zh_tech_0420",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数110转换为十六进制是多少？",
+      "answer": "6E",
+      "accepted_aliases": [],
+      "distractors": [
+        "6A",
+        "6B",
+        "6C"
+      ],
+      "explanation": "按十六进制位权换算，十进制110写作十六进制6E。"
+    },
+    {
+      "id": "zh_tech_0421",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数111转换为二进制是多少？",
+      "answer": "1101111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110100",
+        "1110101",
+        "1101001"
+      ],
+      "explanation": "按二进制位权展开，十进制111写作二进制1101111。"
+    },
+    {
+      "id": "zh_tech_0422",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数111转换为十六进制是多少？",
+      "answer": "6F",
+      "accepted_aliases": [],
+      "distractors": [
+        "71",
+        "72",
+        "73"
+      ],
+      "explanation": "按十六进制位权换算，十进制111写作十六进制6F。"
+    },
+    {
+      "id": "zh_tech_0423",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数112转换为二进制是多少？",
+      "answer": "1110000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101101",
+        "1101110",
+        "1101111"
+      ],
+      "explanation": "按二进制位权展开，十进制112写作二进制1110000。"
+    },
+    {
+      "id": "zh_tech_0424",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数112转换为十六进制是多少？",
+      "answer": "70",
+      "accepted_aliases": [],
+      "distractors": [
+        "6A",
+        "6B",
+        "6C"
+      ],
+      "explanation": "按十六进制位权换算，十进制112写作十六进制70。"
+    },
+    {
+      "id": "zh_tech_0425",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数113转换为二进制是多少？",
+      "answer": "1110001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110100",
+        "1110101",
+        "1110110"
+      ],
+      "explanation": "按二进制位权展开，十进制113写作二进制1110001。"
+    },
+    {
+      "id": "zh_tech_0426",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数113转换为十六进制是多少？",
+      "answer": "71",
+      "accepted_aliases": [],
+      "distractors": [
+        "70",
+        "72",
+        "73"
+      ],
+      "explanation": "按十六进制位权换算，十进制113写作十六进制71。"
+    },
+    {
+      "id": "zh_tech_0427",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数114转换为二进制是多少？",
+      "answer": "1110010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1101101",
+        "1101110",
+        "1101111"
+      ],
+      "explanation": "按二进制位权展开，十进制114写作二进制1110010。"
+    },
+    {
+      "id": "zh_tech_0428",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数114转换为十六进制是多少？",
+      "answer": "72",
+      "accepted_aliases": [],
+      "distractors": [
+        "77",
+        "78",
+        "6C"
+      ],
+      "explanation": "按十六进制位权换算，十进制114写作十六进制72。"
+    },
+    {
+      "id": "zh_tech_0429",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数115转换为二进制是多少？",
+      "answer": "1110011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110100",
+        "1110101",
+        "1110110"
+      ],
+      "explanation": "按二进制位权展开，十进制115写作二进制1110011。"
+    },
+    {
+      "id": "zh_tech_0430",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数115转换为十六进制是多少？",
+      "answer": "73",
+      "accepted_aliases": [],
+      "distractors": [
+        "70",
+        "71",
+        "72"
+      ],
+      "explanation": "按十六进制位权换算，十进制115写作十六进制73。"
+    },
+    {
+      "id": "zh_tech_0431",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数116转换为二进制是多少？",
+      "answer": "1110100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111010",
+        "1101110",
+        "1101111"
+      ],
+      "explanation": "按二进制位权展开，十进制116写作二进制1110100。"
+    },
+    {
+      "id": "zh_tech_0432",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数116转换为十六进制是多少？",
+      "answer": "74",
+      "accepted_aliases": [],
+      "distractors": [
+        "77",
+        "78",
+        "79"
+      ],
+      "explanation": "按十六进制位权换算，十进制116写作十六进制74。"
+    },
+    {
+      "id": "zh_tech_0433",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数117转换为二进制是多少？",
+      "answer": "1110101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110011",
+        "1110100",
+        "1110110"
+      ],
+      "explanation": "按二进制位权展开，十进制117写作二进制1110101。"
+    },
+    {
+      "id": "zh_tech_0434",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数117转换为十六进制是多少？",
+      "answer": "75",
+      "accepted_aliases": [],
+      "distractors": [
+        "70",
+        "71",
+        "72"
+      ],
+      "explanation": "按十六进制位权换算，十进制117写作十六进制75。"
+    },
+    {
+      "id": "zh_tech_0435",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数118转换为二进制是多少？",
+      "answer": "1110110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111010",
+        "1111011",
+        "1111100"
+      ],
+      "explanation": "按二进制位权展开，十进制118写作二进制1110110。"
+    },
+    {
+      "id": "zh_tech_0436",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数118转换为十六进制是多少？",
+      "answer": "76",
+      "accepted_aliases": [],
+      "distractors": [
+        "77",
+        "78",
+        "79"
+      ],
+      "explanation": "按十六进制位权换算，十进制118写作十六进制76。"
+    },
+    {
+      "id": "zh_tech_0437",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数119转换为二进制是多少？",
+      "answer": "1110111",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110011",
+        "1110100",
+        "1110101"
+      ],
+      "explanation": "按二进制位权展开，十进制119写作二进制1110111。"
+    },
+    {
+      "id": "zh_tech_0438",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数119转换为十六进制是多少？",
+      "answer": "77",
+      "accepted_aliases": [],
+      "distractors": [
+        "7D",
+        "71",
+        "72"
+      ],
+      "explanation": "按十六进制位权换算，十进制119写作十六进制77。"
+    },
+    {
+      "id": "zh_tech_0439",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数120转换为二进制是多少？",
+      "answer": "1111000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111010",
+        "1111011",
+        "1111100"
+      ],
+      "explanation": "按二进制位权展开，十进制120写作二进制1111000。"
+    },
+    {
+      "id": "zh_tech_0440",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数120转换为十六进制是多少？",
+      "answer": "78",
+      "accepted_aliases": [],
+      "distractors": [
+        "76",
+        "77",
+        "79"
+      ],
+      "explanation": "按十六进制位权换算，十进制120写作十六进制78。"
+    },
+    {
+      "id": "zh_tech_0441",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数121转换为二进制是多少？",
+      "answer": "1111001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1110011",
+        "1110100",
+        "1110101"
+      ],
+      "explanation": "按二进制位权展开，十进制121写作二进制1111001。"
+    },
+    {
+      "id": "zh_tech_0442",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数121转换为十六进制是多少？",
+      "answer": "79",
+      "accepted_aliases": [],
+      "distractors": [
+        "7D",
+        "7E",
+        "7F"
+      ],
+      "explanation": "按十六进制位权换算，十进制121写作十六进制79。"
+    },
+    {
+      "id": "zh_tech_0443",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数122转换为二进制是多少？",
+      "answer": "1111010",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111001",
+        "1111011",
+        "1111100"
+      ],
+      "explanation": "按二进制位权展开，十进制122写作二进制1111010。"
+    },
+    {
+      "id": "zh_tech_0444",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数122转换为十六进制是多少？",
+      "answer": "7A",
+      "accepted_aliases": [],
+      "distractors": [
+        "76",
+        "77",
+        "78"
+      ],
+      "explanation": "按十六进制位权换算，十进制122写作十六进制7A。"
+    },
+    {
+      "id": "zh_tech_0445",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数123转换为二进制是多少？",
+      "answer": "1111011",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000000",
+        "10000001",
+        "1110101"
+      ],
+      "explanation": "按二进制位权展开，十进制123写作二进制1111011。"
+    },
+    {
+      "id": "zh_tech_0446",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数123转换为十六进制是多少？",
+      "answer": "7B",
+      "accepted_aliases": [],
+      "distractors": [
+        "7D",
+        "7E",
+        "7F"
+      ],
+      "explanation": "按十六进制位权换算，十进制123写作十六进制7B。"
+    },
+    {
+      "id": "zh_tech_0447",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数124转换为二进制是多少？",
+      "answer": "1111100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111001",
+        "1111010",
+        "1111011"
+      ],
+      "explanation": "按二进制位权展开，十进制124写作二进制1111100。"
+    },
+    {
+      "id": "zh_tech_0448",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数124转换为十六进制是多少？",
+      "answer": "7C",
+      "accepted_aliases": [],
+      "distractors": [
+        "76",
+        "77",
+        "78"
+      ],
+      "explanation": "按十六进制位权换算，十进制124写作十六进制7C。"
+    },
+    {
+      "id": "zh_tech_0449",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数125转换为二进制是多少？",
+      "answer": "1111101",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000000",
+        "10000001",
+        "10000010"
+      ],
+      "explanation": "按二进制位权展开，十进制125写作二进制1111101。"
+    },
+    {
+      "id": "zh_tech_0450",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数125转换为十六进制是多少？",
+      "answer": "7D",
+      "accepted_aliases": [],
+      "distractors": [
+        "7C",
+        "7E",
+        "7F"
+      ],
+      "explanation": "按十六进制位权换算，十进制125写作十六进制7D。"
+    },
+    {
+      "id": "zh_tech_0451",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数126转换为二进制是多少？",
+      "answer": "1111110",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111001",
+        "1111010",
+        "1111011"
+      ],
+      "explanation": "按二进制位权展开，十进制126写作二进制1111110。"
+    },
+    {
+      "id": "zh_tech_0452",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数126转换为十六进制是多少？",
+      "answer": "7E",
+      "accepted_aliases": [],
+      "distractors": [
+        "83",
+        "84",
+        "78"
+      ],
+      "explanation": "按十六进制位权换算，十进制126写作十六进制7E。"
+    },
+    {
+      "id": "zh_tech_0453",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数127转换为二进制是多少？",
+      "answer": "1111111",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000000",
+        "10000001",
+        "10000010"
+      ],
+      "explanation": "按二进制位权展开，十进制127写作二进制1111111。"
+    },
+    {
+      "id": "zh_tech_0454",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数127转换为十六进制是多少？",
+      "answer": "7F",
+      "accepted_aliases": [],
+      "distractors": [
+        "7C",
+        "7D",
+        "7E"
+      ],
+      "explanation": "按十六进制位权换算，十进制127写作十六进制7F。"
+    },
+    {
+      "id": "zh_tech_0455",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数128转换为二进制是多少？",
+      "answer": "10000000",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000110",
+        "1111010",
+        "1111011"
+      ],
+      "explanation": "按二进制位权展开，十进制128写作二进制10000000。"
+    },
+    {
+      "id": "zh_tech_0456",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数128转换为十六进制是多少？",
+      "answer": "80",
+      "accepted_aliases": [],
+      "distractors": [
+        "83",
+        "84",
+        "85"
+      ],
+      "explanation": "按十六进制位权换算，十进制128写作十六进制80。"
+    },
+    {
+      "id": "zh_tech_0457",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数129转换为二进制是多少？",
+      "answer": "10000001",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111111",
+        "10000000",
+        "10000010"
+      ],
+      "explanation": "按二进制位权展开，十进制129写作二进制10000001。"
+    },
+    {
+      "id": "zh_tech_0458",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数129转换为十六进制是多少？",
+      "answer": "81",
+      "accepted_aliases": [],
+      "distractors": [
+        "7C",
+        "7D",
+        "7E"
+      ],
+      "explanation": "按十六进制位权换算，十进制129写作十六进制81。"
+    },
+    {
+      "id": "zh_tech_0459",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数130转换为二进制是多少？",
+      "answer": "10000010",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000110",
+        "10000111",
+        "10001000"
+      ],
+      "explanation": "按二进制位权展开，十进制130写作二进制10000010。"
+    },
+    {
+      "id": "zh_tech_0460",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数130转换为十六进制是多少？",
+      "answer": "82",
+      "accepted_aliases": [],
+      "distractors": [
+        "83",
+        "84",
+        "85"
+      ],
+      "explanation": "按十六进制位权换算，十进制130写作十六进制82。"
+    },
+    {
+      "id": "zh_tech_0461",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数131转换为二进制是多少？",
+      "answer": "10000011",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111111",
+        "10000000",
+        "10000001"
+      ],
+      "explanation": "按二进制位权展开，十进制131写作二进制10000011。"
+    },
+    {
+      "id": "zh_tech_0462",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数131转换为十六进制是多少？",
+      "answer": "83",
+      "accepted_aliases": [],
+      "distractors": [
+        "89",
+        "7D",
+        "7E"
+      ],
+      "explanation": "按十六进制位权换算，十进制131写作十六进制83。"
+    },
+    {
+      "id": "zh_tech_0463",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数132转换为二进制是多少？",
+      "answer": "10000100",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000110",
+        "10000111",
+        "10001000"
+      ],
+      "explanation": "按二进制位权展开，十进制132写作二进制10000100。"
+    },
+    {
+      "id": "zh_tech_0464",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数132转换为十六进制是多少？",
+      "answer": "84",
+      "accepted_aliases": [],
+      "distractors": [
+        "82",
+        "83",
+        "85"
+      ],
+      "explanation": "按十六进制位权换算，十进制132写作十六进制84。"
+    },
+    {
+      "id": "zh_tech_0465",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数133转换为二进制是多少？",
+      "answer": "10000101",
+      "accepted_aliases": [],
+      "distractors": [
+        "1111111",
+        "10000000",
+        "10000001"
+      ],
+      "explanation": "按二进制位权展开，十进制133写作二进制10000101。"
+    },
+    {
+      "id": "zh_tech_0466",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数133转换为十六进制是多少？",
+      "answer": "85",
+      "accepted_aliases": [],
+      "distractors": [
+        "89",
+        "8A",
+        "8B"
+      ],
+      "explanation": "按十六进制位权换算，十进制133写作十六进制85。"
+    },
+    {
+      "id": "zh_tech_0467",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数134转换为二进制是多少？",
+      "answer": "10000110",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000101",
+        "10000111",
+        "10001000"
+      ],
+      "explanation": "按二进制位权展开，十进制134写作二进制10000110。"
+    },
+    {
+      "id": "zh_tech_0468",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数134转换为十六进制是多少？",
+      "answer": "86",
+      "accepted_aliases": [],
+      "distractors": [
+        "82",
+        "83",
+        "84"
+      ],
+      "explanation": "按十六进制位权换算，十进制134写作十六进制86。"
+    },
+    {
+      "id": "zh_tech_0469",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数135转换为二进制是多少？",
+      "answer": "10000111",
+      "accepted_aliases": [],
+      "distractors": [
+        "10001100",
+        "10001101",
+        "10000001"
+      ],
+      "explanation": "按二进制位权展开，十进制135写作二进制10000111。"
+    },
+    {
+      "id": "zh_tech_0470",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数135转换为十六进制是多少？",
+      "answer": "87",
+      "accepted_aliases": [],
+      "distractors": [
+        "89",
+        "8A",
+        "8B"
+      ],
+      "explanation": "按十六进制位权换算，十进制135写作十六进制87。"
+    },
+    {
+      "id": "zh_tech_0471",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数136转换为二进制是多少？",
+      "answer": "10001000",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000101",
+        "10000110",
+        "10000111"
+      ],
+      "explanation": "按二进制位权展开，十进制136写作二进制10001000。"
+    },
+    {
+      "id": "zh_tech_0472",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数136转换为十六进制是多少？",
+      "answer": "88",
+      "accepted_aliases": [],
+      "distractors": [
+        "82",
+        "83",
+        "84"
+      ],
+      "explanation": "按十六进制位权换算，十进制136写作十六进制88。"
+    },
+    {
+      "id": "zh_tech_0473",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数137转换为二进制是多少？",
+      "answer": "10001001",
+      "accepted_aliases": [],
+      "distractors": [
+        "10001100",
+        "10001101",
+        "10001110"
+      ],
+      "explanation": "按二进制位权展开，十进制137写作二进制10001001。"
+    },
+    {
+      "id": "zh_tech_0474",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数137转换为十六进制是多少？",
+      "answer": "89",
+      "accepted_aliases": [],
+      "distractors": [
+        "88",
+        "8A",
+        "8B"
+      ],
+      "explanation": "按十六进制位权换算，十进制137写作十六进制89。"
+    },
+    {
+      "id": "zh_tech_0475",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数138转换为二进制是多少？",
+      "answer": "10001010",
+      "accepted_aliases": [],
+      "distractors": [
+        "10000101",
+        "10000110",
+        "10000111"
+      ],
+      "explanation": "按二进制位权展开，十进制138写作二进制10001010。"
+    },
+    {
+      "id": "zh_tech_0476",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数138转换为十六进制是多少？",
+      "answer": "8A",
+      "accepted_aliases": [],
+      "distractors": [
+        "8F",
+        "90",
+        "84"
+      ],
+      "explanation": "按十六进制位权换算，十进制138写作十六进制8A。"
+    },
+    {
+      "id": "zh_tech_0477",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数139转换为二进制是多少？",
+      "answer": "10001011",
+      "accepted_aliases": [],
+      "distractors": [
+        "10001100",
+        "10001101",
+        "10001110"
+      ],
+      "explanation": "按二进制位权展开，十进制139写作二进制10001011。"
+    },
+    {
+      "id": "zh_tech_0478",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数139转换为十六进制是多少？",
+      "answer": "8B",
+      "accepted_aliases": [],
+      "distractors": [
+        "88",
+        "89",
+        "8A"
+      ],
+      "explanation": "按十六进制位权换算，十进制139写作十六进制8B。"
+    },
+    {
+      "id": "zh_tech_0479",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数140转换为二进制是多少？",
+      "answer": "10001100",
+      "accepted_aliases": [],
+      "distractors": [
+        "10010010",
+        "10000110",
+        "10000111"
+      ],
+      "explanation": "按二进制位权展开，十进制140写作二进制10001100。"
+    },
+    {
+      "id": "zh_tech_0480",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数140转换为十六进制是多少？",
+      "answer": "8C",
+      "accepted_aliases": [],
+      "distractors": [
+        "8F",
+        "90",
+        "91"
+      ],
+      "explanation": "按十六进制位权换算，十进制140写作十六进制8C。"
+    },
+    {
+      "id": "zh_tech_0481",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数141转换为二进制是多少？",
+      "answer": "10001101",
+      "accepted_aliases": [],
+      "distractors": [
+        "10001011",
+        "10001100",
+        "10001110"
+      ],
+      "explanation": "按二进制位权展开，十进制141写作二进制10001101。"
+    },
+    {
+      "id": "zh_tech_0482",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数141转换为十六进制是多少？",
+      "answer": "8D",
+      "accepted_aliases": [],
+      "distractors": [
+        "88",
+        "89",
+        "8A"
+      ],
+      "explanation": "按十六进制位权换算，十进制141写作十六进制8D。"
+    },
+    {
+      "id": "zh_tech_0483",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数142转换为二进制是多少？",
+      "answer": "10001110",
+      "accepted_aliases": [],
+      "distractors": [
+        "10010010",
+        "10010011",
+        "10010100"
+      ],
+      "explanation": "按二进制位权展开，十进制142写作二进制10001110。"
+    },
+    {
+      "id": "zh_tech_0484",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数142转换为十六进制是多少？",
+      "answer": "8E",
+      "accepted_aliases": [],
+      "distractors": [
+        "8F",
+        "90",
+        "91"
+      ],
+      "explanation": "按十六进制位权换算，十进制142写作十六进制8E。"
+    },
+    {
+      "id": "zh_tech_0485",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数143转换为二进制是多少？",
+      "answer": "10001111",
+      "accepted_aliases": [],
+      "distractors": [
+        "10001011",
+        "10001100",
+        "10001101"
+      ],
+      "explanation": "按二进制位权展开，十进制143写作二进制10001111。"
+    },
+    {
+      "id": "zh_tech_0486",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数143转换为十六进制是多少？",
+      "answer": "8F",
+      "accepted_aliases": [],
+      "distractors": [
+        "95",
+        "89",
+        "8A"
+      ],
+      "explanation": "按十六进制位权换算，十进制143写作十六进制8F。"
+    },
+    {
+      "id": "zh_tech_0487",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数144转换为二进制是多少？",
+      "answer": "10010000",
+      "accepted_aliases": [],
+      "distractors": [
+        "10010010",
+        "10010011",
+        "10010100"
+      ],
+      "explanation": "按二进制位权展开，十进制144写作二进制10010000。"
+    },
+    {
+      "id": "zh_tech_0488",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数144转换为十六进制是多少？",
+      "answer": "90",
+      "accepted_aliases": [],
+      "distractors": [
+        "8E",
+        "8F",
+        "91"
+      ],
+      "explanation": "按十六进制位权换算，十进制144写作十六进制90。"
+    },
+    {
+      "id": "zh_tech_0489",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数145转换为二进制是多少？",
+      "answer": "10010001",
+      "accepted_aliases": [],
+      "distractors": [
+        "10001011",
+        "10001100",
+        "10001101"
+      ],
+      "explanation": "按二进制位权展开，十进制145写作二进制10010001。"
+    },
+    {
+      "id": "zh_tech_0490",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数145转换为十六进制是多少？",
+      "answer": "91",
+      "accepted_aliases": [],
+      "distractors": [
+        "95",
+        "96",
+        "97"
+      ],
+      "explanation": "按十六进制位权换算，十进制145写作十六进制91。"
+    },
+    {
+      "id": "zh_tech_0491",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数146转换为二进制是多少？",
+      "answer": "10010010",
+      "accepted_aliases": [],
+      "distractors": [
+        "10010001",
+        "10010011",
+        "10010100"
+      ],
+      "explanation": "按二进制位权展开，十进制146写作二进制10010010。"
+    },
+    {
+      "id": "zh_tech_0492",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数146转换为十六进制是多少？",
+      "answer": "92",
+      "accepted_aliases": [],
+      "distractors": [
+        "8E",
+        "8F",
+        "90"
+      ],
+      "explanation": "按十六进制位权换算，十进制146写作十六进制92。"
+    },
+    {
+      "id": "zh_tech_0493",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数147转换为二进制是多少？",
+      "answer": "10010011",
+      "accepted_aliases": [],
+      "distractors": [
+        "10011000",
+        "10011001",
+        "10001101"
+      ],
+      "explanation": "按二进制位权展开，十进制147写作二进制10010011。"
+    },
+    {
+      "id": "zh_tech_0494",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数147转换为十六进制是多少？",
+      "answer": "93",
+      "accepted_aliases": [],
+      "distractors": [
+        "95",
+        "96",
+        "97"
+      ],
+      "explanation": "按十六进制位权换算，十进制147写作十六进制93。"
+    },
+    {
+      "id": "zh_tech_0495",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数148转换为二进制是多少？",
+      "answer": "10010100",
+      "accepted_aliases": [],
+      "distractors": [
+        "10010001",
+        "10010010",
+        "10010011"
+      ],
+      "explanation": "按二进制位权展开，十进制148写作二进制10010100。"
+    },
+    {
+      "id": "zh_tech_0496",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数148转换为十六进制是多少？",
+      "answer": "94",
+      "accepted_aliases": [],
+      "distractors": [
+        "8E",
+        "8F",
+        "90"
+      ],
+      "explanation": "按十六进制位权换算，十进制148写作十六进制94。"
+    },
+    {
+      "id": "zh_tech_0497",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数149转换为二进制是多少？",
+      "answer": "10010101",
+      "accepted_aliases": [],
+      "distractors": [
+        "10011000",
+        "10011001",
+        "10011010"
+      ],
+      "explanation": "按二进制位权展开，十进制149写作二进制10010101。"
+    },
+    {
+      "id": "zh_tech_0498",
+      "category": "technology",
+      "difficulty": 3,
+      "stem": "十进制整数149转换为十六进制是多少？",
+      "answer": "95",
+      "accepted_aliases": [],
+      "distractors": [
+        "94",
+        "96",
+        "97"
+      ],
+      "explanation": "按十六进制位权换算，十进制149写作十六进制95。"
+    },
+    {
+      "id": "zh_tech_0499",
+      "category": "technology",
+      "difficulty": 1,
+      "stem": "十进制整数150转换为二进制是多少？",
+      "answer": "10010110",
+      "accepted_aliases": [],
+      "distractors": [
+        "10010001",
+        "10010010",
+        "10010011"
+      ],
+      "explanation": "按二进制位权展开，十进制150写作二进制10010110。"
+    },
+    {
+      "id": "zh_tech_0500",
+      "category": "technology",
+      "difficulty": 2,
+      "stem": "十进制整数150转换为十六进制是多少？",
+      "answer": "96",
+      "accepted_aliases": [],
+      "distractors": [
+        "9B",
+        "9C",
+        "90"
+      ],
+      "explanation": "按十六进制位权换算，十进制150写作十六进制96。"
+    }
+  ],
+  "signature": "CONTROLFREE_BUNDLED_LOCAL_V1"
+}

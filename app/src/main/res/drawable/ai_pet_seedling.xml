@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 高清矢量版小芽宠物：平滑曲线绘制，任意尺寸渲染均无锯齿；替代旧像素风位图。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="480"
+    android:viewportHeight="480">
+
+    <!-- 头顶嫩芽：茎 -->
+    <path
+        android:pathData="M240,116 C236,102 237,88 246,70"
+        android:strokeColor="#7EA83C"
+        android:strokeWidth="13"
+        android:strokeLineCap="round" />
+    <!-- 左叶 -->
+    <path
+        android:pathData="M244,78 C216,80 193,70 180,49 C198,33 228,39 242,62 C243.5,67 244,73 244,78 Z"
+        android:fillColor="#A6CE58"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <!-- 右叶 -->
+    <path
+        android:pathData="M250,78 C278,80 301,70 314,49 C296,33 266,39 252,62 C250.5,67 250,73 250,78 Z"
+        android:fillColor="#A6CE58"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+
+    <!-- 左臂 -->
+    <path
+        android:pathData="M110,328 a22,22 0 0 1 22,-22 a22,22 0 0 1 22,22 v48 a22,22 0 0 1 -22,22 a22,22 0 0 1 -22,-22 Z"
+        android:fillColor="#F3ECD6"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M112,338 h40 v16 h-40 Z"
+        android:fillColor="#8A8170" />
+    <path
+        android:pathData="M154,368 v8 a22,22 0 0 1 -22,22 a22,22 0 0 1 -22,-22 v-8 Z"
+        android:fillColor="#97C24E"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <!-- 右臂 -->
+    <path
+        android:pathData="M326,328 a22,22 0 0 1 22,-22 a22,22 0 0 1 22,22 v48 a22,22 0 0 1 -22,22 a22,22 0 0 1 -22,-22 Z"
+        android:fillColor="#F3ECD6"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M328,338 h40 v16 h-40 Z"
+        android:fillColor="#8A8170" />
+    <path
+        android:pathData="M370,368 v8 a22,22 0 0 1 -22,22 a22,22 0 0 1 -22,-22 v-8 Z"
+        android:fillColor="#97C24E"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+
+    <!-- 髋部连接 -->
+    <path
+        android:pathData="M214,400 a8,8 0 0 1 8,-8 h36 a8,8 0 0 1 8,8 v20 h-52 Z"
+        android:fillColor="#8A8170"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+
+    <!-- 左脚 -->
+    <path
+        android:pathData="M156,416 a18,18 0 0 1 18,-18 h32 a18,18 0 0 1 18,18 v18 a18,18 0 0 1 -18,18 h-32 a18,18 0 0 1 -18,-18 Z"
+        android:fillColor="#F3ECD6"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M224,434 a18,18 0 0 1 -18,18 h-32 a18,18 0 0 1 -18,-18 Z"
+        android:fillColor="#97C24E"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M206,411 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 Z"
+        android:fillColor="#97C24E" />
+    <!-- 右脚 -->
+    <path
+        android:pathData="M256,416 a18,18 0 0 1 18,-18 h32 a18,18 0 0 1 18,18 v18 a18,18 0 0 1 -18,18 h-32 a18,18 0 0 1 -18,-18 Z"
+        android:fillColor="#F3ECD6"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M324,434 a18,18 0 0 1 -18,18 h-32 a18,18 0 0 1 -18,-18 Z"
+        android:fillColor="#97C24E"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M262,411 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 Z"
+        android:fillColor="#97C24E" />
+
+    <!-- 躯干 -->
+    <path
+        android:pathData="M152,348 a56,56 0 0 1 56,-56 h64 a56,56 0 0 1 56,56 v8 a56,56 0 0 1 -56,56 h-64 a56,56 0 0 1 -56,-56 Z"
+        android:fillColor="#F3ECD6"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round" />
+    <!-- 左右肩甲 -->
+    <path
+        android:pathData="M152,318 a20,20 0 0 1 20,-20 h8 a20,20 0 0 1 20,20 v2 a20,20 0 0 1 -20,20 h-8 a20,20 0 0 1 -20,-20 Z"
+        android:fillColor="#97C24E"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M280,318 a20,20 0 0 1 20,-20 h8 a20,20 0 0 1 20,20 v2 a20,20 0 0 1 -20,20 h-8 a20,20 0 0 1 -20,-20 Z"
+        android:fillColor="#97C24E"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <!-- 胸口能量面板 -->
+    <path
+        android:pathData="M194,350 a26,26 0 0 1 26,-26 h40 a26,26 0 0 1 26,26 v18 a26,26 0 0 1 -26,26 h-40 a26,26 0 0 1 -26,-26 Z"
+        android:fillColor="#EBE3C9"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M206,352 a16,16 0 0 1 16,-16 h36 a16,16 0 0 1 16,16 v14 a16,16 0 0 1 -16,16 h-36 a16,16 0 0 1 -16,-16 Z"
+        android:fillColor="#4B4536" />
+    <path
+        android:pathData="M240,372 C231,365 220,359 220,349.5 C220,342.5 226,338 232.5,340 C236.5,341.2 239,344 240,347 C241,344 243.5,341.2 247.5,340 C254,338 260,342.5 260,349.5 C260,359 249,365 240,372 Z"
+        android:fillColor="#82E9A2" />
+
+    <!-- 左右耳罩 -->
+    <path
+        android:pathData="M84,212 a16,16 0 0 1 16,-16 h8 a16,16 0 0 1 16,16 v20 a16,16 0 0 1 -16,16 h-8 a16,16 0 0 1 -16,-16 Z"
+        android:fillColor="#E3D9BC"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M90,216 a6,6 0 0 1 6,-6 a6,6 0 0 1 6,6 v12 a6,6 0 0 1 -6,6 a6,6 0 0 1 -6,-6 Z"
+        android:fillColor="#97C24E" />
+    <path
+        android:pathData="M356,212 a16,16 0 0 1 16,-16 h8 a16,16 0 0 1 16,16 v20 a16,16 0 0 1 -16,16 h-8 a16,16 0 0 1 -16,-16 Z"
+        android:fillColor="#E3D9BC"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M378,216 a6,6 0 0 1 6,-6 a6,6 0 0 1 6,6 v12 a6,6 0 0 1 -6,6 a6,6 0 0 1 -6,-6 Z"
+        android:fillColor="#97C24E" />
+
+    <!-- 头部 -->
+    <path
+        android:pathData="M102,210 a90,90 0 0 1 90,-90 h96 a90,90 0 0 1 90,90 v6 a90,90 0 0 1 -90,90 h-96 a90,90 0 0 1 -90,-90 Z"
+        android:fillColor="#F3ECD6"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round" />
+    <!-- 头顶育苗槽 -->
+    <path
+        android:pathData="M206,110 a14,14 0 0 1 14,-14 h40 a14,14 0 0 1 14,14 v10 a14,14 0 0 1 -14,14 h-40 a14,14 0 0 1 -14,-14 Z"
+        android:fillColor="#E3D9BC"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M218,112 a22,8 0 1 0 44,0 a22,8 0 1 0 -44,0 Z"
+        android:fillColor="#5B5340" />
+
+    <!-- 面部边框与屏幕 -->
+    <path
+        android:pathData="M134,206 a48,48 0 0 1 48,-48 h116 a48,48 0 0 1 48,48 v28 a48,48 0 0 1 -48,48 h-116 a48,48 0 0 1 -48,-48 Z"
+        android:fillColor="#EBE3C9"
+        android:strokeColor="#4E4738"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M146,208 a38,38 0 0 1 38,-38 h112 a38,38 0 0 1 38,38 v24 a38,38 0 0 1 -38,38 h-112 a38,38 0 0 1 -38,-38 Z"
+        android:fillColor="#262B26" />
+
+    <!-- 眼睛 -->
+    <path
+        android:pathData="M180,216 a18,25 0 1 0 36,0 a18,25 0 1 0 -36,0 Z"
+        android:fillColor="#5E8F35" />
+    <path
+        android:pathData="M182,216 a16,23 0 1 0 32,0 a16,23 0 1 0 -32,0 Z"
+        android:fillColor="#A6DE64" />
+    <path
+        android:pathData="M185,205 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 Z"
+        android:fillColor="#E2F8B6" />
+    <path
+        android:pathData="M264,216 a18,25 0 1 0 36,0 a18,25 0 1 0 -36,0 Z"
+        android:fillColor="#5E8F35" />
+    <path
+        android:pathData="M266,216 a16,23 0 1 0 32,0 a16,23 0 1 0 -32,0 Z"
+        android:fillColor="#A6DE64" />
+    <path
+        android:pathData="M269,205 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 Z"
+        android:fillColor="#E2F8B6" />
+
+    <!-- 微笑 -->
+    <path
+        android:pathData="M224,248 Q240,260 256,248"
+        android:strokeColor="#A6DE64"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+</vector>

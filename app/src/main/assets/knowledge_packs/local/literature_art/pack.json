@@ -1,0 +1,7020 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "local_literature_art_v1",
+    "title": "文学艺术百科 500 题",
+    "version": 2,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1785024000,
+    "minimum_app_version_code": 17,
+    "question_count": 500,
+    "content_types": [
+      "knowledge_quiz",
+      "category_literature_art"
+    ],
+    "signing_key_id": "bundled_local_v1"
+  },
+  "facts": [
+    {
+      "id": "zh_art_0001",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《红楼梦》”对应的作者是什么？",
+      "answer": "曹雪芹",
+      "accepted_aliases": [],
+      "distractors": [
+        "钱钟书",
+        "老舍",
+        "巴金"
+      ],
+      "explanation": "《红楼梦》与曹雪芹是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0002",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“曹雪芹”？",
+      "answer": "《红楼梦》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《边城》",
+        "《围城》",
+        "《骆驼祥子》"
+      ],
+      "explanation": "在给出的选项中，《红楼梦》与曹雪芹正确对应。"
+    },
+    {
+      "id": "zh_art_0003",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《三国演义》”对应的作者是什么？",
+      "answer": "罗贯中",
+      "accepted_aliases": [],
+      "distractors": [
+        "张恨水",
+        "丁玲",
+        "周立波"
+      ],
+      "explanation": "《三国演义》与罗贯中是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0004",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“罗贯中”？",
+      "answer": "《三国演义》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《沉沦》",
+        "《金粉世家》",
+        "《太阳照在桑干河上》"
+      ],
+      "explanation": "在给出的选项中，《三国演义》与罗贯中正确对应。"
+    },
+    {
+      "id": "zh_art_0005",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《水浒传》”对应的作者是什么？",
+      "answer": "施耐庵",
+      "accepted_aliases": [],
+      "distractors": [
+        "福楼拜",
+        "司汤达",
+        "夏洛蒂·勃朗特"
+      ],
+      "explanation": "《水浒传》与施耐庵是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0006",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“施耐庵”？",
+      "answer": "《水浒传》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《变形记》",
+        "《包法利夫人》",
+        "《红与黑》"
+      ],
+      "explanation": "在给出的选项中，《水浒传》与施耐庵正确对应。"
+    },
+    {
+      "id": "zh_art_0007",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《西游记》”对应的作者是什么？",
+      "answer": "吴承恩",
+      "accepted_aliases": [],
+      "distractors": [
+        "尤奈斯库",
+        "君特·格拉斯",
+        "川端康成"
+      ],
+      "explanation": "《西游记》与吴承恩是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0008",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“吴承恩”？",
+      "answer": "《西游记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《等待戈多》",
+        "《秃头歌女》",
+        "《铁皮鼓》"
+      ],
+      "explanation": "在给出的选项中，《西游记》与吴承恩正确对应。"
+    },
+    {
+      "id": "zh_art_0009",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《儒林外史》”对应的作者是什么？",
+      "answer": "吴敬梓",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴金",
+        "曹禺",
+        "郭沫若"
+      ],
+      "explanation": "《儒林外史》与吴敬梓是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0010",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“吴敬梓”？",
+      "answer": "《儒林外史》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《骆驼祥子》",
+        "《家》",
+        "《雷雨》"
+      ],
+      "explanation": "在给出的选项中，《儒林外史》与吴敬梓正确对应。"
+    },
+    {
+      "id": "zh_art_0011",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《聊斋志异》”对应的作者是什么？",
+      "answer": "蒲松龄",
+      "accepted_aliases": [],
+      "distractors": [
+        "周立波",
+        "杜鹏程",
+        "莎士比亚"
+      ],
+      "explanation": "《聊斋志异》与蒲松龄是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0012",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“蒲松龄”？",
+      "answer": "《聊斋志异》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《太阳照在桑干河上》",
+        "《暴风骤雨》",
+        "《保卫延安》"
+      ],
+      "explanation": "在给出的选项中，《聊斋志异》与蒲松龄正确对应。"
+    },
+    {
+      "id": "zh_art_0013",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《呐喊》”对应的作者是什么？",
+      "answer": "鲁迅",
+      "accepted_aliases": [],
+      "distractors": [
+        "夏洛蒂·勃朗特",
+        "艾米莉·勃朗特",
+        "简·奥斯汀"
+      ],
+      "explanation": "《呐喊》与鲁迅是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0014",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“鲁迅”？",
+      "answer": "《呐喊》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《红与黑》",
+        "《简爱》",
+        "《呼啸山庄》"
+      ],
+      "explanation": "在给出的选项中，《呐喊》与鲁迅正确对应。"
+    },
+    {
+      "id": "zh_art_0015",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《边城》”对应的作者是什么？",
+      "answer": "沈从文",
+      "accepted_aliases": [],
+      "distractors": [
+        "川端康成",
+        "紫式部",
+        "夏目漱石"
+      ],
+      "explanation": "《边城》与沈从文是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0016",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“沈从文”？",
+      "answer": "《边城》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《铁皮鼓》",
+        "《雪国》",
+        "《源氏物语》"
+      ],
+      "explanation": "在给出的选项中，《边城》与沈从文正确对应。"
+    },
+    {
+      "id": "zh_art_0017",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《围城》”对应的作者是什么？",
+      "answer": "钱钟书",
+      "accepted_aliases": [],
+      "distractors": [
+        "郭沫若",
+        "茅盾",
+        "路遥"
+      ],
+      "explanation": "《围城》与钱钟书是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0018",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“钱钟书”？",
+      "answer": "《围城》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《雷雨》",
+        "《女神》",
+        "《子夜》"
+      ],
+      "explanation": "在给出的选项中，《围城》与钱钟书正确对应。"
+    },
+    {
+      "id": "zh_art_0019",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《骆驼祥子》”对应的作者是什么？",
+      "answer": "老舍",
+      "accepted_aliases": [],
+      "distractors": [
+        "莎士比亚",
+        "歌德",
+        "雨果"
+      ],
+      "explanation": "《骆驼祥子》与老舍是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0020",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“老舍”？",
+      "answer": "《骆驼祥子》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《保卫延安》",
+        "《哈姆雷特》",
+        "《浮士德》"
+      ],
+      "explanation": "在给出的选项中，《骆驼祥子》与老舍正确对应。"
+    },
+    {
+      "id": "zh_art_0021",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《家》”对应的作者是什么？",
+      "answer": "巴金",
+      "accepted_aliases": [],
+      "distractors": [
+        "简·奥斯汀",
+        "笛福",
+        "斯威夫特"
+      ],
+      "explanation": "《家》与巴金是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0022",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“巴金”？",
+      "answer": "《家》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《呼啸山庄》",
+        "《傲慢与偏见》",
+        "《鲁滨逊漂流记》"
+      ],
+      "explanation": "在给出的选项中，《家》与巴金正确对应。"
+    },
+    {
+      "id": "zh_art_0023",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《雷雨》”对应的作者是什么？",
+      "answer": "曹禺",
+      "accepted_aliases": [],
+      "distractors": [
+        "夏目漱石",
+        "芥川龙之介",
+        "村上春树"
+      ],
+      "explanation": "《雷雨》与曹禺是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0024",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“曹禺”？",
+      "answer": "《雷雨》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《源氏物语》",
+        "《我是猫》",
+        "《罗生门》"
+      ],
+      "explanation": "在给出的选项中，《雷雨》与曹禺正确对应。"
+    },
+    {
+      "id": "zh_art_0025",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《女神》”对应的作者是什么？",
+      "answer": "郭沫若",
+      "accepted_aliases": [],
+      "distractors": [
+        "路遥",
+        "陈忠实",
+        "阿来"
+      ],
+      "explanation": "《女神》与郭沫若是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0026",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“郭沫若”？",
+      "answer": "《女神》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《子夜》",
+        "《平凡的世界》",
+        "《白鹿原》"
+      ],
+      "explanation": "在给出的选项中，《女神》与郭沫若正确对应。"
+    },
+    {
+      "id": "zh_art_0027",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《子夜》”对应的作者是什么？",
+      "answer": "茅盾",
+      "accepted_aliases": [],
+      "distractors": [
+        "雨果",
+        "狄更斯",
+        "托尔斯泰"
+      ],
+      "explanation": "《子夜》与茅盾是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0028",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“茅盾”？",
+      "answer": "《子夜》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《浮士德》",
+        "《巴黎圣母院》",
+        "《双城记》"
+      ],
+      "explanation": "在给出的选项中，《子夜》与茅盾正确对应。"
+    },
+    {
+      "id": "zh_art_0029",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《平凡的世界》”对应的作者是什么？",
+      "answer": "路遥",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯威夫特",
+        "普希金",
+        "肖洛霍夫"
+      ],
+      "explanation": "《平凡的世界》与路遥是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0030",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“路遥”？",
+      "answer": "《平凡的世界》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《鲁滨逊漂流记》",
+        "《格列佛游记》",
+        "《叶甫盖尼·奥涅金》"
+      ],
+      "explanation": "在给出的选项中，《平凡的世界》与路遥正确对应。"
+    },
+    {
+      "id": "zh_art_0031",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《白鹿原》”对应的作者是什么？",
+      "answer": "陈忠实",
+      "accepted_aliases": [],
+      "distractors": [
+        "村上春树",
+        "泰戈尔",
+        "曹雪芹"
+      ],
+      "explanation": "《白鹿原》与陈忠实是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0032",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“陈忠实”？",
+      "answer": "《白鹿原》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《罗生门》",
+        "《挪威的森林》",
+        "《飞鸟集》"
+      ],
+      "explanation": "在给出的选项中，《白鹿原》与陈忠实正确对应。"
+    },
+    {
+      "id": "zh_art_0033",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《尘埃落定》”对应的作者是什么？",
+      "answer": "阿来",
+      "accepted_aliases": [],
+      "distractors": [
+        "陈忠实",
+        "冰心",
+        "孙犁"
+      ],
+      "explanation": "《尘埃落定》与阿来是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0034",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“阿来”？",
+      "answer": "《尘埃落定》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《平凡的世界》",
+        "《白鹿原》",
+        "《繁星》"
+      ],
+      "explanation": "在给出的选项中，《尘埃落定》与阿来正确对应。"
+    },
+    {
+      "id": "zh_art_0035",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《繁星》”对应的作者是什么？",
+      "answer": "冰心",
+      "accepted_aliases": [],
+      "distractors": [
+        "托尔斯泰",
+        "陀思妥耶夫斯基",
+        "海明威"
+      ],
+      "explanation": "《繁星》与冰心是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0036",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“冰心”？",
+      "answer": "《繁星》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《双城记》",
+        "《战争与和平》",
+        "《罪与罚》"
+      ],
+      "explanation": "在给出的选项中，《繁星》与冰心正确对应。"
+    },
+    {
+      "id": "zh_art_0037",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《荷花淀》”对应的作者是什么？",
+      "answer": "孙犁",
+      "accepted_aliases": [],
+      "distractors": [
+        "肖洛霍夫",
+        "高尔基",
+        "加缪"
+      ],
+      "explanation": "《荷花淀》与孙犁是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0038",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“孙犁”？",
+      "answer": "《荷花淀》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《叶甫盖尼·奥涅金》",
+        "《静静的顿河》",
+        "《母亲》"
+      ],
+      "explanation": "在给出的选项中，《荷花淀》与孙犁正确对应。"
+    },
+    {
+      "id": "zh_art_0039",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《青春之歌》”对应的作者是什么？",
+      "answer": "杨沫",
+      "accepted_aliases": [],
+      "distractors": [
+        "曹雪芹",
+        "罗贯中",
+        "施耐庵"
+      ],
+      "explanation": "《青春之歌》与杨沫是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0040",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“杨沫”？",
+      "answer": "《青春之歌》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《飞鸟集》",
+        "《红楼梦》",
+        "《三国演义》"
+      ],
+      "explanation": "在给出的选项中，《青春之歌》与杨沫正确对应。"
+    },
+    {
+      "id": "zh_art_0041",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《林海雪原》”对应的作者是什么？",
+      "answer": "曲波",
+      "accepted_aliases": [],
+      "distractors": [
+        "冰心",
+        "孙犁",
+        "杨沫"
+      ],
+      "explanation": "《林海雪原》与曲波是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0042",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“曲波”？",
+      "answer": "《林海雪原》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《尘埃落定》",
+        "《繁星》",
+        "《荷花淀》"
+      ],
+      "explanation": "在给出的选项中，《林海雪原》与曲波正确对应。"
+    },
+    {
+      "id": "zh_art_0043",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《红岩》”对应的作者是什么？",
+      "answer": "罗广斌、杨益言",
+      "accepted_aliases": [],
+      "distractors": [
+        "海明威",
+        "马尔克斯",
+        "塞万提斯"
+      ],
+      "explanation": "《红岩》与罗广斌、杨益言是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0044",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“罗广斌、杨益言”？",
+      "answer": "《红岩》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《罪与罚》",
+        "《老人与海》",
+        "《百年孤独》"
+      ],
+      "explanation": "在给出的选项中，《红岩》与罗广斌、杨益言正确对应。"
+    },
+    {
+      "id": "zh_art_0045",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《创业史》”对应的作者是什么？",
+      "answer": "柳青",
+      "accepted_aliases": [],
+      "distractors": [
+        "加缪",
+        "普鲁斯特",
+        "乔伊斯"
+      ],
+      "explanation": "《创业史》与柳青是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0046",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“柳青”？",
+      "answer": "《创业史》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《母亲》",
+        "《局外人》",
+        "《追忆似水年华》"
+      ],
+      "explanation": "在给出的选项中，《创业史》与柳青正确对应。"
+    },
+    {
+      "id": "zh_art_0047",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《呼兰河传》”对应的作者是什么？",
+      "answer": "萧红",
+      "accepted_aliases": [],
+      "distractors": [
+        "施耐庵",
+        "吴承恩",
+        "吴敬梓"
+      ],
+      "explanation": "《呼兰河传》与萧红是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0048",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“萧红”？",
+      "answer": "《呼兰河传》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《三国演义》",
+        "《水浒传》",
+        "《西游记》"
+      ],
+      "explanation": "在给出的选项中，《呼兰河传》与萧红正确对应。"
+    },
+    {
+      "id": "zh_art_0049",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《沉沦》”对应的作者是什么？",
+      "answer": "郁达夫",
+      "accepted_aliases": [],
+      "distractors": [
+        "杨沫",
+        "曲波",
+        "罗广斌、杨益言"
+      ],
+      "explanation": "《沉沦》与郁达夫是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0050",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“郁达夫”？",
+      "answer": "《沉沦》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《荷花淀》",
+        "《青春之歌》",
+        "《林海雪原》"
+      ],
+      "explanation": "在给出的选项中，《沉沦》与郁达夫正确对应。"
+    },
+    {
+      "id": "zh_art_0051",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《金粉世家》”对应的作者是什么？",
+      "answer": "张恨水",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞万提斯",
+        "但丁",
+        "荷马"
+      ],
+      "explanation": "《金粉世家》与张恨水是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0052",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“张恨水”？",
+      "answer": "《金粉世家》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《百年孤独》",
+        "《堂吉诃德》",
+        "《神曲》"
+      ],
+      "explanation": "在给出的选项中，《金粉世家》与张恨水正确对应。"
+    },
+    {
+      "id": "zh_art_0053",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《太阳照在桑干河上》”对应的作者是什么？",
+      "answer": "丁玲",
+      "accepted_aliases": [],
+      "distractors": [
+        "乔伊斯",
+        "梭罗",
+        "惠特曼"
+      ],
+      "explanation": "《太阳照在桑干河上》与丁玲是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0054",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“丁玲”？",
+      "answer": "《太阳照在桑干河上》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《追忆似水年华》",
+        "《尤利西斯》",
+        "《瓦尔登湖》"
+      ],
+      "explanation": "在给出的选项中，《太阳照在桑干河上》与丁玲正确对应。"
+    },
+    {
+      "id": "zh_art_0055",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《暴风骤雨》”对应的作者是什么？",
+      "answer": "周立波",
+      "accepted_aliases": [],
+      "distractors": [
+        "吴敬梓",
+        "蒲松龄",
+        "鲁迅"
+      ],
+      "explanation": "《暴风骤雨》与周立波是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0056",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“周立波”？",
+      "answer": "《暴风骤雨》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《西游记》",
+        "《儒林外史》",
+        "《聊斋志异》"
+      ],
+      "explanation": "在给出的选项中，《暴风骤雨》与周立波正确对应。"
+    },
+    {
+      "id": "zh_art_0057",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《保卫延安》”对应的作者是什么？",
+      "answer": "杜鹏程",
+      "accepted_aliases": [],
+      "distractors": [
+        "罗广斌、杨益言",
+        "柳青",
+        "萧红"
+      ],
+      "explanation": "《保卫延安》与杜鹏程是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0058",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“杜鹏程”？",
+      "answer": "《保卫延安》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《林海雪原》",
+        "《红岩》",
+        "《创业史》"
+      ],
+      "explanation": "在给出的选项中，《保卫延安》与杜鹏程正确对应。"
+    },
+    {
+      "id": "zh_art_0059",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《哈姆雷特》”对应的作者是什么？",
+      "answer": "莎士比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "荷马",
+        "易卜生",
+        "卡夫卡"
+      ],
+      "explanation": "《哈姆雷特》与莎士比亚是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0060",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“莎士比亚”？",
+      "answer": "《哈姆雷特》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《神曲》",
+        "《伊利亚特》",
+        "《玩偶之家》"
+      ],
+      "explanation": "在给出的选项中，《哈姆雷特》与莎士比亚正确对应。"
+    },
+    {
+      "id": "zh_art_0061",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《浮士德》”对应的作者是什么？",
+      "answer": "歌德",
+      "accepted_aliases": [],
+      "distractors": [
+        "惠特曼",
+        "波德莱尔",
+        "贝克特"
+      ],
+      "explanation": "《浮士德》与歌德是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0062",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“歌德”？",
+      "answer": "《浮士德》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《瓦尔登湖》",
+        "《草叶集》",
+        "《恶之花》"
+      ],
+      "explanation": "在给出的选项中，《浮士德》与歌德正确对应。"
+    },
+    {
+      "id": "zh_art_0063",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《巴黎圣母院》”对应的作者是什么？",
+      "answer": "雨果",
+      "accepted_aliases": [],
+      "distractors": [
+        "鲁迅",
+        "沈从文",
+        "钱钟书"
+      ],
+      "explanation": "《巴黎圣母院》与雨果是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0064",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“雨果”？",
+      "answer": "《巴黎圣母院》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《聊斋志异》",
+        "《呐喊》",
+        "《边城》"
+      ],
+      "explanation": "在给出的选项中，《巴黎圣母院》与雨果正确对应。"
+    },
+    {
+      "id": "zh_art_0065",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《双城记》”对应的作者是什么？",
+      "answer": "狄更斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "萧红",
+        "郁达夫",
+        "张恨水"
+      ],
+      "explanation": "《双城记》与狄更斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0066",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“狄更斯”？",
+      "answer": "《双城记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《创业史》",
+        "《呼兰河传》",
+        "《沉沦》"
+      ],
+      "explanation": "在给出的选项中，《双城记》与狄更斯正确对应。"
+    },
+    {
+      "id": "zh_art_0067",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《战争与和平》”对应的作者是什么？",
+      "answer": "托尔斯泰",
+      "accepted_aliases": [],
+      "distractors": [
+        "卡夫卡",
+        "福楼拜",
+        "司汤达"
+      ],
+      "explanation": "《战争与和平》与托尔斯泰是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0068",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“托尔斯泰”？",
+      "answer": "《战争与和平》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《玩偶之家》",
+        "《变形记》",
+        "《包法利夫人》"
+      ],
+      "explanation": "在给出的选项中，《战争与和平》与托尔斯泰正确对应。"
+    },
+    {
+      "id": "zh_art_0069",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《罪与罚》”对应的作者是什么？",
+      "answer": "陀思妥耶夫斯基",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝克特",
+        "尤奈斯库",
+        "君特·格拉斯"
+      ],
+      "explanation": "《罪与罚》与陀思妥耶夫斯基是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0070",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“陀思妥耶夫斯基”？",
+      "answer": "《罪与罚》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《恶之花》",
+        "《等待戈多》",
+        "《秃头歌女》"
+      ],
+      "explanation": "在给出的选项中，《罪与罚》与陀思妥耶夫斯基正确对应。"
+    },
+    {
+      "id": "zh_art_0071",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《老人与海》”对应的作者是什么？",
+      "answer": "海明威",
+      "accepted_aliases": [],
+      "distractors": [
+        "钱钟书",
+        "老舍",
+        "巴金"
+      ],
+      "explanation": "《老人与海》与海明威是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0072",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“海明威”？",
+      "answer": "《老人与海》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《边城》",
+        "《围城》",
+        "《骆驼祥子》"
+      ],
+      "explanation": "在给出的选项中，《老人与海》与海明威正确对应。"
+    },
+    {
+      "id": "zh_art_0073",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《百年孤独》”对应的作者是什么？",
+      "answer": "马尔克斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "张恨水",
+        "丁玲",
+        "周立波"
+      ],
+      "explanation": "《百年孤独》与马尔克斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0074",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“马尔克斯”？",
+      "answer": "《百年孤独》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《沉沦》",
+        "《金粉世家》",
+        "《太阳照在桑干河上》"
+      ],
+      "explanation": "在给出的选项中，《百年孤独》与马尔克斯正确对应。"
+    },
+    {
+      "id": "zh_art_0075",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《堂吉诃德》”对应的作者是什么？",
+      "answer": "塞万提斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "司汤达",
+        "夏洛蒂·勃朗特",
+        "艾米莉·勃朗特"
+      ],
+      "explanation": "《堂吉诃德》与塞万提斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0076",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“塞万提斯”？",
+      "answer": "《堂吉诃德》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《包法利夫人》",
+        "《红与黑》",
+        "《简爱》"
+      ],
+      "explanation": "在给出的选项中，《堂吉诃德》与塞万提斯正确对应。"
+    },
+    {
+      "id": "zh_art_0077",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《神曲》”对应的作者是什么？",
+      "answer": "但丁",
+      "accepted_aliases": [],
+      "distractors": [
+        "君特·格拉斯",
+        "川端康成",
+        "紫式部"
+      ],
+      "explanation": "《神曲》与但丁是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0078",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“但丁”？",
+      "answer": "《神曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《秃头歌女》",
+        "《铁皮鼓》",
+        "《雪国》"
+      ],
+      "explanation": "在给出的选项中，《神曲》与但丁正确对应。"
+    },
+    {
+      "id": "zh_art_0079",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《伊利亚特》”对应的作者是什么？",
+      "answer": "荷马",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴金",
+        "曹禺",
+        "郭沫若"
+      ],
+      "explanation": "《伊利亚特》与荷马是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0080",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“荷马”？",
+      "answer": "《伊利亚特》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《骆驼祥子》",
+        "《家》",
+        "《雷雨》"
+      ],
+      "explanation": "在给出的选项中，《伊利亚特》与荷马正确对应。"
+    },
+    {
+      "id": "zh_art_0081",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《玩偶之家》”对应的作者是什么？",
+      "answer": "易卜生",
+      "accepted_aliases": [],
+      "distractors": [
+        "周立波",
+        "杜鹏程",
+        "莎士比亚"
+      ],
+      "explanation": "《玩偶之家》与易卜生是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0082",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“易卜生”？",
+      "answer": "《玩偶之家》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《太阳照在桑干河上》",
+        "《暴风骤雨》",
+        "《保卫延安》"
+      ],
+      "explanation": "在给出的选项中，《玩偶之家》与易卜生正确对应。"
+    },
+    {
+      "id": "zh_art_0083",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《变形记》”对应的作者是什么？",
+      "answer": "卡夫卡",
+      "accepted_aliases": [],
+      "distractors": [
+        "艾米莉·勃朗特",
+        "简·奥斯汀",
+        "笛福"
+      ],
+      "explanation": "《变形记》与卡夫卡是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0084",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“卡夫卡”？",
+      "answer": "《变形记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《简爱》",
+        "《呼啸山庄》",
+        "《傲慢与偏见》"
+      ],
+      "explanation": "在给出的选项中，《变形记》与卡夫卡正确对应。"
+    },
+    {
+      "id": "zh_art_0085",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《包法利夫人》”对应的作者是什么？",
+      "answer": "福楼拜",
+      "accepted_aliases": [],
+      "distractors": [
+        "紫式部",
+        "夏目漱石",
+        "芥川龙之介"
+      ],
+      "explanation": "《包法利夫人》与福楼拜是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0086",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“福楼拜”？",
+      "answer": "《包法利夫人》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《雪国》",
+        "《源氏物语》",
+        "《我是猫》"
+      ],
+      "explanation": "在给出的选项中，《包法利夫人》与福楼拜正确对应。"
+    },
+    {
+      "id": "zh_art_0087",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《红与黑》”对应的作者是什么？",
+      "answer": "司汤达",
+      "accepted_aliases": [],
+      "distractors": [
+        "郭沫若",
+        "茅盾",
+        "路遥"
+      ],
+      "explanation": "《红与黑》与司汤达是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0088",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“司汤达”？",
+      "answer": "《红与黑》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《雷雨》",
+        "《女神》",
+        "《子夜》"
+      ],
+      "explanation": "在给出的选项中，《红与黑》与司汤达正确对应。"
+    },
+    {
+      "id": "zh_art_0089",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《简爱》”对应的作者是什么？",
+      "answer": "夏洛蒂·勃朗特",
+      "accepted_aliases": [],
+      "distractors": [
+        "莎士比亚",
+        "歌德",
+        "雨果"
+      ],
+      "explanation": "《简爱》与夏洛蒂·勃朗特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0090",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“夏洛蒂·勃朗特”？",
+      "answer": "《简爱》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《保卫延安》",
+        "《哈姆雷特》",
+        "《浮士德》"
+      ],
+      "explanation": "在给出的选项中，《简爱》与夏洛蒂·勃朗特正确对应。"
+    },
+    {
+      "id": "zh_art_0091",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《呼啸山庄》”对应的作者是什么？",
+      "answer": "艾米莉·勃朗特",
+      "accepted_aliases": [],
+      "distractors": [
+        "笛福",
+        "斯威夫特",
+        "普希金"
+      ],
+      "explanation": "《呼啸山庄》与艾米莉·勃朗特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0092",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“艾米莉·勃朗特”？",
+      "answer": "《呼啸山庄》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《傲慢与偏见》",
+        "《鲁滨逊漂流记》",
+        "《格列佛游记》"
+      ],
+      "explanation": "在给出的选项中，《呼啸山庄》与艾米莉·勃朗特正确对应。"
+    },
+    {
+      "id": "zh_art_0093",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《傲慢与偏见》”对应的作者是什么？",
+      "answer": "简·奥斯汀",
+      "accepted_aliases": [],
+      "distractors": [
+        "芥川龙之介",
+        "村上春树",
+        "泰戈尔"
+      ],
+      "explanation": "《傲慢与偏见》与简·奥斯汀是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0094",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“简·奥斯汀”？",
+      "answer": "《傲慢与偏见》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《我是猫》",
+        "《罗生门》",
+        "《挪威的森林》"
+      ],
+      "explanation": "在给出的选项中，《傲慢与偏见》与简·奥斯汀正确对应。"
+    },
+    {
+      "id": "zh_art_0095",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《鲁滨逊漂流记》”对应的作者是什么？",
+      "answer": "笛福",
+      "accepted_aliases": [],
+      "distractors": [
+        "路遥",
+        "陈忠实",
+        "阿来"
+      ],
+      "explanation": "《鲁滨逊漂流记》与笛福是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0096",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“笛福”？",
+      "answer": "《鲁滨逊漂流记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《子夜》",
+        "《平凡的世界》",
+        "《白鹿原》"
+      ],
+      "explanation": "在给出的选项中，《鲁滨逊漂流记》与笛福正确对应。"
+    },
+    {
+      "id": "zh_art_0097",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《格列佛游记》”对应的作者是什么？",
+      "answer": "斯威夫特",
+      "accepted_aliases": [],
+      "distractors": [
+        "雨果",
+        "狄更斯",
+        "托尔斯泰"
+      ],
+      "explanation": "《格列佛游记》与斯威夫特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0098",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“斯威夫特”？",
+      "answer": "《格列佛游记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《浮士德》",
+        "《巴黎圣母院》",
+        "《双城记》"
+      ],
+      "explanation": "在给出的选项中，《格列佛游记》与斯威夫特正确对应。"
+    },
+    {
+      "id": "zh_art_0099",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《叶甫盖尼·奥涅金》”对应的作者是什么？",
+      "answer": "普希金",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯威夫特",
+        "肖洛霍夫",
+        "高尔基"
+      ],
+      "explanation": "《叶甫盖尼·奥涅金》与普希金是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0100",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“普希金”？",
+      "answer": "《叶甫盖尼·奥涅金》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《鲁滨逊漂流记》",
+        "《格列佛游记》",
+        "《静静的顿河》"
+      ],
+      "explanation": "在给出的选项中，《叶甫盖尼·奥涅金》与普希金正确对应。"
+    },
+    {
+      "id": "zh_art_0101",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《静静的顿河》”对应的作者是什么？",
+      "answer": "肖洛霍夫",
+      "accepted_aliases": [],
+      "distractors": [
+        "泰戈尔",
+        "曹雪芹",
+        "罗贯中"
+      ],
+      "explanation": "《静静的顿河》与肖洛霍夫是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0102",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“肖洛霍夫”？",
+      "answer": "《静静的顿河》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《挪威的森林》",
+        "《飞鸟集》",
+        "《红楼梦》"
+      ],
+      "explanation": "在给出的选项中，《静静的顿河》与肖洛霍夫正确对应。"
+    },
+    {
+      "id": "zh_art_0103",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《母亲》”对应的作者是什么？",
+      "answer": "高尔基",
+      "accepted_aliases": [],
+      "distractors": [
+        "阿来",
+        "冰心",
+        "孙犁"
+      ],
+      "explanation": "《母亲》与高尔基是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0104",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“高尔基”？",
+      "answer": "《母亲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《白鹿原》",
+        "《尘埃落定》",
+        "《繁星》"
+      ],
+      "explanation": "在给出的选项中，《母亲》与高尔基正确对应。"
+    },
+    {
+      "id": "zh_art_0105",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《局外人》”对应的作者是什么？",
+      "answer": "加缪",
+      "accepted_aliases": [],
+      "distractors": [
+        "托尔斯泰",
+        "陀思妥耶夫斯基",
+        "海明威"
+      ],
+      "explanation": "《局外人》与加缪是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0106",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“加缪”？",
+      "answer": "《局外人》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《双城记》",
+        "《战争与和平》",
+        "《罪与罚》"
+      ],
+      "explanation": "在给出的选项中，《局外人》与加缪正确对应。"
+    },
+    {
+      "id": "zh_art_0107",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《追忆似水年华》”对应的作者是什么？",
+      "answer": "普鲁斯特",
+      "accepted_aliases": [],
+      "distractors": [
+        "肖洛霍夫",
+        "高尔基",
+        "加缪"
+      ],
+      "explanation": "《追忆似水年华》与普鲁斯特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0108",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“普鲁斯特”？",
+      "answer": "《追忆似水年华》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《叶甫盖尼·奥涅金》",
+        "《静静的顿河》",
+        "《母亲》"
+      ],
+      "explanation": "在给出的选项中，《追忆似水年华》与普鲁斯特正确对应。"
+    },
+    {
+      "id": "zh_art_0109",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《尤利西斯》”对应的作者是什么？",
+      "answer": "乔伊斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "罗贯中",
+        "施耐庵",
+        "吴承恩"
+      ],
+      "explanation": "《尤利西斯》与乔伊斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0110",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“乔伊斯”？",
+      "answer": "《尤利西斯》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《红楼梦》",
+        "《三国演义》",
+        "《水浒传》"
+      ],
+      "explanation": "在给出的选项中，《尤利西斯》与乔伊斯正确对应。"
+    },
+    {
+      "id": "zh_art_0111",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《瓦尔登湖》”对应的作者是什么？",
+      "answer": "梭罗",
+      "accepted_aliases": [],
+      "distractors": [
+        "孙犁",
+        "杨沫",
+        "曲波"
+      ],
+      "explanation": "《瓦尔登湖》与梭罗是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0112",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“梭罗”？",
+      "answer": "《瓦尔登湖》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《繁星》",
+        "《荷花淀》",
+        "《青春之歌》"
+      ],
+      "explanation": "在给出的选项中，《瓦尔登湖》与梭罗正确对应。"
+    },
+    {
+      "id": "zh_art_0113",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《草叶集》”对应的作者是什么？",
+      "answer": "惠特曼",
+      "accepted_aliases": [],
+      "distractors": [
+        "海明威",
+        "马尔克斯",
+        "塞万提斯"
+      ],
+      "explanation": "《草叶集》与惠特曼是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0114",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“惠特曼”？",
+      "answer": "《草叶集》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《罪与罚》",
+        "《老人与海》",
+        "《百年孤独》"
+      ],
+      "explanation": "在给出的选项中，《草叶集》与惠特曼正确对应。"
+    },
+    {
+      "id": "zh_art_0115",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《恶之花》”对应的作者是什么？",
+      "answer": "波德莱尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "加缪",
+        "普鲁斯特",
+        "乔伊斯"
+      ],
+      "explanation": "《恶之花》与波德莱尔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0116",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“波德莱尔”？",
+      "answer": "《恶之花》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《母亲》",
+        "《局外人》",
+        "《追忆似水年华》"
+      ],
+      "explanation": "在给出的选项中，《恶之花》与波德莱尔正确对应。"
+    },
+    {
+      "id": "zh_art_0117",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《等待戈多》”对应的作者是什么？",
+      "answer": "贝克特",
+      "accepted_aliases": [],
+      "distractors": [
+        "吴承恩",
+        "吴敬梓",
+        "蒲松龄"
+      ],
+      "explanation": "《等待戈多》与贝克特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0118",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“贝克特”？",
+      "answer": "《等待戈多》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《水浒传》",
+        "《西游记》",
+        "《儒林外史》"
+      ],
+      "explanation": "在给出的选项中，《等待戈多》与贝克特正确对应。"
+    },
+    {
+      "id": "zh_art_0119",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《秃头歌女》”对应的作者是什么？",
+      "answer": "尤奈斯库",
+      "accepted_aliases": [],
+      "distractors": [
+        "曲波",
+        "罗广斌、杨益言",
+        "柳青"
+      ],
+      "explanation": "《秃头歌女》与尤奈斯库是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0120",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“尤奈斯库”？",
+      "answer": "《秃头歌女》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《青春之歌》",
+        "《林海雪原》",
+        "《红岩》"
+      ],
+      "explanation": "在给出的选项中，《秃头歌女》与尤奈斯库正确对应。"
+    },
+    {
+      "id": "zh_art_0121",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《铁皮鼓》”对应的作者是什么？",
+      "answer": "君特·格拉斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞万提斯",
+        "但丁",
+        "荷马"
+      ],
+      "explanation": "《铁皮鼓》与君特·格拉斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0122",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“君特·格拉斯”？",
+      "answer": "《铁皮鼓》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《百年孤独》",
+        "《堂吉诃德》",
+        "《神曲》"
+      ],
+      "explanation": "在给出的选项中，《铁皮鼓》与君特·格拉斯正确对应。"
+    },
+    {
+      "id": "zh_art_0123",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《雪国》”对应的作者是什么？",
+      "answer": "川端康成",
+      "accepted_aliases": [],
+      "distractors": [
+        "乔伊斯",
+        "梭罗",
+        "惠特曼"
+      ],
+      "explanation": "《雪国》与川端康成是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0124",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“川端康成”？",
+      "answer": "《雪国》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《追忆似水年华》",
+        "《尤利西斯》",
+        "《瓦尔登湖》"
+      ],
+      "explanation": "在给出的选项中，《雪国》与川端康成正确对应。"
+    },
+    {
+      "id": "zh_art_0125",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《源氏物语》”对应的作者是什么？",
+      "answer": "紫式部",
+      "accepted_aliases": [],
+      "distractors": [
+        "蒲松龄",
+        "鲁迅",
+        "沈从文"
+      ],
+      "explanation": "《源氏物语》与紫式部是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0126",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“紫式部”？",
+      "answer": "《源氏物语》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《儒林外史》",
+        "《聊斋志异》",
+        "《呐喊》"
+      ],
+      "explanation": "在给出的选项中，《源氏物语》与紫式部正确对应。"
+    },
+    {
+      "id": "zh_art_0127",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《我是猫》”对应的作者是什么？",
+      "answer": "夏目漱石",
+      "accepted_aliases": [],
+      "distractors": [
+        "柳青",
+        "萧红",
+        "郁达夫"
+      ],
+      "explanation": "《我是猫》与夏目漱石是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0128",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“夏目漱石”？",
+      "answer": "《我是猫》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《红岩》",
+        "《创业史》",
+        "《呼兰河传》"
+      ],
+      "explanation": "在给出的选项中，《我是猫》与夏目漱石正确对应。"
+    },
+    {
+      "id": "zh_art_0129",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学作品“《罗生门》”对应的作者是什么？",
+      "answer": "芥川龙之介",
+      "accepted_aliases": [],
+      "distractors": [
+        "荷马",
+        "易卜生",
+        "卡夫卡"
+      ],
+      "explanation": "《罗生门》与芥川龙之介是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0130",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“芥川龙之介”？",
+      "answer": "《罗生门》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《神曲》",
+        "《伊利亚特》",
+        "《玩偶之家》"
+      ],
+      "explanation": "在给出的选项中，《罗生门》与芥川龙之介正确对应。"
+    },
+    {
+      "id": "zh_art_0131",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学作品“《挪威的森林》”对应的作者是什么？",
+      "answer": "村上春树",
+      "accepted_aliases": [],
+      "distractors": [
+        "惠特曼",
+        "波德莱尔",
+        "贝克特"
+      ],
+      "explanation": "《挪威的森林》与村上春树是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0132",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“村上春树”？",
+      "answer": "《挪威的森林》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《瓦尔登湖》",
+        "《草叶集》",
+        "《恶之花》"
+      ],
+      "explanation": "在给出的选项中，《挪威的森林》与村上春树正确对应。"
+    },
+    {
+      "id": "zh_art_0133",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学作品“《飞鸟集》”对应的作者是什么？",
+      "answer": "泰戈尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "沈从文",
+        "钱钟书",
+        "老舍"
+      ],
+      "explanation": "《飞鸟集》与泰戈尔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0134",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“泰戈尔”？",
+      "answer": "《飞鸟集》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《呐喊》",
+        "《边城》",
+        "《围城》"
+      ],
+      "explanation": "在给出的选项中，《飞鸟集》与泰戈尔正确对应。"
+    },
+    {
+      "id": "zh_art_0135",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《清明上河图》”对应的画家是什么？",
+      "answer": "张择端",
+      "accepted_aliases": [],
+      "distractors": [
+        "徐悲鸿",
+        "董希文",
+        "达·芬奇"
+      ],
+      "explanation": "《清明上河图》与张择端是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0136",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“张择端”？",
+      "answer": "《清明上河图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《呐喊》",
+        "《拾穗者》",
+        "《自由引导人民》"
+      ],
+      "explanation": "在给出的选项中，《清明上河图》与张择端正确对应。"
+    },
+    {
+      "id": "zh_art_0137",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《洛神赋图》”对应的画家是什么？",
+      "answer": "顾恺之",
+      "accepted_aliases": [],
+      "distractors": [
+        "格兰特·伍德",
+        "安迪·沃霍尔",
+        "张择端"
+      ],
+      "explanation": "《洛神赋图》与顾恺之是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0138",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“顾恺之”？",
+      "answer": "《洛神赋图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《墨葡萄图》",
+        "《虾》",
+        "《奔马图》"
+      ],
+      "explanation": "在给出的选项中，《洛神赋图》与顾恺之正确对应。"
+    },
+    {
+      "id": "zh_art_0139",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《步辇图》”对应的画家是什么？",
+      "answer": "阎立本",
+      "accepted_aliases": [],
+      "distractors": [
+        "米勒",
+        "德拉克洛瓦",
+        "伦勃朗"
+      ],
+      "explanation": "《步辇图》与阎立本是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0140",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“阎立本”？",
+      "answer": "《步辇图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《舞蹈》",
+        "《戴珍珠耳环的少女》",
+        "《美国哥特式》"
+      ],
+      "explanation": "在给出的选项中，《步辇图》与阎立本正确对应。"
+    },
+    {
+      "id": "zh_art_0141",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《韩熙载夜宴图》”对应的画家是什么？",
+      "answer": "顾闳中",
+      "accepted_aliases": [],
+      "distractors": [
+        "齐白石",
+        "徐悲鸿",
+        "董希文"
+      ],
+      "explanation": "《韩熙载夜宴图》与顾闳中是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0142",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“顾闳中”？",
+      "answer": "《韩熙载夜宴图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《记忆的永恒》",
+        "《呐喊》",
+        "《拾穗者》"
+      ],
+      "explanation": "在给出的选项中，《韩熙载夜宴图》与顾闳中正确对应。"
+    },
+    {
+      "id": "zh_art_0143",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《千里江山图》”对应的画家是什么？",
+      "answer": "王希孟",
+      "accepted_aliases": [],
+      "distractors": [
+        "维米尔",
+        "格兰特·伍德",
+        "安迪·沃霍尔"
+      ],
+      "explanation": "《千里江山图》与王希孟是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0144",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“王希孟”？",
+      "answer": "《千里江山图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《富春山居图》",
+        "《墨葡萄图》",
+        "《虾》"
+      ],
+      "explanation": "在给出的选项中，《千里江山图》与王希孟正确对应。"
+    },
+    {
+      "id": "zh_art_0145",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《富春山居图》”对应的画家是什么？",
+      "answer": "黄公望",
+      "accepted_aliases": [],
+      "distractors": [
+        "蒙克",
+        "米勒",
+        "德拉克洛瓦"
+      ],
+      "explanation": "《富春山居图》与黄公望是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0146",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“黄公望”？",
+      "answer": "《富春山居图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《大碗岛的星期日下午》",
+        "《舞蹈》",
+        "《戴珍珠耳环的少女》"
+      ],
+      "explanation": "在给出的选项中，《富春山居图》与黄公望正确对应。"
+    },
+    {
+      "id": "zh_art_0147",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《墨葡萄图》”对应的画家是什么？",
+      "answer": "徐渭",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄公望",
+        "齐白石",
+        "徐悲鸿"
+      ],
+      "explanation": "《墨葡萄图》与徐渭是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0148",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“徐渭”？",
+      "answer": "《墨葡萄图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《格尔尼卡》",
+        "《记忆的永恒》",
+        "《呐喊》"
+      ],
+      "explanation": "在给出的选项中，《墨葡萄图》与徐渭正确对应。"
+    },
+    {
+      "id": "zh_art_0149",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《虾》”对应的画家是什么？",
+      "answer": "齐白石",
+      "accepted_aliases": [],
+      "distractors": [
+        "马蒂斯",
+        "维米尔",
+        "格兰特·伍德"
+      ],
+      "explanation": "《虾》与齐白石是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0150",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“齐白石”？",
+      "answer": "《虾》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《韩熙载夜宴图》",
+        "《千里江山图》",
+        "《富春山居图》"
+      ],
+      "explanation": "在给出的选项中，《虾》与齐白石正确对应。"
+    },
+    {
+      "id": "zh_art_0151",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《奔马图》”对应的画家是什么？",
+      "answer": "徐悲鸿",
+      "accepted_aliases": [],
+      "distractors": [
+        "达利",
+        "蒙克",
+        "米勒"
+      ],
+      "explanation": "《奔马图》与徐悲鸿是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0152",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“徐悲鸿”？",
+      "answer": "《奔马图》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《维纳斯的诞生》",
+        "《大碗岛的星期日下午》",
+        "《舞蹈》"
+      ],
+      "explanation": "在给出的选项中，《奔马图》与徐悲鸿正确对应。"
+    },
+    {
+      "id": "zh_art_0153",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《开国大典》”对应的画家是什么？",
+      "answer": "董希文",
+      "accepted_aliases": [],
+      "distractors": [
+        "王希孟",
+        "黄公望",
+        "徐渭"
+      ],
+      "explanation": "《开国大典》与董希文是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0154",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“董希文”？",
+      "answer": "《开国大典》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《印象·日出》",
+        "《格尔尼卡》",
+        "《记忆的永恒》"
+      ],
+      "explanation": "在给出的选项中，《开国大典》与董希文正确对应。"
+    },
+    {
+      "id": "zh_art_0155",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《蒙娜丽莎》”对应的画家是什么？",
+      "answer": "达·芬奇",
+      "accepted_aliases": [],
+      "distractors": [
+        "修拉",
+        "马蒂斯",
+        "维米尔"
+      ],
+      "explanation": "《蒙娜丽莎》与达·芬奇是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0156",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“达·芬奇”？",
+      "answer": "《蒙娜丽莎》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《步辇图》",
+        "《韩熙载夜宴图》",
+        "《千里江山图》"
+      ],
+      "explanation": "在给出的选项中，《蒙娜丽莎》与达·芬奇正确对应。"
+    },
+    {
+      "id": "zh_art_0157",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《星月夜》”对应的画家是什么？",
+      "answer": "梵高",
+      "accepted_aliases": [],
+      "distractors": [
+        "毕加索",
+        "达利",
+        "蒙克"
+      ],
+      "explanation": "《星月夜》与梵高是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0158",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“梵高”？",
+      "answer": "《星月夜》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《雅典学院》",
+        "《维纳斯的诞生》",
+        "《大碗岛的星期日下午》"
+      ],
+      "explanation": "在给出的选项中，《星月夜》与梵高正确对应。"
+    },
+    {
+      "id": "zh_art_0159",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《印象·日出》”对应的画家是什么？",
+      "answer": "莫奈",
+      "accepted_aliases": [],
+      "distractors": [
+        "顾闳中",
+        "王希孟",
+        "黄公望"
+      ],
+      "explanation": "《印象·日出》与莫奈是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0160",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“莫奈”？",
+      "answer": "《印象·日出》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《蒙娜丽莎》",
+        "《星月夜》",
+        "《格尔尼卡》"
+      ],
+      "explanation": "在给出的选项中，《印象·日出》与莫奈正确对应。"
+    },
+    {
+      "id": "zh_art_0161",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《格尔尼卡》”对应的画家是什么？",
+      "answer": "毕加索",
+      "accepted_aliases": [],
+      "distractors": [
+        "波提切利",
+        "修拉",
+        "马蒂斯"
+      ],
+      "explanation": "《格尔尼卡》与毕加索是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0162",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“毕加索”？",
+      "answer": "《格尔尼卡》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《洛神赋图》",
+        "《步辇图》",
+        "《韩熙载夜宴图》"
+      ],
+      "explanation": "在给出的选项中，《格尔尼卡》与毕加索正确对应。"
+    },
+    {
+      "id": "zh_art_0163",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《记忆的永恒》”对应的画家是什么？",
+      "answer": "达利",
+      "accepted_aliases": [],
+      "distractors": [
+        "梵高",
+        "莫奈",
+        "毕加索"
+      ],
+      "explanation": "《记忆的永恒》与达利是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0164",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“达利”？",
+      "answer": "《记忆的永恒》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《宫娥》",
+        "《雅典学院》",
+        "《维纳斯的诞生》"
+      ],
+      "explanation": "在给出的选项中，《记忆的永恒》与达利正确对应。"
+    },
+    {
+      "id": "zh_art_0165",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《呐喊》”对应的画家是什么？",
+      "answer": "蒙克",
+      "accepted_aliases": [],
+      "distractors": [
+        "阎立本",
+        "顾闳中",
+        "王希孟"
+      ],
+      "explanation": "《呐喊》与蒙克是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0166",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“蒙克”？",
+      "answer": "《呐喊》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《开国大典》",
+        "《蒙娜丽莎》",
+        "《星月夜》"
+      ],
+      "explanation": "在给出的选项中，《呐喊》与蒙克正确对应。"
+    },
+    {
+      "id": "zh_art_0167",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《拾穗者》”对应的画家是什么？",
+      "answer": "米勒",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉斐尔",
+        "波提切利",
+        "修拉"
+      ],
+      "explanation": "《拾穗者》与米勒是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0168",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“米勒”？",
+      "answer": "《拾穗者》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《清明上河图》",
+        "《洛神赋图》",
+        "《步辇图》"
+      ],
+      "explanation": "在给出的选项中，《拾穗者》与米勒正确对应。"
+    },
+    {
+      "id": "zh_art_0169",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《自由引导人民》”对应的画家是什么？",
+      "answer": "德拉克洛瓦",
+      "accepted_aliases": [],
+      "distractors": [
+        "达·芬奇",
+        "梵高",
+        "莫奈"
+      ],
+      "explanation": "《自由引导人民》与德拉克洛瓦是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0170",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“德拉克洛瓦”？",
+      "answer": "《自由引导人民》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《夜巡》",
+        "《宫娥》",
+        "《雅典学院》"
+      ],
+      "explanation": "在给出的选项中，《自由引导人民》与德拉克洛瓦正确对应。"
+    },
+    {
+      "id": "zh_art_0171",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《夜巡》”对应的画家是什么？",
+      "answer": "伦勃朗",
+      "accepted_aliases": [],
+      "distractors": [
+        "顾恺之",
+        "阎立本",
+        "顾闳中"
+      ],
+      "explanation": "《夜巡》与伦勃朗是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0172",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“伦勃朗”？",
+      "answer": "《夜巡》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《奔马图》",
+        "《开国大典》",
+        "《蒙娜丽莎》"
+      ],
+      "explanation": "在给出的选项中，《夜巡》与伦勃朗正确对应。"
+    },
+    {
+      "id": "zh_art_0173",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《宫娥》”对应的画家是什么？",
+      "answer": "委拉斯开兹",
+      "accepted_aliases": [],
+      "distractors": [
+        "伦勃朗",
+        "拉斐尔",
+        "波提切利"
+      ],
+      "explanation": "《宫娥》与委拉斯开兹是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0174",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“委拉斯开兹”？",
+      "answer": "《宫娥》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《坎贝尔汤罐头》",
+        "《清明上河图》",
+        "《洛神赋图》"
+      ],
+      "explanation": "在给出的选项中，《宫娥》与委拉斯开兹正确对应。"
+    },
+    {
+      "id": "zh_art_0175",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《雅典学院》”对应的画家是什么？",
+      "answer": "拉斐尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "董希文",
+        "达·芬奇",
+        "梵高"
+      ],
+      "explanation": "《雅典学院》与拉斐尔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0176",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“拉斐尔”？",
+      "answer": "《雅典学院》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《拾穗者》",
+        "《自由引导人民》",
+        "《夜巡》"
+      ],
+      "explanation": "在给出的选项中，《雅典学院》与拉斐尔正确对应。"
+    },
+    {
+      "id": "zh_art_0177",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《维纳斯的诞生》”对应的画家是什么？",
+      "answer": "波提切利",
+      "accepted_aliases": [],
+      "distractors": [
+        "张择端",
+        "顾恺之",
+        "阎立本"
+      ],
+      "explanation": "《维纳斯的诞生》与波提切利是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0178",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“波提切利”？",
+      "answer": "《维纳斯的诞生》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《虾》",
+        "《奔马图》",
+        "《开国大典》"
+      ],
+      "explanation": "在给出的选项中，《维纳斯的诞生》与波提切利正确对应。"
+    },
+    {
+      "id": "zh_art_0179",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《大碗岛的星期日下午》”对应的画家是什么？",
+      "answer": "修拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "德拉克洛瓦",
+        "伦勃朗",
+        "委拉斯开兹"
+      ],
+      "explanation": "《大碗岛的星期日下午》与修拉是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0180",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“修拉”？",
+      "answer": "《大碗岛的星期日下午》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《美国哥特式》",
+        "《坎贝尔汤罐头》",
+        "《清明上河图》"
+      ],
+      "explanation": "在给出的选项中，《大碗岛的星期日下午》与修拉正确对应。"
+    },
+    {
+      "id": "zh_art_0181",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《舞蹈》”对应的画家是什么？",
+      "answer": "马蒂斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "徐悲鸿",
+        "董希文",
+        "达·芬奇"
+      ],
+      "explanation": "《舞蹈》与马蒂斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0182",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“马蒂斯”？",
+      "answer": "《舞蹈》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《呐喊》",
+        "《拾穗者》",
+        "《自由引导人民》"
+      ],
+      "explanation": "在给出的选项中，《舞蹈》与马蒂斯正确对应。"
+    },
+    {
+      "id": "zh_art_0183",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "绘画作品“《戴珍珠耳环的少女》”对应的画家是什么？",
+      "answer": "维米尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "安迪·沃霍尔",
+        "张择端",
+        "顾恺之"
+      ],
+      "explanation": "《戴珍珠耳环的少女》与维米尔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0184",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的画家是“维米尔”？",
+      "answer": "《戴珍珠耳环的少女》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《墨葡萄图》",
+        "《虾》",
+        "《奔马图》"
+      ],
+      "explanation": "在给出的选项中，《戴珍珠耳环的少女》与维米尔正确对应。"
+    },
+    {
+      "id": "zh_art_0185",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "绘画作品“《美国哥特式》”对应的画家是什么？",
+      "answer": "格兰特·伍德",
+      "accepted_aliases": [],
+      "distractors": [
+        "米勒",
+        "德拉克洛瓦",
+        "伦勃朗"
+      ],
+      "explanation": "《美国哥特式》与格兰特·伍德是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0186",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的画家是“格兰特·伍德”？",
+      "answer": "《美国哥特式》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《舞蹈》",
+        "《戴珍珠耳环的少女》",
+        "《坎贝尔汤罐头》"
+      ],
+      "explanation": "在给出的选项中，《美国哥特式》与格兰特·伍德正确对应。"
+    },
+    {
+      "id": "zh_art_0187",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "绘画作品“《坎贝尔汤罐头》”对应的画家是什么？",
+      "answer": "安迪·沃霍尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "齐白石",
+        "徐悲鸿",
+        "董希文"
+      ],
+      "explanation": "《坎贝尔汤罐头》与安迪·沃霍尔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0188",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的画家是“安迪·沃霍尔”？",
+      "answer": "《坎贝尔汤罐头》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《记忆的永恒》",
+        "《呐喊》",
+        "《拾穗者》"
+      ],
+      "explanation": "在给出的选项中，《坎贝尔汤罐头》与安迪·沃霍尔正确对应。"
+    },
+    {
+      "id": "zh_art_0189",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《命运交响曲》”对应的作曲者是什么？",
+      "answer": "贝多芬",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉威尔",
+        "德沃夏克",
+        "勃拉姆斯"
+      ],
+      "explanation": "《命运交响曲》与贝多芬是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0190",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“贝多芬”？",
+      "answer": "《命运交响曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《春江花月夜》",
+        "《二泉映月》",
+        "《梁山伯与祝英台》"
+      ],
+      "explanation": "在给出的选项中，《命运交响曲》与贝多芬正确对应。"
+    },
+    {
+      "id": "zh_art_0191",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《魔笛》”对应的作曲者是什么？",
+      "answer": "莫扎特",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁善德",
+        "吕其明",
+        "贝多芬"
+      ],
+      "explanation": "《魔笛》与莫扎特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0192",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“莫扎特”？",
+      "answer": "《魔笛》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《天鹅湖》",
+        "《月光》",
+        "《波莱罗舞曲》"
+      ],
+      "explanation": "在给出的选项中，《魔笛》与莫扎特正确对应。"
+    },
+    {
+      "id": "zh_art_0193",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《未完成交响曲》”对应的作曲者是什么？",
+      "answer": "舒伯特",
+      "accepted_aliases": [],
+      "distractors": [
+        "华彦钧",
+        "何占豪、陈钢",
+        "冼星海"
+      ],
+      "explanation": "《未完成交响曲》与舒伯特是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0194",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“舒伯特”？",
+      "answer": "《未完成交响曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《瑶族舞曲》",
+        "《牧童短笛》",
+        "《长征交响曲》"
+      ],
+      "explanation": "在给出的选项中，《未完成交响曲》与舒伯特正确对应。"
+    },
+    {
+      "id": "zh_art_0195",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《蓝色多瑙河》”对应的作曲者是什么？",
+      "answer": "小约翰·施特劳斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "克洛德·德彪西",
+        "拉威尔",
+        "德沃夏克"
+      ],
+      "explanation": "《蓝色多瑙河》与小约翰·施特劳斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0196",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“小约翰·施特劳斯”？",
+      "answer": "《蓝色多瑙河》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《茶花女》",
+        "《春江花月夜》",
+        "《二泉映月》"
+      ],
+      "explanation": "在给出的选项中，《蓝色多瑙河》与小约翰·施特劳斯正确对应。"
+    },
+    {
+      "id": "zh_art_0197",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《四季》”对应的作曲者是什么？",
+      "answer": "维瓦尔第",
+      "accepted_aliases": [],
+      "distractors": [
+        "贺绿汀",
+        "丁善德",
+        "吕其明"
+      ],
+      "explanation": "《四季》与维瓦尔第是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0198",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“维瓦尔第”？",
+      "answer": "《四季》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《卡门》",
+        "《天鹅湖》",
+        "《月光》"
+      ],
+      "explanation": "在给出的选项中，《四季》与维瓦尔第正确对应。"
+    },
+    {
+      "id": "zh_art_0199",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《卡门》”对应的作曲者是什么？",
+      "answer": "比才",
+      "accepted_aliases": [],
+      "distractors": [
+        "柳尧章整理",
+        "华彦钧",
+        "何占豪、陈钢"
+      ],
+      "explanation": "《卡门》与比才是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0200",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“比才”？",
+      "answer": "《卡门》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《赛马》",
+        "《瑶族舞曲》",
+        "《牧童短笛》"
+      ],
+      "explanation": "在给出的选项中，《卡门》与比才正确对应。"
+    },
+    {
+      "id": "zh_art_0201",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《天鹅湖》”对应的作曲者是什么？",
+      "answer": "柴可夫斯基",
+      "accepted_aliases": [],
+      "distractors": [
+        "比才",
+        "克洛德·德彪西",
+        "拉威尔"
+      ],
+      "explanation": "《天鹅湖》与柴可夫斯基是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0202",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“柴可夫斯基”？",
+      "answer": "《天鹅湖》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《图兰朵》",
+        "《茶花女》",
+        "《春江花月夜》"
+      ],
+      "explanation": "在给出的选项中，《天鹅湖》与柴可夫斯基正确对应。"
+    },
+    {
+      "id": "zh_art_0203",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《月光》”对应的作曲者是什么？",
+      "answer": "克洛德·德彪西",
+      "accepted_aliases": [],
+      "distractors": [
+        "刘铁山、茅沅",
+        "贺绿汀",
+        "丁善德"
+      ],
+      "explanation": "《月光》与克洛德·德彪西是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0204",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“克洛德·德彪西”？",
+      "answer": "《月光》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《蓝色多瑙河》",
+        "《四季》",
+        "《卡门》"
+      ],
+      "explanation": "在给出的选项中，《月光》与克洛德·德彪西正确对应。"
+    },
+    {
+      "id": "zh_art_0205",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《波莱罗舞曲》”对应的作曲者是什么？",
+      "answer": "拉威尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "威尔第",
+        "柳尧章整理",
+        "华彦钧"
+      ],
+      "explanation": "《波莱罗舞曲》与拉威尔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0206",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“拉威尔”？",
+      "answer": "《波莱罗舞曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《彩云追月》",
+        "《赛马》",
+        "《瑶族舞曲》"
+      ],
+      "explanation": "在给出的选项中，《波莱罗舞曲》与拉威尔正确对应。"
+    },
+    {
+      "id": "zh_art_0207",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《新世界交响曲》”对应的作曲者是什么？",
+      "answer": "德沃夏克",
+      "accepted_aliases": [],
+      "distractors": [
+        "维瓦尔第",
+        "比才",
+        "柴可夫斯基"
+      ],
+      "explanation": "《新世界交响曲》与德沃夏克是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0208",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“德沃夏克”？",
+      "answer": "《新世界交响曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《威廉·退尔序曲》",
+        "《图兰朵》",
+        "《茶花女》"
+      ],
+      "explanation": "在给出的选项中，《新世界交响曲》与德沃夏克正确对应。"
+    },
+    {
+      "id": "zh_art_0209",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《匈牙利舞曲》”对应的作曲者是什么？",
+      "answer": "勃拉姆斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄海怀",
+        "刘铁山、茅沅",
+        "贺绿汀"
+      ],
+      "explanation": "《匈牙利舞曲》与勃拉姆斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0210",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“勃拉姆斯”？",
+      "answer": "《匈牙利舞曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《未完成交响曲》",
+        "《蓝色多瑙河》",
+        "《四季》"
+      ],
+      "explanation": "在给出的选项中，《匈牙利舞曲》与勃拉姆斯正确对应。"
+    },
+    {
+      "id": "zh_art_0211",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《芬兰颂》”对应的作曲者是什么？",
+      "answer": "西贝柳斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "普契尼",
+        "威尔第",
+        "柳尧章整理"
+      ],
+      "explanation": "《芬兰颂》与西贝柳斯是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0212",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“西贝柳斯”？",
+      "answer": "《芬兰颂》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《春节序曲》",
+        "《彩云追月》",
+        "《赛马》"
+      ],
+      "explanation": "在给出的选项中，《芬兰颂》与西贝柳斯正确对应。"
+    },
+    {
+      "id": "zh_art_0213",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《威廉·退尔序曲》”对应的作曲者是什么？",
+      "answer": "罗西尼",
+      "accepted_aliases": [],
+      "distractors": [
+        "小约翰·施特劳斯",
+        "维瓦尔第",
+        "比才"
+      ],
+      "explanation": "《威廉·退尔序曲》与罗西尼是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0214",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“罗西尼”？",
+      "answer": "《威廉·退尔序曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《匈牙利舞曲》",
+        "《芬兰颂》",
+        "《图兰朵》"
+      ],
+      "explanation": "在给出的选项中，《威廉·退尔序曲》与罗西尼正确对应。"
+    },
+    {
+      "id": "zh_art_0215",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《图兰朵》”对应的作曲者是什么？",
+      "answer": "普契尼",
+      "accepted_aliases": [],
+      "distractors": [
+        "任光",
+        "黄海怀",
+        "刘铁山、茅沅"
+      ],
+      "explanation": "《图兰朵》与普契尼是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0216",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“普契尼”？",
+      "answer": "《图兰朵》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《魔笛》",
+        "《未完成交响曲》",
+        "《蓝色多瑙河》"
+      ],
+      "explanation": "在给出的选项中，《图兰朵》与普契尼正确对应。"
+    },
+    {
+      "id": "zh_art_0217",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《茶花女》”对应的作曲者是什么？",
+      "answer": "威尔第",
+      "accepted_aliases": [],
+      "distractors": [
+        "西贝柳斯",
+        "罗西尼",
+        "普契尼"
+      ],
+      "explanation": "《茶花女》与威尔第是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0218",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“威尔第”？",
+      "answer": "《茶花女》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《义勇军进行曲》",
+        "《春节序曲》",
+        "《彩云追月》"
+      ],
+      "explanation": "在给出的选项中，《茶花女》与威尔第正确对应。"
+    },
+    {
+      "id": "zh_art_0219",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《春江花月夜》”对应的作曲者是什么？",
+      "answer": "柳尧章整理",
+      "accepted_aliases": [],
+      "distractors": [
+        "舒伯特",
+        "小约翰·施特劳斯",
+        "维瓦尔第"
+      ],
+      "explanation": "《春江花月夜》与柳尧章整理是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0220",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“柳尧章整理”？",
+      "answer": "《春江花月夜》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《新世界交响曲》",
+        "《匈牙利舞曲》",
+        "《芬兰颂》"
+      ],
+      "explanation": "在给出的选项中，《春江花月夜》与柳尧章整理正确对应。"
+    },
+    {
+      "id": "zh_art_0221",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《二泉映月》”对应的作曲者是什么？",
+      "answer": "华彦钧",
+      "accepted_aliases": [],
+      "distractors": [
+        "李焕之",
+        "任光",
+        "黄海怀"
+      ],
+      "explanation": "《二泉映月》与华彦钧是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0222",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“华彦钧”？",
+      "answer": "《二泉映月》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《命运交响曲》",
+        "《魔笛》",
+        "《未完成交响曲》"
+      ],
+      "explanation": "在给出的选项中，《二泉映月》与华彦钧正确对应。"
+    },
+    {
+      "id": "zh_art_0223",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《梁山伯与祝英台》”对应的作曲者是什么？",
+      "answer": "何占豪、陈钢",
+      "accepted_aliases": [],
+      "distractors": [
+        "勃拉姆斯",
+        "西贝柳斯",
+        "罗西尼"
+      ],
+      "explanation": "《梁山伯与祝英台》与何占豪、陈钢是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0224",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“何占豪、陈钢”？",
+      "answer": "《梁山伯与祝英台》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《黄河大合唱》",
+        "《义勇军进行曲》",
+        "《春节序曲》"
+      ],
+      "explanation": "在给出的选项中，《梁山伯与祝英台》与何占豪、陈钢正确对应。"
+    },
+    {
+      "id": "zh_art_0225",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《黄河大合唱》”对应的作曲者是什么？",
+      "answer": "冼星海",
+      "accepted_aliases": [],
+      "distractors": [
+        "莫扎特",
+        "舒伯特",
+        "小约翰·施特劳斯"
+      ],
+      "explanation": "《黄河大合唱》与冼星海是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0226",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“冼星海”？",
+      "answer": "《黄河大合唱》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《波莱罗舞曲》",
+        "《新世界交响曲》",
+        "《匈牙利舞曲》"
+      ],
+      "explanation": "在给出的选项中，《黄河大合唱》与冼星海正确对应。"
+    },
+    {
+      "id": "zh_art_0227",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《义勇军进行曲》”对应的作曲者是什么？",
+      "answer": "聂耳",
+      "accepted_aliases": [],
+      "distractors": [
+        "冼星海",
+        "李焕之",
+        "任光"
+      ],
+      "explanation": "《义勇军进行曲》与聂耳是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0228",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“聂耳”？",
+      "answer": "《义勇军进行曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《红旗颂》",
+        "《命运交响曲》",
+        "《魔笛》"
+      ],
+      "explanation": "在给出的选项中，《义勇军进行曲》与聂耳正确对应。"
+    },
+    {
+      "id": "zh_art_0229",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《春节序曲》”对应的作曲者是什么？",
+      "answer": "李焕之",
+      "accepted_aliases": [],
+      "distractors": [
+        "德沃夏克",
+        "勃拉姆斯",
+        "西贝柳斯"
+      ],
+      "explanation": "《春节序曲》与李焕之是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0230",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“李焕之”？",
+      "answer": "《春节序曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《二泉映月》",
+        "《梁山伯与祝英台》",
+        "《黄河大合唱》"
+      ],
+      "explanation": "在给出的选项中，《春节序曲》与李焕之正确对应。"
+    },
+    {
+      "id": "zh_art_0231",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《彩云追月》”对应的作曲者是什么？",
+      "answer": "任光",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝多芬",
+        "莫扎特",
+        "舒伯特"
+      ],
+      "explanation": "《彩云追月》与任光是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0232",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“任光”？",
+      "answer": "《彩云追月》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《月光》",
+        "《波莱罗舞曲》",
+        "《新世界交响曲》"
+      ],
+      "explanation": "在给出的选项中，《彩云追月》与任光正确对应。"
+    },
+    {
+      "id": "zh_art_0233",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《赛马》”对应的作曲者是什么？",
+      "answer": "黄海怀",
+      "accepted_aliases": [],
+      "distractors": [
+        "何占豪、陈钢",
+        "冼星海",
+        "聂耳"
+      ],
+      "explanation": "《赛马》与黄海怀是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0234",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“黄海怀”？",
+      "answer": "《赛马》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《长征交响曲》",
+        "《红旗颂》",
+        "《命运交响曲》"
+      ],
+      "explanation": "在给出的选项中，《赛马》与黄海怀正确对应。"
+    },
+    {
+      "id": "zh_art_0235",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《瑶族舞曲》”对应的作曲者是什么？",
+      "answer": "刘铁山、茅沅",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉威尔",
+        "德沃夏克",
+        "勃拉姆斯"
+      ],
+      "explanation": "《瑶族舞曲》与刘铁山、茅沅是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0236",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“刘铁山、茅沅”？",
+      "answer": "《瑶族舞曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《春江花月夜》",
+        "《二泉映月》",
+        "《梁山伯与祝英台》"
+      ],
+      "explanation": "在给出的选项中，《瑶族舞曲》与刘铁山、茅沅正确对应。"
+    },
+    {
+      "id": "zh_art_0237",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "音乐作品“《牧童短笛》”对应的作曲者是什么？",
+      "answer": "贺绿汀",
+      "accepted_aliases": [],
+      "distractors": [
+        "吕其明",
+        "贝多芬",
+        "莫扎特"
+      ],
+      "explanation": "《牧童短笛》与贺绿汀是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0238",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的作曲者是“贺绿汀”？",
+      "answer": "《牧童短笛》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《天鹅湖》",
+        "《月光》",
+        "《波莱罗舞曲》"
+      ],
+      "explanation": "在给出的选项中，《牧童短笛》与贺绿汀正确对应。"
+    },
+    {
+      "id": "zh_art_0239",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "音乐作品“《长征交响曲》”对应的作曲者是什么？",
+      "answer": "丁善德",
+      "accepted_aliases": [],
+      "distractors": [
+        "华彦钧",
+        "何占豪、陈钢",
+        "冼星海"
+      ],
+      "explanation": "《长征交响曲》与丁善德是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0240",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的作曲者是“丁善德”？",
+      "answer": "《长征交响曲》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《瑶族舞曲》",
+        "《牧童短笛》",
+        "《红旗颂》"
+      ],
+      "explanation": "在给出的选项中，《长征交响曲》与丁善德正确对应。"
+    },
+    {
+      "id": "zh_art_0241",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "音乐作品“《红旗颂》”对应的作曲者是什么？",
+      "answer": "吕其明",
+      "accepted_aliases": [],
+      "distractors": [
+        "克洛德·德彪西",
+        "拉威尔",
+        "德沃夏克"
+      ],
+      "explanation": "《红旗颂》与吕其明是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0242",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的作曲者是“吕其明”？",
+      "answer": "《红旗颂》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《茶花女》",
+        "《春江花月夜》",
+        "《二泉映月》"
+      ],
+      "explanation": "在给出的选项中，《红旗颂》与吕其明正确对应。"
+    },
+    {
+      "id": "zh_art_0243",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "艺术知识“十四行诗通常包含的诗行数”对应的对应答案是什么？",
+      "answer": "14行",
+      "accepted_aliases": [],
+      "distractors": [
+        "空间深度",
+        "演员行动",
+        "4句"
+      ],
+      "explanation": "十四行诗通常包含的诗行数与14行是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0244",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“14行”？",
+      "answer": "十四行诗通常包含的诗行数",
+      "accepted_aliases": [],
+      "distractors": [
+        "芭蕾舞主要使用的艺术媒介",
+        "版画创作的重要步骤",
+        "书法中的楷书特点"
+      ],
+      "explanation": "在给出的选项中，十四行诗通常包含的诗行数与14行正确对应。"
+    },
+    {
+      "id": "zh_art_0245",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "艺术知识“五言绝句通常包含的句数”对应的对应答案是什么？",
+      "answer": "4句",
+      "accepted_aliases": [],
+      "distractors": [
+        "笔墨纸砚",
+        "空间深度",
+        "演员行动"
+      ],
+      "explanation": "五言绝句通常包含的句数与4句是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0246",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“4句”？",
+      "answer": "五言绝句通常包含的句数",
+      "accepted_aliases": [],
+      "distractors": [
+        "交响曲通常由什么团体演奏",
+        "芭蕾舞主要使用的艺术媒介",
+        "版画创作的重要步骤"
+      ],
+      "explanation": "在给出的选项中，五言绝句通常包含的句数与4句正确对应。"
+    },
+    {
+      "id": "zh_art_0247",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "艺术知识“七言律诗通常包含的句数”对应的对应答案是什么？",
+      "answer": "8句",
+      "accepted_aliases": [],
+      "distractors": [
+        "字形端正规整",
+        "笔墨纸砚",
+        "空间深度"
+      ],
+      "explanation": "七言律诗通常包含的句数与8句是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0248",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“8句”？",
+      "answer": "七言律诗通常包含的句数",
+      "accepted_aliases": [],
+      "distractors": [
+        "五言绝句通常包含的句数",
+        "交响曲通常由什么团体演奏",
+        "芭蕾舞主要使用的艺术媒介"
+      ],
+      "explanation": "在给出的选项中，七言律诗通常包含的句数与8句正确对应。"
+    },
+    {
+      "id": "zh_art_0249",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "艺术知识“交响曲通常由什么团体演奏”对应的对应答案是什么？",
+      "answer": "管弦乐队",
+      "accepted_aliases": [],
+      "distractors": [
+        "制版",
+        "字形端正规整",
+        "笔墨纸砚"
+      ],
+      "explanation": "交响曲通常由什么团体演奏与管弦乐队是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0250",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“管弦乐队”？",
+      "answer": "交响曲通常由什么团体演奏",
+      "accepted_aliases": [],
+      "distractors": [
+        "十四行诗通常包含的诗行数",
+        "五言绝句通常包含的句数",
+        "七言律诗通常包含的句数"
+      ],
+      "explanation": "在给出的选项中，交响曲通常由什么团体演奏与管弦乐队正确对应。"
+    },
+    {
+      "id": "zh_art_0251",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "艺术知识“芭蕾舞主要使用的艺术媒介”对应的对应答案是什么？",
+      "answer": "舞蹈动作",
+      "accepted_aliases": [],
+      "distractors": [
+        "管弦乐队",
+        "制版",
+        "字形端正规整"
+      ],
+      "explanation": "芭蕾舞主要使用的艺术媒介与舞蹈动作是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0252",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“舞蹈动作”？",
+      "answer": "芭蕾舞主要使用的艺术媒介",
+      "accepted_aliases": [],
+      "distractors": [
+        "戏剧表演的核心载体",
+        "十四行诗通常包含的诗行数",
+        "五言绝句通常包含的句数"
+      ],
+      "explanation": "在给出的选项中，芭蕾舞主要使用的艺术媒介与舞蹈动作正确对应。"
+    },
+    {
+      "id": "zh_art_0253",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "艺术知识“版画创作的重要步骤”对应的对应答案是什么？",
+      "answer": "制版",
+      "accepted_aliases": [],
+      "distractors": [
+        "8句",
+        "管弦乐队",
+        "舞蹈动作"
+      ],
+      "explanation": "版画创作的重要步骤与制版是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0254",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“制版”？",
+      "answer": "版画创作的重要步骤",
+      "accepted_aliases": [],
+      "distractors": [
+        "透视法主要表现的视觉效果",
+        "戏剧表演的核心载体",
+        "十四行诗通常包含的诗行数"
+      ],
+      "explanation": "在给出的选项中，版画创作的重要步骤与制版正确对应。"
+    },
+    {
+      "id": "zh_art_0255",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "艺术知识“书法中的楷书特点”对应的对应答案是什么？",
+      "answer": "字形端正规整",
+      "accepted_aliases": [],
+      "distractors": [
+        "4句",
+        "8句",
+        "管弦乐队"
+      ],
+      "explanation": "书法中的楷书特点与字形端正规整是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0256",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“字形端正规整”？",
+      "answer": "书法中的楷书特点",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国画常用的主要材料",
+        "透视法主要表现的视觉效果",
+        "戏剧表演的核心载体"
+      ],
+      "explanation": "在给出的选项中，书法中的楷书特点与字形端正规整正确对应。"
+    },
+    {
+      "id": "zh_art_0257",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "艺术知识“中国画常用的主要材料”对应的对应答案是什么？",
+      "answer": "笔墨纸砚",
+      "accepted_aliases": [],
+      "distractors": [
+        "14行",
+        "4句",
+        "8句"
+      ],
+      "explanation": "中国画常用的主要材料与笔墨纸砚是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0258",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“笔墨纸砚”？",
+      "answer": "中国画常用的主要材料",
+      "accepted_aliases": [],
+      "distractors": [
+        "版画创作的重要步骤",
+        "书法中的楷书特点",
+        "透视法主要表现的视觉效果"
+      ],
+      "explanation": "在给出的选项中，中国画常用的主要材料与笔墨纸砚正确对应。"
+    },
+    {
+      "id": "zh_art_0259",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "艺术知识“透视法主要表现的视觉效果”对应的对应答案是什么？",
+      "answer": "空间深度",
+      "accepted_aliases": [],
+      "distractors": [
+        "演员行动",
+        "14行",
+        "4句"
+      ],
+      "explanation": "透视法主要表现的视觉效果与空间深度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0260",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“空间深度”？",
+      "answer": "透视法主要表现的视觉效果",
+      "accepted_aliases": [],
+      "distractors": [
+        "芭蕾舞主要使用的艺术媒介",
+        "版画创作的重要步骤",
+        "书法中的楷书特点"
+      ],
+      "explanation": "在给出的选项中，透视法主要表现的视觉效果与空间深度正确对应。"
+    },
+    {
+      "id": "zh_art_0261",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "艺术知识“戏剧表演的核心载体”对应的对应答案是什么？",
+      "answer": "演员行动",
+      "accepted_aliases": [],
+      "distractors": [
+        "笔墨纸砚",
+        "空间深度",
+        "14行"
+      ],
+      "explanation": "戏剧表演的核心载体与演员行动是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_art_0262",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“演员行动”？",
+      "answer": "戏剧表演的核心载体",
+      "accepted_aliases": [],
+      "distractors": [
+        "交响曲通常由什么团体演奏",
+        "芭蕾舞主要使用的艺术媒介",
+        "版画创作的重要步骤"
+      ],
+      "explanation": "在给出的选项中，戏剧表演的核心载体与演员行动正确对应。"
+    },
+    {
+      "id": "zh_art_0263",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高21对应哪个音名？",
+      "answer": "A0",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯0",
+        "D0",
+        "D♯0"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号21对应音名A0。"
+    },
+    {
+      "id": "zh_art_0264",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高22对应哪个音名？",
+      "answer": "A♯0",
+      "accepted_aliases": [],
+      "distractors": [
+        "G0",
+        "G♯0",
+        "A0"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号22对应音名A♯0。"
+    },
+    {
+      "id": "zh_art_0265",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高23对应哪个音名？",
+      "answer": "B0",
+      "accepted_aliases": [],
+      "distractors": [
+        "D0",
+        "D♯0",
+        "E0"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号23对应音名B0。"
+    },
+    {
+      "id": "zh_art_0266",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高24对应哪个音名？",
+      "answer": "C1",
+      "accepted_aliases": [],
+      "distractors": [
+        "A1",
+        "A♯1",
+        "B1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号24对应音名C1。"
+    },
+    {
+      "id": "zh_art_0267",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高25对应哪个音名？",
+      "answer": "C♯1",
+      "accepted_aliases": [],
+      "distractors": [
+        "E1",
+        "F1",
+        "F♯1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号25对应音名C♯1。"
+    },
+    {
+      "id": "zh_art_0268",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高26对应哪个音名？",
+      "answer": "D1",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯1",
+        "B1",
+        "C1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号26对应音名D1。"
+    },
+    {
+      "id": "zh_art_0269",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高27对应哪个音名？",
+      "answer": "D♯1",
+      "accepted_aliases": [],
+      "distractors": [
+        "F1",
+        "F♯1",
+        "G1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号27对应音名D♯1。"
+    },
+    {
+      "id": "zh_art_0270",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高28对应哪个音名？",
+      "answer": "E1",
+      "accepted_aliases": [],
+      "distractors": [
+        "B1",
+        "C1",
+        "C♯1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号28对应音名E1。"
+    },
+    {
+      "id": "zh_art_0271",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高29对应哪个音名？",
+      "answer": "F1",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯1",
+        "G1",
+        "G♯1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号29对应音名F1。"
+    },
+    {
+      "id": "zh_art_0272",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高30对应哪个音名？",
+      "answer": "F♯1",
+      "accepted_aliases": [],
+      "distractors": [
+        "C1",
+        "C♯1",
+        "D1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号30对应音名F♯1。"
+    },
+    {
+      "id": "zh_art_0273",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高31对应哪个音名？",
+      "answer": "G1",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯1",
+        "G♯1",
+        "A1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号31对应音名G1。"
+    },
+    {
+      "id": "zh_art_0274",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高32对应哪个音名？",
+      "answer": "G♯1",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯1",
+        "D1",
+        "D♯1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号32对应音名G♯1。"
+    },
+    {
+      "id": "zh_art_0275",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高33对应哪个音名？",
+      "answer": "A1",
+      "accepted_aliases": [],
+      "distractors": [
+        "G1",
+        "G♯1",
+        "A♯1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号33对应音名A1。"
+    },
+    {
+      "id": "zh_art_0276",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高34对应哪个音名？",
+      "answer": "A♯1",
+      "accepted_aliases": [],
+      "distractors": [
+        "D1",
+        "D♯1",
+        "E1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号34对应音名A♯1。"
+    },
+    {
+      "id": "zh_art_0277",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高35对应哪个音名？",
+      "answer": "B1",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯1",
+        "A1",
+        "A♯1"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号35对应音名B1。"
+    },
+    {
+      "id": "zh_art_0278",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高36对应哪个音名？",
+      "answer": "C2",
+      "accepted_aliases": [],
+      "distractors": [
+        "E2",
+        "F2",
+        "F♯2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号36对应音名C2。"
+    },
+    {
+      "id": "zh_art_0279",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高37对应哪个音名？",
+      "answer": "C♯2",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯2",
+        "B2",
+        "C2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号37对应音名C♯2。"
+    },
+    {
+      "id": "zh_art_0280",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高38对应哪个音名？",
+      "answer": "D2",
+      "accepted_aliases": [],
+      "distractors": [
+        "F2",
+        "F♯2",
+        "G2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号38对应音名D2。"
+    },
+    {
+      "id": "zh_art_0281",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高39对应哪个音名？",
+      "answer": "D♯2",
+      "accepted_aliases": [],
+      "distractors": [
+        "B2",
+        "C2",
+        "C♯2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号39对应音名D♯2。"
+    },
+    {
+      "id": "zh_art_0282",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高40对应哪个音名？",
+      "answer": "E2",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯2",
+        "G2",
+        "G♯2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号40对应音名E2。"
+    },
+    {
+      "id": "zh_art_0283",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高41对应哪个音名？",
+      "answer": "F2",
+      "accepted_aliases": [],
+      "distractors": [
+        "C2",
+        "C♯2",
+        "D2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号41对应音名F2。"
+    },
+    {
+      "id": "zh_art_0284",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高42对应哪个音名？",
+      "answer": "F♯2",
+      "accepted_aliases": [],
+      "distractors": [
+        "G2",
+        "G♯2",
+        "A2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号42对应音名F♯2。"
+    },
+    {
+      "id": "zh_art_0285",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高43对应哪个音名？",
+      "answer": "G2",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯2",
+        "D2",
+        "D♯2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号43对应音名G2。"
+    },
+    {
+      "id": "zh_art_0286",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高44对应哪个音名？",
+      "answer": "G♯2",
+      "accepted_aliases": [],
+      "distractors": [
+        "G2",
+        "A2",
+        "A♯2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号44对应音名G♯2。"
+    },
+    {
+      "id": "zh_art_0287",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高45对应哪个音名？",
+      "answer": "A2",
+      "accepted_aliases": [],
+      "distractors": [
+        "D2",
+        "D♯2",
+        "E2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号45对应音名A2。"
+    },
+    {
+      "id": "zh_art_0288",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高46对应哪个音名？",
+      "answer": "A♯2",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯2",
+        "A2",
+        "B2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号46对应音名A♯2。"
+    },
+    {
+      "id": "zh_art_0289",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高47对应哪个音名？",
+      "answer": "B2",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯2",
+        "E2",
+        "F2"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号47对应音名B2。"
+    },
+    {
+      "id": "zh_art_0290",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高48对应哪个音名？",
+      "answer": "C3",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯3",
+        "B3",
+        "C♯3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号48对应音名C3。"
+    },
+    {
+      "id": "zh_art_0291",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高49对应哪个音名？",
+      "answer": "C♯3",
+      "accepted_aliases": [],
+      "distractors": [
+        "F3",
+        "F♯3",
+        "G3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号49对应音名C♯3。"
+    },
+    {
+      "id": "zh_art_0292",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高50对应哪个音名？",
+      "answer": "D3",
+      "accepted_aliases": [],
+      "distractors": [
+        "B3",
+        "C3",
+        "C♯3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号50对应音名D3。"
+    },
+    {
+      "id": "zh_art_0293",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高51对应哪个音名？",
+      "answer": "D♯3",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯3",
+        "G3",
+        "G♯3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号51对应音名D♯3。"
+    },
+    {
+      "id": "zh_art_0294",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高52对应哪个音名？",
+      "answer": "E3",
+      "accepted_aliases": [],
+      "distractors": [
+        "C3",
+        "C♯3",
+        "D3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号52对应音名E3。"
+    },
+    {
+      "id": "zh_art_0295",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高53对应哪个音名？",
+      "answer": "F3",
+      "accepted_aliases": [],
+      "distractors": [
+        "G3",
+        "G♯3",
+        "A3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号53对应音名F3。"
+    },
+    {
+      "id": "zh_art_0296",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高54对应哪个音名？",
+      "answer": "F♯3",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯3",
+        "D3",
+        "D♯3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号54对应音名F♯3。"
+    },
+    {
+      "id": "zh_art_0297",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高55对应哪个音名？",
+      "answer": "G3",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯3",
+        "A3",
+        "A♯3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号55对应音名G3。"
+    },
+    {
+      "id": "zh_art_0298",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高56对应哪个音名？",
+      "answer": "G♯3",
+      "accepted_aliases": [],
+      "distractors": [
+        "D3",
+        "D♯3",
+        "E3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号56对应音名G♯3。"
+    },
+    {
+      "id": "zh_art_0299",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高57对应哪个音名？",
+      "answer": "A3",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯3",
+        "A♯3",
+        "B3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号57对应音名A3。"
+    },
+    {
+      "id": "zh_art_0300",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高58对应哪个音名？",
+      "answer": "A♯3",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯3",
+        "E3",
+        "F3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号58对应音名A♯3。"
+    },
+    {
+      "id": "zh_art_0301",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高59对应哪个音名？",
+      "answer": "B3",
+      "accepted_aliases": [],
+      "distractors": [
+        "A3",
+        "A♯3",
+        "C3"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号59对应音名B3。"
+    },
+    {
+      "id": "zh_art_0302",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高60对应哪个音名？",
+      "answer": "C4",
+      "accepted_aliases": [],
+      "distractors": [
+        "F4",
+        "F♯4",
+        "G4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号60对应音名C4。"
+    },
+    {
+      "id": "zh_art_0303",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高61对应哪个音名？",
+      "answer": "C♯4",
+      "accepted_aliases": [],
+      "distractors": [
+        "B4",
+        "C4",
+        "D4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号61对应音名C♯4。"
+    },
+    {
+      "id": "zh_art_0304",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高62对应哪个音名？",
+      "answer": "D4",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯4",
+        "G4",
+        "G♯4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号62对应音名D4。"
+    },
+    {
+      "id": "zh_art_0305",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高63对应哪个音名？",
+      "answer": "D♯4",
+      "accepted_aliases": [],
+      "distractors": [
+        "C4",
+        "C♯4",
+        "D4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号63对应音名D♯4。"
+    },
+    {
+      "id": "zh_art_0306",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高64对应哪个音名？",
+      "answer": "E4",
+      "accepted_aliases": [],
+      "distractors": [
+        "G4",
+        "G♯4",
+        "A4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号64对应音名E4。"
+    },
+    {
+      "id": "zh_art_0307",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高65对应哪个音名？",
+      "answer": "F4",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯4",
+        "D4",
+        "D♯4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号65对应音名F4。"
+    },
+    {
+      "id": "zh_art_0308",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高66对应哪个音名？",
+      "answer": "F♯4",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯4",
+        "A4",
+        "A♯4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号66对应音名F♯4。"
+    },
+    {
+      "id": "zh_art_0309",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高67对应哪个音名？",
+      "answer": "G4",
+      "accepted_aliases": [],
+      "distractors": [
+        "D4",
+        "D♯4",
+        "E4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号67对应音名G4。"
+    },
+    {
+      "id": "zh_art_0310",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高68对应哪个音名？",
+      "answer": "G♯4",
+      "accepted_aliases": [],
+      "distractors": [
+        "A4",
+        "A♯4",
+        "B4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号68对应音名G♯4。"
+    },
+    {
+      "id": "zh_art_0311",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高69对应哪个音名？",
+      "answer": "A4",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯4",
+        "E4",
+        "F4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号69对应音名A4。"
+    },
+    {
+      "id": "zh_art_0312",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高70对应哪个音名？",
+      "answer": "A♯4",
+      "accepted_aliases": [],
+      "distractors": [
+        "A4",
+        "B4",
+        "C4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号70对应音名A♯4。"
+    },
+    {
+      "id": "zh_art_0313",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高71对应哪个音名？",
+      "answer": "B4",
+      "accepted_aliases": [],
+      "distractors": [
+        "E4",
+        "F4",
+        "F♯4"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号71对应音名B4。"
+    },
+    {
+      "id": "zh_art_0314",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高72对应哪个音名？",
+      "answer": "C5",
+      "accepted_aliases": [],
+      "distractors": [
+        "B5",
+        "C♯5",
+        "D5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号72对应音名C5。"
+    },
+    {
+      "id": "zh_art_0315",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高73对应哪个音名？",
+      "answer": "C♯5",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯5",
+        "G5",
+        "G♯5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号73对应音名C♯5。"
+    },
+    {
+      "id": "zh_art_0316",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高74对应哪个音名？",
+      "answer": "D5",
+      "accepted_aliases": [],
+      "distractors": [
+        "C5",
+        "C♯5",
+        "D♯5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号74对应音名D5。"
+    },
+    {
+      "id": "zh_art_0317",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高75对应哪个音名？",
+      "answer": "D♯5",
+      "accepted_aliases": [],
+      "distractors": [
+        "G5",
+        "G♯5",
+        "A5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号75对应音名D♯5。"
+    },
+    {
+      "id": "zh_art_0318",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高76对应哪个音名？",
+      "answer": "E5",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯5",
+        "D5",
+        "D♯5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号76对应音名E5。"
+    },
+    {
+      "id": "zh_art_0319",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高77对应哪个音名？",
+      "answer": "F5",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯5",
+        "A5",
+        "A♯5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号77对应音名F5。"
+    },
+    {
+      "id": "zh_art_0320",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高78对应哪个音名？",
+      "answer": "F♯5",
+      "accepted_aliases": [],
+      "distractors": [
+        "D5",
+        "D♯5",
+        "E5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号78对应音名F♯5。"
+    },
+    {
+      "id": "zh_art_0321",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高79对应哪个音名？",
+      "answer": "G5",
+      "accepted_aliases": [],
+      "distractors": [
+        "A5",
+        "A♯5",
+        "B5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号79对应音名G5。"
+    },
+    {
+      "id": "zh_art_0322",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高80对应哪个音名？",
+      "answer": "G♯5",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯5",
+        "E5",
+        "F5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号80对应音名G♯5。"
+    },
+    {
+      "id": "zh_art_0323",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高81对应哪个音名？",
+      "answer": "A5",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯5",
+        "B5",
+        "C5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号81对应音名A5。"
+    },
+    {
+      "id": "zh_art_0324",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高82对应哪个音名？",
+      "answer": "A♯5",
+      "accepted_aliases": [],
+      "distractors": [
+        "E5",
+        "F5",
+        "F♯5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号82对应音名A♯5。"
+    },
+    {
+      "id": "zh_art_0325",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高83对应哪个音名？",
+      "answer": "B5",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯5",
+        "C5",
+        "C♯5"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号83对应音名B5。"
+    },
+    {
+      "id": "zh_art_0326",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高84对应哪个音名？",
+      "answer": "C6",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯6",
+        "G6",
+        "G♯6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号84对应音名C6。"
+    },
+    {
+      "id": "zh_art_0327",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高85对应哪个音名？",
+      "answer": "C♯6",
+      "accepted_aliases": [],
+      "distractors": [
+        "C6",
+        "D6",
+        "D♯6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号85对应音名C♯6。"
+    },
+    {
+      "id": "zh_art_0328",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高86对应哪个音名？",
+      "answer": "D6",
+      "accepted_aliases": [],
+      "distractors": [
+        "G6",
+        "G♯6",
+        "A6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号86对应音名D6。"
+    },
+    {
+      "id": "zh_art_0329",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高87对应哪个音名？",
+      "answer": "D♯6",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯6",
+        "D6",
+        "E6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号87对应音名D♯6。"
+    },
+    {
+      "id": "zh_art_0330",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高88对应哪个音名？",
+      "answer": "E6",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯6",
+        "A6",
+        "A♯6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号88对应音名E6。"
+    },
+    {
+      "id": "zh_art_0331",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高89对应哪个音名？",
+      "answer": "F6",
+      "accepted_aliases": [],
+      "distractors": [
+        "D6",
+        "D♯6",
+        "E6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号89对应音名F6。"
+    },
+    {
+      "id": "zh_art_0332",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高90对应哪个音名？",
+      "answer": "F♯6",
+      "accepted_aliases": [],
+      "distractors": [
+        "A6",
+        "A♯6",
+        "B6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号90对应音名F♯6。"
+    },
+    {
+      "id": "zh_art_0333",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高91对应哪个音名？",
+      "answer": "G6",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯6",
+        "E6",
+        "F6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号91对应音名G6。"
+    },
+    {
+      "id": "zh_art_0334",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高92对应哪个音名？",
+      "answer": "G♯6",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯6",
+        "B6",
+        "C6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号92对应音名G♯6。"
+    },
+    {
+      "id": "zh_art_0335",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高93对应哪个音名？",
+      "answer": "A6",
+      "accepted_aliases": [],
+      "distractors": [
+        "E6",
+        "F6",
+        "F♯6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号93对应音名A6。"
+    },
+    {
+      "id": "zh_art_0336",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高94对应哪个音名？",
+      "answer": "A♯6",
+      "accepted_aliases": [],
+      "distractors": [
+        "B6",
+        "C6",
+        "C♯6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号94对应音名A♯6。"
+    },
+    {
+      "id": "zh_art_0337",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高95对应哪个音名？",
+      "answer": "B6",
+      "accepted_aliases": [],
+      "distractors": [
+        "F6",
+        "F♯6",
+        "G6"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号95对应音名B6。"
+    },
+    {
+      "id": "zh_art_0338",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高96对应哪个音名？",
+      "answer": "C7",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯7",
+        "D7",
+        "D♯7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号96对应音名C7。"
+    },
+    {
+      "id": "zh_art_0339",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高97对应哪个音名？",
+      "answer": "C♯7",
+      "accepted_aliases": [],
+      "distractors": [
+        "G7",
+        "G♯7",
+        "A7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号97对应音名C♯7。"
+    },
+    {
+      "id": "zh_art_0340",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高98对应哪个音名？",
+      "answer": "D7",
+      "accepted_aliases": [],
+      "distractors": [
+        "C♯7",
+        "D♯7",
+        "E7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号98对应音名D7。"
+    },
+    {
+      "id": "zh_art_0341",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高99对应哪个音名？",
+      "answer": "D♯7",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯7",
+        "A7",
+        "A♯7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号99对应音名D♯7。"
+    },
+    {
+      "id": "zh_art_0342",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高100对应哪个音名？",
+      "answer": "E7",
+      "accepted_aliases": [],
+      "distractors": [
+        "D7",
+        "D♯7",
+        "F7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号100对应音名E7。"
+    },
+    {
+      "id": "zh_art_0343",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高101对应哪个音名？",
+      "answer": "F7",
+      "accepted_aliases": [],
+      "distractors": [
+        "A7",
+        "A♯7",
+        "B7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号101对应音名F7。"
+    },
+    {
+      "id": "zh_art_0344",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高102对应哪个音名？",
+      "answer": "F♯7",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯7",
+        "E7",
+        "F7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号102对应音名F♯7。"
+    },
+    {
+      "id": "zh_art_0345",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高103对应哪个音名？",
+      "answer": "G7",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯7",
+        "B7",
+        "C7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号103对应音名G7。"
+    },
+    {
+      "id": "zh_art_0346",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高104对应哪个音名？",
+      "answer": "G♯7",
+      "accepted_aliases": [],
+      "distractors": [
+        "E7",
+        "F7",
+        "F♯7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号104对应音名G♯7。"
+    },
+    {
+      "id": "zh_art_0347",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高105对应哪个音名？",
+      "answer": "A7",
+      "accepted_aliases": [],
+      "distractors": [
+        "B7",
+        "C7",
+        "C♯7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号105对应音名A7。"
+    },
+    {
+      "id": "zh_art_0348",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高106对应哪个音名？",
+      "answer": "A♯7",
+      "accepted_aliases": [],
+      "distractors": [
+        "F7",
+        "F♯7",
+        "G7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号106对应音名A♯7。"
+    },
+    {
+      "id": "zh_art_0349",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高107对应哪个音名？",
+      "answer": "B7",
+      "accepted_aliases": [],
+      "distractors": [
+        "C7",
+        "C♯7",
+        "D7"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号107对应音名B7。"
+    },
+    {
+      "id": "zh_art_0350",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高108对应哪个音名？",
+      "answer": "C8",
+      "accepted_aliases": [],
+      "distractors": [
+        "G8",
+        "G♯8",
+        "A8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号108对应音名C8。"
+    },
+    {
+      "id": "zh_art_0351",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高109对应哪个音名？",
+      "answer": "C♯8",
+      "accepted_aliases": [],
+      "distractors": [
+        "D8",
+        "D♯8",
+        "E8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号109对应音名C♯8。"
+    },
+    {
+      "id": "zh_art_0352",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高110对应哪个音名？",
+      "answer": "D8",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯8",
+        "A8",
+        "A♯8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号110对应音名D8。"
+    },
+    {
+      "id": "zh_art_0353",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高111对应哪个音名？",
+      "answer": "D♯8",
+      "accepted_aliases": [],
+      "distractors": [
+        "D8",
+        "E8",
+        "F8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号111对应音名D♯8。"
+    },
+    {
+      "id": "zh_art_0354",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高112对应哪个音名？",
+      "answer": "E8",
+      "accepted_aliases": [],
+      "distractors": [
+        "A8",
+        "A♯8",
+        "B8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号112对应音名E8。"
+    },
+    {
+      "id": "zh_art_0355",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高113对应哪个音名？",
+      "answer": "F8",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯8",
+        "E8",
+        "F♯8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号113对应音名F8。"
+    },
+    {
+      "id": "zh_art_0356",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高114对应哪个音名？",
+      "answer": "F♯8",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯8",
+        "B8",
+        "C8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号114对应音名F♯8。"
+    },
+    {
+      "id": "zh_art_0357",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高115对应哪个音名？",
+      "answer": "G8",
+      "accepted_aliases": [],
+      "distractors": [
+        "E8",
+        "F8",
+        "F♯8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号115对应音名G8。"
+    },
+    {
+      "id": "zh_art_0358",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高116对应哪个音名？",
+      "answer": "G♯8",
+      "accepted_aliases": [],
+      "distractors": [
+        "B8",
+        "C8",
+        "C♯8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号116对应音名G♯8。"
+    },
+    {
+      "id": "zh_art_0359",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高117对应哪个音名？",
+      "answer": "A8",
+      "accepted_aliases": [],
+      "distractors": [
+        "F8",
+        "F♯8",
+        "G8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号117对应音名A8。"
+    },
+    {
+      "id": "zh_art_0360",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高118对应哪个音名？",
+      "answer": "A♯8",
+      "accepted_aliases": [],
+      "distractors": [
+        "C8",
+        "C♯8",
+        "D8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号118对应音名A♯8。"
+    },
+    {
+      "id": "zh_art_0361",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高119对应哪个音名？",
+      "answer": "B8",
+      "accepted_aliases": [],
+      "distractors": [
+        "F♯8",
+        "G8",
+        "G♯8"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号119对应音名B8。"
+    },
+    {
+      "id": "zh_art_0362",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高120对应哪个音名？",
+      "answer": "C9",
+      "accepted_aliases": [],
+      "distractors": [
+        "D9",
+        "D♯9",
+        "E9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号120对应音名C9。"
+    },
+    {
+      "id": "zh_art_0363",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高121对应哪个音名？",
+      "answer": "C♯9",
+      "accepted_aliases": [],
+      "distractors": [
+        "G♯9",
+        "A9",
+        "A♯9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号121对应音名C♯9。"
+    },
+    {
+      "id": "zh_art_0364",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高122对应哪个音名？",
+      "answer": "D9",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯9",
+        "E9",
+        "F9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号122对应音名D9。"
+    },
+    {
+      "id": "zh_art_0365",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高123对应哪个音名？",
+      "answer": "D♯9",
+      "accepted_aliases": [],
+      "distractors": [
+        "A9",
+        "A♯9",
+        "B9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号123对应音名D♯9。"
+    },
+    {
+      "id": "zh_art_0366",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高124对应哪个音名？",
+      "answer": "E9",
+      "accepted_aliases": [],
+      "distractors": [
+        "D♯9",
+        "F9",
+        "F♯9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号124对应音名E9。"
+    },
+    {
+      "id": "zh_art_0367",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "按国际通用MIDI编号，音高125对应哪个音名？",
+      "answer": "F9",
+      "accepted_aliases": [],
+      "distractors": [
+        "A♯9",
+        "B9",
+        "C9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号125对应音名F9。"
+    },
+    {
+      "id": "zh_art_0368",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "按国际通用MIDI编号，音高126对应哪个音名？",
+      "answer": "F♯9",
+      "accepted_aliases": [],
+      "distractors": [
+        "E9",
+        "F9",
+        "G9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号126对应音名F♯9。"
+    },
+    {
+      "id": "zh_art_0369",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "按国际通用MIDI编号，音高127对应哪个音名？",
+      "answer": "G9",
+      "accepted_aliases": [],
+      "distractors": [
+        "B9",
+        "C9",
+        "C♯9"
+      ],
+      "explanation": "MIDI音高编号以半音递增，编号127对应音名G9。"
+    },
+    {
+      "id": "zh_art_0370",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《红楼梦》的创作者是谁？",
+      "answer": "曹雪芹",
+      "accepted_aliases": [],
+      "distractors": [
+        "西贝柳斯",
+        "罗西尼",
+        "普契尼"
+      ],
+      "explanation": "文学作品《红楼梦》的创作者是曹雪芹。"
+    },
+    {
+      "id": "zh_art_0371",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《三国演义》的创作者是谁？",
+      "answer": "罗贯中",
+      "accepted_aliases": [],
+      "distractors": [
+        "施耐庵",
+        "吴承恩",
+        "吴敬梓"
+      ],
+      "explanation": "文学作品《三国演义》的创作者是罗贯中。"
+    },
+    {
+      "id": "zh_art_0372",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《水浒传》的创作者是谁？",
+      "answer": "施耐庵",
+      "accepted_aliases": [],
+      "distractors": [
+        "杨沫",
+        "曲波",
+        "罗广斌、杨益言"
+      ],
+      "explanation": "文学作品《水浒传》的创作者是施耐庵。"
+    },
+    {
+      "id": "zh_art_0373",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《西游记》的创作者是谁？",
+      "answer": "吴承恩",
+      "accepted_aliases": [],
+      "distractors": [
+        "马尔克斯",
+        "塞万提斯",
+        "但丁"
+      ],
+      "explanation": "文学作品《西游记》的创作者是吴承恩。"
+    },
+    {
+      "id": "zh_art_0374",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《儒林外史》的创作者是谁？",
+      "answer": "吴敬梓",
+      "accepted_aliases": [],
+      "distractors": [
+        "普鲁斯特",
+        "乔伊斯",
+        "梭罗"
+      ],
+      "explanation": "文学作品《儒林外史》的创作者是吴敬梓。"
+    },
+    {
+      "id": "zh_art_0375",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《聊斋志异》的创作者是谁？",
+      "answer": "蒲松龄",
+      "accepted_aliases": [],
+      "distractors": [
+        "顾闳中",
+        "王希孟",
+        "黄公望"
+      ],
+      "explanation": "文学作品《聊斋志异》的创作者是蒲松龄。"
+    },
+    {
+      "id": "zh_art_0376",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《呐喊》的创作者是谁？",
+      "answer": "鲁迅",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉斐尔",
+        "波提切利",
+        "修拉"
+      ],
+      "explanation": "文学作品《呐喊》的创作者是鲁迅。"
+    },
+    {
+      "id": "zh_art_0377",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《边城》的创作者是谁？",
+      "answer": "沈从文",
+      "accepted_aliases": [],
+      "distractors": [
+        "勃拉姆斯",
+        "西贝柳斯",
+        "罗西尼"
+      ],
+      "explanation": "文学作品《边城》的创作者是沈从文。"
+    },
+    {
+      "id": "zh_art_0378",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《围城》的创作者是谁？",
+      "answer": "钱钟书",
+      "accepted_aliases": [],
+      "distractors": [
+        "曹雪芹",
+        "罗贯中",
+        "施耐庵"
+      ],
+      "explanation": "文学作品《围城》的创作者是钱钟书。"
+    },
+    {
+      "id": "zh_art_0379",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《骆驼祥子》的创作者是谁？",
+      "answer": "老舍",
+      "accepted_aliases": [],
+      "distractors": [
+        "孙犁",
+        "杨沫",
+        "曲波"
+      ],
+      "explanation": "文学作品《骆驼祥子》的创作者是老舍。"
+    },
+    {
+      "id": "zh_art_0380",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《家》的创作者是谁？",
+      "answer": "巴金",
+      "accepted_aliases": [],
+      "distractors": [
+        "海明威",
+        "马尔克斯",
+        "塞万提斯"
+      ],
+      "explanation": "文学作品《家》的创作者是巴金。"
+    },
+    {
+      "id": "zh_art_0381",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《雷雨》的创作者是谁？",
+      "answer": "曹禺",
+      "accepted_aliases": [],
+      "distractors": [
+        "加缪",
+        "普鲁斯特",
+        "乔伊斯"
+      ],
+      "explanation": "文学作品《雷雨》的创作者是曹禺。"
+    },
+    {
+      "id": "zh_art_0382",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《女神》的创作者是谁？",
+      "answer": "郭沫若",
+      "accepted_aliases": [],
+      "distractors": [
+        "阎立本",
+        "顾闳中",
+        "王希孟"
+      ],
+      "explanation": "文学作品《女神》的创作者是郭沫若。"
+    },
+    {
+      "id": "zh_art_0383",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《子夜》的创作者是谁？",
+      "answer": "茅盾",
+      "accepted_aliases": [],
+      "distractors": [
+        "委拉斯开兹",
+        "拉斐尔",
+        "波提切利"
+      ],
+      "explanation": "文学作品《子夜》的创作者是茅盾。"
+    },
+    {
+      "id": "zh_art_0384",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《平凡的世界》的创作者是谁？",
+      "answer": "路遥",
+      "accepted_aliases": [],
+      "distractors": [
+        "德沃夏克",
+        "勃拉姆斯",
+        "西贝柳斯"
+      ],
+      "explanation": "文学作品《平凡的世界》的创作者是路遥。"
+    },
+    {
+      "id": "zh_art_0385",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《白鹿原》的创作者是谁？",
+      "answer": "陈忠实",
+      "accepted_aliases": [],
+      "distractors": [
+        "吕其明",
+        "曹雪芹",
+        "罗贯中"
+      ],
+      "explanation": "文学作品《白鹿原》的创作者是陈忠实。"
+    },
+    {
+      "id": "zh_art_0386",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《尘埃落定》的创作者是谁？",
+      "answer": "阿来",
+      "accepted_aliases": [],
+      "distractors": [
+        "冰心",
+        "孙犁",
+        "杨沫"
+      ],
+      "explanation": "文学作品《尘埃落定》的创作者是阿来。"
+    },
+    {
+      "id": "zh_art_0387",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《繁星》的创作者是谁？",
+      "answer": "冰心",
+      "accepted_aliases": [],
+      "distractors": [
+        "陀思妥耶夫斯基",
+        "海明威",
+        "马尔克斯"
+      ],
+      "explanation": "文学作品《繁星》的创作者是冰心。"
+    },
+    {
+      "id": "zh_art_0388",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《荷花淀》的创作者是谁？",
+      "answer": "孙犁",
+      "accepted_aliases": [],
+      "distractors": [
+        "高尔基",
+        "加缪",
+        "普鲁斯特"
+      ],
+      "explanation": "文学作品《荷花淀》的创作者是孙犁。"
+    },
+    {
+      "id": "zh_art_0389",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《青春之歌》的创作者是谁？",
+      "answer": "杨沫",
+      "accepted_aliases": [],
+      "distractors": [
+        "顾恺之",
+        "阎立本",
+        "顾闳中"
+      ],
+      "explanation": "文学作品《青春之歌》的创作者是杨沫。"
+    },
+    {
+      "id": "zh_art_0390",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《林海雪原》的创作者是谁？",
+      "answer": "曲波",
+      "accepted_aliases": [],
+      "distractors": [
+        "伦勃朗",
+        "委拉斯开兹",
+        "拉斐尔"
+      ],
+      "explanation": "文学作品《林海雪原》的创作者是曲波。"
+    },
+    {
+      "id": "zh_art_0391",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《红岩》的创作者是谁？",
+      "answer": "罗广斌、杨益言",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉威尔",
+        "德沃夏克",
+        "勃拉姆斯"
+      ],
+      "explanation": "文学作品《红岩》的创作者是罗广斌、杨益言。"
+    },
+    {
+      "id": "zh_art_0392",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《创业史》的创作者是谁？",
+      "answer": "柳青",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁善德",
+        "吕其明",
+        "曹雪芹"
+      ],
+      "explanation": "文学作品《创业史》的创作者是柳青。"
+    },
+    {
+      "id": "zh_art_0393",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《呼兰河传》的创作者是谁？",
+      "answer": "萧红",
+      "accepted_aliases": [],
+      "distractors": [
+        "陈忠实",
+        "阿来",
+        "冰心"
+      ],
+      "explanation": "文学作品《呼兰河传》的创作者是萧红。"
+    },
+    {
+      "id": "zh_art_0394",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《沉沦》的创作者是谁？",
+      "answer": "郁达夫",
+      "accepted_aliases": [],
+      "distractors": [
+        "托尔斯泰",
+        "陀思妥耶夫斯基",
+        "海明威"
+      ],
+      "explanation": "文学作品《沉沦》的创作者是郁达夫。"
+    },
+    {
+      "id": "zh_art_0395",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《金粉世家》的创作者是谁？",
+      "answer": "张恨水",
+      "accepted_aliases": [],
+      "distractors": [
+        "肖洛霍夫",
+        "高尔基",
+        "加缪"
+      ],
+      "explanation": "文学作品《金粉世家》的创作者是张恨水。"
+    },
+    {
+      "id": "zh_art_0396",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《太阳照在桑干河上》的创作者是谁？",
+      "answer": "丁玲",
+      "accepted_aliases": [],
+      "distractors": [
+        "张择端",
+        "顾恺之",
+        "阎立本"
+      ],
+      "explanation": "文学作品《太阳照在桑干河上》的创作者是丁玲。"
+    },
+    {
+      "id": "zh_art_0397",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《暴风骤雨》的创作者是谁？",
+      "answer": "周立波",
+      "accepted_aliases": [],
+      "distractors": [
+        "德拉克洛瓦",
+        "伦勃朗",
+        "委拉斯开兹"
+      ],
+      "explanation": "文学作品《暴风骤雨》的创作者是周立波。"
+    },
+    {
+      "id": "zh_art_0398",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《保卫延安》的创作者是谁？",
+      "answer": "杜鹏程",
+      "accepted_aliases": [],
+      "distractors": [
+        "克洛德·德彪西",
+        "拉威尔",
+        "德沃夏克"
+      ],
+      "explanation": "文学作品《保卫延安》的创作者是杜鹏程。"
+    },
+    {
+      "id": "zh_art_0399",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《哈姆雷特》的创作者是谁？",
+      "answer": "莎士比亚",
+      "accepted_aliases": [],
+      "distractors": [
+        "贺绿汀",
+        "丁善德",
+        "吕其明"
+      ],
+      "explanation": "文学作品《哈姆雷特》的创作者是莎士比亚。"
+    },
+    {
+      "id": "zh_art_0400",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《浮士德》的创作者是谁？",
+      "answer": "歌德",
+      "accepted_aliases": [],
+      "distractors": [
+        "路遥",
+        "陈忠实",
+        "阿来"
+      ],
+      "explanation": "文学作品《浮士德》的创作者是歌德。"
+    },
+    {
+      "id": "zh_art_0401",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《巴黎圣母院》的创作者是谁？",
+      "answer": "雨果",
+      "accepted_aliases": [],
+      "distractors": [
+        "狄更斯",
+        "托尔斯泰",
+        "陀思妥耶夫斯基"
+      ],
+      "explanation": "文学作品《巴黎圣母院》的创作者是雨果。"
+    },
+    {
+      "id": "zh_art_0402",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《双城记》的创作者是谁？",
+      "answer": "狄更斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "普希金",
+        "肖洛霍夫",
+        "高尔基"
+      ],
+      "explanation": "文学作品《双城记》的创作者是狄更斯。"
+    },
+    {
+      "id": "zh_art_0403",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《战争与和平》的创作者是谁？",
+      "answer": "托尔斯泰",
+      "accepted_aliases": [],
+      "distractors": [
+        "泰戈尔",
+        "张择端",
+        "顾恺之"
+      ],
+      "explanation": "文学作品《战争与和平》的创作者是托尔斯泰。"
+    },
+    {
+      "id": "zh_art_0404",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《罪与罚》的创作者是谁？",
+      "answer": "陀思妥耶夫斯基",
+      "accepted_aliases": [],
+      "distractors": [
+        "米勒",
+        "德拉克洛瓦",
+        "伦勃朗"
+      ],
+      "explanation": "文学作品《罪与罚》的创作者是陀思妥耶夫斯基。"
+    },
+    {
+      "id": "zh_art_0405",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《老人与海》的创作者是谁？",
+      "answer": "海明威",
+      "accepted_aliases": [],
+      "distractors": [
+        "柴可夫斯基",
+        "克洛德·德彪西",
+        "拉威尔"
+      ],
+      "explanation": "文学作品《老人与海》的创作者是海明威。"
+    },
+    {
+      "id": "zh_art_0406",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《百年孤独》的创作者是谁？",
+      "answer": "马尔克斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "刘铁山、茅沅",
+        "贺绿汀",
+        "丁善德"
+      ],
+      "explanation": "文学作品《百年孤独》的创作者是马尔克斯。"
+    },
+    {
+      "id": "zh_art_0407",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《堂吉诃德》的创作者是谁？",
+      "answer": "塞万提斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "茅盾",
+        "路遥",
+        "陈忠实"
+      ],
+      "explanation": "文学作品《堂吉诃德》的创作者是塞万提斯。"
+    },
+    {
+      "id": "zh_art_0408",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《神曲》的创作者是谁？",
+      "answer": "但丁",
+      "accepted_aliases": [],
+      "distractors": [
+        "歌德",
+        "雨果",
+        "狄更斯"
+      ],
+      "explanation": "文学作品《神曲》的创作者是但丁。"
+    },
+    {
+      "id": "zh_art_0409",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《伊利亚特》的创作者是谁？",
+      "answer": "荷马",
+      "accepted_aliases": [],
+      "distractors": [
+        "斯威夫特",
+        "普希金",
+        "肖洛霍夫"
+      ],
+      "explanation": "文学作品《伊利亚特》的创作者是荷马。"
+    },
+    {
+      "id": "zh_art_0410",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《玩偶之家》的创作者是谁？",
+      "answer": "易卜生",
+      "accepted_aliases": [],
+      "distractors": [
+        "村上春树",
+        "泰戈尔",
+        "张择端"
+      ],
+      "explanation": "文学作品《玩偶之家》的创作者是易卜生。"
+    },
+    {
+      "id": "zh_art_0411",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《变形记》的创作者是谁？",
+      "answer": "卡夫卡",
+      "accepted_aliases": [],
+      "distractors": [
+        "蒙克",
+        "米勒",
+        "德拉克洛瓦"
+      ],
+      "explanation": "文学作品《变形记》的创作者是卡夫卡。"
+    },
+    {
+      "id": "zh_art_0412",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《包法利夫人》的创作者是谁？",
+      "answer": "福楼拜",
+      "accepted_aliases": [],
+      "distractors": [
+        "比才",
+        "柴可夫斯基",
+        "克洛德·德彪西"
+      ],
+      "explanation": "文学作品《包法利夫人》的创作者是福楼拜。"
+    },
+    {
+      "id": "zh_art_0413",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《红与黑》的创作者是谁？",
+      "answer": "司汤达",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄海怀",
+        "刘铁山、茅沅",
+        "贺绿汀"
+      ],
+      "explanation": "文学作品《红与黑》的创作者是司汤达。"
+    },
+    {
+      "id": "zh_art_0414",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《简爱》的创作者是谁？",
+      "answer": "夏洛蒂·勃朗特",
+      "accepted_aliases": [],
+      "distractors": [
+        "郭沫若",
+        "茅盾",
+        "路遥"
+      ],
+      "explanation": "文学作品《简爱》的创作者是夏洛蒂·勃朗特。"
+    },
+    {
+      "id": "zh_art_0415",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《呼啸山庄》的创作者是谁？",
+      "answer": "艾米莉·勃朗特",
+      "accepted_aliases": [],
+      "distractors": [
+        "莎士比亚",
+        "歌德",
+        "雨果"
+      ],
+      "explanation": "文学作品《呼啸山庄》的创作者是艾米莉·勃朗特。"
+    },
+    {
+      "id": "zh_art_0416",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《傲慢与偏见》的创作者是谁？",
+      "answer": "简·奥斯汀",
+      "accepted_aliases": [],
+      "distractors": [
+        "笛福",
+        "斯威夫特",
+        "普希金"
+      ],
+      "explanation": "文学作品《傲慢与偏见》的创作者是简·奥斯汀。"
+    },
+    {
+      "id": "zh_art_0417",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《鲁滨逊漂流记》的创作者是谁？",
+      "answer": "笛福",
+      "accepted_aliases": [],
+      "distractors": [
+        "芥川龙之介",
+        "村上春树",
+        "泰戈尔"
+      ],
+      "explanation": "文学作品《鲁滨逊漂流记》的创作者是笛福。"
+    },
+    {
+      "id": "zh_art_0418",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《格列佛游记》的创作者是谁？",
+      "answer": "斯威夫特",
+      "accepted_aliases": [],
+      "distractors": [
+        "达利",
+        "蒙克",
+        "米勒"
+      ],
+      "explanation": "文学作品《格列佛游记》的创作者是斯威夫特。"
+    },
+    {
+      "id": "zh_art_0419",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《叶甫盖尼·奥涅金》的创作者是谁？",
+      "answer": "普希金",
+      "accepted_aliases": [],
+      "distractors": [
+        "维瓦尔第",
+        "比才",
+        "柴可夫斯基"
+      ],
+      "explanation": "文学作品《叶甫盖尼·奥涅金》的创作者是普希金。"
+    },
+    {
+      "id": "zh_art_0420",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《静静的顿河》的创作者是谁？",
+      "answer": "肖洛霍夫",
+      "accepted_aliases": [],
+      "distractors": [
+        "任光",
+        "黄海怀",
+        "刘铁山、茅沅"
+      ],
+      "explanation": "文学作品《静静的顿河》的创作者是肖洛霍夫。"
+    },
+    {
+      "id": "zh_art_0421",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《母亲》的创作者是谁？",
+      "answer": "高尔基",
+      "accepted_aliases": [],
+      "distractors": [
+        "曹禺",
+        "郭沫若",
+        "茅盾"
+      ],
+      "explanation": "文学作品《母亲》的创作者是高尔基。"
+    },
+    {
+      "id": "zh_art_0422",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《局外人》的创作者是谁？",
+      "answer": "加缪",
+      "accepted_aliases": [],
+      "distractors": [
+        "杜鹏程",
+        "莎士比亚",
+        "歌德"
+      ],
+      "explanation": "文学作品《局外人》的创作者是加缪。"
+    },
+    {
+      "id": "zh_art_0423",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《追忆似水年华》的创作者是谁？",
+      "answer": "普鲁斯特",
+      "accepted_aliases": [],
+      "distractors": [
+        "艾米莉·勃朗特",
+        "简·奥斯汀",
+        "笛福"
+      ],
+      "explanation": "文学作品《追忆似水年华》的创作者是普鲁斯特。"
+    },
+    {
+      "id": "zh_art_0424",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《尤利西斯》的创作者是谁？",
+      "answer": "乔伊斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "夏目漱石",
+        "芥川龙之介",
+        "村上春树"
+      ],
+      "explanation": "文学作品《尤利西斯》的创作者是乔伊斯。"
+    },
+    {
+      "id": "zh_art_0425",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《瓦尔登湖》的创作者是谁？",
+      "answer": "梭罗",
+      "accepted_aliases": [],
+      "distractors": [
+        "毕加索",
+        "达利",
+        "蒙克"
+      ],
+      "explanation": "文学作品《瓦尔登湖》的创作者是梭罗。"
+    },
+    {
+      "id": "zh_art_0426",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《草叶集》的创作者是谁？",
+      "answer": "惠特曼",
+      "accepted_aliases": [],
+      "distractors": [
+        "小约翰·施特劳斯",
+        "维瓦尔第",
+        "比才"
+      ],
+      "explanation": "文学作品《草叶集》的创作者是惠特曼。"
+    },
+    {
+      "id": "zh_art_0427",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《恶之花》的创作者是谁？",
+      "answer": "波德莱尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "李焕之",
+        "任光",
+        "黄海怀"
+      ],
+      "explanation": "文学作品《恶之花》的创作者是波德莱尔。"
+    },
+    {
+      "id": "zh_art_0428",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《等待戈多》的创作者是谁？",
+      "answer": "贝克特",
+      "accepted_aliases": [],
+      "distractors": [
+        "巴金",
+        "曹禺",
+        "郭沫若"
+      ],
+      "explanation": "文学作品《等待戈多》的创作者是贝克特。"
+    },
+    {
+      "id": "zh_art_0429",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《秃头歌女》的创作者是谁？",
+      "answer": "尤奈斯库",
+      "accepted_aliases": [],
+      "distractors": [
+        "周立波",
+        "杜鹏程",
+        "莎士比亚"
+      ],
+      "explanation": "文学作品《秃头歌女》的创作者是尤奈斯库。"
+    },
+    {
+      "id": "zh_art_0430",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《铁皮鼓》的创作者是谁？",
+      "answer": "君特·格拉斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "夏洛蒂·勃朗特",
+        "艾米莉·勃朗特",
+        "简·奥斯汀"
+      ],
+      "explanation": "文学作品《铁皮鼓》的创作者是君特·格拉斯。"
+    },
+    {
+      "id": "zh_art_0431",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《雪国》的创作者是谁？",
+      "answer": "川端康成",
+      "accepted_aliases": [],
+      "distractors": [
+        "紫式部",
+        "夏目漱石",
+        "芥川龙之介"
+      ],
+      "explanation": "文学作品《雪国》的创作者是川端康成。"
+    },
+    {
+      "id": "zh_art_0432",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《源氏物语》的创作者是谁？",
+      "answer": "紫式部",
+      "accepted_aliases": [],
+      "distractors": [
+        "莫奈",
+        "毕加索",
+        "达利"
+      ],
+      "explanation": "文学作品《源氏物语》的创作者是紫式部。"
+    },
+    {
+      "id": "zh_art_0433",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《我是猫》的创作者是谁？",
+      "answer": "夏目漱石",
+      "accepted_aliases": [],
+      "distractors": [
+        "舒伯特",
+        "小约翰·施特劳斯",
+        "维瓦尔第"
+      ],
+      "explanation": "文学作品《我是猫》的创作者是夏目漱石。"
+    },
+    {
+      "id": "zh_art_0434",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：文学作品《罗生门》的创作者是谁？",
+      "answer": "芥川龙之介",
+      "accepted_aliases": [],
+      "distractors": [
+        "聂耳",
+        "李焕之",
+        "任光"
+      ],
+      "explanation": "文学作品《罗生门》的创作者是芥川龙之介。"
+    },
+    {
+      "id": "zh_art_0435",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：文学作品《挪威的森林》的创作者是谁？",
+      "answer": "村上春树",
+      "accepted_aliases": [],
+      "distractors": [
+        "老舍",
+        "巴金",
+        "曹禺"
+      ],
+      "explanation": "文学作品《挪威的森林》的创作者是村上春树。"
+    },
+    {
+      "id": "zh_art_0436",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：文学作品《飞鸟集》的创作者是谁？",
+      "answer": "泰戈尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁玲",
+        "周立波",
+        "杜鹏程"
+      ],
+      "explanation": "文学作品《飞鸟集》的创作者是泰戈尔。"
+    },
+    {
+      "id": "zh_art_0437",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《清明上河图》的创作者是谁？",
+      "answer": "张择端",
+      "accepted_aliases": [],
+      "distractors": [
+        "司汤达",
+        "夏洛蒂·勃朗特",
+        "艾米莉·勃朗特"
+      ],
+      "explanation": "绘画作品《清明上河图》的创作者是张择端。"
+    },
+    {
+      "id": "zh_art_0438",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《洛神赋图》的创作者是谁？",
+      "answer": "顾恺之",
+      "accepted_aliases": [],
+      "distractors": [
+        "君特·格拉斯",
+        "川端康成",
+        "紫式部"
+      ],
+      "explanation": "绘画作品《洛神赋图》的创作者是顾恺之。"
+    },
+    {
+      "id": "zh_art_0439",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《步辇图》的创作者是谁？",
+      "answer": "阎立本",
+      "accepted_aliases": [],
+      "distractors": [
+        "梵高",
+        "莫奈",
+        "毕加索"
+      ],
+      "explanation": "绘画作品《步辇图》的创作者是阎立本。"
+    },
+    {
+      "id": "zh_art_0440",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《韩熙载夜宴图》的创作者是谁？",
+      "answer": "顾闳中",
+      "accepted_aliases": [],
+      "distractors": [
+        "莫扎特",
+        "舒伯特",
+        "小约翰·施特劳斯"
+      ],
+      "explanation": "绘画作品《韩熙载夜宴图》的创作者是顾闳中。"
+    },
+    {
+      "id": "zh_art_0441",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《千里江山图》的创作者是谁？",
+      "answer": "王希孟",
+      "accepted_aliases": [],
+      "distractors": [
+        "冼星海",
+        "聂耳",
+        "李焕之"
+      ],
+      "explanation": "绘画作品《千里江山图》的创作者是王希孟。"
+    },
+    {
+      "id": "zh_art_0442",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《富春山居图》的创作者是谁？",
+      "answer": "黄公望",
+      "accepted_aliases": [],
+      "distractors": [
+        "钱钟书",
+        "老舍",
+        "巴金"
+      ],
+      "explanation": "绘画作品《富春山居图》的创作者是黄公望。"
+    },
+    {
+      "id": "zh_art_0443",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《墨葡萄图》的创作者是谁？",
+      "answer": "徐渭",
+      "accepted_aliases": [],
+      "distractors": [
+        "张恨水",
+        "丁玲",
+        "周立波"
+      ],
+      "explanation": "绘画作品《墨葡萄图》的创作者是徐渭。"
+    },
+    {
+      "id": "zh_art_0444",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《虾》的创作者是谁？",
+      "answer": "齐白石",
+      "accepted_aliases": [],
+      "distractors": [
+        "福楼拜",
+        "司汤达",
+        "夏洛蒂·勃朗特"
+      ],
+      "explanation": "绘画作品《虾》的创作者是齐白石。"
+    },
+    {
+      "id": "zh_art_0445",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《奔马图》的创作者是谁？",
+      "answer": "徐悲鸿",
+      "accepted_aliases": [],
+      "distractors": [
+        "尤奈斯库",
+        "君特·格拉斯",
+        "川端康成"
+      ],
+      "explanation": "绘画作品《奔马图》的创作者是徐悲鸿。"
+    },
+    {
+      "id": "zh_art_0446",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《开国大典》的创作者是谁？",
+      "answer": "董希文",
+      "accepted_aliases": [],
+      "distractors": [
+        "达·芬奇",
+        "梵高",
+        "莫奈"
+      ],
+      "explanation": "绘画作品《开国大典》的创作者是董希文。"
+    },
+    {
+      "id": "zh_art_0447",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《蒙娜丽莎》的创作者是谁？",
+      "answer": "达·芬奇",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝多芬",
+        "莫扎特",
+        "舒伯特"
+      ],
+      "explanation": "绘画作品《蒙娜丽莎》的创作者是达·芬奇。"
+    },
+    {
+      "id": "zh_art_0448",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《星月夜》的创作者是谁？",
+      "answer": "梵高",
+      "accepted_aliases": [],
+      "distractors": [
+        "何占豪、陈钢",
+        "冼星海",
+        "聂耳"
+      ],
+      "explanation": "绘画作品《星月夜》的创作者是梵高。"
+    },
+    {
+      "id": "zh_art_0449",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《印象·日出》的创作者是谁？",
+      "answer": "莫奈",
+      "accepted_aliases": [],
+      "distractors": [
+        "沈从文",
+        "钱钟书",
+        "老舍"
+      ],
+      "explanation": "绘画作品《印象·日出》的创作者是莫奈。"
+    },
+    {
+      "id": "zh_art_0450",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《格尔尼卡》的创作者是谁？",
+      "answer": "毕加索",
+      "accepted_aliases": [],
+      "distractors": [
+        "郁达夫",
+        "张恨水",
+        "丁玲"
+      ],
+      "explanation": "绘画作品《格尔尼卡》的创作者是毕加索。"
+    },
+    {
+      "id": "zh_art_0451",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《记忆的永恒》的创作者是谁？",
+      "answer": "达利",
+      "accepted_aliases": [],
+      "distractors": [
+        "卡夫卡",
+        "福楼拜",
+        "司汤达"
+      ],
+      "explanation": "绘画作品《记忆的永恒》的创作者是达利。"
+    },
+    {
+      "id": "zh_art_0452",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《呐喊》的创作者是谁？",
+      "answer": "蒙克",
+      "accepted_aliases": [],
+      "distractors": [
+        "贝克特",
+        "尤奈斯库",
+        "君特·格拉斯"
+      ],
+      "explanation": "绘画作品《呐喊》的创作者是蒙克。"
+    },
+    {
+      "id": "zh_art_0453",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《拾穗者》的创作者是谁？",
+      "answer": "米勒",
+      "accepted_aliases": [],
+      "distractors": [
+        "徐悲鸿",
+        "董希文",
+        "达·芬奇"
+      ],
+      "explanation": "绘画作品《拾穗者》的创作者是米勒。"
+    },
+    {
+      "id": "zh_art_0454",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《自由引导人民》的创作者是谁？",
+      "answer": "德拉克洛瓦",
+      "accepted_aliases": [],
+      "distractors": [
+        "安迪·沃霍尔",
+        "贝多芬",
+        "莫扎特"
+      ],
+      "explanation": "绘画作品《自由引导人民》的创作者是德拉克洛瓦。"
+    },
+    {
+      "id": "zh_art_0455",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《夜巡》的创作者是谁？",
+      "answer": "伦勃朗",
+      "accepted_aliases": [],
+      "distractors": [
+        "华彦钧",
+        "何占豪、陈钢",
+        "冼星海"
+      ],
+      "explanation": "绘画作品《夜巡》的创作者是伦勃朗。"
+    },
+    {
+      "id": "zh_art_0456",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《宫娥》的创作者是谁？",
+      "answer": "委拉斯开兹",
+      "accepted_aliases": [],
+      "distractors": [
+        "鲁迅",
+        "沈从文",
+        "钱钟书"
+      ],
+      "explanation": "绘画作品《宫娥》的创作者是委拉斯开兹。"
+    },
+    {
+      "id": "zh_art_0457",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《雅典学院》的创作者是谁？",
+      "answer": "拉斐尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "萧红",
+        "郁达夫",
+        "张恨水"
+      ],
+      "explanation": "绘画作品《雅典学院》的创作者是拉斐尔。"
+    },
+    {
+      "id": "zh_art_0458",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《维纳斯的诞生》的创作者是谁？",
+      "answer": "波提切利",
+      "accepted_aliases": [],
+      "distractors": [
+        "易卜生",
+        "卡夫卡",
+        "福楼拜"
+      ],
+      "explanation": "绘画作品《维纳斯的诞生》的创作者是波提切利。"
+    },
+    {
+      "id": "zh_art_0459",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《大碗岛的星期日下午》的创作者是谁？",
+      "answer": "修拉",
+      "accepted_aliases": [],
+      "distractors": [
+        "波德莱尔",
+        "贝克特",
+        "尤奈斯库"
+      ],
+      "explanation": "绘画作品《大碗岛的星期日下午》的创作者是修拉。"
+    },
+    {
+      "id": "zh_art_0460",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《舞蹈》的创作者是谁？",
+      "answer": "马蒂斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "齐白石",
+        "徐悲鸿",
+        "董希文"
+      ],
+      "explanation": "绘画作品《舞蹈》的创作者是马蒂斯。"
+    },
+    {
+      "id": "zh_art_0461",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：绘画作品《戴珍珠耳环的少女》的创作者是谁？",
+      "answer": "维米尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "格兰特·伍德",
+        "安迪·沃霍尔",
+        "贝多芬"
+      ],
+      "explanation": "绘画作品《戴珍珠耳环的少女》的创作者是维米尔。"
+    },
+    {
+      "id": "zh_art_0462",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：绘画作品《美国哥特式》的创作者是谁？",
+      "answer": "格兰特·伍德",
+      "accepted_aliases": [],
+      "distractors": [
+        "柳尧章整理",
+        "华彦钧",
+        "何占豪、陈钢"
+      ],
+      "explanation": "绘画作品《美国哥特式》的创作者是格兰特·伍德。"
+    },
+    {
+      "id": "zh_art_0463",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：绘画作品《坎贝尔汤罐头》的创作者是谁？",
+      "answer": "安迪·沃霍尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "蒲松龄",
+        "鲁迅",
+        "沈从文"
+      ],
+      "explanation": "绘画作品《坎贝尔汤罐头》的创作者是安迪·沃霍尔。"
+    },
+    {
+      "id": "zh_art_0464",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《命运交响曲》的创作者是谁？",
+      "answer": "贝多芬",
+      "accepted_aliases": [],
+      "distractors": [
+        "柳青",
+        "萧红",
+        "郁达夫"
+      ],
+      "explanation": "音乐作品《命运交响曲》的创作者是贝多芬。"
+    },
+    {
+      "id": "zh_art_0465",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《魔笛》的创作者是谁？",
+      "answer": "莫扎特",
+      "accepted_aliases": [],
+      "distractors": [
+        "荷马",
+        "易卜生",
+        "卡夫卡"
+      ],
+      "explanation": "音乐作品《魔笛》的创作者是莫扎特。"
+    },
+    {
+      "id": "zh_art_0466",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《未完成交响曲》的创作者是谁？",
+      "answer": "舒伯特",
+      "accepted_aliases": [],
+      "distractors": [
+        "惠特曼",
+        "波德莱尔",
+        "贝克特"
+      ],
+      "explanation": "音乐作品《未完成交响曲》的创作者是舒伯特。"
+    },
+    {
+      "id": "zh_art_0467",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《蓝色多瑙河》的创作者是谁？",
+      "answer": "小约翰·施特劳斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "徐渭",
+        "齐白石",
+        "徐悲鸿"
+      ],
+      "explanation": "音乐作品《蓝色多瑙河》的创作者是小约翰·施特劳斯。"
+    },
+    {
+      "id": "zh_art_0468",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《四季》的创作者是谁？",
+      "answer": "维瓦尔第",
+      "accepted_aliases": [],
+      "distractors": [
+        "马蒂斯",
+        "维米尔",
+        "格兰特·伍德"
+      ],
+      "explanation": "音乐作品《四季》的创作者是维瓦尔第。"
+    },
+    {
+      "id": "zh_art_0469",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《卡门》的创作者是谁？",
+      "answer": "比才",
+      "accepted_aliases": [],
+      "distractors": [
+        "威尔第",
+        "柳尧章整理",
+        "华彦钧"
+      ],
+      "explanation": "音乐作品《卡门》的创作者是比才。"
+    },
+    {
+      "id": "zh_art_0470",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《天鹅湖》的创作者是谁？",
+      "answer": "柴可夫斯基",
+      "accepted_aliases": [],
+      "distractors": [
+        "吴敬梓",
+        "蒲松龄",
+        "鲁迅"
+      ],
+      "explanation": "音乐作品《天鹅湖》的创作者是柴可夫斯基。"
+    },
+    {
+      "id": "zh_art_0471",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《月光》的创作者是谁？",
+      "answer": "克洛德·德彪西",
+      "accepted_aliases": [],
+      "distractors": [
+        "罗广斌、杨益言",
+        "柳青",
+        "萧红"
+      ],
+      "explanation": "音乐作品《月光》的创作者是克洛德·德彪西。"
+    },
+    {
+      "id": "zh_art_0472",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《波莱罗舞曲》的创作者是谁？",
+      "answer": "拉威尔",
+      "accepted_aliases": [],
+      "distractors": [
+        "但丁",
+        "荷马",
+        "易卜生"
+      ],
+      "explanation": "音乐作品《波莱罗舞曲》的创作者是拉威尔。"
+    },
+    {
+      "id": "zh_art_0473",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《新世界交响曲》的创作者是谁？",
+      "answer": "德沃夏克",
+      "accepted_aliases": [],
+      "distractors": [
+        "梭罗",
+        "惠特曼",
+        "波德莱尔"
+      ],
+      "explanation": "音乐作品《新世界交响曲》的创作者是德沃夏克。"
+    },
+    {
+      "id": "zh_art_0474",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《匈牙利舞曲》的创作者是谁？",
+      "answer": "勃拉姆斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄公望",
+        "徐渭",
+        "齐白石"
+      ],
+      "explanation": "音乐作品《匈牙利舞曲》的创作者是勃拉姆斯。"
+    },
+    {
+      "id": "zh_art_0475",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《芬兰颂》的创作者是谁？",
+      "answer": "西贝柳斯",
+      "accepted_aliases": [],
+      "distractors": [
+        "修拉",
+        "马蒂斯",
+        "维米尔"
+      ],
+      "explanation": "音乐作品《芬兰颂》的创作者是西贝柳斯。"
+    },
+    {
+      "id": "zh_art_0476",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《威廉·退尔序曲》的创作者是谁？",
+      "answer": "罗西尼",
+      "accepted_aliases": [],
+      "distractors": [
+        "普契尼",
+        "威尔第",
+        "柳尧章整理"
+      ],
+      "explanation": "音乐作品《威廉·退尔序曲》的创作者是罗西尼。"
+    },
+    {
+      "id": "zh_art_0477",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《图兰朵》的创作者是谁？",
+      "answer": "普契尼",
+      "accepted_aliases": [],
+      "distractors": [
+        "吴承恩",
+        "吴敬梓",
+        "蒲松龄"
+      ],
+      "explanation": "音乐作品《图兰朵》的创作者是普契尼。"
+    },
+    {
+      "id": "zh_art_0478",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《茶花女》的创作者是谁？",
+      "answer": "威尔第",
+      "accepted_aliases": [],
+      "distractors": [
+        "曲波",
+        "罗广斌、杨益言",
+        "柳青"
+      ],
+      "explanation": "音乐作品《茶花女》的创作者是威尔第。"
+    },
+    {
+      "id": "zh_art_0479",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《春江花月夜》的创作者是谁？",
+      "answer": "柳尧章整理",
+      "accepted_aliases": [],
+      "distractors": [
+        "塞万提斯",
+        "但丁",
+        "荷马"
+      ],
+      "explanation": "音乐作品《春江花月夜》的创作者是柳尧章整理。"
+    },
+    {
+      "id": "zh_art_0480",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《二泉映月》的创作者是谁？",
+      "answer": "华彦钧",
+      "accepted_aliases": [],
+      "distractors": [
+        "乔伊斯",
+        "梭罗",
+        "惠特曼"
+      ],
+      "explanation": "音乐作品《二泉映月》的创作者是华彦钧。"
+    },
+    {
+      "id": "zh_art_0481",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《梁山伯与祝英台》的创作者是谁？",
+      "answer": "何占豪、陈钢",
+      "accepted_aliases": [],
+      "distractors": [
+        "王希孟",
+        "黄公望",
+        "徐渭"
+      ],
+      "explanation": "音乐作品《梁山伯与祝英台》的创作者是何占豪、陈钢。"
+    },
+    {
+      "id": "zh_art_0482",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《黄河大合唱》的创作者是谁？",
+      "answer": "冼星海",
+      "accepted_aliases": [],
+      "distractors": [
+        "波提切利",
+        "修拉",
+        "马蒂斯"
+      ],
+      "explanation": "音乐作品《黄河大合唱》的创作者是冼星海。"
+    },
+    {
+      "id": "zh_art_0483",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《义勇军进行曲》的创作者是谁？",
+      "answer": "聂耳",
+      "accepted_aliases": [],
+      "distractors": [
+        "西贝柳斯",
+        "罗西尼",
+        "普契尼"
+      ],
+      "explanation": "音乐作品《义勇军进行曲》的创作者是聂耳。"
+    },
+    {
+      "id": "zh_art_0484",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《春节序曲》的创作者是谁？",
+      "answer": "李焕之",
+      "accepted_aliases": [],
+      "distractors": [
+        "施耐庵",
+        "吴承恩",
+        "吴敬梓"
+      ],
+      "explanation": "音乐作品《春节序曲》的创作者是李焕之。"
+    },
+    {
+      "id": "zh_art_0485",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《彩云追月》的创作者是谁？",
+      "answer": "任光",
+      "accepted_aliases": [],
+      "distractors": [
+        "杨沫",
+        "曲波",
+        "罗广斌、杨益言"
+      ],
+      "explanation": "音乐作品《彩云追月》的创作者是任光。"
+    },
+    {
+      "id": "zh_art_0486",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《赛马》的创作者是谁？",
+      "answer": "黄海怀",
+      "accepted_aliases": [],
+      "distractors": [
+        "马尔克斯",
+        "塞万提斯",
+        "但丁"
+      ],
+      "explanation": "音乐作品《赛马》的创作者是黄海怀。"
+    },
+    {
+      "id": "zh_art_0487",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《瑶族舞曲》的创作者是谁？",
+      "answer": "刘铁山、茅沅",
+      "accepted_aliases": [],
+      "distractors": [
+        "普鲁斯特",
+        "乔伊斯",
+        "梭罗"
+      ],
+      "explanation": "音乐作品《瑶族舞曲》的创作者是刘铁山、茅沅。"
+    },
+    {
+      "id": "zh_art_0488",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "文学艺术知识：音乐作品《牧童短笛》的创作者是谁？",
+      "answer": "贺绿汀",
+      "accepted_aliases": [],
+      "distractors": [
+        "顾闳中",
+        "王希孟",
+        "黄公望"
+      ],
+      "explanation": "音乐作品《牧童短笛》的创作者是贺绿汀。"
+    },
+    {
+      "id": "zh_art_0489",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "文学艺术知识：音乐作品《长征交响曲》的创作者是谁？",
+      "answer": "丁善德",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉斐尔",
+        "波提切利",
+        "修拉"
+      ],
+      "explanation": "音乐作品《长征交响曲》的创作者是丁善德。"
+    },
+    {
+      "id": "zh_art_0490",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "文学艺术知识：音乐作品《红旗颂》的创作者是谁？",
+      "answer": "吕其明",
+      "accepted_aliases": [],
+      "distractors": [
+        "勃拉姆斯",
+        "西贝柳斯",
+        "罗西尼"
+      ],
+      "explanation": "音乐作品《红旗颂》的创作者是吕其明。"
+    },
+    {
+      "id": "zh_art_0491",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "考察文学作品《红楼梦》：应选择哪位创作者？",
+      "answer": "曹雪芹",
+      "accepted_aliases": [],
+      "distractors": [
+        "施耐庵",
+        "吴承恩",
+        "吴敬梓"
+      ],
+      "explanation": "文学作品《红楼梦》的创作者是曹雪芹。"
+    },
+    {
+      "id": "zh_art_0492",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "考察文学作品《三国演义》：应选择哪位创作者？",
+      "answer": "罗贯中",
+      "accepted_aliases": [],
+      "distractors": [
+        "杨沫",
+        "曲波",
+        "罗广斌、杨益言"
+      ],
+      "explanation": "文学作品《三国演义》的创作者是罗贯中。"
+    },
+    {
+      "id": "zh_art_0493",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "考察文学作品《水浒传》：应选择哪位创作者？",
+      "answer": "施耐庵",
+      "accepted_aliases": [],
+      "distractors": [
+        "马尔克斯",
+        "塞万提斯",
+        "但丁"
+      ],
+      "explanation": "文学作品《水浒传》的创作者是施耐庵。"
+    },
+    {
+      "id": "zh_art_0494",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "考察文学作品《西游记》：应选择哪位创作者？",
+      "answer": "吴承恩",
+      "accepted_aliases": [],
+      "distractors": [
+        "普鲁斯特",
+        "乔伊斯",
+        "梭罗"
+      ],
+      "explanation": "文学作品《西游记》的创作者是吴承恩。"
+    },
+    {
+      "id": "zh_art_0495",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "考察文学作品《儒林外史》：应选择哪位创作者？",
+      "answer": "吴敬梓",
+      "accepted_aliases": [],
+      "distractors": [
+        "顾闳中",
+        "王希孟",
+        "黄公望"
+      ],
+      "explanation": "文学作品《儒林外史》的创作者是吴敬梓。"
+    },
+    {
+      "id": "zh_art_0496",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "考察文学作品《聊斋志异》：应选择哪位创作者？",
+      "answer": "蒲松龄",
+      "accepted_aliases": [],
+      "distractors": [
+        "拉斐尔",
+        "波提切利",
+        "修拉"
+      ],
+      "explanation": "文学作品《聊斋志异》的创作者是蒲松龄。"
+    },
+    {
+      "id": "zh_art_0497",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "考察文学作品《呐喊》：应选择哪位创作者？",
+      "answer": "鲁迅",
+      "accepted_aliases": [],
+      "distractors": [
+        "勃拉姆斯",
+        "西贝柳斯",
+        "罗西尼"
+      ],
+      "explanation": "文学作品《呐喊》的创作者是鲁迅。"
+    },
+    {
+      "id": "zh_art_0498",
+      "category": "literature_art",
+      "difficulty": 3,
+      "stem": "考察文学作品《边城》：应选择哪位创作者？",
+      "answer": "沈从文",
+      "accepted_aliases": [],
+      "distractors": [
+        "曹雪芹",
+        "罗贯中",
+        "施耐庵"
+      ],
+      "explanation": "文学作品《边城》的创作者是沈从文。"
+    },
+    {
+      "id": "zh_art_0499",
+      "category": "literature_art",
+      "difficulty": 1,
+      "stem": "考察文学作品《围城》：应选择哪位创作者？",
+      "answer": "钱钟书",
+      "accepted_aliases": [],
+      "distractors": [
+        "孙犁",
+        "杨沫",
+        "曲波"
+      ],
+      "explanation": "文学作品《围城》的创作者是钱钟书。"
+    },
+    {
+      "id": "zh_art_0500",
+      "category": "literature_art",
+      "difficulty": 2,
+      "stem": "考察文学作品《骆驼祥子》：应选择哪位创作者？",
+      "answer": "老舍",
+      "accepted_aliases": [],
+      "distractors": [
+        "海明威",
+        "马尔克斯",
+        "塞万提斯"
+      ],
+      "explanation": "文学作品《骆驼祥子》的创作者是老舍。"
+    }
+  ],
+  "signature": "CONTROLFREE_BUNDLED_LOCAL_V1"
+}

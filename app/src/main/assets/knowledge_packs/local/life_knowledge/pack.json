@@ -1,0 +1,7020 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "local_life_knowledge_v1",
+    "title": "生活常识百科 500 题",
+    "version": 2,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1785024000,
+    "minimum_app_version_code": 17,
+    "question_count": 500,
+    "content_types": [
+      "knowledge_quiz",
+      "category_life_knowledge"
+    ],
+    "signing_key_id": "bundled_local_v1"
+  },
+  "facts": [
+    {
+      "id": "zh_life_0001",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“发现油锅起火”对应的较合适的做法是什么？",
+      "answer": "关火并盖上锅盖",
+      "accepted_aliases": [],
+      "distractors": [
+        "全程系好安全带",
+        "规范佩戴安全头盔",
+        "穿戴醒目反光物品"
+      ],
+      "explanation": "发现油锅起火与关火并盖上锅盖是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0002",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“关火并盖上锅盖”？",
+      "answer": "发现油锅起火",
+      "accepted_aliases": [],
+      "distractors": [
+        "在公共无线网络处理敏感业务",
+        "发现身份证件遗失",
+        "切生肉和即食食品"
+      ],
+      "explanation": "在给出的选项中，发现油锅起火与关火并盖上锅盖正确对应。"
+    },
+    {
+      "id": "zh_life_0003",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“电器冒烟且能够安全操作”对应的较合适的做法是什么？",
+      "answer": "先切断电源",
+      "accepted_aliases": [],
+      "distractors": [
+        "立即联系银行并冻结风险",
+        "先遮盖个人信息",
+        "优先改用可信网络"
+      ],
+      "explanation": "电器冒烟且能够安全操作与先切断电源是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0004",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“闻到室内燃气异味”对应的较合适的做法是什么？",
+      "answer": "关阀通风并离开",
+      "accepted_aliases": [],
+      "distractors": [
+        "就地打滚压灭火焰",
+        "低姿前进并尽快撤离",
+        "走疏散楼梯撤离"
+      ],
+      "explanation": "闻到室内燃气异味与关阀通风并离开是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0005",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“关阀通风并离开”？",
+      "answer": "闻到室内燃气异味",
+      "accepted_aliases": [],
+      "distractors": [
+        "多个网站需要设置密码",
+        "公共电脑登录个人账号后",
+        "收到来源不明的文件链接"
+      ],
+      "explanation": "在给出的选项中，闻到室内燃气异味与关阀通风并离开正确对应。"
+    },
+    {
+      "id": "zh_life_0006",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“怀疑一氧化碳泄漏”对应的较合适的做法是什么？",
+      "answer": "通风并转移到室外",
+      "accepted_aliases": [],
+      "distractors": [
+        "不要向他人提供验证码",
+        "使用不同的高强度密码",
+        "退出账号并清除登录状态"
+      ],
+      "explanation": "怀疑一氧化碳泄漏与通风并转移到室外是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0007",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“通风并转移到室外”？",
+      "answer": "怀疑一氧化碳泄漏",
+      "accepted_aliases": [],
+      "distractors": [
+        "发现油锅起火",
+        "电器冒烟且能够安全操作",
+        "闻到室内燃气异味"
+      ],
+      "explanation": "在给出的选项中，怀疑一氧化碳泄漏与通风并转移到室外正确对应。"
+    },
+    {
+      "id": "zh_life_0008",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“发现有人触电”对应的较合适的做法是什么？",
+      "answer": "先切断电源",
+      "accepted_aliases": [],
+      "distractors": [
+        "屈膝并让重物贴近身体",
+        "关火并盖上锅盖",
+        "关阀通风并离开"
+      ],
+      "explanation": "发现有人触电与先切断电源是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0009",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“身上衣物着火”对应的较合适的做法是什么？",
+      "answer": "就地打滚压灭火焰",
+      "accepted_aliases": [],
+      "distractors": [
+        "避免超过额定功率",
+        "先断开电源",
+        "应先擦干双手"
+      ],
+      "explanation": "身上衣物着火与就地打滚压灭火焰是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0010",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“就地打滚压灭火焰”？",
+      "answer": "身上衣物着火",
+      "accepted_aliases": [],
+      "distractors": [
+        "清洁剂需要存放",
+        "使用含氯清洁剂",
+        "玻璃杯刚盛过热水"
+      ],
+      "explanation": "在给出的选项中，身上衣物着火与就地打滚压灭火焰正确对应。"
+    },
+    {
+      "id": "zh_life_0011",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“火灾中穿过有烟区域”对应的较合适的做法是什么？",
+      "answer": "低姿前进并尽快撤离",
+      "accepted_aliases": [],
+      "distractors": [
+        "远离食品并保留原标签",
+        "不要与酸性清洁剂混用",
+        "避免立刻加入冰水"
+      ],
+      "explanation": "火灾中穿过有烟区域与低姿前进并尽快撤离是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0012",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“低姿前进并尽快撤离”？",
+      "answer": "火灾中穿过有烟区域",
+      "accepted_aliases": [],
+      "distractors": [
+        "遇到地震强烈晃动",
+        "电梯突然停止运行",
+        "发现未成年人落水"
+      ],
+      "explanation": "在给出的选项中，火灾中穿过有烟区域与低姿前进并尽快撤离正确对应。"
+    },
+    {
+      "id": "zh_life_0013",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“高层建筑发生火灾”对应的较合适的做法是什么？",
+      "answer": "走疏散楼梯撤离",
+      "accepted_aliases": [],
+      "distractors": [
+        "使用报警装置求助",
+        "呼救并使用漂浮物施救",
+        "先确认安全条件和救生设施"
+      ],
+      "explanation": "高层建筑发生火灾与走疏散楼梯撤离是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0014",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“走疏散楼梯撤离”？",
+      "answer": "高层建筑发生火灾",
+      "accepted_aliases": [],
+      "distractors": [
+        "切生肉和即食食品",
+        "熟食在室温放置过久",
+        "冰箱储存生熟食品"
+      ],
+      "explanation": "在给出的选项中，高层建筑发生火灾与走疏散楼梯撤离正确对应。"
+    },
+    {
+      "id": "zh_life_0015",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“灭火器压力表指针在绿色区域”对应的较合适的做法是什么？",
+      "answer": "通常表示压力正常",
+      "accepted_aliases": [],
+      "distractors": [
+        "不要仅凭加热判断安全",
+        "分层密封并避免交叉污染",
+        "停止食用并妥善处理"
+      ],
+      "explanation": "灭火器压力表指针在绿色区域与通常表示压力正常是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0016",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“通常表示压力正常”？",
+      "answer": "灭火器压力表指针在绿色区域",
+      "accepted_aliases": [],
+      "distractors": [
+        "高层建筑发生火灾",
+        "乘车时保护自己的基本做法",
+        "骑电动自行车出行"
+      ],
+      "explanation": "在给出的选项中，灭火器压力表指针在绿色区域与通常表示压力正常正确对应。"
+    },
+    {
+      "id": "zh_life_0017",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“乘车时保护自己的基本做法”对应的较合适的做法是什么？",
+      "answer": "全程系好安全带",
+      "accepted_aliases": [],
+      "distractors": [
+        "规范佩戴安全头盔",
+        "穿戴醒目反光物品",
+        "远离孤立高物并降低身体"
+      ],
+      "explanation": "乘车时保护自己的基本做法与全程系好安全带是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0018",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“全程系好安全带”？",
+      "answer": "乘车时保护自己的基本做法",
+      "accepted_aliases": [],
+      "distractors": [
+        "收到来源不明的文件链接",
+        "银行卡突然出现异常交易",
+        "快递面单准备丢弃"
+      ],
+      "explanation": "在给出的选项中，乘车时保护自己的基本做法与全程系好安全带正确对应。"
+    },
+    {
+      "id": "zh_life_0019",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“骑电动自行车出行”对应的较合适的做法是什么？",
+      "answer": "规范佩戴安全头盔",
+      "accepted_aliases": [],
+      "distractors": [
+        "先遮盖个人信息",
+        "优先改用可信网络",
+        "及时挂失并补办"
+      ],
+      "explanation": "骑电动自行车出行与规范佩戴安全头盔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0020",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“规范佩戴安全头盔”？",
+      "answer": "骑电动自行车出行",
+      "accepted_aliases": [],
+      "distractors": [
+        "闻到室内燃气异味",
+        "怀疑一氧化碳泄漏",
+        "发现有人触电"
+      ],
+      "explanation": "在给出的选项中，骑电动自行车出行与规范佩戴安全头盔正确对应。"
+    },
+    {
+      "id": "zh_life_0021",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“夜间步行经过无灯路段”对应的较合适的做法是什么？",
+      "answer": "穿戴醒目反光物品",
+      "accepted_aliases": [],
+      "distractors": [
+        "就地打滚压灭火焰",
+        "低姿前进并尽快撤离",
+        "走疏散楼梯撤离"
+      ],
+      "explanation": "夜间步行经过无灯路段与穿戴醒目反光物品是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0022",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“穿戴醒目反光物品”？",
+      "answer": "夜间步行经过无灯路段",
+      "accepted_aliases": [],
+      "distractors": [
+        "湿手接触电器开关",
+        "手机电池明显鼓包",
+        "收到陌生验证码请求"
+      ],
+      "explanation": "在给出的选项中，夜间步行经过无灯路段与穿戴醒目反光物品正确对应。"
+    },
+    {
+      "id": "zh_life_0023",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“雷雨时身处空旷地带”对应的较合适的做法是什么？",
+      "answer": "远离孤立高物并降低身体",
+      "accepted_aliases": [],
+      "distractors": [
+        "使用不同的高强度密码",
+        "退出账号并清除登录状态",
+        "核实来源后再处理"
+      ],
+      "explanation": "雷雨时身处空旷地带与远离孤立高物并降低身体是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0024",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“远离孤立高物并降低身体”？",
+      "answer": "雷雨时身处空旷地带",
+      "accepted_aliases": [],
+      "distractors": [
+        "玻璃杯刚盛过热水",
+        "厨房刀具暂时不用",
+        "搬动较重物品"
+      ],
+      "explanation": "在给出的选项中，雷雨时身处空旷地带与远离孤立高物并降低身体正确对应。"
+    },
+    {
+      "id": "zh_life_0025",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“遇到地震强烈晃动”对应的较合适的做法是什么？",
+      "answer": "就近避险并护住头部",
+      "accepted_aliases": [],
+      "distractors": [
+        "关火并盖上锅盖",
+        "先切断电源",
+        "关阀通风并离开"
+      ],
+      "explanation": "遇到地震强烈晃动与就近避险并护住头部是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0026",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“就近避险并护住头部”？",
+      "answer": "遇到地震强烈晃动",
+      "accepted_aliases": [],
+      "distractors": [
+        "发现未成年人落水",
+        "在陌生水域游泳",
+        "长时间离家前"
+      ],
+      "explanation": "在给出的选项中，遇到地震强烈晃动与就近避险并护住头部正确对应。"
+    },
+    {
+      "id": "zh_life_0027",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“电梯突然停止运行”对应的较合适的做法是什么？",
+      "answer": "使用报警装置求助",
+      "accepted_aliases": [],
+      "distractors": [
+        "先断开电源",
+        "应先擦干双手",
+        "停止使用并规范处理"
+      ],
+      "explanation": "电梯突然停止运行与使用报警装置求助是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0028",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“使用报警装置求助”？",
+      "answer": "电梯突然停止运行",
+      "accepted_aliases": [],
+      "distractors": [
+        "冰箱储存生熟食品",
+        "食品包装已经明显胀袋",
+        "购买预包装食品"
+      ],
+      "explanation": "在给出的选项中，电梯突然停止运行与使用报警装置求助正确对应。"
+    },
+    {
+      "id": "zh_life_0029",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“发现未成年人落水”对应的较合适的做法是什么？",
+      "answer": "呼救并使用漂浮物施救",
+      "accepted_aliases": [],
+      "distractors": [
+        "不要与酸性清洁剂混用",
+        "避免立刻加入冰水",
+        "放在稳定且不易触碰处"
+      ],
+      "explanation": "发现未成年人落水与呼救并使用漂浮物施救是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0030",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“呼救并使用漂浮物施救”？",
+      "answer": "发现未成年人落水",
+      "accepted_aliases": [],
+      "distractors": [
+        "乘车时保护自己的基本做法",
+        "骑电动自行车出行",
+        "夜间步行经过无灯路段"
+      ],
+      "explanation": "在给出的选项中，发现未成年人落水与呼救并使用漂浮物施救正确对应。"
+    },
+    {
+      "id": "zh_life_0031",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“在陌生水域游泳”对应的较合适的做法是什么？",
+      "answer": "先确认安全条件和救生设施",
+      "accepted_aliases": [],
+      "distractors": [
+        "使用报警装置求助",
+        "呼救并使用漂浮物施救",
+        "检查水电燃气是否关闭"
+      ],
+      "explanation": "在陌生水域游泳与先确认安全条件和救生设施是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0032",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“先确认安全条件和救生设施”？",
+      "answer": "在陌生水域游泳",
+      "accepted_aliases": [],
+      "distractors": [
+        "快递面单准备丢弃",
+        "在公共无线网络处理敏感业务",
+        "发现身份证件遗失"
+      ],
+      "explanation": "在给出的选项中，在陌生水域游泳与先确认安全条件和救生设施正确对应。"
+    },
+    {
+      "id": "zh_life_0033",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“长时间离家前”对应的较合适的做法是什么？",
+      "answer": "检查水电燃气是否关闭",
+      "accepted_aliases": [],
+      "distractors": [
+        "分层密封并避免交叉污染",
+        "停止食用并妥善处理",
+        "检查保质期和储存条件"
+      ],
+      "explanation": "长时间离家前与检查水电燃气是否关闭是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0034",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“检查水电燃气是否关闭”？",
+      "answer": "长时间离家前",
+      "accepted_aliases": [],
+      "distractors": [
+        "发现有人触电",
+        "身上衣物着火",
+        "火灾中穿过有烟区域"
+      ],
+      "explanation": "在给出的选项中，长时间离家前与检查水电燃气是否关闭正确对应。"
+    },
+    {
+      "id": "zh_life_0035",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“使用插线板”对应的较合适的做法是什么？",
+      "answer": "避免超过额定功率",
+      "accepted_aliases": [],
+      "distractors": [
+        "规范佩戴安全头盔",
+        "穿戴醒目反光物品",
+        "远离孤立高物并降低身体"
+      ],
+      "explanation": "使用插线板与避免超过额定功率是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0036",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“避免超过额定功率”？",
+      "answer": "使用插线板",
+      "accepted_aliases": [],
+      "distractors": [
+        "收到陌生验证码请求",
+        "多个网站需要设置密码",
+        "公共电脑登录个人账号后"
+      ],
+      "explanation": "在给出的选项中，使用插线板与避免超过额定功率正确对应。"
+    },
+    {
+      "id": "zh_life_0037",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“更换灯泡前”对应的较合适的做法是什么？",
+      "answer": "先断开电源",
+      "accepted_aliases": [],
+      "distractors": [
+        "优先改用可信网络",
+        "及时挂失并补办",
+        "使用不同刀具和砧板"
+      ],
+      "explanation": "更换灯泡前与先断开电源是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0038",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“先断开电源”？",
+      "answer": "更换灯泡前",
+      "accepted_aliases": [],
+      "distractors": [
+        "搬动较重物品",
+        "发现油锅起火",
+        "电器冒烟且能够安全操作"
+      ],
+      "explanation": "在给出的选项中，更换灯泡前与先断开电源正确对应。"
+    },
+    {
+      "id": "zh_life_0039",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“湿手接触电器开关”对应的较合适的做法是什么？",
+      "answer": "应先擦干双手",
+      "accepted_aliases": [],
+      "distractors": [
+        "低姿前进并尽快撤离",
+        "走疏散楼梯撤离",
+        "通常表示压力正常"
+      ],
+      "explanation": "湿手接触电器开关与应先擦干双手是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0040",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“应先擦干双手”？",
+      "answer": "湿手接触电器开关",
+      "accepted_aliases": [],
+      "distractors": [
+        "在陌生水域游泳",
+        "长时间离家前",
+        "使用插线板"
+      ],
+      "explanation": "在给出的选项中，湿手接触电器开关与应先擦干双手正确对应。"
+    },
+    {
+      "id": "zh_life_0041",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“手机电池明显鼓包”对应的较合适的做法是什么？",
+      "answer": "停止使用并规范处理",
+      "accepted_aliases": [],
+      "distractors": [
+        "退出账号并清除登录状态",
+        "核实来源后再处理",
+        "立即联系银行并冻结风险"
+      ],
+      "explanation": "手机电池明显鼓包与停止使用并规范处理是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0042",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“停止使用并规范处理”？",
+      "answer": "手机电池明显鼓包",
+      "accepted_aliases": [],
+      "distractors": [
+        "购买预包装食品",
+        "清洁剂需要存放",
+        "使用含氯清洁剂"
+      ],
+      "explanation": "在给出的选项中，手机电池明显鼓包与停止使用并规范处理正确对应。"
+    },
+    {
+      "id": "zh_life_0043",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“收到陌生验证码请求”对应的较合适的做法是什么？",
+      "answer": "不要向他人提供验证码",
+      "accepted_aliases": [],
+      "distractors": [
+        "先切断电源",
+        "关阀通风并离开",
+        "通风并转移到室外"
+      ],
+      "explanation": "收到陌生验证码请求与不要向他人提供验证码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0044",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“不要向他人提供验证码”？",
+      "answer": "收到陌生验证码请求",
+      "accepted_aliases": [],
+      "distractors": [
+        "夜间步行经过无灯路段",
+        "雷雨时身处空旷地带",
+        "遇到地震强烈晃动"
+      ],
+      "explanation": "在给出的选项中，收到陌生验证码请求与不要向他人提供验证码正确对应。"
+    },
+    {
+      "id": "zh_life_0045",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“多个网站需要设置密码”对应的较合适的做法是什么？",
+      "answer": "使用不同的高强度密码",
+      "accepted_aliases": [],
+      "distractors": [
+        "先断开电源",
+        "应先擦干双手",
+        "停止使用并规范处理"
+      ],
+      "explanation": "多个网站需要设置密码与使用不同的高强度密码是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0046",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“使用不同的高强度密码”？",
+      "answer": "多个网站需要设置密码",
+      "accepted_aliases": [],
+      "distractors": [
+        "发现身份证件遗失",
+        "切生肉和即食食品",
+        "熟食在室温放置过久"
+      ],
+      "explanation": "在给出的选项中，多个网站需要设置密码与使用不同的高强度密码正确对应。"
+    },
+    {
+      "id": "zh_life_0047",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“公共电脑登录个人账号后”对应的较合适的做法是什么？",
+      "answer": "退出账号并清除登录状态",
+      "accepted_aliases": [],
+      "distractors": [
+        "避免立刻加入冰水",
+        "放在稳定且不易触碰处",
+        "屈膝并让重物贴近身体"
+      ],
+      "explanation": "公共电脑登录个人账号后与退出账号并清除登录状态是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0048",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“退出账号并清除登录状态”？",
+      "answer": "公共电脑登录个人账号后",
+      "accepted_aliases": [],
+      "distractors": [
+        "火灾中穿过有烟区域",
+        "高层建筑发生火灾",
+        "灭火器压力表指针在绿色区域"
+      ],
+      "explanation": "在给出的选项中，公共电脑登录个人账号后与退出账号并清除登录状态正确对应。"
+    },
+    {
+      "id": "zh_life_0049",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“收到来源不明的文件链接”对应的较合适的做法是什么？",
+      "answer": "核实来源后再处理",
+      "accepted_aliases": [],
+      "distractors": [
+        "呼救并使用漂浮物施救",
+        "先确认安全条件和救生设施",
+        "检查水电燃气是否关闭"
+      ],
+      "explanation": "收到来源不明的文件链接与核实来源后再处理是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0050",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“核实来源后再处理”？",
+      "answer": "收到来源不明的文件链接",
+      "accepted_aliases": [],
+      "distractors": [
+        "多个网站需要设置密码",
+        "公共电脑登录个人账号后",
+        "银行卡突然出现异常交易"
+      ],
+      "explanation": "在给出的选项中，收到来源不明的文件链接与核实来源后再处理正确对应。"
+    },
+    {
+      "id": "zh_life_0051",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“银行卡突然出现异常交易”对应的较合适的做法是什么？",
+      "answer": "立即联系银行并冻结风险",
+      "accepted_aliases": [],
+      "distractors": [
+        "停止食用并妥善处理",
+        "检查保质期和储存条件",
+        "远离食品并保留原标签"
+      ],
+      "explanation": "银行卡突然出现异常交易与立即联系银行并冻结风险是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0052",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“立即联系银行并冻结风险”？",
+      "answer": "银行卡突然出现异常交易",
+      "accepted_aliases": [],
+      "distractors": [
+        "电器冒烟且能够安全操作",
+        "闻到室内燃气异味",
+        "怀疑一氧化碳泄漏"
+      ],
+      "explanation": "在给出的选项中，银行卡突然出现异常交易与立即联系银行并冻结风险正确对应。"
+    },
+    {
+      "id": "zh_life_0053",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“快递面单准备丢弃”对应的较合适的做法是什么？",
+      "answer": "先遮盖个人信息",
+      "accepted_aliases": [],
+      "distractors": [
+        "穿戴醒目反光物品",
+        "远离孤立高物并降低身体",
+        "就近避险并护住头部"
+      ],
+      "explanation": "快递面单准备丢弃与先遮盖个人信息是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0054",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“先遮盖个人信息”？",
+      "answer": "快递面单准备丢弃",
+      "accepted_aliases": [],
+      "distractors": [
+        "使用插线板",
+        "更换灯泡前",
+        "湿手接触电器开关"
+      ],
+      "explanation": "在给出的选项中，快递面单准备丢弃与先遮盖个人信息正确对应。"
+    },
+    {
+      "id": "zh_life_0055",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“在公共无线网络处理敏感业务”对应的较合适的做法是什么？",
+      "answer": "优先改用可信网络",
+      "accepted_aliases": [],
+      "distractors": [
+        "及时挂失并补办",
+        "使用不同刀具和砧板",
+        "不要仅凭加热判断安全"
+      ],
+      "explanation": "在公共无线网络处理敏感业务与优先改用可信网络是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0056",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“优先改用可信网络”？",
+      "answer": "在公共无线网络处理敏感业务",
+      "accepted_aliases": [],
+      "distractors": [
+        "使用含氯清洁剂",
+        "玻璃杯刚盛过热水",
+        "厨房刀具暂时不用"
+      ],
+      "explanation": "在给出的选项中，在公共无线网络处理敏感业务与优先改用可信网络正确对应。"
+    },
+    {
+      "id": "zh_life_0057",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“发现身份证件遗失”对应的较合适的做法是什么？",
+      "answer": "及时挂失并补办",
+      "accepted_aliases": [],
+      "distractors": [
+        "走疏散楼梯撤离",
+        "通常表示压力正常",
+        "全程系好安全带"
+      ],
+      "explanation": "发现身份证件遗失与及时挂失并补办是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0058",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“及时挂失并补办”？",
+      "answer": "发现身份证件遗失",
+      "accepted_aliases": [],
+      "distractors": [
+        "遇到地震强烈晃动",
+        "电梯突然停止运行",
+        "发现未成年人落水"
+      ],
+      "explanation": "在给出的选项中，发现身份证件遗失与及时挂失并补办正确对应。"
+    },
+    {
+      "id": "zh_life_0059",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“切生肉和即食食品”对应的较合适的做法是什么？",
+      "answer": "使用不同刀具和砧板",
+      "accepted_aliases": [],
+      "distractors": [
+        "退出账号并清除登录状态",
+        "核实来源后再处理",
+        "立即联系银行并冻结风险"
+      ],
+      "explanation": "切生肉和即食食品与使用不同刀具和砧板是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0060",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“使用不同刀具和砧板”？",
+      "answer": "切生肉和即食食品",
+      "accepted_aliases": [],
+      "distractors": [
+        "熟食在室温放置过久",
+        "冰箱储存生熟食品",
+        "食品包装已经明显胀袋"
+      ],
+      "explanation": "在给出的选项中，切生肉和即食食品与使用不同刀具和砧板正确对应。"
+    },
+    {
+      "id": "zh_life_0061",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“熟食在室温放置过久”对应的较合适的做法是什么？",
+      "answer": "不要仅凭加热判断安全",
+      "accepted_aliases": [],
+      "distractors": [
+        "关阀通风并离开",
+        "通风并转移到室外",
+        "就地打滚压灭火焰"
+      ],
+      "explanation": "熟食在室温放置过久与不要仅凭加热判断安全是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0062",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“不要仅凭加热判断安全”？",
+      "answer": "熟食在室温放置过久",
+      "accepted_aliases": [],
+      "distractors": [
+        "灭火器压力表指针在绿色区域",
+        "乘车时保护自己的基本做法",
+        "骑电动自行车出行"
+      ],
+      "explanation": "在给出的选项中，熟食在室温放置过久与不要仅凭加热判断安全正确对应。"
+    },
+    {
+      "id": "zh_life_0063",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“冰箱储存生熟食品”对应的较合适的做法是什么？",
+      "answer": "分层密封并避免交叉污染",
+      "accepted_aliases": [],
+      "distractors": [
+        "应先擦干双手",
+        "停止使用并规范处理",
+        "不要向他人提供验证码"
+      ],
+      "explanation": "冰箱储存生熟食品与分层密封并避免交叉污染是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0064",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“分层密封并避免交叉污染”？",
+      "answer": "冰箱储存生熟食品",
+      "accepted_aliases": [],
+      "distractors": [
+        "收到来源不明的文件链接",
+        "银行卡突然出现异常交易",
+        "快递面单准备丢弃"
+      ],
+      "explanation": "在给出的选项中，冰箱储存生熟食品与分层密封并避免交叉污染正确对应。"
+    },
+    {
+      "id": "zh_life_0065",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“食品包装已经明显胀袋”对应的较合适的做法是什么？",
+      "answer": "停止食用并妥善处理",
+      "accepted_aliases": [],
+      "distractors": [
+        "放在稳定且不易触碰处",
+        "屈膝并让重物贴近身体",
+        "关火并盖上锅盖"
+      ],
+      "explanation": "食品包装已经明显胀袋与停止食用并妥善处理是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0066",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“停止食用并妥善处理”？",
+      "answer": "食品包装已经明显胀袋",
+      "accepted_aliases": [],
+      "distractors": [
+        "怀疑一氧化碳泄漏",
+        "发现有人触电",
+        "身上衣物着火"
+      ],
+      "explanation": "在给出的选项中，食品包装已经明显胀袋与停止食用并妥善处理正确对应。"
+    },
+    {
+      "id": "zh_life_0067",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“购买预包装食品”对应的较合适的做法是什么？",
+      "answer": "检查保质期和储存条件",
+      "accepted_aliases": [],
+      "distractors": [
+        "先确认安全条件和救生设施",
+        "检查水电燃气是否关闭",
+        "避免超过额定功率"
+      ],
+      "explanation": "购买预包装食品与检查保质期和储存条件是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0068",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“检查保质期和储存条件”？",
+      "answer": "购买预包装食品",
+      "accepted_aliases": [],
+      "distractors": [
+        "湿手接触电器开关",
+        "手机电池明显鼓包",
+        "收到陌生验证码请求"
+      ],
+      "explanation": "在给出的选项中，购买预包装食品与检查保质期和储存条件正确对应。"
+    },
+    {
+      "id": "zh_life_0069",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“清洁剂需要存放”对应的较合适的做法是什么？",
+      "answer": "远离食品并保留原标签",
+      "accepted_aliases": [],
+      "distractors": [
+        "停止食用并妥善处理",
+        "检查保质期和储存条件",
+        "不要与酸性清洁剂混用"
+      ],
+      "explanation": "清洁剂需要存放与远离食品并保留原标签是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0070",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“远离食品并保留原标签”？",
+      "answer": "清洁剂需要存放",
+      "accepted_aliases": [],
+      "distractors": [
+        "厨房刀具暂时不用",
+        "搬动较重物品",
+        "发现油锅起火"
+      ],
+      "explanation": "在给出的选项中，清洁剂需要存放与远离食品并保留原标签正确对应。"
+    },
+    {
+      "id": "zh_life_0071",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“使用含氯清洁剂”对应的较合适的做法是什么？",
+      "answer": "不要与酸性清洁剂混用",
+      "accepted_aliases": [],
+      "distractors": [
+        "远离孤立高物并降低身体",
+        "就近避险并护住头部",
+        "使用报警装置求助"
+      ],
+      "explanation": "使用含氯清洁剂与不要与酸性清洁剂混用是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0072",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“不要与酸性清洁剂混用”？",
+      "answer": "使用含氯清洁剂",
+      "accepted_aliases": [],
+      "distractors": [
+        "发现未成年人落水",
+        "在陌生水域游泳",
+        "长时间离家前"
+      ],
+      "explanation": "在给出的选项中，使用含氯清洁剂与不要与酸性清洁剂混用正确对应。"
+    },
+    {
+      "id": "zh_life_0073",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活场景“玻璃杯刚盛过热水”对应的较合适的做法是什么？",
+      "answer": "避免立刻加入冰水",
+      "accepted_aliases": [],
+      "distractors": [
+        "及时挂失并补办",
+        "使用不同刀具和砧板",
+        "不要仅凭加热判断安全"
+      ],
+      "explanation": "玻璃杯刚盛过热水与避免立刻加入冰水是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0074",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的较合适的做法是“避免立刻加入冰水”？",
+      "answer": "玻璃杯刚盛过热水",
+      "accepted_aliases": [],
+      "distractors": [
+        "冰箱储存生熟食品",
+        "食品包装已经明显胀袋",
+        "购买预包装食品"
+      ],
+      "explanation": "在给出的选项中，玻璃杯刚盛过热水与避免立刻加入冰水正确对应。"
+    },
+    {
+      "id": "zh_life_0075",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活场景“厨房刀具暂时不用”对应的较合适的做法是什么？",
+      "answer": "放在稳定且不易触碰处",
+      "accepted_aliases": [],
+      "distractors": [
+        "通常表示压力正常",
+        "全程系好安全带",
+        "规范佩戴安全头盔"
+      ],
+      "explanation": "厨房刀具暂时不用与放在稳定且不易触碰处是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0076",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的较合适的做法是“放在稳定且不易触碰处”？",
+      "answer": "厨房刀具暂时不用",
+      "accepted_aliases": [],
+      "distractors": [
+        "骑电动自行车出行",
+        "夜间步行经过无灯路段",
+        "雷雨时身处空旷地带"
+      ],
+      "explanation": "在给出的选项中，厨房刀具暂时不用与放在稳定且不易触碰处正确对应。"
+    },
+    {
+      "id": "zh_life_0077",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活场景“搬动较重物品”对应的较合适的做法是什么？",
+      "answer": "屈膝并让重物贴近身体",
+      "accepted_aliases": [],
+      "distractors": [
+        "核实来源后再处理",
+        "立即联系银行并冻结风险",
+        "先遮盖个人信息"
+      ],
+      "explanation": "搬动较重物品与屈膝并让重物贴近身体是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0078",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的较合适的做法是“屈膝并让重物贴近身体”？",
+      "answer": "搬动较重物品",
+      "accepted_aliases": [],
+      "distractors": [
+        "快递面单准备丢弃",
+        "在公共无线网络处理敏感业务",
+        "发现身份证件遗失"
+      ],
+      "explanation": "在给出的选项中，搬动较重物品与屈膝并让重物贴近身体正确对应。"
+    },
+    {
+      "id": "zh_life_0079",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“标准大气压下水的沸点”对应的对应答案是什么？",
+      "answer": "100摄氏度",
+      "accepted_aliases": [],
+      "distractors": [
+        "60分钟",
+        "60秒",
+        "10角"
+      ],
+      "explanation": "标准大气压下水的沸点与100摄氏度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0080",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“100摄氏度”？",
+      "answer": "标准大气压下水的沸点",
+      "accepted_aliases": [],
+      "distractors": [
+        "质量一千克等于",
+        "容积一升等于",
+        "直角的角度"
+      ],
+      "explanation": "在给出的选项中，标准大气压下水的沸点与100摄氏度正确对应。"
+    },
+    {
+      "id": "zh_life_0081",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“标准大气压下水的冰点”对应的对应答案是什么？",
+      "answer": "0摄氏度",
+      "accepted_aliases": [],
+      "distractors": [
+        "蓝色",
+        "红色",
+        "绿色"
+      ],
+      "explanation": "标准大气压下水的冰点与0摄氏度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0082",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“0摄氏度”？",
+      "answer": "标准大气压下水的冰点",
+      "accepted_aliases": [],
+      "distractors": [
+        "标准大气压下水的沸点",
+        "一打物品通常包含",
+        "一年通常包含的月份数"
+      ],
+      "explanation": "在给出的选项中，标准大气压下水的冰点与0摄氏度正确对应。"
+    },
+    {
+      "id": "zh_life_0083",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“一打物品通常包含”对应的对应答案是什么？",
+      "answer": "12个",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000克",
+        "1000毫升",
+        "90度"
+      ],
+      "explanation": "一打物品通常包含与12个是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0084",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“12个”？",
+      "answer": "一打物品通常包含",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国大陆火警电话",
+        "中国大陆急救电话",
+        "中国大陆报警电话"
+      ],
+      "explanation": "在给出的选项中，一打物品通常包含与12个正确对应。"
+    },
+    {
+      "id": "zh_life_0085",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“一年通常包含的月份数”对应的对应答案是什么？",
+      "answer": "12个月",
+      "accepted_aliases": [],
+      "distractors": [
+        "100摄氏度",
+        "0摄氏度",
+        "12个"
+      ],
+      "explanation": "一年通常包含的月份数与12个月是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0086",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“12个月”？",
+      "answer": "一年通常包含的月份数",
+      "accepted_aliases": [],
+      "distractors": [
+        "一周包含的天数",
+        "一天包含的小时数",
+        "一小时包含的分钟数"
+      ],
+      "explanation": "在给出的选项中，一年通常包含的月份数与12个月正确对应。"
+    },
+    {
+      "id": "zh_life_0087",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“平年通常包含的天数”对应的对应答案是什么？",
+      "answer": "365天",
+      "accepted_aliases": [],
+      "distractors": [
+        "119",
+        "120",
+        "110"
+      ],
+      "explanation": "平年通常包含的天数与365天是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0088",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“365天”？",
+      "answer": "平年通常包含的天数",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄色交通信号灯通常表示",
+        "红色交通信号灯通常表示",
+        "可回收物常用标志颜色"
+      ],
+      "explanation": "在给出的选项中，平年通常包含的天数与365天正确对应。"
+    },
+    {
+      "id": "zh_life_0089",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“闰年通常包含的天数”对应的对应答案是什么？",
+      "answer": "366天",
+      "accepted_aliases": [],
+      "distractors": [
+        "7天",
+        "24小时",
+        "60分钟"
+      ],
+      "explanation": "闰年通常包含的天数与366天是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0090",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“366天”？",
+      "answer": "闰年通常包含的天数",
+      "accepted_aliases": [],
+      "distractors": [
+        "人民币一角等于",
+        "长度一米等于",
+        "质量一千克等于"
+      ],
+      "explanation": "在给出的选项中，闰年通常包含的天数与366天正确对应。"
+    },
+    {
+      "id": "zh_life_0091",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“一周包含的天数”对应的对应答案是什么？",
+      "answer": "7天",
+      "accepted_aliases": [],
+      "distractors": [
+        "警示并准备停止",
+        "禁止通行",
+        "蓝色"
+      ],
+      "explanation": "一周包含的天数与7天是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0092",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“7天”？",
+      "answer": "一周包含的天数",
+      "accepted_aliases": [],
+      "distractors": [
+        "干电池正极常见标记",
+        "干电池负极常见标记",
+        "标准大气压下水的沸点"
+      ],
+      "explanation": "在给出的选项中，一周包含的天数与7天正确对应。"
+    },
+    {
+      "id": "zh_life_0093",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“一天包含的小时数”对应的对应答案是什么？",
+      "answer": "24小时",
+      "accepted_aliases": [],
+      "distractors": [
+        "10分",
+        "100厘米",
+        "1000克"
+      ],
+      "explanation": "一天包含的小时数与24小时是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0094",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“24小时”？",
+      "answer": "一天包含的小时数",
+      "accepted_aliases": [],
+      "distractors": [
+        "平角的角度",
+        "圆周的角度",
+        "中国大陆火警电话"
+      ],
+      "explanation": "在给出的选项中，一天包含的小时数与24小时正确对应。"
+    },
+    {
+      "id": "zh_life_0095",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“一小时包含的分钟数”对应的对应答案是什么？",
+      "answer": "60分钟",
+      "accepted_aliases": [],
+      "distractors": [
+        "+号",
+        "-号",
+        "100摄氏度"
+      ],
+      "explanation": "一小时包含的分钟数与60分钟是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0096",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“60分钟”？",
+      "answer": "一小时包含的分钟数",
+      "accepted_aliases": [],
+      "distractors": [
+        "一年通常包含的月份数",
+        "平年通常包含的天数",
+        "闰年通常包含的天数"
+      ],
+      "explanation": "在给出的选项中，一小时包含的分钟数与60分钟正确对应。"
+    },
+    {
+      "id": "zh_life_0097",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“一分钟包含的秒数”对应的对应答案是什么？",
+      "answer": "60秒",
+      "accepted_aliases": [],
+      "distractors": [
+        "180度",
+        "360度",
+        "119"
+      ],
+      "explanation": "一分钟包含的秒数与60秒是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0098",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“60秒”？",
+      "answer": "一分钟包含的秒数",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国大陆交通事故报警电话",
+        "绿色交通信号灯通常表示",
+        "黄色交通信号灯通常表示"
+      ],
+      "explanation": "在给出的选项中，一分钟包含的秒数与60秒正确对应。"
+    },
+    {
+      "id": "zh_life_0099",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“人民币一元等于”对应的对应答案是什么？",
+      "answer": "10角",
+      "accepted_aliases": [],
+      "distractors": [
+        "12个月",
+        "365天",
+        "366天"
+      ],
+      "explanation": "人民币一元等于与10角是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0100",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“10角”？",
+      "answer": "人民币一元等于",
+      "accepted_aliases": [],
+      "distractors": [
+        "一小时包含的分钟数",
+        "一分钟包含的秒数",
+        "人民币一角等于"
+      ],
+      "explanation": "在给出的选项中，人民币一元等于与10角正确对应。"
+    },
+    {
+      "id": "zh_life_0101",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“人民币一角等于”对应的对应答案是什么？",
+      "answer": "10分",
+      "accepted_aliases": [],
+      "distractors": [
+        "122",
+        "允许通行",
+        "警示并准备停止"
+      ],
+      "explanation": "人民币一角等于与10分是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0102",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“10分”？",
+      "answer": "人民币一角等于",
+      "accepted_aliases": [],
+      "distractors": [
+        "有害垃圾常用标志颜色",
+        "厨余垃圾常用标志颜色",
+        "干电池正极常见标记"
+      ],
+      "explanation": "在给出的选项中，人民币一角等于与10分正确对应。"
+    },
+    {
+      "id": "zh_life_0103",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“长度一米等于”对应的对应答案是什么？",
+      "answer": "100厘米",
+      "accepted_aliases": [],
+      "distractors": [
+        "60分钟",
+        "60秒",
+        "10角"
+      ],
+      "explanation": "长度一米等于与100厘米是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0104",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“100厘米”？",
+      "answer": "长度一米等于",
+      "accepted_aliases": [],
+      "distractors": [
+        "容积一升等于",
+        "直角的角度",
+        "平角的角度"
+      ],
+      "explanation": "在给出的选项中，长度一米等于与100厘米正确对应。"
+    },
+    {
+      "id": "zh_life_0105",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“质量一千克等于”对应的对应答案是什么？",
+      "answer": "1000克",
+      "accepted_aliases": [],
+      "distractors": [
+        "红色",
+        "绿色",
+        "+号"
+      ],
+      "explanation": "质量一千克等于与1000克是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0106",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“1000克”？",
+      "answer": "质量一千克等于",
+      "accepted_aliases": [],
+      "distractors": [
+        "标准大气压下水的冰点",
+        "一打物品通常包含",
+        "一年通常包含的月份数"
+      ],
+      "explanation": "在给出的选项中，质量一千克等于与1000克正确对应。"
+    },
+    {
+      "id": "zh_life_0107",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“容积一升等于”对应的对应答案是什么？",
+      "answer": "1000毫升",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000克",
+        "90度",
+        "180度"
+      ],
+      "explanation": "容积一升等于与1000毫升是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0108",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“1000毫升”？",
+      "answer": "容积一升等于",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国大陆急救电话",
+        "中国大陆报警电话",
+        "中国大陆交通事故报警电话"
+      ],
+      "explanation": "在给出的选项中，容积一升等于与1000毫升正确对应。"
+    },
+    {
+      "id": "zh_life_0109",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“直角的角度”对应的对应答案是什么？",
+      "answer": "90度",
+      "accepted_aliases": [],
+      "distractors": [
+        "0摄氏度",
+        "12个",
+        "12个月"
+      ],
+      "explanation": "直角的角度与90度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0110",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“90度”？",
+      "answer": "直角的角度",
+      "accepted_aliases": [],
+      "distractors": [
+        "一周包含的天数",
+        "一天包含的小时数",
+        "一小时包含的分钟数"
+      ],
+      "explanation": "在给出的选项中，直角的角度与90度正确对应。"
+    },
+    {
+      "id": "zh_life_0111",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“平角的角度”对应的对应答案是什么？",
+      "answer": "180度",
+      "accepted_aliases": [],
+      "distractors": [
+        "120",
+        "110",
+        "122"
+      ],
+      "explanation": "平角的角度与180度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0112",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“180度”？",
+      "answer": "平角的角度",
+      "accepted_aliases": [],
+      "distractors": [
+        "红色交通信号灯通常表示",
+        "可回收物常用标志颜色",
+        "有害垃圾常用标志颜色"
+      ],
+      "explanation": "在给出的选项中，平角的角度与180度正确对应。"
+    },
+    {
+      "id": "zh_life_0113",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“圆周的角度”对应的对应答案是什么？",
+      "answer": "360度",
+      "accepted_aliases": [],
+      "distractors": [
+        "7天",
+        "24小时",
+        "60分钟"
+      ],
+      "explanation": "圆周的角度与360度是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0114",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“360度”？",
+      "answer": "圆周的角度",
+      "accepted_aliases": [],
+      "distractors": [
+        "人民币一角等于",
+        "长度一米等于",
+        "质量一千克等于"
+      ],
+      "explanation": "在给出的选项中，圆周的角度与360度正确对应。"
+    },
+    {
+      "id": "zh_life_0115",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“中国大陆火警电话”对应的对应答案是什么？",
+      "answer": "119",
+      "accepted_aliases": [],
+      "distractors": [
+        "禁止通行",
+        "蓝色",
+        "红色"
+      ],
+      "explanation": "中国大陆火警电话与119是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0116",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“119”？",
+      "answer": "中国大陆火警电话",
+      "accepted_aliases": [],
+      "distractors": [
+        "干电池负极常见标记",
+        "标准大气压下水的沸点",
+        "标准大气压下水的冰点"
+      ],
+      "explanation": "在给出的选项中，中国大陆火警电话与119正确对应。"
+    },
+    {
+      "id": "zh_life_0117",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“中国大陆急救电话”对应的对应答案是什么？",
+      "answer": "120",
+      "accepted_aliases": [],
+      "distractors": [
+        "10分",
+        "100厘米",
+        "1000克"
+      ],
+      "explanation": "中国大陆急救电话与120是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0118",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“120”？",
+      "answer": "中国大陆急救电话",
+      "accepted_aliases": [],
+      "distractors": [
+        "平角的角度",
+        "圆周的角度",
+        "中国大陆火警电话"
+      ],
+      "explanation": "在给出的选项中，中国大陆急救电话与120正确对应。"
+    },
+    {
+      "id": "zh_life_0119",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“中国大陆报警电话”对应的对应答案是什么？",
+      "answer": "110",
+      "accepted_aliases": [],
+      "distractors": [
+        "-号",
+        "100摄氏度",
+        "0摄氏度"
+      ],
+      "explanation": "中国大陆报警电话与110是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0120",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“110”？",
+      "answer": "中国大陆报警电话",
+      "accepted_aliases": [],
+      "distractors": [
+        "平年通常包含的天数",
+        "闰年通常包含的天数",
+        "一周包含的天数"
+      ],
+      "explanation": "在给出的选项中，中国大陆报警电话与110正确对应。"
+    },
+    {
+      "id": "zh_life_0121",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“中国大陆交通事故报警电话”对应的对应答案是什么？",
+      "answer": "122",
+      "accepted_aliases": [],
+      "distractors": [
+        "180度",
+        "360度",
+        "119"
+      ],
+      "explanation": "中国大陆交通事故报警电话与122是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0122",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“122”？",
+      "answer": "中国大陆交通事故报警电话",
+      "accepted_aliases": [],
+      "distractors": [
+        "绿色交通信号灯通常表示",
+        "黄色交通信号灯通常表示",
+        "红色交通信号灯通常表示"
+      ],
+      "explanation": "在给出的选项中，中国大陆交通事故报警电话与122正确对应。"
+    },
+    {
+      "id": "zh_life_0123",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“绿色交通信号灯通常表示”对应的对应答案是什么？",
+      "answer": "允许通行",
+      "accepted_aliases": [],
+      "distractors": [
+        "365天",
+        "366天",
+        "7天"
+      ],
+      "explanation": "绿色交通信号灯通常表示与允许通行是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0124",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“允许通行”？",
+      "answer": "绿色交通信号灯通常表示",
+      "accepted_aliases": [],
+      "distractors": [
+        "一分钟包含的秒数",
+        "人民币一元等于",
+        "人民币一角等于"
+      ],
+      "explanation": "在给出的选项中，绿色交通信号灯通常表示与允许通行正确对应。"
+    },
+    {
+      "id": "zh_life_0125",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“黄色交通信号灯通常表示”对应的对应答案是什么？",
+      "answer": "警示并准备停止",
+      "accepted_aliases": [],
+      "distractors": [
+        "122",
+        "允许通行",
+        "禁止通行"
+      ],
+      "explanation": "黄色交通信号灯通常表示与警示并准备停止是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0126",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“警示并准备停止”？",
+      "answer": "黄色交通信号灯通常表示",
+      "accepted_aliases": [],
+      "distractors": [
+        "厨余垃圾常用标志颜色",
+        "干电池正极常见标记",
+        "干电池负极常见标记"
+      ],
+      "explanation": "在给出的选项中，黄色交通信号灯通常表示与警示并准备停止正确对应。"
+    },
+    {
+      "id": "zh_life_0127",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“红色交通信号灯通常表示”对应的对应答案是什么？",
+      "answer": "禁止通行",
+      "accepted_aliases": [],
+      "distractors": [
+        "60秒",
+        "10角",
+        "10分"
+      ],
+      "explanation": "红色交通信号灯通常表示与禁止通行是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0128",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“禁止通行”？",
+      "answer": "红色交通信号灯通常表示",
+      "accepted_aliases": [],
+      "distractors": [
+        "容积一升等于",
+        "直角的角度",
+        "平角的角度"
+      ],
+      "explanation": "在给出的选项中，红色交通信号灯通常表示与禁止通行正确对应。"
+    },
+    {
+      "id": "zh_life_0129",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“可回收物常用标志颜色”对应的对应答案是什么？",
+      "answer": "蓝色",
+      "accepted_aliases": [],
+      "distractors": [
+        "绿色",
+        "+号",
+        "-号"
+      ],
+      "explanation": "可回收物常用标志颜色与蓝色是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0130",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“蓝色”？",
+      "answer": "可回收物常用标志颜色",
+      "accepted_aliases": [],
+      "distractors": [
+        "一打物品通常包含",
+        "一年通常包含的月份数",
+        "平年通常包含的天数"
+      ],
+      "explanation": "在给出的选项中，可回收物常用标志颜色与蓝色正确对应。"
+    },
+    {
+      "id": "zh_life_0131",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“有害垃圾常用标志颜色”对应的对应答案是什么？",
+      "answer": "红色",
+      "accepted_aliases": [],
+      "distractors": [
+        "1000毫升",
+        "90度",
+        "180度"
+      ],
+      "explanation": "有害垃圾常用标志颜色与红色是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0132",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“红色”？",
+      "answer": "有害垃圾常用标志颜色",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国大陆急救电话",
+        "中国大陆报警电话",
+        "中国大陆交通事故报警电话"
+      ],
+      "explanation": "在给出的选项中，有害垃圾常用标志颜色与红色正确对应。"
+    },
+    {
+      "id": "zh_life_0133",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "生活常识“厨余垃圾常用标志颜色”对应的对应答案是什么？",
+      "answer": "绿色",
+      "accepted_aliases": [],
+      "distractors": [
+        "12个",
+        "12个月",
+        "365天"
+      ],
+      "explanation": "厨余垃圾常用标志颜色与绿色是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0134",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "下列哪一项的对应答案是“绿色”？",
+      "answer": "厨余垃圾常用标志颜色",
+      "accepted_aliases": [],
+      "distractors": [
+        "一天包含的小时数",
+        "一小时包含的分钟数",
+        "一分钟包含的秒数"
+      ],
+      "explanation": "在给出的选项中，厨余垃圾常用标志颜色与绿色正确对应。"
+    },
+    {
+      "id": "zh_life_0135",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "生活常识“干电池正极常见标记”对应的对应答案是什么？",
+      "answer": "+号",
+      "accepted_aliases": [],
+      "distractors": [
+        "120",
+        "110",
+        "122"
+      ],
+      "explanation": "干电池正极常见标记与+号是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0136",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "下列哪一项的对应答案是“+号”？",
+      "answer": "干电池正极常见标记",
+      "accepted_aliases": [],
+      "distractors": [
+        "红色交通信号灯通常表示",
+        "可回收物常用标志颜色",
+        "有害垃圾常用标志颜色"
+      ],
+      "explanation": "在给出的选项中，干电池正极常见标记与+号正确对应。"
+    },
+    {
+      "id": "zh_life_0137",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "生活常识“干电池负极常见标记”对应的对应答案是什么？",
+      "answer": "-号",
+      "accepted_aliases": [],
+      "distractors": [
+        "24小时",
+        "60分钟",
+        "60秒"
+      ],
+      "explanation": "干电池负极常见标记与-号是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_life_0138",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "下列哪一项的对应答案是“-号”？",
+      "answer": "干电池负极常见标记",
+      "accepted_aliases": [],
+      "distractors": [
+        "长度一米等于",
+        "质量一千克等于",
+        "容积一升等于"
+      ],
+      "explanation": "在给出的选项中，干电池负极常见标记与-号正确对应。"
+    },
+    {
+      "id": "zh_life_0139",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：1千克等于多少克？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是1000。"
+    },
+    {
+      "id": "zh_life_0140",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：1升等于多少毫升？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是1000。"
+    },
+    {
+      "id": "zh_life_0141",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：1小时等于多少分钟？",
+      "answer": "60",
+      "accepted_aliases": [],
+      "distractors": [
+        "66",
+        "54",
+        "72"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是60。"
+    },
+    {
+      "id": "zh_life_0142",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：1天等于多少小时？",
+      "answer": "24",
+      "accepted_aliases": [],
+      "distractors": [
+        "26",
+        "22",
+        "28"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是24。"
+    },
+    {
+      "id": "zh_life_0143",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：1周等于多少天？",
+      "answer": "7",
+      "accepted_aliases": [],
+      "distractors": [
+        "8",
+        "6",
+        "9"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是7。"
+    },
+    {
+      "id": "zh_life_0144",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币1元等于多少角？",
+      "answer": "10",
+      "accepted_aliases": [],
+      "distractors": [
+        "11",
+        "9",
+        "12"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是10。"
+    },
+    {
+      "id": "zh_life_0145",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：2千米等于多少米？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是2000。"
+    },
+    {
+      "id": "zh_life_0146",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：2米等于多少厘米？",
+      "answer": "200",
+      "accepted_aliases": [],
+      "distractors": [
+        "220",
+        "180",
+        "240"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是200。"
+    },
+    {
+      "id": "zh_life_0147",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：2千克等于多少克？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是2000。"
+    },
+    {
+      "id": "zh_life_0148",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：2升等于多少毫升？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是2000。"
+    },
+    {
+      "id": "zh_life_0149",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：2小时等于多少分钟？",
+      "answer": "120",
+      "accepted_aliases": [],
+      "distractors": [
+        "132",
+        "108",
+        "144"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是120。"
+    },
+    {
+      "id": "zh_life_0150",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：2天等于多少小时？",
+      "answer": "48",
+      "accepted_aliases": [],
+      "distractors": [
+        "52",
+        "44",
+        "56"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是48。"
+    },
+    {
+      "id": "zh_life_0151",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：2周等于多少天？",
+      "answer": "14",
+      "accepted_aliases": [],
+      "distractors": [
+        "15",
+        "13",
+        "16"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是14。"
+    },
+    {
+      "id": "zh_life_0152",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币2元等于多少角？",
+      "answer": "20",
+      "accepted_aliases": [],
+      "distractors": [
+        "22",
+        "18",
+        "24"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是20。"
+    },
+    {
+      "id": "zh_life_0153",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：3千米等于多少米？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是3000。"
+    },
+    {
+      "id": "zh_life_0154",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：3米等于多少厘米？",
+      "answer": "300",
+      "accepted_aliases": [],
+      "distractors": [
+        "330",
+        "270",
+        "360"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是300。"
+    },
+    {
+      "id": "zh_life_0155",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：3千克等于多少克？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是3000。"
+    },
+    {
+      "id": "zh_life_0156",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：3升等于多少毫升？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是3000。"
+    },
+    {
+      "id": "zh_life_0157",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：3小时等于多少分钟？",
+      "answer": "180",
+      "accepted_aliases": [],
+      "distractors": [
+        "198",
+        "162",
+        "216"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是180。"
+    },
+    {
+      "id": "zh_life_0158",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：3天等于多少小时？",
+      "answer": "72",
+      "accepted_aliases": [],
+      "distractors": [
+        "79",
+        "65",
+        "86"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是72。"
+    },
+    {
+      "id": "zh_life_0159",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：3周等于多少天？",
+      "answer": "21",
+      "accepted_aliases": [],
+      "distractors": [
+        "23",
+        "19",
+        "25"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是21。"
+    },
+    {
+      "id": "zh_life_0160",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币3元等于多少角？",
+      "answer": "30",
+      "accepted_aliases": [],
+      "distractors": [
+        "33",
+        "27",
+        "36"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是30。"
+    },
+    {
+      "id": "zh_life_0161",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：4千米等于多少米？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是4000。"
+    },
+    {
+      "id": "zh_life_0162",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：4米等于多少厘米？",
+      "answer": "400",
+      "accepted_aliases": [],
+      "distractors": [
+        "440",
+        "360",
+        "480"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是400。"
+    },
+    {
+      "id": "zh_life_0163",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：4千克等于多少克？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是4000。"
+    },
+    {
+      "id": "zh_life_0164",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：4升等于多少毫升？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是4000。"
+    },
+    {
+      "id": "zh_life_0165",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：4小时等于多少分钟？",
+      "answer": "240",
+      "accepted_aliases": [],
+      "distractors": [
+        "264",
+        "216",
+        "288"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是240。"
+    },
+    {
+      "id": "zh_life_0166",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：4天等于多少小时？",
+      "answer": "96",
+      "accepted_aliases": [],
+      "distractors": [
+        "105",
+        "87",
+        "114"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是96。"
+    },
+    {
+      "id": "zh_life_0167",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：4周等于多少天？",
+      "answer": "28",
+      "accepted_aliases": [],
+      "distractors": [
+        "30",
+        "26",
+        "32"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是28。"
+    },
+    {
+      "id": "zh_life_0168",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币4元等于多少角？",
+      "answer": "40",
+      "accepted_aliases": [],
+      "distractors": [
+        "44",
+        "36",
+        "48"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是40。"
+    },
+    {
+      "id": "zh_life_0169",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：5千米等于多少米？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是5000。"
+    },
+    {
+      "id": "zh_life_0170",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：5米等于多少厘米？",
+      "answer": "500",
+      "accepted_aliases": [],
+      "distractors": [
+        "550",
+        "450",
+        "600"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是500。"
+    },
+    {
+      "id": "zh_life_0171",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：5千克等于多少克？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是5000。"
+    },
+    {
+      "id": "zh_life_0172",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：5升等于多少毫升？",
+      "answer": "5000",
+      "accepted_aliases": [],
+      "distractors": [
+        "5500",
+        "4500",
+        "6000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是5000。"
+    },
+    {
+      "id": "zh_life_0173",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：5小时等于多少分钟？",
+      "answer": "300",
+      "accepted_aliases": [],
+      "distractors": [
+        "330",
+        "270",
+        "360"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是300。"
+    },
+    {
+      "id": "zh_life_0174",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：5天等于多少小时？",
+      "answer": "120",
+      "accepted_aliases": [],
+      "distractors": [
+        "132",
+        "108",
+        "144"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是120。"
+    },
+    {
+      "id": "zh_life_0175",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：5周等于多少天？",
+      "answer": "35",
+      "accepted_aliases": [],
+      "distractors": [
+        "38",
+        "32",
+        "41"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是35。"
+    },
+    {
+      "id": "zh_life_0176",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币5元等于多少角？",
+      "answer": "50",
+      "accepted_aliases": [],
+      "distractors": [
+        "55",
+        "45",
+        "60"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是50。"
+    },
+    {
+      "id": "zh_life_0177",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：6千米等于多少米？",
+      "answer": "6000",
+      "accepted_aliases": [],
+      "distractors": [
+        "6600",
+        "5400",
+        "7200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是6000。"
+    },
+    {
+      "id": "zh_life_0178",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：6米等于多少厘米？",
+      "answer": "600",
+      "accepted_aliases": [],
+      "distractors": [
+        "660",
+        "540",
+        "720"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是600。"
+    },
+    {
+      "id": "zh_life_0179",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：6千克等于多少克？",
+      "answer": "6000",
+      "accepted_aliases": [],
+      "distractors": [
+        "6600",
+        "5400",
+        "7200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是6000。"
+    },
+    {
+      "id": "zh_life_0180",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：6升等于多少毫升？",
+      "answer": "6000",
+      "accepted_aliases": [],
+      "distractors": [
+        "6600",
+        "5400",
+        "7200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是6000。"
+    },
+    {
+      "id": "zh_life_0181",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：6小时等于多少分钟？",
+      "answer": "360",
+      "accepted_aliases": [],
+      "distractors": [
+        "396",
+        "324",
+        "432"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是360。"
+    },
+    {
+      "id": "zh_life_0182",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：6天等于多少小时？",
+      "answer": "144",
+      "accepted_aliases": [],
+      "distractors": [
+        "158",
+        "130",
+        "172"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是144。"
+    },
+    {
+      "id": "zh_life_0183",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：6周等于多少天？",
+      "answer": "42",
+      "accepted_aliases": [],
+      "distractors": [
+        "46",
+        "38",
+        "50"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是42。"
+    },
+    {
+      "id": "zh_life_0184",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币6元等于多少角？",
+      "answer": "60",
+      "accepted_aliases": [],
+      "distractors": [
+        "66",
+        "54",
+        "72"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是60。"
+    },
+    {
+      "id": "zh_life_0185",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：7千米等于多少米？",
+      "answer": "7000",
+      "accepted_aliases": [],
+      "distractors": [
+        "7700",
+        "6300",
+        "8400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是7000。"
+    },
+    {
+      "id": "zh_life_0186",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：7米等于多少厘米？",
+      "answer": "700",
+      "accepted_aliases": [],
+      "distractors": [
+        "770",
+        "630",
+        "840"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是700。"
+    },
+    {
+      "id": "zh_life_0187",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：7千克等于多少克？",
+      "answer": "7000",
+      "accepted_aliases": [],
+      "distractors": [
+        "7700",
+        "6300",
+        "8400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是7000。"
+    },
+    {
+      "id": "zh_life_0188",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：7升等于多少毫升？",
+      "answer": "7000",
+      "accepted_aliases": [],
+      "distractors": [
+        "7700",
+        "6300",
+        "8400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是7000。"
+    },
+    {
+      "id": "zh_life_0189",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：7小时等于多少分钟？",
+      "answer": "420",
+      "accepted_aliases": [],
+      "distractors": [
+        "462",
+        "378",
+        "504"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是420。"
+    },
+    {
+      "id": "zh_life_0190",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：7天等于多少小时？",
+      "answer": "168",
+      "accepted_aliases": [],
+      "distractors": [
+        "184",
+        "152",
+        "200"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是168。"
+    },
+    {
+      "id": "zh_life_0191",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：7周等于多少天？",
+      "answer": "49",
+      "accepted_aliases": [],
+      "distractors": [
+        "53",
+        "45",
+        "57"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是49。"
+    },
+    {
+      "id": "zh_life_0192",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币7元等于多少角？",
+      "answer": "70",
+      "accepted_aliases": [],
+      "distractors": [
+        "77",
+        "63",
+        "84"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是70。"
+    },
+    {
+      "id": "zh_life_0193",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：8千米等于多少米？",
+      "answer": "8000",
+      "accepted_aliases": [],
+      "distractors": [
+        "8800",
+        "7200",
+        "9600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是8000。"
+    },
+    {
+      "id": "zh_life_0194",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：8米等于多少厘米？",
+      "answer": "800",
+      "accepted_aliases": [],
+      "distractors": [
+        "880",
+        "720",
+        "960"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是800。"
+    },
+    {
+      "id": "zh_life_0195",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：8千克等于多少克？",
+      "answer": "8000",
+      "accepted_aliases": [],
+      "distractors": [
+        "8800",
+        "7200",
+        "9600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是8000。"
+    },
+    {
+      "id": "zh_life_0196",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：8升等于多少毫升？",
+      "answer": "8000",
+      "accepted_aliases": [],
+      "distractors": [
+        "8800",
+        "7200",
+        "9600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是8000。"
+    },
+    {
+      "id": "zh_life_0197",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：8小时等于多少分钟？",
+      "answer": "480",
+      "accepted_aliases": [],
+      "distractors": [
+        "528",
+        "432",
+        "576"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是480。"
+    },
+    {
+      "id": "zh_life_0198",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：8天等于多少小时？",
+      "answer": "192",
+      "accepted_aliases": [],
+      "distractors": [
+        "211",
+        "173",
+        "230"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是192。"
+    },
+    {
+      "id": "zh_life_0199",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：8周等于多少天？",
+      "answer": "56",
+      "accepted_aliases": [],
+      "distractors": [
+        "61",
+        "51",
+        "66"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是56。"
+    },
+    {
+      "id": "zh_life_0200",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币8元等于多少角？",
+      "answer": "80",
+      "accepted_aliases": [],
+      "distractors": [
+        "88",
+        "72",
+        "96"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是80。"
+    },
+    {
+      "id": "zh_life_0201",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：9千米等于多少米？",
+      "answer": "9000",
+      "accepted_aliases": [],
+      "distractors": [
+        "9900",
+        "8100",
+        "10800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是9000。"
+    },
+    {
+      "id": "zh_life_0202",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：9米等于多少厘米？",
+      "answer": "900",
+      "accepted_aliases": [],
+      "distractors": [
+        "990",
+        "810",
+        "1080"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是900。"
+    },
+    {
+      "id": "zh_life_0203",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：9千克等于多少克？",
+      "answer": "9000",
+      "accepted_aliases": [],
+      "distractors": [
+        "9900",
+        "8100",
+        "10800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是9000。"
+    },
+    {
+      "id": "zh_life_0204",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：9升等于多少毫升？",
+      "answer": "9000",
+      "accepted_aliases": [],
+      "distractors": [
+        "9900",
+        "8100",
+        "10800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是9000。"
+    },
+    {
+      "id": "zh_life_0205",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：9小时等于多少分钟？",
+      "answer": "540",
+      "accepted_aliases": [],
+      "distractors": [
+        "594",
+        "486",
+        "648"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是540。"
+    },
+    {
+      "id": "zh_life_0206",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：9天等于多少小时？",
+      "answer": "216",
+      "accepted_aliases": [],
+      "distractors": [
+        "237",
+        "195",
+        "258"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是216。"
+    },
+    {
+      "id": "zh_life_0207",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：9周等于多少天？",
+      "answer": "63",
+      "accepted_aliases": [],
+      "distractors": [
+        "69",
+        "57",
+        "75"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是63。"
+    },
+    {
+      "id": "zh_life_0208",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币9元等于多少角？",
+      "answer": "90",
+      "accepted_aliases": [],
+      "distractors": [
+        "99",
+        "81",
+        "108"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是90。"
+    },
+    {
+      "id": "zh_life_0209",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：10千米等于多少米？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是10000。"
+    },
+    {
+      "id": "zh_life_0210",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：10米等于多少厘米？",
+      "answer": "1000",
+      "accepted_aliases": [],
+      "distractors": [
+        "1100",
+        "900",
+        "1200"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1000。"
+    },
+    {
+      "id": "zh_life_0211",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：10千克等于多少克？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是10000。"
+    },
+    {
+      "id": "zh_life_0212",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：10升等于多少毫升？",
+      "answer": "10000",
+      "accepted_aliases": [],
+      "distractors": [
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是10000。"
+    },
+    {
+      "id": "zh_life_0213",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：10小时等于多少分钟？",
+      "answer": "600",
+      "accepted_aliases": [],
+      "distractors": [
+        "660",
+        "540",
+        "720"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是600。"
+    },
+    {
+      "id": "zh_life_0214",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：10天等于多少小时？",
+      "answer": "240",
+      "accepted_aliases": [],
+      "distractors": [
+        "264",
+        "216",
+        "288"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是240。"
+    },
+    {
+      "id": "zh_life_0215",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：10周等于多少天？",
+      "answer": "70",
+      "accepted_aliases": [],
+      "distractors": [
+        "77",
+        "63",
+        "84"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是70。"
+    },
+    {
+      "id": "zh_life_0216",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币10元等于多少角？",
+      "answer": "100",
+      "accepted_aliases": [],
+      "distractors": [
+        "110",
+        "90",
+        "120"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是100。"
+    },
+    {
+      "id": "zh_life_0217",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：11千米等于多少米？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "12100",
+        "9900",
+        "13200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是11000。"
+    },
+    {
+      "id": "zh_life_0218",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：11米等于多少厘米？",
+      "answer": "1100",
+      "accepted_aliases": [],
+      "distractors": [
+        "1210",
+        "990",
+        "1320"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1100。"
+    },
+    {
+      "id": "zh_life_0219",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：11千克等于多少克？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "12100",
+        "9900",
+        "13200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是11000。"
+    },
+    {
+      "id": "zh_life_0220",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：11升等于多少毫升？",
+      "answer": "11000",
+      "accepted_aliases": [],
+      "distractors": [
+        "12100",
+        "9900",
+        "13200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是11000。"
+    },
+    {
+      "id": "zh_life_0221",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：11小时等于多少分钟？",
+      "answer": "660",
+      "accepted_aliases": [],
+      "distractors": [
+        "726",
+        "594",
+        "792"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是660。"
+    },
+    {
+      "id": "zh_life_0222",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：11天等于多少小时？",
+      "answer": "264",
+      "accepted_aliases": [],
+      "distractors": [
+        "290",
+        "238",
+        "316"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是264。"
+    },
+    {
+      "id": "zh_life_0223",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：11周等于多少天？",
+      "answer": "77",
+      "accepted_aliases": [],
+      "distractors": [
+        "84",
+        "70",
+        "91"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是77。"
+    },
+    {
+      "id": "zh_life_0224",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币11元等于多少角？",
+      "answer": "110",
+      "accepted_aliases": [],
+      "distractors": [
+        "121",
+        "99",
+        "132"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是110。"
+    },
+    {
+      "id": "zh_life_0225",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：12千米等于多少米？",
+      "answer": "12000",
+      "accepted_aliases": [],
+      "distractors": [
+        "13200",
+        "10800",
+        "14400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是12000。"
+    },
+    {
+      "id": "zh_life_0226",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：12米等于多少厘米？",
+      "answer": "1200",
+      "accepted_aliases": [],
+      "distractors": [
+        "1320",
+        "1080",
+        "1440"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1200。"
+    },
+    {
+      "id": "zh_life_0227",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：12千克等于多少克？",
+      "answer": "12000",
+      "accepted_aliases": [],
+      "distractors": [
+        "13200",
+        "10800",
+        "14400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是12000。"
+    },
+    {
+      "id": "zh_life_0228",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：12升等于多少毫升？",
+      "answer": "12000",
+      "accepted_aliases": [],
+      "distractors": [
+        "13200",
+        "10800",
+        "14400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是12000。"
+    },
+    {
+      "id": "zh_life_0229",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：12小时等于多少分钟？",
+      "answer": "720",
+      "accepted_aliases": [],
+      "distractors": [
+        "792",
+        "648",
+        "864"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是720。"
+    },
+    {
+      "id": "zh_life_0230",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：12天等于多少小时？",
+      "answer": "288",
+      "accepted_aliases": [],
+      "distractors": [
+        "316",
+        "260",
+        "344"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是288。"
+    },
+    {
+      "id": "zh_life_0231",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：12周等于多少天？",
+      "answer": "84",
+      "accepted_aliases": [],
+      "distractors": [
+        "92",
+        "76",
+        "100"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是84。"
+    },
+    {
+      "id": "zh_life_0232",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币12元等于多少角？",
+      "answer": "120",
+      "accepted_aliases": [],
+      "distractors": [
+        "132",
+        "108",
+        "144"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是120。"
+    },
+    {
+      "id": "zh_life_0233",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：13千米等于多少米？",
+      "answer": "13000",
+      "accepted_aliases": [],
+      "distractors": [
+        "14300",
+        "11700",
+        "15600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是13000。"
+    },
+    {
+      "id": "zh_life_0234",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：13米等于多少厘米？",
+      "answer": "1300",
+      "accepted_aliases": [],
+      "distractors": [
+        "1430",
+        "1170",
+        "1560"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1300。"
+    },
+    {
+      "id": "zh_life_0235",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：13千克等于多少克？",
+      "answer": "13000",
+      "accepted_aliases": [],
+      "distractors": [
+        "14300",
+        "11700",
+        "15600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是13000。"
+    },
+    {
+      "id": "zh_life_0236",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：13升等于多少毫升？",
+      "answer": "13000",
+      "accepted_aliases": [],
+      "distractors": [
+        "14300",
+        "11700",
+        "15600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是13000。"
+    },
+    {
+      "id": "zh_life_0237",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：13小时等于多少分钟？",
+      "answer": "780",
+      "accepted_aliases": [],
+      "distractors": [
+        "858",
+        "702",
+        "936"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是780。"
+    },
+    {
+      "id": "zh_life_0238",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：13天等于多少小时？",
+      "answer": "312",
+      "accepted_aliases": [],
+      "distractors": [
+        "343",
+        "281",
+        "374"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是312。"
+    },
+    {
+      "id": "zh_life_0239",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：13周等于多少天？",
+      "answer": "91",
+      "accepted_aliases": [],
+      "distractors": [
+        "100",
+        "82",
+        "109"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是91。"
+    },
+    {
+      "id": "zh_life_0240",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币13元等于多少角？",
+      "answer": "130",
+      "accepted_aliases": [],
+      "distractors": [
+        "143",
+        "117",
+        "156"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是130。"
+    },
+    {
+      "id": "zh_life_0241",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：14千米等于多少米？",
+      "answer": "14000",
+      "accepted_aliases": [],
+      "distractors": [
+        "15400",
+        "12600",
+        "16800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是14000。"
+    },
+    {
+      "id": "zh_life_0242",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：14米等于多少厘米？",
+      "answer": "1400",
+      "accepted_aliases": [],
+      "distractors": [
+        "1540",
+        "1260",
+        "1680"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1400。"
+    },
+    {
+      "id": "zh_life_0243",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：14千克等于多少克？",
+      "answer": "14000",
+      "accepted_aliases": [],
+      "distractors": [
+        "15400",
+        "12600",
+        "16800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是14000。"
+    },
+    {
+      "id": "zh_life_0244",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：14升等于多少毫升？",
+      "answer": "14000",
+      "accepted_aliases": [],
+      "distractors": [
+        "15400",
+        "12600",
+        "16800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是14000。"
+    },
+    {
+      "id": "zh_life_0245",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：14小时等于多少分钟？",
+      "answer": "840",
+      "accepted_aliases": [],
+      "distractors": [
+        "924",
+        "756",
+        "1008"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是840。"
+    },
+    {
+      "id": "zh_life_0246",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：14天等于多少小时？",
+      "answer": "336",
+      "accepted_aliases": [],
+      "distractors": [
+        "369",
+        "303",
+        "402"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是336。"
+    },
+    {
+      "id": "zh_life_0247",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：14周等于多少天？",
+      "answer": "98",
+      "accepted_aliases": [],
+      "distractors": [
+        "107",
+        "89",
+        "116"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是98。"
+    },
+    {
+      "id": "zh_life_0248",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币14元等于多少角？",
+      "answer": "140",
+      "accepted_aliases": [],
+      "distractors": [
+        "154",
+        "126",
+        "168"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是140。"
+    },
+    {
+      "id": "zh_life_0249",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：15千米等于多少米？",
+      "answer": "15000",
+      "accepted_aliases": [],
+      "distractors": [
+        "16500",
+        "13500",
+        "18000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是15000。"
+    },
+    {
+      "id": "zh_life_0250",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：15米等于多少厘米？",
+      "answer": "1500",
+      "accepted_aliases": [],
+      "distractors": [
+        "1650",
+        "1350",
+        "1800"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1500。"
+    },
+    {
+      "id": "zh_life_0251",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：15千克等于多少克？",
+      "answer": "15000",
+      "accepted_aliases": [],
+      "distractors": [
+        "16500",
+        "13500",
+        "18000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是15000。"
+    },
+    {
+      "id": "zh_life_0252",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：15升等于多少毫升？",
+      "answer": "15000",
+      "accepted_aliases": [],
+      "distractors": [
+        "16500",
+        "13500",
+        "18000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是15000。"
+    },
+    {
+      "id": "zh_life_0253",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：15小时等于多少分钟？",
+      "answer": "900",
+      "accepted_aliases": [],
+      "distractors": [
+        "990",
+        "810",
+        "1080"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是900。"
+    },
+    {
+      "id": "zh_life_0254",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：15天等于多少小时？",
+      "answer": "360",
+      "accepted_aliases": [],
+      "distractors": [
+        "396",
+        "324",
+        "432"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是360。"
+    },
+    {
+      "id": "zh_life_0255",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：15周等于多少天？",
+      "answer": "105",
+      "accepted_aliases": [],
+      "distractors": [
+        "115",
+        "95",
+        "125"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是105。"
+    },
+    {
+      "id": "zh_life_0256",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币15元等于多少角？",
+      "answer": "150",
+      "accepted_aliases": [],
+      "distractors": [
+        "165",
+        "135",
+        "180"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是150。"
+    },
+    {
+      "id": "zh_life_0257",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：16千米等于多少米？",
+      "answer": "16000",
+      "accepted_aliases": [],
+      "distractors": [
+        "17600",
+        "14400",
+        "19200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是16000。"
+    },
+    {
+      "id": "zh_life_0258",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：16米等于多少厘米？",
+      "answer": "1600",
+      "accepted_aliases": [],
+      "distractors": [
+        "1760",
+        "1440",
+        "1920"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1600。"
+    },
+    {
+      "id": "zh_life_0259",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：16千克等于多少克？",
+      "answer": "16000",
+      "accepted_aliases": [],
+      "distractors": [
+        "17600",
+        "14400",
+        "19200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是16000。"
+    },
+    {
+      "id": "zh_life_0260",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：16升等于多少毫升？",
+      "answer": "16000",
+      "accepted_aliases": [],
+      "distractors": [
+        "17600",
+        "14400",
+        "19200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是16000。"
+    },
+    {
+      "id": "zh_life_0261",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：16小时等于多少分钟？",
+      "answer": "960",
+      "accepted_aliases": [],
+      "distractors": [
+        "1056",
+        "864",
+        "1152"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是960。"
+    },
+    {
+      "id": "zh_life_0262",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：16天等于多少小时？",
+      "answer": "384",
+      "accepted_aliases": [],
+      "distractors": [
+        "422",
+        "346",
+        "460"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是384。"
+    },
+    {
+      "id": "zh_life_0263",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：16周等于多少天？",
+      "answer": "112",
+      "accepted_aliases": [],
+      "distractors": [
+        "123",
+        "101",
+        "134"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是112。"
+    },
+    {
+      "id": "zh_life_0264",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币16元等于多少角？",
+      "answer": "160",
+      "accepted_aliases": [],
+      "distractors": [
+        "176",
+        "144",
+        "192"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是160。"
+    },
+    {
+      "id": "zh_life_0265",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：17千米等于多少米？",
+      "answer": "17000",
+      "accepted_aliases": [],
+      "distractors": [
+        "18700",
+        "15300",
+        "20400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是17000。"
+    },
+    {
+      "id": "zh_life_0266",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：17米等于多少厘米？",
+      "answer": "1700",
+      "accepted_aliases": [],
+      "distractors": [
+        "1870",
+        "1530",
+        "2040"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1700。"
+    },
+    {
+      "id": "zh_life_0267",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：17千克等于多少克？",
+      "answer": "17000",
+      "accepted_aliases": [],
+      "distractors": [
+        "18700",
+        "15300",
+        "20400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是17000。"
+    },
+    {
+      "id": "zh_life_0268",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：17升等于多少毫升？",
+      "answer": "17000",
+      "accepted_aliases": [],
+      "distractors": [
+        "18700",
+        "15300",
+        "20400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是17000。"
+    },
+    {
+      "id": "zh_life_0269",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：17小时等于多少分钟？",
+      "answer": "1020",
+      "accepted_aliases": [],
+      "distractors": [
+        "1122",
+        "918",
+        "1224"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1020。"
+    },
+    {
+      "id": "zh_life_0270",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：17天等于多少小时？",
+      "answer": "408",
+      "accepted_aliases": [],
+      "distractors": [
+        "448",
+        "368",
+        "488"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是408。"
+    },
+    {
+      "id": "zh_life_0271",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：17周等于多少天？",
+      "answer": "119",
+      "accepted_aliases": [],
+      "distractors": [
+        "130",
+        "108",
+        "141"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是119。"
+    },
+    {
+      "id": "zh_life_0272",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币17元等于多少角？",
+      "answer": "170",
+      "accepted_aliases": [],
+      "distractors": [
+        "187",
+        "153",
+        "204"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是170。"
+    },
+    {
+      "id": "zh_life_0273",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：18千米等于多少米？",
+      "answer": "18000",
+      "accepted_aliases": [],
+      "distractors": [
+        "19800",
+        "16200",
+        "21600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是18000。"
+    },
+    {
+      "id": "zh_life_0274",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：18米等于多少厘米？",
+      "answer": "1800",
+      "accepted_aliases": [],
+      "distractors": [
+        "1980",
+        "1620",
+        "2160"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1800。"
+    },
+    {
+      "id": "zh_life_0275",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：18千克等于多少克？",
+      "answer": "18000",
+      "accepted_aliases": [],
+      "distractors": [
+        "19800",
+        "16200",
+        "21600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是18000。"
+    },
+    {
+      "id": "zh_life_0276",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：18升等于多少毫升？",
+      "answer": "18000",
+      "accepted_aliases": [],
+      "distractors": [
+        "19800",
+        "16200",
+        "21600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是18000。"
+    },
+    {
+      "id": "zh_life_0277",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：18小时等于多少分钟？",
+      "answer": "1080",
+      "accepted_aliases": [],
+      "distractors": [
+        "1188",
+        "972",
+        "1296"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1080。"
+    },
+    {
+      "id": "zh_life_0278",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：18天等于多少小时？",
+      "answer": "432",
+      "accepted_aliases": [],
+      "distractors": [
+        "475",
+        "389",
+        "518"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是432。"
+    },
+    {
+      "id": "zh_life_0279",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：18周等于多少天？",
+      "answer": "126",
+      "accepted_aliases": [],
+      "distractors": [
+        "138",
+        "114",
+        "150"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是126。"
+    },
+    {
+      "id": "zh_life_0280",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币18元等于多少角？",
+      "answer": "180",
+      "accepted_aliases": [],
+      "distractors": [
+        "198",
+        "162",
+        "216"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是180。"
+    },
+    {
+      "id": "zh_life_0281",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：19千米等于多少米？",
+      "answer": "19000",
+      "accepted_aliases": [],
+      "distractors": [
+        "20900",
+        "17100",
+        "22800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是19000。"
+    },
+    {
+      "id": "zh_life_0282",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：19米等于多少厘米？",
+      "answer": "1900",
+      "accepted_aliases": [],
+      "distractors": [
+        "2090",
+        "1710",
+        "2280"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是1900。"
+    },
+    {
+      "id": "zh_life_0283",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：19千克等于多少克？",
+      "answer": "19000",
+      "accepted_aliases": [],
+      "distractors": [
+        "20900",
+        "17100",
+        "22800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是19000。"
+    },
+    {
+      "id": "zh_life_0284",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：19升等于多少毫升？",
+      "answer": "19000",
+      "accepted_aliases": [],
+      "distractors": [
+        "20900",
+        "17100",
+        "22800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是19000。"
+    },
+    {
+      "id": "zh_life_0285",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：19小时等于多少分钟？",
+      "answer": "1140",
+      "accepted_aliases": [],
+      "distractors": [
+        "1254",
+        "1026",
+        "1368"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1140。"
+    },
+    {
+      "id": "zh_life_0286",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：19天等于多少小时？",
+      "answer": "456",
+      "accepted_aliases": [],
+      "distractors": [
+        "501",
+        "411",
+        "546"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是456。"
+    },
+    {
+      "id": "zh_life_0287",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：19周等于多少天？",
+      "answer": "133",
+      "accepted_aliases": [],
+      "distractors": [
+        "146",
+        "120",
+        "159"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是133。"
+    },
+    {
+      "id": "zh_life_0288",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币19元等于多少角？",
+      "answer": "190",
+      "accepted_aliases": [],
+      "distractors": [
+        "209",
+        "171",
+        "228"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是190。"
+    },
+    {
+      "id": "zh_life_0289",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：20千米等于多少米？",
+      "answer": "20000",
+      "accepted_aliases": [],
+      "distractors": [
+        "22000",
+        "18000",
+        "24000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是20000。"
+    },
+    {
+      "id": "zh_life_0290",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：20米等于多少厘米？",
+      "answer": "2000",
+      "accepted_aliases": [],
+      "distractors": [
+        "2200",
+        "1800",
+        "2400"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2000。"
+    },
+    {
+      "id": "zh_life_0291",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：20千克等于多少克？",
+      "answer": "20000",
+      "accepted_aliases": [],
+      "distractors": [
+        "22000",
+        "18000",
+        "24000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是20000。"
+    },
+    {
+      "id": "zh_life_0292",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：20升等于多少毫升？",
+      "answer": "20000",
+      "accepted_aliases": [],
+      "distractors": [
+        "22000",
+        "18000",
+        "24000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是20000。"
+    },
+    {
+      "id": "zh_life_0293",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：20小时等于多少分钟？",
+      "answer": "1200",
+      "accepted_aliases": [],
+      "distractors": [
+        "1320",
+        "1080",
+        "1440"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1200。"
+    },
+    {
+      "id": "zh_life_0294",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：20天等于多少小时？",
+      "answer": "480",
+      "accepted_aliases": [],
+      "distractors": [
+        "528",
+        "432",
+        "576"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是480。"
+    },
+    {
+      "id": "zh_life_0295",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：20周等于多少天？",
+      "answer": "140",
+      "accepted_aliases": [],
+      "distractors": [
+        "154",
+        "126",
+        "168"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是140。"
+    },
+    {
+      "id": "zh_life_0296",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币20元等于多少角？",
+      "answer": "200",
+      "accepted_aliases": [],
+      "distractors": [
+        "220",
+        "180",
+        "240"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是200。"
+    },
+    {
+      "id": "zh_life_0297",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：21千米等于多少米？",
+      "answer": "21000",
+      "accepted_aliases": [],
+      "distractors": [
+        "23100",
+        "18900",
+        "25200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是21000。"
+    },
+    {
+      "id": "zh_life_0298",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：21米等于多少厘米？",
+      "answer": "2100",
+      "accepted_aliases": [],
+      "distractors": [
+        "2310",
+        "1890",
+        "2520"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2100。"
+    },
+    {
+      "id": "zh_life_0299",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：21千克等于多少克？",
+      "answer": "21000",
+      "accepted_aliases": [],
+      "distractors": [
+        "23100",
+        "18900",
+        "25200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是21000。"
+    },
+    {
+      "id": "zh_life_0300",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：21升等于多少毫升？",
+      "answer": "21000",
+      "accepted_aliases": [],
+      "distractors": [
+        "23100",
+        "18900",
+        "25200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是21000。"
+    },
+    {
+      "id": "zh_life_0301",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：21小时等于多少分钟？",
+      "answer": "1260",
+      "accepted_aliases": [],
+      "distractors": [
+        "1386",
+        "1134",
+        "1512"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1260。"
+    },
+    {
+      "id": "zh_life_0302",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：21天等于多少小时？",
+      "answer": "504",
+      "accepted_aliases": [],
+      "distractors": [
+        "554",
+        "454",
+        "604"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是504。"
+    },
+    {
+      "id": "zh_life_0303",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：21周等于多少天？",
+      "answer": "147",
+      "accepted_aliases": [],
+      "distractors": [
+        "161",
+        "133",
+        "175"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是147。"
+    },
+    {
+      "id": "zh_life_0304",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币21元等于多少角？",
+      "answer": "210",
+      "accepted_aliases": [],
+      "distractors": [
+        "231",
+        "189",
+        "252"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是210。"
+    },
+    {
+      "id": "zh_life_0305",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：22千米等于多少米？",
+      "answer": "22000",
+      "accepted_aliases": [],
+      "distractors": [
+        "24200",
+        "19800",
+        "26400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是22000。"
+    },
+    {
+      "id": "zh_life_0306",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：22米等于多少厘米？",
+      "answer": "2200",
+      "accepted_aliases": [],
+      "distractors": [
+        "2420",
+        "1980",
+        "2640"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2200。"
+    },
+    {
+      "id": "zh_life_0307",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：22千克等于多少克？",
+      "answer": "22000",
+      "accepted_aliases": [],
+      "distractors": [
+        "24200",
+        "19800",
+        "26400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是22000。"
+    },
+    {
+      "id": "zh_life_0308",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：22升等于多少毫升？",
+      "answer": "22000",
+      "accepted_aliases": [],
+      "distractors": [
+        "24200",
+        "19800",
+        "26400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是22000。"
+    },
+    {
+      "id": "zh_life_0309",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：22小时等于多少分钟？",
+      "answer": "1320",
+      "accepted_aliases": [],
+      "distractors": [
+        "1452",
+        "1188",
+        "1584"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1320。"
+    },
+    {
+      "id": "zh_life_0310",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：22天等于多少小时？",
+      "answer": "528",
+      "accepted_aliases": [],
+      "distractors": [
+        "580",
+        "476",
+        "632"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是528。"
+    },
+    {
+      "id": "zh_life_0311",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：22周等于多少天？",
+      "answer": "154",
+      "accepted_aliases": [],
+      "distractors": [
+        "169",
+        "139",
+        "184"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是154。"
+    },
+    {
+      "id": "zh_life_0312",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币22元等于多少角？",
+      "answer": "220",
+      "accepted_aliases": [],
+      "distractors": [
+        "242",
+        "198",
+        "264"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是220。"
+    },
+    {
+      "id": "zh_life_0313",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：23千米等于多少米？",
+      "answer": "23000",
+      "accepted_aliases": [],
+      "distractors": [
+        "25300",
+        "20700",
+        "27600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是23000。"
+    },
+    {
+      "id": "zh_life_0314",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：23米等于多少厘米？",
+      "answer": "2300",
+      "accepted_aliases": [],
+      "distractors": [
+        "2530",
+        "2070",
+        "2760"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2300。"
+    },
+    {
+      "id": "zh_life_0315",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：23千克等于多少克？",
+      "answer": "23000",
+      "accepted_aliases": [],
+      "distractors": [
+        "25300",
+        "20700",
+        "27600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是23000。"
+    },
+    {
+      "id": "zh_life_0316",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：23升等于多少毫升？",
+      "answer": "23000",
+      "accepted_aliases": [],
+      "distractors": [
+        "25300",
+        "20700",
+        "27600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是23000。"
+    },
+    {
+      "id": "zh_life_0317",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：23小时等于多少分钟？",
+      "answer": "1380",
+      "accepted_aliases": [],
+      "distractors": [
+        "1518",
+        "1242",
+        "1656"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1380。"
+    },
+    {
+      "id": "zh_life_0318",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：23天等于多少小时？",
+      "answer": "552",
+      "accepted_aliases": [],
+      "distractors": [
+        "607",
+        "497",
+        "662"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是552。"
+    },
+    {
+      "id": "zh_life_0319",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：23周等于多少天？",
+      "answer": "161",
+      "accepted_aliases": [],
+      "distractors": [
+        "177",
+        "145",
+        "193"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是161。"
+    },
+    {
+      "id": "zh_life_0320",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币23元等于多少角？",
+      "answer": "230",
+      "accepted_aliases": [],
+      "distractors": [
+        "253",
+        "207",
+        "276"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是230。"
+    },
+    {
+      "id": "zh_life_0321",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：24千米等于多少米？",
+      "answer": "24000",
+      "accepted_aliases": [],
+      "distractors": [
+        "26400",
+        "21600",
+        "28800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是24000。"
+    },
+    {
+      "id": "zh_life_0322",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：24米等于多少厘米？",
+      "answer": "2400",
+      "accepted_aliases": [],
+      "distractors": [
+        "2640",
+        "2160",
+        "2880"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2400。"
+    },
+    {
+      "id": "zh_life_0323",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：24千克等于多少克？",
+      "answer": "24000",
+      "accepted_aliases": [],
+      "distractors": [
+        "26400",
+        "21600",
+        "28800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是24000。"
+    },
+    {
+      "id": "zh_life_0324",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：24升等于多少毫升？",
+      "answer": "24000",
+      "accepted_aliases": [],
+      "distractors": [
+        "26400",
+        "21600",
+        "28800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是24000。"
+    },
+    {
+      "id": "zh_life_0325",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：24小时等于多少分钟？",
+      "answer": "1440",
+      "accepted_aliases": [],
+      "distractors": [
+        "1584",
+        "1296",
+        "1728"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1440。"
+    },
+    {
+      "id": "zh_life_0326",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：24天等于多少小时？",
+      "answer": "576",
+      "accepted_aliases": [],
+      "distractors": [
+        "633",
+        "519",
+        "690"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是576。"
+    },
+    {
+      "id": "zh_life_0327",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：24周等于多少天？",
+      "answer": "168",
+      "accepted_aliases": [],
+      "distractors": [
+        "184",
+        "152",
+        "200"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是168。"
+    },
+    {
+      "id": "zh_life_0328",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币24元等于多少角？",
+      "answer": "240",
+      "accepted_aliases": [],
+      "distractors": [
+        "264",
+        "216",
+        "288"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是240。"
+    },
+    {
+      "id": "zh_life_0329",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：25千米等于多少米？",
+      "answer": "25000",
+      "accepted_aliases": [],
+      "distractors": [
+        "27500",
+        "22500",
+        "30000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是25000。"
+    },
+    {
+      "id": "zh_life_0330",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：25米等于多少厘米？",
+      "answer": "2500",
+      "accepted_aliases": [],
+      "distractors": [
+        "2750",
+        "2250",
+        "3000"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2500。"
+    },
+    {
+      "id": "zh_life_0331",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：25千克等于多少克？",
+      "answer": "25000",
+      "accepted_aliases": [],
+      "distractors": [
+        "27500",
+        "22500",
+        "30000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是25000。"
+    },
+    {
+      "id": "zh_life_0332",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：25升等于多少毫升？",
+      "answer": "25000",
+      "accepted_aliases": [],
+      "distractors": [
+        "27500",
+        "22500",
+        "30000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是25000。"
+    },
+    {
+      "id": "zh_life_0333",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：25小时等于多少分钟？",
+      "answer": "1500",
+      "accepted_aliases": [],
+      "distractors": [
+        "1650",
+        "1350",
+        "1800"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1500。"
+    },
+    {
+      "id": "zh_life_0334",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：25天等于多少小时？",
+      "answer": "600",
+      "accepted_aliases": [],
+      "distractors": [
+        "660",
+        "540",
+        "720"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是600。"
+    },
+    {
+      "id": "zh_life_0335",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：25周等于多少天？",
+      "answer": "175",
+      "accepted_aliases": [],
+      "distractors": [
+        "192",
+        "158",
+        "209"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是175。"
+    },
+    {
+      "id": "zh_life_0336",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币25元等于多少角？",
+      "answer": "250",
+      "accepted_aliases": [],
+      "distractors": [
+        "275",
+        "225",
+        "300"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是250。"
+    },
+    {
+      "id": "zh_life_0337",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：26千米等于多少米？",
+      "answer": "26000",
+      "accepted_aliases": [],
+      "distractors": [
+        "28600",
+        "23400",
+        "31200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是26000。"
+    },
+    {
+      "id": "zh_life_0338",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：26米等于多少厘米？",
+      "answer": "2600",
+      "accepted_aliases": [],
+      "distractors": [
+        "2860",
+        "2340",
+        "3120"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2600。"
+    },
+    {
+      "id": "zh_life_0339",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：26千克等于多少克？",
+      "answer": "26000",
+      "accepted_aliases": [],
+      "distractors": [
+        "28600",
+        "23400",
+        "31200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是26000。"
+    },
+    {
+      "id": "zh_life_0340",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：26升等于多少毫升？",
+      "answer": "26000",
+      "accepted_aliases": [],
+      "distractors": [
+        "28600",
+        "23400",
+        "31200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是26000。"
+    },
+    {
+      "id": "zh_life_0341",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：26小时等于多少分钟？",
+      "answer": "1560",
+      "accepted_aliases": [],
+      "distractors": [
+        "1716",
+        "1404",
+        "1872"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1560。"
+    },
+    {
+      "id": "zh_life_0342",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：26天等于多少小时？",
+      "answer": "624",
+      "accepted_aliases": [],
+      "distractors": [
+        "686",
+        "562",
+        "748"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是624。"
+    },
+    {
+      "id": "zh_life_0343",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：26周等于多少天？",
+      "answer": "182",
+      "accepted_aliases": [],
+      "distractors": [
+        "200",
+        "164",
+        "218"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是182。"
+    },
+    {
+      "id": "zh_life_0344",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币26元等于多少角？",
+      "answer": "260",
+      "accepted_aliases": [],
+      "distractors": [
+        "286",
+        "234",
+        "312"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是260。"
+    },
+    {
+      "id": "zh_life_0345",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：27千米等于多少米？",
+      "answer": "27000",
+      "accepted_aliases": [],
+      "distractors": [
+        "29700",
+        "24300",
+        "32400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是27000。"
+    },
+    {
+      "id": "zh_life_0346",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：27米等于多少厘米？",
+      "answer": "2700",
+      "accepted_aliases": [],
+      "distractors": [
+        "2970",
+        "2430",
+        "3240"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2700。"
+    },
+    {
+      "id": "zh_life_0347",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：27千克等于多少克？",
+      "answer": "27000",
+      "accepted_aliases": [],
+      "distractors": [
+        "29700",
+        "24300",
+        "32400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是27000。"
+    },
+    {
+      "id": "zh_life_0348",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：27升等于多少毫升？",
+      "answer": "27000",
+      "accepted_aliases": [],
+      "distractors": [
+        "29700",
+        "24300",
+        "32400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是27000。"
+    },
+    {
+      "id": "zh_life_0349",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：27小时等于多少分钟？",
+      "answer": "1620",
+      "accepted_aliases": [],
+      "distractors": [
+        "1782",
+        "1458",
+        "1944"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1620。"
+    },
+    {
+      "id": "zh_life_0350",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：27天等于多少小时？",
+      "answer": "648",
+      "accepted_aliases": [],
+      "distractors": [
+        "712",
+        "584",
+        "776"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是648。"
+    },
+    {
+      "id": "zh_life_0351",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：27周等于多少天？",
+      "answer": "189",
+      "accepted_aliases": [],
+      "distractors": [
+        "207",
+        "171",
+        "225"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是189。"
+    },
+    {
+      "id": "zh_life_0352",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币27元等于多少角？",
+      "answer": "270",
+      "accepted_aliases": [],
+      "distractors": [
+        "297",
+        "243",
+        "324"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是270。"
+    },
+    {
+      "id": "zh_life_0353",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：28千米等于多少米？",
+      "answer": "28000",
+      "accepted_aliases": [],
+      "distractors": [
+        "30800",
+        "25200",
+        "33600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是28000。"
+    },
+    {
+      "id": "zh_life_0354",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：28米等于多少厘米？",
+      "answer": "2800",
+      "accepted_aliases": [],
+      "distractors": [
+        "3080",
+        "2520",
+        "3360"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2800。"
+    },
+    {
+      "id": "zh_life_0355",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：28千克等于多少克？",
+      "answer": "28000",
+      "accepted_aliases": [],
+      "distractors": [
+        "30800",
+        "25200",
+        "33600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是28000。"
+    },
+    {
+      "id": "zh_life_0356",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：28升等于多少毫升？",
+      "answer": "28000",
+      "accepted_aliases": [],
+      "distractors": [
+        "30800",
+        "25200",
+        "33600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是28000。"
+    },
+    {
+      "id": "zh_life_0357",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：28小时等于多少分钟？",
+      "answer": "1680",
+      "accepted_aliases": [],
+      "distractors": [
+        "1848",
+        "1512",
+        "2016"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1680。"
+    },
+    {
+      "id": "zh_life_0358",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：28天等于多少小时？",
+      "answer": "672",
+      "accepted_aliases": [],
+      "distractors": [
+        "739",
+        "605",
+        "806"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是672。"
+    },
+    {
+      "id": "zh_life_0359",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：28周等于多少天？",
+      "answer": "196",
+      "accepted_aliases": [],
+      "distractors": [
+        "215",
+        "177",
+        "234"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是196。"
+    },
+    {
+      "id": "zh_life_0360",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币28元等于多少角？",
+      "answer": "280",
+      "accepted_aliases": [],
+      "distractors": [
+        "308",
+        "252",
+        "336"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是280。"
+    },
+    {
+      "id": "zh_life_0361",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：29千米等于多少米？",
+      "answer": "29000",
+      "accepted_aliases": [],
+      "distractors": [
+        "31900",
+        "26100",
+        "34800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是29000。"
+    },
+    {
+      "id": "zh_life_0362",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：29米等于多少厘米？",
+      "answer": "2900",
+      "accepted_aliases": [],
+      "distractors": [
+        "3190",
+        "2610",
+        "3480"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是2900。"
+    },
+    {
+      "id": "zh_life_0363",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：29千克等于多少克？",
+      "answer": "29000",
+      "accepted_aliases": [],
+      "distractors": [
+        "31900",
+        "26100",
+        "34800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是29000。"
+    },
+    {
+      "id": "zh_life_0364",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：29升等于多少毫升？",
+      "answer": "29000",
+      "accepted_aliases": [],
+      "distractors": [
+        "31900",
+        "26100",
+        "34800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是29000。"
+    },
+    {
+      "id": "zh_life_0365",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：29小时等于多少分钟？",
+      "answer": "1740",
+      "accepted_aliases": [],
+      "distractors": [
+        "1914",
+        "1566",
+        "2088"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1740。"
+    },
+    {
+      "id": "zh_life_0366",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：29天等于多少小时？",
+      "answer": "696",
+      "accepted_aliases": [],
+      "distractors": [
+        "765",
+        "627",
+        "834"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是696。"
+    },
+    {
+      "id": "zh_life_0367",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：29周等于多少天？",
+      "answer": "203",
+      "accepted_aliases": [],
+      "distractors": [
+        "223",
+        "183",
+        "243"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是203。"
+    },
+    {
+      "id": "zh_life_0368",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币29元等于多少角？",
+      "answer": "290",
+      "accepted_aliases": [],
+      "distractors": [
+        "319",
+        "261",
+        "348"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是290。"
+    },
+    {
+      "id": "zh_life_0369",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：30千米等于多少米？",
+      "answer": "30000",
+      "accepted_aliases": [],
+      "distractors": [
+        "33000",
+        "27000",
+        "36000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是30000。"
+    },
+    {
+      "id": "zh_life_0370",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：30米等于多少厘米？",
+      "answer": "3000",
+      "accepted_aliases": [],
+      "distractors": [
+        "3300",
+        "2700",
+        "3600"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3000。"
+    },
+    {
+      "id": "zh_life_0371",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：30千克等于多少克？",
+      "answer": "30000",
+      "accepted_aliases": [],
+      "distractors": [
+        "33000",
+        "27000",
+        "36000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是30000。"
+    },
+    {
+      "id": "zh_life_0372",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：30升等于多少毫升？",
+      "answer": "30000",
+      "accepted_aliases": [],
+      "distractors": [
+        "33000",
+        "27000",
+        "36000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是30000。"
+    },
+    {
+      "id": "zh_life_0373",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：30小时等于多少分钟？",
+      "answer": "1800",
+      "accepted_aliases": [],
+      "distractors": [
+        "1980",
+        "1620",
+        "2160"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1800。"
+    },
+    {
+      "id": "zh_life_0374",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：30天等于多少小时？",
+      "answer": "720",
+      "accepted_aliases": [],
+      "distractors": [
+        "792",
+        "648",
+        "864"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是720。"
+    },
+    {
+      "id": "zh_life_0375",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：30周等于多少天？",
+      "answer": "210",
+      "accepted_aliases": [],
+      "distractors": [
+        "231",
+        "189",
+        "252"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是210。"
+    },
+    {
+      "id": "zh_life_0376",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币30元等于多少角？",
+      "answer": "300",
+      "accepted_aliases": [],
+      "distractors": [
+        "330",
+        "270",
+        "360"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是300。"
+    },
+    {
+      "id": "zh_life_0377",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：31千米等于多少米？",
+      "answer": "31000",
+      "accepted_aliases": [],
+      "distractors": [
+        "34100",
+        "27900",
+        "37200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是31000。"
+    },
+    {
+      "id": "zh_life_0378",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：31米等于多少厘米？",
+      "answer": "3100",
+      "accepted_aliases": [],
+      "distractors": [
+        "3410",
+        "2790",
+        "3720"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3100。"
+    },
+    {
+      "id": "zh_life_0379",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：31千克等于多少克？",
+      "answer": "31000",
+      "accepted_aliases": [],
+      "distractors": [
+        "34100",
+        "27900",
+        "37200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是31000。"
+    },
+    {
+      "id": "zh_life_0380",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：31升等于多少毫升？",
+      "answer": "31000",
+      "accepted_aliases": [],
+      "distractors": [
+        "34100",
+        "27900",
+        "37200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是31000。"
+    },
+    {
+      "id": "zh_life_0381",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：31小时等于多少分钟？",
+      "answer": "1860",
+      "accepted_aliases": [],
+      "distractors": [
+        "2046",
+        "1674",
+        "2232"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1860。"
+    },
+    {
+      "id": "zh_life_0382",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：31天等于多少小时？",
+      "answer": "744",
+      "accepted_aliases": [],
+      "distractors": [
+        "818",
+        "670",
+        "892"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是744。"
+    },
+    {
+      "id": "zh_life_0383",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：31周等于多少天？",
+      "answer": "217",
+      "accepted_aliases": [],
+      "distractors": [
+        "238",
+        "196",
+        "259"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是217。"
+    },
+    {
+      "id": "zh_life_0384",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币31元等于多少角？",
+      "answer": "310",
+      "accepted_aliases": [],
+      "distractors": [
+        "341",
+        "279",
+        "372"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是310。"
+    },
+    {
+      "id": "zh_life_0385",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：32千米等于多少米？",
+      "answer": "32000",
+      "accepted_aliases": [],
+      "distractors": [
+        "35200",
+        "28800",
+        "38400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是32000。"
+    },
+    {
+      "id": "zh_life_0386",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：32米等于多少厘米？",
+      "answer": "3200",
+      "accepted_aliases": [],
+      "distractors": [
+        "3520",
+        "2880",
+        "3840"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3200。"
+    },
+    {
+      "id": "zh_life_0387",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：32千克等于多少克？",
+      "answer": "32000",
+      "accepted_aliases": [],
+      "distractors": [
+        "35200",
+        "28800",
+        "38400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是32000。"
+    },
+    {
+      "id": "zh_life_0388",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：32升等于多少毫升？",
+      "answer": "32000",
+      "accepted_aliases": [],
+      "distractors": [
+        "35200",
+        "28800",
+        "38400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是32000。"
+    },
+    {
+      "id": "zh_life_0389",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：32小时等于多少分钟？",
+      "answer": "1920",
+      "accepted_aliases": [],
+      "distractors": [
+        "2112",
+        "1728",
+        "2304"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1920。"
+    },
+    {
+      "id": "zh_life_0390",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：32天等于多少小时？",
+      "answer": "768",
+      "accepted_aliases": [],
+      "distractors": [
+        "844",
+        "692",
+        "920"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是768。"
+    },
+    {
+      "id": "zh_life_0391",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：32周等于多少天？",
+      "answer": "224",
+      "accepted_aliases": [],
+      "distractors": [
+        "246",
+        "202",
+        "268"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是224。"
+    },
+    {
+      "id": "zh_life_0392",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币32元等于多少角？",
+      "answer": "320",
+      "accepted_aliases": [],
+      "distractors": [
+        "352",
+        "288",
+        "384"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是320。"
+    },
+    {
+      "id": "zh_life_0393",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：33千米等于多少米？",
+      "answer": "33000",
+      "accepted_aliases": [],
+      "distractors": [
+        "36300",
+        "29700",
+        "39600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是33000。"
+    },
+    {
+      "id": "zh_life_0394",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：33米等于多少厘米？",
+      "answer": "3300",
+      "accepted_aliases": [],
+      "distractors": [
+        "3630",
+        "2970",
+        "3960"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3300。"
+    },
+    {
+      "id": "zh_life_0395",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：33千克等于多少克？",
+      "answer": "33000",
+      "accepted_aliases": [],
+      "distractors": [
+        "36300",
+        "29700",
+        "39600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是33000。"
+    },
+    {
+      "id": "zh_life_0396",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：33升等于多少毫升？",
+      "answer": "33000",
+      "accepted_aliases": [],
+      "distractors": [
+        "36300",
+        "29700",
+        "39600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是33000。"
+    },
+    {
+      "id": "zh_life_0397",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：33小时等于多少分钟？",
+      "answer": "1980",
+      "accepted_aliases": [],
+      "distractors": [
+        "2178",
+        "1782",
+        "2376"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是1980。"
+    },
+    {
+      "id": "zh_life_0398",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：33天等于多少小时？",
+      "answer": "792",
+      "accepted_aliases": [],
+      "distractors": [
+        "871",
+        "713",
+        "950"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是792。"
+    },
+    {
+      "id": "zh_life_0399",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：33周等于多少天？",
+      "answer": "231",
+      "accepted_aliases": [],
+      "distractors": [
+        "254",
+        "208",
+        "277"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是231。"
+    },
+    {
+      "id": "zh_life_0400",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币33元等于多少角？",
+      "answer": "330",
+      "accepted_aliases": [],
+      "distractors": [
+        "363",
+        "297",
+        "396"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是330。"
+    },
+    {
+      "id": "zh_life_0401",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：34千米等于多少米？",
+      "answer": "34000",
+      "accepted_aliases": [],
+      "distractors": [
+        "37400",
+        "30600",
+        "40800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是34000。"
+    },
+    {
+      "id": "zh_life_0402",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：34米等于多少厘米？",
+      "answer": "3400",
+      "accepted_aliases": [],
+      "distractors": [
+        "3740",
+        "3060",
+        "4080"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3400。"
+    },
+    {
+      "id": "zh_life_0403",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：34千克等于多少克？",
+      "answer": "34000",
+      "accepted_aliases": [],
+      "distractors": [
+        "37400",
+        "30600",
+        "40800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是34000。"
+    },
+    {
+      "id": "zh_life_0404",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：34升等于多少毫升？",
+      "answer": "34000",
+      "accepted_aliases": [],
+      "distractors": [
+        "37400",
+        "30600",
+        "40800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是34000。"
+    },
+    {
+      "id": "zh_life_0405",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：34小时等于多少分钟？",
+      "answer": "2040",
+      "accepted_aliases": [],
+      "distractors": [
+        "2244",
+        "1836",
+        "2448"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2040。"
+    },
+    {
+      "id": "zh_life_0406",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：34天等于多少小时？",
+      "answer": "816",
+      "accepted_aliases": [],
+      "distractors": [
+        "897",
+        "735",
+        "978"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是816。"
+    },
+    {
+      "id": "zh_life_0407",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：34周等于多少天？",
+      "answer": "238",
+      "accepted_aliases": [],
+      "distractors": [
+        "261",
+        "215",
+        "284"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是238。"
+    },
+    {
+      "id": "zh_life_0408",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币34元等于多少角？",
+      "answer": "340",
+      "accepted_aliases": [],
+      "distractors": [
+        "374",
+        "306",
+        "408"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是340。"
+    },
+    {
+      "id": "zh_life_0409",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：35千米等于多少米？",
+      "answer": "35000",
+      "accepted_aliases": [],
+      "distractors": [
+        "38500",
+        "31500",
+        "42000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是35000。"
+    },
+    {
+      "id": "zh_life_0410",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：35米等于多少厘米？",
+      "answer": "3500",
+      "accepted_aliases": [],
+      "distractors": [
+        "3850",
+        "3150",
+        "4200"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3500。"
+    },
+    {
+      "id": "zh_life_0411",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：35千克等于多少克？",
+      "answer": "35000",
+      "accepted_aliases": [],
+      "distractors": [
+        "38500",
+        "31500",
+        "42000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是35000。"
+    },
+    {
+      "id": "zh_life_0412",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：35升等于多少毫升？",
+      "answer": "35000",
+      "accepted_aliases": [],
+      "distractors": [
+        "38500",
+        "31500",
+        "42000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是35000。"
+    },
+    {
+      "id": "zh_life_0413",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：35小时等于多少分钟？",
+      "answer": "2100",
+      "accepted_aliases": [],
+      "distractors": [
+        "2310",
+        "1890",
+        "2520"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2100。"
+    },
+    {
+      "id": "zh_life_0414",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：35天等于多少小时？",
+      "answer": "840",
+      "accepted_aliases": [],
+      "distractors": [
+        "924",
+        "756",
+        "1008"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是840。"
+    },
+    {
+      "id": "zh_life_0415",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：35周等于多少天？",
+      "answer": "245",
+      "accepted_aliases": [],
+      "distractors": [
+        "269",
+        "221",
+        "293"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是245。"
+    },
+    {
+      "id": "zh_life_0416",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币35元等于多少角？",
+      "answer": "350",
+      "accepted_aliases": [],
+      "distractors": [
+        "385",
+        "315",
+        "420"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是350。"
+    },
+    {
+      "id": "zh_life_0417",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：36千米等于多少米？",
+      "answer": "36000",
+      "accepted_aliases": [],
+      "distractors": [
+        "39600",
+        "32400",
+        "43200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是36000。"
+    },
+    {
+      "id": "zh_life_0418",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：36米等于多少厘米？",
+      "answer": "3600",
+      "accepted_aliases": [],
+      "distractors": [
+        "3960",
+        "3240",
+        "4320"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3600。"
+    },
+    {
+      "id": "zh_life_0419",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：36千克等于多少克？",
+      "answer": "36000",
+      "accepted_aliases": [],
+      "distractors": [
+        "39600",
+        "32400",
+        "43200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是36000。"
+    },
+    {
+      "id": "zh_life_0420",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：36升等于多少毫升？",
+      "answer": "36000",
+      "accepted_aliases": [],
+      "distractors": [
+        "39600",
+        "32400",
+        "43200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是36000。"
+    },
+    {
+      "id": "zh_life_0421",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：36小时等于多少分钟？",
+      "answer": "2160",
+      "accepted_aliases": [],
+      "distractors": [
+        "2376",
+        "1944",
+        "2592"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2160。"
+    },
+    {
+      "id": "zh_life_0422",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：36天等于多少小时？",
+      "answer": "864",
+      "accepted_aliases": [],
+      "distractors": [
+        "950",
+        "778",
+        "1036"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是864。"
+    },
+    {
+      "id": "zh_life_0423",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：36周等于多少天？",
+      "answer": "252",
+      "accepted_aliases": [],
+      "distractors": [
+        "277",
+        "227",
+        "302"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是252。"
+    },
+    {
+      "id": "zh_life_0424",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币36元等于多少角？",
+      "answer": "360",
+      "accepted_aliases": [],
+      "distractors": [
+        "396",
+        "324",
+        "432"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是360。"
+    },
+    {
+      "id": "zh_life_0425",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：37千米等于多少米？",
+      "answer": "37000",
+      "accepted_aliases": [],
+      "distractors": [
+        "40700",
+        "33300",
+        "44400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是37000。"
+    },
+    {
+      "id": "zh_life_0426",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：37米等于多少厘米？",
+      "answer": "3700",
+      "accepted_aliases": [],
+      "distractors": [
+        "4070",
+        "3330",
+        "4440"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3700。"
+    },
+    {
+      "id": "zh_life_0427",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：37千克等于多少克？",
+      "answer": "37000",
+      "accepted_aliases": [],
+      "distractors": [
+        "40700",
+        "33300",
+        "44400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是37000。"
+    },
+    {
+      "id": "zh_life_0428",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：37升等于多少毫升？",
+      "answer": "37000",
+      "accepted_aliases": [],
+      "distractors": [
+        "40700",
+        "33300",
+        "44400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是37000。"
+    },
+    {
+      "id": "zh_life_0429",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：37小时等于多少分钟？",
+      "answer": "2220",
+      "accepted_aliases": [],
+      "distractors": [
+        "2442",
+        "1998",
+        "2664"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2220。"
+    },
+    {
+      "id": "zh_life_0430",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：37天等于多少小时？",
+      "answer": "888",
+      "accepted_aliases": [],
+      "distractors": [
+        "976",
+        "800",
+        "1064"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是888。"
+    },
+    {
+      "id": "zh_life_0431",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：37周等于多少天？",
+      "answer": "259",
+      "accepted_aliases": [],
+      "distractors": [
+        "284",
+        "234",
+        "309"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是259。"
+    },
+    {
+      "id": "zh_life_0432",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币37元等于多少角？",
+      "answer": "370",
+      "accepted_aliases": [],
+      "distractors": [
+        "407",
+        "333",
+        "444"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是370。"
+    },
+    {
+      "id": "zh_life_0433",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：38千米等于多少米？",
+      "answer": "38000",
+      "accepted_aliases": [],
+      "distractors": [
+        "41800",
+        "34200",
+        "45600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是38000。"
+    },
+    {
+      "id": "zh_life_0434",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：38米等于多少厘米？",
+      "answer": "3800",
+      "accepted_aliases": [],
+      "distractors": [
+        "4180",
+        "3420",
+        "4560"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3800。"
+    },
+    {
+      "id": "zh_life_0435",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：38千克等于多少克？",
+      "answer": "38000",
+      "accepted_aliases": [],
+      "distractors": [
+        "41800",
+        "34200",
+        "45600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是38000。"
+    },
+    {
+      "id": "zh_life_0436",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：38升等于多少毫升？",
+      "answer": "38000",
+      "accepted_aliases": [],
+      "distractors": [
+        "41800",
+        "34200",
+        "45600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是38000。"
+    },
+    {
+      "id": "zh_life_0437",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：38小时等于多少分钟？",
+      "answer": "2280",
+      "accepted_aliases": [],
+      "distractors": [
+        "2508",
+        "2052",
+        "2736"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2280。"
+    },
+    {
+      "id": "zh_life_0438",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：38天等于多少小时？",
+      "answer": "912",
+      "accepted_aliases": [],
+      "distractors": [
+        "1003",
+        "821",
+        "1094"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是912。"
+    },
+    {
+      "id": "zh_life_0439",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：38周等于多少天？",
+      "answer": "266",
+      "accepted_aliases": [],
+      "distractors": [
+        "292",
+        "240",
+        "318"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是266。"
+    },
+    {
+      "id": "zh_life_0440",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币38元等于多少角？",
+      "answer": "380",
+      "accepted_aliases": [],
+      "distractors": [
+        "418",
+        "342",
+        "456"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是380。"
+    },
+    {
+      "id": "zh_life_0441",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：39千米等于多少米？",
+      "answer": "39000",
+      "accepted_aliases": [],
+      "distractors": [
+        "42900",
+        "35100",
+        "46800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是39000。"
+    },
+    {
+      "id": "zh_life_0442",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：39米等于多少厘米？",
+      "answer": "3900",
+      "accepted_aliases": [],
+      "distractors": [
+        "4290",
+        "3510",
+        "4680"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是3900。"
+    },
+    {
+      "id": "zh_life_0443",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：39千克等于多少克？",
+      "answer": "39000",
+      "accepted_aliases": [],
+      "distractors": [
+        "42900",
+        "35100",
+        "46800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是39000。"
+    },
+    {
+      "id": "zh_life_0444",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：39升等于多少毫升？",
+      "answer": "39000",
+      "accepted_aliases": [],
+      "distractors": [
+        "42900",
+        "35100",
+        "46800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是39000。"
+    },
+    {
+      "id": "zh_life_0445",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：39小时等于多少分钟？",
+      "answer": "2340",
+      "accepted_aliases": [],
+      "distractors": [
+        "2574",
+        "2106",
+        "2808"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2340。"
+    },
+    {
+      "id": "zh_life_0446",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：39天等于多少小时？",
+      "answer": "936",
+      "accepted_aliases": [],
+      "distractors": [
+        "1029",
+        "843",
+        "1122"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是936。"
+    },
+    {
+      "id": "zh_life_0447",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：39周等于多少天？",
+      "answer": "273",
+      "accepted_aliases": [],
+      "distractors": [
+        "300",
+        "246",
+        "327"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是273。"
+    },
+    {
+      "id": "zh_life_0448",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币39元等于多少角？",
+      "answer": "390",
+      "accepted_aliases": [],
+      "distractors": [
+        "429",
+        "351",
+        "468"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是390。"
+    },
+    {
+      "id": "zh_life_0449",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：40千米等于多少米？",
+      "answer": "40000",
+      "accepted_aliases": [],
+      "distractors": [
+        "44000",
+        "36000",
+        "48000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是40000。"
+    },
+    {
+      "id": "zh_life_0450",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：40米等于多少厘米？",
+      "answer": "4000",
+      "accepted_aliases": [],
+      "distractors": [
+        "4400",
+        "3600",
+        "4800"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4000。"
+    },
+    {
+      "id": "zh_life_0451",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：40千克等于多少克？",
+      "answer": "40000",
+      "accepted_aliases": [],
+      "distractors": [
+        "44000",
+        "36000",
+        "48000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是40000。"
+    },
+    {
+      "id": "zh_life_0452",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：40升等于多少毫升？",
+      "answer": "40000",
+      "accepted_aliases": [],
+      "distractors": [
+        "44000",
+        "36000",
+        "48000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是40000。"
+    },
+    {
+      "id": "zh_life_0453",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：40小时等于多少分钟？",
+      "answer": "2400",
+      "accepted_aliases": [],
+      "distractors": [
+        "2640",
+        "2160",
+        "2880"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2400。"
+    },
+    {
+      "id": "zh_life_0454",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：40天等于多少小时？",
+      "answer": "960",
+      "accepted_aliases": [],
+      "distractors": [
+        "1056",
+        "864",
+        "1152"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是960。"
+    },
+    {
+      "id": "zh_life_0455",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：40周等于多少天？",
+      "answer": "280",
+      "accepted_aliases": [],
+      "distractors": [
+        "308",
+        "252",
+        "336"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是280。"
+    },
+    {
+      "id": "zh_life_0456",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币40元等于多少角？",
+      "answer": "400",
+      "accepted_aliases": [],
+      "distractors": [
+        "440",
+        "360",
+        "480"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是400。"
+    },
+    {
+      "id": "zh_life_0457",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：41千米等于多少米？",
+      "answer": "41000",
+      "accepted_aliases": [],
+      "distractors": [
+        "45100",
+        "36900",
+        "49200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是41000。"
+    },
+    {
+      "id": "zh_life_0458",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：41米等于多少厘米？",
+      "answer": "4100",
+      "accepted_aliases": [],
+      "distractors": [
+        "4510",
+        "3690",
+        "4920"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4100。"
+    },
+    {
+      "id": "zh_life_0459",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：41千克等于多少克？",
+      "answer": "41000",
+      "accepted_aliases": [],
+      "distractors": [
+        "45100",
+        "36900",
+        "49200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是41000。"
+    },
+    {
+      "id": "zh_life_0460",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：41升等于多少毫升？",
+      "answer": "41000",
+      "accepted_aliases": [],
+      "distractors": [
+        "45100",
+        "36900",
+        "49200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是41000。"
+    },
+    {
+      "id": "zh_life_0461",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：41小时等于多少分钟？",
+      "answer": "2460",
+      "accepted_aliases": [],
+      "distractors": [
+        "2706",
+        "2214",
+        "2952"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2460。"
+    },
+    {
+      "id": "zh_life_0462",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：41天等于多少小时？",
+      "answer": "984",
+      "accepted_aliases": [],
+      "distractors": [
+        "1082",
+        "886",
+        "1180"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是984。"
+    },
+    {
+      "id": "zh_life_0463",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：41周等于多少天？",
+      "answer": "287",
+      "accepted_aliases": [],
+      "distractors": [
+        "315",
+        "259",
+        "343"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是287。"
+    },
+    {
+      "id": "zh_life_0464",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币41元等于多少角？",
+      "answer": "410",
+      "accepted_aliases": [],
+      "distractors": [
+        "451",
+        "369",
+        "492"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是410。"
+    },
+    {
+      "id": "zh_life_0465",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：42千米等于多少米？",
+      "answer": "42000",
+      "accepted_aliases": [],
+      "distractors": [
+        "46200",
+        "37800",
+        "50400"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是42000。"
+    },
+    {
+      "id": "zh_life_0466",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：42米等于多少厘米？",
+      "answer": "4200",
+      "accepted_aliases": [],
+      "distractors": [
+        "4620",
+        "3780",
+        "5040"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4200。"
+    },
+    {
+      "id": "zh_life_0467",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：42千克等于多少克？",
+      "answer": "42000",
+      "accepted_aliases": [],
+      "distractors": [
+        "46200",
+        "37800",
+        "50400"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是42000。"
+    },
+    {
+      "id": "zh_life_0468",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：42升等于多少毫升？",
+      "answer": "42000",
+      "accepted_aliases": [],
+      "distractors": [
+        "46200",
+        "37800",
+        "50400"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是42000。"
+    },
+    {
+      "id": "zh_life_0469",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：42小时等于多少分钟？",
+      "answer": "2520",
+      "accepted_aliases": [],
+      "distractors": [
+        "2772",
+        "2268",
+        "3024"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2520。"
+    },
+    {
+      "id": "zh_life_0470",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：42天等于多少小时？",
+      "answer": "1008",
+      "accepted_aliases": [],
+      "distractors": [
+        "1108",
+        "908",
+        "1208"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是1008。"
+    },
+    {
+      "id": "zh_life_0471",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：42周等于多少天？",
+      "answer": "294",
+      "accepted_aliases": [],
+      "distractors": [
+        "323",
+        "265",
+        "352"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是294。"
+    },
+    {
+      "id": "zh_life_0472",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币42元等于多少角？",
+      "answer": "420",
+      "accepted_aliases": [],
+      "distractors": [
+        "462",
+        "378",
+        "504"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是420。"
+    },
+    {
+      "id": "zh_life_0473",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：43千米等于多少米？",
+      "answer": "43000",
+      "accepted_aliases": [],
+      "distractors": [
+        "47300",
+        "38700",
+        "51600"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是43000。"
+    },
+    {
+      "id": "zh_life_0474",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：43米等于多少厘米？",
+      "answer": "4300",
+      "accepted_aliases": [],
+      "distractors": [
+        "4730",
+        "3870",
+        "5160"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4300。"
+    },
+    {
+      "id": "zh_life_0475",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：43千克等于多少克？",
+      "answer": "43000",
+      "accepted_aliases": [],
+      "distractors": [
+        "47300",
+        "38700",
+        "51600"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是43000。"
+    },
+    {
+      "id": "zh_life_0476",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：43升等于多少毫升？",
+      "answer": "43000",
+      "accepted_aliases": [],
+      "distractors": [
+        "47300",
+        "38700",
+        "51600"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是43000。"
+    },
+    {
+      "id": "zh_life_0477",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：43小时等于多少分钟？",
+      "answer": "2580",
+      "accepted_aliases": [],
+      "distractors": [
+        "2838",
+        "2322",
+        "3096"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2580。"
+    },
+    {
+      "id": "zh_life_0478",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：43天等于多少小时？",
+      "answer": "1032",
+      "accepted_aliases": [],
+      "distractors": [
+        "1135",
+        "929",
+        "1238"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是1032。"
+    },
+    {
+      "id": "zh_life_0479",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：43周等于多少天？",
+      "answer": "301",
+      "accepted_aliases": [],
+      "distractors": [
+        "331",
+        "271",
+        "361"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是301。"
+    },
+    {
+      "id": "zh_life_0480",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：人民币43元等于多少角？",
+      "answer": "430",
+      "accepted_aliases": [],
+      "distractors": [
+        "473",
+        "387",
+        "516"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是430。"
+    },
+    {
+      "id": "zh_life_0481",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：44千米等于多少米？",
+      "answer": "44000",
+      "accepted_aliases": [],
+      "distractors": [
+        "48400",
+        "39600",
+        "52800"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是44000。"
+    },
+    {
+      "id": "zh_life_0482",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：44米等于多少厘米？",
+      "answer": "4400",
+      "accepted_aliases": [],
+      "distractors": [
+        "4840",
+        "3960",
+        "5280"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4400。"
+    },
+    {
+      "id": "zh_life_0483",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：44千克等于多少克？",
+      "answer": "44000",
+      "accepted_aliases": [],
+      "distractors": [
+        "48400",
+        "39600",
+        "52800"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是44000。"
+    },
+    {
+      "id": "zh_life_0484",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：44升等于多少毫升？",
+      "answer": "44000",
+      "accepted_aliases": [],
+      "distractors": [
+        "48400",
+        "39600",
+        "52800"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是44000。"
+    },
+    {
+      "id": "zh_life_0485",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：44小时等于多少分钟？",
+      "answer": "2640",
+      "accepted_aliases": [],
+      "distractors": [
+        "2904",
+        "2376",
+        "3168"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2640。"
+    },
+    {
+      "id": "zh_life_0486",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：44天等于多少小时？",
+      "answer": "1056",
+      "accepted_aliases": [],
+      "distractors": [
+        "1161",
+        "951",
+        "1266"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是1056。"
+    },
+    {
+      "id": "zh_life_0487",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：44周等于多少天？",
+      "answer": "308",
+      "accepted_aliases": [],
+      "distractors": [
+        "338",
+        "278",
+        "368"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是308。"
+    },
+    {
+      "id": "zh_life_0488",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：人民币44元等于多少角？",
+      "answer": "440",
+      "accepted_aliases": [],
+      "distractors": [
+        "484",
+        "396",
+        "528"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是440。"
+    },
+    {
+      "id": "zh_life_0489",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：45千米等于多少米？",
+      "answer": "45000",
+      "accepted_aliases": [],
+      "distractors": [
+        "49500",
+        "40500",
+        "54000"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是45000。"
+    },
+    {
+      "id": "zh_life_0490",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：45米等于多少厘米？",
+      "answer": "4500",
+      "accepted_aliases": [],
+      "distractors": [
+        "4950",
+        "4050",
+        "5400"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4500。"
+    },
+    {
+      "id": "zh_life_0491",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：45千克等于多少克？",
+      "answer": "45000",
+      "accepted_aliases": [],
+      "distractors": [
+        "49500",
+        "40500",
+        "54000"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是45000。"
+    },
+    {
+      "id": "zh_life_0492",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：45升等于多少毫升？",
+      "answer": "45000",
+      "accepted_aliases": [],
+      "distractors": [
+        "49500",
+        "40500",
+        "54000"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是45000。"
+    },
+    {
+      "id": "zh_life_0493",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：45小时等于多少分钟？",
+      "answer": "2700",
+      "accepted_aliases": [],
+      "distractors": [
+        "2970",
+        "2430",
+        "3240"
+      ],
+      "explanation": "按照小时与分钟的固定换算关系，计算结果是2700。"
+    },
+    {
+      "id": "zh_life_0494",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：45天等于多少小时？",
+      "answer": "1080",
+      "accepted_aliases": [],
+      "distractors": [
+        "1188",
+        "972",
+        "1296"
+      ],
+      "explanation": "按照天与小时的固定换算关系，计算结果是1080。"
+    },
+    {
+      "id": "zh_life_0495",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：45周等于多少天？",
+      "answer": "315",
+      "accepted_aliases": [],
+      "distractors": [
+        "346",
+        "284",
+        "377"
+      ],
+      "explanation": "按照周与天的固定换算关系，计算结果是315。"
+    },
+    {
+      "id": "zh_life_0496",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：人民币45元等于多少角？",
+      "answer": "450",
+      "accepted_aliases": [],
+      "distractors": [
+        "495",
+        "405",
+        "540"
+      ],
+      "explanation": "按照元与角的固定换算关系，计算结果是450。"
+    },
+    {
+      "id": "zh_life_0497",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：46千米等于多少米？",
+      "answer": "46000",
+      "accepted_aliases": [],
+      "distractors": [
+        "50600",
+        "41400",
+        "55200"
+      ],
+      "explanation": "按照千米与米的固定换算关系，计算结果是46000。"
+    },
+    {
+      "id": "zh_life_0498",
+      "category": "life_knowledge",
+      "difficulty": 3,
+      "stem": "日常换算：46米等于多少厘米？",
+      "answer": "4600",
+      "accepted_aliases": [],
+      "distractors": [
+        "5060",
+        "4140",
+        "5520"
+      ],
+      "explanation": "按照米与厘米的固定换算关系，计算结果是4600。"
+    },
+    {
+      "id": "zh_life_0499",
+      "category": "life_knowledge",
+      "difficulty": 1,
+      "stem": "日常换算：46千克等于多少克？",
+      "answer": "46000",
+      "accepted_aliases": [],
+      "distractors": [
+        "50600",
+        "41400",
+        "55200"
+      ],
+      "explanation": "按照千克与克的固定换算关系，计算结果是46000。"
+    },
+    {
+      "id": "zh_life_0500",
+      "category": "life_knowledge",
+      "difficulty": 2,
+      "stem": "日常换算：46升等于多少毫升？",
+      "answer": "46000",
+      "accepted_aliases": [],
+      "distractors": [
+        "50600",
+        "41400",
+        "55200"
+      ],
+      "explanation": "按照升与毫升的固定换算关系，计算结果是46000。"
+    }
+  ],
+  "signature": "CONTROLFREE_BUNDLED_LOCAL_V1"
+}

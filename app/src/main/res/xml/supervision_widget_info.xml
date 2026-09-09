@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.controlfree.widget.plan.SupervisionWidgetConfigActivity"
+    android:description="@string/widget_supervision_description"
+    android:initialLayout="@layout/widget_plan_compact"
+    android:minWidth="180dp"
+    android:minHeight="64dp"
+    android:minResizeWidth="160dp"
+    android:minResizeHeight="56dp"
+    android:previewLayout="@layout/widget_plan_compact"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

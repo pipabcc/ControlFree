@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>玩机有度 - App UI 原型</title>
+  <link rel="icon" href="../docs/brand-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <div class="app-shell">
+    <aside class="side-rail" aria-label="主导航">
+      <div class="rail-brand" aria-label="玩机有度">
+        <img src="../docs/brand-mark.svg" alt="" width="34" height="34">
+        <span>有度</span>
+      </div>
+
+      <nav class="rail-nav">
+        <button class="nav-item is-active" type="button" data-route="monitor" aria-current="page">
+          <i data-lucide="shield-check" aria-hidden="true"></i>
+          <span>监督</span>
+        </button>
+        <button class="nav-item" type="button" data-route="focus">
+          <i data-lucide="timer" aria-hidden="true"></i>
+          <span>专注</span>
+        </button>
+        <button class="nav-item" type="button" data-route="workbench">
+          <i data-lucide="layout-dashboard" aria-hidden="true"></i>
+          <span>清单</span>
+        </button>
+        <button class="nav-item" type="button" data-route="statistics">
+          <i data-lucide="chart-no-axes-combined" aria-hidden="true"></i>
+          <span>统计</span>
+        </button>
+        <button class="nav-item" type="button" data-route="profile">
+          <i data-lucide="user-round" aria-hidden="true"></i>
+          <span>我的</span>
+        </button>
+      </nav>
+
+      <div class="rail-state" title="监督服务运行正常">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>在线</span>
+      </div>
+    </aside>
+
+    <div class="app-body">
+      <header class="top-bar">
+        <div class="mobile-brand" aria-label="玩机有度">
+          <img src="../docs/brand-mark.svg" alt="" width="28" height="28">
+        </div>
+        <div class="top-bar-copy">
+          <p class="eyebrow">玩机有度</p>
+          <p class="top-title" id="top-title">监督计划</p>
+        </div>
+        <div class="top-actions">
+          <span class="service-state"><span class="status-dot" aria-hidden="true"></span>服务正常</span>
+          <button class="icon-button" id="quick-theme-toggle" type="button" aria-label="切换亮暗主题" title="切换亮暗主题">
+            <i data-lucide="sun-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content" tabindex="-1">
+        <section class="view is-active" data-view="monitor" aria-labelledby="monitor-title">
+          <div class="content-frame">
+            <header class="page-heading">
+              <div>
+                <p class="section-kicker">今日守护</p>
+                <h1 id="monitor-title">一切运行正常</h1>
+                <p>设备监督已就绪，下一项计划将在今晚自动生效。</p>
+              </div>
+              <button class="button primary" type="button" data-open-dialog="plan-dialog">
+                <i data-lucide="plus" aria-hidden="true"></i>
+                新建计划
+              </button>
+            </header>
+
+            <section class="status-band" aria-label="监督概览">
+              <div class="status-lead">
+                <span class="status-symbol"><i data-lucide="shield-check" aria-hidden="true"></i></span>
+                <div>
+                  <strong>守护中</strong>
+                  <span>后台服务稳定运行</span>
+                </div>
+              </div>
+              <dl class="metric-strip">
+                <div><dt>启用计划</dt><dd id="enabled-plan-count">3</dd></div>
+                <div><dt>下次开始</dt><dd>19:30</dd></div>
+                <div><dt>今日锁定</dt><dd>42 分钟</dd></div>
+              </dl>
+            </section>
+
+            <div class="segmented-control" role="tablist" aria-label="监督类型" data-tabs="monitor-tabs">
+              <button id="monitor-global-tab" type="button" role="tab" aria-selected="true" aria-controls="monitor-global" data-tab-target="monitor-global">定时监督</button>
+              <button id="monitor-app-tab" type="button" role="tab" aria-selected="false" aria-controls="monitor-app" data-tab-target="monitor-app">App 监督</button>
+            </div>
+
+            <section class="tab-panel" id="monitor-global" role="tabpanel" aria-labelledby="monitor-global-tab">
+              <div class="section-heading">
+                <div>
+                  <h2>定时监督</h2>
+                  <p>按时间段执行可用与锁定循环</p>
+                </div>
+                <span class="count-badge">2 项</span>
+              </div>
+
+              <div class="plan-list" id="global-plan-list">
+                <article class="plan-row">
+                  <div class="plan-icon tone-green"><i data-lucide="briefcase-business" aria-hidden="true"></i></div>
+                  <div class="plan-main">
+                    <div class="plan-title-line">
+                      <h3>工作日深度工作</h3>
+                      <span class="state-label success"><i data-lucide="circle-play" aria-hidden="true"></i>等待生效</span>
+                    </div>
+                    <p>周一至周五 · 08:30–12:00</p>
+                    <div class="plan-facts"><span>可用 30 分钟</span><span>锁定 5 分钟</span></div>
+                  </div>
+                  <label class="switch-control">
+                    <span class="sr-only">启用工作日深度工作</span>
+                    <input type="checkbox" checked data-plan-toggle="工作日深度工作" data-active-label="等待生效" data-active-tone="success">
+                    <span class="switch-track" aria-hidden="true"></span>
+                  </label>
+                </article>
+
+                <article class="plan-row">
+                  <div class="plan-icon tone-amber"><i data-lucide="moon-star" aria-hidden="true"></i></div>
+                  <div class="plan-main">
+                    <div class="plan-title-line">
+                      <h3>睡前降噪</h3>
+                      <span class="state-label warning"><i data-lucide="clock-3" aria-hidden="true"></i>19:30 开始</span>
+                    </div>
+                    <p>每天 · 19:30–23:30</p>
+                    <div class="plan-facts"><span>可用 15 分钟</span><span>锁定 10 分钟</span></div>
+                  </div>
+                  <label class="switch-control">
+                    <span class="sr-only">启用睡前降噪</span>
+                    <input type="checkbox" checked data-plan-toggle="睡前降噪" data-active-label="19:30 开始" data-active-tone="warning">
+                    <span class="switch-track" aria-hidden="true"></span>
+                  </label>
+                </article>
+              </div>
+            </section>
+
+            <section class="tab-panel" id="monitor-app" role="tabpanel" aria-labelledby="monitor-app-tab" hidden>
+              <div class="section-heading">
+                <div>
+                  <h2>App 独立监督</h2>
+                  <p>每个 App 独立计算额度和休息时间</p>
+                </div>
+                <span class="count-badge">2 项</span>
+              </div>
+
+              <div class="plan-list" id="app-plan-list">
+                <article class="plan-row">
+                  <div class="plan-icon tone-blue"><i data-lucide="message-circle-more" aria-hidden="true"></i></div>
+                  <div class="plan-main">
+                    <div class="plan-title-line"><h3>微信</h3><span class="state-label success">剩余 18 分钟</span></div>
+                    <p>每天 · 08:00–23:00</p>
+                    <div class="plan-facts"><span>每日额度 45 分钟</span><span>休息 10 分钟</span></div>
+                  </div>
+                  <label class="switch-control">
+                    <span class="sr-only">启用微信监督</span>
+                    <input type="checkbox" checked data-plan-toggle="微信监督" data-active-label="剩余 18 分钟" data-active-tone="success">
+                    <span class="switch-track" aria-hidden="true"></span>
+                  </label>
+                </article>
+
+                <article class="plan-row">
+                  <div class="plan-icon tone-purple"><i data-lucide="clapperboard" aria-hidden="true"></i></div>
+                  <div class="plan-main">
+                    <div class="plan-title-line"><h3>抖音</h3><span class="state-label muted">已停用</span></div>
+                    <p>周五至周日 · 18:00–23:30</p>
+                    <div class="plan-facts"><span>每日额度 30 分钟</span><span>休息 15 分钟</span></div>
+                  </div>
+                  <label class="switch-control">
+                    <span class="sr-only">启用抖音监督</span>
+                    <input type="checkbox" data-plan-toggle="抖音监督" data-active-label="额度待使用" data-active-tone="success">
+                    <span class="switch-track" aria-hidden="true"></span>
+                  </label>
+                </article>
+              </div>
+            </section>
+
+            <aside class="inline-notice warning-notice">
+              <i data-lucide="triangle-alert" aria-hidden="true"></i>
+              <div><strong>精确定时尚未授权</strong><span>部分厂商设备可能延迟执行夜间计划。</span></div>
+              <button type="button" class="text-button" data-toast="已打开权限检查原型">检查设置</button>
+            </aside>
+          </div>
+        </section>
+
+        <section class="view" data-view="focus" aria-labelledby="focus-title" hidden>
+          <div class="content-frame">
+            <header class="page-heading">
+              <div>
+                <p class="section-kicker">立即进入状态</p>
+                <h1 id="focus-title">开始一次专注</h1>
+                <p>设置任务和节奏，开始后立即进入锁定阶段。</p>
+              </div>
+            </header>
+
+            <div class="focus-grid">
+              <section class="focus-composer" id="focus-composer" aria-labelledby="focus-config-title">
+                <div class="section-heading compact">
+                  <div><h2 id="focus-config-title">本次任务</h2><p>一次只处理一个明确目标</p></div>
+                  <i class="section-icon" data-lucide="crosshair" aria-hidden="true"></i>
+                </div>
+
+                <label class="field-label" for="focus-task">任务名称</label>
+                <input class="text-input" id="focus-task" type="text" value="完成产品方案" maxlength="40">
+
+                <fieldset class="preset-group">
+                  <legend>节奏预设</legend>
+                  <div class="choice-row">
+                    <button type="button" class="choice-chip" data-focus-preset data-lock="5" data-play="1" aria-pressed="false">轻量</button>
+                    <button type="button" class="choice-chip is-selected" data-focus-preset data-lock="15" data-play="3" aria-pressed="true">标准</button>
+                    <button type="button" class="choice-chip" data-focus-preset data-lock="30" data-play="5" aria-pressed="false">严格</button>
+                  </div>
+                </fieldset>
+
+                <div class="duration-grid">
+                  <div class="duration-field">
+                    <div><span>锁定时长</span><output id="lock-value">15 分钟</output></div>
+                    <div class="stepper" aria-label="调整锁定时长">
+                      <button type="button" data-step-target="lock-value" data-step="-5" aria-label="减少锁定时长"><i data-lucide="minus" aria-hidden="true"></i></button>
+                      <span aria-hidden="true">5 分钟</span>
+                      <button type="button" data-step-target="lock-value" data-step="5" aria-label="增加锁定时长"><i data-lucide="plus" aria-hidden="true"></i></button>
+                    </div>
+                  </div>
+                  <div class="duration-field">
+                    <div><span>玩机时长</span><output id="play-value">3 分钟</output></div>
+                    <div class="stepper" aria-label="调整玩机时长">
+                      <button type="button" data-step-target="play-value" data-step="-1" aria-label="减少玩机时长"><i data-lucide="minus" aria-hidden="true"></i></button>
+                      <span aria-hidden="true">1 分钟</span>
+                      <button type="button" data-step-target="play-value" data-step="1" aria-label="增加玩机时长"><i data-lucide="plus" aria-hidden="true"></i></button>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="button primary wide" id="start-focus" type="button">
+                  <i data-lucide="play" aria-hidden="true"></i>
+                  开始专注
+                </button>
+              </section>
+
+              <section class="focus-running" id="focus-running" aria-labelledby="running-title" tabindex="-1" hidden>
+                <div class="running-orbit" aria-hidden="true"><i data-lucide="lock-keyhole" aria-hidden="true"></i></div>
+                <p class="section-kicker" id="focus-phase-label">锁定阶段</p>
+                <h2 id="running-title">完成产品方案</h2>
+                <p class="countdown" id="focus-countdown">15:00</p>
+                <p class="running-copy" id="running-copy">结束后将获得 3 分钟可用时间</p>
+                <p class="sr-only" id="focus-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+                <div class="running-actions">
+                  <button class="button secondary" id="pause-focus" type="button"><i data-lucide="shield-alert" aria-hidden="true"></i>申请暂停</button>
+                  <button class="button danger" id="stop-focus" type="button"><i data-lucide="square" aria-hidden="true"></i>结束任务</button>
+                </div>
+              </section>
+
+              <section class="saved-plans" aria-labelledby="saved-plans-title">
+                <div class="section-heading compact">
+                  <div><h2 id="saved-plans-title">定时专注</h2><p>载入自动执行的专注节奏</p></div>
+                  <button class="icon-button" type="button" aria-label="添加定时专注" title="添加定时专注" data-toast="已打开定时专注编辑器原型"><i data-lucide="plus" aria-hidden="true"></i></button>
+                </div>
+                <button class="saved-plan-row" type="button" data-load-focus="晨间阅读" data-lock="30" data-play="5">
+                  <span class="plan-icon tone-blue"><i data-lucide="book-open" aria-hidden="true"></i></span>
+                  <span><strong>晨间阅读</strong><small>锁定 30 · 玩机 5</small></span>
+                  <i data-lucide="chevron-right" aria-hidden="true"></i>
+                </button>
+                <button class="saved-plan-row" type="button" data-load-focus="考试冲刺" data-lock="60" data-play="10">
+                  <span class="plan-icon tone-amber"><i data-lucide="graduation-cap" aria-hidden="true"></i></span>
+                  <span><strong>考试冲刺</strong><small>锁定 60 · 玩机 10</small></span>
+                  <i data-lucide="chevron-right" aria-hidden="true"></i>
+                </button>
+                <div class="focus-summary">
+                  <span>今日已专注</span>
+                  <strong>1 小时 28 分</strong>
+                  <small>比昨天多 24 分钟</small>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" data-view="workbench" aria-labelledby="workbench-title" hidden>
+          <div class="content-frame">
+            <header class="page-heading">
+              <div>
+                <p class="section-kicker">7 月 26 日 · 星期日</p>
+                <h1 id="workbench-title">今天要做什么</h1>
+                <p>把待办、习惯和日程放在同一条时间线上。</p>
+              </div>
+              <div class="page-actions">
+                <button class="icon-button" type="button" aria-label="搜索全部清单内容" title="搜索全部清单内容" data-toast="已打开超级搜索原型"><i data-lucide="search" aria-hidden="true"></i></button>
+                <button class="button primary" type="button" data-open-dialog="quick-note-dialog">
+                  <i data-lucide="square-pen" aria-hidden="true"></i>
+                  快速记录
+                </button>
+              </div>
+            </header>
+
+            <section class="today-band" aria-label="今日进度">
+              <div class="progress-copy">
+                <span>今日完成度</span>
+                <strong id="today-progress-label">4 / 7</strong>
+              </div>
+              <div class="linear-progress" role="progressbar" aria-label="今日完成度" aria-valuemin="0" aria-valuemax="7" aria-valuenow="4" id="today-progress">
+                <span style="width:57%"></span>
+              </div>
+              <dl class="today-metrics">
+                <div><dt>待办</dt><dd id="todo-metric">2 项</dd></div>
+                <div><dt>习惯</dt><dd id="habit-metric">2 / 3</dd></div>
+                <div><dt>日程</dt><dd>2 场</dd></div>
+              </dl>
+            </section>
+
+            <div class="segmented-control three" role="tablist" aria-label="清单内容" data-tabs="workbench-tabs">
+              <button id="workbench-todos-tab" type="button" role="tab" aria-selected="true" aria-controls="workbench-todos" data-tab-target="workbench-todos">待办</button>
+              <button id="workbench-habits-tab" type="button" role="tab" aria-selected="false" aria-controls="workbench-habits" data-tab-target="workbench-habits">习惯</button>
+              <button id="workbench-schedule-tab" type="button" role="tab" aria-selected="false" aria-controls="workbench-schedule" data-tab-target="workbench-schedule">日程</button>
+            </div>
+
+            <section class="tab-panel work-panel" id="workbench-todos" role="tabpanel" aria-labelledby="workbench-todos-tab">
+              <div class="section-heading">
+                <div><h2>今日待办</h2><p>先完成重要且有时限的事项</p></div>
+                <button class="text-button" type="button" data-toast="已打开全部待办原型">查看全部</button>
+              </div>
+              <div class="task-list" id="today-task-list">
+                <label class="task-row">
+                  <input type="checkbox" checked data-today-task>
+                  <span class="task-check" aria-hidden="true"><i data-lucide="check" aria-hidden="true"></i></span>
+                  <span class="task-copy"><strong>整理上周数据</strong><small>工作 · 已完成</small></span>
+                  <span class="task-time">09:00</span>
+                </label>
+                <label class="task-row">
+                  <input type="checkbox" checked data-today-task>
+                  <span class="task-check" aria-hidden="true"><i data-lucide="check" aria-hidden="true"></i></span>
+                  <span class="task-copy"><strong>喝水 8 杯</strong><small>健康 · 已完成</small></span>
+                  <span class="task-time">全天</span>
+                </label>
+                <label class="task-row">
+                  <input type="checkbox" data-today-task>
+                  <span class="task-check" aria-hidden="true"><i data-lucide="check" aria-hidden="true"></i></span>
+                  <span class="task-copy"><strong>完成产品方案</strong><small>重要 · 预计 45 分钟</small></span>
+                  <span class="task-time urgent">18:00</span>
+                </label>
+                <label class="task-row">
+                  <input type="checkbox" data-today-task>
+                  <span class="task-check" aria-hidden="true"><i data-lucide="check" aria-hidden="true"></i></span>
+                  <span class="task-copy"><strong>回复项目邮件</strong><small>工作 · 预计 15 分钟</small></span>
+                  <span class="task-time">20:00</span>
+                </label>
+              </div>
+            </section>
+
+            <section class="tab-panel work-panel" id="workbench-habits" role="tabpanel" aria-labelledby="workbench-habits-tab" hidden>
+              <div class="section-heading"><div><h2>今日习惯</h2><p>按自己的节奏持续积累</p></div><span class="count-badge" id="habit-panel-count">2 / 3</span></div>
+              <div class="habit-list">
+                <button class="habit-row is-done" type="button" data-habit-toggle aria-pressed="true">
+                  <span class="plan-icon tone-green"><i data-lucide="glass-water" aria-hidden="true"></i></span>
+                  <span><strong>每日饮水</strong><small>连续 12 天</small></span>
+                  <span class="habit-state"><i data-lucide="circle-check" aria-hidden="true"></i>已完成</span>
+                </button>
+                <button class="habit-row is-done" type="button" data-habit-toggle aria-pressed="true">
+                  <span class="plan-icon tone-blue"><i data-lucide="book-open-check" aria-hidden="true"></i></span>
+                  <span><strong>阅读 30 分钟</strong><small>连续 6 天</small></span>
+                  <span class="habit-state"><i data-lucide="circle-check" aria-hidden="true"></i>已完成</span>
+                </button>
+                <button class="habit-row" type="button" data-habit-toggle aria-pressed="false">
+                  <span class="plan-icon tone-amber"><i data-lucide="footprints" aria-hidden="true"></i></span>
+                  <span><strong>散步 5000 步</strong><small>今天还差 1840 步</small></span>
+                  <span class="habit-state">打卡</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="tab-panel work-panel" id="workbench-schedule" role="tabpanel" aria-labelledby="workbench-schedule-tab" hidden>
+              <div class="section-heading"><div><h2>今日日程</h2><p>两项安排，无时间冲突</p></div><button class="text-button" type="button" data-toast="已切换到周视图原型">周视图</button></div>
+              <div class="timeline-list">
+                <article class="timeline-row"><time>10:00</time><span class="timeline-marker tone-blue"></span><div><strong>项目周会</strong><small>10:00–10:45 · 线上会议</small></div></article>
+                <article class="timeline-row"><time>14:30</time><span class="timeline-marker tone-green"></span><div><strong>产品方案评审</strong><small>14:30–15:30 · 会议室 B</small></div></article>
+                <article class="timeline-row is-next"><time>19:30</time><span class="timeline-marker tone-amber"></span><div><strong>睡前降噪计划</strong><small>自动开始 · 监督任务</small></div></article>
+              </div>
+            </section>
+
+            <section class="tool-section" aria-labelledby="more-tools-title">
+              <div class="section-heading"><div><h2 id="more-tools-title">更多工具</h2><p>低频功能不占用主要导航</p></div></div>
+              <div class="tool-grid">
+                <button class="tool-row" type="button" data-open-dialog="quick-note-dialog"><span class="plan-icon tone-blue"><i data-lucide="notebook-pen" aria-hidden="true"></i></span><span><strong>闪记</strong><small>3 条待整理</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                <button class="tool-row" type="button" data-toast="已打开账本原型"><span class="plan-icon tone-amber"><i data-lucide="wallet-cards" aria-hidden="true"></i></span><span><strong>账本</strong><small>本月支出 ¥2,480</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                <button class="tool-row" type="button" data-toast="已打开重要时刻原型"><span class="plan-icon tone-purple"><i data-lucide="calendar-heart" aria-hidden="true"></i></span><span><strong>时刻</strong><small>3 天后有纪念日</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" data-view="statistics" aria-labelledby="statistics-title" hidden>
+          <div class="content-frame">
+            <header class="page-heading">
+              <div><p class="section-kicker">本周洞察</p><h1 id="statistics-title">使用更有节奏</h1><p>屏幕用时下降，主动专注时间持续增长。</p></div>
+              <div class="compact-segmented" role="group" aria-label="统计周期">
+                <button type="button" class="is-active" aria-pressed="true">周</button>
+                <button type="button" aria-pressed="false">月</button>
+              </div>
+            </header>
+
+            <dl class="stat-metrics">
+              <div><dt><span class="metric-icon tone-green"><i data-lucide="focus" aria-hidden="true"></i></span>专注时长</dt><dd>8h 24m</dd><small class="trend positive"><i data-lucide="trending-up" aria-hidden="true"></i>18%</small></div>
+              <div><dt><span class="metric-icon tone-blue"><i data-lucide="smartphone" aria-hidden="true"></i></span>屏幕用时</dt><dd>3h 12m</dd><small class="trend positive"><i data-lucide="trending-down" aria-hidden="true"></i>26 分钟</small></div>
+              <div><dt><span class="metric-icon tone-amber"><i data-lucide="shield" aria-hidden="true"></i></span>监督拦截</dt><dd>37 次</dd><small class="trend neutral">本周累计</small></div>
+            </dl>
+
+            <div class="segmented-control" role="tablist" aria-label="统计类型" data-tabs="statistics-tabs">
+              <button id="statistics-usage-tab" type="button" role="tab" aria-selected="true" aria-controls="statistics-usage" data-tab-target="statistics-usage">App 用时</button>
+              <button id="statistics-history-tab" type="button" role="tab" aria-selected="false" aria-controls="statistics-history" data-tab-target="statistics-history">监督历史</button>
+            </div>
+
+            <section class="tab-panel analytics-panel" id="statistics-usage" role="tabpanel" aria-labelledby="statistics-usage-tab">
+              <div class="section-heading"><div><h2>近 7 天屏幕用时</h2><p id="chart-insight" aria-live="polite">周四用时最高，为 4 小时 05 分</p></div><span class="count-badge">日均 3h 12m</span></div>
+              <div class="bar-chart" role="group" aria-label="近七天屏幕用时柱状图">
+                <div class="bar-grid" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+                <div class="bar-columns">
+                  <button class="bar-button" type="button" data-chart-label="周一 2 小时 48 分" aria-label="周一，2 小时 48 分" aria-pressed="false" style="--bar:58%"><span></span><small>一</small></button>
+                  <button class="bar-button" type="button" data-chart-label="周二 3 小时 16 分" aria-label="周二，3 小时 16 分" aria-pressed="false" style="--bar:68%"><span></span><small>二</small></button>
+                  <button class="bar-button" type="button" data-chart-label="周三 2 小时 54 分" aria-label="周三，2 小时 54 分" aria-pressed="false" style="--bar:61%"><span></span><small>三</small></button>
+                  <button class="bar-button is-selected" type="button" data-chart-label="周四 4 小时 05 分" aria-label="周四，4 小时 05 分" aria-pressed="true" style="--bar:86%"><span></span><small>四</small></button>
+                  <button class="bar-button" type="button" data-chart-label="周五 3 小时 38 分" aria-label="周五，3 小时 38 分" aria-pressed="false" style="--bar:76%"><span></span><small>五</small></button>
+                  <button class="bar-button" type="button" data-chart-label="周六 2 小时 30 分" aria-label="周六，2 小时 30 分" aria-pressed="false" style="--bar:52%"><span></span><small>六</small></button>
+                  <button class="bar-button" type="button" data-chart-label="周日 2 小时 12 分" aria-label="周日，2 小时 12 分" aria-pressed="false" style="--bar:46%"><span></span><small>日</small></button>
+                </div>
+              </div>
+
+              <div class="usage-list" aria-label="App 用时明细">
+                <div class="usage-row"><span class="plan-icon tone-blue"><i data-lucide="message-circle-more" aria-hidden="true"></i></span><div><strong>社交通讯</strong><span class="usage-track"><i style="width:78%"></i></span></div><span><strong>1h 18m</strong><small>40%</small></span></div>
+                <div class="usage-row"><span class="plan-icon tone-purple"><i data-lucide="clapperboard" aria-hidden="true"></i></span><div><strong>影音娱乐</strong><span class="usage-track"><i style="width:54%"></i></span></div><span><strong>52m</strong><small>27%</small></span></div>
+                <div class="usage-row"><span class="plan-icon tone-amber"><i data-lucide="newspaper" aria-hidden="true"></i></span><div><strong>资讯阅读</strong><span class="usage-track"><i style="width:32%"></i></span></div><span><strong>31m</strong><small>16%</small></span></div>
+              </div>
+            </section>
+
+            <section class="tab-panel analytics-panel" id="statistics-history" role="tabpanel" aria-labelledby="statistics-history-tab" hidden>
+              <div class="section-heading"><div><h2>最近监督记录</h2><p>所有结果同时使用文字和图标表达</p></div><span class="count-badge">37 次</span></div>
+              <div class="history-list">
+                <article><span class="history-marker success"><i data-lucide="check" aria-hidden="true"></i></span><div><strong>工作日深度工作</strong><small>今天 11:30 · 正常完成锁定阶段</small></div><time>5 分钟</time></article>
+                <article><span class="history-marker warning"><i data-lucide="clock-3" aria-hidden="true"></i></span><div><strong>社交应用额度</strong><small>今天 10:42 · 已进入休息阶段</small></div><time>10 分钟</time></article>
+                <article><span class="history-marker danger"><i data-lucide="x" aria-hidden="true"></i></span><div><strong>短视频监督</strong><small>昨天 22:18 · 用户主动结束</small></div><time>未完成</time></article>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" data-view="profile" aria-labelledby="profile-title" hidden>
+          <div class="content-frame">
+            <header class="page-heading">
+              <div><p class="section-kicker">个人中心</p><h1 id="profile-title">我的</h1><p>成长记录、个性化与系统设置集中管理。</p></div>
+            </header>
+
+            <section class="profile-band" aria-label="成长概览">
+              <div class="profile-avatar"><img src="../docs/brand-mark.svg" alt="玩机有度伙伴" width="58" height="58"></div>
+              <div class="profile-copy"><span>自律等级 12</span><h2>稳步前进</h2><p>本周完成 9 次专注，距离下一级还差 240 点。</p></div>
+              <div class="level-progress"><span><strong>2,760</strong> / 3,000</span><div role="progressbar" aria-label="等级进度" aria-valuemin="0" aria-valuemax="3000" aria-valuenow="2760"><i></i></div></div>
+            </section>
+
+            <div class="profile-grid">
+              <section class="ai-companion" aria-labelledby="companion-title">
+                <div class="section-heading compact"><div><h2 id="companion-title">AI 伙伴</h2><p>根据近期节奏给出建议</p></div><span class="state-label success">已启用</span></div>
+                <blockquote>“下午的屏幕用时比上周少了 18%，适合保持现在的午后专注计划。”</blockquote>
+                <button class="button secondary wide" type="button" data-toast="已打开 AI 伙伴原型"><i data-lucide="sparkles" aria-hidden="true"></i>查看今日建议</button>
+              </section>
+
+              <section class="settings-section" aria-labelledby="settings-title">
+                <div class="section-heading compact"><div><h2 id="settings-title">偏好设置</h2><p>外观、提醒与智能能力</p></div></div>
+                <div class="settings-list">
+                  <button class="setting-row" id="theme-setting" type="button"><span class="plan-icon tone-blue"><i data-lucide="sun-moon" aria-hidden="true"></i></span><span><strong>外观模式</strong><small id="theme-setting-value">深色</small></span><span class="setting-value">切换</span></button>
+                  <button class="setting-row" type="button" data-toast="已打开背景选择原型"><span class="plan-icon tone-purple"><i data-lucide="image" aria-hidden="true"></i></span><span><strong>页面背景</strong><small>曜石纯色</small></span><img class="background-swatch" src="../app/src/main/res/drawable/bg_aurora.jpg" alt="极光背景缩略图" width="44" height="44"></button>
+                  <button class="setting-row" type="button" data-toast="已打开 AI 伙伴设置原型"><span class="plan-icon tone-green"><i data-lucide="bot" aria-hidden="true"></i></span><span><strong>AI 伙伴设置</strong><small>建议频率与模型配置</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                  <button class="setting-row" type="button" data-toast="已打开提醒设置原型"><span class="plan-icon tone-amber"><i data-lucide="bell-ring" aria-hidden="true"></i></span><span><strong>提醒设置</strong><small>习惯、日程与重要时刻</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                </div>
+              </section>
+
+              <section class="settings-section full-span" aria-labelledby="system-title">
+                <div class="section-heading compact"><div><h2 id="system-title">系统与安全</h2><p>运行权限、认证和诊断</p></div><span class="state-label warning">1 项待处理</span></div>
+                <div class="settings-list two-column-list">
+                  <button class="setting-row" type="button" data-toast="已打开百科题库原型"><span class="plan-icon tone-purple"><i data-lucide="brain" aria-hidden="true"></i></span><span><strong>百科题库</strong><small>6 个分类 · 支持离线挑战</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                  <button class="setting-row" type="button" data-toast="已打开运行权限检查原型"><span class="plan-icon tone-green"><i data-lucide="badge-check" aria-hidden="true"></i></span><span><strong>运行权限</strong><small>6 / 7 项已就绪</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                  <button class="setting-row" type="button" data-toast="已打开身份验证原型"><span class="plan-icon tone-blue"><i data-lucide="fingerprint" aria-hidden="true"></i></span><span><strong>身份验证</strong><small>手势密码已开启</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                  <button class="setting-row" type="button" data-toast="已打开锁屏白名单原型"><span class="plan-icon tone-purple"><i data-lucide="list-checks" aria-hidden="true"></i></span><span><strong>锁屏白名单</strong><small>电话、短信和 3 个 App</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                  <button class="setting-row" type="button" data-toast="系统自检完成：未发现异常"><span class="plan-icon tone-amber"><i data-lucide="stethoscope" aria-hidden="true"></i></span><span><strong>诊断与自检</strong><small>上次检查：今天 08:32</small></span><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+                </div>
+              </section>
+            </div>
+
+            <footer class="app-meta"><img src="../docs/brand-mark.svg" alt="" width="24" height="24"><span>玩机有度 3.2 · 专注守护机制</span><button type="button" class="text-button" data-toast="已打开关于页面原型">关于</button></footer>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <nav class="mobile-nav" aria-label="主导航">
+      <button class="nav-item is-active" type="button" data-route="monitor" aria-current="page"><i data-lucide="shield-check" aria-hidden="true"></i><span>监督</span></button>
+      <button class="nav-item" type="button" data-route="focus"><i data-lucide="timer" aria-hidden="true"></i><span>专注</span></button>
+      <button class="nav-item" type="button" data-route="workbench"><i data-lucide="layout-dashboard" aria-hidden="true"></i><span>清单</span></button>
+      <button class="nav-item" type="button" data-route="statistics"><i data-lucide="chart-no-axes-combined" aria-hidden="true"></i><span>统计</span></button>
+      <button class="nav-item" type="button" data-route="profile"><i data-lucide="user-round" aria-hidden="true"></i><span>我的</span></button>
+    </nav>
+  </div>
+
+  <dialog class="sheet-dialog" id="quick-note-dialog" aria-labelledby="quick-note-title">
+    <form id="quick-note-form">
+      <div class="dialog-handle" aria-hidden="true"></div>
+      <header class="dialog-heading">
+        <div><p class="section-kicker">快速记录</p><h2 id="quick-note-title">记下此刻</h2></div>
+        <button class="icon-button" type="button" data-close-dialog aria-label="关闭快速记录"><i data-lucide="x" aria-hidden="true"></i></button>
+      </header>
+      <label class="field-label" for="quick-note-content">内容</label>
+      <textarea class="text-input text-area" id="quick-note-content" rows="5" maxlength="240" placeholder="输入想法、待办或一笔账…" required></textarea>
+      <div class="quick-actions" aria-label="记录类型">
+        <button type="button" class="choice-chip is-selected" data-record-type="闪记" aria-pressed="true"><i data-lucide="notebook-pen" aria-hidden="true"></i>闪记</button>
+        <button type="button" class="choice-chip" data-record-type="待办" aria-pressed="false"><i data-lucide="list-todo" aria-hidden="true"></i>待办</button>
+        <button type="button" class="choice-chip" data-record-type="账本" aria-pressed="false"><i data-lucide="wallet-cards" aria-hidden="true"></i>账本</button>
+      </div>
+      <footer class="dialog-actions"><button class="button secondary" type="button" data-close-dialog>取消</button><button class="button primary" type="submit"><i data-lucide="check" aria-hidden="true"></i>保存记录</button></footer>
+    </form>
+  </dialog>
+
+  <dialog class="sheet-dialog" id="plan-dialog" aria-labelledby="plan-dialog-title">
+    <form id="plan-form">
+      <div class="dialog-handle" aria-hidden="true"></div>
+      <header class="dialog-heading">
+        <div><p class="section-kicker">新计划</p><h2 id="plan-dialog-title">创建监督计划</h2></div>
+        <button class="icon-button" type="button" data-close-dialog aria-label="关闭新建计划"><i data-lucide="x" aria-hidden="true"></i></button>
+      </header>
+      <label class="field-label" for="plan-name">计划名称</label>
+      <input class="text-input" id="plan-name" type="text" value="晚间阅读" maxlength="30" required>
+      <fieldset class="preset-group"><legend>监督类型</legend><div class="choice-row"><label class="radio-choice"><input type="radio" name="plan-type" value="global" checked><span>定时监督</span></label><label class="radio-choice"><input type="radio" name="plan-type" value="app"><span>App 监督</span></label></div></fieldset>
+      <div class="form-grid plan-fields" data-plan-fields="global">
+        <label><span class="field-label">执行日</span><select class="text-input" id="global-plan-days"><option>每天</option><option>工作日</option><option>周末</option></select></label>
+        <label><span class="field-label">开始时间</span><input class="text-input" id="global-plan-start" type="time" value="20:30"></label>
+        <label><span class="field-label">结束时间</span><input class="text-input" id="global-plan-end" type="time" value="22:30"></label>
+        <label><span class="field-label">可用时长（分钟）</span><input class="text-input" id="global-plan-play" type="number" min="1" max="180" value="30"></label>
+        <label><span class="field-label">锁定时长（分钟）</span><input class="text-input" id="global-plan-lock" type="number" min="1" max="180" value="5"></label>
+      </div>
+      <div class="form-grid plan-fields" data-plan-fields="app" hidden>
+        <label><span class="field-label">目标 App</span><select class="text-input" id="app-plan-target"><option>微信</option><option>抖音</option><option>哔哩哔哩</option><option>小红书</option></select></label>
+        <label><span class="field-label">执行日</span><select class="text-input" id="app-plan-days"><option>每天</option><option>工作日</option><option>周末</option></select></label>
+        <label><span class="field-label">开始时间</span><input class="text-input" id="app-plan-start" type="time" value="08:00"></label>
+        <label><span class="field-label">结束时间</span><input class="text-input" id="app-plan-end" type="time" value="23:00"></label>
+        <label><span class="field-label">每日额度（分钟）</span><input class="text-input" id="app-plan-quota" type="number" min="1" max="1440" value="45"></label>
+        <label><span class="field-label">休息时长（分钟）</span><input class="text-input" id="app-plan-rest" type="number" min="1" max="180" value="10"></label>
+      </div>
+      <footer class="dialog-actions"><button class="button secondary" type="button" data-close-dialog>取消</button><button class="button primary" type="submit"><i data-lucide="plus" aria-hidden="true"></i>创建计划</button></footer>
+    </form>
+  </dialog>
+
+  <dialog class="sheet-dialog compact-dialog" id="pause-dialog" aria-labelledby="pause-dialog-title">
+    <form id="pause-form">
+      <div class="dialog-handle" aria-hidden="true"></div>
+      <header class="dialog-heading">
+        <div><p class="section-kicker">锁定干预</p><h2 id="pause-dialog-title">申请临时暂停</h2></div>
+        <button class="icon-button" type="button" data-close-dialog aria-label="关闭暂停申请"><i data-lucide="x" aria-hidden="true"></i></button>
+      </header>
+      <label class="field-label" for="pause-duration">暂停时长</label>
+      <select class="text-input" id="pause-duration"><option value="1">1 分钟</option><option value="5" selected>5 分钟</option><option value="10">10 分钟</option><option value="15">15 分钟</option><option value="30">30 分钟</option></select>
+      <label class="field-label field-gap" for="pause-password">身份验证</label>
+      <input class="text-input" id="pause-password" type="password" inputmode="numeric" maxlength="12" autocomplete="off" placeholder="输入身份验证密码" required>
+      <p class="field-help">提交后将按当前成长规则核验本次暂停。</p>
+      <footer class="dialog-actions"><button class="button secondary" type="button" data-close-dialog>取消</button><button class="button primary" type="submit"><i data-lucide="badge-check" aria-hidden="true"></i>验证并暂停</button></footer>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+</body>
+</html>

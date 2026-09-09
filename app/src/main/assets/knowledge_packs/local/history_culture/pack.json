@@ -1,0 +1,7020 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "package_id": "local_history_culture_v1",
+    "title": "历史文化百科 500 题",
+    "version": 2,
+    "locale": "zh-CN",
+    "published_at_epoch_seconds": 1785024000,
+    "minimum_app_version_code": 17,
+    "question_count": 500,
+    "content_types": [
+      "knowledge_quiz",
+      "category_history_culture"
+    ],
+    "signing_key_id": "bundled_local_v1"
+  },
+  "facts": [
+    {
+      "id": "zh_his_0001",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“立春”之后是哪一项？",
+      "answer": "雨水",
+      "accepted_aliases": [],
+      "distractors": [
+        "芒种",
+        "夏至",
+        "小暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立春之后是雨水。"
+    },
+    {
+      "id": "zh_his_0002",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“立春”之前是哪一项？",
+      "answer": "大寒",
+      "accepted_aliases": [],
+      "distractors": [
+        "冬至",
+        "小寒",
+        "立春"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立春之前是大寒。"
+    },
+    {
+      "id": "zh_his_0003",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“立春”在二十四节气中排在什么位置？",
+      "answer": "第1个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第19个",
+        "第20个",
+        "第21个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，立春排在第1个。"
+    },
+    {
+      "id": "zh_his_0004",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“雨水”之后是哪一项？",
+      "answer": "惊蛰",
+      "accepted_aliases": [],
+      "distractors": [
+        "雨水",
+        "春分",
+        "清明"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，雨水之后是惊蛰。"
+    },
+    {
+      "id": "zh_his_0005",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“雨水”之前是哪一项？",
+      "answer": "立春",
+      "accepted_aliases": [],
+      "distractors": [
+        "寒露",
+        "霜降",
+        "立冬"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，雨水之前是立春。"
+    },
+    {
+      "id": "zh_his_0006",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“雨水”在二十四节气中排在什么位置？",
+      "answer": "第2个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第13个",
+        "第14个",
+        "第15个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，雨水排在第2个。"
+    },
+    {
+      "id": "zh_his_0007",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“惊蛰”之后是哪一项？",
+      "answer": "春分",
+      "accepted_aliases": [],
+      "distractors": [
+        "小雪",
+        "大雪",
+        "冬至"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，惊蛰之后是春分。"
+    },
+    {
+      "id": "zh_his_0008",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“惊蛰”之前是哪一项？",
+      "answer": "雨水",
+      "accepted_aliases": [],
+      "distractors": [
+        "小暑",
+        "大暑",
+        "立秋"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，惊蛰之前是雨水。"
+    },
+    {
+      "id": "zh_his_0009",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“惊蛰”在二十四节气中排在什么位置？",
+      "answer": "第3个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第7个",
+        "第8个",
+        "第9个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，惊蛰排在第3个。"
+    },
+    {
+      "id": "zh_his_0010",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“春分”之后是哪一项？",
+      "answer": "清明",
+      "accepted_aliases": [],
+      "distractors": [
+        "处暑",
+        "白露",
+        "秋分"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，春分之后是清明。"
+    },
+    {
+      "id": "zh_his_0011",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“春分”之前是哪一项？",
+      "answer": "惊蛰",
+      "accepted_aliases": [],
+      "distractors": [
+        "清明",
+        "谷雨",
+        "立夏"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，春分之前是惊蛰。"
+    },
+    {
+      "id": "zh_his_0012",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“春分”在二十四节气中排在什么位置？",
+      "answer": "第4个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第24个",
+        "第1个",
+        "第2个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，春分排在第4个。"
+    },
+    {
+      "id": "zh_his_0013",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“清明”之后是哪一项？",
+      "answer": "谷雨",
+      "accepted_aliases": [],
+      "distractors": [
+        "小满",
+        "芒种",
+        "夏至"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，清明之后是谷雨。"
+    },
+    {
+      "id": "zh_his_0014",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“清明”之前是哪一项？",
+      "answer": "春分",
+      "accepted_aliases": [],
+      "distractors": [
+        "冬至",
+        "小寒",
+        "大寒"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，清明之前是春分。"
+    },
+    {
+      "id": "zh_his_0015",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“清明”在二十四节气中排在什么位置？",
+      "answer": "第5个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18个",
+        "第19个",
+        "第20个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，清明排在第5个。"
+    },
+    {
+      "id": "zh_his_0016",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“谷雨”之后是哪一项？",
+      "answer": "立夏",
+      "accepted_aliases": [],
+      "distractors": [
+        "立春",
+        "雨水",
+        "惊蛰"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，谷雨之后是立夏。"
+    },
+    {
+      "id": "zh_his_0017",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“谷雨”之前是哪一项？",
+      "answer": "清明",
+      "accepted_aliases": [],
+      "distractors": [
+        "秋分",
+        "寒露",
+        "霜降"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，谷雨之前是清明。"
+    },
+    {
+      "id": "zh_his_0018",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“谷雨”在二十四节气中排在什么位置？",
+      "answer": "第6个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第12个",
+        "第13个",
+        "第14个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，谷雨排在第6个。"
+    },
+    {
+      "id": "zh_his_0019",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“立夏”之后是哪一项？",
+      "answer": "小满",
+      "accepted_aliases": [],
+      "distractors": [
+        "立冬",
+        "小雪",
+        "大雪"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立夏之后是小满。"
+    },
+    {
+      "id": "zh_his_0020",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“立夏”之前是哪一项？",
+      "answer": "谷雨",
+      "accepted_aliases": [],
+      "distractors": [
+        "夏至",
+        "小暑",
+        "大暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立夏之前是谷雨。"
+    },
+    {
+      "id": "zh_his_0021",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“立夏”在二十四节气中排在什么位置？",
+      "answer": "第7个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5个",
+        "第6个",
+        "第8个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，立夏排在第7个。"
+    },
+    {
+      "id": "zh_his_0022",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“小满”之后是哪一项？",
+      "answer": "芒种",
+      "accepted_aliases": [],
+      "distractors": [
+        "立秋",
+        "处暑",
+        "白露"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小满之后是芒种。"
+    },
+    {
+      "id": "zh_his_0023",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“小满”之前是哪一项？",
+      "answer": "立夏",
+      "accepted_aliases": [],
+      "distractors": [
+        "惊蛰",
+        "春分",
+        "清明"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小满之前是立夏。"
+    },
+    {
+      "id": "zh_his_0024",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“小满”在二十四节气中排在什么位置？",
+      "answer": "第8个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第23个",
+        "第24个",
+        "第1个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，小满排在第8个。"
+    },
+    {
+      "id": "zh_his_0025",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“芒种”之后是哪一项？",
+      "answer": "夏至",
+      "accepted_aliases": [],
+      "distractors": [
+        "谷雨",
+        "立夏",
+        "小满"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，芒种之后是夏至。"
+    },
+    {
+      "id": "zh_his_0026",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“芒种”之前是哪一项？",
+      "answer": "小满",
+      "accepted_aliases": [],
+      "distractors": [
+        "大雪",
+        "冬至",
+        "小寒"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，芒种之前是小满。"
+    },
+    {
+      "id": "zh_his_0027",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“芒种”在二十四节气中排在什么位置？",
+      "answer": "第9个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第17个",
+        "第18个",
+        "第19个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，芒种排在第9个。"
+    },
+    {
+      "id": "zh_his_0028",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“夏至”之后是哪一项？",
+      "answer": "小暑",
+      "accepted_aliases": [],
+      "distractors": [
+        "大寒",
+        "立春",
+        "雨水"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，夏至之后是小暑。"
+    },
+    {
+      "id": "zh_his_0029",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“夏至”之前是哪一项？",
+      "answer": "芒种",
+      "accepted_aliases": [],
+      "distractors": [
+        "白露",
+        "秋分",
+        "寒露"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，夏至之前是芒种。"
+    },
+    {
+      "id": "zh_his_0030",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“夏至”在二十四节气中排在什么位置？",
+      "answer": "第10个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第11个",
+        "第12个",
+        "第13个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，夏至排在第10个。"
+    },
+    {
+      "id": "zh_his_0031",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“小暑”之后是哪一项？",
+      "answer": "大暑",
+      "accepted_aliases": [],
+      "distractors": [
+        "霜降",
+        "立冬",
+        "小雪"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小暑之后是大暑。"
+    },
+    {
+      "id": "zh_his_0032",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“小暑”之前是哪一项？",
+      "answer": "夏至",
+      "accepted_aliases": [],
+      "distractors": [
+        "小满",
+        "芒种",
+        "小暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小暑之前是夏至。"
+    },
+    {
+      "id": "zh_his_0033",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“小暑”在二十四节气中排在什么位置？",
+      "answer": "第11个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第4个",
+        "第5个",
+        "第6个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，小暑排在第11个。"
+    },
+    {
+      "id": "zh_his_0034",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“大暑”之后是哪一项？",
+      "answer": "立秋",
+      "accepted_aliases": [],
+      "distractors": [
+        "小暑",
+        "大暑",
+        "处暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，大暑之后是立秋。"
+    },
+    {
+      "id": "zh_his_0035",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“大暑”之前是哪一项？",
+      "answer": "小暑",
+      "accepted_aliases": [],
+      "distractors": [
+        "雨水",
+        "惊蛰",
+        "春分"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，大暑之前是小暑。"
+    },
+    {
+      "id": "zh_his_0036",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“大暑”在二十四节气中排在什么位置？",
+      "answer": "第12个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第22个",
+        "第23个",
+        "第24个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，大暑排在第12个。"
+    },
+    {
+      "id": "zh_his_0037",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“立秋”之后是哪一项？",
+      "answer": "处暑",
+      "accepted_aliases": [],
+      "distractors": [
+        "清明",
+        "谷雨",
+        "立夏"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立秋之后是处暑。"
+    },
+    {
+      "id": "zh_his_0038",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“立秋”之前是哪一项？",
+      "answer": "大暑",
+      "accepted_aliases": [],
+      "distractors": [
+        "小雪",
+        "大雪",
+        "冬至"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立秋之前是大暑。"
+    },
+    {
+      "id": "zh_his_0039",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“立秋”在二十四节气中排在什么位置？",
+      "answer": "第13个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第16个",
+        "第17个",
+        "第18个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，立秋排在第13个。"
+    },
+    {
+      "id": "zh_his_0040",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“处暑”之后是哪一项？",
+      "answer": "白露",
+      "accepted_aliases": [],
+      "distractors": [
+        "小寒",
+        "大寒",
+        "立春"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，处暑之后是白露。"
+    },
+    {
+      "id": "zh_his_0041",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“处暑”之前是哪一项？",
+      "answer": "立秋",
+      "accepted_aliases": [],
+      "distractors": [
+        "处暑",
+        "白露",
+        "秋分"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，处暑之前是立秋。"
+    },
+    {
+      "id": "zh_his_0042",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“处暑”在二十四节气中排在什么位置？",
+      "answer": "第14个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第9个",
+        "第10个",
+        "第11个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，处暑排在第14个。"
+    },
+    {
+      "id": "zh_his_0043",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“白露”之后是哪一项？",
+      "answer": "秋分",
+      "accepted_aliases": [],
+      "distractors": [
+        "寒露",
+        "霜降",
+        "立冬"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，白露之后是秋分。"
+    },
+    {
+      "id": "zh_his_0044",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“白露”之前是哪一项？",
+      "answer": "处暑",
+      "accepted_aliases": [],
+      "distractors": [
+        "立夏",
+        "小满",
+        "芒种"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，白露之前是处暑。"
+    },
+    {
+      "id": "zh_his_0045",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“白露”在二十四节气中排在什么位置？",
+      "answer": "第15个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第3个",
+        "第4个",
+        "第5个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，白露排在第15个。"
+    },
+    {
+      "id": "zh_his_0046",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“秋分”之后是哪一项？",
+      "answer": "寒露",
+      "accepted_aliases": [],
+      "distractors": [
+        "夏至",
+        "小暑",
+        "大暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，秋分之后是寒露。"
+    },
+    {
+      "id": "zh_his_0047",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“秋分”之前是哪一项？",
+      "answer": "白露",
+      "accepted_aliases": [],
+      "distractors": [
+        "立春",
+        "雨水",
+        "惊蛰"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，秋分之前是白露。"
+    },
+    {
+      "id": "zh_his_0048",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“秋分”在二十四节气中排在什么位置？",
+      "answer": "第16个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第21个",
+        "第22个",
+        "第23个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，秋分排在第16个。"
+    },
+    {
+      "id": "zh_his_0049",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“寒露”之后是哪一项？",
+      "answer": "霜降",
+      "accepted_aliases": [],
+      "distractors": [
+        "春分",
+        "清明",
+        "谷雨"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，寒露之后是霜降。"
+    },
+    {
+      "id": "zh_his_0050",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“寒露”之前是哪一项？",
+      "answer": "秋分",
+      "accepted_aliases": [],
+      "distractors": [
+        "立冬",
+        "小雪",
+        "大雪"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，寒露之前是秋分。"
+    },
+    {
+      "id": "zh_his_0051",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“寒露”在二十四节气中排在什么位置？",
+      "answer": "第17个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14个",
+        "第15个",
+        "第16个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，寒露排在第17个。"
+    },
+    {
+      "id": "zh_his_0052",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“霜降”之后是哪一项？",
+      "answer": "立冬",
+      "accepted_aliases": [],
+      "distractors": [
+        "冬至",
+        "小寒",
+        "大寒"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，霜降之后是立冬。"
+    },
+    {
+      "id": "zh_his_0053",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“霜降”之前是哪一项？",
+      "answer": "寒露",
+      "accepted_aliases": [],
+      "distractors": [
+        "大暑",
+        "立秋",
+        "处暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，霜降之前是寒露。"
+    },
+    {
+      "id": "zh_his_0054",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“霜降”在二十四节气中排在什么位置？",
+      "answer": "第18个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第8个",
+        "第9个",
+        "第10个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，霜降排在第18个。"
+    },
+    {
+      "id": "zh_his_0055",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“立冬”之后是哪一项？",
+      "answer": "小雪",
+      "accepted_aliases": [],
+      "distractors": [
+        "白露",
+        "秋分",
+        "寒露"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立冬之后是小雪。"
+    },
+    {
+      "id": "zh_his_0056",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“立冬”之前是哪一项？",
+      "answer": "霜降",
+      "accepted_aliases": [],
+      "distractors": [
+        "谷雨",
+        "立夏",
+        "小满"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，立冬之前是霜降。"
+    },
+    {
+      "id": "zh_his_0057",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“立冬”在二十四节气中排在什么位置？",
+      "answer": "第19个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2个",
+        "第3个",
+        "第4个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，立冬排在第19个。"
+    },
+    {
+      "id": "zh_his_0058",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“小雪”之后是哪一项？",
+      "answer": "大雪",
+      "accepted_aliases": [],
+      "distractors": [
+        "芒种",
+        "夏至",
+        "小暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小雪之后是大雪。"
+    },
+    {
+      "id": "zh_his_0059",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“小雪”之前是哪一项？",
+      "answer": "立冬",
+      "accepted_aliases": [],
+      "distractors": [
+        "大寒",
+        "立春",
+        "雨水"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小雪之前是立冬。"
+    },
+    {
+      "id": "zh_his_0060",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“小雪”在二十四节气中排在什么位置？",
+      "answer": "第20个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第19个",
+        "第21个",
+        "第22个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，小雪排在第20个。"
+    },
+    {
+      "id": "zh_his_0061",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“大雪”之后是哪一项？",
+      "answer": "冬至",
+      "accepted_aliases": [],
+      "distractors": [
+        "惊蛰",
+        "春分",
+        "清明"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，大雪之后是冬至。"
+    },
+    {
+      "id": "zh_his_0062",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“大雪”之前是哪一项？",
+      "answer": "小雪",
+      "accepted_aliases": [],
+      "distractors": [
+        "寒露",
+        "霜降",
+        "立冬"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，大雪之前是小雪。"
+    },
+    {
+      "id": "zh_his_0063",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“大雪”在二十四节气中排在什么位置？",
+      "answer": "第21个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第13个",
+        "第14个",
+        "第15个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，大雪排在第21个。"
+    },
+    {
+      "id": "zh_his_0064",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“冬至”之后是哪一项？",
+      "answer": "小寒",
+      "accepted_aliases": [],
+      "distractors": [
+        "小雪",
+        "大雪",
+        "冬至"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，冬至之后是小寒。"
+    },
+    {
+      "id": "zh_his_0065",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“冬至”之前是哪一项？",
+      "answer": "大雪",
+      "accepted_aliases": [],
+      "distractors": [
+        "小暑",
+        "大暑",
+        "立秋"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，冬至之前是大雪。"
+    },
+    {
+      "id": "zh_his_0066",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“冬至”在二十四节气中排在什么位置？",
+      "answer": "第22个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第7个",
+        "第8个",
+        "第9个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，冬至排在第22个。"
+    },
+    {
+      "id": "zh_his_0067",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“小寒”之后是哪一项？",
+      "answer": "大寒",
+      "accepted_aliases": [],
+      "distractors": [
+        "处暑",
+        "白露",
+        "秋分"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小寒之后是大寒。"
+    },
+    {
+      "id": "zh_his_0068",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“小寒”之前是哪一项？",
+      "answer": "冬至",
+      "accepted_aliases": [],
+      "distractors": [
+        "清明",
+        "谷雨",
+        "立夏"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，小寒之前是冬至。"
+    },
+    {
+      "id": "zh_his_0069",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“小寒”在二十四节气中排在什么位置？",
+      "answer": "第23个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1个",
+        "第2个",
+        "第3个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，小寒排在第23个。"
+    },
+    {
+      "id": "zh_his_0070",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按二十四节气顺序，“大寒”之后是哪一项？",
+      "answer": "立春",
+      "accepted_aliases": [],
+      "distractors": [
+        "芒种",
+        "夏至",
+        "小暑"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，大寒之后是立春。"
+    },
+    {
+      "id": "zh_his_0071",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按二十四节气顺序，“大寒”之前是哪一项？",
+      "answer": "小寒",
+      "accepted_aliases": [],
+      "distractors": [
+        "冬至",
+        "大寒",
+        "立春"
+      ],
+      "explanation": "二十四节气按固定顺序循环排列，大寒之前是小寒。"
+    },
+    {
+      "id": "zh_his_0072",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“大寒”在二十四节气中排在什么位置？",
+      "answer": "第24个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18个",
+        "第19个",
+        "第20个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，大寒排在第24个。"
+    },
+    {
+      "id": "zh_his_0073",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“甲”之后是哪一项？",
+      "answer": "乙",
+      "accepted_aliases": [],
+      "distractors": [
+        "壬",
+        "癸",
+        "甲"
+      ],
+      "explanation": "十天干按固定顺序循环排列，甲之后是乙。"
+    },
+    {
+      "id": "zh_his_0074",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“甲”之前是哪一项？",
+      "answer": "癸",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁",
+        "戊",
+        "己"
+      ],
+      "explanation": "十天干按固定顺序循环排列，甲之前是癸。"
+    },
+    {
+      "id": "zh_his_0075",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“甲”在十天干中排在什么位置？",
+      "answer": "第1个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第7个",
+        "第8个",
+        "第9个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，甲排在第1个。"
+    },
+    {
+      "id": "zh_his_0076",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“乙”之后是哪一项？",
+      "answer": "丙",
+      "accepted_aliases": [],
+      "distractors": [
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "explanation": "十天干按固定顺序循环排列，乙之后是丙。"
+    },
+    {
+      "id": "zh_his_0077",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“乙”之前是哪一项？",
+      "answer": "甲",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁",
+        "戊",
+        "己"
+      ],
+      "explanation": "十天干按固定顺序循环排列，乙之前是甲。"
+    },
+    {
+      "id": "zh_his_0078",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“乙”在十天干中排在什么位置？",
+      "answer": "第2个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6个",
+        "第7个",
+        "第8个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，乙排在第2个。"
+    },
+    {
+      "id": "zh_his_0079",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“丙”之后是哪一项？",
+      "answer": "丁",
+      "accepted_aliases": [],
+      "distractors": [
+        "庚",
+        "辛",
+        "壬"
+      ],
+      "explanation": "十天干按固定顺序循环排列，丙之后是丁。"
+    },
+    {
+      "id": "zh_his_0080",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“丙”之前是哪一项？",
+      "answer": "乙",
+      "accepted_aliases": [],
+      "distractors": [
+        "丙",
+        "丁",
+        "戊"
+      ],
+      "explanation": "十天干按固定顺序循环排列，丙之前是乙。"
+    },
+    {
+      "id": "zh_his_0081",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“丙”在十天干中排在什么位置？",
+      "answer": "第3个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5个",
+        "第6个",
+        "第7个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，丙排在第3个。"
+    },
+    {
+      "id": "zh_his_0082",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“丁”之后是哪一项？",
+      "answer": "戊",
+      "accepted_aliases": [],
+      "distractors": [
+        "己",
+        "庚",
+        "辛"
+      ],
+      "explanation": "十天干按固定顺序循环排列，丁之后是戊。"
+    },
+    {
+      "id": "zh_his_0083",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“丁”之前是哪一项？",
+      "answer": "丙",
+      "accepted_aliases": [],
+      "distractors": [
+        "甲",
+        "乙",
+        "丁"
+      ],
+      "explanation": "十天干按固定顺序循环排列，丁之前是丙。"
+    },
+    {
+      "id": "zh_his_0084",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“丁”在十天干中排在什么位置？",
+      "answer": "第4个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第3个",
+        "第5个",
+        "第6个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，丁排在第4个。"
+    },
+    {
+      "id": "zh_his_0085",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“戊”之后是哪一项？",
+      "answer": "己",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁",
+        "戊",
+        "庚"
+      ],
+      "explanation": "十天干按固定顺序循环排列，戊之后是己。"
+    },
+    {
+      "id": "zh_his_0086",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“戊”之前是哪一项？",
+      "answer": "丁",
+      "accepted_aliases": [],
+      "distractors": [
+        "癸",
+        "甲",
+        "乙"
+      ],
+      "explanation": "十天干按固定顺序循环排列，戊之前是丁。"
+    },
+    {
+      "id": "zh_his_0087",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“戊”在十天干中排在什么位置？",
+      "answer": "第5个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2个",
+        "第3个",
+        "第4个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，戊排在第5个。"
+    },
+    {
+      "id": "zh_his_0088",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“己”之后是哪一项？",
+      "answer": "庚",
+      "accepted_aliases": [],
+      "distractors": [
+        "丙",
+        "丁",
+        "戊"
+      ],
+      "explanation": "十天干按固定顺序循环排列，己之后是庚。"
+    },
+    {
+      "id": "zh_his_0089",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“己”之前是哪一项？",
+      "answer": "戊",
+      "accepted_aliases": [],
+      "distractors": [
+        "壬",
+        "癸",
+        "甲"
+      ],
+      "explanation": "十天干按固定顺序循环排列，己之前是戊。"
+    },
+    {
+      "id": "zh_his_0090",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“己”在十天干中排在什么位置？",
+      "answer": "第6个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1个",
+        "第2个",
+        "第3个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，己排在第6个。"
+    },
+    {
+      "id": "zh_his_0091",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“庚”之后是哪一项？",
+      "answer": "辛",
+      "accepted_aliases": [],
+      "distractors": [
+        "乙",
+        "丙",
+        "丁"
+      ],
+      "explanation": "十天干按固定顺序循环排列，庚之后是辛。"
+    },
+    {
+      "id": "zh_his_0092",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“庚”之前是哪一项？",
+      "answer": "己",
+      "accepted_aliases": [],
+      "distractors": [
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "explanation": "十天干按固定顺序循环排列，庚之前是己。"
+    },
+    {
+      "id": "zh_his_0093",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“庚”在十天干中排在什么位置？",
+      "answer": "第7个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10个",
+        "第1个",
+        "第2个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，庚排在第7个。"
+    },
+    {
+      "id": "zh_his_0094",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“辛”之后是哪一项？",
+      "answer": "壬",
+      "accepted_aliases": [],
+      "distractors": [
+        "甲",
+        "乙",
+        "丙"
+      ],
+      "explanation": "十天干按固定顺序循环排列，辛之后是壬。"
+    },
+    {
+      "id": "zh_his_0095",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“辛”之前是哪一项？",
+      "answer": "庚",
+      "accepted_aliases": [],
+      "distractors": [
+        "己",
+        "辛",
+        "壬"
+      ],
+      "explanation": "十天干按固定顺序循环排列，辛之前是庚。"
+    },
+    {
+      "id": "zh_his_0096",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“辛”在十天干中排在什么位置？",
+      "answer": "第8个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第9个",
+        "第10个",
+        "第1个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，辛排在第8个。"
+    },
+    {
+      "id": "zh_his_0097",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“壬”之后是哪一项？",
+      "answer": "癸",
+      "accepted_aliases": [],
+      "distractors": [
+        "壬",
+        "甲",
+        "乙"
+      ],
+      "explanation": "十天干按固定顺序循环排列，壬之后是癸。"
+    },
+    {
+      "id": "zh_his_0098",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“壬”之前是哪一项？",
+      "answer": "辛",
+      "accepted_aliases": [],
+      "distractors": [
+        "戊",
+        "己",
+        "庚"
+      ],
+      "explanation": "十天干按固定顺序循环排列，壬之前是辛。"
+    },
+    {
+      "id": "zh_his_0099",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“壬”在十天干中排在什么位置？",
+      "answer": "第9个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第7个",
+        "第8个",
+        "第10个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，壬排在第9个。"
+    },
+    {
+      "id": "zh_his_0100",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十天干顺序，“癸”之后是哪一项？",
+      "answer": "甲",
+      "accepted_aliases": [],
+      "distractors": [
+        "壬",
+        "癸",
+        "乙"
+      ],
+      "explanation": "十天干按固定顺序循环排列，癸之后是甲。"
+    },
+    {
+      "id": "zh_his_0101",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十天干顺序，“癸”之前是哪一项？",
+      "answer": "壬",
+      "accepted_aliases": [],
+      "distractors": [
+        "丁",
+        "戊",
+        "己"
+      ],
+      "explanation": "十天干按固定顺序循环排列，癸之前是壬。"
+    },
+    {
+      "id": "zh_his_0102",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“癸”在十天干中排在什么位置？",
+      "answer": "第10个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6个",
+        "第7个",
+        "第8个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，癸排在第10个。"
+    },
+    {
+      "id": "zh_his_0103",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“子”之后是哪一项？",
+      "answer": "丑",
+      "accepted_aliases": [],
+      "distractors": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，子之后是丑。"
+    },
+    {
+      "id": "zh_his_0104",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“子”之前是哪一项？",
+      "answer": "亥",
+      "accepted_aliases": [],
+      "distractors": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，子之前是亥。"
+    },
+    {
+      "id": "zh_his_0105",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“子”在十二地支中排在什么位置？",
+      "answer": "第1个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第7个",
+        "第8个",
+        "第9个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，子排在第1个。"
+    },
+    {
+      "id": "zh_his_0106",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“丑”之后是哪一项？",
+      "answer": "寅",
+      "accepted_aliases": [],
+      "distractors": [
+        "卯",
+        "辰",
+        "巳"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，丑之后是寅。"
+    },
+    {
+      "id": "zh_his_0107",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“丑”之前是哪一项？",
+      "answer": "子",
+      "accepted_aliases": [],
+      "distractors": [
+        "辰",
+        "巳",
+        "午"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，丑之前是子。"
+    },
+    {
+      "id": "zh_his_0108",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“丑”在十二地支中排在什么位置？",
+      "answer": "第2个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1个",
+        "第3个",
+        "第4个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，丑排在第2个。"
+    },
+    {
+      "id": "zh_his_0109",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“寅”之后是哪一项？",
+      "answer": "卯",
+      "accepted_aliases": [],
+      "distractors": [
+        "酉",
+        "戌",
+        "亥"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，寅之后是卯。"
+    },
+    {
+      "id": "zh_his_0110",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“寅”之前是哪一项？",
+      "answer": "丑",
+      "accepted_aliases": [],
+      "distractors": [
+        "戌",
+        "亥",
+        "子"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，寅之前是丑。"
+    },
+    {
+      "id": "zh_his_0111",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“寅”在十二地支中排在什么位置？",
+      "answer": "第3个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第8个",
+        "第9个",
+        "第10个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，寅排在第3个。"
+    },
+    {
+      "id": "zh_his_0112",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“卯”之后是哪一项？",
+      "answer": "辰",
+      "accepted_aliases": [],
+      "distractors": [
+        "卯",
+        "巳",
+        "午"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，卯之后是辰。"
+    },
+    {
+      "id": "zh_his_0113",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“卯”之前是哪一项？",
+      "answer": "寅",
+      "accepted_aliases": [],
+      "distractors": [
+        "巳",
+        "午",
+        "未"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，卯之前是寅。"
+    },
+    {
+      "id": "zh_his_0114",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“卯”在十二地支中排在什么位置？",
+      "answer": "第4个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2个",
+        "第3个",
+        "第5个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，卯排在第4个。"
+    },
+    {
+      "id": "zh_his_0115",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“辰”之后是哪一项？",
+      "answer": "巳",
+      "accepted_aliases": [],
+      "distractors": [
+        "戌",
+        "亥",
+        "子"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，辰之后是巳。"
+    },
+    {
+      "id": "zh_his_0116",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“辰”之前是哪一项？",
+      "answer": "卯",
+      "accepted_aliases": [],
+      "distractors": [
+        "亥",
+        "子",
+        "丑"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，辰之前是卯。"
+    },
+    {
+      "id": "zh_his_0117",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“辰”在十二地支中排在什么位置？",
+      "answer": "第5个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第9个",
+        "第10个",
+        "第11个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，辰排在第5个。"
+    },
+    {
+      "id": "zh_his_0118",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“巳”之后是哪一项？",
+      "answer": "午",
+      "accepted_aliases": [],
+      "distractors": [
+        "辰",
+        "巳",
+        "未"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，巳之后是午。"
+    },
+    {
+      "id": "zh_his_0119",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“巳”之前是哪一项？",
+      "answer": "辰",
+      "accepted_aliases": [],
+      "distractors": [
+        "午",
+        "未",
+        "申"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，巳之前是辰。"
+    },
+    {
+      "id": "zh_his_0120",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“巳”在十二地支中排在什么位置？",
+      "answer": "第6个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第3个",
+        "第4个",
+        "第5个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，巳排在第6个。"
+    },
+    {
+      "id": "zh_his_0121",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“午”之后是哪一项？",
+      "answer": "未",
+      "accepted_aliases": [],
+      "distractors": [
+        "亥",
+        "子",
+        "丑"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，午之后是未。"
+    },
+    {
+      "id": "zh_his_0122",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“午”之前是哪一项？",
+      "answer": "巳",
+      "accepted_aliases": [],
+      "distractors": [
+        "子",
+        "丑",
+        "寅"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，午之前是巳。"
+    },
+    {
+      "id": "zh_his_0123",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“午”在十二地支中排在什么位置？",
+      "answer": "第7个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10个",
+        "第11个",
+        "第12个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，午排在第7个。"
+    },
+    {
+      "id": "zh_his_0124",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“未”之后是哪一项？",
+      "answer": "申",
+      "accepted_aliases": [],
+      "distractors": [
+        "巳",
+        "午",
+        "未"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，未之后是申。"
+    },
+    {
+      "id": "zh_his_0125",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“未”之前是哪一项？",
+      "answer": "午",
+      "accepted_aliases": [],
+      "distractors": [
+        "未",
+        "申",
+        "酉"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，未之前是午。"
+    },
+    {
+      "id": "zh_his_0126",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“未”在十二地支中排在什么位置？",
+      "answer": "第8个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第4个",
+        "第5个",
+        "第6个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，未排在第8个。"
+    },
+    {
+      "id": "zh_his_0127",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“申”之后是哪一项？",
+      "answer": "酉",
+      "accepted_aliases": [],
+      "distractors": [
+        "子",
+        "丑",
+        "寅"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，申之后是酉。"
+    },
+    {
+      "id": "zh_his_0128",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“申”之前是哪一项？",
+      "answer": "未",
+      "accepted_aliases": [],
+      "distractors": [
+        "丑",
+        "寅",
+        "卯"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，申之前是未。"
+    },
+    {
+      "id": "zh_his_0129",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“申”在十二地支中排在什么位置？",
+      "answer": "第9个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第11个",
+        "第12个",
+        "第1个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，申排在第9个。"
+    },
+    {
+      "id": "zh_his_0130",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“酉”之后是哪一项？",
+      "answer": "戌",
+      "accepted_aliases": [],
+      "distractors": [
+        "午",
+        "未",
+        "申"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，酉之后是戌。"
+    },
+    {
+      "id": "zh_his_0131",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“酉”之前是哪一项？",
+      "answer": "申",
+      "accepted_aliases": [],
+      "distractors": [
+        "未",
+        "酉",
+        "戌"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，酉之前是申。"
+    },
+    {
+      "id": "zh_his_0132",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“酉”在十二地支中排在什么位置？",
+      "answer": "第10个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5个",
+        "第6个",
+        "第7个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，酉排在第10个。"
+    },
+    {
+      "id": "zh_his_0133",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“戌”之后是哪一项？",
+      "answer": "亥",
+      "accepted_aliases": [],
+      "distractors": [
+        "丑",
+        "寅",
+        "卯"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，戌之后是亥。"
+    },
+    {
+      "id": "zh_his_0134",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“戌”之前是哪一项？",
+      "answer": "酉",
+      "accepted_aliases": [],
+      "distractors": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，戌之前是酉。"
+    },
+    {
+      "id": "zh_his_0135",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“戌”在十二地支中排在什么位置？",
+      "answer": "第11个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第12个",
+        "第1个",
+        "第2个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，戌排在第11个。"
+    },
+    {
+      "id": "zh_his_0136",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二地支顺序，“亥”之后是哪一项？",
+      "answer": "子",
+      "accepted_aliases": [],
+      "distractors": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，亥之后是子。"
+    },
+    {
+      "id": "zh_his_0137",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二地支顺序，“亥”之前是哪一项？",
+      "answer": "戌",
+      "accepted_aliases": [],
+      "distractors": [
+        "申",
+        "酉",
+        "亥"
+      ],
+      "explanation": "十二地支按固定顺序循环排列，亥之前是戌。"
+    },
+    {
+      "id": "zh_his_0138",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“亥”在十二地支中排在什么位置？",
+      "answer": "第12个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6个",
+        "第7个",
+        "第8个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，亥排在第12个。"
+    },
+    {
+      "id": "zh_his_0139",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“鼠”之后是哪一项？",
+      "answer": "牛",
+      "accepted_aliases": [],
+      "distractors": [
+        "猴",
+        "鸡",
+        "狗"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，鼠之后是牛。"
+    },
+    {
+      "id": "zh_his_0140",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“鼠”之前是哪一项？",
+      "answer": "猪",
+      "accepted_aliases": [],
+      "distractors": [
+        "猴",
+        "鸡",
+        "狗"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，鼠之前是猪。"
+    },
+    {
+      "id": "zh_his_0141",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“鼠”在十二生肖中排在什么位置？",
+      "answer": "第1个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第7个",
+        "第8个",
+        "第9个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，鼠排在第1个。"
+    },
+    {
+      "id": "zh_his_0142",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“牛”之后是哪一项？",
+      "answer": "虎",
+      "accepted_aliases": [],
+      "distractors": [
+        "兔",
+        "龙",
+        "蛇"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，牛之后是虎。"
+    },
+    {
+      "id": "zh_his_0143",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“牛”之前是哪一项？",
+      "answer": "鼠",
+      "accepted_aliases": [],
+      "distractors": [
+        "龙",
+        "蛇",
+        "马"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，牛之前是鼠。"
+    },
+    {
+      "id": "zh_his_0144",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“牛”在十二生肖中排在什么位置？",
+      "answer": "第2个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1个",
+        "第3个",
+        "第4个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，牛排在第2个。"
+    },
+    {
+      "id": "zh_his_0145",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“虎”之后是哪一项？",
+      "answer": "兔",
+      "accepted_aliases": [],
+      "distractors": [
+        "鸡",
+        "狗",
+        "猪"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，虎之后是兔。"
+    },
+    {
+      "id": "zh_his_0146",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“虎”之前是哪一项？",
+      "answer": "牛",
+      "accepted_aliases": [],
+      "distractors": [
+        "狗",
+        "猪",
+        "鼠"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，虎之前是牛。"
+    },
+    {
+      "id": "zh_his_0147",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“虎”在十二生肖中排在什么位置？",
+      "answer": "第3个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第8个",
+        "第9个",
+        "第10个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，虎排在第3个。"
+    },
+    {
+      "id": "zh_his_0148",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“兔”之后是哪一项？",
+      "answer": "龙",
+      "accepted_aliases": [],
+      "distractors": [
+        "兔",
+        "蛇",
+        "马"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，兔之后是龙。"
+    },
+    {
+      "id": "zh_his_0149",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“兔”之前是哪一项？",
+      "answer": "虎",
+      "accepted_aliases": [],
+      "distractors": [
+        "蛇",
+        "马",
+        "羊"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，兔之前是虎。"
+    },
+    {
+      "id": "zh_his_0150",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“兔”在十二生肖中排在什么位置？",
+      "answer": "第4个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2个",
+        "第3个",
+        "第5个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，兔排在第4个。"
+    },
+    {
+      "id": "zh_his_0151",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“龙”之后是哪一项？",
+      "answer": "蛇",
+      "accepted_aliases": [],
+      "distractors": [
+        "狗",
+        "猪",
+        "鼠"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，龙之后是蛇。"
+    },
+    {
+      "id": "zh_his_0152",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“龙”之前是哪一项？",
+      "answer": "兔",
+      "accepted_aliases": [],
+      "distractors": [
+        "猪",
+        "鼠",
+        "牛"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，龙之前是兔。"
+    },
+    {
+      "id": "zh_his_0153",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“龙”在十二生肖中排在什么位置？",
+      "answer": "第5个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第9个",
+        "第10个",
+        "第11个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，龙排在第5个。"
+    },
+    {
+      "id": "zh_his_0154",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“蛇”之后是哪一项？",
+      "answer": "马",
+      "accepted_aliases": [],
+      "distractors": [
+        "龙",
+        "蛇",
+        "羊"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，蛇之后是马。"
+    },
+    {
+      "id": "zh_his_0155",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“蛇”之前是哪一项？",
+      "answer": "龙",
+      "accepted_aliases": [],
+      "distractors": [
+        "马",
+        "羊",
+        "猴"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，蛇之前是龙。"
+    },
+    {
+      "id": "zh_his_0156",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“蛇”在十二生肖中排在什么位置？",
+      "answer": "第6个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第3个",
+        "第4个",
+        "第5个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，蛇排在第6个。"
+    },
+    {
+      "id": "zh_his_0157",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“马”之后是哪一项？",
+      "answer": "羊",
+      "accepted_aliases": [],
+      "distractors": [
+        "猪",
+        "鼠",
+        "牛"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，马之后是羊。"
+    },
+    {
+      "id": "zh_his_0158",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“马”之前是哪一项？",
+      "answer": "蛇",
+      "accepted_aliases": [],
+      "distractors": [
+        "鼠",
+        "牛",
+        "虎"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，马之前是蛇。"
+    },
+    {
+      "id": "zh_his_0159",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“马”在十二生肖中排在什么位置？",
+      "answer": "第7个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10个",
+        "第11个",
+        "第12个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，马排在第7个。"
+    },
+    {
+      "id": "zh_his_0160",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“羊”之后是哪一项？",
+      "answer": "猴",
+      "accepted_aliases": [],
+      "distractors": [
+        "蛇",
+        "马",
+        "羊"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，羊之后是猴。"
+    },
+    {
+      "id": "zh_his_0161",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“羊”之前是哪一项？",
+      "answer": "马",
+      "accepted_aliases": [],
+      "distractors": [
+        "羊",
+        "猴",
+        "鸡"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，羊之前是马。"
+    },
+    {
+      "id": "zh_his_0162",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“羊”在十二生肖中排在什么位置？",
+      "answer": "第8个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第4个",
+        "第5个",
+        "第6个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，羊排在第8个。"
+    },
+    {
+      "id": "zh_his_0163",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“猴”之后是哪一项？",
+      "answer": "鸡",
+      "accepted_aliases": [],
+      "distractors": [
+        "鼠",
+        "牛",
+        "虎"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，猴之后是鸡。"
+    },
+    {
+      "id": "zh_his_0164",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“猴”之前是哪一项？",
+      "answer": "羊",
+      "accepted_aliases": [],
+      "distractors": [
+        "牛",
+        "虎",
+        "兔"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，猴之前是羊。"
+    },
+    {
+      "id": "zh_his_0165",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“猴”在十二生肖中排在什么位置？",
+      "answer": "第9个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第11个",
+        "第12个",
+        "第1个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，猴排在第9个。"
+    },
+    {
+      "id": "zh_his_0166",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“鸡”之后是哪一项？",
+      "answer": "狗",
+      "accepted_aliases": [],
+      "distractors": [
+        "马",
+        "羊",
+        "猴"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，鸡之后是狗。"
+    },
+    {
+      "id": "zh_his_0167",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“鸡”之前是哪一项？",
+      "answer": "猴",
+      "accepted_aliases": [],
+      "distractors": [
+        "羊",
+        "鸡",
+        "狗"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，鸡之前是猴。"
+    },
+    {
+      "id": "zh_his_0168",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“鸡”在十二生肖中排在什么位置？",
+      "answer": "第10个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5个",
+        "第6个",
+        "第7个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，鸡排在第10个。"
+    },
+    {
+      "id": "zh_his_0169",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“狗”之后是哪一项？",
+      "answer": "猪",
+      "accepted_aliases": [],
+      "distractors": [
+        "牛",
+        "虎",
+        "兔"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，狗之后是猪。"
+    },
+    {
+      "id": "zh_his_0170",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“狗”之前是哪一项？",
+      "answer": "鸡",
+      "accepted_aliases": [],
+      "distractors": [
+        "虎",
+        "兔",
+        "龙"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，狗之前是鸡。"
+    },
+    {
+      "id": "zh_his_0171",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“狗”在十二生肖中排在什么位置？",
+      "answer": "第11个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第12个",
+        "第1个",
+        "第2个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，狗排在第11个。"
+    },
+    {
+      "id": "zh_his_0172",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "按十二生肖顺序，“猪”之后是哪一项？",
+      "answer": "鼠",
+      "accepted_aliases": [],
+      "distractors": [
+        "猴",
+        "鸡",
+        "狗"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，猪之后是鼠。"
+    },
+    {
+      "id": "zh_his_0173",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "按十二生肖顺序，“猪”之前是哪一项？",
+      "answer": "狗",
+      "accepted_aliases": [],
+      "distractors": [
+        "猴",
+        "鸡",
+        "猪"
+      ],
+      "explanation": "十二生肖按固定顺序循环排列，猪之前是狗。"
+    },
+    {
+      "id": "zh_his_0174",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "“猪”在十二生肖中排在什么位置？",
+      "answer": "第12个",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6个",
+        "第7个",
+        "第8个"
+      ],
+      "explanation": "从该顺序的第一项开始计数，猪排在第12个。"
+    },
+    {
+      "id": "zh_his_0175",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《史记》”对应的作者是什么？",
+      "answer": "司马迁",
+      "accepted_aliases": [],
+      "distractors": [
+        "宋应星",
+        "徐光启",
+        "李时珍"
+      ],
+      "explanation": "《史记》与司马迁是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0176",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“司马迁”？",
+      "answer": "《史记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《文心雕龙》",
+        "《诗品》",
+        "《洛阳伽蓝记》"
+      ],
+      "explanation": "在给出的选项中，《史记》与司马迁正确对应。"
+    },
+    {
+      "id": "zh_his_0177",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《汉书》”对应的作者是什么？",
+      "answer": "班固",
+      "accepted_aliases": [],
+      "distractors": [
+        "许慎",
+        "张仲景",
+        "孙思邈"
+      ],
+      "explanation": "《汉书》与班固是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0178",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“班固”？",
+      "answer": "《汉书》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《史记》",
+        "《资治通鉴》",
+        "《三国志》"
+      ],
+      "explanation": "在给出的选项中，《汉书》与班固正确对应。"
+    },
+    {
+      "id": "zh_his_0179",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《资治通鉴》”对应的作者是什么？",
+      "answer": "司马光",
+      "accepted_aliases": [],
+      "distractors": [
+        "刘勰",
+        "钟嵘",
+        "杨衒之"
+      ],
+      "explanation": "《资治通鉴》与司马光是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0180",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“司马光”？",
+      "answer": "《资治通鉴》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《海国图志》",
+        "《大同书》",
+        "《日知录》"
+      ],
+      "explanation": "在给出的选项中，《资治通鉴》与司马光正确对应。"
+    },
+    {
+      "id": "zh_his_0181",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《三国志》”对应的作者是什么？",
+      "answer": "陈寿",
+      "accepted_aliases": [],
+      "distractors": [
+        "司马迁",
+        "班固",
+        "司马光"
+      ],
+      "explanation": "《三国志》与陈寿是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0182",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“陈寿”？",
+      "answer": "《三国志》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《水经注》",
+        "《梦溪笔谈》",
+        "《天工开物》"
+      ],
+      "explanation": "在给出的选项中，《三国志》与陈寿正确对应。"
+    },
+    {
+      "id": "zh_his_0183",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《后汉书》”对应的作者是什么？",
+      "answer": "范晔",
+      "accepted_aliases": [],
+      "distractors": [
+        "魏源",
+        "康有为",
+        "顾炎武"
+      ],
+      "explanation": "《后汉书》与范晔是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0184",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“范晔”？",
+      "answer": "《后汉书》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《茶经》",
+        "《考工记》",
+        "《说文解字》"
+      ],
+      "explanation": "在给出的选项中，《后汉书》与范晔正确对应。"
+    },
+    {
+      "id": "zh_his_0185",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《齐民要术》”对应的作者是什么？",
+      "answer": "贾思勰",
+      "accepted_aliases": [],
+      "distractors": [
+        "郦道元",
+        "沈括",
+        "宋应星"
+      ],
+      "explanation": "《齐民要术》与贾思勰是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0186",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“贾思勰”？",
+      "answer": "《齐民要术》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《九章算术注》",
+        "《营造法式》",
+        "《文心雕龙》"
+      ],
+      "explanation": "在给出的选项中，《齐民要术》与贾思勰正确对应。"
+    },
+    {
+      "id": "zh_his_0187",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《水经注》”对应的作者是什么？",
+      "answer": "郦道元",
+      "accepted_aliases": [],
+      "distractors": [
+        "陆羽",
+        "佚名",
+        "许慎"
+      ],
+      "explanation": "《水经注》与郦道元是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0188",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“郦道元”？",
+      "answer": "《水经注》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《缀术》",
+        "《授时历》",
+        "《史记》"
+      ],
+      "explanation": "在给出的选项中，《水经注》与郦道元正确对应。"
+    },
+    {
+      "id": "zh_his_0189",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《梦溪笔谈》”对应的作者是什么？",
+      "answer": "沈括",
+      "accepted_aliases": [],
+      "distractors": [
+        "刘徽",
+        "李诫",
+        "刘勰"
+      ],
+      "explanation": "《梦溪笔谈》与沈括是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0190",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“沈括”？",
+      "answer": "《梦溪笔谈》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《东京梦华录》",
+        "《徐霞客游记》",
+        "《海国图志》"
+      ],
+      "explanation": "在给出的选项中，《梦溪笔谈》与沈括正确对应。"
+    },
+    {
+      "id": "zh_his_0191",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《天工开物》”对应的作者是什么？",
+      "answer": "宋应星",
+      "accepted_aliases": [],
+      "distractors": [
+        "祖冲之",
+        "郭守敬",
+        "司马迁"
+      ],
+      "explanation": "《天工开物》与宋应星是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0192",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“宋应星”？",
+      "answer": "《天工开物》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《三国志》",
+        "《后汉书》",
+        "《齐民要术》"
+      ],
+      "explanation": "在给出的选项中，《天工开物》与宋应星正确对应。"
+    },
+    {
+      "id": "zh_his_0193",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《农政全书》”对应的作者是什么？",
+      "answer": "徐光启",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟元老",
+        "徐霞客",
+        "魏源"
+      ],
+      "explanation": "《农政全书》与徐光启是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0194",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“徐光启”？",
+      "answer": "《农政全书》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《明夷待访录》",
+        "《读通鉴论》",
+        "《茶经》"
+      ],
+      "explanation": "在给出的选项中，《农政全书》与徐光启正确对应。"
+    },
+    {
+      "id": "zh_his_0195",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《本草纲目》”对应的作者是什么？",
+      "answer": "李时珍",
+      "accepted_aliases": [],
+      "distractors": [
+        "陈寿",
+        "范晔",
+        "贾思勰"
+      ],
+      "explanation": "《本草纲目》与李时珍是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0196",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“李时珍”？",
+      "answer": "《本草纲目》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《天工开物》",
+        "《农政全书》",
+        "《九章算术注》"
+      ],
+      "explanation": "在给出的选项中，《本草纲目》与李时珍正确对应。"
+    },
+    {
+      "id": "zh_his_0197",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《九章算术注》”对应的作者是什么？",
+      "answer": "刘徽",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄宗羲",
+        "王夫之",
+        "陆羽"
+      ],
+      "explanation": "《九章算术注》与刘徽是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0198",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“刘徽”？",
+      "answer": "《九章算术注》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《伤寒杂病论》",
+        "《千金方》",
+        "《缀术》"
+      ],
+      "explanation": "在给出的选项中，《九章算术注》与刘徽正确对应。"
+    },
+    {
+      "id": "zh_his_0199",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《营造法式》”对应的作者是什么？",
+      "answer": "李诫",
+      "accepted_aliases": [],
+      "distractors": [
+        "宋应星",
+        "徐光启",
+        "李时珍"
+      ],
+      "explanation": "《营造法式》与李诫是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0200",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“李诫”？",
+      "answer": "《营造法式》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《诗品》",
+        "《洛阳伽蓝记》",
+        "《东京梦华录》"
+      ],
+      "explanation": "在给出的选项中，《营造法式》与李诫正确对应。"
+    },
+    {
+      "id": "zh_his_0201",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《文心雕龙》”对应的作者是什么？",
+      "answer": "刘勰",
+      "accepted_aliases": [],
+      "distractors": [
+        "张仲景",
+        "孙思邈",
+        "祖冲之"
+      ],
+      "explanation": "《文心雕龙》与刘勰是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0202",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“刘勰”？",
+      "answer": "《文心雕龙》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《汉书》",
+        "《资治通鉴》",
+        "《三国志》"
+      ],
+      "explanation": "在给出的选项中，《文心雕龙》与刘勰正确对应。"
+    },
+    {
+      "id": "zh_his_0203",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《诗品》”对应的作者是什么？",
+      "answer": "钟嵘",
+      "accepted_aliases": [],
+      "distractors": [
+        "刘勰",
+        "杨衒之",
+        "孟元老"
+      ],
+      "explanation": "《诗品》与钟嵘是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0204",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“钟嵘”？",
+      "answer": "《诗品》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《大同书》",
+        "《日知录》",
+        "《明夷待访录》"
+      ],
+      "explanation": "在给出的选项中，《诗品》与钟嵘正确对应。"
+    },
+    {
+      "id": "zh_his_0205",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《洛阳伽蓝记》”对应的作者是什么？",
+      "answer": "杨衒之",
+      "accepted_aliases": [],
+      "distractors": [
+        "班固",
+        "司马光",
+        "陈寿"
+      ],
+      "explanation": "《洛阳伽蓝记》与杨衒之是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0206",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“杨衒之”？",
+      "answer": "《洛阳伽蓝记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《水经注》",
+        "《梦溪笔谈》",
+        "《天工开物》"
+      ],
+      "explanation": "在给出的选项中，《洛阳伽蓝记》与杨衒之正确对应。"
+    },
+    {
+      "id": "zh_his_0207",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《东京梦华录》”对应的作者是什么？",
+      "answer": "孟元老",
+      "accepted_aliases": [],
+      "distractors": [
+        "康有为",
+        "顾炎武",
+        "黄宗羲"
+      ],
+      "explanation": "《东京梦华录》与孟元老是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0208",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“孟元老”？",
+      "answer": "《东京梦华录》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《考工记》",
+        "《说文解字》",
+        "《伤寒杂病论》"
+      ],
+      "explanation": "在给出的选项中，《东京梦华录》与孟元老正确对应。"
+    },
+    {
+      "id": "zh_his_0209",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《徐霞客游记》”对应的作者是什么？",
+      "answer": "徐霞客",
+      "accepted_aliases": [],
+      "distractors": [
+        "郦道元",
+        "沈括",
+        "宋应星"
+      ],
+      "explanation": "《徐霞客游记》与徐霞客是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0210",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“徐霞客”？",
+      "answer": "《徐霞客游记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《九章算术注》",
+        "《营造法式》",
+        "《文心雕龙》"
+      ],
+      "explanation": "在给出的选项中，《徐霞客游记》与徐霞客正确对应。"
+    },
+    {
+      "id": "zh_his_0211",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《海国图志》”对应的作者是什么？",
+      "answer": "魏源",
+      "accepted_aliases": [],
+      "distractors": [
+        "佚名",
+        "许慎",
+        "张仲景"
+      ],
+      "explanation": "《海国图志》与魏源是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0212",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“魏源”？",
+      "answer": "《海国图志》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《授时历》",
+        "《史记》",
+        "《汉书》"
+      ],
+      "explanation": "在给出的选项中，《海国图志》与魏源正确对应。"
+    },
+    {
+      "id": "zh_his_0213",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《大同书》”对应的作者是什么？",
+      "answer": "康有为",
+      "accepted_aliases": [],
+      "distractors": [
+        "刘徽",
+        "李诫",
+        "刘勰"
+      ],
+      "explanation": "《大同书》与康有为是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0214",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“康有为”？",
+      "answer": "《大同书》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《东京梦华录》",
+        "《徐霞客游记》",
+        "《海国图志》"
+      ],
+      "explanation": "在给出的选项中，《大同书》与康有为正确对应。"
+    },
+    {
+      "id": "zh_his_0215",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《日知录》”对应的作者是什么？",
+      "answer": "顾炎武",
+      "accepted_aliases": [],
+      "distractors": [
+        "郭守敬",
+        "司马迁",
+        "班固"
+      ],
+      "explanation": "《日知录》与顾炎武是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0216",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“顾炎武”？",
+      "answer": "《日知录》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《后汉书》",
+        "《齐民要术》",
+        "《水经注》"
+      ],
+      "explanation": "在给出的选项中，《日知录》与顾炎武正确对应。"
+    },
+    {
+      "id": "zh_his_0217",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《明夷待访录》”对应的作者是什么？",
+      "answer": "黄宗羲",
+      "accepted_aliases": [],
+      "distractors": [
+        "孟元老",
+        "徐霞客",
+        "魏源"
+      ],
+      "explanation": "《明夷待访录》与黄宗羲是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0218",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“黄宗羲”？",
+      "answer": "《明夷待访录》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《读通鉴论》",
+        "《茶经》",
+        "《考工记》"
+      ],
+      "explanation": "在给出的选项中，《明夷待访录》与黄宗羲正确对应。"
+    },
+    {
+      "id": "zh_his_0219",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《读通鉴论》”对应的作者是什么？",
+      "answer": "王夫之",
+      "accepted_aliases": [],
+      "distractors": [
+        "范晔",
+        "贾思勰",
+        "郦道元"
+      ],
+      "explanation": "《读通鉴论》与王夫之是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0220",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“王夫之”？",
+      "answer": "《读通鉴论》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《农政全书》",
+        "《本草纲目》",
+        "《九章算术注》"
+      ],
+      "explanation": "在给出的选项中，《读通鉴论》与王夫之正确对应。"
+    },
+    {
+      "id": "zh_his_0221",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《茶经》”对应的作者是什么？",
+      "answer": "陆羽",
+      "accepted_aliases": [],
+      "distractors": [
+        "黄宗羲",
+        "王夫之",
+        "佚名"
+      ],
+      "explanation": "《茶经》与陆羽是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0222",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“陆羽”？",
+      "answer": "《茶经》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《千金方》",
+        "《缀术》",
+        "《授时历》"
+      ],
+      "explanation": "在给出的选项中，《茶经》与陆羽正确对应。"
+    },
+    {
+      "id": "zh_his_0223",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《考工记》”对应的作者是什么？",
+      "answer": "佚名",
+      "accepted_aliases": [],
+      "distractors": [
+        "徐光启",
+        "李时珍",
+        "刘徽"
+      ],
+      "explanation": "《考工记》与佚名是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0224",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“佚名”？",
+      "answer": "《考工记》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《诗品》",
+        "《洛阳伽蓝记》",
+        "《东京梦华录》"
+      ],
+      "explanation": "在给出的选项中，《考工记》与佚名正确对应。"
+    },
+    {
+      "id": "zh_his_0225",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《说文解字》”对应的作者是什么？",
+      "answer": "许慎",
+      "accepted_aliases": [],
+      "distractors": [
+        "孙思邈",
+        "祖冲之",
+        "郭守敬"
+      ],
+      "explanation": "《说文解字》与许慎是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0226",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“许慎”？",
+      "answer": "《说文解字》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《资治通鉴》",
+        "《三国志》",
+        "《后汉书》"
+      ],
+      "explanation": "在给出的选项中，《说文解字》与许慎正确对应。"
+    },
+    {
+      "id": "zh_his_0227",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《伤寒杂病论》”对应的作者是什么？",
+      "answer": "张仲景",
+      "accepted_aliases": [],
+      "distractors": [
+        "钟嵘",
+        "杨衒之",
+        "孟元老"
+      ],
+      "explanation": "《伤寒杂病论》与张仲景是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0228",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“张仲景”？",
+      "answer": "《伤寒杂病论》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《大同书》",
+        "《日知录》",
+        "《明夷待访录》"
+      ],
+      "explanation": "在给出的选项中，《伤寒杂病论》与张仲景正确对应。"
+    },
+    {
+      "id": "zh_his_0229",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "典籍“《千金方》”对应的作者是什么？",
+      "answer": "孙思邈",
+      "accepted_aliases": [],
+      "distractors": [
+        "司马光",
+        "陈寿",
+        "范晔"
+      ],
+      "explanation": "《千金方》与孙思邈是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0230",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的作者是“孙思邈”？",
+      "answer": "《千金方》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《梦溪笔谈》",
+        "《天工开物》",
+        "《农政全书》"
+      ],
+      "explanation": "在给出的选项中，《千金方》与孙思邈正确对应。"
+    },
+    {
+      "id": "zh_his_0231",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "典籍“《缀术》”对应的作者是什么？",
+      "answer": "祖冲之",
+      "accepted_aliases": [],
+      "distractors": [
+        "康有为",
+        "顾炎武",
+        "黄宗羲"
+      ],
+      "explanation": "《缀术》与祖冲之是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0232",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的作者是“祖冲之”？",
+      "answer": "《缀术》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《考工记》",
+        "《说文解字》",
+        "《伤寒杂病论》"
+      ],
+      "explanation": "在给出的选项中，《缀术》与祖冲之正确对应。"
+    },
+    {
+      "id": "zh_his_0233",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "典籍“《授时历》”对应的作者是什么？",
+      "answer": "郭守敬",
+      "accepted_aliases": [],
+      "distractors": [
+        "沈括",
+        "宋应星",
+        "徐光启"
+      ],
+      "explanation": "《授时历》与郭守敬是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0234",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的作者是“郭守敬”？",
+      "answer": "《授时历》",
+      "accepted_aliases": [],
+      "distractors": [
+        "《营造法式》",
+        "《文心雕龙》",
+        "《诗品》"
+      ],
+      "explanation": "在给出的选项中，《授时历》与郭守敬正确对应。"
+    },
+    {
+      "id": "zh_his_0235",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "传统节日“春节”对应的通常日期是什么？",
+      "answer": "农历正月初一",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历九月初九",
+        "农历腊月初八",
+        "农历腊月二十三或二十四"
+      ],
+      "explanation": "春节与农历正月初一是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0236",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的通常日期是“农历正月初一”？",
+      "answer": "春节",
+      "accepted_aliases": [],
+      "distractors": [
+        "中秋节",
+        "重阳节",
+        "腊八节"
+      ],
+      "explanation": "在给出的选项中，春节与农历正月初一正确对应。"
+    },
+    {
+      "id": "zh_his_0237",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "传统节日“元宵节”对应的通常日期是什么？",
+      "answer": "农历正月十五",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历三月初三",
+        "农历五月初五",
+        "农历七月初七"
+      ],
+      "explanation": "元宵节与农历正月十五是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0238",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的通常日期是“农历正月十五”？",
+      "answer": "元宵节",
+      "accepted_aliases": [],
+      "distractors": [
+        "龙抬头",
+        "上巳节",
+        "端午节"
+      ],
+      "explanation": "在给出的选项中，元宵节与农历正月十五正确对应。"
+    },
+    {
+      "id": "zh_his_0239",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "传统节日“龙抬头”对应的通常日期是什么？",
+      "answer": "农历二月初二",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历腊月初八",
+        "农历腊月二十三或二十四",
+        "农历一年最后一夜"
+      ],
+      "explanation": "龙抬头与农历二月初二是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0240",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的通常日期是“农历二月初二”？",
+      "answer": "龙抬头",
+      "accepted_aliases": [],
+      "distractors": [
+        "重阳节",
+        "腊八节",
+        "小年"
+      ],
+      "explanation": "在给出的选项中，龙抬头与农历二月初二正确对应。"
+    },
+    {
+      "id": "zh_his_0241",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "传统节日“上巳节”对应的通常日期是什么？",
+      "answer": "农历三月初三",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历五月初五",
+        "农历七月初七",
+        "农历七月十五"
+      ],
+      "explanation": "上巳节与农历三月初三是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0242",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的通常日期是“农历三月初三”？",
+      "answer": "上巳节",
+      "accepted_aliases": [],
+      "distractors": [
+        "龙抬头",
+        "端午节",
+        "七夕节"
+      ],
+      "explanation": "在给出的选项中，上巳节与农历三月初三正确对应。"
+    },
+    {
+      "id": "zh_his_0243",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "传统节日“端午节”对应的通常日期是什么？",
+      "answer": "农历五月初五",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历腊月二十三或二十四",
+        "农历一年最后一夜",
+        "农历正月初一"
+      ],
+      "explanation": "端午节与农历五月初五是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0244",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的通常日期是“农历五月初五”？",
+      "answer": "端午节",
+      "accepted_aliases": [],
+      "distractors": [
+        "腊八节",
+        "小年",
+        "除夕"
+      ],
+      "explanation": "在给出的选项中，端午节与农历五月初五正确对应。"
+    },
+    {
+      "id": "zh_his_0245",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "传统节日“七夕节”对应的通常日期是什么？",
+      "answer": "农历七月初七",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历五月初五",
+        "农历七月十五",
+        "农历八月十五"
+      ],
+      "explanation": "七夕节与农历七月初七是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0246",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的通常日期是“农历七月初七”？",
+      "answer": "七夕节",
+      "accepted_aliases": [],
+      "distractors": [
+        "上巳节",
+        "端午节",
+        "中元节"
+      ],
+      "explanation": "在给出的选项中，七夕节与农历七月初七正确对应。"
+    },
+    {
+      "id": "zh_his_0247",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "传统节日“中元节”对应的通常日期是什么？",
+      "answer": "农历七月十五",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历一年最后一夜",
+        "农历正月初一",
+        "农历正月十五"
+      ],
+      "explanation": "中元节与农历七月十五是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0248",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的通常日期是“农历七月十五”？",
+      "answer": "中元节",
+      "accepted_aliases": [],
+      "distractors": [
+        "小年",
+        "除夕",
+        "春节"
+      ],
+      "explanation": "在给出的选项中，中元节与农历七月十五正确对应。"
+    },
+    {
+      "id": "zh_his_0249",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "传统节日“中秋节”对应的通常日期是什么？",
+      "answer": "农历八月十五",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历七月初七",
+        "农历七月十五",
+        "农历九月初九"
+      ],
+      "explanation": "中秋节与农历八月十五是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0250",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的通常日期是“农历八月十五”？",
+      "answer": "中秋节",
+      "accepted_aliases": [],
+      "distractors": [
+        "端午节",
+        "七夕节",
+        "中元节"
+      ],
+      "explanation": "在给出的选项中，中秋节与农历八月十五正确对应。"
+    },
+    {
+      "id": "zh_his_0251",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "传统节日“重阳节”对应的通常日期是什么？",
+      "answer": "农历九月初九",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历正月初一",
+        "农历正月十五",
+        "农历二月初二"
+      ],
+      "explanation": "重阳节与农历九月初九是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0252",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的通常日期是“农历九月初九”？",
+      "answer": "重阳节",
+      "accepted_aliases": [],
+      "distractors": [
+        "除夕",
+        "春节",
+        "元宵节"
+      ],
+      "explanation": "在给出的选项中，重阳节与农历九月初九正确对应。"
+    },
+    {
+      "id": "zh_his_0253",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "传统节日“腊八节”对应的通常日期是什么？",
+      "answer": "农历腊月初八",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历七月十五",
+        "农历八月十五",
+        "农历九月初九"
+      ],
+      "explanation": "腊八节与农历腊月初八是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0254",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的通常日期是“农历腊月初八”？",
+      "answer": "腊八节",
+      "accepted_aliases": [],
+      "distractors": [
+        "七夕节",
+        "中元节",
+        "中秋节"
+      ],
+      "explanation": "在给出的选项中，腊八节与农历腊月初八正确对应。"
+    },
+    {
+      "id": "zh_his_0255",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "传统节日“小年”对应的通常日期是什么？",
+      "answer": "农历腊月二十三或二十四",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历正月十五",
+        "农历二月初二",
+        "农历三月初三"
+      ],
+      "explanation": "小年与农历腊月二十三或二十四是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0256",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的通常日期是“农历腊月二十三或二十四”？",
+      "answer": "小年",
+      "accepted_aliases": [],
+      "distractors": [
+        "春节",
+        "元宵节",
+        "龙抬头"
+      ],
+      "explanation": "在给出的选项中，小年与农历腊月二十三或二十四正确对应。"
+    },
+    {
+      "id": "zh_his_0257",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "传统节日“除夕”对应的通常日期是什么？",
+      "answer": "农历一年最后一夜",
+      "accepted_aliases": [],
+      "distractors": [
+        "农历八月十五",
+        "农历九月初九",
+        "农历腊月初八"
+      ],
+      "explanation": "除夕与农历一年最后一夜是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0258",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的通常日期是“农历一年最后一夜”？",
+      "answer": "除夕",
+      "accepted_aliases": [],
+      "distractors": [
+        "中元节",
+        "中秋节",
+        "重阳节"
+      ],
+      "explanation": "在给出的选项中，除夕与农历一年最后一夜正确对应。"
+    },
+    {
+      "id": "zh_his_0259",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "历史事件“秦完成统一”对应的发生年份是什么？",
+      "answer": "公元前221年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1405年",
+        "公元1644年",
+        "公元1839年"
+      ],
+      "explanation": "秦完成统一与公元前221年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0260",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的发生年份是“公元前221年”？",
+      "answer": "秦完成统一",
+      "accepted_aliases": [],
+      "distractors": [
+        "隋朝建立",
+        "唐朝建立",
+        "北宋建立"
+      ],
+      "explanation": "在给出的选项中，秦完成统一与公元前221年正确对应。"
+    },
+    {
+      "id": "zh_his_0261",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "历史事件“西汉建立”对应的发生年份是什么？",
+      "answer": "公元前202年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1911年",
+        "公元1919年",
+        "公元1921年"
+      ],
+      "explanation": "西汉建立与公元前202年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0262",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的发生年份是“公元前202年”？",
+      "answer": "西汉建立",
+      "accepted_aliases": [],
+      "distractors": [
+        "元朝定国号",
+        "明朝建立",
+        "郑和首次下西洋"
+      ],
+      "explanation": "在给出的选项中，西汉建立与公元前202年正确对应。"
+    },
+    {
+      "id": "zh_his_0263",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "历史事件“东汉建立”对应的发生年份是什么？",
+      "answer": "公元25年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1949年",
+        "公元前221年",
+        "公元前202年"
+      ],
+      "explanation": "东汉建立与公元25年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0264",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的发生年份是“公元25年”？",
+      "answer": "东汉建立",
+      "accepted_aliases": [],
+      "distractors": [
+        "清朝入关",
+        "虎门销烟",
+        "辛亥革命爆发"
+      ],
+      "explanation": "在给出的选项中，东汉建立与公元25年正确对应。"
+    },
+    {
+      "id": "zh_his_0265",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "历史事件“隋朝建立”对应的发生年份是什么？",
+      "answer": "公元581年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元25年",
+        "公元618年",
+        "公元960年"
+      ],
+      "explanation": "隋朝建立与公元581年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0266",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的发生年份是“公元581年”？",
+      "answer": "隋朝建立",
+      "accepted_aliases": [],
+      "distractors": [
+        "五四运动",
+        "中国共产党成立",
+        "中华人民共和国成立"
+      ],
+      "explanation": "在给出的选项中，隋朝建立与公元581年正确对应。"
+    },
+    {
+      "id": "zh_his_0267",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "历史事件“唐朝建立”对应的发生年份是什么？",
+      "answer": "公元618年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1271年",
+        "公元1368年",
+        "公元1405年"
+      ],
+      "explanation": "唐朝建立与公元618年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0268",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的发生年份是“公元618年”？",
+      "answer": "唐朝建立",
+      "accepted_aliases": [],
+      "distractors": [
+        "秦完成统一",
+        "西汉建立",
+        "东汉建立"
+      ],
+      "explanation": "在给出的选项中，唐朝建立与公元618年正确对应。"
+    },
+    {
+      "id": "zh_his_0269",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "历史事件“北宋建立”对应的发生年份是什么？",
+      "answer": "公元960年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1644年",
+        "公元1839年",
+        "公元1911年"
+      ],
+      "explanation": "北宋建立与公元960年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0270",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的发生年份是“公元960年”？",
+      "answer": "北宋建立",
+      "accepted_aliases": [],
+      "distractors": [
+        "隋朝建立",
+        "唐朝建立",
+        "元朝定国号"
+      ],
+      "explanation": "在给出的选项中，北宋建立与公元960年正确对应。"
+    },
+    {
+      "id": "zh_his_0271",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "历史事件“元朝定国号”对应的发生年份是什么？",
+      "answer": "公元1271年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1919年",
+        "公元1921年",
+        "公元1949年"
+      ],
+      "explanation": "元朝定国号与公元1271年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0272",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的发生年份是“公元1271年”？",
+      "answer": "元朝定国号",
+      "accepted_aliases": [],
+      "distractors": [
+        "明朝建立",
+        "郑和首次下西洋",
+        "清朝入关"
+      ],
+      "explanation": "在给出的选项中，元朝定国号与公元1271年正确对应。"
+    },
+    {
+      "id": "zh_his_0273",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "历史事件“明朝建立”对应的发生年份是什么？",
+      "answer": "公元1368年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元前221年",
+        "公元前202年",
+        "公元25年"
+      ],
+      "explanation": "明朝建立与公元1368年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0274",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的发生年份是“公元1368年”？",
+      "answer": "明朝建立",
+      "accepted_aliases": [],
+      "distractors": [
+        "虎门销烟",
+        "辛亥革命爆发",
+        "五四运动"
+      ],
+      "explanation": "在给出的选项中，明朝建立与公元1368年正确对应。"
+    },
+    {
+      "id": "zh_his_0275",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "历史事件“郑和首次下西洋”对应的发生年份是什么？",
+      "answer": "公元1405年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元581年",
+        "公元618年",
+        "公元960年"
+      ],
+      "explanation": "郑和首次下西洋与公元1405年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0276",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的发生年份是“公元1405年”？",
+      "answer": "郑和首次下西洋",
+      "accepted_aliases": [],
+      "distractors": [
+        "中国共产党成立",
+        "中华人民共和国成立",
+        "秦完成统一"
+      ],
+      "explanation": "在给出的选项中，郑和首次下西洋与公元1405年正确对应。"
+    },
+    {
+      "id": "zh_his_0277",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "历史事件“清朝入关”对应的发生年份是什么？",
+      "answer": "公元1644年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1271年",
+        "公元1368年",
+        "公元1405年"
+      ],
+      "explanation": "清朝入关与公元1644年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0278",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的发生年份是“公元1644年”？",
+      "answer": "清朝入关",
+      "accepted_aliases": [],
+      "distractors": [
+        "西汉建立",
+        "东汉建立",
+        "隋朝建立"
+      ],
+      "explanation": "在给出的选项中，清朝入关与公元1644年正确对应。"
+    },
+    {
+      "id": "zh_his_0279",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "历史事件“虎门销烟”对应的发生年份是什么？",
+      "answer": "公元1839年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1644年",
+        "公元1911年",
+        "公元1919年"
+      ],
+      "explanation": "虎门销烟与公元1839年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0280",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的发生年份是“公元1839年”？",
+      "answer": "虎门销烟",
+      "accepted_aliases": [],
+      "distractors": [
+        "唐朝建立",
+        "北宋建立",
+        "元朝定国号"
+      ],
+      "explanation": "在给出的选项中，虎门销烟与公元1839年正确对应。"
+    },
+    {
+      "id": "zh_his_0281",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "历史事件“辛亥革命爆发”对应的发生年份是什么？",
+      "answer": "公元1911年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1921年",
+        "公元1949年",
+        "公元前221年"
+      ],
+      "explanation": "辛亥革命爆发与公元1911年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0282",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的发生年份是“公元1911年”？",
+      "answer": "辛亥革命爆发",
+      "accepted_aliases": [],
+      "distractors": [
+        "明朝建立",
+        "郑和首次下西洋",
+        "清朝入关"
+      ],
+      "explanation": "在给出的选项中，辛亥革命爆发与公元1911年正确对应。"
+    },
+    {
+      "id": "zh_his_0283",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "历史事件“五四运动”对应的发生年份是什么？",
+      "answer": "公元1919年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元前202年",
+        "公元25年",
+        "公元581年"
+      ],
+      "explanation": "五四运动与公元1919年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0284",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "下列哪一项的发生年份是“公元1919年”？",
+      "answer": "五四运动",
+      "accepted_aliases": [],
+      "distractors": [
+        "虎门销烟",
+        "辛亥革命爆发",
+        "中国共产党成立"
+      ],
+      "explanation": "在给出的选项中，五四运动与公元1919年正确对应。"
+    },
+    {
+      "id": "zh_his_0285",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "历史事件“中国共产党成立”对应的发生年份是什么？",
+      "answer": "公元1921年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元618年",
+        "公元960年",
+        "公元1271年"
+      ],
+      "explanation": "中国共产党成立与公元1921年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0286",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "下列哪一项的发生年份是“公元1921年”？",
+      "answer": "中国共产党成立",
+      "accepted_aliases": [],
+      "distractors": [
+        "中华人民共和国成立",
+        "秦完成统一",
+        "西汉建立"
+      ],
+      "explanation": "在给出的选项中，中国共产党成立与公元1921年正确对应。"
+    },
+    {
+      "id": "zh_his_0287",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "历史事件“中华人民共和国成立”对应的发生年份是什么？",
+      "answer": "公元1949年",
+      "accepted_aliases": [],
+      "distractors": [
+        "公元1368年",
+        "公元1405年",
+        "公元1644年"
+      ],
+      "explanation": "中华人民共和国成立与公元1949年是这组百科关系中的正确对应项。"
+    },
+    {
+      "id": "zh_his_0288",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "下列哪一项的发生年份是“公元1949年”？",
+      "answer": "中华人民共和国成立",
+      "accepted_aliases": [],
+      "distractors": [
+        "东汉建立",
+        "隋朝建立",
+        "唐朝建立"
+      ],
+      "explanation": "在给出的选项中，中华人民共和国成立与公元1949年正确对应。"
+    },
+    {
+      "id": "zh_his_0289",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元1年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元1年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0290",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元5年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元5年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0291",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元9年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元9年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0292",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元13年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元13年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0293",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元17年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元17年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0294",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元21年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元21年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0295",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元25年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元25年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0296",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元29年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元29年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0297",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元33年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元33年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0298",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元37年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元37年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0299",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元41年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元41年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0300",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元45年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元45年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0301",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元49年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元49年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0302",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元53年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元53年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0303",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元57年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元57年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0304",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元61年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元61年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0305",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元65年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元65年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0306",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元69年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元69年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0307",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元73年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元73年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0308",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元77年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元77年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0309",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元81年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元81年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0310",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元85年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元85年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0311",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元89年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第2世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元89年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0312",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元93年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元93年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0313",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元97年属于哪个世纪？",
+      "answer": "第1世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元97年属于第1世纪。"
+    },
+    {
+      "id": "zh_his_0314",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元101年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元101年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0315",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元105年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元105年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0316",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元109年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元109年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0317",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元113年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元113年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0318",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元117年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元117年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0319",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元121年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元121年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0320",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元125年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元125年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0321",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元129年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元129年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0322",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元133年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元133年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0323",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元137年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元137年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0324",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元141年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元141年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0325",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元145年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元145年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0326",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元149年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元149年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0327",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元153年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元153年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0328",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元157年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元157年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0329",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元161年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元161年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0330",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元165年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元165年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0331",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元169年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元169年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0332",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元173年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元173年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0333",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元177年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元177年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0334",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元181年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元181年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0335",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元185年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元185年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0336",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元189年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第3世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元189年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0337",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元193年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元193年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0338",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元197年属于哪个世纪？",
+      "answer": "第2世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元197年属于第2世纪。"
+    },
+    {
+      "id": "zh_his_0339",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元201年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元201年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0340",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元205年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元205年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0341",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元209年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元209年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0342",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元213年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元213年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0343",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元217年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元217年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0344",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元221年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元221年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0345",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元225年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元225年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0346",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元229年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元229年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0347",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元233年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元233年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0348",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元237年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元237年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0349",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元241年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元241年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0350",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元245年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元245年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0351",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元249年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元249年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0352",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元253年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元253年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0353",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元257年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元257年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0354",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元261年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元261年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0355",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元265年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元265年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0356",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元269年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元269年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0357",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元273年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元273年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0358",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元277年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元277年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0359",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元281年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元281年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0360",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元285年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元285年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0361",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元289年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第4世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元289年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0362",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元293年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元293年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0363",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元297年属于哪个世纪？",
+      "answer": "第3世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元297年属于第3世纪。"
+    },
+    {
+      "id": "zh_his_0364",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元301年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元301年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0365",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元305年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元305年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0366",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元309年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元309年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0367",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元313年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元313年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0368",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元317年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元317年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0369",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元321年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元321年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0370",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元325年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元325年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0371",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元329年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元329年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0372",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元333年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元333年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0373",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元337年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元337年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0374",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元341年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元341年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0375",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元345年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元345年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0376",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元349年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元349年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0377",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元353年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元353年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0378",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元357年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元357年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0379",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元361年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元361年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0380",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元365年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元365年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0381",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元369年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元369年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0382",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元373年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元373年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0383",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元377年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元377年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0384",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元381年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元381年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0385",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元385年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元385年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0386",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元389年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元389年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0387",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元393年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元393年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0388",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元397年属于哪个世纪？",
+      "answer": "第4世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元397年属于第4世纪。"
+    },
+    {
+      "id": "zh_his_0389",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元401年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元401年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0390",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元405年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元405年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0391",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元409年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元409年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0392",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元413年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元413年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0393",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元417年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元417年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0394",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元421年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元421年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0395",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元425年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元425年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0396",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元429年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元429年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0397",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元433年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元433年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0398",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元437年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元437年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0399",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元441年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元441年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0400",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元445年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元445年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0401",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元449年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元449年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0402",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元453年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元453年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0403",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元457年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元457年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0404",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元461年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元461年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0405",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元465年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元465年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0406",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元469年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元469年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0407",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元473年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元473年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0408",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元477年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元477年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0409",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元481年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第6世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元481年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0410",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元485年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元485年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0411",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元489年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元489年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0412",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元493年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元493年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0413",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元497年属于哪个世纪？",
+      "answer": "第5世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元497年属于第5世纪。"
+    },
+    {
+      "id": "zh_his_0414",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元501年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元501年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0415",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元505年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元505年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0416",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元509年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元509年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0417",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元513年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元513年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0418",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元517年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元517年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0419",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元521年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元521年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0420",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元525年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元525年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0421",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元529年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元529年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0422",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元533年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元533年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0423",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元537年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元537年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0424",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元541年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元541年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0425",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元545年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元545年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0426",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元549年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元549年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0427",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元553年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元553年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0428",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元557年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元557年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0429",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元561年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元561年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0430",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元565年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元565年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0431",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元569年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元569年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0432",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元573年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元573年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0433",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元577年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元577年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0434",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元581年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第7世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元581年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0435",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元585年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元585年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0436",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元589年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元589年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0437",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元593年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元593年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0438",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元597年属于哪个世纪？",
+      "answer": "第6世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元597年属于第6世纪。"
+    },
+    {
+      "id": "zh_his_0439",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元601年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元601年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0440",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元605年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元605年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0441",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元609年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元609年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0442",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元613年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元613年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0443",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元617年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元617年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0444",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元621年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元621年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0445",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元625年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元625年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0446",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元629年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元629年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0447",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元633年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元633年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0448",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元637年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元637年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0449",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元641年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元641年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0450",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元645年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元645年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0451",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元649年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元649年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0452",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元653年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元653年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0453",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元657年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元657年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0454",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元661年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元661年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0455",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元665年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元665年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0456",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元669年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元669年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0457",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元673年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元673年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0458",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元677年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元677年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0459",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元681年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第8世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元681年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0460",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元685年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元685年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0461",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元689年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元689年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0462",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元693年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元693年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0463",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元697年属于哪个世纪？",
+      "answer": "第7世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元697年属于第7世纪。"
+    },
+    {
+      "id": "zh_his_0464",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元701年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元701年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0465",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元705年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元705年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0466",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元709年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元709年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0467",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元713年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元713年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0468",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元717年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元717年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0469",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元721年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元721年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0470",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元725年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元725年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0471",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元729年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元729年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0472",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元733年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元733年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0473",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元737年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元737年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0474",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元741年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元741年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0475",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元745年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元745年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0476",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元749年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元749年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0477",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元753年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元753年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0478",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元757年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元757年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0479",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元761年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元761年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0480",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元765年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元765年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0481",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元769年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元769年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0482",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元773年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元773年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0483",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元777年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元777年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0484",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元781年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元781年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0485",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元785年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元785年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0486",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元789年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元789年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0487",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元793年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元793年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0488",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元797年属于哪个世纪？",
+      "answer": "第8世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元797年属于第8世纪。"
+    },
+    {
+      "id": "zh_his_0489",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元801年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元801年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0490",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元805年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元805年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0491",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元809年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元809年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0492",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元813年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元813年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0493",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元817年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元817年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0494",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元821年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元821年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0495",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元825年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元825年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0496",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元829年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第1世纪",
+        "第2世纪",
+        "第3世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元829年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0497",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元833年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第10世纪",
+        "第11世纪",
+        "第12世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元833年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0498",
+      "category": "history_culture",
+      "difficulty": 3,
+      "stem": "公元837年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第18世纪",
+        "第19世纪",
+        "第20世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元837年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0499",
+      "category": "history_culture",
+      "difficulty": 1,
+      "stem": "公元841年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第5世纪",
+        "第6世纪",
+        "第7世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元841年属于第9世纪。"
+    },
+    {
+      "id": "zh_his_0500",
+      "category": "history_culture",
+      "difficulty": 2,
+      "stem": "公元845年属于哪个世纪？",
+      "answer": "第9世纪",
+      "accepted_aliases": [],
+      "distractors": [
+        "第14世纪",
+        "第15世纪",
+        "第16世纪"
+      ],
+      "explanation": "公元年份每一百年划分为一个世纪，因此公元845年属于第9世纪。"
+    }
+  ],
+  "signature": "CONTROLFREE_BUNDLED_LOCAL_V1"
+}

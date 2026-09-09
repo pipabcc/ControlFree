@@ -1,0 +1,2257 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 6,
+    "identityHash": "32582fff356d4eb5345bcb5e12d8fd0d",
+    "entities": [
+      {
+        "tableName": "supervision_plans",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`plan_id` TEXT NOT NULL, `name` TEXT NOT NULL, `plan_type` TEXT NOT NULL, `enabled` INTEGER NOT NULL, `zone_id` TEXT NOT NULL, `zone_mode` TEXT NOT NULL, `active_days_mask` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `updated_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`plan_id`))",
+        "fields": [
+          {
+            "fieldPath": "planId",
+            "columnName": "plan_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "planType",
+            "columnName": "plan_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enabled",
+            "columnName": "enabled",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "zoneId",
+            "columnName": "zone_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "zoneMode",
+            "columnName": "zone_mode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "activeDaysMask",
+            "columnName": "active_days_mask",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "plan_id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_supervision_plans_enabled_plan_type",
+            "unique": false,
+            "columnNames": [
+              "enabled",
+              "plan_type"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_plans_enabled_plan_type` ON `${TABLE_NAME}` (`enabled`, `plan_type`)"
+          },
+          {
+            "name": "index_supervision_plans_zone_mode",
+            "unique": false,
+            "columnNames": [
+              "zone_mode"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_plans_zone_mode` ON `${TABLE_NAME}` (`zone_mode`)"
+          }
+        ]
+      },
+      {
+        "tableName": "supervision_time_ranges",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`plan_id` TEXT NOT NULL, `start_minute` INTEGER NOT NULL, `end_minute_exclusive` INTEGER NOT NULL, PRIMARY KEY(`plan_id`, `start_minute`, `end_minute_exclusive`), FOREIGN KEY(`plan_id`) REFERENCES `supervision_plans`(`plan_id`) ON UPDATE CASCADE ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "planId",
+            "columnName": "plan_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startMinute",
+            "columnName": "start_minute",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endMinuteExclusive",
+            "columnName": "end_minute_exclusive",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "plan_id",
+            "start_minute",
+            "end_minute_exclusive"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_supervision_time_ranges_plan_id",
+            "unique": false,
+            "columnNames": [
+              "plan_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_time_ranges_plan_id` ON `${TABLE_NAME}` (`plan_id`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "supervision_plans",
+            "onDelete": "CASCADE",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "plan_id"
+            ],
+            "referencedColumns": [
+              "plan_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "global_supervision_policies",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`plan_id` TEXT NOT NULL, `usage_duration_minutes` INTEGER NOT NULL, `lock_duration_minutes` INTEGER NOT NULL, PRIMARY KEY(`plan_id`), FOREIGN KEY(`plan_id`) REFERENCES `supervision_plans`(`plan_id`) ON UPDATE CASCADE ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "planId",
+            "columnName": "plan_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "usageDurationMinutes",
+            "columnName": "usage_duration_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lockDurationMinutes",
+            "columnName": "lock_duration_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "plan_id"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "supervision_plans",
+            "onDelete": "CASCADE",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "plan_id"
+            ],
+            "referencedColumns": [
+              "plan_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "app_supervision_policies",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`plan_id` TEXT NOT NULL, `package_name` TEXT NOT NULL, `usage_allowance_minutes` INTEGER NOT NULL, `rest_duration_minutes` INTEGER NOT NULL, PRIMARY KEY(`plan_id`), FOREIGN KEY(`plan_id`) REFERENCES `supervision_plans`(`plan_id`) ON UPDATE CASCADE ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "planId",
+            "columnName": "plan_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packageName",
+            "columnName": "package_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "usageAllowanceMinutes",
+            "columnName": "usage_allowance_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "restDurationMinutes",
+            "columnName": "rest_duration_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "plan_id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_app_supervision_policies_package_name",
+            "unique": false,
+            "columnNames": [
+              "package_name"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_app_supervision_policies_package_name` ON `${TABLE_NAME}` (`package_name`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "supervision_plans",
+            "onDelete": "CASCADE",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "plan_id"
+            ],
+            "referencedColumns": [
+              "plan_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "plan_activation_reservations",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`plan_id` TEXT NOT NULL, `enable_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`plan_id`), FOREIGN KEY(`plan_id`) REFERENCES `supervision_plans`(`plan_id`) ON UPDATE CASCADE ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "planId",
+            "columnName": "plan_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enableAtEpochMillis",
+            "columnName": "enable_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "plan_id"
+          ]
+        },
+        "foreignKeys": [
+          {
+            "table": "supervision_plans",
+            "onDelete": "CASCADE",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "plan_id"
+            ],
+            "referencedColumns": [
+              "plan_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "supervision_sessions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`session_id` TEXT NOT NULL, `identity_key` TEXT NOT NULL, `runtime_slot` TEXT, `session_kind` TEXT NOT NULL, `display_name` TEXT NOT NULL, `plan_id` TEXT, `package_name` TEXT, `usage_minutes` INTEGER, `lock_minutes` INTEGER, `started_at_epoch_millis` INTEGER NOT NULL, `ended_at_epoch_millis` INTEGER, `end_reason` TEXT, `updated_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`session_id`))",
+        "fields": [
+          {
+            "fieldPath": "sessionId",
+            "columnName": "session_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "identityKey",
+            "columnName": "identity_key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "runtimeSlot",
+            "columnName": "runtime_slot",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sessionKind",
+            "columnName": "session_kind",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "displayName",
+            "columnName": "display_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "planId",
+            "columnName": "plan_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "packageName",
+            "columnName": "package_name",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "usageMinutes",
+            "columnName": "usage_minutes",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "lockMinutes",
+            "columnName": "lock_minutes",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "startedAtEpochMillis",
+            "columnName": "started_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endedAtEpochMillis",
+            "columnName": "ended_at_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "endReason",
+            "columnName": "end_reason",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "session_id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_supervision_sessions_runtime_slot",
+            "unique": true,
+            "columnNames": [
+              "runtime_slot"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_supervision_sessions_runtime_slot` ON `${TABLE_NAME}` (`runtime_slot`)"
+          },
+          {
+            "name": "index_supervision_sessions_started_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "started_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_sessions_started_at_epoch_millis` ON `${TABLE_NAME}` (`started_at_epoch_millis`)"
+          },
+          {
+            "name": "index_supervision_sessions_session_kind_started_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "session_kind",
+              "started_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_sessions_session_kind_started_at_epoch_millis` ON `${TABLE_NAME}` (`session_kind`, `started_at_epoch_millis`)"
+          },
+          {
+            "name": "index_supervision_sessions_plan_id",
+            "unique": false,
+            "columnNames": [
+              "plan_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_sessions_plan_id` ON `${TABLE_NAME}` (`plan_id`)"
+          },
+          {
+            "name": "index_supervision_sessions_package_name",
+            "unique": false,
+            "columnNames": [
+              "package_name"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_supervision_sessions_package_name` ON `${TABLE_NAME}` (`package_name`)"
+          }
+        ]
+      },
+      {
+        "tableName": "growth_accounts",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`account_id` TEXT NOT NULL, `balance_points` INTEGER NOT NULL, `reserved_points` INTEGER NOT NULL, `lifetime_experience` INTEGER NOT NULL, `lifetime_spent_points` INTEGER NOT NULL, `revision` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `updated_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`account_id`))",
+        "fields": [
+          {
+            "fieldPath": "accountId",
+            "columnName": "account_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "balancePoints",
+            "columnName": "balance_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reservedPoints",
+            "columnName": "reserved_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lifetimeExperience",
+            "columnName": "lifetime_experience",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lifetimeSpentPoints",
+            "columnName": "lifetime_spent_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "revision",
+            "columnName": "revision",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "account_id"
+          ]
+        }
+      },
+      {
+        "tableName": "growth_ledger",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`ledger_id` TEXT NOT NULL, `account_id` TEXT NOT NULL, `source_key` TEXT NOT NULL, `entry_type` TEXT NOT NULL, `reason` TEXT NOT NULL, `balance_delta_points` INTEGER NOT NULL, `reserved_delta_points` INTEGER NOT NULL, `experience_delta` INTEGER NOT NULL, `spending_delta_points` INTEGER NOT NULL, `counts_toward_daily_cap` INTEGER NOT NULL, `related_cycle_id` TEXT, `related_order_id` TEXT, `policy_version` INTEGER NOT NULL, `occurred_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`ledger_id`), FOREIGN KEY(`account_id`) REFERENCES `growth_accounts`(`account_id`) ON UPDATE CASCADE ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "ledgerId",
+            "columnName": "ledger_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "accountId",
+            "columnName": "account_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceKey",
+            "columnName": "source_key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "entryType",
+            "columnName": "entry_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reason",
+            "columnName": "reason",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "balanceDeltaPoints",
+            "columnName": "balance_delta_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reservedDeltaPoints",
+            "columnName": "reserved_delta_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "experienceDelta",
+            "columnName": "experience_delta",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "spendingDeltaPoints",
+            "columnName": "spending_delta_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "countsTowardDailyCap",
+            "columnName": "counts_toward_daily_cap",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "relatedCycleId",
+            "columnName": "related_cycle_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "relatedOrderId",
+            "columnName": "related_order_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "policyVersion",
+            "columnName": "policy_version",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "occurredAtEpochMillis",
+            "columnName": "occurred_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "ledger_id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_growth_ledger_source_key",
+            "unique": true,
+            "columnNames": [
+              "source_key"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_growth_ledger_source_key` ON `${TABLE_NAME}` (`source_key`)"
+          },
+          {
+            "name": "index_growth_ledger_account_id_occurred_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "account_id",
+              "occurred_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_ledger_account_id_occurred_at_epoch_millis` ON `${TABLE_NAME}` (`account_id`, `occurred_at_epoch_millis`)"
+          },
+          {
+            "name": "index_growth_ledger_related_cycle_id",
+            "unique": false,
+            "columnNames": [
+              "related_cycle_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_ledger_related_cycle_id` ON `${TABLE_NAME}` (`related_cycle_id`)"
+          },
+          {
+            "name": "index_growth_ledger_related_order_id",
+            "unique": false,
+            "columnNames": [
+              "related_order_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_ledger_related_order_id` ON `${TABLE_NAME}` (`related_order_id`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "growth_accounts",
+            "onDelete": "RESTRICT",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "account_id"
+            ],
+            "referencedColumns": [
+              "account_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "growth_cycle_outcomes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`cycle_id` TEXT NOT NULL, `account_id` TEXT NOT NULL, `run_id` TEXT NOT NULL, `cycle_ordinal` INTEGER NOT NULL, `mode` TEXT NOT NULL, `configured_duration_seconds` INTEGER NOT NULL, `valid_elapsed_seconds` INTEGER NOT NULL, `paused_seconds` INTEGER NOT NULL, `outcome` TEXT NOT NULL, `awarded_experience_points` INTEGER NOT NULL, `credited_balance_points` INTEGER NOT NULL, `ledger_source_key` TEXT, `recorded_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`cycle_id`), FOREIGN KEY(`account_id`) REFERENCES `growth_accounts`(`account_id`) ON UPDATE CASCADE ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "cycleId",
+            "columnName": "cycle_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "accountId",
+            "columnName": "account_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "runId",
+            "columnName": "run_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cycleOrdinal",
+            "columnName": "cycle_ordinal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mode",
+            "columnName": "mode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "configuredDurationSeconds",
+            "columnName": "configured_duration_seconds",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "validElapsedSeconds",
+            "columnName": "valid_elapsed_seconds",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pausedSeconds",
+            "columnName": "paused_seconds",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "outcome",
+            "columnName": "outcome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "awardedExperiencePoints",
+            "columnName": "awarded_experience_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "creditedBalancePoints",
+            "columnName": "credited_balance_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ledgerSourceKey",
+            "columnName": "ledger_source_key",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "recordedAtEpochMillis",
+            "columnName": "recorded_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "cycle_id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_growth_cycle_outcomes_account_id",
+            "unique": false,
+            "columnNames": [
+              "account_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_cycle_outcomes_account_id` ON `${TABLE_NAME}` (`account_id`)"
+          },
+          {
+            "name": "index_growth_cycle_outcomes_run_id_cycle_ordinal",
+            "unique": true,
+            "columnNames": [
+              "run_id",
+              "cycle_ordinal"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_growth_cycle_outcomes_run_id_cycle_ordinal` ON `${TABLE_NAME}` (`run_id`, `cycle_ordinal`)"
+          },
+          {
+            "name": "index_growth_cycle_outcomes_ledger_source_key",
+            "unique": false,
+            "columnNames": [
+              "ledger_source_key"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_cycle_outcomes_ledger_source_key` ON `${TABLE_NAME}` (`ledger_source_key`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "growth_accounts",
+            "onDelete": "RESTRICT",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "account_id"
+            ],
+            "referencedColumns": [
+              "account_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "growth_unlock_orders",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`order_id` TEXT NOT NULL, `account_id` TEXT NOT NULL, `lock_session_id` TEXT NOT NULL, `action_kind` TEXT NOT NULL, `pause_duration_minutes` INTEGER NOT NULL, `authentication_kind` TEXT NOT NULL, `authentication_id` TEXT NOT NULL, `nominal_cost_points` INTEGER NOT NULL, `reserved_cost_points` INTEGER NOT NULL, `cost_waived` INTEGER NOT NULL, `state` TEXT NOT NULL, `policy_version` INTEGER NOT NULL, `prepared_at_epoch_millis` INTEGER NOT NULL, `expires_at_epoch_millis` INTEGER NOT NULL, `finalized_at_epoch_millis` INTEGER, PRIMARY KEY(`order_id`), FOREIGN KEY(`account_id`) REFERENCES `growth_accounts`(`account_id`) ON UPDATE CASCADE ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "orderId",
+            "columnName": "order_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "accountId",
+            "columnName": "account_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lockSessionId",
+            "columnName": "lock_session_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "actionKind",
+            "columnName": "action_kind",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pauseDurationMinutes",
+            "columnName": "pause_duration_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "authenticationKind",
+            "columnName": "authentication_kind",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "authenticationId",
+            "columnName": "authentication_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nominalCostPoints",
+            "columnName": "nominal_cost_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reservedCostPoints",
+            "columnName": "reserved_cost_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "costWaived",
+            "columnName": "cost_waived",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "state",
+            "columnName": "state",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "policyVersion",
+            "columnName": "policy_version",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "preparedAtEpochMillis",
+            "columnName": "prepared_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "expiresAtEpochMillis",
+            "columnName": "expires_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "finalizedAtEpochMillis",
+            "columnName": "finalized_at_epoch_millis",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "order_id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_growth_unlock_orders_account_id_state",
+            "unique": false,
+            "columnNames": [
+              "account_id",
+              "state"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_unlock_orders_account_id_state` ON `${TABLE_NAME}` (`account_id`, `state`)"
+          },
+          {
+            "name": "index_growth_unlock_orders_lock_session_id_action_kind",
+            "unique": false,
+            "columnNames": [
+              "lock_session_id",
+              "action_kind"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_growth_unlock_orders_lock_session_id_action_kind` ON `${TABLE_NAME}` (`lock_session_id`, `action_kind`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "growth_accounts",
+            "onDelete": "RESTRICT",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "account_id"
+            ],
+            "referencedColumns": [
+              "account_id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "todo_items",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `title` TEXT NOT NULL, `description` TEXT, `due_date_epoch_millis` INTEGER, `priority` INTEGER NOT NULL, `is_completed` INTEGER NOT NULL, `completed_at_epoch_millis` INTEGER, `category` TEXT NOT NULL, `repeat_rule` TEXT, `associated_focus_plan_id` TEXT, `supervision_lock_enabled` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `scheduled_start_epoch_millis` INTEGER, `scheduled_end_epoch_millis` INTEGER, `estimated_focus_minutes` INTEGER, `is_important` INTEGER NOT NULL DEFAULT 0, `urgency_mode` TEXT NOT NULL DEFAULT 'AUTO', `recurrence_type` TEXT NOT NULL DEFAULT 'NONE', `recurrence_interval` INTEGER NOT NULL DEFAULT 1, `recurrence_days_mask` INTEGER NOT NULL DEFAULT 0, `recurrence_day_of_month` INTEGER, `recurrence_series_id` TEXT, `recurrence_sequence` INTEGER NOT NULL DEFAULT 0, `updated_at_epoch_millis` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "dueDateEpochMillis",
+            "columnName": "due_date_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "priority",
+            "columnName": "priority",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isCompleted",
+            "columnName": "is_completed",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completedAtEpochMillis",
+            "columnName": "completed_at_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repeatRule",
+            "columnName": "repeat_rule",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "associatedFocusPlanId",
+            "columnName": "associated_focus_plan_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "supervisionLockEnabled",
+            "columnName": "supervision_lock_enabled",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scheduledStartEpochMillis",
+            "columnName": "scheduled_start_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "scheduledEndEpochMillis",
+            "columnName": "scheduled_end_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "estimatedFocusMinutes",
+            "columnName": "estimated_focus_minutes",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "isImportant",
+            "columnName": "is_important",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "urgencyMode",
+            "columnName": "urgency_mode",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'AUTO'"
+          },
+          {
+            "fieldPath": "recurrenceType",
+            "columnName": "recurrence_type",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'NONE'"
+          },
+          {
+            "fieldPath": "recurrenceInterval",
+            "columnName": "recurrence_interval",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          },
+          {
+            "fieldPath": "recurrenceDaysMask",
+            "columnName": "recurrence_days_mask",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "recurrenceDayOfMonth",
+            "columnName": "recurrence_day_of_month",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "recurrenceSeriesId",
+            "columnName": "recurrence_series_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "recurrenceSequence",
+            "columnName": "recurrence_sequence",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_todo_items_due_date_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "due_date_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_items_due_date_epoch_millis` ON `${TABLE_NAME}` (`due_date_epoch_millis`)"
+          },
+          {
+            "name": "index_todo_items_scheduled_start_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "scheduled_start_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_items_scheduled_start_epoch_millis` ON `${TABLE_NAME}` (`scheduled_start_epoch_millis`)"
+          },
+          {
+            "name": "index_todo_items_is_completed",
+            "unique": false,
+            "columnNames": [
+              "is_completed"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_items_is_completed` ON `${TABLE_NAME}` (`is_completed`)"
+          },
+          {
+            "name": "index_todo_items_priority",
+            "unique": false,
+            "columnNames": [
+              "priority"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_items_priority` ON `${TABLE_NAME}` (`priority`)"
+          },
+          {
+            "name": "index_todo_items_category",
+            "unique": false,
+            "columnNames": [
+              "category"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_items_category` ON `${TABLE_NAME}` (`category`)"
+          },
+          {
+            "name": "index_todo_items_recurrence_series_id_recurrence_sequence",
+            "unique": true,
+            "columnNames": [
+              "recurrence_series_id",
+              "recurrence_sequence"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_todo_items_recurrence_series_id_recurrence_sequence` ON `${TABLE_NAME}` (`recurrence_series_id`, `recurrence_sequence`)"
+          }
+        ]
+      },
+      {
+        "tableName": "habit_items",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `name` TEXT NOT NULL, `icon_res` TEXT NOT NULL, `color_hex` TEXT NOT NULL, `frequency_type` TEXT NOT NULL, `target_count_per_day` INTEGER NOT NULL, `current_streak` INTEGER NOT NULL, `best_streak` INTEGER NOT NULL, `is_archived` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `weekdays_mask` INTEGER NOT NULL DEFAULT 127, `weekly_target_days` INTEGER NOT NULL DEFAULT 3, `interval_days` INTEGER NOT NULL DEFAULT 1, `start_date` TEXT NOT NULL DEFAULT '1970-01-01', `updated_at_epoch_millis` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "iconRes",
+            "columnName": "icon_res",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "colorHex",
+            "columnName": "color_hex",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "frequencyType",
+            "columnName": "frequency_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetCountPerDay",
+            "columnName": "target_count_per_day",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentStreak",
+            "columnName": "current_streak",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bestStreak",
+            "columnName": "best_streak",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isArchived",
+            "columnName": "is_archived",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "weekdaysMask",
+            "columnName": "weekdays_mask",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "127"
+          },
+          {
+            "fieldPath": "weeklyTargetDays",
+            "columnName": "weekly_target_days",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "3"
+          },
+          {
+            "fieldPath": "intervalDays",
+            "columnName": "interval_days",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          },
+          {
+            "fieldPath": "startDate",
+            "columnName": "start_date",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'1970-01-01'"
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_habit_items_is_archived",
+            "unique": false,
+            "columnNames": [
+              "is_archived"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_habit_items_is_archived` ON `${TABLE_NAME}` (`is_archived`)"
+          },
+          {
+            "name": "index_habit_items_frequency_type",
+            "unique": false,
+            "columnNames": [
+              "frequency_type"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_habit_items_frequency_type` ON `${TABLE_NAME}` (`frequency_type`)"
+          }
+        ]
+      },
+      {
+        "tableName": "habit_records",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `habit_id` TEXT NOT NULL, `completed_date` TEXT NOT NULL, `note` TEXT, `reward_points` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `completion_count` INTEGER NOT NULL DEFAULT 1, `is_backfill` INTEGER NOT NULL DEFAULT 0, `updated_at_epoch_millis` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "habitId",
+            "columnName": "habit_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completedDate",
+            "columnName": "completed_date",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "note",
+            "columnName": "note",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "rewardPoints",
+            "columnName": "reward_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completionCount",
+            "columnName": "completion_count",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          },
+          {
+            "fieldPath": "isBackfill",
+            "columnName": "is_backfill",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_habit_records_habit_id_completed_date",
+            "unique": true,
+            "columnNames": [
+              "habit_id",
+              "completed_date"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_habit_records_habit_id_completed_date` ON `${TABLE_NAME}` (`habit_id`, `completed_date`)"
+          },
+          {
+            "name": "index_habit_records_completed_date",
+            "unique": false,
+            "columnNames": [
+              "completed_date"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_habit_records_completed_date` ON `${TABLE_NAME}` (`completed_date`)"
+          }
+        ]
+      },
+      {
+        "tableName": "anniversary_items",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `title` TEXT NOT NULL, `target_date_epoch_millis` INTEGER NOT NULL, `is_lunar` INTEGER NOT NULL, `type` TEXT NOT NULL, `repeat_rule` TEXT NOT NULL, `is_pinned_top` INTEGER NOT NULL, `show_on_widget` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `source_year` INTEGER NOT NULL DEFAULT 0, `source_month` INTEGER NOT NULL DEFAULT 0, `source_day` INTEGER NOT NULL DEFAULT 0, `source_hour` INTEGER NOT NULL DEFAULT 0, `source_minute` INTEGER NOT NULL DEFAULT 0, `source_second` INTEGER NOT NULL DEFAULT 0, `is_lunar_leap_month` INTEGER NOT NULL DEFAULT 0, `zone_id` TEXT NOT NULL DEFAULT 'Asia/Shanghai', `show_on_lock_screen` INTEGER NOT NULL DEFAULT 0, `updated_at_epoch_millis` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetDateEpochMillis",
+            "columnName": "target_date_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isLunar",
+            "columnName": "is_lunar",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repeatRule",
+            "columnName": "repeat_rule",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isPinnedTop",
+            "columnName": "is_pinned_top",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "showOnWidget",
+            "columnName": "show_on_widget",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceYear",
+            "columnName": "source_year",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "sourceMonth",
+            "columnName": "source_month",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "sourceDay",
+            "columnName": "source_day",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "sourceHour",
+            "columnName": "source_hour",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "sourceMinute",
+            "columnName": "source_minute",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "sourceSecond",
+            "columnName": "source_second",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "isLunarLeapMonth",
+            "columnName": "is_lunar_leap_month",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "zoneId",
+            "columnName": "zone_id",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'Asia/Shanghai'"
+          },
+          {
+            "fieldPath": "showOnLockScreen",
+            "columnName": "show_on_lock_screen",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_anniversary_items_target_date_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "target_date_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_anniversary_items_target_date_epoch_millis` ON `${TABLE_NAME}` (`target_date_epoch_millis`)"
+          },
+          {
+            "name": "index_anniversary_items_is_pinned_top",
+            "unique": false,
+            "columnNames": [
+              "is_pinned_top"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_anniversary_items_is_pinned_top` ON `${TABLE_NAME}` (`is_pinned_top`)"
+          },
+          {
+            "name": "index_anniversary_items_show_on_widget",
+            "unique": false,
+            "columnNames": [
+              "show_on_widget"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_anniversary_items_show_on_widget` ON `${TABLE_NAME}` (`show_on_widget`)"
+          },
+          {
+            "name": "index_anniversary_items_show_on_lock_screen",
+            "unique": false,
+            "columnNames": [
+              "show_on_lock_screen"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_anniversary_items_show_on_lock_screen` ON `${TABLE_NAME}` (`show_on_lock_screen`)"
+          }
+        ]
+      },
+      {
+        "tableName": "quick_notes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `content` TEXT NOT NULL, `media_uri` TEXT, `status` TEXT NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `media_mime_type` TEXT, `media_display_name` TEXT, `media_size_bytes` INTEGER, `capture_source` TEXT NOT NULL DEFAULT 'TEXT', `updated_at_epoch_millis` INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "content",
+            "columnName": "content",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mediaUri",
+            "columnName": "media_uri",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mediaMimeType",
+            "columnName": "media_mime_type",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mediaDisplayName",
+            "columnName": "media_display_name",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "mediaSizeBytes",
+            "columnName": "media_size_bytes",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "captureSource",
+            "columnName": "capture_source",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'TEXT'"
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_quick_notes_status",
+            "unique": false,
+            "columnNames": [
+              "status"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_quick_notes_status` ON `${TABLE_NAME}` (`status`)"
+          },
+          {
+            "name": "index_quick_notes_created_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "created_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_quick_notes_created_at_epoch_millis` ON `${TABLE_NAME}` (`created_at_epoch_millis`)"
+          }
+        ]
+      },
+      {
+        "tableName": "todo_subtasks",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `todo_id` TEXT NOT NULL, `parent_subtask_id` TEXT, `title` TEXT NOT NULL, `is_completed` INTEGER NOT NULL, `completed_at_epoch_millis` INTEGER, `sort_order` INTEGER NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `updated_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "todoId",
+            "columnName": "todo_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "parentSubtaskId",
+            "columnName": "parent_subtask_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isCompleted",
+            "columnName": "is_completed",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completedAtEpochMillis",
+            "columnName": "completed_at_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "sortOrder",
+            "columnName": "sort_order",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_todo_subtasks_todo_id",
+            "unique": false,
+            "columnNames": [
+              "todo_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_subtasks_todo_id` ON `${TABLE_NAME}` (`todo_id`)"
+          },
+          {
+            "name": "index_todo_subtasks_parent_subtask_id",
+            "unique": false,
+            "columnNames": [
+              "parent_subtask_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_subtasks_parent_subtask_id` ON `${TABLE_NAME}` (`parent_subtask_id`)"
+          },
+          {
+            "name": "index_todo_subtasks_todo_id_sort_order",
+            "unique": false,
+            "columnNames": [
+              "todo_id",
+              "sort_order"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_todo_subtasks_todo_id_sort_order` ON `${TABLE_NAME}` (`todo_id`, `sort_order`)"
+          }
+        ]
+      },
+      {
+        "tableName": "anniversary_occurrences",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `anniversary_id` TEXT NOT NULL, `occurrence_key` TEXT NOT NULL, `occurs_at_epoch_millis` INTEGER NOT NULL, `recorded_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "anniversaryId",
+            "columnName": "anniversary_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "occurrenceKey",
+            "columnName": "occurrence_key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "occursAtEpochMillis",
+            "columnName": "occurs_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recordedAtEpochMillis",
+            "columnName": "recorded_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_anniversary_occurrences_anniversary_id_occurrence_key",
+            "unique": true,
+            "columnNames": [
+              "anniversary_id",
+              "occurrence_key"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_anniversary_occurrences_anniversary_id_occurrence_key` ON `${TABLE_NAME}` (`anniversary_id`, `occurrence_key`)"
+          },
+          {
+            "name": "index_anniversary_occurrences_occurs_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "occurs_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_anniversary_occurrences_occurs_at_epoch_millis` ON `${TABLE_NAME}` (`occurs_at_epoch_millis`)"
+          }
+        ]
+      },
+      {
+        "tableName": "quick_note_conversions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`note_id` TEXT NOT NULL, `target_type` TEXT NOT NULL, `target_id` TEXT NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`note_id`, `target_type`))",
+        "fields": [
+          {
+            "fieldPath": "noteId",
+            "columnName": "note_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetType",
+            "columnName": "target_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetId",
+            "columnName": "target_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "note_id",
+            "target_type"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_quick_note_conversions_target_id",
+            "unique": false,
+            "columnNames": [
+              "target_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_quick_note_conversions_target_id` ON `${TABLE_NAME}` (`target_id`)"
+          }
+        ]
+      },
+      {
+        "tableName": "achievement_unlocks",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `achievement_type` TEXT NOT NULL, `subject_id` TEXT, `tier` INTEGER NOT NULL, `title` TEXT NOT NULL, `description` TEXT NOT NULL, `unlocked_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "achievementType",
+            "columnName": "achievement_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "subjectId",
+            "columnName": "subject_id",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "tier",
+            "columnName": "tier",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "unlockedAtEpochMillis",
+            "columnName": "unlocked_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_achievement_unlocks_achievement_type_subject_id",
+            "unique": false,
+            "columnNames": [
+              "achievement_type",
+              "subject_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_achievement_unlocks_achievement_type_subject_id` ON `${TABLE_NAME}` (`achievement_type`, `subject_id`)"
+          },
+          {
+            "name": "index_achievement_unlocks_unlocked_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "unlocked_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_achievement_unlocks_unlocked_at_epoch_millis` ON `${TABLE_NAME}` (`unlocked_at_epoch_millis`)"
+          }
+        ]
+      },
+      {
+        "tableName": "commitment_policies",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `source_type` TEXT NOT NULL, `source_id` TEXT NOT NULL, `enabled` INTEGER NOT NULL, `local_deadline_minute` INTEGER, `grace_minutes` INTEGER NOT NULL, `max_lock_minutes` INTEGER NOT NULL, `zone_id` TEXT NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `updated_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceType",
+            "columnName": "source_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceId",
+            "columnName": "source_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enabled",
+            "columnName": "enabled",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "localDeadlineMinute",
+            "columnName": "local_deadline_minute",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "graceMinutes",
+            "columnName": "grace_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "maxLockMinutes",
+            "columnName": "max_lock_minutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "zoneId",
+            "columnName": "zone_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_commitment_policies_source_type_source_id",
+            "unique": true,
+            "columnNames": [
+              "source_type",
+              "source_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_commitment_policies_source_type_source_id` ON `${TABLE_NAME}` (`source_type`, `source_id`)"
+          }
+        ]
+      },
+      {
+        "tableName": "commitment_blocked_apps",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`policy_id` TEXT NOT NULL, `package_name` TEXT NOT NULL, PRIMARY KEY(`policy_id`, `package_name`))",
+        "fields": [
+          {
+            "fieldPath": "policyId",
+            "columnName": "policy_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "packageName",
+            "columnName": "package_name",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "policy_id",
+            "package_name"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_commitment_blocked_apps_package_name",
+            "unique": false,
+            "columnNames": [
+              "package_name"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_commitment_blocked_apps_package_name` ON `${TABLE_NAME}` (`package_name`)"
+          }
+        ]
+      },
+      {
+        "tableName": "commitment_occurrences",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `policy_id` TEXT NOT NULL, `occurrence_key` TEXT NOT NULL, `deadline_epoch_millis` INTEGER NOT NULL, `expires_at_epoch_millis` INTEGER NOT NULL, `activated_at_epoch_millis` INTEGER, `satisfied_at_epoch_millis` INTEGER, `created_at_epoch_millis` INTEGER NOT NULL, `updated_at_epoch_millis` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "policyId",
+            "columnName": "policy_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "occurrenceKey",
+            "columnName": "occurrence_key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deadlineEpochMillis",
+            "columnName": "deadline_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "expiresAtEpochMillis",
+            "columnName": "expires_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "activatedAtEpochMillis",
+            "columnName": "activated_at_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "satisfiedAtEpochMillis",
+            "columnName": "satisfied_at_epoch_millis",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAtEpochMillis",
+            "columnName": "updated_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_commitment_occurrences_policy_id_occurrence_key",
+            "unique": true,
+            "columnNames": [
+              "policy_id",
+              "occurrence_key"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_commitment_occurrences_policy_id_occurrence_key` ON `${TABLE_NAME}` (`policy_id`, `occurrence_key`)"
+          },
+          {
+            "name": "index_commitment_occurrences_deadline_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "deadline_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_commitment_occurrences_deadline_epoch_millis` ON `${TABLE_NAME}` (`deadline_epoch_millis`)"
+          },
+          {
+            "name": "index_commitment_occurrences_satisfied_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "satisfied_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_commitment_occurrences_satisfied_at_epoch_millis` ON `${TABLE_NAME}` (`satisfied_at_epoch_millis`)"
+          }
+        ]
+      },
+      {
+        "tableName": "productivity_reward_outbox",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `source_key` TEXT NOT NULL, `reward_type` TEXT NOT NULL, `subject_id` TEXT NOT NULL, `balance_points` INTEGER NOT NULL, `experience_points` INTEGER NOT NULL, `local_date` TEXT NOT NULL, `created_at_epoch_millis` INTEGER NOT NULL, `processed_at_epoch_millis` INTEGER, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceKey",
+            "columnName": "source_key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rewardType",
+            "columnName": "reward_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "subjectId",
+            "columnName": "subject_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "balancePoints",
+            "columnName": "balance_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "experiencePoints",
+            "columnName": "experience_points",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "localDate",
+            "columnName": "local_date",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAtEpochMillis",
+            "columnName": "created_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "processedAtEpochMillis",
+            "columnName": "processed_at_epoch_millis",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_productivity_reward_outbox_source_key",
+            "unique": true,
+            "columnNames": [
+              "source_key"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_productivity_reward_outbox_source_key` ON `${TABLE_NAME}` (`source_key`)"
+          },
+          {
+            "name": "index_productivity_reward_outbox_processed_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "processed_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_productivity_reward_outbox_processed_at_epoch_millis` ON `${TABLE_NAME}` (`processed_at_epoch_millis`)"
+          },
+          {
+            "name": "index_productivity_reward_outbox_reward_type_local_date",
+            "unique": false,
+            "columnNames": [
+              "reward_type",
+              "local_date"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_productivity_reward_outbox_reward_type_local_date` ON `${TABLE_NAME}` (`reward_type`, `local_date`)"
+          }
+        ]
+      },
+      {
+        "tableName": "celebration_events",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `source_key` TEXT NOT NULL, `celebration_type` TEXT NOT NULL, `subject_id` TEXT NOT NULL, `title` TEXT NOT NULL, `message` TEXT NOT NULL, `occurred_at_epoch_millis` INTEGER NOT NULL, `consumed_at_epoch_millis` INTEGER, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceKey",
+            "columnName": "source_key",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "celebrationType",
+            "columnName": "celebration_type",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "subjectId",
+            "columnName": "subject_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "message",
+            "columnName": "message",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "occurredAtEpochMillis",
+            "columnName": "occurred_at_epoch_millis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "consumedAtEpochMillis",
+            "columnName": "consumed_at_epoch_millis",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_celebration_events_source_key",
+            "unique": true,
+            "columnNames": [
+              "source_key"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_celebration_events_source_key` ON `${TABLE_NAME}` (`source_key`)"
+          },
+          {
+            "name": "index_celebration_events_consumed_at_epoch_millis",
+            "unique": false,
+            "columnNames": [
+              "consumed_at_epoch_millis"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_celebration_events_consumed_at_epoch_millis` ON `${TABLE_NAME}` (`consumed_at_epoch_millis`)"
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '32582fff356d4eb5345bcb5e12d8fd0d')"
+    ]
+  }
+}

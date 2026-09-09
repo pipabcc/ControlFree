@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">小黑屏品牌图标</title>
+  <desc id="description">黑绿色圆角底板中的绿色屏幕、月牙和青色运行状态点</desc>
+  <rect width="512" height="512" rx="112" fill="#050806"/>
+  <path d="M0 346 346 0h92c41 0 74 33 74 74v92L166 512H74c-41 0-74-33-74-74Z" fill="#0E1712"/>
+  <rect x="95" y="109" width="322" height="294" rx="58" fill="#21C76A"/>
+  <rect x="123" y="137" width="266" height="238" rx="34" fill="#09130D"/>
+  <circle cx="233" cy="256" r="67" fill="#55E58F"/>
+  <circle cx="271" cy="237" r="67" fill="#09130D"/>
+  <circle cx="337" cy="327" r="29" fill="#5AD7E6"/>
+</svg>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="widget_supervision_description">查看并快捷启停监督任务</string>
+    <string name="widget_focus_description">查看并快捷启停专注任务</string>
+    <string name="widget_todo_description">查看待办并快捷创建</string>
+    <string name="widget_quick_note_description">查看闪记并快捷创建</string>
+    <string name="widget_add_content">新建内容</string>
+    <string name="app_name">玩机有度</string>
+    <string name="shortcut_quick_focus_short">快速专注</string>
+    <string name="shortcut_quick_focus_long">打开快速专注</string>
+    <string name="shortcut_monitor_short">监督计划</string>
+    <string name="shortcut_monitor_long">打开监督计划</string>
+    <string name="shortcut_statistics_short">用时统计</string>
+    <string name="shortcut_statistics_long">打开用时统计</string>
+    <string name="shortcut_settings_short">应用设置</string>
+    <string name="shortcut_settings_long">打开应用设置</string>
+</resources>

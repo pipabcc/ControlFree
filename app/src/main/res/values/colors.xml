@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_canvas">#050806</color>
+    <color name="brand_canvas_light">#F7FBF8</color>
+    <color name="brand_primary">#21C76A</color>
+    <color name="brand_success">#65DA93</color>
+    <color name="brand_danger">#FF6B72</color>
+</resources>
