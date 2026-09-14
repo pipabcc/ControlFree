@@ -5,11 +5,11 @@ import org.junit.Test
 
 class StatisticsPageTest {
     @Test
-    fun `日程统计位于首位且标签名称稳定`() {
+    fun `使用统计位于首位且标签名称稳定`() {
         assertEquals(
-            listOf("日程统计", "使用统计", "监督统计"),
+            listOf("使用统计", "监督统计", "日程统计"),
             StatisticsPage.entries.map(StatisticsPage::displayName)
         )
-        assertEquals(StatisticsPage.CALENDAR, StatisticsPage.entries.first())
+        assertEquals(StatisticsPage.APP_USAGE, StatisticsPage.entries.first())
     }
 }

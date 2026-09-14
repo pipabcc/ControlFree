@@ -164,9 +164,9 @@ fun evaluateRuntimeReadiness(signals: RuntimeReadinessSignals): RuntimeReadiness
                 if (signals.batteryUnrestricted) {
                     RuntimeRequirementState.READY
                 } else {
-                    RuntimeRequirementState.ACTION_REQUIRED
+                    RuntimeRequirementState.RECOMMENDED
                 },
-                blocksStart = true
+                blocksStart = false
             ),
             RuntimeRequirement(
                 RuntimeRequirementKey.BACKGROUND_POPUP,

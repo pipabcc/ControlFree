@@ -154,6 +154,7 @@ class RuntimeReadinessTest {
             setOf(
                 RuntimeRequirementKey.USAGE_ACCESS,
                 RuntimeRequirementKey.OVERLAY,
+                RuntimeRequirementKey.BACKGROUND_POPUP,
                 RuntimeRequirementKey.NOTIFICATION_PERMISSION,
                 RuntimeRequirementKey.NOTIFICATIONS_ENABLED,
                 RuntimeRequirementKey.SERVICE_CHANNEL,

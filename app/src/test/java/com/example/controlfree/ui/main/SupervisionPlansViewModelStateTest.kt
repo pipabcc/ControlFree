@@ -52,7 +52,7 @@ class SupervisionPlansViewModelStateTest {
         val focusDraft = requireNotNull(viewModel.uiState.value.focusEditorDraft)
         assertEquals(5, focusDraft.lockMinutes)
         assertEquals(1, focusDraft.playMinutes)
-        assertEquals(listOf(TimeRangeDraft(focusDraft.ranges.single().id, 8 * 60, 12 * 60)), focusDraft.ranges)
+        assertEquals(listOf(TimeRangeDraft(focusDraft.ranges.single().id, 0, 24 * 60)), focusDraft.ranges)
         assertEquals(DayOfWeek.entries.toSet(), focusDraft.activeDays)
         assertNull(viewModel.uiState.value.editorDraft)
         assertNull(viewModel.uiState.value.appEditorDraft)

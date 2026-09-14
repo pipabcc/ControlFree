@@ -172,6 +172,9 @@ internal fun resolveBackgroundContentPalette(
         )
     }
     if (bgType == "pure") {
+        if (bgColor == 0) {
+            return basePalette.toBackgroundContentPalette()
+        }
         val textPrimary = Color(0xFF17231C)
         val textSecondary = Color(0xFF3E4D44)
         val textTertiary = Color(0xFF58675E)

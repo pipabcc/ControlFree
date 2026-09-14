@@ -16,7 +16,7 @@ class LockInterventionUiPolicyTest {
 
     @Test
     fun `暂停提供约定的快捷时长`() {
-        assertEquals(listOf(5, 10, 15), LOCK_PAUSE_PRESET_MINUTES)
+        assertEquals(listOf(1, 5, 10), LOCK_PAUSE_PRESET_MINUTES)
     }
 
     @Test

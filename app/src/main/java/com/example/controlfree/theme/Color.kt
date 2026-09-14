@@ -44,13 +44,13 @@ object LightBrandColorInts {
     val SurfaceCard = 0xFFFFFFFF.toInt()
     val SurfaceRaised = 0xFFDFEAE3.toInt() // 改为更淡雅清澈的绿灰，去除原本沉重感
     val SurfaceMuted = 0xFFD2E2D7.toInt() // 改为更清透的绿灰
-    val Primary = 0xFF1B8253.toInt() // 升级为年轻大气、带有一丝松石调的高档莫兰迪雅绿
+    val Primary = 0xFF1A8052.toInt() // 升级为年轻大气、带有一丝松石调的高档莫兰迪雅绿
     val PrimaryBright = 0xFF2A9E6C.toInt() // 升级为清澈翠绿
     val PrimaryContainer = 0xFFE5F5EC.toInt() // 升级为清透水灵的微绿底，绝不发脏
     val OnPrimary = 0xFFFFFFFF.toInt()
     val Secondary = 0xFF0E7490.toInt()
     val SecondaryContainer = 0xFFE0F2FE.toInt()
-    val Success = 0xFF1B8253.toInt()
+    val Success = 0xFF1A8052.toInt()
     val SuccessContainer = 0xFFE5F5EC.toInt()
     val AppAccent = 0xFF465CC7.toInt()
     val Warning = 0xFF805600.toInt()

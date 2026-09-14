@@ -287,7 +287,8 @@ class SupervisionPlanTest {
                 )
             ),
             SupervisionPlanConflictDetector.findEnabledDeviceLockConflicts(
-                listOf(global, focus)
+                listOf(global, focus),
+                ZONE
             )
         )
     }
@@ -329,7 +330,8 @@ class SupervisionPlanTest {
         )
 
         val conflicts = SupervisionPlanConflictDetector.findEnabledDeviceLockConflicts(
-            listOf(oneTime, weekly)
+            listOf(oneTime, weekly),
+            ZONE
         )
         assertEquals(1, conflicts.size)
         assertEquals(PlanConflictReason.OVERLAPPING_TIME_RANGE, conflicts.single().reason)
@@ -360,7 +362,8 @@ class SupervisionPlanTest {
         )
 
         val conflicts = SupervisionPlanConflictDetector.findEnabledDeviceLockConflicts(
-            listOf(oneTime, weekly)
+            listOf(oneTime, weekly),
+            ZONE
         )
 
         assertEquals(1, conflicts.size)
