@@ -1,9 +1,21 @@
+import java.util.Properties
+
 plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.compose.compiler)
   alias(libs.plugins.ksp)
   alias(libs.plugins.cyclonedx.bom)
 }
+
+// 签名凭据不入库：优先读 gradle-local.properties（已被 .gitignore 排除），
+// 其次读环境变量。两者都缺失时 release 构建退化为 unsigned，不再报错。
+val signingProperties = Properties().apply {
+  val localFile = rootProject.file("gradle-local.properties")
+  if (localFile.exists()) localFile.inputStream().use(::load)
+}
+
+fun signingCredential(key: String, envKey: String): String? =
+  signingProperties.getProperty(key) ?: System.getenv(envKey)
 
 android {
     namespace = "com.example.controlfree"
@@ -19,17 +31,22 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("${project.rootDir}/../mykey.keystore")
-            storePassword = "123456"
-            keyAlias = "myalias"
-            keyPassword = "123456"
+            val storeFilePath = signingCredential("cf.release.storeFile", "CF_RELEASE_STORE_FILE")
+            if (storeFilePath != null) {
+                // 相对路径按项目根目录解析（与旧配置 rootDir/../mykey.keystore 一致）
+                storeFile = rootProject.file(storeFilePath)
+                storePassword = signingCredential("cf.release.storePassword", "CF_RELEASE_STORE_PASSWORD")
+                keyAlias = signingCredential("cf.release.keyAlias", "CF_RELEASE_KEY_ALIAS")
+                keyPassword = signingCredential("cf.release.keyPassword", "CF_RELEASE_KEY_PASSWORD")
+            }
         }
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            signingConfig = signingConfigs.getByName("release")
+            isMinifyEnabled = true
+            isShrinkResources = true
+            signingConfig = signingConfigs.getByName("release").takeIf { it.storeFile != null }
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
@@ -87,7 +104,6 @@ dependencies {
   implementation(libs.androidx.activity.compose)
   implementation(libs.androidx.room.runtime)
   implementation(libs.androidx.room.ktx)
-  debugImplementation(platform("org.jetbrains.kotlinx:kotlinx-serialization-bom:1.8.1"))
   ksp(libs.androidx.room.compiler)
 
   // Arch Components

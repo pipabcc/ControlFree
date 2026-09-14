@@ -339,7 +339,8 @@ internal object ProductivityAiPrompt {
             schema 必须为 controlfree.task-breakdown.v1。
             subtasks 是一个对象数组，每个对象字段必须且只能是 title。
         """.trimIndent(),
-        user = "拆解任务：$taskTitle",
+        // 与 quickNote/LedgerAiPrompt 一致：超长输入会触发客户端 16KB 上限直接失败
+        user = "拆解任务：${taskTitle.take(500)}",
         maxTokens = 600
     )
 

@@ -111,11 +111,16 @@ fun UnifiedCalendarScreen(
     var viewMode by remember { mutableStateOf(CalendarViewMode.MONTH) }
     var expandedEventGroupKeys by rememberSaveable { mutableStateOf(emptyList<String>()) }
     val today = state.today
-    val visibleDates = visibleDatesFor(
-        viewMode = viewMode,
-        today = today
-    )
-    val visibleStatistics = state.statistics(statisticsRangeFor(visibleDates))
+    val visibleDates = remember(viewMode, today) {
+        visibleDatesFor(
+            viewMode = viewMode,
+            today = today
+        )
+    }
+    // 统计聚合是 O(days×events)，remember 缓存避免每次重组重算
+    val visibleStatistics = remember(state.days, visibleDates) {
+        state.statistics(statisticsRangeFor(visibleDates))
+    }
 
     Scaffold(
         modifier = modifier.fillMaxSize(),
@@ -955,20 +960,29 @@ private fun CalendarEventsAggregationCard(
     expandedEventGroupKeys: List<String>,
     onToggleEventGroup: (String) -> Unit
 ) {
-    val focusEvents = events.filter { it.type == CalendarEventType.FOCUS }
-    val supervisionEvents = events.filter { it.type == CalendarEventType.SUPERVISION }
-    val todoEvents = events.filter { it.type == CalendarEventType.COMPLETED_TODO || it.type == CalendarEventType.PLANNED_TODO }
-    val habitEvents = events.filter { it.type == CalendarEventType.HABIT_COMPLETED || it.type == CalendarEventType.HABIT_DUE }
-    val anniversaryEvents = events.filter { it.type == CalendarEventType.ANNIVERSARY }
-    val ledgerEvents = events.filter { it.type == CalendarEventType.LEDGER }
-    val ledgerIncomeFen = ledgerEvents.asSequence()
-        .mapNotNull(ProductivityCalendarEvent::ledgerDetails)
-        .filter { it.direction == LedgerDirection.INCOME }
-        .sumOf { it.amountFen }
-    val ledgerExpenseFen = ledgerEvents.asSequence()
-        .mapNotNull(ProductivityCalendarEvent::ledgerDetails)
-        .filter { it.direction == LedgerDirection.EXPENSE }
-        .sumOf { it.amountFen }
+    // 分组与收支汇总只取决于 events 本身，remember 缓存避免每次重组重复过滤
+    val focusEvents = remember(events) { events.filter { it.type == CalendarEventType.FOCUS } }
+    val supervisionEvents = remember(events) { events.filter { it.type == CalendarEventType.SUPERVISION } }
+    val todoEvents = remember(events) {
+        events.filter { it.type == CalendarEventType.COMPLETED_TODO || it.type == CalendarEventType.PLANNED_TODO }
+    }
+    val habitEvents = remember(events) {
+        events.filter { it.type == CalendarEventType.HABIT_COMPLETED || it.type == CalendarEventType.HABIT_DUE }
+    }
+    val anniversaryEvents = remember(events) { events.filter { it.type == CalendarEventType.ANNIVERSARY } }
+    val ledgerEvents = remember(events) { events.filter { it.type == CalendarEventType.LEDGER } }
+    val ledgerIncomeFen = remember(ledgerEvents) {
+        ledgerEvents.asSequence()
+            .mapNotNull(ProductivityCalendarEvent::ledgerDetails)
+            .filter { it.direction == LedgerDirection.INCOME }
+            .sumOf { it.amountFen }
+    }
+    val ledgerExpenseFen = remember(ledgerEvents) {
+        ledgerEvents.asSequence()
+            .mapNotNull(ProductivityCalendarEvent::ledgerDetails)
+            .filter { it.direction == LedgerDirection.EXPENSE }
+            .sumOf { it.amountFen }
+    }
     val focusGroupKey = calendarEventGroupKey(date, CalendarEventType.FOCUS)
     val supervisionGroupKey = calendarEventGroupKey(date, CalendarEventType.SUPERVISION)
 

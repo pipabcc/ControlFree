@@ -686,16 +686,29 @@ class PreferenceManager(context: Context) {
         }
     }
 
+    @Synchronized
     fun getInterceptCount(): Int = try {
-        prefs.getInt("key_intercept_count_today", 12)
+        // 计数只对"当天"有效：日期不匹配时视为 0，跨天自动归零。
+        val today = java.time.LocalDate.now().toString()
+        if (prefs.getString(KEY_INTERCEPT_COUNT_DATE, null) == today) {
+            prefs.getInt(KEY_INTERCEPT_COUNT, 0)
+        } else {
+            0
+        }
     } catch (_: RuntimeException) {
-        12
+        0
     }
 
+    @Synchronized
     fun incrementInterceptCount() {
         try {
-            val current = getInterceptCount()
-            prefs.edit().putInt("key_intercept_count_today", current + 1).apply()
+            val today = java.time.LocalDate.now().toString()
+            val storedDate = prefs.getString(KEY_INTERCEPT_COUNT_DATE, null)
+            val current = if (storedDate == today) prefs.getInt(KEY_INTERCEPT_COUNT, 0) else 0
+            prefs.edit()
+                .putString(KEY_INTERCEPT_COUNT_DATE, today)
+                .putInt(KEY_INTERCEPT_COUNT, current + 1)
+                .apply()
         } catch (_: RuntimeException) {
         }
     }
@@ -730,6 +743,9 @@ class PreferenceManager(context: Context) {
         const val PREFERENCES_NAME = "control_free_prefs"
 
         const val KEY_DARK_THEME_ENABLED = "dark_theme_enabled"
+
+        const val KEY_INTERCEPT_COUNT = "key_intercept_count_today"
+        const val KEY_INTERCEPT_COUNT_DATE = "key_intercept_count_date"
 
         const val KEY_USAGE_TIME = "usage_time"
         const val KEY_LOCK_TIME = "lock_time"

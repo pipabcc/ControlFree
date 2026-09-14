@@ -59,6 +59,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.flow.stateIn
@@ -228,10 +229,14 @@ class UnifiedCalendarViewModel(application: Application) : AndroidViewModel(appl
             today = Instant.ofEpochMilli(nowEpochMillis).atZone(zoneId).toLocalDate(),
             visibleRange = visibleRange
         )
-    }.stateIn(
-        viewModelScope,
-        SharingStarted.WhileSubscribed(5_000),
-        UnifiedCalendarUiState(
+    }
+        // 事件工厂与汇总要遍历约 38 天 × 全部实体；每个 tick 都会执行，
+        // 移到 Default 调度器避免占用主线程。
+        .flowOn(Dispatchers.Default)
+        .stateIn(
+            viewModelScope,
+            SharingStarted.WhileSubscribed(5_000),
+            UnifiedCalendarUiState(
             month = _selectedMonth.value,
             selectedDate = _selectedDate.value,
             days = emptyMap(),

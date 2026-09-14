@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
 import android.util.Base64
+import javax.crypto.AEADBadTagException
 import java.security.GeneralSecurityException
 import java.security.KeyStore
 import javax.crypto.Cipher
@@ -84,7 +85,7 @@ internal class AiApiKeyStore internal constructor(
                 encodedCiphertext = preferences.getString(KEY_CIPHERTEXT, null)
             )
         } catch (_: RuntimeException) {
-            clearCorruptedValues()
+            // 读取 SharedPreferences 失败不代表密文损坏，保留数据以便存储恢复后重试。
             return AiApiKeyReadResult.StorageUnavailable
         }
         val version = metadata.version
@@ -125,17 +126,21 @@ internal class AiApiKeyStore internal constructor(
             } finally {
                 plaintext.fill(0)
             }
-        } catch (_: GeneralSecurityException) {
+        } catch (e: AEADBadTagException) {
+            // GCM 校验失败说明密文确实被破坏，只有确定性损坏才允许清除。
             clearCorruptedValues()
             AiApiKeyReadResult.StorageUnavailable
+        } catch (_: GeneralSecurityException) {
+            // 密钥暂时不可用（KeyStore 未就绪等）时保留密文，失败关闭但不删数据。
+            AiApiKeyReadResult.StorageUnavailable
         } catch (_: IllegalArgumentException) {
+            // Base64 解码失败属于确定性损坏。
             clearCorruptedValues()
             AiApiKeyReadResult.StorageUnavailable
         } catch (_: RuntimeException) {
-            clearCorruptedValues()
+            // KeyStore ProviderException 等运行时异常可能是瞬时的，保留密文。
             AiApiKeyReadResult.StorageUnavailable
         } catch (_: Exception) {
-            clearCorruptedValues()
             AiApiKeyReadResult.StorageUnavailable
         }
     }

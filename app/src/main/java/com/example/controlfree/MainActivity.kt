@@ -15,6 +15,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.mutableIntStateOf
 import kotlinx.coroutines.delay
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.mutableStateOf
@@ -294,17 +295,6 @@ class MainActivity : ComponentActivity() {
                   }
               }
 
-              var elapsedSeconds by remember { mutableFloatStateOf(0f) }
-              LaunchedEffect(isAnalyzing) {
-                  if (isAnalyzing) {
-                      elapsedSeconds = 0f
-                      while (true) {
-                          delay(100)
-                          elapsedSeconds += 0.1f
-                      }
-                  }
-              }
-
               Dialog(
                   onDismissRequest = {
                       if (!isAnalyzing) {
@@ -387,12 +377,8 @@ class MainActivity : ComponentActivity() {
                                       strokeWidth = 2.dp
                                   )
                                   Spacer(Modifier.width(12.dp))
-                                  Text(
-                                      text = "AI 助理分析中... ${String.format(Locale.CHINA, "%.1fs", elapsedSeconds)}",
-                                      color = BrandColors.Primary,
-                                      fontSize = 14.sp,
-                                      fontWeight = FontWeight.Bold
-                                  )
+                                  // 计时文本自带状态，避免每秒重组成个弹窗
+                                  AnalyzingTimerText()
                               }
                           }
 
@@ -784,3 +770,21 @@ private fun formatTimestamp(epochMillis: Long): String = runCatching {
         .atZone(java.time.ZoneId.systemDefault())
         .format(java.time.format.DateTimeFormatter.ofPattern("M月d日 HH:mm"))
 }.getOrDefault("")
+
+/** AI 分析中的秒级计时；状态自持，把每秒重组隔离在这个小文本里。 */
+@Composable
+private fun AnalyzingTimerText() {
+    var elapsedSeconds by remember { mutableIntStateOf(0) }
+    LaunchedEffect(Unit) {
+        while (true) {
+            delay(1_000)
+            elapsedSeconds++
+        }
+    }
+    Text(
+        text = "AI 助理分析中... ${elapsedSeconds}s",
+        color = BrandColors.Primary,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Bold
+    )
+}

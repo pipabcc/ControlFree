@@ -96,15 +96,10 @@ class ReminderAlertActivity : ComponentActivity() {
                                 ),
                             contentAlignment = Alignment.Center
                         ) {
-                            val plantDrawable = remember {
-                                GrowingPlantDrawable(com.example.controlfree.growth.GrowthStage.SEEDLING).apply { start() }
-                            }
-                            androidx.compose.foundation.Canvas(
+                            com.example.controlfree.ui.common.GrowingPlantCanvas(
+                                stage = com.example.controlfree.growth.GrowthStage.SEEDLING,
                                 modifier = Modifier.size(82.dp)
-                            ) {
-                                plantDrawable.setBounds(0, 0, size.width.toInt(), size.height.toInt())
-                                plantDrawable.draw(drawContext.canvas.nativeCanvas)
-                            }
+                            )
                         }
                         Spacer(modifier = Modifier.height(20.dp))
                         Text(

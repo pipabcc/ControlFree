@@ -9,7 +9,9 @@ import android.graphics.PixelFormat
 import android.graphics.RectF
 import android.graphics.drawable.Animatable
 import android.graphics.drawable.Drawable
+import android.view.View
 import android.view.animation.LinearInterpolator
+import android.widget.ImageView
 import com.example.controlfree.growth.GrowthStage
 
 /**
@@ -26,6 +28,102 @@ internal class GrowingPlantDrawable(
     private var breatheScale = 1.0f
     private var starAlpha = 1.0f
     private var rotateAngle = 0f
+
+    /**
+     * Compose Canvas 直接 draw 时没有 Drawable callback，invalidateSelf() 不会触发重绘。
+     * 外部可注册该回调，在每帧动画更新时驱动 Compose 状态刷新。
+     */
+    var onFrameChanged: (() -> Unit)? = null
+
+    // —— 几何缓存：Path 仅在 bounds 变化时重建，避免动画期间每帧分配 ——
+    private val geometry = PlantGeometry()
+    private var geometryWidth = 0
+    private var geometryHeight = 0
+
+    private class PlantGeometry {
+        val clipCircle = Path()
+        val dirt = Path()
+        val stem = Path()
+        val branchL = Path()
+        val branchR = Path()
+        val sideBranch = Path()
+        val leaves = HashMap<Long, Path>()
+        val veins = HashMap<Long, Path>()
+        val star = Path()
+        var starOffsets = FloatArray(0)
+    }
+
+    private fun ensureGeometry() {
+        val width = bounds.width()
+        val height = bounds.height()
+        if (width == geometryWidth && height == geometryHeight) return
+        geometryWidth = width
+        geometryHeight = height
+        rebuildGeometry(width.toFloat(), height.toFloat())
+    }
+
+    private fun rebuildGeometry(width: Float, height: Float) {
+        val radius = minOf(width, height) * 0.42f
+        val density = minOf(width, height) / 100f
+        val cx = width / 2f
+        val cy = height / 2f
+
+        geometry.clipCircle.reset()
+        geometry.clipCircle.addCircle(cx, cy, radius, Path.Direction.CW)
+
+        geometry.dirt.reset()
+        geometry.dirt.moveTo(cx - radius, cy + radius * 0.72f)
+        geometry.dirt.quadTo(cx, cy + radius * 0.68f, cx + radius, cy + radius * 0.72f)
+        geometry.dirt.lineTo(cx + radius, cy + radius * 1.2f)
+        geometry.dirt.lineTo(cx - radius, cy + radius * 1.2f)
+        geometry.dirt.close()
+
+        geometry.stem.reset()
+        geometry.branchL.reset()
+        geometry.branchR.reset()
+        geometry.sideBranch.reset()
+        when (stage) {
+            GrowthStage.SEEDLING -> {
+                geometry.stem.moveTo(0f, 0f)
+                geometry.stem.quadTo(-density * 2f, -radius * 0.35f, 0f, -radius * 0.85f)
+            }
+            GrowthStage.NEW_LEAF -> {
+                geometry.stem.moveTo(0f, 0f)
+                geometry.stem.quadTo(-density * 3f, -radius * 0.4f, 0f, -radius * 0.88f)
+            }
+            GrowthStage.GREEN_BRANCH -> {
+                geometry.stem.moveTo(0f, 0f)
+                geometry.stem.quadTo(-density * 3f, -radius * 0.42f, -density * 1.5f, -radius * 0.90f)
+                geometry.sideBranch.moveTo(-density * 2.2f, -radius * 0.35f)
+                geometry.sideBranch.quadTo(-density * 8f, -radius * 0.5f, -density * 11f, -radius * 0.65f)
+            }
+            GrowthStage.GUARDIAN -> {
+                geometry.stem.moveTo(0f, 0f)
+                geometry.stem.quadTo(-density * 1f, -radius * 0.4f, 0f, -radius * 0.94f)
+                geometry.branchL.moveTo(-density * 0.5f, -radius * 0.3f)
+                geometry.branchL.quadTo(-density * 7f, -radius * 0.45f, -density * 10f, -radius * 0.58f)
+                geometry.branchR.moveTo(density * 0.5f, -radius * 0.4f)
+                geometry.branchR.quadTo(density * 7f, -radius * 0.55f, density * 10f, -radius * 0.65f)
+            }
+            GrowthStage.STAR_BLOOM -> {
+                geometry.stem.moveTo(0f, 0f)
+                geometry.stem.quadTo(-density * 1f, -radius * 0.4f, 0f, -radius * 0.94f)
+                geometry.branchL.moveTo(-density * 0.5f, -radius * 0.3f)
+                geometry.branchL.quadTo(-density * 8f, -radius * 0.45f, -density * 11f, -radius * 0.60f)
+                geometry.branchR.moveTo(density * 0.5f, -radius * 0.4f)
+                geometry.branchR.quadTo(density * 8f, -radius * 0.55f, density * 11f, -radius * 0.68f)
+            }
+        }
+
+        geometry.starOffsets = floatArrayOf(
+            -radius * 0.7f, -radius * 0.7f,
+            radius * 0.8f, -radius * 0.5f,
+            -radius * 0.6f, radius * 0.1f,
+            radius * 0.7f, radius * 0.4f
+        )
+        geometry.leaves.clear()
+        geometry.veins.clear()
+    }
 
     // 绘制画笔
     private val bgPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
@@ -99,6 +197,7 @@ internal class GrowingPlantDrawable(
         val width = bounds.width().toFloat()
         val height = bounds.height().toFloat()
         if (width <= 0f || height <= 0f) return
+        ensureGeometry()
 
         val cx = width / 2f
         val cy = height / 2f
@@ -116,18 +215,8 @@ internal class GrowingPlantDrawable(
 
         // 3. 绘制泥土小丘（使用 clipPath 限制在底盘内，防边缘溢出与分离）
         canvas.save()
-        val clipCirclePath = Path().apply {
-            addCircle(cx, cy, radius, Path.Direction.CW)
-        }
-        canvas.clipPath(clipCirclePath)
-        val dirtPath = Path().apply {
-            moveTo(cx - radius, cy + radius * 0.72f)
-            quadTo(cx, cy + radius * 0.68f, cx + radius, cy + radius * 0.72f)
-            lineTo(cx + radius, cy + radius * 1.2f)
-            lineTo(cx - radius, cy + radius * 1.2f)
-            close()
-        }
-        canvas.drawPath(dirtPath, dirtPaint)
+        canvas.clipPath(geometry.clipCircle)
+        canvas.drawPath(geometry.dirt, dirtPaint)
         canvas.restore()
 
         // 4. 平移旋转 Canvas 实现微风吹动摇摆（以茎部根部为支点）
@@ -142,11 +231,7 @@ internal class GrowingPlantDrawable(
         when (stage) {
             GrowthStage.SEEDLING -> {
                 // 初芽：主茎较细，两片对称椭圆子叶
-                val stemPath = Path().apply {
-                    moveTo(0f, 0f)
-                    quadTo(-density * 2f, -radius * 0.35f, 0f, -radius * 0.85f)
-                }
-                canvas.drawPath(stemPath, stemPaint)
+                canvas.drawPath(geometry.stem, stemPaint)
 
                 // 顶端子叶
                 canvas.save()
@@ -157,11 +242,7 @@ internal class GrowingPlantDrawable(
             }
             GrowthStage.NEW_LEAF -> {
                 // 新叶：主茎稍粗，三片叶子（一侧多长一片较亮新叶）
-                val stemPath = Path().apply {
-                    moveTo(0f, 0f)
-                    quadTo(-density * 3f, -radius * 0.4f, 0f, -radius * 0.88f)
-                }
-                canvas.drawPath(stemPath, stemPaint)
+                canvas.drawPath(geometry.stem, stemPaint)
 
                 // 左右大叶
                 canvas.save()
@@ -178,18 +259,8 @@ internal class GrowingPlantDrawable(
             }
             GrowthStage.GREEN_BRANCH -> {
                 // 青枝：分叉茎干，四到五片叶子加顶端圆润花苞
-                val stemPath = Path().apply {
-                    moveTo(0f, 0f)
-                    quadTo(-density * 3f, -radius * 0.42f, -density * 1.5f, -radius * 0.90f)
-                }
-                canvas.drawPath(stemPath, stemPaint)
-
-                // 左侧分枝
-                val branchPath = Path().apply {
-                    moveTo(-density * 2.2f, -radius * 0.35f)
-                    quadTo(-density * 8f, -radius * 0.5f, -density * 11f, -radius * 0.65f)
-                }
-                canvas.drawPath(branchPath, stemPaint)
+                canvas.drawPath(geometry.stem, stemPaint)
+                canvas.drawPath(geometry.sideBranch, stemPaint)
 
                 // 侧枝叶片
                 canvas.save()
@@ -209,23 +280,9 @@ internal class GrowingPlantDrawable(
             }
             GrowthStage.GUARDIAN -> {
                 // 守望：茎粗壮多叶，顶端绽放出一朵美丽的5瓣守护白花
-                val stemPath = Path().apply {
-                    moveTo(0f, 0f)
-                    quadTo(-density * 1f, -radius * 0.4f, 0f, -radius * 0.94f)
-                }
-                canvas.drawPath(stemPath, stemPaint)
-
-                // 左右大分枝
-                val branchL = Path().apply {
-                    moveTo(-density * 0.5f, -radius * 0.3f)
-                    quadTo(-density * 7f, -radius * 0.45f, -density * 10f, -radius * 0.58f)
-                }
-                val branchR = Path().apply {
-                    moveTo(density * 0.5f, -radius * 0.4f)
-                    quadTo(density * 7f, -radius * 0.55f, density * 10f, -radius * 0.65f)
-                }
-                canvas.drawPath(branchL, stemPaint)
-                canvas.drawPath(branchR, stemPaint)
+                canvas.drawPath(geometry.stem, stemPaint)
+                canvas.drawPath(geometry.branchL, stemPaint)
+                canvas.drawPath(geometry.branchR, stemPaint)
 
                 // 分枝茂盛叶片
                 canvas.save()
@@ -261,23 +318,9 @@ internal class GrowingPlantDrawable(
             }
             GrowthStage.STAR_BLOOM -> {
                 // 星芽：繁茂灌木型小草，长有红熟小浆果
-                val stemPath = Path().apply {
-                    moveTo(0f, 0f)
-                    quadTo(-density * 1f, -radius * 0.4f, 0f, -radius * 0.94f)
-                }
-                canvas.drawPath(stemPath, stemPaint)
-
-                // 复杂分枝
-                val branchL = Path().apply {
-                    moveTo(-density * 0.5f, -radius * 0.3f)
-                    quadTo(-density * 8f, -radius * 0.45f, -density * 11f, -radius * 0.60f)
-                }
-                val branchR = Path().apply {
-                    moveTo(density * 0.5f, -radius * 0.4f)
-                    quadTo(density * 8f, -radius * 0.55f, density * 11f, -radius * 0.68f)
-                }
-                canvas.drawPath(branchL, stemPaint)
-                canvas.drawPath(branchR, stemPaint)
+                canvas.drawPath(geometry.stem, stemPaint)
+                canvas.drawPath(geometry.branchL, stemPaint)
+                canvas.drawPath(geometry.branchR, stemPaint)
 
                 // 多层叶片
                 canvas.save()
@@ -335,23 +378,29 @@ internal class GrowingPlantDrawable(
         leafPaint.color = if (isYoung) 0xFF4ADE80.toInt() else 0xFF34AF72.toInt()
         leafVeinPaint.color = if (isYoung) 0xFF22C55E.toInt() else 0xFF238E5A.toInt()
 
-        val path = Path().apply {
-            moveTo(0f, 0f)
-            if (isLeft) {
-                cubicTo(-length * 0.35f, -length * 0.15f, -length * 0.55f, -length * 0.55f, 0f, -length)
-                cubicTo(length * 0.18f, -length * 0.55f, length * 0.08f, -length * 0.18f, 0f, 0f)
-            } else {
-                cubicTo(length * 0.35f, -length * 0.15f, length * 0.55f, -length * 0.55f, 0f, -length)
-                cubicTo(-length * 0.18f, -length * 0.55f, -length * 0.08f, -length * 0.18f, 0f, 0f)
+        // 叶片形状只取决于 (length, isLeft)，缓存复用避免每帧分配
+        val shapeKey = (length.toRawBits().toLong() shl 1) or if (isLeft) 0L else 1L
+        val path = geometry.leaves.getOrPut(shapeKey) {
+            Path().apply {
+                moveTo(0f, 0f)
+                if (isLeft) {
+                    cubicTo(-length * 0.35f, -length * 0.15f, -length * 0.55f, -length * 0.55f, 0f, -length)
+                    cubicTo(length * 0.18f, -length * 0.55f, length * 0.08f, -length * 0.18f, 0f, 0f)
+                } else {
+                    cubicTo(length * 0.35f, -length * 0.15f, length * 0.55f, -length * 0.55f, 0f, -length)
+                    cubicTo(-length * 0.18f, -length * 0.55f, -length * 0.08f, -length * 0.18f, 0f, 0f)
+                }
+                close()
             }
-            close()
         }
         canvas.drawPath(path, leafPaint)
 
         // 绘制一条极细的叶片主脉，极富工艺细节
-        val veinPath = Path().apply {
-            moveTo(0f, 0f)
-            quadTo(if (isLeft) -length * 0.04f else length * 0.04f, -length * 0.5f, 0f, -length)
+        val veinPath = geometry.veins.getOrPut(shapeKey) {
+            Path().apply {
+                moveTo(0f, 0f)
+                quadTo(if (isLeft) -length * 0.04f else length * 0.04f, -length * 0.5f, 0f, -length)
+            }
         }
         canvas.drawPath(veinPath, leafVeinPaint)
 
@@ -414,28 +463,23 @@ internal class GrowingPlantDrawable(
     ) {
         starPaint.alpha = (255 * starAlpha).toInt()
 
-        // 固定的几颗漂浮在空中的黄色闪光小四角星
-        val starOffsets = arrayOf(
-            Pair(-radius * 0.7f, -radius * 0.7f),
-            Pair(radius * 0.8f, -radius * 0.5f),
-            Pair(-radius * 0.6f, radius * 0.1f),
-            Pair(radius * 0.7f, radius * 0.4f)
-        )
-
-        val starPath = Path()
+        // 固定的几颗漂浮在空中的黄色闪光小四角星（偏移量已按 bounds 缓存）
+        val offsets = geometry.starOffsets
         val size = density * 2.5f
 
-        for (offset in starOffsets) {
-            val sx = cx + offset.first
-            val sy = cy + offset.second
-            starPath.reset()
-            starPath.moveTo(sx, sy - size)
-            starPath.quadTo(sx, sy, sx + size, sy)
-            starPath.quadTo(sx, sy, sx, sy + size)
-            starPath.quadTo(sx, sy, sx - size, sy)
-            starPath.quadTo(sx, sy, sx, sy - size)
-            starPath.close()
-            canvas.drawPath(starPath, starPaint)
+        var index = 0
+        while (index < offsets.size) {
+            val sx = cx + offsets[index]
+            val sy = cy + offsets[index + 1]
+            geometry.star.reset()
+            geometry.star.moveTo(sx, sy - size)
+            geometry.star.quadTo(sx, sy, sx + size, sy)
+            geometry.star.quadTo(sx, sy, sx, sy + size)
+            geometry.star.quadTo(sx, sy, sx - size, sy)
+            geometry.star.quadTo(sx, sy, sx, sy - size)
+            geometry.star.close()
+            canvas.drawPath(geometry.star, starPaint)
+            index += 2
         }
     }
 
@@ -485,6 +529,7 @@ internal class GrowingPlantDrawable(
                     starAlpha = 0.35f + Math.abs(Math.sin(time.toDouble() * 1.5)).toFloat() * 0.65f
                     rotateAngle = (time / (2f * Math.PI.toFloat())) * 360f // 围绕中心徐徐自转
                     invalidateSelf()
+                    onFrameChanged?.invoke()
                 }
                 start()
             }
@@ -497,6 +542,24 @@ internal class GrowingPlantDrawable(
     }
 
     override fun isRunning(): Boolean = animator != null
+}
+
+/**
+ * 让 ImageView 在挂载到窗口时自动启动摇曳动画、脱离窗口时停止，
+ * 避免无限 ValueAnimator 在视图销毁后仍然空转泄漏。
+ */
+internal fun ImageView.animateGrowingPlantWhenAttached(drawable: GrowingPlantDrawable) {
+    setImageDrawable(drawable)
+    addOnAttachStateChangeListener(object : View.OnAttachStateChangeListener {
+        override fun onViewAttachedToWindow(v: View) {
+            drawable.start()
+        }
+
+        override fun onViewDetachedFromWindow(v: View) {
+            drawable.stop()
+        }
+    })
+    if (isAttachedToWindow) drawable.start()
 }
 
 private typealias CenterX = Float

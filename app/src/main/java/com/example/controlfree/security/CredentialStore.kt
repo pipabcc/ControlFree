@@ -199,17 +199,19 @@ class CredentialStore(context: Context) {
 
     private fun recordFailure(nowMillis: Long): VerificationResult {
         val failures = readIntOrDefault(FAILED_ATTEMPTS, 0) + 1
+        // 防爆破计数与锁定时间必须同步落盘（commit 而非 apply），
+        // 否则进程被杀时攻击者可通过制造崩溃重置失败计数绕过锁定。
         return if (failures >= MAX_FAILED_ATTEMPTS) {
             prefs.edit()
                 .putInt(FAILED_ATTEMPTS, 0)
                 .putLong(LOCKOUT_UNTIL, nowMillis + LOCKOUT_MILLIS)
-                .apply()
+                .commit()
             VerificationResult(
                 status = VerificationStatus.LOCKED,
                 retryAfterSeconds = (LOCKOUT_MILLIS / 1_000L).toInt()
             )
         } else {
-            prefs.edit().putInt(FAILED_ATTEMPTS, failures).apply()
+            prefs.edit().putInt(FAILED_ATTEMPTS, failures).commit()
             VerificationResult(VerificationStatus.FAILURE)
         }
     }

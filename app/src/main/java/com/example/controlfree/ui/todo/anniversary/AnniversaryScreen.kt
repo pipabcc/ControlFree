@@ -142,9 +142,11 @@ fun AnniversaryScreen(
     val applicationContext = LocalContext.current.applicationContext
     val items by viewModel.anniversaries.collectAsStateWithLifecycle()
     val isAnniversaryDataLoaded by viewModel.isAnniversaryDataLoaded.collectAsStateWithLifecycle()
+    // 屏幕级时钟只用于日期粒度（新建时的 today）；秒级倒计时由卡片内部时钟驱动，
+    // 避免整页每秒重组。
     val now by produceState(initialValue = viewModel.clock.instant(), viewModel.clock) {
         while (true) {
-            val waitMillis = 1_000L - viewModel.clock.millis().mod(1_000L)
+            val waitMillis = 60_000L - viewModel.clock.millis().mod(60_000L)
             delay(waitMillis)
             value = viewModel.clock.instant()
         }
@@ -345,7 +347,6 @@ fun AnniversaryScreen(
                 items(sortedItems, key = AnniversaryItemEntity::id) { item ->
                     AnniversaryCard(
                         item = item,
-                        now = now,
                         viewModel = viewModel,
                         onEdit = {
                             editorDraft = AnniversaryEditorDraft.fromEntity(item, viewModel.clock.zone)
@@ -663,13 +664,20 @@ private fun pillText(
 @Composable
 private fun AnniversaryCard(
     item: AnniversaryItemEntity,
-    now: Instant,
     viewModel: AnniversaryViewModel,
     onEdit: () -> Unit,
     onPinChanged: (Boolean) -> Unit,
     onWidgetChanged: (Boolean) -> Unit,
     onLockChanged: (Boolean) -> Unit
 ) {
+    // 卡片自持秒级时钟：倒计时显示精确到秒，但重组只限于本卡片
+    val now by produceState(initialValue = viewModel.clock.instant(), viewModel.clock) {
+        while (true) {
+            val waitMillis = 1_000L - viewModel.clock.millis().mod(1_000L)
+            delay(waitMillis)
+            value = viewModel.clock.instant()
+        }
+    }
     val occurrence = remember(item, now.epochSecond) {
         runCatching { viewModel.occurrenceFor(item, now) }.getOrNull()
     }

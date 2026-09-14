@@ -2,6 +2,10 @@ package com.example.controlfree.ai
 
 internal object AiCompanionPrompt {
 
+    /** 锁屏聊天历史只保留最近的消息条数；配合单条截断保证请求体远小于 16KB 上限。 */
+    private const val MAX_CHAT_HISTORY_MESSAGES = 12
+    private const val MAX_CHAT_MESSAGE_CHARS = 300
+
     fun buildChatRequest(
         request: AiChatRequest
     ): String {
@@ -69,25 +73,38 @@ internal object AiCompanionPrompt {
         systemMessage: String,
         history: List<AiChatMessage>,
         maxTokens: Int
-    ): String = buildString(systemMessage.length + history.sumOf { it.content.length } + 320) {
-        append('{')
-        appendJsonString("model", DeepSeekClient.MODEL_NAME)
-        append(",\"messages\":[{")
-        appendJsonString("role", "system")
-        append(',')
-        appendJsonString("content", systemMessage)
-        append('}')
-        history.forEach { msg ->
-            append(",{")
-            appendJsonString("role", msg.role)
+    ): String {
+        // 客户端硬性限制请求体 16KB；不截断历史时，长对话必然永久失败。
+        // 只保留最近若干条并对单条内容截断，与其他 AI 入口（take(1000/2400)）一致。
+        val boundedHistory = history
+            .takeLast(MAX_CHAT_HISTORY_MESSAGES)
+            .map { message ->
+                if (message.content.length <= MAX_CHAT_MESSAGE_CHARS) {
+                    message
+                } else {
+                    message.copy(content = message.content.take(MAX_CHAT_MESSAGE_CHARS))
+                }
+            }
+        return buildString(systemMessage.length + boundedHistory.sumOf { it.content.length } + 320) {
+            append('{')
+            appendJsonString("model", DeepSeekClient.MODEL_NAME)
+            append(",\"messages\":[{")
+            appendJsonString("role", "system")
             append(',')
-            appendJsonString("content", msg.content)
+            appendJsonString("content", systemMessage)
+            append('}')
+            boundedHistory.forEach { msg ->
+                append(",{")
+                appendJsonString("role", msg.role)
+                append(',')
+                appendJsonString("content", msg.content)
+                append('}')
+            }
+            append("],\"stream\":false,\"temperature\":0.7,")
+            appendJsonNumber("max_tokens", maxTokens)
+            append(",\"thinking\":{\"type\":\"disabled\"}")
             append('}')
         }
-        append("],\"stream\":false,\"temperature\":0.7,")
-        appendJsonNumber("max_tokens", maxTokens)
-        append(",\"thinking\":{\"type\":\"disabled\"}")
-        append('}')
     }
 
     private fun StringBuilder.appendJsonString(name: String, value: String) {

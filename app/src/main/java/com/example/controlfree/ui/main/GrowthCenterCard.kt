@@ -109,15 +109,10 @@ internal fun GrowthLevelCard(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 val currentStage = account?.levelProgress?.stage ?: com.example.controlfree.growth.GrowthStage.SEEDLING
-                val plantDrawable = remember(currentStage) {
-                    com.example.controlfree.GrowingPlantDrawable(currentStage).apply { start() }
-                }
-                androidx.compose.foundation.Canvas(
+                com.example.controlfree.ui.common.GrowingPlantCanvas(
+                    stage = currentStage,
                     modifier = Modifier.size(62.dp)
-                ) {
-                    plantDrawable.setBounds(0, 0, size.width.toInt(), size.height.toInt())
-                    plantDrawable.draw(drawContext.canvas.nativeCanvas)
-                }
+                )
                 Column(Modifier.weight(1f)) {
                     Text(
                         "自律成长",
@@ -499,10 +494,8 @@ private fun PetStageUpgradeDialog(
                         ),
                     contentAlignment = Alignment.Center
                 ) {
-                    val plantDrawable = remember(event.currentStage) {
-                        com.example.controlfree.GrowingPlantDrawable(event.currentStage).apply { start() }
-                    }
-                    androidx.compose.foundation.Canvas(
+                    com.example.controlfree.ui.common.GrowingPlantCanvas(
+                        stage = event.currentStage,
                         modifier = Modifier
                             .size(82.dp)
                             .graphicsLayer {
@@ -510,10 +503,7 @@ private fun PetStageUpgradeDialog(
                                 scaleY = scale
                                 rotationZ = rotation
                             }
-                    ) {
-                        plantDrawable.setBounds(0, 0, size.width.toInt(), size.height.toInt())
-                        plantDrawable.draw(drawContext.canvas.nativeCanvas)
-                    }
+                    )
                 }
                 Text(
                     "${profile.expressionMark} 新阶段能力已解锁",

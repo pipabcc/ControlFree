@@ -22,9 +22,15 @@ class MonitorRecoveryGuard(context: Context) {
     private val appContext = context.applicationContext
     private val atomicFile = AtomicFile(File(context.noBackupFilesDir, FILE_NAME))
 
+    // 锁屏界面每秒调用 requiresLock()；本进程内对该文件的所有读写都经过
+    // FILE_LOCK 串行，因此读结果可以进程级缓存，仅在写入后失效。
+    private val progressPreferences: PreferenceManager by lazy {
+        PreferenceManager(appContext)
+    }
+
     fun requiresLock(): Boolean {
         val persistedSnapshot = runCatching {
-            PreferenceManager(appContext).loadMonitorProgress()
+            progressPreferences.loadMonitorProgress()
         }.getOrNull()
         return requiresLock(persistedSnapshot)
     }
@@ -59,6 +65,7 @@ class MonitorRecoveryGuard(context: Context) {
     }
 
     fun clear(): Boolean = synchronized(FILE_LOCK) {
+        cachedCheckpointRead = null
         try {
             atomicFile.delete()
             !guardFileExists()
@@ -67,7 +74,12 @@ class MonitorRecoveryGuard(context: Context) {
         }
     }
 
-    private fun readCheckpoint(): CheckpointRead = try {
+    private fun readCheckpoint(): CheckpointRead = synchronized(FILE_LOCK) {
+        // 命中缓存时避免真实磁盘读取；写入路径会主动失效缓存。
+        cachedCheckpointRead ?: readCheckpointUncached().also { cachedCheckpointRead = it }
+    }
+
+    private fun readCheckpointUncached(): CheckpointRead = try {
         atomicFile.openRead().use { input ->
             val data = DataInputStream(input)
             if (data.readUTF() != CHECKPOINT_MAGIC) return CheckpointRead(exists = true)
@@ -119,11 +131,14 @@ class MonitorRecoveryGuard(context: Context) {
             write(stream)
             atomicFile.finishWrite(stream)
             output = null
+            synchronized(FILE_LOCK) { cachedCheckpointRead = null }
             true
         } catch (_: IOException) {
+            synchronized(FILE_LOCK) { cachedCheckpointRead = null }
             output?.let(::failWriteQuietly)
             false
         } catch (_: RuntimeException) {
+            synchronized(FILE_LOCK) { cachedCheckpointRead = null }
             output?.let(::failWriteQuietly)
             false
         }
@@ -196,5 +211,8 @@ class MonitorRecoveryGuard(context: Context) {
         const val CHECKPOINT_MAGIC = "CONTROL_FREE_MONITOR_CHECKPOINT_V2"
         val LEGACY_MAGIC_BYTES = "CONTROL_FREE_LOCK_V1".encodeToByteArray()
         val FILE_LOCK = Any()
+
+        /** 进程级读缓存；仅允许在 FILE_LOCK 内访问，写入路径负责失效。 */
+        var cachedCheckpointRead: MonitorRecoveryGuard.CheckpointRead? = null
     }
 }

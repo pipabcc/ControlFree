@@ -169,8 +169,10 @@ internal fun SupervisionPlansSection(
         }
     }
     LaunchedEffect(Unit) {
+        // 本区块的时钟只用于分钟级语义（时间窗判断、统计刷新桶），
+        // 30 秒 tick 足够；秒级倒计时由服务推送的 remainingSeconds 单独驱动。
         while (true) {
-            delay(1_000L)
+            delay(30_000L)
             now = Instant.now()
         }
     }
@@ -231,11 +233,17 @@ internal fun SupervisionPlansSection(
         onNavigationConsumed(request)
     }
     val runtimePreferences = remember { PreferenceManager(context.applicationContext) }
-    val runtimeOwner = (
-        runtimePreferences.inspectScheduledMonitorOwner() as? ScheduledOwnerReadResult.Available
-        )?.owner
-    val monitorActive = runtimePreferences.isMonitorActive()
     val monitorServiceRunning = MonitorService.isRunning
+    // 运行时归属/活跃状态只在服务启停或计划变更时变化；
+    // remember 避免每次重组都重复读取 SharedPreferences。
+    val runtimeOwner = remember(monitorServiceRunning, state.plans) {
+        (
+            runtimePreferences.inspectScheduledMonitorOwner() as? ScheduledOwnerReadResult.Available
+            )?.owner
+    }
+    val monitorActive = remember(monitorServiceRunning, state.plans) {
+        runtimePreferences.isMonitorActive()
+    }
     val hasEnabledTimedPlan = state.plans.any(SupervisionPlan::enabled)
     val exactAlarmRefreshBucket = now.epochSecond / 30L
     val exactAlarmReady = remember(globalPlans, exactAlarmRefreshBucket) {

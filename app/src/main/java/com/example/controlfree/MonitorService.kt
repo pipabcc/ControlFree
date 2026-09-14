@@ -1959,6 +1959,7 @@ class MonitorService : Service() {
 
         val nowElapsed = SystemClock.elapsedRealtime()
         val previousPhase = snapshot.phase
+        val wasHeld = knowledgeChallengeHoldSessionId != NO_LOCK_SESSION
         snapshot = cycle.reanchor(
             snapshot = snapshot,
             nowElapsedMillis = nowElapsed,
@@ -1970,7 +1971,11 @@ class MonitorService : Service() {
         } else {
             clearKnowledgeChallengeHold()
         }
-        persistSnapshot()
+        // 挑战保持期间该广播每 2 秒一次；心跳已在内存更新，只有保持状态切换
+        // 才值得做一次完整快照落盘，其余交给既有的 10 秒进度心跳。
+        if (shouldHold != wasHeld) {
+            persistSnapshot()
+        }
         publishCurrentState(previousPhase)
     }
 
@@ -4403,24 +4408,41 @@ class MonitorService : Service() {
         putExtra(EXTRA_LOCK_TASK_TITLE, currentLockTaskTitle())
     }
 
-    private fun updateNotification(text: String) {
-        getSystemService(NotificationManager::class.java)
-            .notify(NOTIFICATION_ID, buildNotification(text))
-    }
+    // 通知内容 PendingIntent 只需创建一次；重复创建是每秒一次的无谓 binder 调用。
+    private var cachedContentIntent: PendingIntent? = null
 
-    private fun buildNotification(text: String): Notification {
+    private fun contentPendingIntent(): PendingIntent {
+        cachedContentIntent?.let { return it }
         val pendingIntent = PendingIntent.getActivity(
             this,
             0,
             Intent(this, MainActivity::class.java),
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
+        cachedContentIntent = pendingIntent
+        return pendingIntent
+    }
+
+    private var lastNotificationKey: String? = null
+
+    private fun updateNotification(text: String) {
+        val isLocking = snapshot.phase == MonitorPhase.LOCK
+        val key = "${if (isLocking) "lock" else "usage"}|$text"
+        // 亮屏锁定时倒计时静止，通知文本每秒相同；跳过无变化的 notify，
+        // 省去一次 SystemUI binder 调用与跨进程渲染。
+        if (key == lastNotificationKey) return
+        lastNotificationKey = key
+        getSystemService(NotificationManager::class.java)
+            .notify(NOTIFICATION_ID, buildNotification(text))
+    }
+
+    private fun buildNotification(text: String): Notification {
         val isLocking = snapshot.phase == MonitorPhase.LOCK
         return NotificationCompat.Builder(this, MonitorNotificationChannels.SERVICE_CHANNEL_ID)
             .setContentTitle(if (isLocking) "强制锁定中" else "玩机监督进行中")
             .setContentText(text)
             .setSmallIcon(android.R.drawable.ic_lock_idle_lock)
-            .setContentIntent(pendingIntent)
+            .setContentIntent(contentPendingIntent())
             .setOngoing(true)
             .setOnlyAlertOnce(true)
             .setPriority(NotificationCompat.PRIORITY_LOW)
@@ -4430,17 +4452,11 @@ class MonitorService : Service() {
     }
 
     private fun buildStartingNotification(): Notification {
-        val pendingIntent = PendingIntent.getActivity(
-            this,
-            0,
-            Intent(this, MainActivity::class.java),
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-        )
         return NotificationCompat.Builder(this, MonitorNotificationChannels.SERVICE_CHANNEL_ID)
             .setContentTitle("正在启动玩机监督")
             .setContentText("正在初始化计时与锁定服务…")
             .setSmallIcon(android.R.drawable.ic_lock_idle_lock)
-            .setContentIntent(pendingIntent)
+            .setContentIntent(contentPendingIntent())
             .setOngoing(true)
             .setOnlyAlertOnce(true)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
@@ -4628,10 +4644,22 @@ class MonitorService : Service() {
         isInteractive = isInteractive
     )
 
-    private fun readBootCount(): Int = try {
-        Settings.Global.getInt(contentResolver, Settings.Global.BOOT_COUNT, UNKNOWN_BOOT_COUNT)
-    } catch (_: RuntimeException) {
-        UNKNOWN_BOOT_COUNT
+    // BOOT_COUNT 只在设备重启后变化，而重启必然终结本进程，
+    // 因此进程内缓存一次即可；避免秒级心跳每次都跨进程查询 SettingsProvider。
+    @Volatile
+    private var cachedBootCount: Int? = null
+
+    private fun readBootCount(): Int {
+        cachedBootCount?.let { return it }
+        val value = try {
+            Settings.Global.getInt(contentResolver, Settings.Global.BOOT_COUNT, UNKNOWN_BOOT_COUNT)
+        } catch (_: RuntimeException) {
+            UNKNOWN_BOOT_COUNT
+        }
+        if (value >= 0) {
+            cachedBootCount = value
+        }
+        return value
     }
 
     private fun publishTimerState(remainingSeconds: Int) {

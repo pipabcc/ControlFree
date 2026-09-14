@@ -952,7 +952,9 @@ class LockOverlayController internal constructor(
             background = null
         }
         state.petView = ImageButton(context).apply {
-            setImageDrawable(GrowingPlantDrawable(currentPetProfile.stage, showCircleBackground = false).apply { start() })
+            animateGrowingPlantWhenAttached(
+                GrowingPlantDrawable(currentPetProfile.stage, showCircleBackground = false)
+            )
             contentDescription = "触摸 AI 小芽"
             scaleType = ImageView.ScaleType.FIT_CENTER
             setPadding(0, 0, 0, 0)

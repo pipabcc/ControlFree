@@ -11,6 +11,7 @@ import com.example.controlfree.supervision.history.SupervisionHistoryEventRecord
 import com.example.controlfree.supervision.history.SupervisionHistoryEventType
 import com.example.controlfree.supervision.history.SupervisionRecoveryStatus
 import java.util.UUID
+import java.util.concurrent.atomic.AtomicBoolean
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
@@ -18,6 +19,9 @@ class SupervisionHistoryRepository private constructor(
     private val database: ControlFreeDatabase
 ) {
     private val dao = database.supervisionHistoryDao()
+
+    /** 每个进程生命周期内至多执行一次的保留期清理开关。 */
+    private val prunePending = AtomicBoolean(true)
 
     suspend fun startOrReplaceGlobal(
         descriptor: SupervisionSessionDescriptor,
@@ -113,7 +117,10 @@ class SupervisionHistoryRepository private constructor(
         occurredAtEpochMillis: Long,
         receivedAtEpochMillis: Long,
         recoveryExpected: Boolean
-    ): SupervisionHistoryEventRecord = database.withTransaction {
+    ): SupervisionHistoryEventRecord {
+        // 开机时顺带做一次保留期清理（每进程至多一次）。
+        pruneExpired(receivedAtEpochMillis)
+        return database.withTransaction {
         val safeReceived = receivedAtEpochMillis.coerceAtLeast(0L)
         val safeOccurred = occurredAtEpochMillis.coerceIn(0L, safeReceived)
         val bootInstanceKey = deviceBootInstanceKey(bootCount, safeOccurred)
@@ -158,6 +165,7 @@ class SupervisionHistoryRepository private constructor(
         )
         dao.insertEvent(entity)
         requireNotNull(dao.getEventByBootInstance(bootInstanceKey)).toDomain()
+        }
     }
 
     suspend fun markDeviceBootRecoveryStatus(
@@ -191,6 +199,16 @@ class SupervisionHistoryRepository private constructor(
         ).map(SupervisionSessionEntity::toDomain)
     }
 
+    /** 保留期清理：删除过期会话与事件；每个进程生命周期内至多执行一次。 */
+    suspend fun pruneExpired(nowEpochMillis: Long) {
+        if (!prunePending.getAndSet(false)) return
+        val cutoff = nowEpochMillis.coerceAtLeast(0L) - HISTORY_RETENTION_MILLIS
+        database.withTransaction {
+            dao.deleteSessionsBefore(cutoff)
+            dao.deleteEventsBefore(cutoff)
+        }
+    }
+
     private suspend fun insert(
         descriptor: SupervisionSessionDescriptor,
         nowEpochMillis: Long
@@ -214,6 +232,9 @@ class SupervisionHistoryRepository private constructor(
     }
 
     companion object {
+        /** 历史保留 90 天，防止监督会话/事件表无限增长。 */
+        private const val HISTORY_RETENTION_MILLIS = 90L * 24L * 60L * 60L * 1_000L
+
         @Volatile
         private var instance: SupervisionHistoryRepository? = null
 

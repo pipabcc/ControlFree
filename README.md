@@ -54,7 +54,7 @@ ControlFree 基于最新的现代 Android 技术栈与响应式界面开发，�
 
 ### 1. 克隆代码库
 ```bash
-git clone https://github.com/YourUsername/ControlFree.git
+git clone https://github.com/pipabcc/ControlFree.git
 cd ControlFree
 ```
 
@@ -73,7 +73,11 @@ cd ControlFree
 `app/build/outputs/apk/debug/app-debug.apk`
 
 > ⚠️ **关于密钥与签名：**
-> 本地 Debug 构建采用 Android 官方默认 Debug 签名。正式发布的 Release Keystore 及签名密码属于私密凭据，已在 `.gitignore` 中彻底排除，绝不可提交到公共代码库。
+> 本地 Debug 构建采用 Android 官方默认 Debug 签名。Release 构建默认生成未签名 APK；如需签名，请在本地创建未被 Git 跟踪的 `gradle-local.properties`，或设置 `CF_RELEASE_STORE_FILE`、`CF_RELEASE_STORE_PASSWORD`、`CF_RELEASE_KEY_ALIAS`、`CF_RELEASE_KEY_PASSWORD` 环境变量。正式发布签名材料属于私密凭据，绝不可提交到公共代码库。
+
+### DeepSeek API（可选）
+
+应用的 AI 督导功能需要用户自行提供 DeepSeek API Key。密钥只在设备端通过 Android KeyStore 加密保存，项目不会内置或上传任何密钥。未配置 API Key 时，其余本地功能仍可正常使用。
 
 ---
 

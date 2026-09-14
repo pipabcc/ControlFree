@@ -724,7 +724,6 @@ class SupervisionPlansViewModel : ViewModel() {
                         val hasGlobalPlans = result.plans.any { it.type == SupervisionPlanType.GLOBAL }
                         val prefs = PreferenceManager(requireNotNull(applicationContext))
                         if (!prefs.isDefaultPlansInitialized() && !hasGlobalPlans) {
-                            prefs.setDefaultPlansInitialized(true)
                             viewModelScope.launch(Dispatchers.IO) {
                                 try {
                                     val morningPlan = SupervisionPlan(
@@ -757,6 +756,8 @@ class SupervisionPlansViewModel : ViewModel() {
                                     )
                                     repository.save(morningPlan, null)
                                     repository.save(allDayPlan, null)
+                                    // 保存成功后才置位，失败时下次发射会自动重试。
+                                    prefs.setDefaultPlansInitialized(true)
                                 } catch (e: Exception) {
                                     e.printStackTrace()
                                 }
@@ -765,7 +766,6 @@ class SupervisionPlansViewModel : ViewModel() {
 
                         val hasFocusPlans = result.plans.any { it.type == SupervisionPlanType.FOCUS }
                         if (!prefs.isDefaultFocusPlansInitialized() && !hasFocusPlans) {
-                            prefs.setDefaultFocusPlansInitialized(true)
                             viewModelScope.launch(Dispatchers.IO) {
                                 try {
                                     val nightFocusPlan = SupervisionPlan(
@@ -783,6 +783,8 @@ class SupervisionPlansViewModel : ViewModel() {
                                         updatedAtEpochMillis = System.currentTimeMillis()
                                     )
                                     repository.save(nightFocusPlan, null)
+                                    // 保存成功后才置位，失败时下次发射会自动重试。
+                                    prefs.setDefaultFocusPlansInitialized(true)
                                 } catch (e: Exception) {
                                     e.printStackTrace()
                                 }

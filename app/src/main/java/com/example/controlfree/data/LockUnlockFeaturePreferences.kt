@@ -15,9 +15,9 @@ class LockUnlockFeaturePreferences internal constructor(
     var growthUnlockEnabled: Boolean
         get() = preferences.getBoolean(GROWTH_UNLOCK_ENABLED, DEFAULT_GROWTH_UNLOCK_ENABLED)
         set(value) {
-            check(preferences.edit().putBoolean(GROWTH_UNLOCK_ENABLED, value).commit()) {
-                "成长值解锁开关保存失败"
-            }
+            // 设置开关用 apply() 异步落盘，避免 UI 线程同步 fsync；save 失败会抛异常，
+            // 在点击处理器里直接崩溃，收益为零。
+            preferences.edit().putBoolean(GROWTH_UNLOCK_ENABLED, value).apply()
         }
 
     var knowledgeChallengeEnabled: Boolean
@@ -26,9 +26,7 @@ class LockUnlockFeaturePreferences internal constructor(
             DEFAULT_KNOWLEDGE_CHALLENGE_ENABLED
         )
         set(value) {
-            check(preferences.edit().putBoolean(KNOWLEDGE_CHALLENGE_ENABLED, value).commit()) {
-                "百科挑战解锁开关保存失败"
-            }
+            preferences.edit().putBoolean(KNOWLEDGE_CHALLENGE_ENABLED, value).apply()
         }
 
     var requireAuthForGrowthUnlock: Boolean
@@ -37,9 +35,7 @@ class LockUnlockFeaturePreferences internal constructor(
             DEFAULT_REQUIRE_AUTH
         )
         set(value) {
-            check(preferences.edit().putBoolean(REQUIRE_AUTH_FOR_GROWTH_UNLOCK, value).commit()) {
-                "成长值解锁验证开关保存失败"
-            }
+            preferences.edit().putBoolean(REQUIRE_AUTH_FOR_GROWTH_UNLOCK, value).apply()
         }
 
     var requireAuthForKnowledgeChallenge: Boolean
@@ -48,9 +44,7 @@ class LockUnlockFeaturePreferences internal constructor(
             DEFAULT_REQUIRE_AUTH
         )
         set(value) {
-            check(preferences.edit().putBoolean(REQUIRE_AUTH_FOR_KNOWLEDGE_CHALLENGE, value).commit()) {
-                "百科挑战验证开关保存失败"
-            }
+            preferences.edit().putBoolean(REQUIRE_AUTH_FOR_KNOWLEDGE_CHALLENGE, value).apply()
         }
 
     companion object {

@@ -151,8 +151,10 @@ class TodoListViewModel(application: Application) : AndroidViewModel(application
     fun saveTodo(draft: TodoEditorDraft) {
         viewModelScope.launch {
             val now = System.currentTimeMillis()
-            val existing = draft.id?.let { id -> todos.value.firstOrNull { it.id == id } }
-            val id = existing?.id ?: UUID.randomUUID().toString()
+            // 从数据库精确查询而不是内存列表：列表 Flow 初值为空，
+            // 在首次发射前保存会把编辑误判为新建并生成新 id。
+            val existing = draft.id?.let { id -> repository.getTodoById(id) }
+            val id = draft.id ?: existing?.id ?: UUID.randomUUID().toString()
             val manuallyUrgent = draft.urgencyMode == TodoUrgencyMode.URGENT
             val legacyPriority = when {
                 draft.isImportant && manuallyUrgent -> 3

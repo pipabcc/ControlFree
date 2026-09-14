@@ -2089,10 +2089,9 @@ private fun LockCompanionDock(
             val closeTranslationX = if (isTooClose) (-20f).dp else 0.dp
             val closeRotation = if (isTooClose) -10f else 0f
 
-            val plantDrawable = remember(petProfile.stage) {
-                GrowingPlantDrawable(petProfile.stage, showCircleBackground = false).apply { start() }
-            }
-            androidx.compose.foundation.Canvas(
+            com.example.controlfree.ui.common.GrowingPlantCanvas(
+                stage = petProfile.stage,
+                showCircleBackground = false,
                 modifier = Modifier
                     .size(petSize.coerceAtLeast(48.dp))
                     .offset(x = petRelaxOffsetX.value.dp, y = petRelaxOffsetY.value.dp)
@@ -2102,10 +2101,7 @@ private fun LockCompanionDock(
                         scaleX = idleScale * petScale.value * closeScale
                         scaleY = idleScale * petScale.value * closeScale
                     }
-            ) {
-                plantDrawable.setBounds(0, 0, size.width.toInt(), size.height.toInt())
-                plantDrawable.draw(drawContext.canvas.nativeCanvas)
-            }
+            )
         }
 
         // 3. 时间按钮、调整按钮（位于宠物下方）

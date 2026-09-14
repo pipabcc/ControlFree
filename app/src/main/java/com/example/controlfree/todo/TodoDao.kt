@@ -194,6 +194,16 @@ interface HabitDao {
     @Query("SELECT * FROM habit_records WHERE habit_id = :habitId AND completed_date = :completedDate LIMIT 1")
     suspend fun getRecordByDate(habitId: String, completedDate: String): HabitRecordEntity?
 
+    @Query(
+        "SELECT * FROM habit_records WHERE habit_id = :habitId AND completed_date >= :startDate AND completed_date <= :endDate " +
+            "ORDER BY completed_date"
+    )
+    suspend fun getRecordsBetween(
+        habitId: String,
+        startDate: String,
+        endDate: String
+    ): List<HabitRecordEntity>
+
     @Query("DELETE FROM habit_records WHERE habit_id = :habitId AND completed_date = :completedDate")
     suspend fun deleteRecord(habitId: String, completedDate: String): Int
 

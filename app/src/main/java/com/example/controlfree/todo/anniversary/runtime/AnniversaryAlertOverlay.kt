@@ -17,6 +17,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.app.NotificationManagerCompat
 import com.example.controlfree.R
+import com.example.controlfree.animateGrowingPlantWhenAttached
 import com.example.controlfree.theme.BrandColorInts
 import com.example.controlfree.todo.TodoRepository
 import kotlinx.coroutines.CoroutineScope
@@ -153,7 +154,9 @@ object AnniversaryAlertOverlay {
         )
         card.addView(
             ImageView(context).apply {
-                setImageDrawable(com.example.controlfree.GrowingPlantDrawable(com.example.controlfree.growth.GrowthStage.SEEDLING).apply { start() })
+                animateGrowingPlantWhenAttached(
+                    com.example.controlfree.GrowingPlantDrawable(com.example.controlfree.growth.GrowthStage.SEEDLING)
+                )
                 importantForAccessibility = View.IMPORTANT_FOR_ACCESSIBILITY_NO
                 background = GradientDrawable().apply {
                     shape = GradientDrawable.OVAL

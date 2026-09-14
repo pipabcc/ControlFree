@@ -107,4 +107,16 @@ interface SupervisionHistoryDao {
         endExclusiveEpochMillis: Long,
         activeEndEpochMillis: Long
     ): List<SupervisionSessionEntity>
+
+    /** 保留期清理：只删除已结束（runtime_slot 为空）的过期会话。 */
+    @Query(
+        "DELETE FROM supervision_sessions " +
+            "WHERE runtime_slot IS NULL AND started_at_epoch_millis < :cutoffEpochMillis"
+    )
+    suspend fun deleteSessionsBefore(cutoffEpochMillis: Long): Int
+
+    @Query(
+        "DELETE FROM supervision_history_events WHERE occurred_at_epoch_millis < :cutoffEpochMillis"
+    )
+    suspend fun deleteEventsBefore(cutoffEpochMillis: Long): Int
 }

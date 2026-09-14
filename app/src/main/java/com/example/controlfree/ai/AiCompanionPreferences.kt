@@ -17,8 +17,10 @@ internal class AiCompanionPreferences internal constructor(
         true
     }
 
+    // 以下 setter 均为设置页开关，用 apply() 异步落盘避免 UI 线程同步 fsync。
     fun setCompanionEnabled(enabled: Boolean): Boolean = try {
-        preferences.edit().putBoolean(KEY_COMPANION_ENABLED, enabled).commit()
+        preferences.edit().putBoolean(KEY_COMPANION_ENABLED, enabled).apply()
+        true
     } catch (_: RuntimeException) {
         false
     }
@@ -30,7 +32,8 @@ internal class AiCompanionPreferences internal constructor(
     }
 
     fun setLockChatEnabled(enabled: Boolean): Boolean = try {
-        preferences.edit().putBoolean(KEY_LOCK_CHAT_ENABLED, enabled).commit()
+        preferences.edit().putBoolean(KEY_LOCK_CHAT_ENABLED, enabled).apply()
+        true
     } catch (_: RuntimeException) {
         false
     }
@@ -43,7 +46,8 @@ internal class AiCompanionPreferences internal constructor(
     }
 
     fun setPetPersonality(personality: AiPersonality): Boolean = try {
-        preferences.edit().putString(KEY_PET_PERSONALITY, personality.key).commit()
+        preferences.edit().putString(KEY_PET_PERSONALITY, personality.key).apply()
+        true
     } catch (_: RuntimeException) {
         false
     }

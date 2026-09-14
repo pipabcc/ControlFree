@@ -93,12 +93,19 @@ class MonitorSnapshotPersistenceWorker(
             val mergedAppliedOrderIds =
                 previous?.request?.appliedGrowthOrderIds.orEmpty() +
                     request.appliedGrowthOrderIds
-            if (mergedAppliedOrderIds.size > 64) return false
+            // order ID 集合异常膨胀时截断保留最近的部分继续落盘，
+            // 绝不因防御上限丢弃整份快照（否则恢复时会按旧进度重锁）。
+            val boundedAppliedOrderIds =
+                if (mergedAppliedOrderIds.size > MAX_MERGED_APPLIED_ORDER_IDS) {
+                    mergedAppliedOrderIds.toList().takeLast(MAX_MERGED_APPLIED_ORDER_IDS).toSet()
+                } else {
+                    mergedAppliedOrderIds
+                }
             val mergedRequest = if (previous == null) {
                 request
             } else {
                 request.copy(
-                    appliedGrowthOrderIds = mergedAppliedOrderIds
+                    appliedGrowthOrderIds = boundedAppliedOrderIds
                 )
             }
             pendingRequest = PersistRequest(mergedRequest, callbacks)
@@ -240,6 +247,8 @@ class MonitorSnapshotPersistenceWorker(
     }
 
     private companion object {
+        private const val MAX_MERGED_APPLIED_ORDER_IDS = 64
+
         fun createIoExecutor(): ExecutorService = Executors.newSingleThreadExecutor(
             ThreadFactory { task ->
                 Thread(task, "controlfree-monitor-persistence").apply { isDaemon = true }

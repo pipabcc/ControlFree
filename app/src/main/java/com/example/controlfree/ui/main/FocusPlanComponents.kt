@@ -132,8 +132,10 @@ internal fun FocusPlansSection(
         }
     }
     LaunchedEffect(Unit) {
+        // 本区块的时钟只用于分钟级语义（时间窗判断、精确闹钟刷新桶），
+        // 30 秒 tick 足够，避免整段计划列表每秒重组。
         while (true) {
-            delay(1_000L)
+            delay(30_000L)
             now = Instant.now()
         }
     }
@@ -153,12 +155,20 @@ internal fun FocusPlansSection(
         onNavigationConsumed(request)
     }
     val runtimePreferences = remember { PreferenceManager(context.applicationContext) }
-    val runtimeOwner = (
-        runtimePreferences.inspectScheduledMonitorOwner() as? ScheduledOwnerReadResult.Available
-        )?.owner
-    val monitorActive = runtimePreferences.isMonitorActive()
     val monitorServiceRunning = MonitorService.isRunning
-    val activeSessionMode = runtimePreferences.getMonitorSessionMode()
+    // 运行时归属/活跃状态只在服务启停或计划变更时变化；
+    // remember 避免每次重组都重复读取 SharedPreferences。
+    val runtimeOwner = remember(monitorServiceRunning, state.plans) {
+        (
+            runtimePreferences.inspectScheduledMonitorOwner() as? ScheduledOwnerReadResult.Available
+            )?.owner
+    }
+    val monitorActive = remember(monitorServiceRunning, state.plans) {
+        runtimePreferences.isMonitorActive()
+    }
+    val activeSessionMode = remember(monitorServiceRunning, state.plans) {
+        runtimePreferences.getMonitorSessionMode()
+    }
     val hasEnabledFocusPlan = focusPlans.any { plan ->
         plan.enabled || plan.scheduledEnableAtEpochMillis != null
     }

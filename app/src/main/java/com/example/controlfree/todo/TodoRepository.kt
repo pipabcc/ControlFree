@@ -247,60 +247,68 @@ class TodoRepository private constructor(
 
     suspend fun getTodoById(id: String): TodoItemEntity? = todoDao.getById(id)
 
-    suspend fun saveTodo(todo: TodoItemEntity): TodoItemEntity = database.withTransaction {
-        val now = nowEpochMillis()
-        val existing = todoDao.getById(todo.id)
-        val reconciled = reconcileOneTimeFocusAssociation(
-            existing = existing,
-            candidate = normalizeTodo(todo, now),
-            nowEpochMillis = now
-        )
-        val normalized = ensureTodoVersion(existing, reconciled, now)
-        todoDao.upsertTodo(normalized)
+    suspend fun saveTodo(todo: TodoItemEntity): TodoItemEntity {
+        // 提醒排程必须在事务提交之后执行：事务回滚无法撤销已发出的系统闹钟。
+        val normalized = database.withTransaction {
+            val now = nowEpochMillis()
+            val existing = todoDao.getById(todo.id)
+            val reconciled = reconcileOneTimeFocusAssociation(
+                existing = existing,
+                candidate = normalizeTodo(todo, now),
+                nowEpochMillis = now
+            )
+            val normalized = ensureTodoVersion(existing, reconciled, now)
+            todoDao.upsertTodo(normalized)
+            normalized
+        }
         reminderScheduler?.scheduleTodoReminders(normalized)
-        normalized
+        return normalized
     }
 
     suspend fun saveTodoWithCommitment(
         todo: TodoItemEntity,
         commitment: CommitmentPolicyInput,
         subtasks: List<TodoSubtaskEntity>? = null
-    ): TodoItemEntity = database.withTransaction {
+    ): TodoItemEntity {
         require(!commitment.enabled || todo.dueDateEpochMillis != null) {
             "启用防拖延监督前必须设置待办截止时间"
         }
         require(commitment.localDeadlineMinute == null) { "待办策略不得设置每日截止分钟" }
-        val now = nowEpochMillis()
-        val existing = todoDao.getById(todo.id)
-        val reconciled = reconcileOneTimeFocusAssociation(
-            existing = existing,
-            candidate = normalizeTodo(
-                todo.copy(supervisionLockEnabled = commitment.enabled),
-                now
-            ),
-            nowEpochMillis = now
-        )
-        val normalized = ensureTodoVersion(existing, reconciled, now)
-        todoDao.upsertTodo(normalized)
-        replaceCommitmentPolicy(
-            sourceType = CommitmentSourceType.TODO,
-            sourceId = normalized.id,
-            input = commitment,
-            nowEpochMillis = now
-        )?.let { policy ->
-            CommitmentOccurrenceFactory.forTodo(policy, normalized, now)?.let {
-                upsertCommitmentOccurrence(it)
-            }
-        }
-        reminderScheduler?.scheduleTodoReminders(normalized)
-        subtasks?.let { desiredSubtasks ->
-            replaceTodoSubtasks(
-                todoId = normalized.id,
-                desiredSubtasks = desiredSubtasks,
+        val normalized = database.withTransaction {
+            val now = nowEpochMillis()
+            val existing = todoDao.getById(todo.id)
+            val reconciled = reconcileOneTimeFocusAssociation(
+                existing = existing,
+                candidate = normalizeTodo(
+                    todo.copy(supervisionLockEnabled = commitment.enabled),
+                    now
+                ),
                 nowEpochMillis = now
             )
+            val normalized = ensureTodoVersion(existing, reconciled, now)
+            todoDao.upsertTodo(normalized)
+            replaceCommitmentPolicy(
+                sourceType = CommitmentSourceType.TODO,
+                sourceId = normalized.id,
+                input = commitment,
+                nowEpochMillis = now
+            )?.let { policy ->
+                CommitmentOccurrenceFactory.forTodo(policy, normalized, now)?.let {
+                    upsertCommitmentOccurrence(it)
+                }
+            }
+            subtasks?.let { desiredSubtasks ->
+                replaceTodoSubtasks(
+                    todoId = normalized.id,
+                    desiredSubtasks = desiredSubtasks,
+                    nowEpochMillis = now
+                )
+            }
+            normalized
         }
-        normalized
+        // 事务提交后再排程提醒，回滚时不会遗留已发出的闹钟。
+        reminderScheduler?.scheduleTodoReminders(normalized)
+        return normalized
     }
 
     private suspend fun replaceTodoSubtasks(
@@ -348,22 +356,31 @@ class TodoRepository private constructor(
         }
     }
 
-    suspend fun deleteTodo(id: String) = database.withTransaction {
-        todoDao.getById(id)?.let { todo ->
-            deleteAssociatedOneTimeFocusPlan(todo, nowEpochMillis())
-            reminderScheduler?.cancelTodoReminders(todo.id, todo.remindersJson.toItemReminders().map { it.minutesBefore })
+    suspend fun deleteTodo(id: String): Int {
+        var cancelledReminders: Pair<String, List<Int>>? = null
+        val deleted = database.withTransaction {
+            todoDao.getById(id)?.let { todo ->
+                deleteAssociatedOneTimeFocusPlan(todo, nowEpochMillis())
+                cancelledReminders =
+                    todo.id to todo.remindersJson.toItemReminders().map { it.minutesBefore }
+            }
+            todoDao.deleteSubtasksForTodo(id)
+            commitmentDao.getPolicyBySource(CommitmentSourceType.TODO.storedValue, id)?.let { policy ->
+                commitmentDao.satisfyOpenOccurrencesForPolicy(policy.id, nowEpochMillis())
+                commitmentDao.deleteBlockedApps(policy.id)
+                commitmentDao.deletePolicy(policy.id)
+            }
+            todoDao.delete(id)
         }
-        todoDao.deleteSubtasksForTodo(id)
-        commitmentDao.getPolicyBySource(CommitmentSourceType.TODO.storedValue, id)?.let { policy ->
-            commitmentDao.satisfyOpenOccurrencesForPolicy(policy.id, nowEpochMillis())
-            commitmentDao.deleteBlockedApps(policy.id)
-            commitmentDao.deletePolicy(policy.id)
+        cancelledReminders?.let { (todoId, minutesBefore) ->
+            reminderScheduler?.cancelTodoReminders(todoId, minutesBefore)
         }
-        todoDao.delete(id)
+        return deleted
     }
 
-    suspend fun deleteTodoForUndo(id: String): TodoDeletionSnapshot? =
-        database.withTransaction {
+    suspend fun deleteTodoForUndo(id: String): TodoDeletionSnapshot? {
+        var cancelledReminders: Pair<String, List<Int>>? = null
+        val snapshot = database.withTransaction {
             val todo = todoDao.getById(id) ?: return@withTransaction null
             val subtasks = todoDao.getSubtasks(id)
             val commitmentPolicy = commitmentDao.getPolicyWithAppsBySource(
@@ -386,10 +403,8 @@ class TodoRepository private constructor(
                 deletedAtEpochMillis = deletedAt
             )
 
-            reminderScheduler?.cancelTodoReminders(
-                todo.id,
-                todo.remindersJson.toItemReminders().map { it.minutesBefore }
-            )
+            cancelledReminders =
+                todo.id to todo.remindersJson.toItemReminders().map { it.minutesBefore }
             oneTimeFocusPlan?.let {
                 deleteOneTimeFocusPlanAndClearAssociations(it.plan.planId, deletedAt)
             }
@@ -404,6 +419,12 @@ class TodoRepository private constructor(
             check(todoDao.delete(id) == 1) { "待办删除失败" }
             snapshot
         }
+        // 仅在事务成功提交后取消闹钟：回滚时保留原提醒。
+        cancelledReminders?.let { (todoId, minutesBefore) ->
+            reminderScheduler?.cancelTodoReminders(todoId, minutesBefore)
+        }
+        return snapshot
+    }
 
     suspend fun restoreDeletedTodo(snapshot: TodoDeletionSnapshot): Boolean {
         val restored = restoreWithoutOverwrite {
@@ -439,7 +460,10 @@ class TodoRepository private constructor(
         id: String,
         isCompleted: Boolean,
         completedAtEpochMillis: Long = nowEpochMillis()
-    ): TodoCompletionResult? = database.withTransaction {
+    ): TodoCompletionResult? {
+        // 事务内只登记提醒动作，提交后再执行，避免回滚后闹钟状态与数据库不一致。
+        var reminderAction: (() -> Unit)? = null
+        val result = database.withTransaction {
         val current = todoDao.getById(id) ?: return@withTransaction null
         if (current.isCompleted == isCompleted) {
             val next = recurringSuccessor(current)
@@ -466,10 +490,15 @@ class TodoRepository private constructor(
             updated.id
         )
         todoDao.upsertTodo(updated)
-        if (isCompleted) {
-            reminderScheduler?.cancelTodoReminders(updated.id, updated.remindersJson.toItemReminders().map { it.minutesBefore })
+        reminderAction = if (isCompleted) {
+            {
+                reminderScheduler?.cancelTodoReminders(
+                    updated.id,
+                    updated.remindersJson.toItemReminders().map { it.minutesBefore }
+                )
+            }
         } else {
-            reminderScheduler?.scheduleTodoReminders(updated)
+            { reminderScheduler?.scheduleTodoReminders(updated) }
         }
         if (!isCompleted) {
             commitmentDao.getPolicyBySource(
@@ -547,6 +576,9 @@ class TodoRepository private constructor(
             }
         }
         TodoCompletionResult(updated, todoDao.getById(candidate.id))
+        }
+        reminderAction?.invoke()
+        return result
     }
 
     fun observeAllSubtasks(): Flow<List<TodoSubtaskEntity>> = todoDao.observeAllSubtasks()
@@ -626,27 +658,31 @@ class TodoRepository private constructor(
     suspend fun saveHabitWithCommitment(
         habit: HabitItemEntity,
         commitment: CommitmentPolicyInput
-    ): HabitItemEntity = database.withTransaction {
+    ): HabitItemEntity {
         require(!commitment.enabled || commitment.localDeadlineMinute != null) {
             "启用防拖延监督前必须设置习惯截止时间"
         }
-        val now = nowEpochMillis()
-        val normalized = normalizeHabit(habit, now, clock.zone)
-        habitDao.upsertHabit(normalized)
-        replaceCommitmentPolicy(
-            sourceType = CommitmentSourceType.HABIT,
-            sourceId = normalized.id,
-            input = commitment,
-            nowEpochMillis = now
-        )?.let { policy ->
-            val today = Instant.ofEpochMilli(now).atZone(ZoneId.of(policy.zoneId)).toLocalDate()
-            val record = habitDao.getRecordByDate(normalized.id, today.toString())
-            CommitmentOccurrenceFactory.forHabit(policy, normalized, today, record, now)?.let {
-                upsertCommitmentOccurrence(it)
+        val normalized = database.withTransaction {
+            val now = nowEpochMillis()
+            val normalized = normalizeHabit(habit, now, clock.zone)
+            habitDao.upsertHabit(normalized)
+            replaceCommitmentPolicy(
+                sourceType = CommitmentSourceType.HABIT,
+                sourceId = normalized.id,
+                input = commitment,
+                nowEpochMillis = now
+            )?.let { policy ->
+                val today = Instant.ofEpochMilli(now).atZone(ZoneId.of(policy.zoneId)).toLocalDate()
+                val record = habitDao.getRecordByDate(normalized.id, today.toString())
+                CommitmentOccurrenceFactory.forHabit(policy, normalized, today, record, now)?.let {
+                    upsertCommitmentOccurrence(it)
+                }
             }
+            normalized
         }
+        // 事务提交后再排程提醒，回滚时不会遗留已发出的闹钟。
         reminderScheduler?.scheduleHabitReminders(normalized)
-        normalized
+        return normalized
     }
 
     suspend fun updateHabit(habit: HabitItemEntity): HabitItemEntity = saveHabit(habit)
@@ -655,18 +691,23 @@ class TodoRepository private constructor(
         id: String,
         isArchived: Boolean,
         nowEpochMillis: Long = nowEpochMillis()
-    ): Boolean = database.withTransaction {
-        val success = habitDao.setArchived(id, isArchived, nowEpochMillis) > 0
-        if (success) {
-            habitDao.getById(id)?.let { habit ->
-                if (isArchived) {
-                    reminderScheduler?.cancelAllHabitAlarms(habit)
-                } else {
-                    reminderScheduler?.scheduleHabitReminders(habit)
+    ): Boolean {
+        var reminderAction: (() -> Unit)? = null
+        val success = database.withTransaction {
+            val ok = habitDao.setArchived(id, isArchived, nowEpochMillis) > 0
+            if (ok) {
+                habitDao.getById(id)?.let { habit ->
+                    reminderAction = if (isArchived) {
+                        { reminderScheduler?.cancelAllHabitAlarms(habit) }
+                    } else {
+                        { reminderScheduler?.scheduleHabitReminders(habit) }
+                    }
                 }
             }
+            ok
         }
-        success
+        reminderAction?.invoke()
+        return success
     }
 
     fun observeHabitRecords(habitId: String): Flow<List<HabitRecordEntity>> =
@@ -696,7 +737,9 @@ class TodoRepository private constructor(
         note: String? = null,
         isBackfill: Boolean = false,
         nowEpochMillis: Long = nowEpochMillis()
-    ): HabitCheckInResult? = database.withTransaction {
+    ): HabitCheckInResult? {
+        var reminderAction: (() -> Unit)? = null
+        val result = database.withTransaction {
         val habit = habitDao.getById(habitId) ?: return@withTransaction null
         val date = requireDate(dateStr)
         val today = Instant.ofEpochMilli(nowEpochMillis).atZone(clock.zone).toLocalDate()
@@ -747,15 +790,20 @@ class TodoRepository private constructor(
             }
         }
         val completed = newCount >= target
-        reminderScheduler?.scheduleHabitReminders(habit, hasCompletedToday = completed)
+        reminderAction = { reminderScheduler?.scheduleHabitReminders(habit, hasCompletedToday = completed) }
         HabitCheckInResult(record, targetReachedNow, completed, unlockedTiers)
+        }
+        reminderAction?.invoke()
+        return result
     }
 
     suspend fun decrementHabitCheckIn(
         habitId: String,
         dateStr: String,
         nowEpochMillis: Long = nowEpochMillis()
-    ): HabitRecordEntity? = database.withTransaction {
+    ): HabitRecordEntity? {
+        var reminderAction: (() -> Unit)? = null
+        val result = database.withTransaction {
         val habit = habitDao.getById(habitId) ?: return@withTransaction null
         val date = requireDate(dateStr)
         val existing = habitDao.getRecordByDate(habitId, date.toString())
@@ -797,9 +845,12 @@ class TodoRepository private constructor(
             }
         }
         if (!isTargetReached) {
-            reminderScheduler?.scheduleHabitReminders(habit, hasCompletedToday = false)
+            reminderAction = { reminderScheduler?.scheduleHabitReminders(habit, hasCompletedToday = false) }
         }
         updated
+        }
+        reminderAction?.invoke()
+        return result
     }
 
     suspend fun undoCheckInHabit(habitId: String, dateStr: String) {
@@ -840,16 +891,21 @@ class TodoRepository private constructor(
 
     suspend fun deleteAnniversary(id: String): Boolean = deleteAnniversaryForUndo(id) != null
 
-    suspend fun deleteAnniversaryForUndo(id: String): AnniversaryDeletionSnapshot? =
-        database.withTransaction {
+    suspend fun deleteAnniversaryForUndo(id: String): AnniversaryDeletionSnapshot? {
+        var cancelledReminders: Pair<String, List<Int>>? = null
+        val snapshot = database.withTransaction {
             val anniversary = anniversaryDao.getById(id) ?: return@withTransaction null
-            reminderScheduler?.cancelAnniversaryReminders(
-                anniversary.id,
-                anniversary.remindersJson.toItemReminders().map { it.minutesBefore }
-            )
+            cancelledReminders =
+                anniversary.id to anniversary.remindersJson.toItemReminders().map { it.minutesBefore }
             check(anniversaryDao.delete(id) == 1) { "时刻删除失败" }
             AnniversaryDeletionSnapshot(anniversary)
         }
+        // 仅在事务成功提交后取消闹钟：回滚时保留原提醒。
+        cancelledReminders?.let { (anniversaryId, minutesBefore) ->
+            reminderScheduler?.cancelAnniversaryReminders(anniversaryId, minutesBefore)
+        }
+        return snapshot
+    }
 
     suspend fun restoreDeletedAnniversary(snapshot: AnniversaryDeletionSnapshot): Boolean {
         val restored = restoreWithoutOverwrite {
@@ -1425,9 +1481,17 @@ class TodoRepository private constructor(
                     val firstDate = maxOf(policyStart, habitStart)
                     val lookbackDays = ChronoUnit.DAYS.between(firstDate, today)
                         .coerceIn(0L, MAX_COMMITMENT_RECONCILIATION_DAYS)
+                    // 一条范围查询替代最多 3650 次逐日 SELECT，缩短写事务持锁时间
+                    val recordsByDate = habitDao
+                        .getRecordsBetween(
+                            habitId = habit.id,
+                            startDate = today.minusDays(lookbackDays).toString(),
+                            endDate = today.toString()
+                        )
+                        .associateBy(HabitRecordEntity::completedDate)
                     for (offset in lookbackDays downTo 0L) {
                         val date = today.minusDays(offset)
-                        val record = habitDao.getRecordByDate(habit.id, date.toString())
+                        val record = recordsByDate[date.toString()]
                         val candidate = CommitmentOccurrenceFactory.forHabit(
                             policy,
                             habit,
