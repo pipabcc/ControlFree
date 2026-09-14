@@ -19,7 +19,7 @@
 ./gradlew --write-verification-metadata sha256 :app:assembleRelease :app:cyclonedxDirectBom
 ```
 
-必须提交并人工审核 `app/gradle.lockfile`、`settings-gradle.lockfile`、`gradle/verification-metadata.xml`，以及未来新增模块产生的锁文件。校验摘要缺失或不匹配时，`org.gradle.dependency.verification=strict` 会让构建立即失败；禁止用 `--dependency-verification=off` 绕过 CI。
+必须提交并人工审核 `app/gradle.lockfile`、`settings-gradle.lockfile`、`gradle/verification-metadata.xml`，以及未来新增模块产生的锁文件。已记录摘要不匹配时构建会失败；插件解析过程中缺失的传递 POM 摘要采用宽松处理。禁止用 `--dependency-verification=off` 绕过 CI。
 
 SBOM 默认只分析 `releaseRuntimeClasspath`，输出到 `app/build/reports/cyclonedx-direct/`。升级 CycloneDX 插件本身也必须更新版本目录和校验元数据。
 
