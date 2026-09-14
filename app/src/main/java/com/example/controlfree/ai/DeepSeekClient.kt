@@ -138,7 +138,7 @@ internal object DeepSeekResponseContentSanitizer {
                     else -> append(character)
                 }
             }
-        }.trim()
+        }.replace(Regex("\\s+"), " ").trim()
         if (withoutControls.codePointCount(0, withoutControls.length) <= MAX_CONTENT_CODE_POINTS) {
             return withoutControls
         }
@@ -162,7 +162,7 @@ internal object AiAdviceTextSanitizer {
             }
         }
         val plainText = withoutControls
-            .replace("```", "")
+            .replace(Regex("```[A-Za-z0-9_+-]*"), "")
             .replace(Regex("\\s+"), " ")
             .trim()
         if (plainText.codePointCount(0, plainText.length) <= MAX_ADVICE_CODE_POINTS) {
