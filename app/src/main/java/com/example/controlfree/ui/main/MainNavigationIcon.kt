@@ -44,7 +44,7 @@ internal fun MainNavigationIcon(
     modifier: Modifier = Modifier
 ) {
     val color = LocalContentColor.current
-    Canvas(modifier = modifier.size(26.dp)) {
+    Canvas(modifier = modifier.size(22.dp)) {
         val strokeWidth = 1.3.dp.toPx()
         val stroke = Stroke(
             width = strokeWidth,

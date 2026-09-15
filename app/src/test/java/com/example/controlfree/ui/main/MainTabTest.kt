@@ -15,8 +15,8 @@ class MainTabTest {
         )
         assertEquals(MainTab.MONITOR, MainTab.entries.first())
         assertEquals(MainTab.TODO, MainTab.entries[MainTab.entries.size / 2])
-        assertEquals(64, MAIN_BOTTOM_BAR_MIN_HEIGHT_DP)
-        assertEquals(4, MAIN_BOTTOM_BAR_CONTENT_OFFSET_DP)
+        assertEquals(50, MAIN_BOTTOM_BAR_MIN_HEIGHT_DP)
+        assertEquals(0, MAIN_BOTTOM_BAR_CONTENT_OFFSET_DP)
     }
 
     @Test

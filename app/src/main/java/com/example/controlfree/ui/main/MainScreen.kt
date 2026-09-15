@@ -166,8 +166,8 @@ import java.util.concurrent.TimeUnit
 
 private const val MAX_RECOVERY_START_ATTEMPTS = 3
 private const val ANDROID_14_API_LEVEL = 34
-internal const val MAIN_BOTTOM_BAR_MIN_HEIGHT_DP = 64
-internal const val MAIN_BOTTOM_BAR_CONTENT_OFFSET_DP = 4
+internal const val MAIN_BOTTOM_BAR_MIN_HEIGHT_DP = 50
+internal const val MAIN_BOTTOM_BAR_CONTENT_OFFSET_DP = 0
 
 internal fun shouldShowMainBottomBar(
     useNavigationRail: Boolean,
@@ -1814,11 +1814,12 @@ private fun MainBottomBar(
                         ) {
                             MainTabIcon(tab)
                         }
-                        Spacer(Modifier.height(2.dp))
+                        Spacer(Modifier.height(1.dp))
                         Text(
                             tab.displayName,
                             color = color,
                             fontSize = 11.sp,
+                            lineHeight = 12.sp,
                             fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal
                         )
                     }
