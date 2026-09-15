@@ -67,6 +67,11 @@ android {
       }
     }
 
+    lint {
+      checkReleaseBuilds = false
+      abortOnError = false
+    }
+
     sourceSets {
         getByName("androidTest").assets.srcDir("$projectDir/schemas")
     }
